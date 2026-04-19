@@ -1,0 +1,5 @@
+/index.json
+/dist/
+/.idea/
+/.vscode/
+*.test
