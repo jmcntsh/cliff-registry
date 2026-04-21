@@ -25,8 +25,14 @@ type Manifest struct {
 	License     string   `toml:"license,omitempty"`
 	Category    string   `toml:"category,omitempty"`
 	Language    string   `toml:"language,omitempty"`
+	// Binary overrides the installed executable name when it doesn't
+	// match the repo basename (e.g. cli/cli → gh). Optional; the client
+	// falls back to repo basename when empty.
+	Binary string `toml:"binary,omitempty"`
 
-	Install Install `toml:"install"`
+	Install   Install    `toml:"install"`
+	Uninstall *BareBlock `toml:"uninstall,omitempty"`
+	Upgrade   *BareBlock `toml:"upgrade,omitempty"`
 }
 
 type Install struct {
@@ -34,6 +40,14 @@ type Install struct {
 	Package string `toml:"package,omitempty"`
 	Command string `toml:"command,omitempty"`
 	Global  bool   `toml:"global,omitempty"`
+}
+
+// BareBlock is the shape of the optional [uninstall] and [upgrade]
+// tables: a single command. Required for [uninstall] when
+// install.type=="script" (no general reverse exists); optional
+// otherwise, where presence overrides the derived command.
+type BareBlock struct {
+	Command string `toml:"command"`
 }
 
 var (
@@ -91,6 +105,9 @@ func (m *Manifest) Validate() error {
 		if m.Install.Package != "" {
 			errs = append(errs, "install.package must be empty when install.type=\"script\"")
 		}
+		if m.Uninstall == nil {
+			errs = append(errs, "[uninstall] is required when install.type=\"script\" — no general reverse exists for script installs")
+		}
 	} else {
 		if m.Install.Package == "" {
 			errs = append(errs, fmt.Sprintf("install.package is required when install.type=%q", m.Install.Type))
@@ -101,6 +118,13 @@ func (m *Manifest) Validate() error {
 		if m.Install.Global && m.Install.Type != "npm" {
 			errs = append(errs, "install.global only applies to install.type=\"npm\"")
 		}
+	}
+
+	if m.Uninstall != nil && m.Uninstall.Command == "" {
+		errs = append(errs, "uninstall.command must be non-empty when [uninstall] is present")
+	}
+	if m.Upgrade != nil && m.Upgrade.Command == "" {
+		errs = append(errs, "upgrade.command must be non-empty when [upgrade] is present")
 	}
 
 	for i, t := range m.Tags {
@@ -147,7 +171,7 @@ func (m *Manifest) ToApp() index.App {
 		}
 	}
 
-	return index.App{
+	app := index.App{
 		Name:        m.Name,
 		Repo:        repo,
 		Description: m.Description,
@@ -160,6 +184,7 @@ func (m *Manifest) ToApp() index.App {
 		Demo:        m.Demo,
 		Screenshots: m.Screenshots,
 		Tags:        m.Tags,
+		Binary:      m.Binary,
 		InstallSpec: &index.InstallSpec{
 			Type:    m.Install.Type,
 			Package: m.Install.Package,
@@ -167,6 +192,13 @@ func (m *Manifest) ToApp() index.App {
 			Global:  m.Install.Global,
 		},
 	}
+	if m.Uninstall != nil {
+		app.UninstallSpec = &index.CommandSpec{Command: m.Uninstall.Command}
+	}
+	if m.Upgrade != nil {
+		app.UpgradeSpec = &index.CommandSpec{Command: m.Upgrade.Command}
+	}
+	return app
 }
 
 func fallback(s, def string) string {

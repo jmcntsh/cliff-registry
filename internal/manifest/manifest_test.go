@@ -1,6 +1,9 @@
 package manifest
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
 
 func validBase() Manifest {
 	return Manifest{
@@ -55,12 +58,73 @@ func TestValidate_RequiredFields(t *testing.T) {
 func TestValidate_Script(t *testing.T) {
 	m := validBase()
 	m.Install = Install{Type: "script", Command: "curl -fsSL https://x.io/i.sh | sh"}
+	m.Uninstall = &BareBlock{Command: "rm -f /usr/local/bin/x"}
 	if err := m.Validate(); err != nil {
 		t.Fatalf("script ok case: %v", err)
 	}
 	m.Install.Package = "x"
 	if err := m.Validate(); err == nil {
 		t.Fatal("expected error when both command and package set on script")
+	}
+}
+
+func TestValidate_ScriptRequiresUninstall(t *testing.T) {
+	m := validBase()
+	m.Install = Install{Type: "script", Command: "curl -fsSL https://x.io/i.sh | sh"}
+	// Deliberately no Uninstall block.
+	err := m.Validate()
+	if err == nil {
+		t.Fatal("expected error: script without [uninstall]")
+	}
+	if !strings.Contains(err.Error(), "[uninstall] is required") {
+		t.Errorf("error should mention [uninstall] requirement, got: %v", err)
+	}
+}
+
+func TestValidate_EmptyBareBlockCommandRejected(t *testing.T) {
+	cases := map[string]func(*Manifest){
+		"empty uninstall.command": func(m *Manifest) {
+			m.Uninstall = &BareBlock{Command: ""}
+		},
+		"empty upgrade.command": func(m *Manifest) {
+			m.Upgrade = &BareBlock{Command: ""}
+		},
+	}
+	for name, mutate := range cases {
+		t.Run(name, func(t *testing.T) {
+			m := validBase()
+			mutate(&m)
+			if err := m.Validate(); err == nil {
+				t.Fatal("expected error, got nil")
+			}
+		})
+	}
+}
+
+func TestValidate_UpgradeOptionalForScript(t *testing.T) {
+	m := validBase()
+	m.Install = Install{Type: "script", Command: "curl -fsSL https://x.io/i.sh | sh"}
+	m.Uninstall = &BareBlock{Command: "rm -f /usr/local/bin/x"}
+	// No Upgrade block — should still validate.
+	if err := m.Validate(); err != nil {
+		t.Fatalf("script with uninstall but no upgrade should be ok: %v", err)
+	}
+}
+
+func TestToApp_PassesThroughNewBlocks(t *testing.T) {
+	m := validBase()
+	m.Binary = "gh"
+	m.Uninstall = &BareBlock{Command: "brew uninstall --force gh"}
+	m.Upgrade = &BareBlock{Command: "brew upgrade gh"}
+	app := m.ToApp()
+	if app.Binary != "gh" {
+		t.Errorf("binary pass-through: got %q", app.Binary)
+	}
+	if app.UninstallSpec == nil || app.UninstallSpec.Command != "brew uninstall --force gh" {
+		t.Errorf("uninstall pass-through: got %+v", app.UninstallSpec)
+	}
+	if app.UpgradeSpec == nil || app.UpgradeSpec.Command != "brew upgrade gh" {
+		t.Errorf("upgrade pass-through: got %+v", app.UpgradeSpec)
 	}
 }
 
