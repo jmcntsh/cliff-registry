@@ -1,0 +1,13 @@
+name = "dooit"
+description = "An awesome todo manager for the terminal"
+author = "kraanzu"
+homepage = "https://github.com/kraanzu/dooit"
+readme = "https://raw.githubusercontent.com/kraanzu/dooit/main/README.md"
+tags = ["todo", "productivity", "tui"]
+license = "MIT"
+category = "Productivity"
+language = "Python"
+
+[install]
+type = "brew"
+package = "dooit"

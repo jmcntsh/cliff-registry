@@ -1,0 +1,13 @@
+name = "superfile"
+description = "Pretty fancy and modern terminal file manager"
+author = "yorukot"
+homepage = "https://github.com/yorukot/superfile"
+readme = "https://raw.githubusercontent.com/yorukot/superfile/main/README.md"
+tags = ["file-manager", "tui"]
+license = "MIT"
+category = "File management"
+language = "Go"
+
+[install]
+type = "brew"
+package = "superfile"

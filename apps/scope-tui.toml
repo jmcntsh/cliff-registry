@@ -1,0 +1,13 @@
+name = "scope-tui"
+description = "A simple oscilloscope, vectorscope, and spectroscope for your terminal"
+author = "alemidev"
+homepage = "https://github.com/alemidev/scope-tui"
+readme = "https://raw.githubusercontent.com/alemidev/scope-tui/dev/README.md"
+tags = ["audio", "visualizer", "tui"]
+license = "MIT"
+category = "Toys & visualizers"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "scope-tui"

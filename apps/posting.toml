@@ -1,0 +1,13 @@
+name = "posting"
+description = "Modern API client that lives in your terminal"
+author = "darrenburns"
+homepage = "https://github.com/darrenburns/posting"
+readme = "https://raw.githubusercontent.com/darrenburns/posting/main/README.md"
+tags = ["http", "api", "tui"]
+license = "Apache-2.0"
+category = "HTTP clients"
+language = "Python"
+
+[install]
+type = "brew"
+package = "posting"

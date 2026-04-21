@@ -1,0 +1,13 @@
+name = "atuin"
+description = "Magical shell history — SQLite-backed, searchable, syncable across machines"
+author = "atuinsh"
+homepage = "https://github.com/atuinsh/atuin"
+readme = "https://raw.githubusercontent.com/atuinsh/atuin/main/README.md"
+tags = ["shell", "history", "tui"]
+license = "MIT"
+category = "Shell utilities"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "atuin"

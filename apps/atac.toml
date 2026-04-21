@@ -1,0 +1,13 @@
+name = "atac"
+description = "A feature-full TUI API client — Postman, but in your terminal"
+author = "Julien-cpsn"
+homepage = "https://github.com/Julien-cpsn/ATAC"
+readme = "https://raw.githubusercontent.com/Julien-cpsn/ATAC/main/README.md"
+tags = ["http", "api", "tui"]
+license = "MIT"
+category = "HTTP clients"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "atac"

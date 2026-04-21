@@ -1,0 +1,13 @@
+name = "soft-serve"
+description = "The mighty, self-hostable Git server with an SSH-accessible TUI"
+author = "charmbracelet"
+homepage = "https://github.com/charmbracelet/soft-serve"
+readme = "https://raw.githubusercontent.com/charmbracelet/soft-serve/main/README.md"
+tags = ["git", "ssh", "server", "tui"]
+license = "MIT"
+category = "Version control"
+language = "Go"
+
+[install]
+type = "brew"
+package = "soft-serve"

@@ -1,0 +1,13 @@
+name = "rebels-in-the-sky"
+description = "P2P terminal game about space pirates playing basketball across the galaxy"
+author = "ricott1"
+homepage = "https://github.com/ricott1/rebels-in-the-sky"
+readme = "https://raw.githubusercontent.com/ricott1/rebels-in-the-sky/main/README.md"
+tags = ["game", "multiplayer", "tui"]
+license = "GPL-3.0"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "rebels"

@@ -1,0 +1,13 @@
+name = "oxker"
+description = "A simple TUI to view and control Docker containers"
+author = "mrjackwills"
+homepage = "https://github.com/mrjackwills/oxker"
+readme = "https://raw.githubusercontent.com/mrjackwills/oxker/main/README.md"
+tags = ["docker", "containers", "tui"]
+license = "MIT"
+category = "DevOps"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "oxker"

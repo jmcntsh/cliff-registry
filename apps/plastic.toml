@@ -1,0 +1,13 @@
+name = "plastic"
+description = "NES emulator with a Ratatui terminal UI — play NES ROMs in your shell"
+author = "Amjad50"
+homepage = "https://github.com/Amjad50/plastic"
+readme = "https://raw.githubusercontent.com/Amjad50/plastic/master/README.md"
+tags = ["game", "emulator", "nes", "tui"]
+license = "MIT"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "plastic_tui"

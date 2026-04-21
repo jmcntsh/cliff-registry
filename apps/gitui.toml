@@ -1,0 +1,13 @@
+name = "gitui"
+description = "Blazing-fast terminal UI for git, written in Rust"
+author = "extrawurst"
+homepage = "https://github.com/extrawurst/gitui"
+readme = "https://raw.githubusercontent.com/extrawurst/gitui/master/README.md"
+tags = ["git", "tui"]
+license = "MIT"
+category = "Version control"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "gitui"
