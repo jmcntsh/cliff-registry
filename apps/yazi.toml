@@ -1,0 +1,13 @@
+name = "yazi"
+description = "Blazing-fast terminal file manager based on async I/O"
+author = "sxyazi"
+homepage = "https://github.com/sxyazi/yazi"
+readme = "https://raw.githubusercontent.com/sxyazi/yazi/main/README.md"
+tags = ["file-manager", "tui"]
+license = "MIT"
+category = "File management"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "yazi"

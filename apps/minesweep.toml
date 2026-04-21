@@ -1,0 +1,13 @@
+name = "minesweep"
+description = "Classic minesweeper in the terminal, built with tui-rs"
+author = "cpcloud"
+homepage = "https://github.com/cpcloud/minesweep-rs"
+readme = "https://raw.githubusercontent.com/cpcloud/minesweep-rs/main/README.md"
+tags = ["game", "minesweeper", "tui"]
+license = "Apache-2.0"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "minesweep"

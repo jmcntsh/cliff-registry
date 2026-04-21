@@ -1,0 +1,13 @@
+name = "gh-dash"
+description = "A gh extension: your PRs and issues on a beautiful, customizable terminal dashboard"
+author = "dlvhdr"
+homepage = "https://github.com/dlvhdr/gh-dash"
+readme = "https://raw.githubusercontent.com/dlvhdr/gh-dash/main/README.md"
+tags = ["github", "dashboard", "tui"]
+license = "MIT"
+category = "Developer tools"
+language = "Go"
+
+[install]
+type = "go"
+package = "github.com/dlvhdr/gh-dash@latest"

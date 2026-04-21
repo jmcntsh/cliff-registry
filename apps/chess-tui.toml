@@ -1,0 +1,13 @@
+name = "chess-tui"
+description = "Play chess from your terminal against a bot, a friend, or an engine"
+author = "thomas-mauran"
+homepage = "https://github.com/thomas-mauran/chess-tui"
+readme = "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/README.md"
+tags = ["game", "chess", "tui"]
+license = "MIT"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "chess-tui"

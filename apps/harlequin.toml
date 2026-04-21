@@ -1,0 +1,13 @@
+name = "harlequin"
+description = "The SQL IDE for your terminal — query DuckDB, SQLite, Postgres, and more"
+author = "tconbeer"
+homepage = "https://github.com/tconbeer/harlequin"
+readme = "https://raw.githubusercontent.com/tconbeer/harlequin/main/README.md"
+tags = ["sql", "database", "tui"]
+license = "MIT"
+category = "Databases"
+language = "Python"
+
+[install]
+type = "brew"
+package = "harlequin"
