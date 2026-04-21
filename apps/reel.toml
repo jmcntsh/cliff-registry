@@ -1,0 +1,13 @@
+name = "reel"
+description = "Record and replay terminal sessions as declarative frames, safe to embed"
+author = "jmcntsh"
+homepage = "https://github.com/jmcntsh/reel"
+readme = "https://raw.githubusercontent.com/jmcntsh/reel/main/README.md"
+tags = ["recording", "demo", "tui"]
+license = "MIT"
+category = "Developer tools"
+language = "Go"
+
+[install]
+type = "go"
+package = "github.com/jmcntsh/reel/cmd/reel@latest"
