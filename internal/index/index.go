@@ -33,7 +33,10 @@ type App struct {
 	Demo          string       `json:"demo,omitempty"`
 	Screenshots   []string     `json:"screenshots,omitempty"`
 	Tags          []string     `json:"tags,omitempty"`
+	Binary        string       `json:"binary,omitempty"`
 	InstallSpec   *InstallSpec `json:"install_spec,omitempty"`
+	UninstallSpec *CommandSpec `json:"uninstall_spec,omitempty"`
+	UpgradeSpec   *CommandSpec `json:"upgrade_spec,omitempty"`
 	LastCommitISO string       `json:"last_commit,omitempty"`
 }
 
@@ -42,6 +45,15 @@ type InstallSpec struct {
 	Package string `json:"package,omitempty"`
 	Command string `json:"command,omitempty"`
 	Global  bool   `json:"global,omitempty"`
+}
+
+// CommandSpec is the wire shape for the [uninstall] and [upgrade]
+// manifest blocks: just a shell command. Kept separate from InstallSpec
+// because these blocks are structurally simpler — no type switch and no
+// package/global fields. Must stay in sync with the mirrored type in
+// github.com/jmcntsh/cliff's internal/catalog package.
+type CommandSpec struct {
+	Command string `json:"command"`
 }
 
 func (s *InstallSpec) Shell() string {
