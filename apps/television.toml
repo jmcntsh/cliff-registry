@@ -1,0 +1,13 @@
+name = "television"
+description = "Fast and versatile fuzzy finder TUI for files, git, env, docker, and more"
+author = "alexpasmantier"
+homepage = "https://github.com/alexpasmantier/television"
+readme = "https://raw.githubusercontent.com/alexpasmantier/television/main/README.md"
+tags = ["fuzzy-finder", "tui"]
+license = "MIT"
+category = "Shell utilities"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "television"

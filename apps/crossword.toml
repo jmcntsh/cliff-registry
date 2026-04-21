@@ -1,0 +1,13 @@
+name = "crossword"
+description = "Play crossword puzzles in your terminal"
+author = "MatrixFrog"
+homepage = "https://github.com/MatrixFrog/crossword"
+readme = "https://raw.githubusercontent.com/MatrixFrog/crossword/main/README.md"
+tags = ["game", "puzzle", "tui"]
+license = "MIT"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "crossword"

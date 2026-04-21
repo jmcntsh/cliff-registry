@@ -1,0 +1,13 @@
+name = "frogmouth"
+description = "A Markdown browser for your terminal, by the Textual team"
+author = "Textualize"
+homepage = "https://github.com/Textualize/frogmouth"
+readme = "https://raw.githubusercontent.com/Textualize/frogmouth/main/README.md"
+tags = ["markdown", "reader", "tui"]
+license = "MIT"
+category = "Documentation"
+language = "Python"
+
+[install]
+type = "pipx"
+package = "frogmouth"

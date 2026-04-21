@@ -1,0 +1,13 @@
+name = "serie"
+description = "Rich git commit graph in your terminal, like magic"
+author = "lusingander"
+homepage = "https://github.com/lusingander/serie"
+readme = "https://raw.githubusercontent.com/lusingander/serie/main/README.md"
+tags = ["git", "tui"]
+license = "MIT"
+category = "Version control"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "serie"

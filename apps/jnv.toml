@@ -1,0 +1,13 @@
+name = "jnv"
+description = "Interactive JSON filter using jq"
+author = "ynqa"
+homepage = "https://github.com/ynqa/jnv"
+readme = "https://raw.githubusercontent.com/ynqa/jnv/main/README.md"
+tags = ["json", "jq", "tui"]
+license = "MIT"
+category = "Data tools"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "jnv"

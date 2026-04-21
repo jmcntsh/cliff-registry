@@ -1,0 +1,13 @@
+name = "vhs"
+description = "Write terminal GIFs as code for integration testing and demos"
+author = "charmbracelet"
+homepage = "https://github.com/charmbracelet/vhs"
+readme = "https://raw.githubusercontent.com/charmbracelet/vhs/main/README.md"
+tags = ["gif", "recording", "tui"]
+license = "MIT"
+category = "Developer tools"
+language = "Go"
+
+[install]
+type = "brew"
+package = "vhs"

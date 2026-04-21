@@ -1,0 +1,13 @@
+name = "gum"
+description = "A tool for glamorous shell scripts — make your scripts pop with Charm UI primitives"
+author = "charmbracelet"
+homepage = "https://github.com/charmbracelet/gum"
+readme = "https://raw.githubusercontent.com/charmbracelet/gum/main/README.md"
+tags = ["shell", "scripting", "tui"]
+license = "MIT"
+category = "Shell utilities"
+language = "Go"
+
+[install]
+type = "brew"
+package = "gum"

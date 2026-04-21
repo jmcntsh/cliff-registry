@@ -1,0 +1,13 @@
+name = "tetrigo"
+description = "Play Tetris in your terminal, following the official 2009 design guideline"
+author = "Broderick-Westrope"
+homepage = "https://github.com/Broderick-Westrope/tetrigo"
+readme = "https://raw.githubusercontent.com/Broderick-Westrope/tetrigo/main/README.md"
+tags = ["game", "tetris", "tui"]
+license = "GPL-3.0"
+category = "Games"
+language = "Go"
+
+[install]
+type = "go"
+package = "github.com/Broderick-Westrope/tetrigo/cmd/tetrigo@latest"
