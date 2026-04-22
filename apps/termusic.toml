@@ -1,0 +1,13 @@
+name = "termusic"
+description = "Terminal music player inspired by Lolcatjams, with playlists, tag editing, and podcast support"
+author = "tramhao"
+homepage = "https://github.com/tramhao/termusic"
+readme = "https://raw.githubusercontent.com/tramhao/termusic/master/README.md"
+tags = ["music", "player", "audio"]
+license = "GPL-3.0"
+category = "Music & media"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "termusic"

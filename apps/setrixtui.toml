@@ -1,0 +1,13 @@
+name = "setrixtui"
+description = "Falling-block puzzle where the pieces turn to sand and clear by connecting same-colored regions"
+author = "Mjoyufull"
+homepage = "https://github.com/Mjoyufull/Setrixtui"
+readme = "https://raw.githubusercontent.com/Mjoyufull/Setrixtui/main/README.md"
+tags = ["game", "puzzle", "tui"]
+license = "GPL-3.0"
+category = "Games"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "setrixtui"

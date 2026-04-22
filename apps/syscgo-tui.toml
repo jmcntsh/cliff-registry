@@ -1,0 +1,14 @@
+name = "syscgo-tui"
+description = "Interactive TUI launcher for fire, matrix rain, fireworks, and other terminal animations"
+author = "Nomadcxx"
+homepage = "https://github.com/Nomadcxx/sysc-Go"
+readme = "https://raw.githubusercontent.com/Nomadcxx/sysc-Go/master/README.md"
+tags = ["animation", "screensaver", "ascii"]
+license = "MIT"
+category = "Toys & visualizers"
+language = "Go"
+binary = "syscgo-tui"
+
+[install]
+type = "go"
+package = "github.com/Nomadcxx/sysc-Go/cmd/syscgo-tui@latest"

@@ -1,0 +1,13 @@
+name = "kew"
+description = "Minimalist terminal music player with ASCII covers, library search, and a visualizer"
+author = "ravachol"
+homepage = "https://github.com/ravachol/kew"
+readme = "https://raw.githubusercontent.com/ravachol/kew/main/README.md"
+tags = ["music", "player", "audio"]
+license = "GPL-2.0"
+category = "Music & media"
+language = "C"
+
+[install]
+type = "brew"
+package = "kew"

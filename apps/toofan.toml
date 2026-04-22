@@ -1,0 +1,13 @@
+name = "toofan"
+description = "Lightning-fast typing TUI with live WPM, multiple modes, themes, and offline-only history"
+author = "vyrx-dev"
+homepage = "https://github.com/vyrx-dev/toofan"
+readme = "https://raw.githubusercontent.com/vyrx-dev/toofan/master/README.md"
+tags = ["typing", "practice", "game"]
+license = "MIT"
+category = "Productivity"
+language = "Go"
+
+[install]
+type = "go"
+package = "github.com/vyrx-dev/toofan@latest"

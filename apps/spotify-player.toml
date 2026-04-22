@@ -1,0 +1,14 @@
+name = "spotify-player"
+description = "Spotify client in the terminal with streaming, Spotify Connect, lyrics, and audio visualization"
+author = "aome510"
+homepage = "https://github.com/aome510/spotify-player"
+readme = "https://raw.githubusercontent.com/aome510/spotify-player/master/README.md"
+tags = ["music", "spotify", "player"]
+license = "MIT"
+category = "Music & media"
+language = "Rust"
+binary = "spotify_player"
+
+[install]
+type = "brew"
+package = "spotify_player"
