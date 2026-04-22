@@ -1,0 +1,13 @@
+name = "rmpc"
+description = "Modern MPD client with album art, inspired by ncmpcpp and ranger"
+author = "mierak"
+homepage = "https://github.com/mierak/rmpc"
+readme = "https://raw.githubusercontent.com/mierak/rmpc/main/README.md"
+tags = ["music", "mpd", "player"]
+license = "BSD-3-Clause"
+category = "Music & media"
+language = "Rust"
+
+[install]
+type = "brew"
+package = "rmpc"
