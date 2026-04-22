@@ -1,0 +1,13 @@
+name = "cliff"
+description = "A terminal-native directory for CLIs and TUIs. Browse, read READMEs, install in one keystroke."
+author = "jmcntsh"
+homepage = "https://github.com/jmcntsh/cliff"
+readme = "https://raw.githubusercontent.com/jmcntsh/cliff/main/README.md"
+tags = ["directory", "discovery", "installer", "tui"]
+license = "MIT"
+category = "Developer tools"
+language = "Go"
+
+[install]
+type = "brew"
+package = "jmcntsh/tap/cliff"
