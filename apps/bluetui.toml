@@ -1,0 +1,13 @@
+name = "bluetui"
+description = "Bluetooth device manager in the terminal, with adapter controls, pairing, and connection state"
+author = "pythops"
+homepage = "https://github.com/pythops/bluetui"
+readme = "https://raw.githubusercontent.com/pythops/bluetui/main/README.md"
+tags = ["bluetooth", "network", "linux"]
+license = "GPL-3.0"
+category = "DevOps"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "bluetui"

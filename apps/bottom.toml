@@ -1,0 +1,14 @@
+name = "bottom"
+description = "Cross-platform graphical process and system monitor with charts, trees, and a configurable UI"
+author = "ClementTsang"
+homepage = "https://github.com/ClementTsang/bottom"
+readme = "https://raw.githubusercontent.com/ClementTsang/bottom/main/README.md"
+tags = ["monitoring", "dashboard", "system"]
+license = "MIT"
+category = "Dashboards"
+language = "Rust"
+binary = "btm"
+
+[install]
+type = "brew"
+package = "bottom"

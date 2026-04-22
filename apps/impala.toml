@@ -1,0 +1,13 @@
+name = "impala"
+description = "TUI for managing Wi-Fi networks with iwd on Linux, featuring live scans and smooth animations"
+author = "pythops"
+homepage = "https://github.com/pythops/impala"
+readme = "https://raw.githubusercontent.com/pythops/impala/main/README.md"
+tags = ["wifi", "network", "linux"]
+license = "GPL-3.0"
+category = "DevOps"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "impala"

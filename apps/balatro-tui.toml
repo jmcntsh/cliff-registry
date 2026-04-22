@@ -1,0 +1,14 @@
+name = "balatro-tui"
+description = "Balatro-inspired poker-roguelike played entirely in your terminal"
+author = "Passeriform"
+homepage = "https://github.com/Passeriform/BalatroTUI"
+readme = "https://raw.githubusercontent.com/Passeriform/BalatroTUI/main/README.md"
+tags = ["game", "cards", "roguelike"]
+license = "GPL-3.0"
+category = "Games"
+language = "Rust"
+binary = "balatro_tui"
+
+[install]
+type = "cargo"
+package = "balatro_tui"

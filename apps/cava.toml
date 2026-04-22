@@ -1,0 +1,13 @@
+name = "cava"
+description = "Cross-platform bar spectrum audio visualizer for your terminal"
+author = "karlstav"
+homepage = "https://github.com/karlstav/cava"
+readme = "https://raw.githubusercontent.com/karlstav/cava/master/README.md"
+tags = ["audio", "visualizer", "music"]
+license = "MIT"
+category = "Toys & visualizers"
+language = "C"
+
+[install]
+type = "brew"
+package = "cava"

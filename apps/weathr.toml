@@ -1,0 +1,13 @@
+name = "weathr"
+description = "Terminal weather app with live ASCII animations for rain, snow, storms, and sky"
+author = "Veirt"
+homepage = "https://github.com/Veirt/weathr"
+readme = "https://raw.githubusercontent.com/Veirt/weathr/main/README.md"
+tags = ["weather", "animation", "ascii"]
+license = "GPL-3.0"
+category = "Toys & visualizers"
+language = "Rust"
+
+[install]
+type = "cargo"
+package = "weathr"
