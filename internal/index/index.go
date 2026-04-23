@@ -38,6 +38,12 @@ type App struct {
 	UninstallSpec *CommandSpec `json:"uninstall_spec,omitempty"`
 	UpgradeSpec   *CommandSpec `json:"upgrade_spec,omitempty"`
 	LastCommitISO string       `json:"last_commit,omitempty"`
+	// AddedAtISO is the RFC3339 timestamp of the commit that first
+	// added this app's manifest to the registry. Stamped by cmd/build
+	// from `git log --diff-filter=A --follow`. Drives the client's
+	// "New" sidebar row; empty means the app predates the field or
+	// the build ran outside a git checkout.
+	AddedAtISO string `json:"added_at,omitempty"`
 }
 
 type InstallSpec struct {
