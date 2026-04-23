@@ -15,6 +15,8 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"os/exec"
+	"path/filepath"
 	"sort"
 	"strings"
 	"time"
@@ -53,6 +55,12 @@ func main() {
 			continue
 		}
 		app := l.Manifest.ToApp()
+
+		if added, err := gitAddedAt(l.Path); err != nil {
+			fmt.Fprintf(os.Stderr, "warn: added_at %s: %v\n", l.Path, err)
+		} else if !added.IsZero() {
+			app.AddedAtISO = added.UTC().Format(time.RFC3339)
+		}
 
 		if app.Repo != "" && strings.Count(app.Repo, "/") == 1 {
 			if stars, last, err := gh.snapshot(app.Repo); err != nil {
@@ -104,6 +112,44 @@ func main() {
 func die(format string, args ...any) {
 	fmt.Fprintf(os.Stderr, format+"\n", args...)
 	os.Exit(1)
+}
+
+// gitAddedAt returns the author-date of the commit that first added
+// the manifest at path, following file renames. Runs `git log` inside
+// the manifest's directory so the command works from any cwd. A zero
+// time (no error) means the file is present but not tracked, which can
+// happen for pending local edits; the build continues with empty
+// added_at in that case. Requires a non-shallow checkout to return
+// correct values for manifests added before the clone's depth — CI
+// must set fetch-depth: 0 on actions/checkout.
+func gitAddedAt(path string) (time.Time, error) {
+	abs, err := filepath.Abs(path)
+	if err != nil {
+		return time.Time{}, err
+	}
+	cmd := exec.Command(
+		"git", "log",
+		"--diff-filter=A", "--follow",
+		"--format=%aI", "--max-count=1",
+		"--", filepath.Base(abs),
+	)
+	cmd.Dir = filepath.Dir(abs)
+	out, err := cmd.Output()
+	if err != nil {
+		if ee, ok := err.(*exec.ExitError); ok {
+			return time.Time{}, fmt.Errorf("git log: %s", strings.TrimSpace(string(ee.Stderr)))
+		}
+		return time.Time{}, err
+	}
+	raw := strings.TrimSpace(string(out))
+	if raw == "" {
+		return time.Time{}, nil
+	}
+	t, err := time.Parse(time.RFC3339, raw)
+	if err != nil {
+		return time.Time{}, fmt.Errorf("parse %q: %w", raw, err)
+	}
+	return t, nil
 }
 
 type ghClient struct {
