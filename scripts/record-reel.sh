@@ -49,6 +49,8 @@ fi
 if [[ -n "$size_arg" ]]; then
   size="$size_arg"
 fi
+cols="${size%x*}"
+rows="${size#*x}"
 
 # Re-recording is the common case while iterating on a demo, so we
 # remove any existing artifact rather than making the user run rm
@@ -68,14 +70,18 @@ if [[ "$is_template1" == "true" ]]; then
   cat >"$runner" <<EOF
 #!/usr/bin/env bash
 set -euo pipefail
-bash "$demo"
-# Keep this tiny and muted so it reads as an honesty footer, not as
-# the demo's main content.
-printf '\n'
-printf '\033[2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m\n'
-printf '\033[2m  simulated preview (scripted) · see README for exact behavior and options\033[0m\n'
-sleep 2.0
+cols=$cols
+rows=$rows
+msg='[disclaimer: simulated preview; see README for exact behavior]'
+row=\$(( rows / 2 ))
+col=\$(( (cols - \${#msg}) / 2 + 1 ))
+if [[ \$row -lt 1 ]]; then row=1; fi
+if [[ \$col -lt 1 ]]; then col=1; fi
 clear
+printf '\033[%d;%dH\033[2m%s\033[0m' "\$row" "\$col" "\$msg"
+sleep 1.8
+clear
+exec bash "$demo"
 EOF
 else
   cat >"$runner" <<EOF
