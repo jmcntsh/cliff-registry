@@ -47,9 +47,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_SHA: ${{ github.sha }}
         run: |
-          mkdir -p public
+          mkdir -p public public/reels
           go run ./cmd/build ./apps ./public/index.json
           cp CNAME public/CNAME 2>/dev/null || true
+          # Publish reels next to index.json. Cliff fetches them by slug
+          # at https://registry.cliff.sh/reels/<slug>.reel — only the .reel
+          # artifacts ship, not the demo.sh sources, since cliff only ever
+          # plays them.
+          cp reels/*.reel public/reels/ 2>/dev/null || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
