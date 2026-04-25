@@ -1,47 +1,18 @@
 #!/usr/bin/env bash
 # superfile — pretty fancy and modern terminal file manager
 #
-# Template 1 (scripted fake). Superfile's signature is its rounded
-# multi-pane layout with a sidebar of pinned places + tabs. We
-# build a synthetic project tree — never the recorder's real one.
+# Template 2 (real capture). Run in a synthetic HOME/tree to avoid
+# exposing recorder-specific filesystem paths.
 
-pause() { sleep "${1:-0.8}"; }
-beat()  { sleep "${1:-0.3}"; }
+# SIZE=100x30
 
-type_line() {
-  local s="$1" i
-  for (( i=0; i<${#s}; i++ )); do
-    printf '%s' "${s:$i:1}"
-    sleep 0.03
-  done
-  printf '\n'
-}
+tmp="$(mktemp -d "/tmp/cliff-reel-superfile.XXXXXX")"
+trap 'rm -rf "$tmp"' EXIT
+export HOME="$tmp/home"
+mkdir -p "$HOME/projects/demo/reels" "$HOME/projects/demo/apps"
+printf '# demo\n' > "$HOME/projects/demo/README.md"
+printf 'name = "demo"\n' > "$HOME/projects/demo/apps/demo.toml"
+cd "$HOME/projects/demo"
 
-prompt() { printf '\033[2m$\033[0m '; }
-
-clear
-pause 0.5
-
-prompt; type_line 'spf'
-beat
-pause 0.3
-clear
-
-printf '\033[1;38;5;177m  superfile \033[0m\033[2m  ~/projects/cliff-registry \033[0m\n'
-printf '╭─Pinned────╮╭─Files──────────────────────────╮╭─Preview · README.md────────╮\n'
-printf '│  ◉ ~      ││ ▸ apps/                        ││ \033[1;35m# cliff-registry\033[0m            │\n'
-printf '│    Docs   ││ ▾ reels/                       ││                            │\n'
-printf '│    Code   ││   ▸ glow/                      ││ Catalog of CLIs and TUIs    │\n'
-printf '│    Music  ││   ▸ cava/                      ││ available through cliff.    │\n'
-printf '│           ││   ▾ gum/                       ││                            │\n'
-printf '│ ─────     ││     • demo.sh                  ││ \033[1;36m## Submit an app\033[0m            │\n'
-printf '│  cliff    ││     • notes.md                 ││                            │\n'
-printf '│  reel     ││ \033[7m  ● README.md                  \033[0m││ Open a PR with an entry    │\n'
-printf '│           ││   • CNAME                      ││ in `apps/<slug>.toml`.     │\n'
-printf '│           ││   • index.json                 ││                            │\n'
-printf '│           ││                                ││ \033[1;36m## Reels\033[0m                    │\n'
-printf '╰───────────╯╰────────────────────────────────╯╰────────────────────────────╯\n'
-printf '\033[2m  ↑↓ navigate    ⏎ open    p pin    /  search    n new    ?  help \033[0m\n'
-pause 4.0
-
-clear
+( sleep 8; kill -TERM $$ ) &
+exec spf 2>/dev/null

@@ -61,7 +61,7 @@ if grep -q "Template 1" "$demo"; then
   is_template1="true"
 fi
 
-runner="$(mktemp "${TMPDIR:-/tmp}/cliff-reel-runner.XXXXXX.sh")"
+runner="$(mktemp "${TMPDIR:-/tmp}/cliff-reel-runner.XXXXXX")"
 trap 'rm -f "$runner"' EXIT
 
 if [[ "$is_template1" == "true" ]]; then
