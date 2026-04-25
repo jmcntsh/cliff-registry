@@ -8,6 +8,18 @@ license = "MIT"
 category = "Developer tools"
 language = "Go"
 
-[install]
+[[installs]]
 type = "brew"
 package = "jmcntsh/tap/cliff"
+
+[[installs]]
+type = "script"
+command = "curl -fsSL https://cliff.sh | sh"
+
+# install.sh drops the binary in one of CLIFF_INSTALL_DIR, /usr/local/bin,
+# or ~/.local/bin — try all three so the uninstall catches whichever the
+# install picked without needing the user to remember. The ${VAR:+...}
+# form expands to "$CLIFF_INSTALL_DIR/cliff" only when the var is set,
+# else empty (and `rm -f ""` is harmless).
+[uninstall]
+command = 'rm -f "${CLIFF_INSTALL_DIR:+$CLIFF_INSTALL_DIR/cliff}" /usr/local/bin/cliff "$HOME/.local/bin/cliff"'
