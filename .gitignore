@@ -3,3 +3,10 @@
 /.idea/
 /.vscode/
 *.test
+
+# Binaries produced by `go build ./cmd/<name>` at the repo root.
+# We invoke these via `go run`; a stray `go build` shouldn't land
+# in commits.
+/lint
+/build
+/scan-methods
