@@ -8,6 +8,10 @@ license = "MIT"
 category = "Documentation"
 language = "Python"
 
-[install]
+[[installs]]
 type = "pipx"
+package = "frogmouth"
+
+[[installs]]
+type = "brew"
 package = "frogmouth"

@@ -8,6 +8,10 @@ license = "MIT"
 category = "Data tools"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "jnv"
+
+[[installs]]
+type = "cargo"
 package = "jnv"

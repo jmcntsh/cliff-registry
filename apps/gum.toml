@@ -8,6 +8,10 @@ license = "MIT"
 category = "Shell utilities"
 language = "Go"
 
-[install]
+[[installs]]
 type = "brew"
 package = "gum"
+
+[[installs]]
+type = "go"
+package = "github.com/charmbracelet/gum@latest"

@@ -8,6 +8,10 @@ license = "MIT"
 category = "Version control"
 language = "Go"
 
-[install]
+[[installs]]
 type = "brew"
 package = "soft-serve"
+
+[[installs]]
+type = "go"
+package = "github.com/charmbracelet/soft-serve/cmd/soft@latest"

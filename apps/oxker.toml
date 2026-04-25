@@ -8,6 +8,10 @@ license = "MIT"
 category = "DevOps"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "oxker"
+
+[[installs]]
+type = "cargo"
 package = "oxker"

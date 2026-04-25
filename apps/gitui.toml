@@ -8,6 +8,10 @@ license = "MIT"
 category = "Version control"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "gitui"
+
+[[installs]]
+type = "cargo"
 package = "gitui"

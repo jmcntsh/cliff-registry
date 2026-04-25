@@ -8,6 +8,10 @@ license = "GPL-3.0"
 category = "Toys & visualizers"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "cargo"
 package = "weathr"
+
+[[installs]]
+type = "brew"
+package = "Veirt/veirt/weathr"

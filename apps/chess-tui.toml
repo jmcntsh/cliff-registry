@@ -8,6 +8,10 @@ license = "MIT"
 category = "Games"
 language = "Rust"
 
-[install]
+[[installs]]
+type = "brew"
+package = "chess-tui"
+
+[[installs]]
 type = "cargo"
 package = "chess-tui"

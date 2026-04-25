@@ -8,6 +8,10 @@ license = "ISC"
 category = "Toys & visualizers"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "gitlogue"
+
+[[installs]]
+type = "cargo"
 package = "gitlogue"

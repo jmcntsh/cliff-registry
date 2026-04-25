@@ -8,6 +8,10 @@ license = "MIT"
 category = "HTTP clients"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "atac"
+
+[[installs]]
+type = "cargo"
 package = "atac"
