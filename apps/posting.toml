@@ -8,6 +8,10 @@ license = "Apache-2.0"
 category = "HTTP clients"
 language = "Python"
 
-[install]
+[[installs]]
 type = "brew"
+package = "posting"
+
+[[installs]]
+type = "pipx"
 package = "posting"

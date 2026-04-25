@@ -8,6 +8,10 @@ license = "MIT"
 category = "Databases"
 language = "Python"
 
-[install]
+[[installs]]
 type = "brew"
+package = "harlequin"
+
+[[installs]]
+type = "pipx"
 package = "harlequin"

@@ -30,7 +30,17 @@ type Manifest struct {
 	// falls back to repo basename when empty.
 	Binary string `toml:"binary,omitempty"`
 
-	Install   Install    `toml:"install"`
+	// A manifest declares exactly one of [install] or [[installs]].
+	// [install] is the single-method form, kept for the common case
+	// where an app ships through one package manager. [[installs]] is
+	// the multi-method array-of-tables form, used when the same app is
+	// available through more than one manager (e.g. brew and cargo);
+	// the client picks the first entry whose tool is on the user's
+	// machine, or accepts an explicit `--via <type>` override. BurntSushi/
+	// toml can't unify [install] and [[install]] on the same key
+	// (they're syntactically distinct in TOML), so we use two names.
+	Install   *Install   `toml:"install,omitempty"`
+	Installs  []Install  `toml:"installs,omitempty"`
 	Uninstall *BareBlock `toml:"uninstall,omitempty"`
 	Upgrade   *BareBlock `toml:"upgrade,omitempty"`
 }
@@ -40,6 +50,20 @@ type Install struct {
 	Package string `toml:"package,omitempty"`
 	Command string `toml:"command,omitempty"`
 	Global  bool   `toml:"global,omitempty"`
+}
+
+// Methods returns the normalized list of install methods — always a
+// slice, drawn from whichever of [install] or [[installs]] the
+// manifest author used. Callers should use this rather than touching
+// Install / Installs directly.
+func (m *Manifest) Methods() []Install {
+	if len(m.Installs) > 0 {
+		return m.Installs
+	}
+	if m.Install != nil {
+		return []Install{*m.Install}
+	}
+	return nil
 }
 
 // BareBlock is the shape of the optional [uninstall] and [upgrade]
@@ -94,30 +118,55 @@ func (m *Manifest) Validate() error {
 		}
 	}
 
-	if m.Install.Type == "" {
-		errs = append(errs, "install.type is required")
-	} else if !validTypes[m.Install.Type] {
-		errs = append(errs, fmt.Sprintf("install.type %q is not one of brew|cargo|npm|pipx|go|script", m.Install.Type))
-	} else if m.Install.Type == "script" {
-		if m.Install.Command == "" {
-			errs = append(errs, "install.command is required when install.type=\"script\"")
+	switch {
+	case m.Install != nil && len(m.Installs) > 0:
+		errs = append(errs, "manifest must use exactly one of [install] (single-method) or [[installs]] (multi-method), not both")
+	case m.Install == nil && len(m.Installs) == 0:
+		errs = append(errs, "install method is required — use [install] for a single method or [[installs]] for multiple")
+	}
+
+	methods := m.Methods()
+	sawScript := false
+	seenTypes := make(map[string]bool, len(methods))
+	for i, in := range methods {
+		prefix := "install"
+		if len(m.Installs) > 0 {
+			prefix = fmt.Sprintf("installs[%d]", i)
 		}
-		if m.Install.Package != "" {
-			errs = append(errs, "install.package must be empty when install.type=\"script\"")
+		if in.Type == "" {
+			errs = append(errs, fmt.Sprintf("%s.type is required", prefix))
+			continue
 		}
-		if m.Uninstall == nil {
-			errs = append(errs, "[uninstall] is required when install.type=\"script\" — no general reverse exists for script installs")
+		if !validTypes[in.Type] {
+			errs = append(errs, fmt.Sprintf("%s.type %q is not one of brew|cargo|npm|pipx|go|script", prefix, in.Type))
+			continue
 		}
-	} else {
-		if m.Install.Package == "" {
-			errs = append(errs, fmt.Sprintf("install.package is required when install.type=%q", m.Install.Type))
+		if seenTypes[in.Type] {
+			errs = append(errs, fmt.Sprintf("%s.type %q appears more than once in [[installs]] — each method type must be unique", prefix, in.Type))
 		}
-		if m.Install.Command != "" {
-			errs = append(errs, "install.command is only valid when install.type=\"script\"")
+		seenTypes[in.Type] = true
+		if in.Type == "script" {
+			sawScript = true
+			if in.Command == "" {
+				errs = append(errs, fmt.Sprintf("%s.command is required when type=\"script\"", prefix))
+			}
+			if in.Package != "" {
+				errs = append(errs, fmt.Sprintf("%s.package must be empty when type=\"script\"", prefix))
+			}
+		} else {
+			if in.Package == "" {
+				errs = append(errs, fmt.Sprintf("%s.package is required when type=%q", prefix, in.Type))
+			}
+			if in.Command != "" {
+				errs = append(errs, fmt.Sprintf("%s.command is only valid when type=\"script\"", prefix))
+			}
+			if in.Global && in.Type != "npm" {
+				errs = append(errs, fmt.Sprintf("%s.global only applies to type=\"npm\"", prefix))
+			}
 		}
-		if m.Install.Global && m.Install.Type != "npm" {
-			errs = append(errs, "install.global only applies to install.type=\"npm\"")
-		}
+	}
+	if sawScript && m.Uninstall == nil {
+		errs = append(errs, "[uninstall] is required when any install method has type=\"script\" — no general reverse exists for script installs")
 	}
 
 	if m.Uninstall != nil && m.Uninstall.Command == "" {
@@ -171,26 +220,32 @@ func (m *Manifest) ToApp() index.App {
 		}
 	}
 
+	methods := m.Methods()
+	specs := make([]index.InstallSpec, len(methods))
+	for i, in := range methods {
+		specs[i] = index.InstallSpec{
+			Type:    in.Type,
+			Package: in.Package,
+			Command: in.Command,
+			Global:  in.Global,
+		}
+	}
+
 	app := index.App{
-		Name:        m.Name,
-		Repo:        repo,
-		Description: m.Description,
-		Category:    fallback(m.Category, "Other"),
-		Language:    m.Language,
-		License:     m.License,
-		Homepage:    m.Homepage,
-		Author:      m.Author,
-		Readme:      m.Readme,
-		Demo:        m.Demo,
-		Screenshots: m.Screenshots,
-		Tags:        m.Tags,
-		Binary:      m.Binary,
-		InstallSpec: &index.InstallSpec{
-			Type:    m.Install.Type,
-			Package: m.Install.Package,
-			Command: m.Install.Command,
-			Global:  m.Install.Global,
-		},
+		Name:         m.Name,
+		Repo:         repo,
+		Description:  m.Description,
+		Category:     fallback(m.Category, "Other"),
+		Language:     m.Language,
+		License:      m.License,
+		Homepage:     m.Homepage,
+		Author:       m.Author,
+		Readme:       m.Readme,
+		Demo:         m.Demo,
+		Screenshots:  m.Screenshots,
+		Tags:         m.Tags,
+		Binary:       m.Binary,
+		InstallSpecs: specs,
 	}
 	if m.Uninstall != nil {
 		app.UninstallSpec = &index.CommandSpec{Command: m.Uninstall.Command}

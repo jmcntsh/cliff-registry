@@ -8,6 +8,10 @@ license = "MIT"
 category = "Documentation"
 language = "Go"
 
-[install]
+[[installs]]
 type = "go"
 package = "github.com/charmbracelet/glow@latest"
+
+[[installs]]
+type = "brew"
+package = "glow"

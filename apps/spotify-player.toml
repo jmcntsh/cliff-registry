@@ -9,6 +9,10 @@ category = "Music & media"
 language = "Rust"
 binary = "spotify_player"
 
-[install]
+[[installs]]
 type = "brew"
+package = "spotify_player"
+
+[[installs]]
+type = "cargo"
 package = "spotify_player"

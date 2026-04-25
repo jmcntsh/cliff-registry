@@ -28,16 +28,20 @@ type App struct {
 	Stars       int    `json:"stars"`
 	Homepage    string `json:"homepage"`
 
-	Author        string       `json:"author,omitempty"`
-	Readme        string       `json:"readme,omitempty"`
-	Demo          string       `json:"demo,omitempty"`
-	Screenshots   []string     `json:"screenshots,omitempty"`
-	Tags          []string     `json:"tags,omitempty"`
-	Binary        string       `json:"binary,omitempty"`
-	InstallSpec   *InstallSpec `json:"install_spec,omitempty"`
-	UninstallSpec *CommandSpec `json:"uninstall_spec,omitempty"`
-	UpgradeSpec   *CommandSpec `json:"upgrade_spec,omitempty"`
-	LastCommitISO string       `json:"last_commit,omitempty"`
+	Author      string   `json:"author,omitempty"`
+	Readme      string   `json:"readme,omitempty"`
+	Demo        string   `json:"demo,omitempty"`
+	Screenshots []string `json:"screenshots,omitempty"`
+	Tags        []string `json:"tags,omitempty"`
+	Binary      string   `json:"binary,omitempty"`
+	// InstallSpecs is the normalized list of install methods — always
+	// at least one entry. Single-method manifests emit a one-element
+	// list; multi-method ([[installs]]) manifests emit in author order,
+	// which is also the client's preference order when choosing.
+	InstallSpecs  []InstallSpec `json:"install_specs,omitempty"`
+	UninstallSpec *CommandSpec  `json:"uninstall_spec,omitempty"`
+	UpgradeSpec   *CommandSpec  `json:"upgrade_spec,omitempty"`
+	LastCommitISO string        `json:"last_commit,omitempty"`
 	// AddedAtISO is the RFC3339 timestamp of the commit that first
 	// added this app's manifest to the registry. Stamped by cmd/build
 	// from `git log --diff-filter=A --follow`. Drives the client's

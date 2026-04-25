@@ -9,6 +9,10 @@ category = "Dashboards"
 language = "Rust"
 binary = "btm"
 
-[install]
+[[installs]]
 type = "brew"
+package = "bottom"
+
+[[installs]]
+type = "cargo"
 package = "bottom"

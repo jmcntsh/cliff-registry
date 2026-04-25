@@ -8,6 +8,10 @@ license = "MIT"
 category = "Developer tools"
 language = "Go"
 
-[install]
+[[installs]]
 type = "brew"
 package = "vhs"
+
+[[installs]]
+type = "go"
+package = "github.com/charmbracelet/vhs@latest"

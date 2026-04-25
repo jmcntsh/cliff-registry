@@ -8,6 +8,10 @@ license = "MIT"
 category = "Shell utilities"
 language = "Rust"
 
-[install]
+[[installs]]
 type = "brew"
+package = "television"
+
+[[installs]]
+type = "cargo"
 package = "television"
