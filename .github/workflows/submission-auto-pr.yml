@@ -1,0 +1,262 @@
+name: submission-auto-pr
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  provisional-pr:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: derive
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || "";
+
+            function sanitize(v) {
+              if (!v) return "";
+              const s = String(v).trim();
+              if (!s || s === "_No response_") return "";
+              return s;
+            }
+
+            function section(label) {
+              const esc = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+              const re = new RegExp(`###\\s+${esc}\\s*\\n+([\\s\\S]*?)(?=\\n###\\s+|$)`, "i");
+              const m = body.match(re);
+              return sanitize(m ? m[1] : "");
+            }
+
+            function toSlug(input) {
+              return sanitize(input)
+                .toLowerCase()
+                .replace(/[^a-z0-9-\\s]/g, "")
+                .trim()
+                .replace(/\\s+/g, "-")
+                .replace(/-+/g, "-");
+            }
+
+            function trimRepoToken(input) {
+              let s = sanitize(input);
+              s = s.replace(/\\.git$/i, "");
+              s = s.replace(/^https?:\\/\\/github\\.com\\//i, "");
+              s = s.replace(/^github\\.com\\//i, "");
+              s = s.replace(/^\\/+|\\/+$/g, "");
+              return s;
+            }
+
+            function normalizeRepo(input) {
+              const token = trimRepoToken(input);
+              const m = token.match(/^([A-Za-z0-9_.-]+)\\/([A-Za-z0-9_.-]+)$/);
+              if (!m) return null;
+              return { owner: m[1], repo: m[2] };
+            }
+
+            function toml(s) {
+              return `"${String(s).replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+            }
+
+            async function pathExists(owner, repo, path) {
+              try {
+                await github.rest.repos.getContent({ owner, repo, path });
+                return true;
+              } catch {
+                return false;
+              }
+            }
+
+            const repoField = section("GitHub repo");
+            const nameField = section("Name / slug");
+            const descField = section("One-line description");
+            const installTypeRaw = section("Install type").toLowerCase();
+            const installString = section("Install package or command");
+            const reelField = section(".reel file or PR link");
+
+            const parsed = normalizeRepo(repoField);
+            if (!parsed) {
+              core.setOutput("ready", "false");
+              core.setOutput("reason", "missing_repo");
+              core.setOutput("comment", "I could not parse the repository from the submission. Please provide `owner/repo` or a full `https://github.com/owner/repo` URL.");
+              return;
+            }
+
+            const owner = parsed.owner;
+            const repo = parsed.repo;
+            let repoData;
+            try {
+              const meta = await github.rest.repos.get({ owner, repo });
+              repoData = meta.data;
+            } catch {
+              core.setOutput("ready", "false");
+              core.setOutput("reason", "repo_lookup_failed");
+              core.setOutput("comment", `I could not access \`${owner}/${repo}\`. Please verify the repo URL and that it is public.`);
+              return;
+            }
+
+            const slug = toSlug(nameField) || toSlug(repo);
+            if (!slug) {
+              core.setOutput("ready", "false");
+              core.setOutput("reason", "invalid_slug");
+              core.setOutput("comment", "I could not derive a valid slug from the submission. Please add a lowercase `Name / slug` value.");
+              return;
+            }
+
+            const existingPath = `apps/${slug}.toml`;
+            try {
+              await github.rest.repos.getContent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                path: existingPath,
+              });
+              core.setOutput("ready", "false");
+              core.setOutput("reason", "already_exists");
+              core.setOutput("comment", `A manifest already exists at \`${existingPath}\`. No new provisional PR was created.`);
+              return;
+            } catch {
+              // file absent; continue
+            }
+
+            const description = sanitize(descField) || sanitize(repoData.description) || `CLI/TUI tool from ${owner}`;
+            const shortDescription = description.length > 120 ? description.slice(0, 117).trimEnd() + "..." : description;
+            const homepage = sanitize(repoData.html_url) || `https://github.com/${owner}/${repo}`;
+            const author = sanitize(repoData.owner?.login) || owner;
+
+            let installType = "";
+            let installPackage = "";
+            let installCommand = "";
+
+            const explicitType = sanitize(installTypeRaw);
+            if (explicitType && !["not provided", "not sure"].includes(explicitType)) {
+              installType = explicitType;
+              if (installType === "script") {
+                installCommand = sanitize(installString);
+              } else if (installType === "go") {
+                installPackage = sanitize(installString) || `github.com/${owner}/${repo}@latest`;
+              } else {
+                installPackage = sanitize(installString) || slug;
+              }
+            } else {
+              const hasGo = await pathExists(owner, repo, "go.mod");
+              const hasCargo = await pathExists(owner, repo, "Cargo.toml");
+              const hasPackageJSON = await pathExists(owner, repo, "package.json");
+              const hasPyproject = await pathExists(owner, repo, "pyproject.toml");
+
+              if (hasGo) {
+                installType = "go";
+                installPackage = `github.com/${owner}/${repo}@latest`;
+              } else if (hasCargo) {
+                installType = "cargo";
+                installPackage = slug;
+              } else if (hasPackageJSON) {
+                installType = "npm";
+                installPackage = slug;
+              } else if (hasPyproject) {
+                installType = "pipx";
+                installPackage = slug;
+              }
+            }
+
+            if (!installType || (installType === "script" && !installCommand) || (installType !== "script" && !installPackage)) {
+              core.setOutput("ready", "false");
+              core.setOutput("reason", "missing_install");
+              core.setOutput("comment", "I could not determine a valid install recipe. Please edit the submission issue with `Install type` and `Install package or command`, then re-run.");
+              return;
+            }
+
+            const lines = [];
+            lines.push(`name = ${toml(slug)}`);
+            lines.push(`description = ${toml(shortDescription)}`);
+            lines.push(`author = ${toml(author)}`);
+            lines.push(`homepage = ${toml(homepage)}`);
+            lines.push(`tags = ["cli"]`);
+            lines.push("");
+            lines.push("[install]");
+            lines.push(`type = ${toml(installType)}`);
+            if (installType === "script") {
+              lines.push(`command = ${toml(installCommand)}`);
+              lines.push("");
+              lines.push("[uninstall]");
+              lines.push('command = "echo \\"Please submit an uninstall command for this script install.\\""');
+            } else {
+              lines.push(`package = ${toml(installPackage)}`);
+            }
+
+            const note = reelField ? `\n\nReel provided in issue: ${reelField}` : "";
+            const prBody = [
+              "Automated provisional manifest from submission issue.",
+              "",
+              `- Submission: #${issue.number}`,
+              `- Repo: ${owner}/${repo}`,
+              `- State: provisional`,
+              note ? `- ${note.trim()}` : "",
+              "",
+              "Follow-up:",
+              "- Confirm install recipe",
+              "- Add `readme`, `license`, tags, and category",
+              "- Attach `.reel` details and promote to verified",
+            ].filter(Boolean).join("\n");
+
+            core.setOutput("ready", "true");
+            core.setOutput("slug", slug);
+            core.setOutput("manifest_path", existingPath);
+            core.setOutput("manifest_body", lines.join("\n") + "\n");
+            core.setOutput("branch", `automation/submission-${issue.number}-${slug}`);
+            core.setOutput("pr_title", `chore: add provisional app ${slug} from submission #${issue.number}`);
+            core.setOutput("pr_body", prBody);
+
+      - name: Write manifest
+        if: steps.derive.outputs.ready == 'true'
+        run: |
+          cat > "${{ steps.derive.outputs.manifest_path }}" <<'EOF'
+          ${{ steps.derive.outputs.manifest_body }}
+          EOF
+
+      - name: Lint manifests
+        if: steps.derive.outputs.ready == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Run lint
+        if: steps.derive.outputs.ready == 'true'
+        run: go run ./cmd/lint ./apps
+
+      - id: cpr
+        if: steps.derive.outputs.ready == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ${{ steps.derive.outputs.branch }}
+          commit-message: ${{ steps.derive.outputs.pr_title }}
+          title: ${{ steps.derive.outputs.pr_title }}
+          body: ${{ steps.derive.outputs.pr_body }}
+          draft: true
+
+      - name: Comment issue with result
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ready = "${{ steps.derive.outputs.ready }}" === "true";
+            let body;
+            if (!ready) {
+              body = "${{ steps.derive.outputs.comment }}";
+            } else {
+              const prUrl = "${{ steps.cpr.outputs.pull-request-url }}";
+              body = `Created a draft provisional PR: ${prUrl}`;
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body,
+            });

@@ -12,19 +12,21 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sending one in. cliff is curated — not every
-        submission lands — but every one gets looked at. See the
-        manifest schema in `notes/manifest.md` (cliff repo) for
-        what a listed app looks like.
+        Submit with minimum details now, then enrich later.
+
+        Cliff supports two listing states:
+        - `provisional`: basic listing from repo metadata
+        - `verified`: listing with validated `.reel` details
+
+        Every submission is reviewed. Missing optional details do not
+        block a provisional listing.
 
   - type: input
     id: name
     attributes:
       label: Name / slug
-      description: Lowercase, hyphens allowed, e.g. `lazygit`.
+      description: Optional. Lowercase with hyphens, e.g. `lazygit`.
       placeholder: lazygit
-    validations:
-      required: true
 
   - type: input
     id: repo
@@ -39,17 +41,16 @@ body:
     id: description
     attributes:
       label: One-line description
-      description: What does it do? One line, ≤120 chars.
+      description: Optional. What does it do? One line, <=120 chars.
       placeholder: Simple terminal UI for git commands
-    validations:
-      required: true
 
   - type: dropdown
     id: install_type
     attributes:
       label: Install type
-      description: How does it install on an average Mac/Linux box?
+      description: Optional. How does it install on an average Mac/Linux box?
       options:
+        - not provided
         - brew
         - cargo
         - npm
@@ -57,8 +58,6 @@ body:
         - go
         - script
         - not sure
-    validations:
-      required: true
 
   - type: input
     id: install_string
@@ -69,6 +68,13 @@ body:
         For go: `github.com/.../cmd/foo@latest`.
         For script: the full curl-pipe-sh command.
       placeholder: "e.g. lazygit   or   github.com/x/y/cmd/z@latest"
+
+  - type: input
+    id: reel
+    attributes:
+      label: .reel file or PR link
+      description: Optional now. Add later to promote to verified.
+      placeholder: https://github.com/<owner>/<repo>/blob/main/<path>/<tool>.reel
 
   - type: textarea
     id: notes

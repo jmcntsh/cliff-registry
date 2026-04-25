@@ -8,6 +8,16 @@ fetches.
 
 ## Add an app
 
+Fastest path:
+
+1. Open a submission issue with a repo URL:
+   - `https://github.com/jmcntsh/cliff-registry/issues/new?template=new-app.yml`
+   - or from CLI: `cliff submit <owner/repo>`
+2. Automation opens a draft provisional PR when it can infer install details.
+3. Add `.reel` later to promote the listing to verified.
+
+Manual path:
+
 1. Fork.
 2. Add a TOML file under `apps/<name>.toml`. See the existing
    manifests for shape; full schema in
@@ -15,6 +25,9 @@ fetches.
 3. `go run ./cmd/lint ./apps` to validate locally.
 4. Open a PR. CI runs lint; on merge, `index.json` rebuilds and
    ships.
+
+See [`docs/submission-lifecycle.md`](docs/submission-lifecycle.md) for
+state rules and maintainer policy.
 
 ## Layout
 

@@ -1,0 +1,174 @@
+name: submission-reel-promote
+
+on:
+  issues:
+    types: [edited, reopened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  promote:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: derive
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || "";
+
+            function sanitize(v) {
+              if (!v) return "";
+              const s = String(v).trim();
+              if (!s || s === "_No response_") return "";
+              return s;
+            }
+
+            function section(label) {
+              const esc = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+              const re = new RegExp(`###\\s+${esc}\\s*\\n+([\\s\\S]*?)(?=\\n###\\s+|$)`, "i");
+              const m = body.match(re);
+              return sanitize(m ? m[1] : "");
+            }
+
+            function toSlug(input) {
+              return sanitize(input)
+                .toLowerCase()
+                .replace(/[^a-z0-9-\\s]/g, "")
+                .trim()
+                .replace(/\\s+/g, "-")
+                .replace(/-+/g, "-");
+            }
+
+            function normalizeRepo(input) {
+              let s = sanitize(input);
+              s = s.replace(/\\.git$/i, "");
+              s = s.replace(/^https?:\\/\\/github\\.com\\//i, "");
+              s = s.replace(/^github\\.com\\//i, "");
+              s = s.replace(/^\\/+|\\/+$/g, "");
+              const m = s.match(/^([A-Za-z0-9_.-]+)\\/([A-Za-z0-9_.-]+)$/);
+              if (!m) return null;
+              return { owner: m[1], repo: m[2] };
+            }
+
+            const repoField = section("GitHub repo");
+            const reelField = section(".reel file or PR link");
+            const nameField = section("Name / slug");
+            const repo = normalizeRepo(repoField);
+
+            if (!repo || !reelField) {
+              core.setOutput("ready", "false");
+              return;
+            }
+
+            const slug = toSlug(nameField) || toSlug(repo.repo);
+            core.setOutput("ready", "true");
+            core.setOutput("slug", slug);
+            core.setOutput("reel", reelField);
+            core.setOutput("manifest_path", `apps/${slug}.toml`);
+            core.setOutput("branch", `automation/reel-${context.payload.issue.number}-${slug}`);
+            core.setOutput("pr_title", `chore: add reel metadata for ${slug} (submission #${context.payload.issue.number})`);
+
+      - name: Stop if not promotable yet
+        if: steps.derive.outputs.ready != 'true'
+        run: echo "No reel value found in issue form; skipping."
+
+      - name: Ensure manifest exists
+        if: steps.derive.outputs.ready == 'true'
+        run: |
+          if [ ! -f "${{ steps.derive.outputs.manifest_path }}" ]; then
+            echo "missing_manifest=true" >> "$GITHUB_ENV"
+          fi
+
+      - name: Comment when manifest missing
+        if: env.missing_manifest == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: "A `.reel` link was provided, but I could not find the manifest yet. Once the provisional manifest PR is merged, edit this issue again (or add/remove any label) to trigger promotion.",
+            });
+
+      - name: Update manifest demo field from reel
+        if: steps.derive.outputs.ready == 'true' && env.missing_manifest != 'true'
+        run: |
+          python - <<'PY'
+          import pathlib, re
+
+          path = pathlib.Path("${{ steps.derive.outputs.manifest_path }}")
+          reel = "${{ steps.derive.outputs.reel }}".strip()
+          text = path.read_text()
+
+          demo_line = f'demo = "{reel}"'
+
+          if re.search(r'(?m)^demo\s*=\s*".*"$', text):
+              text = re.sub(r'(?m)^demo\s*=\s*".*"$', demo_line, text, count=1)
+          else:
+              inserted = False
+              lines = text.splitlines()
+              out = []
+              for line in lines:
+                  out.append(line)
+                  if line.startswith("readme = "):
+                      out.append(demo_line)
+                      inserted = True
+              if not inserted:
+                  out2 = []
+                  for line in out:
+                      out2.append(line)
+                      if line.startswith("homepage = "):
+                          out2.append(demo_line)
+                          inserted = True
+                  out = out2
+              if not inserted:
+                  out.insert(0, demo_line)
+              text = "\n".join(out) + "\n"
+
+          path.write_text(text)
+          PY
+
+      - name: Setup Go for lint
+        if: steps.derive.outputs.ready == 'true' && env.missing_manifest != 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Run lint
+        if: steps.derive.outputs.ready == 'true' && env.missing_manifest != 'true'
+        run: go run ./cmd/lint ./apps
+
+      - id: cpr
+        if: steps.derive.outputs.ready == 'true' && env.missing_manifest != 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ${{ steps.derive.outputs.branch }}
+          commit-message: ${{ steps.derive.outputs.pr_title }}
+          title: ${{ steps.derive.outputs.pr_title }}
+          body: |
+            Added `.reel` metadata from submission issue.
+
+            - Submission: #${{ github.event.issue.number }}
+            - Manifest: `${{ steps.derive.outputs.manifest_path }}`
+          draft: true
+
+      - name: Comment issue with PR
+        if: steps.derive.outputs.ready == 'true' && env.missing_manifest != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = "${{ steps.cpr.outputs.pull-request-url }}";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: `Created/updated a draft promotion PR with your .reel metadata: ${url}`,
+            });
