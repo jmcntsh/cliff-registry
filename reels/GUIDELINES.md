@@ -182,6 +182,28 @@ Per-demo headers supported by `record-reel.sh`:
 Notes added after each batch, capturing what we changed our minds
 about. Most recent first.
 
+### Batch 3 (real-where-possible + fake disclaimer footer) — 2026-04-25
+
+- New rule: every Template 1 reel must include an explicit disclaimer
+  frame so users can tell it's a simulation. We now append this footer
+  automatically in `scripts/record-reel.sh` for any demo marked
+  `Template 1`:
+  - `simulated preview (scripted) · see README for exact behavior and options`
+- Pipeline change: disclaimer is applied at record time (not hand-edited
+  into each demo), so we don't duplicate footer logic across 28 fake
+  scripts.
+- Converted obvious safe wins to Template 2 real captures:
+  - `atac`, `bottom`, `chess-tui`, `crossword`, `dooit`, `gitui`,
+    `lazygit`, `rebels-in-the-sky`, `setrixtui`, `television`,
+    `tetrigo`.
+- Kept/returned `btop` to Template 1 despite local install:
+  - real capture surfaced recorder-specific host/process details.
+  - privacy beats realism; the scripted demo now carries the disclaimer.
+- Privacy scan pass criteria tightened:
+  - no `/Users/...` path fragments in any `.reel`
+  - no machine-specific temp paths (`/var/folders/...`)
+  - Template 1 disclaimer token present in all Template 1 artifacts.
+
 ### Batch 2 (cliff, reel, scope-tui, minesweep, weathr) — 2026-04-25
 
 - Confirmed: 5 templates 2 + 3 templates 1 in one sweep recorded clean

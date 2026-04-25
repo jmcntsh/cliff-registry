@@ -56,7 +56,37 @@ fi
 # the .reel is regenerable, so clobbering is safe.
 rm -f "$out"
 
-reel_args=(--size "$size" --command "bash $demo" "$out")
+is_template1="false"
+if grep -q "Template 1" "$demo"; then
+  is_template1="true"
+fi
+
+runner="$(mktemp "${TMPDIR:-/tmp}/cliff-reel-runner.XXXXXX.sh")"
+trap 'rm -f "$runner"' EXIT
+
+if [[ "$is_template1" == "true" ]]; then
+  cat >"$runner" <<EOF
+#!/usr/bin/env bash
+set -euo pipefail
+bash "$demo"
+# Keep this tiny and muted so it reads as an honesty footer, not as
+# the demo's main content.
+printf '\n'
+printf '\033[2m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m\n'
+printf '\033[2m  simulated preview (scripted) · see README for exact behavior and options\033[0m\n'
+sleep 2.0
+clear
+EOF
+else
+  cat >"$runner" <<EOF
+#!/usr/bin/env bash
+set -euo pipefail
+exec bash "$demo"
+EOF
+fi
+chmod +x "$runner"
+
+reel_args=(--size "$size" --command "bash $runner" "$out")
 
 if ! command -v reel >/dev/null 2>&1; then
   echo "reel not on PATH. Install with: go install github.com/jmcntsh/reel/cmd/reel@latest" >&2
