@@ -1,0 +1,147 @@
+name: auto-seed
+
+on:
+  schedule:
+    # Mondays 14:00 UTC (one weekly run per language batch)
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+    inputs:
+      install_type:
+        description: "Which install type to seed"
+        required: true
+        default: "go"
+        type: choice
+        options:
+          - go
+          - cargo
+          - pipx
+          - npm
+      max_manifests:
+        description: "Cap on emitted manifests"
+        required: true
+        default: "15"
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Only the scheduled run uses the matrix; manual dispatch
+        # picks one type via workflow_dispatch input.
+        install_type:
+          - go
+          - cargo
+          - pipx
+          - npm
+    steps:
+      - name: Checkout cliff-registry
+        uses: actions/checkout@v4
+
+      - name: Checkout cliff (for the seeding script)
+        uses: actions/checkout@v4
+        with:
+          repository: jmcntsh/cliff
+          path: .cliff-tools
+          fetch-depth: 1
+
+      - name: Pick install type
+        id: pick
+        env:
+          MATRIX_TYPE: ${{ matrix.install_type }}
+          DISPATCH_TYPE: ${{ inputs.install_type }}
+          DISPATCH_MAX: ${{ inputs.max_manifests }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ "$DISPATCH_TYPE" != "$MATRIX_TYPE" ]; then
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "install_type=$DISPATCH_TYPE" >> "$GITHUB_OUTPUT"
+            echo "max_manifests=$DISPATCH_MAX" >> "$GITHUB_OUTPUT"
+          else
+            echo "install_type=$MATRIX_TYPE" >> "$GITHUB_OUTPUT"
+            echo "max_manifests=15" >> "$GITHUB_OUTPUT"
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Run seeding script
+        if: steps.pick.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd .cliff-tools
+          flag="--emit-${{ steps.pick.outputs.install_type }}-manifests"
+          extra_verify=""
+          if [ "${{ steps.pick.outputs.install_type }}" != "go" ]; then
+            extra_verify="--verify-registry"
+          fi
+          python3 scripts/seed_registry_from_github.py \
+            --since "$(date -u -d '1 year ago' +%F)" \
+            --min-stars 75 \
+            --limit 1000 \
+            --rules-file scripts/seeding-rules-catalog.toml \
+            --out-dir /tmp/seed \
+            --registry-dir "$GITHUB_WORKSPACE" \
+            "$flag" \
+            --max-manifests ${{ steps.pick.outputs.max_manifests }} \
+            $extra_verify
+
+      - name: Stage manifests into apps/
+        if: steps.pick.outputs.skip != 'true'
+        id: stage
+        run: |
+          dir="/tmp/seed/manifests-${{ steps.pick.outputs.install_type }}"
+          if [ ! -d "$dir" ] || [ -z "$(ls -A "$dir" 2>/dev/null)" ]; then
+            echo "no manifests emitted for ${{ steps.pick.outputs.install_type }}; skipping PR"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          cp "$dir"/*.toml apps/
+          count=$(ls -1 "$dir"/*.toml | wc -l | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+
+      - name: Lint
+        if: steps.stage.outputs.has_changes == 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Run lint
+        if: steps.stage.outputs.has_changes == 'true'
+        run: go run ./cmd/lint ./apps
+
+      - name: Open PR
+        if: steps.stage.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto-seed/${{ steps.pick.outputs.install_type }}-${{ github.run_id }}
+          delete-branch: true
+          commit-message: |
+            seed: ${{ steps.stage.outputs.count }} ${{ steps.pick.outputs.install_type }} CLIs/TUIs (auto)
+          title: |
+            seed: ${{ steps.stage.outputs.count }} ${{ steps.pick.outputs.install_type }} CLIs/TUIs (auto)
+          body: |
+            Auto-generated weekly seeding batch.
+
+            - Install type: `${{ steps.pick.outputs.install_type }}`
+            - Source: `scripts/seed_registry_from_github.py` in jmcntsh/cliff
+            - Rules: `scripts/seeding-rules-catalog.toml` (fastlane)
+            - Cap: `${{ steps.pick.outputs.max_manifests }}` manifests
+            - Verification: `--verify-registry` for non-Go install types
+
+            This PR is opened as **draft**. Review for AI-agent meta /
+            framework / library noise before merging. The seeding rules
+            file is the right place to fix repeated false positives.
+          draft: true
+          labels: |
+            auto-seed
+            ${{ steps.pick.outputs.install_type }}
