@@ -1,0 +1,11 @@
+name = "xfr"
+description = "A modern iperf3 alternative with a live TUI, multi-client server, and QUIC support. Built in Rust."
+author = "lance0"
+homepage = "https://github.com/lance0/xfr"
+readme = "https://raw.githubusercontent.com/lance0/xfr/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "cargo"
+package = "xfr"

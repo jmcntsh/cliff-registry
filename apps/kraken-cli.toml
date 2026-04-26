@@ -1,0 +1,11 @@
+name = "kraken-cli"
+description = "The first AI-native CLI for trading crypto, stocks, forex, and derivatives."
+author = "krakenfx"
+homepage = "https://github.com/krakenfx/kraken-cli"
+readme = "https://raw.githubusercontent.com/krakenfx/kraken-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "kraken-cli"

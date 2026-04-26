@@ -1,0 +1,11 @@
+name = "keifu"
+description = "Git genealogy, untangled. A TUI for navigating commit graphs with color and clarity."
+author = "trasta298"
+homepage = "https://github.com/trasta298/keifu"
+readme = "https://raw.githubusercontent.com/trasta298/keifu/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "keifu"

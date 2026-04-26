@@ -1,0 +1,11 @@
+name = "ekphos"
+description = "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian"
+author = "hanebox"
+homepage = "https://github.com/hanebox/ekphos"
+readme = "https://raw.githubusercontent.com/hanebox/ekphos/release/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "ekphos"

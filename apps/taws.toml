@@ -1,0 +1,11 @@
+name = "taws"
+description = "Terminal UI for AWS (taws) - A terminal-based AWS resource viewer and manager"
+author = "huseyinbabal"
+homepage = "https://github.com/huseyinbabal/taws"
+readme = "https://raw.githubusercontent.com/huseyinbabal/taws/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "taws"

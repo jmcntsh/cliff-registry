@@ -1,0 +1,11 @@
+name = "horizon"
+description = "GPU-accelerated terminal board that puts all your sessions on an infinite canvas"
+author = "peters"
+homepage = "https://github.com/peters/horizon"
+readme = "https://raw.githubusercontent.com/peters/horizon/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "horizon"

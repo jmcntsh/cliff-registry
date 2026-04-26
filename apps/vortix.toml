@@ -1,0 +1,11 @@
+name = "vortix"
+description = "Terminal UI for WireGuard and OpenVPN with real-time telemetry and leak guarding."
+author = "Harry-kp"
+homepage = "https://github.com/Harry-kp/vortix"
+readme = "https://raw.githubusercontent.com/Harry-kp/vortix/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "vortix"

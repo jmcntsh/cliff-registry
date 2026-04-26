@@ -1,0 +1,11 @@
+name = "ttl"
+description = "Fast, modern traceroute with real-time TUI, per-hop stats, ASN/geo lookup, ECMP detection, and MPLS label parsing. A..."
+author = "lance0"
+homepage = "https://github.com/lance0/ttl"
+readme = "https://raw.githubusercontent.com/lance0/ttl/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "cargo"
+package = "ttl"

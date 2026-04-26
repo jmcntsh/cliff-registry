@@ -1,0 +1,11 @@
+name = "xleak"
+description = "A fast terminal Excel viewer with an interactive TUI. Features full-text search, formula display, lazy loading for la..."
+author = "bgreenwell"
+homepage = "https://github.com/bgreenwell/xleak"
+readme = "https://raw.githubusercontent.com/bgreenwell/xleak/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "xleak"

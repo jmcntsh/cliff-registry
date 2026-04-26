@@ -1,0 +1,11 @@
+name = "rattles"
+description = "🪇 Minimal terminal spinners for Rust"
+author = "vyfor"
+homepage = "https://github.com/vyfor/rattles"
+readme = "https://raw.githubusercontent.com/vyfor/rattles/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "rattles"
