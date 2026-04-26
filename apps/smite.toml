@@ -1,0 +1,11 @@
+name = "smite"
+description = "Modern tunnel management built on GOST, Backhaul, FRP, Chisel and Rathole, featuring an intuitive WebUI, fast CLI, an..."
+author = "zZedix"
+homepage = "https://github.com/zZedix/Smite"
+readme = "https://raw.githubusercontent.com/zZedix/Smite/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "Smite"

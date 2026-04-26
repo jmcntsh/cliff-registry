@@ -1,0 +1,11 @@
+name = "httptap"
+description = "Rich-powered CLI that breaks each HTTP request into DNS, connect, TLS, wait, and transfer phases with waterfall timel..."
+author = "ozeranskii"
+homepage = "https://github.com/ozeranskii/httptap"
+readme = "https://raw.githubusercontent.com/ozeranskii/httptap/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "pipx"
+package = "httptap"

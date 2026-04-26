@@ -1,0 +1,11 @@
+name = "qrcode-pretty"
+description = "Generate pretty QR codes right from your terminal"
+author = "mrinfinidy"
+homepage = "https://github.com/mrinfinidy/qrcode-pretty"
+readme = "https://raw.githubusercontent.com/mrinfinidy/qrcode-pretty/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[install]
+type = "pipx"
+package = "qrcode-pretty"

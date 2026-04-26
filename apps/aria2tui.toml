@@ -1,0 +1,11 @@
+name = "aria2tui"
+description = "Aria2TUI is a TUI client for the Aria2 download utility."
+author = "grimandgreedy"
+homepage = "https://github.com/grimandgreedy/aria2tui"
+readme = "https://raw.githubusercontent.com/grimandgreedy/aria2tui/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "aria2tui"

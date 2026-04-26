@@ -1,0 +1,11 @@
+name = "desto"
+description = "web-interface and cli to manage python and shell scripts in tmux sessions"
+author = "kalfasyan"
+homepage = "https://github.com/kalfasyan/desto"
+readme = "https://raw.githubusercontent.com/kalfasyan/desto/main/README.md"
+tags = ["cli"]
+license = "CC-BY-4.0"
+
+[install]
+type = "pipx"
+package = "desto"

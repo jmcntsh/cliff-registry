@@ -1,0 +1,11 @@
+name = "cinecli"
+description = "CineCLI is a cross-platform command-line movie browser built with Python."
+author = "eyeblech"
+homepage = "https://github.com/eyeblech/cinecli"
+readme = "https://raw.githubusercontent.com/eyeblech/cinecli/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "cinecli"

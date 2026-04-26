@@ -1,0 +1,11 @@
+name = "toad"
+description = "A unified interface for AI in your terminal."
+author = "batrachianai"
+homepage = "https://github.com/batrachianai/toad"
+readme = "https://raw.githubusercontent.com/batrachianai/toad/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[install]
+type = "pipx"
+package = "toad"

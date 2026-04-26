@@ -1,0 +1,11 @@
+name = "shifter"
+description = "A lightweight Linux toolkit for managing GOST, HAProxy, Xray, and iptables — with a built-in WebUI and CLI."
+author = "zZedix"
+homepage = "https://github.com/zZedix/Shifter"
+readme = "https://raw.githubusercontent.com/zZedix/Shifter/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "Shifter"
