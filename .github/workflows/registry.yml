@@ -26,6 +26,10 @@ jobs:
       - run: go vet ./...
       - run: go test ./...
       - run: go run ./cmd/lint ./apps
+      # Reel guardrails: block path leaks and missing disclaimers before
+      # publishing. Cheap (json grep, stdlib-only), runs after manifest
+      # lint so reel issues only surface when manifests are sane.
+      - run: python3 scripts/lint-reels.py
 
   publish:
     needs: lint
