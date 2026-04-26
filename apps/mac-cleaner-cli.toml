@@ -1,0 +1,11 @@
+name = "mac-cleaner-cli"
+description = "macOS CLI to free disk space — clears caches, logs, Homebrew and Xcode junk"
+author = "guhcostan"
+homepage = "https://github.com/guhcostan/mac-cleaner-cli"
+readme = "https://raw.githubusercontent.com/guhcostan/mac-cleaner-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "mac-cleaner-cli"

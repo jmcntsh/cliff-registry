@@ -1,0 +1,11 @@
+name = "youtube-music-cli"
+description = "A powerful Terminal User Interface (TUI) music player for YouTube Music"
+author = "involvex"
+homepage = "https://github.com/involvex/youtube-music-cli"
+readme = "https://raw.githubusercontent.com/involvex/youtube-music-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "youtube-music-cli"

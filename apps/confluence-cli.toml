@@ -1,0 +1,11 @@
+name = "confluence-cli"
+description = "A powerful command-line interface for Atlassian Confluence"
+author = "pchuri"
+homepage = "https://github.com/pchuri/confluence-cli"
+readme = "https://raw.githubusercontent.com/pchuri/confluence-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "confluence-cli"

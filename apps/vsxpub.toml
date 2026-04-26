@@ -1,0 +1,11 @@
+name = "vsxpub"
+description = "A CLI tool to publish VS Code extensions to Marketplace, OpenVSX, and GitHub Releases."
+author = "jinghaihan"
+homepage = "https://github.com/jinghaihan/vsxpub"
+readme = "https://raw.githubusercontent.com/jinghaihan/vsxpub/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "vsxpub"

@@ -1,0 +1,11 @@
+name = "i18next-cli"
+description = "A unified, high-performance i18next CLI."
+author = "i18next"
+homepage = "https://github.com/i18next/i18next-cli"
+readme = "https://raw.githubusercontent.com/i18next/i18next-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "i18next-cli"
