@@ -1,0 +1,11 @@
+name = "surge"
+description = "Blazing fast TUI download manager built in Go for power users"
+author = "SurgeDM"
+homepage = "https://github.com/SurgeDM/Surge"
+readme = "https://raw.githubusercontent.com/SurgeDM/Surge/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/SurgeDM/Surge@latest"

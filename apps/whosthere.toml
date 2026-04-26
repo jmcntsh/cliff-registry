@@ -1,0 +1,11 @@
+name = "whosthere"
+description = "Local Area Network discovery tool with an interactive Terminal User Interface (TUI) written in Go.  Discover, explore..."
+author = "ramonvermeulen"
+homepage = "https://github.com/ramonvermeulen/whosthere"
+readme = "https://raw.githubusercontent.com/ramonvermeulen/whosthere/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "go"
+package = "github.com/ramonvermeulen/whosthere@latest"

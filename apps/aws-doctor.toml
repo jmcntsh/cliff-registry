@@ -1,0 +1,11 @@
+name = "aws-doctor"
+description = "Powerful open-source CLI to audit security, costs, and best practices in AWS. 🩺 ☁️"
+author = "elC0mpa"
+homepage = "https://github.com/elC0mpa/aws-doctor"
+readme = "https://raw.githubusercontent.com/elC0mpa/aws-doctor/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/elC0mpa/aws-doctor@latest"

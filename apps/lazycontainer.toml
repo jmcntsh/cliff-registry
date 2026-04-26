@@ -1,0 +1,11 @@
+name = "lazycontainer"
+description = "Fancy terminal UI for Apple Containers"
+author = "andreybleme"
+homepage = "https://github.com/andreybleme/lazycontainer"
+readme = "https://raw.githubusercontent.com/andreybleme/lazycontainer/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/andreybleme/lazycontainer@latest"

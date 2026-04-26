@@ -1,0 +1,11 @@
+name = "pomo"
+description = "Customizable TUI Pomodoro timer with ASCII art, progress bar, desktop notifications, and productivity statistics."
+author = "Bahaaio"
+homepage = "https://github.com/Bahaaio/pomo"
+readme = "https://raw.githubusercontent.com/Bahaaio/pomo/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/Bahaaio/pomo@latest"

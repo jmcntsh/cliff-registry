@@ -1,0 +1,11 @@
+name = "wacli"
+description = "WhatsApp CLI"
+author = "steipete"
+homepage = "https://github.com/steipete/wacli"
+readme = "https://raw.githubusercontent.com/steipete/wacli/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[install]
+type = "go"
+package = "github.com/steipete/wacli@latest"

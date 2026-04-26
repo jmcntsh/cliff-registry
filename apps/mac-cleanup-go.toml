@@ -1,0 +1,11 @@
+name = "mac-cleanup-go"
+description = "TUI macOS cleaner that scans caches/logs, shows sizes/paths, lets you select what to delete before Trash."
+author = "2ykwang"
+homepage = "https://github.com/2ykwang/mac-cleanup-go"
+readme = "https://raw.githubusercontent.com/2ykwang/mac-cleanup-go/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/2ykwang/mac-cleanup-go@latest"

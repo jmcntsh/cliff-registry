@@ -1,0 +1,11 @@
+name = "drift"
+description = "Terminal screensaver that activates when idle: constellations, rain, particles & more. Press any key to resume."
+author = "phlx0"
+homepage = "https://github.com/phlx0/drift"
+readme = "https://raw.githubusercontent.com/phlx0/drift/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/phlx0/drift@latest"

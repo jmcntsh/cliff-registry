@@ -1,0 +1,11 @@
+name = "app-store-connect-cli"
+description = "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, scr..."
+author = "rorkai"
+homepage = "https://github.com/rorkai/App-Store-Connect-CLI"
+readme = "https://raw.githubusercontent.com/rorkai/App-Store-Connect-CLI/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/rorkai/App-Store-Connect-CLI@latest"

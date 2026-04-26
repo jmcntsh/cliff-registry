@@ -1,0 +1,11 @@
+name = "lazyssh"
+description = "A terminal-based SSH manager inspired by lazydocker and k9s - Written in go"
+author = "Adembc"
+homepage = "https://github.com/Adembc/lazyssh"
+readme = "https://raw.githubusercontent.com/Adembc/lazyssh/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "go"
+package = "github.com/Adembc/lazyssh@latest"

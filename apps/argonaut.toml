@@ -1,0 +1,11 @@
+name = "argonaut"
+description = "Keyboard-first terminal UI for Argo CD. Browse apps, scope by clusters/namespaces/projects, stream live resource stat..."
+author = "darksworm"
+homepage = "https://github.com/darksworm/argonaut"
+readme = "https://raw.githubusercontent.com/darksworm/argonaut/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[install]
+type = "go"
+package = "github.com/darksworm/argonaut@latest"

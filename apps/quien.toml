@@ -1,0 +1,11 @@
+name = "quien"
+description = "A better whois and domain intelligence toolkit"
+author = "retlehs"
+homepage = "https://github.com/retlehs/quien"
+readme = "https://raw.githubusercontent.com/retlehs/quien/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/retlehs/quien@latest"

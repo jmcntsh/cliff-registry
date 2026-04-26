@@ -1,0 +1,11 @@
+name = "lazycut"
+description = "A simple terminal UI for video trimming"
+author = "ozemin"
+homepage = "https://github.com/ozemin/lazycut"
+readme = "https://raw.githubusercontent.com/ozemin/lazycut/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/ozemin/lazycut@latest"

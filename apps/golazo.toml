@@ -1,0 +1,11 @@
+name = "golazo"
+description = "The beautiful game in your terminal. Minimal TUI app to keep up with live & recent football/soccer matches written in..."
+author = "0xjuanma"
+homepage = "https://github.com/0xjuanma/golazo"
+readme = "https://raw.githubusercontent.com/0xjuanma/golazo/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/0xjuanma/golazo@latest"
