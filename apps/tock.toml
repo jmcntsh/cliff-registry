@@ -1,0 +1,11 @@
+name = "tock"
+description = "Tock is a powerful time tracking tool for the command line."
+author = "kriuchkov"
+homepage = "https://github.com/kriuchkov/tock"
+readme = "https://raw.githubusercontent.com/kriuchkov/tock/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[install]
+type = "go"
+package = "github.com/kriuchkov/tock@latest"

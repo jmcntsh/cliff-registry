@@ -1,0 +1,11 @@
+name = "wtp"
+description = "🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation"
+author = "satococoa"
+homepage = "https://github.com/satococoa/wtp"
+readme = "https://raw.githubusercontent.com/satococoa/wtp/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/satococoa/wtp@latest"

@@ -1,0 +1,11 @@
+name = "kula"
+description = "Lightweight, self-contained Linux® server monitoring tool"
+author = "c0m4r"
+homepage = "https://github.com/c0m4r/kula"
+readme = "https://raw.githubusercontent.com/c0m4r/kula/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[install]
+type = "go"
+package = "github.com/c0m4r/kula@latest"

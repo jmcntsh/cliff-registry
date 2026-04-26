@@ -1,0 +1,11 @@
+name = "resterm"
+description = "Terminal API client for HTTP/GraphQL/gRPC with support for SSH tunnels, WebSockets, SSE, Workflows, Profiling, OpenAP..."
+author = "unkn0wn-root"
+homepage = "https://github.com/unkn0wn-root/resterm"
+readme = "https://raw.githubusercontent.com/unkn0wn-root/resterm/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "go"
+package = "github.com/unkn0wn-root/resterm@latest"

@@ -1,0 +1,11 @@
+name = "beads-viewer"
+description = "Graph-aware TUI for the Beads issue tracker: PageRank, critical path, kanban, dependency DAG visualization, and robot..."
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/beads_viewer"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/beads_viewer/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[install]
+type = "go"
+package = "github.com/Dicklesworthstone/beads_viewer@latest"

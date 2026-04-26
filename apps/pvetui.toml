@@ -1,0 +1,11 @@
+name = "pvetui"
+description = "Terminal UI for Proxmox VE"
+author = "devnullvoid"
+homepage = "https://github.com/devnullvoid/pvetui"
+readme = "https://raw.githubusercontent.com/devnullvoid/pvetui/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/devnullvoid/pvetui@latest"

@@ -1,0 +1,11 @@
+name = "aptui"
+description = "TUI package manager for APT-based Linux distributions"
+author = "mexirica"
+homepage = "https://github.com/mexirica/aptui"
+readme = "https://raw.githubusercontent.com/mexirica/aptui/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/mexirica/aptui@latest"

@@ -1,0 +1,11 @@
+name = "xytz"
+description = "A Beautiful YouTube Downloader/Player TUI"
+author = "xdagiz"
+homepage = "https://github.com/xdagiz/xytz"
+readme = "https://raw.githubusercontent.com/xdagiz/xytz/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "go"
+package = "github.com/xdagiz/xytz@latest"
