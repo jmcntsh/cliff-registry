@@ -1,0 +1,11 @@
+name = "jdsh"
+description = "Awesome CLI and TUI for JDownloader2"
+author = "Al00X"
+homepage = "https://github.com/Al00X/jdsh"
+readme = "https://raw.githubusercontent.com/Al00X/jdsh/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "jdsh"

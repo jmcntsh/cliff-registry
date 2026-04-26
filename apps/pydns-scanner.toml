@@ -1,0 +1,11 @@
+name = "pydns-scanner"
+description = "A modern, high-performance DNS scanner with a beautiful Terminal User Interface (TUI) built with Textual. This tool c..."
+author = "xullexer"
+homepage = "https://github.com/xullexer/PYDNS-Scanner"
+readme = "https://raw.githubusercontent.com/xullexer/PYDNS-Scanner/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "PYDNS-Scanner"

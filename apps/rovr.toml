@@ -1,0 +1,11 @@
+name = "rovr"
+description = "A post-modern terminal file manager."
+author = "NSPC911"
+homepage = "https://github.com/NSPC911/rovr"
+readme = "https://raw.githubusercontent.com/NSPC911/rovr/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "rovr"

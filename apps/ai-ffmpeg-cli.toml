@@ -1,0 +1,11 @@
+name = "ai-ffmpeg-cli"
+description = "AI-powered CLI that translates natural language into safe, reviewable ffmpeg commands."
+author = "d-k-patel"
+homepage = "https://github.com/d-k-patel/ai-ffmpeg-cli"
+readme = "https://raw.githubusercontent.com/d-k-patel/ai-ffmpeg-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "ai-ffmpeg-cli"

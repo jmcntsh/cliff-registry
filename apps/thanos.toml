@@ -1,0 +1,11 @@
+name = "thanos"
+description = "A CLI tool that deletes half your files — perfectly balanced, as all things should be."
+author = "soldatov-ss"
+homepage = "https://github.com/soldatov-ss/thanos"
+readme = "https://raw.githubusercontent.com/soldatov-ss/thanos/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "thanos"

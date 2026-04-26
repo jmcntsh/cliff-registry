@@ -1,0 +1,11 @@
+name = "epub-utils"
+description = "A Python library and CLI tool for inspecting ePub from the terminal"
+author = "ernestofgonzalez"
+homepage = "https://github.com/ernestofgonzalez/epub-utils"
+readme = "https://raw.githubusercontent.com/ernestofgonzalez/epub-utils/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "pipx"
+package = "epub-utils"

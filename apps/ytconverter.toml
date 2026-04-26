@@ -1,0 +1,11 @@
+name = "ytconverter"
+description = "The ytconverter is a CLI tool for downloading YouTube videos in various format directly from the terminal. It leverag..."
+author = "kaifcodec"
+homepage = "https://github.com/kaifcodec/ytconverter"
+readme = "https://raw.githubusercontent.com/kaifcodec/ytconverter/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "ytconverter"

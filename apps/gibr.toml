@@ -1,0 +1,11 @@
+name = "gibr"
+description = "A smarter CLI for creating Git branches."
+author = "ytreister"
+homepage = "https://github.com/ytreister/gibr"
+readme = "https://raw.githubusercontent.com/ytreister/gibr/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "pipx"
+package = "gibr"

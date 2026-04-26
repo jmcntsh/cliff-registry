@@ -1,0 +1,11 @@
+name = "lexy"
+description = "Lexy is a lightweight CLI tool that fetches programming tutorials from 'Learn X in Y Minutes' directly into your term..."
+author = "antoniorodr"
+homepage = "https://github.com/antoniorodr/lexy"
+readme = "https://raw.githubusercontent.com/antoniorodr/lexy/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "pipx"
+package = "lexy"
