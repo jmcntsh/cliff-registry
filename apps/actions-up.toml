@@ -1,0 +1,11 @@
+name = "actions-up"
+description = "🌊 Interactive CLI tool to update GitHub Actions to latest versions with SHA pinning"
+author = "azat-io"
+homepage = "https://github.com/azat-io/actions-up"
+readme = "https://raw.githubusercontent.com/azat-io/actions-up/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "actions-up"

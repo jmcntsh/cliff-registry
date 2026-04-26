@@ -1,0 +1,11 @@
+name = "snapai"
+description = "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenA..."
+author = "betomoedano"
+homepage = "https://github.com/betomoedano/snapai"
+readme = "https://raw.githubusercontent.com/betomoedano/snapai/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "snapai"

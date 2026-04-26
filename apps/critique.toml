@@ -1,0 +1,11 @@
+name = "critique"
+description = "TUI for reviewing git changes"
+author = "remorses"
+homepage = "https://github.com/remorses/critique"
+readme = "https://raw.githubusercontent.com/remorses/critique/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "critique"

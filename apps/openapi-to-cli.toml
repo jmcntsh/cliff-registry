@@ -1,0 +1,11 @@
+name = "openapi-to-cli"
+description = "Turns any OpenAPI/Swagger API into an CLI with set of commands. One CLI command per endpoint."
+author = "EvilFreelancer"
+homepage = "https://github.com/EvilFreelancer/openapi-to-cli"
+readme = "https://raw.githubusercontent.com/EvilFreelancer/openapi-to-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "npm"
+package = "openapi-to-cli"
