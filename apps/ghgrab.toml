@@ -1,0 +1,11 @@
+name = "ghgrab"
+description = "A simple, pretty terminal tool that lets you search and download files from GitHub without leaving your CLI."
+author = "abhixdd"
+homepage = "https://github.com/abhixdd/ghgrab"
+readme = "https://raw.githubusercontent.com/abhixdd/ghgrab/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "ghgrab"

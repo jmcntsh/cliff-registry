@@ -1,0 +1,11 @@
+name = "superseedr"
+description = "A BitTorrent Client in your Terminal"
+author = "Jagalite"
+homepage = "https://github.com/Jagalite/superseedr"
+readme = "https://raw.githubusercontent.com/Jagalite/superseedr/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[install]
+type = "cargo"
+package = "superseedr"

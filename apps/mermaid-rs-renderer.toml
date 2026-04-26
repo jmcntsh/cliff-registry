@@ -1,0 +1,11 @@
+name = "mermaid-rs-renderer"
+description = "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
+author = "1jehuang"
+homepage = "https://github.com/1jehuang/mermaid-rs-renderer"
+readme = "https://raw.githubusercontent.com/1jehuang/mermaid-rs-renderer/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "mermaid-rs-renderer"

@@ -1,0 +1,11 @@
+name = "cloudflare-speed-cli"
+description = "CLI for internet speed test via cloudflare"
+author = "kavehtehrani"
+homepage = "https://github.com/kavehtehrani/cloudflare-speed-cli"
+readme = "https://raw.githubusercontent.com/kavehtehrani/cloudflare-speed-cli/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[install]
+type = "cargo"
+package = "cloudflare-speed-cli"

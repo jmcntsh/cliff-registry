@@ -1,0 +1,11 @@
+name = "rip"
+description = "Fuzzy find and kill processes from your terminal"
+author = "cesarferreira"
+homepage = "https://github.com/cesarferreira/rip"
+readme = "https://raw.githubusercontent.com/cesarferreira/rip/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "rip"

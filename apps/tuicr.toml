@@ -1,0 +1,11 @@
+name = "tuicr"
+description = "a terminal UI for local code review"
+author = "agavra"
+homepage = "https://github.com/agavra/tuicr"
+readme = "https://raw.githubusercontent.com/agavra/tuicr/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "tuicr"

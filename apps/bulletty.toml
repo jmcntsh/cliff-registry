@@ -1,0 +1,11 @@
+name = "bulletty"
+description = "bulletty is a pretty feed reader for the terminal that stores the articles as Markdown"
+author = "crocidb"
+homepage = "https://github.com/crocidb/bulletty"
+readme = "https://raw.githubusercontent.com/crocidb/bulletty/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "bulletty"

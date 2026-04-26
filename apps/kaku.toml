@@ -1,0 +1,11 @@
+name = "kaku"
+description = "🎃 A fast, out-of-the-box terminal built for AI coding."
+author = "tw93"
+homepage = "https://github.com/tw93/Kaku"
+readme = "https://raw.githubusercontent.com/tw93/Kaku/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[install]
+type = "cargo"
+package = "Kaku"

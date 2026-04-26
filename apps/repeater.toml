@@ -1,0 +1,11 @@
+name = "repeater"
+description = "Spaced repetition, in your terminal"
+author = "shaankhosla"
+homepage = "https://github.com/shaankhosla/repeater"
+readme = "https://raw.githubusercontent.com/shaankhosla/repeater/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "cargo"
+package = "repeater"

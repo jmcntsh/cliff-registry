@@ -1,0 +1,11 @@
+name = "spotatui"
+description = "A fully standalone Spotify client for the terminal. Native streaming included, no daemon required."
+author = "LargeModGames"
+homepage = "https://github.com/LargeModGames/spotatui"
+readme = "https://raw.githubusercontent.com/LargeModGames/spotatui/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "spotatui"

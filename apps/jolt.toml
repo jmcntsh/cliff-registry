@@ -1,0 +1,11 @@
+name = "jolt"
+description = "⚡️A terminal-based battery and energy monitor for macOS and Linux."
+author = "jordond"
+homepage = "https://github.com/jordond/jolt"
+readme = "https://raw.githubusercontent.com/jordond/jolt/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "jolt"

@@ -1,0 +1,11 @@
+name = "bookokrat"
+description = "A terminal EPUB / PDF Book Reader (+djvu)"
+author = "bugzmanov"
+homepage = "https://github.com/bugzmanov/bookokrat"
+readme = "https://raw.githubusercontent.com/bugzmanov/bookokrat/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[install]
+type = "cargo"
+package = "bookokrat"

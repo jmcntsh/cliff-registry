@@ -1,0 +1,11 @@
+name = "treemd"
+description = "A (TUI/CLI) markdown navigator with tree-based structural navigation."
+author = "Epistates"
+homepage = "https://github.com/Epistates/treemd"
+readme = "https://raw.githubusercontent.com/Epistates/treemd/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[install]
+type = "cargo"
+package = "treemd"

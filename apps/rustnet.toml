@@ -1,0 +1,11 @@
+name = "rustnet"
+description = "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed."
+author = "domcyrus"
+homepage = "https://github.com/domcyrus/rustnet"
+readme = "https://raw.githubusercontent.com/domcyrus/rustnet/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[install]
+type = "cargo"
+package = "rustnet"
