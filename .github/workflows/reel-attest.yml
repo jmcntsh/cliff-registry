@@ -1,0 +1,273 @@
+name: reel-attest
+
+# Verify that PRs touching reels/<slug>.reel are opened by a
+# maintainer of the upstream repo for that slug. Auto-labels and
+# comments; the actual merge stays manual. The whole point of this
+# workflow is to make a one-glance "is this person an actual
+# maintainer?" decision visible on the PR without forcing the
+# reviewer to chase that down by hand.
+#
+# Trigger choice: pull_request_target. Reasons:
+#   - We need the GITHUB_TOKEN to comment on / label / create-issues
+#     against the registry repo. Vanilla pull_request from a fork
+#     gets a read-only token, which can't do either.
+#   - We never check out PR code. We only read `apps/<slug>.toml`
+#     from the base branch (already-trusted) and call `gh api`.
+#     That's the standard safe-use pattern for pull_request_target.
+#
+# What "maintainer" means here:
+#   - PR author is a collaborator on the repo (the GitHub API
+#     treats the owner as a collaborator with admin permission, so
+#     this catches single-user repos for free), OR
+#   - PR author is a public member of the org that owns the repo.
+# Either passes. Neither → the comment says "held for manual
+# review" and no label is added. The PR is not rejected; it's
+# just held for a human to look at.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "reels/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  # One attestation per PR head SHA. Re-pushing the same SHA
+  # shouldn't pile on duplicate comments.
+  group: reel-attest-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the BASE branch, not the PR head. We're reading
+      # trusted manifests, not running anything from the fork.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+
+      - id: changed
+        name: List changed reel slugs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUM: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          # gh pr diff returns the raw diff; we extract added/modified
+          # files under reels/. We only care about *.reel files —
+          # demo.sh edits don't ship to clients (only `.reel` does)
+          # and don't need ownership attestation, since the recorded
+          # artifact is what carries the upstream's UI.
+          mapfile -t files < <(
+            gh pr view "$PR_NUM" --json files --jq '.files[].path' \
+              | grep -E '^reels/[^/]+\.reel$' \
+              | sort -u || true
+          )
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "no .reel files touched; nothing to attest"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # Slugs from filenames: reels/<slug>.reel -> <slug>
+          slugs=$(printf '%s\n' "${files[@]}" \
+                  | sed -E 's#^reels/([^/]+)\.reel$#\1#')
+          {
+            echo "skip=false"
+            echo "slugs<<EOF"
+            echo "$slugs"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - id: attest
+        name: Attest each slug against its manifest's repo
+        if: steps.changed.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          SLUGS: ${{ steps.changed.outputs.slugs }}
+        run: |
+          set -euo pipefail
+
+          # Output buffers. lines[] is the per-slug verdict shown in
+          # the PR comment; verdicts is the set of distinct outcomes
+          # ("pass" / "fail" / "no-manifest" / "no-github") used to
+          # decide whether to apply the attested-owner label.
+          lines=()
+          verdicts=()
+
+          # parse_homepage <toml-path> -> "owner/repo" or empty.
+          # Reads the `homepage` field, accepts either
+          # github.com/<owner>/<repo> or *.github.io/-style URLs
+          # (which we can't auto-attest from). Only github.com
+          # repo URLs produce a non-empty result.
+          parse_homepage() {
+            local path="$1"
+            local hp
+            hp=$(awk -F' = ' '
+              /^homepage[[:space:]]*=/ {
+                v=$2; gsub(/^["[:space:]]+|["[:space:]]+$/, "", v); print v; exit
+              }' "$path")
+            # Strip protocol and trailing slash.
+            hp="${hp#http://}"
+            hp="${hp#https://}"
+            hp="${hp%/}"
+            case "$hp" in
+              github.com/*/*)
+                # Take exactly two path segments after the host.
+                local rest="${hp#github.com/}"
+                local owner="${rest%%/*}"
+                local rest2="${rest#*/}"
+                local repo="${rest2%%/*}"
+                # Strip a trailing .git, just in case.
+                repo="${repo%.git}"
+                if [ -n "$owner" ] && [ -n "$repo" ]; then
+                  printf '%s/%s' "$owner" "$repo"
+                fi
+                ;;
+            esac
+          }
+
+          # is_maintainer <owner> <repo> <user> -> "yes" / "no".
+          # "yes" if the user has any push/admin permission on the
+          # repo, or is a public org member of the owning org. The
+          # repo owner is automatically a collaborator with admin
+          # permission, so we don't special-case owner == user.
+          #
+          # Both checks use gh api exit codes:
+          #   - GET /repos/.../collaborators/<user> returns 204 (exit 0)
+          #     when the user is a collaborator and 404 (exit non-zero)
+          #     otherwise. We don't care about other failure modes
+          #     enough to distinguish — a transient error gets the
+          #     same "no" verdict as a real "not a maintainer", which
+          #     means the PR is held for human review. That's the
+          #     safe default.
+          #   - GET /orgs/<owner>/public_members/<user> is the same
+          #     shape for org membership.
+          is_maintainer() {
+            local owner="$1" repo="$2" user="$3"
+            if gh api "repos/$owner/$repo/collaborators/$user" \
+                 --silent >/dev/null 2>&1; then
+              echo "yes"; return
+            fi
+            if gh api "orgs/$owner/public_members/$user" \
+                 --silent >/dev/null 2>&1; then
+              echo "yes"; return
+            fi
+            echo "no"
+          }
+
+          while IFS= read -r slug; do
+            [ -z "$slug" ] && continue
+            manifest="apps/${slug}.toml"
+            if [ ! -f "$manifest" ]; then
+              lines+=("- \`${slug}\`: **no manifest** at \`${manifest}\` — add the app first (\`cliff submit\` or a manifest PR), then re-push the reel.")
+              verdicts+=("no-manifest")
+              continue
+            fi
+            repo=$(parse_homepage "$manifest" || true)
+            if [ -z "$repo" ]; then
+              lines+=("- \`${slug}\`: manifest \`homepage\` is not a github.com repo URL — can't auto-attest. Held for manual review.")
+              verdicts+=("no-github")
+              continue
+            fi
+            owner="${repo%%/*}"
+            name="${repo#*/}"
+            verdict=$(is_maintainer "$owner" "$name" "$PR_AUTHOR")
+            if [ "$verdict" = "yes" ]; then
+              lines+=("- \`${slug}\`: \`@${PR_AUTHOR}\` is a verified maintainer of [\`${repo}\`](https://github.com/${repo}). ✓")
+              verdicts+=("pass")
+            else
+              lines+=("- \`${slug}\`: \`@${PR_AUTHOR}\` is not a verified maintainer of [\`${repo}\`](https://github.com/${repo}). Held for manual review.")
+              verdicts+=("fail")
+            fi
+          done <<< "$SLUGS"
+
+          # Decide overall label state. We add `attested-owner` only
+          # if every touched slug came back "pass". A mixed PR (one
+          # owned reel, one non-owned reel) needs a human to look.
+          all_pass="true"
+          for v in "${verdicts[@]}"; do
+            if [ "$v" != "pass" ]; then all_pass="false"; break; fi
+          done
+
+          {
+            echo "all_pass=$all_pass"
+            echo "comment<<EOF"
+            echo "**reel ownership attestation**"
+            echo
+            for l in "${lines[@]}"; do echo "$l"; done
+            echo
+            if [ "$all_pass" = "true" ]; then
+              echo "Auto-labeled \`attested-owner\`. Maintainer can merge."
+            else
+              echo "Some entries above could not be auto-attested. A cliff maintainer will take a look."
+            fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Comment on PR
+        if: steps.changed.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        env:
+          BODY: ${{ steps.attest.outputs.comment }}
+        with:
+          script: |
+            const body = process.env.BODY;
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+
+            // Idempotence: if we've already commented for this PR,
+            // edit the existing comment instead of stacking. We mark
+            // our comment with an HTML hidden marker so a re-run
+            // (rebase, force-push) updates in place.
+            const MARKER = "<!-- reel-attest:v1 -->";
+            const tagged = `${MARKER}\n${body}`;
+            const existing = await github.paginate(
+              github.rest.issues.listComments,
+              { owner, repo, issue_number, per_page: 100 },
+            );
+            const prior = existing.find(c =>
+              (c.body || "").includes(MARKER)
+            );
+            if (prior) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: prior.id, body: tagged,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number, body: tagged,
+              });
+            }
+
+      - name: Apply / remove attested-owner label
+        if: steps.changed.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        env:
+          ALL_PASS: ${{ steps.attest.outputs.all_pass }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const label = "attested-owner";
+            if (process.env.ALL_PASS === "true") {
+              await github.rest.issues.addLabels({
+                owner, repo, issue_number, labels: [label],
+              });
+            } else {
+              // If a previous push attested cleanly and this one
+              // doesn't (e.g. a second reel was added that the
+              // author doesn't own), strip the stale green label.
+              try {
+                await github.rest.issues.removeLabel({
+                  owner, repo, issue_number, name: label,
+                });
+              } catch (e) {
+                // 404 = label wasn't there. Fine.
+                if (e.status !== 404) throw e;
+              }
+            }

@@ -42,6 +42,15 @@ type App struct {
 	UninstallSpec *CommandSpec  `json:"uninstall_spec,omitempty"`
 	UpgradeSpec   *CommandSpec  `json:"upgrade_spec,omitempty"`
 	LastCommitISO string        `json:"last_commit,omitempty"`
+	// HasReel is true when a `reels/<name>.reel` artifact exists in the
+	// registry checkout at build time. The flag is what the cliff client
+	// uses to decide whether to render the camcorder badge on a card —
+	// no per-app HEAD request, no probe-on-focus. The publish job copies
+	// `reels/*.reel` into `public/reels/` next to `index.json`, so the
+	// presence-at-build-time signal is a faithful proxy for "fetchable
+	// at runtime"; if a reel is later removed from the registry, the
+	// next index build clears the flag.
+	HasReel bool `json:"has_reel,omitempty"`
 	// AddedAtISO is the RFC3339 timestamp of the commit that first
 	// added this app's manifest to the registry. Stamped by cmd/build
 	// from `git log --diff-filter=A --follow`. Drives the client's

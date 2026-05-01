@@ -37,6 +37,19 @@ func main() {
 		die("load: %v", err)
 	}
 
+	// Reels live as siblings of the apps directory in the registry layout
+	// (`apps/` and `reels/`). Resolving relative to apps-dir keeps build
+	// runnable from any cwd and matches how the publish workflow lays
+	// the files out (see .github/workflows/registry.yml). A missing
+	// reels dir is fine: every app just gets has_reel=false, which is
+	// the same as before this field existed.
+	reelsDir := filepath.Join(filepath.Dir(appsDir), "reels")
+	reels, err := scanReels(reelsDir)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "warn: scan reels %q: %v\n", reelsDir, err)
+		reels = map[string]bool{}
+	}
+
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
 		fmt.Fprintln(os.Stderr, "warn: GITHUB_TOKEN not set; stars and last_commit will be empty")
@@ -60,6 +73,10 @@ func main() {
 			fmt.Fprintf(os.Stderr, "warn: added_at %s: %v\n", l.Path, err)
 		} else if !added.IsZero() {
 			app.AddedAtISO = added.UTC().Format(time.RFC3339)
+		}
+
+		if reels[app.Name] {
+			app.HasReel = true
 		}
 
 		if app.Repo != "" && strings.Count(app.Repo, "/") == 1 {
@@ -112,6 +129,35 @@ func main() {
 func die(format string, args ...any) {
 	fmt.Fprintf(os.Stderr, format+"\n", args...)
 	os.Exit(1)
+}
+
+// scanReels reads dir and returns the set of slugs that have a `.reel`
+// file. The slug is the filename minus the `.reel` extension, which is
+// the same convention the publish job and the client's reelfetch use.
+// A missing dir returns an empty set with a nil error so callers don't
+// need a separate "no reels yet" branch — the registry can build a
+// valid index with zero reels.
+func scanReels(dir string) (map[string]bool, error) {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return map[string]bool{}, nil
+		}
+		return nil, err
+	}
+	out := map[string]bool{}
+	for _, e := range entries {
+		if e.IsDir() {
+			continue
+		}
+		name := e.Name()
+		if !strings.HasSuffix(name, ".reel") {
+			continue
+		}
+		slug := strings.TrimSuffix(name, ".reel")
+		out[slug] = true
+	}
+	return out, nil
 }
 
 // gitAddedAt returns the author-date of the commit that first added
