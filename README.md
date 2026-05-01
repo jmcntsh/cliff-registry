@@ -29,6 +29,28 @@ Manual path:
 See [`docs/submission-lifecycle.md`](docs/submission-lifecycle.md) for
 state rules and maintainer policy.
 
+## Add a reel for your app
+
+If you've already recorded a `.reel` for an app you maintain:
+
+1. Fork this repo.
+2. Drop your file at `reels/<slug>.reel` (where `<slug>` is the
+   manifest filename without `.toml`). GitHub's web UI accepts
+   drag-and-drop into the file editor — no clone required.
+3. Open a PR.
+
+CI checks whether your GitHub account is a collaborator on the
+repo named in the manifest's `homepage` field. If yes, the PR
+gets an `attested-owner` label and a maintainer can merge on
+sight. If no, the PR is held for manual review — not rejected,
+just slower. Either way, leave a comment with anything reviewers
+should know (e.g. "I'm a maintainer of `org/foo` but not a public
+member of the org; here's a link to my recent commits").
+
+There's no `cliff record` subcommand to learn. Bring a `.reel`,
+drop it in, done. See `scripts/record-reel.sh` for how the
+existing reels were captured if you need a recipe.
+
 ## Layout
 
 ```
