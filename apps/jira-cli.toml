@@ -1,0 +1,11 @@
+name = "jira-cli"
+description = "🔥 Feature-rich interactive Jira command line."
+author = "ankitpokhrel"
+homepage = "https://github.com/ankitpokhrel/jira-cli"
+readme = "https://raw.githubusercontent.com/ankitpokhrel/jira-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ankitpokhrel/jira-cli@latest"

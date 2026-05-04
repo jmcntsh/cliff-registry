@@ -1,0 +1,11 @@
+name = "lipgloss"
+description = "Style definitions for nice terminal layouts 👄"
+author = "charmbracelet"
+homepage = "https://github.com/charmbracelet/lipgloss"
+readme = "https://raw.githubusercontent.com/charmbracelet/lipgloss/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/charmbracelet/lipgloss@latest"

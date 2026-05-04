@@ -1,0 +1,11 @@
+name = "dive"
+description = "A tool for exploring each layer in a docker image"
+author = "wagoodman"
+homepage = "https://github.com/wagoodman/dive"
+readme = "https://raw.githubusercontent.com/wagoodman/dive/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/wagoodman/dive@latest"

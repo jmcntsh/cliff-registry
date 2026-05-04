@@ -1,0 +1,11 @@
+name = "superset"
+description = "Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine"
+author = "superset-sh"
+homepage = "https://github.com/superset-sh/superset"
+readme = "https://raw.githubusercontent.com/superset-sh/superset/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "superset"

@@ -1,0 +1,11 @@
+name = "gtop"
+description = "System monitoring dashboard for terminal"
+author = "aksakalli"
+homepage = "https://github.com/aksakalli/gtop"
+readme = "https://raw.githubusercontent.com/aksakalli/gtop/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "gtop"

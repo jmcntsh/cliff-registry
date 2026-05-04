@@ -1,0 +1,11 @@
+name = "duf"
+description = "Disk Usage/Free Utility - a better 'df' alternative"
+author = "muesli"
+homepage = "https://github.com/muesli/duf"
+readme = "https://raw.githubusercontent.com/muesli/duf/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/muesli/duf@latest"
