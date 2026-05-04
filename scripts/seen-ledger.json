@@ -1,5 +1,2799 @@
 {
-  "version": 1,
-  "updated_at": "1970-01-01T00:00:00+00:00",
-  "entries": {}
+  "entries": {
+    "0xs34n/blockchain-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "1jehuang/jcode": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:jcode"
+    },
+    "achannarasappa/ticker": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "affaan-m/claude-swarm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "agarrharr/awesome-cli-apps": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
+    "agent-era/devteam": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:devteam"
+    },
+    "ahmadawais/corona-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "aider-ai/aider": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ajalt/clikt": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "ajeetdsouza/zoxide": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "akarsh1995/leetcode-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "akavel/up": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "aksakalli/gtop": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "alacritty/alacritty": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "alebcay/awesome-shell": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
+    "allinurl/goaccess": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "allthemusicllc/atm-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:atm-cli"
+    },
+    "alperdrsnn/clime": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "altsem/gitu": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "amanusk/s-tui": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "andreafrancia/trash-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "andrevdm/bhoogle": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "andrey-pohilko/registry-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:registry-cli"
+    },
+    "angular/angular-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ankitpokhrel/jira-cli": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "anomalyco/opentui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "antonmedv/fx": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "anufrievroman/calcure": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "aome510/hackernews-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "apoclyps/reviews": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "architv/soccer-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "arduino/arduino-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "arindam200/termui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "arthursonzogni/ftxui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "arthursonzogni/json-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "asciinema/asciinema": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "asdf-vm/asdf": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "asheshgoplani/agent-deck": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "asmuth/clip": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "astefanutti/kubebox": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "avajs/ava": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "aws/aws-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:aws-cli"
+    },
+    "ayn2op/discordo": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "azure/azure-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "bahdotsh/wrkflw": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "barnybug/cli53": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "bartobri/no-more-secrets": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "bash-it/bash-it": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "bashly-framework/bashly": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "bczsalba/pytermgui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "beetbox/beets": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "bgreenwell/doxx": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "bitwarden/clients": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "bnb/awesome-hyper": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
+    "bramp/ffmpeg-cli-wrapper": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "bugaevc/wl-clipboard": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "burntsushi/ripgrep": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "bvaisvil/zenith": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "c4spar/cliffy": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "can1357/oh-my-pi": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "chalk/chalk": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "charmbracelet/bubbles": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\w+\\s+(components?|primiti"
+    },
+    "charmbracelet/bubbletea": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "charmbracelet/glamour": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "charmbracelet/lipgloss": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "chmln/sd": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "chrisant996/clink": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "chriseidhof/terminalui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "chubin/cheat.sh": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "chubin/wttr.in": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:wttr.in"
+    },
+    "cli-guidelines/cli-guidelines": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "cli/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "cliutils/cli11": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "cloudfoundry/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "code-militia/jirust": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "code-yeongyu/oh-my-openagent": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "coleam00/archon": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:Archon"
+    },
+    "commitizen/cz-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "conemu/conemu": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "containers/podman-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "continuedev/continue": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "cosmincatalin/brew-explorer": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:brew-explorer"
+    },
+    "cpjreynolds/rustty": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "crossterm-rs/crossterm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "cubified/tuibox": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "curlpipe/ox": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "cyrus-and/gdb-dashboard": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:gdb-dashboard"
+    },
+    "daniele77/cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "danvega/spring-initializr-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "danvergara/dblab": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "darrenburns/elia": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:elia"
+    },
+    "databricks/click": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dbcli/mssql-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ddopson/underscore-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "denisidoro/navi": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "devolutions/unigetui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "dgunzy/flux9s": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dicklesworthstone/frankentui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:frankentui"
+    },
+    "dlvhdr/gh-enhance": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "donnemartin/gitsome": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "donnemartin/haxor-news": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "donnemartin/saws": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dooit-org/dooit": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "doriandarko/claude-engineer": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:claude-engineer"
+    },
+    "dos-2/oddshub": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ducaale/xh": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dulikaifazr/cougar-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:Cougar-CLI"
+    },
+    "dustinblackman/oatmeal": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dustinblackman/oatmeal.nvim": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "dvajs/dva-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "dyne/jaromail": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "effect-ts/effect": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ekzhang/sshx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "electerm/electerm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ember-cli/ember-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "enhancedjax/bagels": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "enquirer/enquirer": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "eugeny/tabby": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "evalstate/fast-agent": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:fast-agent"
+    },
+    "exercism/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "eza-community/eza": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "f1bonacc1/process-compose": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "fairyglade/ly": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "faressoft/terminalizer": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "fastapi/typer": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "fastfetch-cli/fastfetch": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "fathyb/carbonyl": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:carbonyl"
+    },
+    "fish-shell/fish-shell": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:fish-shell"
+    },
+    "forensicmatt/datatui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "formidablelabs/webpack-dashboard": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "freeok/so-novel": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "fujiapple852/trippy": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "fujiwarachoki/moneyprinterv2": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:MoneyPrinterV2"
+    },
+    "gcla/termshark": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "genivia/ugrep": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "getsentry/sentry-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:sentry-cli"
+    },
+    "ggerganov/imtui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "gildas-lormeau/singlefile": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:SingleFile"
+    },
+    "gitlawb/openclaude": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "gitleaks/gitleaks": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "gitui-org/gitui": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "gogh-co/gogh": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "gokcehan/lf": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "google-gemini/gemini-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "google/python-fire": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "google/zx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "googlechromelabs/bubblewrap": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "googleworkspace/cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "category-deny:agent skill"
+    },
+    "gpakosz/.tmux": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "grindlemire/go-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "gruntwork-io/git-xargs": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "guarinogabriel/mac-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "gui-cs/terminal.gui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "gunnarfarneback/packagecompatui.jl": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "gyscos/cursive": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "hashicorp/damon": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "hatoo/oha": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "hetznercloud/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "hjr265/gittop": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "hmbown/deepseek-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "hpdeifel/hledger-iadd": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "htop-dev/htop": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "httpie/cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:cli"
+    },
+    "httpie/http-prompt": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "hugit-project/hugit": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "huseyinbabal/tredis": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ibraheemdev/modern-unix": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "iflow-ai/iflow-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "igorshubovych/markdownlint-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "imsnif/bandwhich": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "infely/react-curse": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "infinitered/ignite": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "category-deny:boilerplate"
+    },
+    "infisical/infisical": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "invilso/fly-vpn": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:fly-vpn"
+    },
+    "ionic-team/ionic-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ipinfo/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "jackwener/opencli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:OpenCLI"
+    },
+    "jakewharton/mosaic": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jarrodwatts/claude-hud": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "jarun/buku": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "jarun/nnn": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jcubic/jquery.terminal": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "jeecgboot/jeecgboot": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jesseduffield/lazy_migrate": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jesseduffield/lazynpm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "joehillen/sysz": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jonas/tig": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jonmbake/react-terminal-ui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "joouha/euporie": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "joshembling/artisan-browse": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "jpbruinsslot/slack-term": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "jr-k/d4s": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "jtdaugherty/brick": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "jumpserver/jumpserver": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:jumpserver"
+    },
+    "junegunn/fzf": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "justarchinet/archisteamfarm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "k4m4/terminals-are-sexy": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "kamiyaa/joshuto": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kardolus/chatgpt-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kdash-rs/kdash": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kellyjonbrazil/jc": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kepano/obsidian-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "category-deny:agent skill"
+    },
+    "kilo-org/kilocode": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kingtoolbox/windterm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "kovidgoyal/kitty": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "kylepollina/objexplore": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "laixintao/pingtop": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "lambdaisland/trikl": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "lastpass/lastpass-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "leo-arch/clifm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "linux-nvme/nvme-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "lucija8320nhung4/hacxgpt": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:HacxGPT"
+    },
+    "maaslalani/slides": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "maciek-roboblog/claude-code-usage-monitor": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:Claude-Code-Usage-Monitor"
+    },
+    "magiblot/tvision": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "manaflow-ai/cmux": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "manrajgrover/football-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mas-cli/mas": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "mattallty/caporal.js": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "mbadolato/iterm2-color-schemes": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "merlinfuchs/blimp": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mermaid-js/mermaid-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mfontanini/presenterm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mgood/tuisage": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "micro-editor/micro": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "microsoft/edit": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "microsoft/inshellisense": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:inshellisense"
+    },
+    "microsoft/terminal": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "microsoft/winappcli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "microsoft/winget-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "mikaelmello/inquire": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "mikefarah/yq": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mikeleppane/chamber": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "mridgers/clink": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "mrocklin/claudechic": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "muellan/clipp": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "muesli/duf": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "n8n-io/n8n": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nakabonne/ali": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nakabonne/golintui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nashsu/autocli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "natemcmaster/dotnet-serve": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "nativescript/nativescript-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:nativescript-cli"
+    },
+    "ndd7xv/heh": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ndreynolds/ratatouille": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "netlify/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nexe/nexe": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nexus-xyz/nexus-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nicolargo/glances": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "noahgorstein/jqp": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "node-js-libs/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "norbert515/vide_cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "npkgz/cli-progress": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nrwl/nx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "nuget/nuget.client": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "o2sh/onefetch": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "oh-my-fish/oh-my-fish": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "ohmybash/oh-my-bash": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "ohmyzsh/ohmyzsh": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "okbob/pspg": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "oldratlee/useful-scripts": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "onceupon/bash-oneliner": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "openhands/openhands": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "oppiliappan/dijo": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "orange-opensource/hurl": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "orchetron/storm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "orf/gping": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "orhun/flawz": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "orhun/kmon": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "p-gen/smenu": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "pablolec/neoss": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pallets/click": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "panaeon/transg-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:transg-tui"
+    },
+    "panniantong/agent-reach": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:Agent-Reach"
+    },
+    "parvardegr/sharing": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "peltho/tufw": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pemistahl/grex": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "peterbrittain/asciimatics": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "pgplex/pgtui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pgyer/fir-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "pidanou/helm-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pivovarit/tdocker": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "plandex-ai/plandex": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pomber/git-history": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "prasmussen/chrome-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "primequantum4/pixel_prompt": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "privatenumber/tsx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "projectdiscovery/katana": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "pterm/pterm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "pvolok/mprocs": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pypa/pipx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "pyratatui/pyratatui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:pyratatui"
+    },
+    "pystardust/ani-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "pythops/oryx": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "qeeqbox/social-analyzer": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "raphire/win11debloat": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "ratatui/ratatui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "rational-kunal/blinkui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "react-native-community/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "red-data-tools/youplot": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "regolith-labs/ore-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "revanced/revanced-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "rigellute/spotify-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "rivo/tview": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "roshie548/proxmux": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "royreznik/rexi": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ryo-ma/lazyhub": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sachaos/viddy": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "sagarkarira/coronavirus-tracker-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "santifer/career-ops": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:career-ops"
+    },
+    "saulpw/visidata": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "sayanarijit/xplr": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sboudrias/inquirer.js": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:Inquirer.js"
+    },
+    "scalaconsultants/panopticon-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "scaleway/scaleway-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "schachmat/wego": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sdkman/sdkman-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "sferik/x-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "shadawck/awesome-cli-frameworks": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
+    "shadcn-labs/termcn": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:termcn"
+    },
+    "shanselman/winget-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "sharkdp/bat": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sharkdp/fd": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sharkdp/hyperfine": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "shazow/wifitui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sherlock-project/sherlock": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "simonmichael/hledger": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "sindresorhus/capture-website-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sindresorhus/pure": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "sirmalloc/ccstatusline": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sorin-ionescu/prezto": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "soxoj/maigret": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "spaceship-prompt/spaceship-prompt": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "spf13/cobra": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "spicetify/cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "sqshq/sampler": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "stripe/stripe-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "superset-sh/superset": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "svenstaro/genact": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "svg/svgo": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "swordfish90/cool-retro-term": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "symfony/console": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "t3-oss/create-t3-app": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "tako8ki/gobang": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "tboox/ltui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "tenchi2xh/scurses": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "termux/termux-app": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "textualize/rich": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "textualize/rich-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "textualize/textual": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "textualize/toolong": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "ther1d/shell_gpt": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "timtatt/sift": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "tldr-pages/tldr": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "tomnomnom/gron": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "tonymajestro/reddit-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "toolleeo/awesome-cli-apps-in-a-csv": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
+    "tqdm/tqdm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "tsl0922/ttyd": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "tstack/lnav": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "tyrrrz/clifx": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "tyrrrz/cliwrap": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(library|framework|sdk|too"
+    },
+    "ultralytics/ultralytics": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "unjs/consola": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "urfave/cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "urigo/graphql-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "v9mirza/lazyports": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "vadimdemedes/ink": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "veeso/termscp": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "vercel/hyper": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "vercel/vercel": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "verygoodopensource/very_good_cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "virustotal/vt-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "vue-terminal/vue-termui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "wagoodman/dive": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "warpdotdev/warp": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "wavetermdev/waveterm": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "webpack/webpack-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "webtorrent/webtorrent-cli": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "wezterm/wezterm": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:wezterm"
+    },
+    "withfig/autocomplete": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "wose/satnogs-monitor": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:cargo:satnogs-monitor"
+    },
+    "woxjro/lazy-etherscan": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "wtfutil/wtf": {
+      "decision": "accepted",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "xampprocky/tokei": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "xenoatom/xenoatom.terminal.ui": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "",
+      "last_seen": "2026-05-04",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "xqms/rosbag_fancy": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "xtermjs/xterm.js": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:npm:xterm.js"
+    },
+    "yadayada/acd_cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:acd_cli"
+    },
+    "yasasbanukaofficial/claude-code": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "npm",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "yassinebridi/serpl": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "yinnx/cmd-wrapped": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "yt-dlp/yt-dlp": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "yudai/gotty": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "yuki-koyama/blender-cli-rendering": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "pipx",
+      "last_seen": "2026-05-04",
+      "reason": "package-not-published:pipx:blender-cli-rendering"
+    },
+    "zaghaghi/openapi-tui": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "zellij-org/zellij": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "cargo",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    },
+    "zhongwencool/observer_cli": {
+      "decision": "rejected",
+      "first_seen": "2026-05-04",
+      "install_type": "unknown",
+      "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "zjrosen/perles": {
+      "decision": "deferred",
+      "first_seen": "2026-05-04",
+      "install_type": "go",
+      "last_seen": "2026-05-04",
+      "reason": "max-new-cap"
+    }
+  },
+  "updated_at": "2026-05-04T17:16:22+00:00",
+  "version": 1
 }

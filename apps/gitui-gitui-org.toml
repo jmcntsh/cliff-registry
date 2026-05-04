@@ -1,0 +1,11 @@
+name = "gitui-gitui-org"
+description = "Blazing 💥 fast terminal-ui for git written in rust 🦀"
+author = "gitui-org"
+homepage = "https://github.com/gitui-org/gitui"
+readme = "https://raw.githubusercontent.com/gitui-org/gitui/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gitui"

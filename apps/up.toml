@@ -1,0 +1,11 @@
+name = "up"
+description = "Ultimate Plumber is a tool for writing Linux pipes with instant live preview"
+author = "akavel"
+homepage = "https://github.com/akavel/up"
+readme = "https://raw.githubusercontent.com/akavel/up/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/akavel/up@latest"

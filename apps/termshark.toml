@@ -1,0 +1,11 @@
+name = "termshark"
+description = "A terminal UI for tshark, inspired by Wireshark"
+author = "gcla"
+homepage = "https://github.com/gcla/termshark"
+readme = "https://raw.githubusercontent.com/gcla/termshark/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gcla/termshark@latest"

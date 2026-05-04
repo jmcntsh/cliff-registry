@@ -1,0 +1,11 @@
+name = "ticker"
+description = "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+author = "achannarasappa"
+homepage = "https://github.com/achannarasappa/ticker"
+readme = "https://raw.githubusercontent.com/achannarasappa/ticker/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/achannarasappa/ticker@latest"

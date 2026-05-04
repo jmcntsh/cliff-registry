@@ -1,0 +1,11 @@
+name = "trippy"
+description = "A network diagnostic tool"
+author = "fujiapple852"
+homepage = "https://github.com/fujiapple852/trippy"
+readme = "https://raw.githubusercontent.com/fujiapple852/trippy/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "trippy"

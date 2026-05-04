@@ -1,0 +1,11 @@
+name = "discordo"
+description = "A lightweight, secure, and feature-rich Discord terminal (TUI) client."
+author = "ayn2op"
+homepage = "https://github.com/ayn2op/discordo"
+readme = "https://raw.githubusercontent.com/ayn2op/discordo/main/README.md"
+tags = ["tui"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ayn2op/discordo@latest"

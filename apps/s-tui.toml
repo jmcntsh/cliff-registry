@@ -1,0 +1,11 @@
+name = "s-tui"
+description = "Terminal-based CPU stress and monitoring utility"
+author = "amanusk"
+homepage = "https://github.com/amanusk/s-tui"
+readme = "https://raw.githubusercontent.com/amanusk/s-tui/master/README.md"
+tags = ["cli"]
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "s-tui"
