@@ -2,30 +2,21 @@ name: auto-seed
 
 on:
   schedule:
-    # Mondays 14:00 UTC
     - cron: "0 14 * * 1"
   workflow_dispatch:
     inputs:
       max_new:
-        description: "Cap on emitted manifests this run"
-        required: true
-        default: "20"
-        type: string
-      min_stars:
-        description: "Minimum stars for GitHub Search"
-        required: true
+        description: "Cap on emitted manifests"
         default: "20"
         type: string
       dry_run:
-        description: "Report only; do not write manifests or update ledger"
-        required: true
+        description: "Print only; touch nothing"
         default: "false"
         type: choice
         options: ["false", "true"]
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: auto-seed
@@ -36,75 +27,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
           cache: true
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Run seeder
-        env:
+      - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_NEW: ${{ inputs.max_new || '20' }}
-          MIN_STARS: ${{ inputs.min_stars || '20' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: |
           extra=""
           if [ "$DRY_RUN" = "true" ]; then extra="--dry-run"; fi
-          python3 scripts/seed.py \
-            --out-dir /tmp/seed \
-            --apps-dir apps \
-            --ledger scripts/seen-ledger.json \
-            --min-stars "$MIN_STARS" \
-            --max-new "$MAX_NEW" \
-            $extra
-
-      - name: Stage manifests
-        id: stage
-        run: |
-          if [ ! -d /tmp/seed/manifests ] || [ -z "$(ls -A /tmp/seed/manifests 2>/dev/null)" ]; then
-            echo "no manifests emitted; nothing to do"
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          cp /tmp/seed/manifests/*.toml apps/
-          count=$(ls -1 /tmp/seed/manifests/*.toml | wc -l | tr -d ' ')
-          echo "count=$count" >> "$GITHUB_OUTPUT"
-          echo "has_changes=true" >> "$GITHUB_OUTPUT"
-
-      - name: Lint
-        if: steps.stage.outputs.has_changes == 'true'
-        run: go run ./cmd/lint ./apps
-
-      - name: Open PR
-        if: steps.stage.outputs.has_changes == 'true'
-        id: pr
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: auto-seed/${{ github.run_id }}
-          delete-branch: true
-          commit-message: "seed: ${{ steps.stage.outputs.count }} new apps (auto)"
-          title: "seed: ${{ steps.stage.outputs.count }} new apps (auto)"
-          body: |
-            Automated catalog expansion.
-
-            - Source: `scripts/seed.py`
-            - Ledger: `scripts/seen-ledger.json` (updated in this PR)
-            - Lint: passed in CI before this PR was opened.
-
-            The hotness algorithm in cliff curates these post-merge based
-            on actual user views. To exclude one before merging, delete
-            its file from this branch and remove its ledger entry so the
-            next run re-evaluates it.
-          labels: auto-seed
-
-      - name: Enable auto-merge
-        if: steps.pr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR: ${{ steps.pr.outputs.pull-request-number }}
-        run: gh pr merge "$PR" --squash --auto
+          python3 scripts/seed.py --max-new "$MAX_NEW" --commit $extra

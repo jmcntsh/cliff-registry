@@ -4,6 +4,10 @@
 /.vscode/
 *.test
 
+# Python bytecode caches from scripts/seed.py
+__pycache__/
+*.pyc
+
 # Binaries produced by `go build ./cmd/<name>` at the repo root.
 # We invoke these via `go run`; a stray `go build` shouldn't land
 # in commits.

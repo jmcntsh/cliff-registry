@@ -1,43 +1,54 @@
 # Seeding scripts
 
-This directory holds tools that maintain `cliff-registry` automatically.
-
 ## `seed.py` — automated catalog expansion
 
-Runs nightly via `.github/workflows/auto-seed.yml`. Pulls candidate
-CLI/TUI repos from GitHub Search, filters out non-apps, and emits ready-
-to-lint TOML manifests for the `apps/` directory.
+Runs Mondays via `.github/workflows/auto-seed.yml`. Searches GitHub for
+new CLI/TUI repos, evaluates them against a small category filter,
+writes manifests directly into `apps/`, runs `cmd/lint`, and (in
+`--commit` mode) commits + pushes the result to `main`.
 
-The TUI's hotness algorithm does the real curation. This script's job
-is to keep the funnel topped up; it is intentionally permissive.
+The TUI's hotness algorithm does the real curation post-merge. This
+script's job is to keep the funnel topped up.
 
 ### Local usage
 
 ```sh
-python3 scripts/seed.py --dry-run --apps-dir apps --ledger scripts/seen-ledger.json
+# Preview only — touches nothing.
+python3 scripts/seed.py --dry-run
+
+# Write manifests into apps/, run lint, commit + push to main.
+python3 scripts/seed.py --commit
+
+# Same as --commit but stop short of `git push` (for inspection).
+python3 scripts/seed.py --commit --dry-push
 ```
 
 Useful flags:
 
-- `--min-stars 20` — lower bound for the GitHub Search query.
-- `--max-new 20` — cap on manifests emitted per run.
-- `--dry-run` — score and report; do not write manifests or update ledger.
-- `--no-verify-registry` — skip the HEAD checks against PyPI/npm/crates.io.
+- `--min-stars 20` — lower bound for the Search query.
+- `--max-new 20` — cap on new manifests emitted per run.
+- `--full-scan` — ignore the recency fast-path; scan all topics.
+- `--no-verify-registry` — skip HEAD checks against PyPI/npm/crates.io.
 
-### Outputs
+### How a run is shaped
 
-All under `--out-dir` (default `/tmp/seed`):
+1. Load `scripts/seen-ledger.json` (or start empty).
+2. Take its `updated_at` timestamp; pass `pushed:>=<that date - 1 day>`
+   to GitHub Search. Most weeks this returns a small handful of repos.
+3. Skip anything in the ledger or already in `apps/` by homepage.
+4. For survivors: category-check, suggest an install type, optionally
+   HEAD-check the package registry, render a manifest.
+5. With `--commit`: shell out to `go run ./cmd/lint ./apps`. If lint
+   fails, delete the manifests this run wrote and exit non-zero. If
+   lint passes, update the ledger, `git add`, commit, push.
 
-- `manifests/*.toml` — new app manifests, ready to copy into `apps/`.
-- `candidates.json` — every repo evaluated this run, with the verdict.
-- `review.csv` — same data, spreadsheet-friendly.
-- `ledger.next.json` — proposed updated ledger (the script writes this
-  back to `--ledger` unless `--dry-run` is set).
+The recency fast-path means a "nothing changed" Monday completes in
+seconds without any disk writes.
 
 ## `seen-ledger.json` — persistent memory
 
-Records every repo the seeder has ever evaluated, so each run only does
-work on truly new candidates. Format:
+Records every repo the seeder has reached a TERMINAL verdict on
+(`accepted` or `rejected`). Format:
 
 ```json
 {
@@ -45,7 +56,7 @@ work on truly new candidates. Format:
   "updated_at": "<ISO8601 UTC>",
   "entries": {
     "owner/repo": {
-      "decision": "accepted" | "rejected" | "deferred",
+      "decision": "accepted" | "rejected",
       "reason": "<short tag>",
       "install_type": "go" | "cargo" | "pipx" | "npm" | "",
       "first_seen": "YYYY-MM-DD",
@@ -58,9 +69,12 @@ work on truly new candidates. Format:
 Decisions:
 
 - `accepted` — passed all checks; manifest was emitted.
-- `rejected` — failed a check (category, install mapping, package
-  verification). The `reason` field tags which one.
-- `deferred` — would have been accepted but hit `--max-new` cap; will
-  be retried next run.
+- `rejected` — failed category check, had no install mapping, or its
+  package wasn't published. The `reason` field tags which.
 
-To force re-evaluation of a repo, delete its entry from the ledger.
+`deferred` (would-have-been-accepted-but-hit-cap) is **not** ledgered;
+those repos remain re-evaluable on the next run.
+
+To force re-evaluation of a single repo, delete its entry from the
+ledger and re-run the seeder. To force a full rescan ignoring the
+recency filter, run with `--full-scan`.

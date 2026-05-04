@@ -2,36 +2,27 @@
 """
 Seed cliff-registry with new CLI/TUI candidates from GitHub.
 
-Design goals:
-- One script, one job, no matrix juggling.
-- A persistent ledger of every repo we have ever evaluated, so weekly
-  runs only do work on truly new candidates and we never re-litigate
-  rejections via the rules file.
-- Conservative API usage: search the topics we care about, sleep
-  between calls, fail soft on rate limits rather than crashing the run.
-- Hotness in the TUI does the curation. This script's job is to keep
-  the funnel topped up with installable candidates that pass a basic
-  category check and the registry's own lint.
+End-to-end self-contained: search → evaluate → emit manifests into
+apps/ → run lint → commit and push to main. The TUI's hotness algorithm
+does the actual curation post-merge.
 
-Outputs (all under --out-dir, default /tmp/seed):
-- candidates.json   — every repo evaluated this run, with verdict
-- review.csv        — same data, spreadsheet-friendly
-- manifests/        — new TOML manifests, ready to copy into apps/
-- ledger.next.json  — proposed updated ledger (caller writes back)
-
-The ledger format is documented in scripts/README.md.
+Design notes:
+- One Search API call per run (OR'd query). With the recency filter,
+  most runs return a small handful of repos and finish in seconds.
+- The ledger is the source of truth for "what we've already looked at."
+  Only TERMINAL verdicts (accepted, rejected) get recorded. Deferred
+  candidates remain re-evaluable next run.
+- See scripts/README.md for the ledger format and operator usage.
 """
 
 from __future__ import annotations
 
 import argparse
-import csv
 import datetime as dt
 import json
 import re
 import subprocess
 import sys
-import time
 import tomllib
 import urllib.error
 import urllib.request
@@ -40,21 +31,9 @@ from pathlib import Path
 from typing import Any
 
 
-INSTALL_TYPES = ("go", "cargo", "pipx", "npm")
-
-# Search queries. Each one is one Search API call per page. Keep this
-# list short — every entry costs against the 30 req/min Search quota.
-QUERIES = (
-    "topic:tui",
-    "topic:cli",
-    "topic:terminal",
-    '"terminal ui" in:description',
-    '"command line" cli in:description',
-)
-
-# Pause between Search API calls. The authenticated cap is 30/min;
-# 2.5s = ~24 req/min, leaving headroom for retries.
-SEARCH_CALL_INTERVAL_S = 2.5
+# Single OR-query covers ~95% of what the old five-query union did.
+# The Search API accepts boolean OR between qualifiers like topic:.
+SEARCH_QUERY = "topic:cli OR topic:tui OR topic:terminal"
 
 # Minimal category-check terms. The hotness algorithm in cliff handles
 # real curation; this list only catches things that are categorically
@@ -122,49 +101,49 @@ class Verdict:
     topics: list[str] = field(default_factory=list)
 
 
-def run_gh_search(query: str, min_stars: int, page_limit: int) -> list[dict[str, Any]]:
-    """One paged search call. Returns up to page_limit repos.
+def collect_repos(
+    min_stars: int,
+    limit: int,
+    pushed_since: str | None = None,
+) -> list[dict[str, Any]]:
+    """One paged search call against the OR'd query.
 
-    Uses gh CLI (already authenticated in CI via GH_TOKEN).
+    Uses gh CLI (already authenticated in CI via GH_TOKEN). When
+    pushed_since is set (YYYY-MM-DD), only repos pushed on or after that
+    date are returned — the recency fast-path. Returns up to `limit` repos.
     """
     cmd = [
-        "gh", "search", "repos", query,
-        "--limit", str(page_limit),
+        "gh", "search", "repos", SEARCH_QUERY,
+        "--limit", str(limit),
         "--sort", "stars",
         "--order", "desc",
         "--stars", f">={min_stars}",
         "--archived=false",
         "--include-forks=false",
         "--visibility", "public",
-        "--match", "name,description",
         "--json", "fullName,name,owner,url,description,stargazersCount,"
                   "language,createdAt,pushedAt,defaultBranch,license,"
                   "isArchived,isFork",
     ]
+    if pushed_since:
+        cmd += ["--updated", f">={pushed_since}"]
+
     proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode != 0:
         err = proc.stderr.strip() or "gh search failed"
-        # Rate-limit errors are recoverable; surface them but don't crash.
         if "rate limit" in err.lower() or "403" in err:
-            print(f"warn: rate-limited on '{query}', skipping page", file=sys.stderr)
+            print(f"warn: rate-limited on search; returning empty", file=sys.stderr)
             return []
         raise RuntimeError(err)
-    return json.loads(proc.stdout)
 
-
-def collect_repos(min_stars: int, per_query: int) -> list[dict[str, Any]]:
-    """Run all queries and dedupe by full_name."""
-    seen: dict[str, dict[str, Any]] = {}
-    for i, q in enumerate(QUERIES):
-        if i > 0:
-            time.sleep(SEARCH_CALL_INTERVAL_S)
-        items = run_gh_search(q, min_stars, per_query)
-        for item in items:
-            key = str(item.get("fullName", "")).lower()
-            if not key or item.get("isArchived") or item.get("isFork"):
-                continue
-            seen.setdefault(key, item)
-    return list(seen.values())
+    items = json.loads(proc.stdout)
+    out: list[dict[str, Any]] = []
+    for item in items:
+        if item.get("isArchived") or item.get("isFork"):
+            continue
+        if str(item.get("fullName", "")):
+            out.append(item)
+    return out
 
 
 def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
@@ -246,14 +225,14 @@ def package_published(install_type: str, package: str) -> bool:
     return ok
 
 
-def load_ledger(path: Path) -> dict[str, dict[str, Any]]:
-    """Ledger is keyed by full_name (lowercase)."""
+def load_ledger(path: Path) -> tuple[dict[str, dict[str, Any]], str]:
+    """Returns (entries, last_updated_at_iso). Entries keyed by full_name lower."""
     if not path.exists():
-        return {}
+        return {}, ""
     raw = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(raw, dict):
-        return {}
-    return raw.get("entries", {}) or {}
+        return {}, ""
+    return raw.get("entries", {}) or {}, str(raw.get("updated_at") or "")
 
 
 def write_ledger(path: Path, entries: dict[str, dict[str, Any]]) -> None:
@@ -401,37 +380,90 @@ def evaluate(
     return base
 
 
+def run_lint(repo_root: Path) -> bool:
+    """Shell out to `go run ./cmd/lint ./apps`. Returns True on pass."""
+    proc = subprocess.run(
+        ["go", "run", "./cmd/lint", "./apps"],
+        cwd=repo_root, capture_output=True, text=True,
+    )
+    if proc.returncode != 0:
+        sys.stdout.write(proc.stdout)
+        sys.stderr.write(proc.stderr)
+    return proc.returncode == 0
+
+
+def git_commit_and_push(repo_root: Path, count: int, dry_push: bool = False) -> None:
+    """Stage everything, commit with a generated message, push to main."""
+    subprocess.run(["git", "add", "-A"], cwd=repo_root, check=True)
+    msg = f"seed: {count} new app{'s' if count != 1 else ''} (auto)"
+    subprocess.run(
+        ["git", "-c", "user.name=cliff-seeder",
+         "-c", "user.email=actions@github.com",
+         "commit", "-m", msg],
+        cwd=repo_root, check=True,
+    )
+    if dry_push:
+        print(f"[dry-push] would: git push origin HEAD")
+    else:
+        subprocess.run(["git", "push", "origin", "HEAD"], cwd=repo_root, check=True)
+    print(f"committed and pushed: {msg}")
+
+
+def derive_pushed_since(ledger_updated_at: str, fallback_days: int = 365) -> str:
+    """One day before the ledger's last update, in YYYY-MM-DD.
+
+    Overlap is intentional: the ledger filter inside evaluate() catches
+    anything we already saw, and an extra day of overlap protects
+    against timezone edges and same-day double-runs.
+    """
+    if ledger_updated_at:
+        try:
+            ts = dt.datetime.fromisoformat(ledger_updated_at.replace("Z", "+00:00"))
+            return (ts.date() - dt.timedelta(days=1)).isoformat()
+        except ValueError:
+            pass
+    return (dt.date.today() - dt.timedelta(days=fallback_days)).isoformat()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--out-dir", type=Path, default=Path("/tmp/seed"))
     ap.add_argument("--apps-dir", type=Path, default=Path("apps"))
     ap.add_argument("--ledger", type=Path, default=Path("scripts/seen-ledger.json"))
-    ap.add_argument("--min-stars", type=int, default=20,
-                    help="Lower bound for the GitHub Search query.")
-    ap.add_argument("--per-query", type=int, default=100,
-                    help="Results per query (max 100 = single Search page).")
+    ap.add_argument("--min-stars", type=int, default=20)
+    ap.add_argument("--limit", type=int, default=200,
+                    help="Max repos returned by the GitHub Search call.")
     ap.add_argument("--max-new", type=int, default=20,
                     help="Cap on new manifests emitted per run.")
-    ap.add_argument("--verify-registry", action="store_true", default=True,
-                    help="HEAD-check pipx/npm/cargo packages exist before emitting.")
-    ap.add_argument("--no-verify-registry", dest="verify_registry", action="store_false")
+    ap.add_argument("--no-verify-registry", dest="verify_registry",
+                    action="store_false", default=True,
+                    help="Skip HEAD-checking pipx/npm/cargo packages.")
+    ap.add_argument("--commit", action="store_true",
+                    help="Run lint; on green, git commit + push to main.")
+    ap.add_argument("--dry-push", action="store_true",
+                    help="With --commit: do everything except the final push.")
     ap.add_argument("--dry-run", action="store_true",
-                    help="Score and report only; do not write manifests or update ledger.")
+                    help="Print what would happen; touch nothing on disk.")
+    ap.add_argument("--full-scan", action="store_true",
+                    help="Ignore the recency fast-path; scan everything.")
     args = ap.parse_args()
 
-    args.out_dir.mkdir(parents=True, exist_ok=True)
-    manifests_dir = args.out_dir / "manifests"
-    manifests_dir.mkdir(exist_ok=True)
-
-    ledger = load_ledger(args.ledger)
+    repo_root = args.apps_dir.resolve().parent
+    ledger, ledger_updated_at = load_ledger(args.ledger)
     existing_homepages = load_existing_homepages(args.apps_dir)
     used_slugs = {p.stem for p in args.apps_dir.glob("*.toml")} if args.apps_dir.exists() else set()
 
-    print(f"loaded ledger entries: {len(ledger)}")
-    print(f"existing apps in registry: {len(existing_homepages)}")
+    pushed_since = None if args.full_scan else derive_pushed_since(ledger_updated_at)
 
-    repos = collect_repos(args.min_stars, args.per_query)
-    print(f"unique repos collected from search: {len(repos)}")
+    print(f"ledger entries: {len(ledger)} (last updated {ledger_updated_at or 'never'})")
+    print(f"existing apps: {len(existing_homepages)}")
+    print(f"search since:  {pushed_since or 'unbounded'}")
+
+    repos = collect_repos(args.min_stars, args.limit, pushed_since=pushed_since)
+    print(f"repos returned: {len(repos)}")
+
+    if not repos:
+        print("nothing to evaluate; exiting clean")
+        return 0
 
     verdicts: list[Verdict] = []
     accepted_count = 0
@@ -444,46 +476,44 @@ def main() -> int:
             accepted_count += 1
         verdicts.append(v)
 
-    # Emit manifests for accepted entries.
-    emitted_slugs: list[str] = []
-    if not args.dry_run:
-        for v in verdicts:
-            if v.decision != "accepted":
-                continue
-            slug = slugify(v.full_name.split("/")[-1], v.full_name.split("/")[0], used_slugs)
-            (manifests_dir / f"{slug}.toml").write_text(render_manifest(v, slug), encoding="utf-8")
-            emitted_slugs.append(slug)
+    counts: dict[str, int] = {}
+    for v in verdicts:
+        counts[v.decision] = counts.get(v.decision, 0) + 1
+    print(f"verdicts: {counts}")
 
-    # Write candidates.json and review.csv.
-    cand_path = args.out_dir / "candidates.json"
-    cand_path.write_text(
-        json.dumps([v.__dict__ for v in verdicts], indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    review_path = args.out_dir / "review.csv"
-    with review_path.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=[
-            "full_name", "decision", "reason", "install_type", "package",
-            "stars", "language", "html_url", "description",
-        ])
-        w.writeheader()
-        for v in verdicts:
-            w.writerow({
-                "full_name": v.full_name, "decision": v.decision, "reason": v.reason,
-                "install_type": v.install_type, "package": v.package,
-                "stars": v.stars, "language": v.language,
-                "html_url": v.html_url, "description": v.description,
-            })
+    accepted = [v for v in verdicts if v.decision == "accepted"]
+    if not accepted:
+        print("nothing accepted this run; exiting clean")
+        return 0
 
-    # Build the proposed next ledger. Only mark entries we *evaluated*
-    # this run (skip-by-ledger entries are already there). Accepted
-    # entries are recorded with their emitted slug for traceability.
+    if args.dry_run:
+        print(f"[dry-run] would emit {len(accepted)} manifests:")
+        for v in accepted:
+            slug = slugify(v.full_name.split("/")[-1], v.full_name.split("/")[0], set(used_slugs))
+            print(f"  {slug:30s} ← {v.full_name} ({v.install_type})")
+        return 0
+
+    written: list[Path] = []
+    for v in accepted:
+        slug = slugify(v.full_name.split("/")[-1], v.full_name.split("/")[0], used_slugs)
+        path = args.apps_dir / f"{slug}.toml"
+        path.write_text(render_manifest(v, slug), encoding="utf-8")
+        written.append(path)
+    print(f"wrote {len(written)} manifests to {args.apps_dir}")
+
+    if args.commit:
+        if not run_lint(repo_root):
+            print("lint failed; rolling back this run's manifests", file=sys.stderr)
+            for p in written:
+                p.unlink(missing_ok=True)
+            return 1
+
     next_ledger = dict(ledger)
     today = dt.date.today().isoformat()
     for v in verdicts:
-        key = v.full_name.lower()
-        if v.decision == "skipped":
+        if v.decision not in ("accepted", "rejected"):
             continue
+        key = v.full_name.lower()
         next_ledger[key] = {
             "decision": v.decision,
             "reason": v.reason,
@@ -491,21 +521,11 @@ def main() -> int:
             "first_seen": ledger.get(key, {}).get("first_seen", today),
             "last_seen": today,
         }
+    write_ledger(args.ledger, next_ledger)
 
-    next_ledger_path = args.out_dir / "ledger.next.json"
-    write_ledger(next_ledger_path, next_ledger)
+    if args.commit:
+        git_commit_and_push(repo_root, len(written), dry_push=args.dry_push)
 
-    if not args.dry_run:
-        write_ledger(args.ledger, next_ledger)
-
-    counts: dict[str, int] = {}
-    for v in verdicts:
-        counts[v.decision] = counts.get(v.decision, 0) + 1
-    print(f"verdicts: {counts}")
-    print(f"manifests emitted: {len(emitted_slugs)}")
-    print(f"  → {manifests_dir}")
-    print(f"review: {review_path}")
-    print(f"ledger: {args.ledger if not args.dry_run else next_ledger_path}")
     return 0
 
 
