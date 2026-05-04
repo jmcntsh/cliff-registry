@@ -180,6 +180,10 @@ def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
     desc = str(repo.get("description") or "")
     haystack = f"{full} {name} {desc}".lower()
 
+    # Strip leading emoji/punctuation so library-lead patterns anchored
+    # at ^ aren't fooled by descriptions like "✨ PTerm is a Go module…".
+    desc_stripped = re.sub(r"^[^\w]+", "", desc)
+
     for term in CATEGORY_DENY_TERMS:
         if term in haystack:
             return False, f"category-deny:{term}"
@@ -187,10 +191,10 @@ def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
         if re.search(pat, full, re.IGNORECASE):
             return False, f"name-pattern:{pat}"
     for pat in LIBRARY_LEAD_PATTERNS_CI:
-        if re.search(pat, desc, re.IGNORECASE):
+        if re.search(pat, desc_stripped, re.IGNORECASE):
             return False, f"library-lead:{pat[:30]}"
     for pat in LIBRARY_LEAD_PATTERNS_CS:
-        if re.search(pat, desc):
+        if re.search(pat, desc_stripped):
             return False, f"library-lead:{pat[:30]}"
     return True, ""
 
@@ -296,11 +300,29 @@ def slugify(name: str, owner: str, used: set[str]) -> str:
     return final
 
 
+def truncate_to_bytes(s: str, max_bytes: int = 120, ellipsis: str = "...") -> str:
+    """Truncate s so its UTF-8 byte length is ≤ max_bytes.
+
+    The registry lints `len(description)` in Go, which counts bytes,
+    not runes. A description with even one emoji can pass a codepoint
+    check but fail the byte check, so we must encode-truncate-decode.
+    """
+    if len(s.encode("utf-8")) <= max_bytes:
+        return s
+    budget = max_bytes - len(ellipsis.encode("utf-8"))
+    encoded = s.encode("utf-8")[:budget]
+    # Roll back into the start of any multibyte codepoint we may have
+    # split. UTF-8 continuation bytes have the high bits 10xxxxxx.
+    while encoded and (encoded[-1] & 0xC0) == 0x80:
+        encoded = encoded[:-1]
+    truncated = encoded.decode("utf-8", errors="ignore").rstrip(" .,;:-—")
+    return truncated + ellipsis
+
+
 def render_manifest(v: Verdict, slug: str) -> str:
     desc = v.description.replace('"', "'").replace("\n", " ").strip()
     desc = re.sub(r"\s+", " ", desc)
-    if len(desc) > 120:
-        desc = desc[:117].rstrip(" .,;:-—") + "..."
+    desc = truncate_to_bytes(desc, 120)
     tags = sorted({t for t in v.topics if re.fullmatch(r"[a-z0-9-]+", t)})[:6]
     if "cli" not in tags and "tui" not in tags:
         tags.append("tui" if v.install_type == "go" and "tui" in v.description.lower() else "cli")
