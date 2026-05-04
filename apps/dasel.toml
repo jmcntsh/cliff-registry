@@ -1,0 +1,11 @@
+name = "dasel"
+description = "Select, put and delete data from JSON, TOML, YAML, XML, INI, HCL and CSV files with a single tool. Also available as..."
+author = "TomWright"
+homepage = "https://github.com/TomWright/dasel"
+readme = "https://raw.githubusercontent.com/TomWright/dasel/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/TomWright/dasel@latest"

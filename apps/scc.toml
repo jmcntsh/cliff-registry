@@ -1,0 +1,11 @@
+name = "scc"
+description = "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates writt..."
+author = "boyter"
+homepage = "https://github.com/boyter/scc"
+readme = "https://raw.githubusercontent.com/boyter/scc/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/boyter/scc@latest"

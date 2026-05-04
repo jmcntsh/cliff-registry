@@ -1,0 +1,11 @@
+name = "bbot"
+description = "The recursive internet scanner for hackers. 🧡"
+author = "blacklanternsecurity"
+homepage = "https://github.com/blacklanternsecurity/bbot"
+readme = "https://raw.githubusercontent.com/blacklanternsecurity/bbot/stable/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "bbot"

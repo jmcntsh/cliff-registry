@@ -1,0 +1,11 @@
+name = "pipedream"
+description = "Connect APIs, remarkably fast. Free for developers."
+author = "PipedreamHQ"
+homepage = "https://github.com/PipedreamHQ/pipedream"
+readme = "https://raw.githubusercontent.com/PipedreamHQ/pipedream/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "pipedream"

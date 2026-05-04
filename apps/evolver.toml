@@ -1,0 +1,11 @@
+name = "evolver"
+description = "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai"
+author = "EvoMap"
+homepage = "https://github.com/EvoMap/evolver"
+readme = "https://raw.githubusercontent.com/EvoMap/evolver/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "evolver"

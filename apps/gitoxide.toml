@@ -1,0 +1,11 @@
+name = "gitoxide"
+description = "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+author = "GitoxideLabs"
+homepage = "https://github.com/GitoxideLabs/gitoxide"
+readme = "https://raw.githubusercontent.com/GitoxideLabs/gitoxide/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "gitoxide"

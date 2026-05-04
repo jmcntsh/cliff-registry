@@ -1,0 +1,11 @@
+name = "ferret"
+description = "Declarative web scraping"
+author = "MontFerret"
+homepage = "https://github.com/MontFerret/ferret"
+readme = "https://raw.githubusercontent.com/MontFerret/ferret/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/MontFerret/ferret@latest"
