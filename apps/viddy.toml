@@ -1,0 +1,11 @@
+name = "viddy"
+description = "👀 A modern watch command. Time machine and pager etc."
+author = "sachaos"
+homepage = "https://github.com/sachaos/viddy"
+readme = "https://raw.githubusercontent.com/sachaos/viddy/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "viddy"

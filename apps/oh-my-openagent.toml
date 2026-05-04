@@ -1,0 +1,11 @@
+name = "oh-my-openagent"
+description = "omo; the best agent harness - previously oh-my-opencode"
+author = "code-yeongyu"
+homepage = "https://github.com/code-yeongyu/oh-my-openagent"
+readme = "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "oh-my-openagent"

@@ -1,0 +1,11 @@
+name = "visidata"
+description = "A terminal spreadsheet multitool for discovering and arranging data"
+author = "saulpw"
+homepage = "https://github.com/saulpw/visidata"
+readme = "https://raw.githubusercontent.com/saulpw/visidata/develop/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "visidata"

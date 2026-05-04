@@ -1,0 +1,11 @@
+name = "slack-term"
+description = "Slack client for your terminal"
+author = "jpbruinsslot"
+homepage = "https://github.com/jpbruinsslot/slack-term"
+readme = "https://raw.githubusercontent.com/jpbruinsslot/slack-term/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jpbruinsslot/slack-term@latest"

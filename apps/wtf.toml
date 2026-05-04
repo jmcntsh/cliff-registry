@@ -1,0 +1,11 @@
+name = "wtf"
+description = "The personal information dashboard for your terminal"
+author = "wtfutil"
+homepage = "https://github.com/wtfutil/wtf"
+readme = "https://raw.githubusercontent.com/wtfutil/wtf/trunk/README.md"
+tags = ["cli"]
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/wtfutil/wtf@latest"

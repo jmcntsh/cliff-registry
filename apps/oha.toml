@@ -1,0 +1,11 @@
+name = "oha"
+description = "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation."
+author = "hatoo"
+homepage = "https://github.com/hatoo/oha"
+readme = "https://raw.githubusercontent.com/hatoo/oha/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "oha"
