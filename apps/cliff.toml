@@ -16,10 +16,17 @@ package = "jmcntsh/tap/cliff"
 type = "script"
 command = "curl -fsSL https://cliff.sh | sh"
 
-# install.sh drops the binary in one of CLIFF_INSTALL_DIR, /usr/local/bin,
-# or ~/.local/bin — try all three so the uninstall catches whichever the
-# install picked without needing the user to remember. The ${VAR:+...}
-# form expands to "$CLIFF_INSTALL_DIR/cliff" only when the var is set,
-# else empty (and `rm -f ""` is harmless).
+# Prefer `cliff self-uninstall` (v0.1.19+) — the binary reads
+# ~/.cliff/install.json (written by install.sh) to find its exact
+# install location, refuses on brew/Cellar paths, and cleans ~/.cliff
+# in one step. Older clients fall back to the path-list rm; the list
+# now includes /opt/homebrew/bin/cliff, which install.sh has always
+# been able to write to but the previous uninstall recipe missed.
 [uninstall]
-command = 'rm -f "${CLIFF_INSTALL_DIR:+$CLIFF_INSTALL_DIR/cliff}" /usr/local/bin/cliff "$HOME/.local/bin/cliff"'
+command = '''
+if command -v cliff >/dev/null 2>&1 && cliff help 2>&1 | grep -q self-uninstall; then
+  cliff self-uninstall
+else
+  rm -f "${CLIFF_INSTALL_DIR:+$CLIFF_INSTALL_DIR/cliff}" /usr/local/bin/cliff /opt/homebrew/bin/cliff "$HOME/.local/bin/cliff"
+fi
+'''
