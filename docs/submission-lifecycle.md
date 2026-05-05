@@ -21,7 +21,7 @@ exception-only review flow for maintainers.
 1. Submit repository URL.
 2. Optionally add name, description, install details, and `.reel`.
 3. Automation opens a draft PR when data is sufficient.
-4. Author adds missing metadata and `.reel` later.
+4. Author adds missing metadata and `reels/<slug>.reel` later.
 5. Maintainer promotes listing to `verified`.
 
 ## Maintainer workflow
@@ -49,7 +49,7 @@ Workflow: `.github/workflows/submission-reel-promote.yml`
 - Trigger: submission issue edited/reopened/labeled
 - Reads `.reel` field from the issue form
 - Finds `apps/<slug>.toml` from submitted name/repo
-- Adds or updates `demo = "..."` from the `.reel` link
+- Adds or updates the app's reel metadata from the `.reel` link
 - Runs lint and opens/updates a draft promotion PR
 
 ## Minimum requirements
@@ -60,11 +60,11 @@ Workflow: `.github/workflows/submission-reel-promote.yml`
 - `description`
 - `author`
 - `homepage`
-- `[install]` block
+- `[install]` or `[[installs]]` block
 
 `verified` additionally requires:
 
-- `.reel` details linked or added in registry workflow
+- `reels/<slug>.reel` linked or added in registry workflow
 - lint-valid metadata updates
 
 ## Policy notes

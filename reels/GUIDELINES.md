@@ -217,7 +217,7 @@ about. Most recent first.
   appended to the exec line.
 - cliff: even though cliff itself embeds a reel, the manifest still
   needs a `reels/cliff.reel` so the URL-based fetcher we're building
-  has a uniform expectation across all 44 apps. Wrote a Template 1
+  has a uniform expectation across catalog apps. Wrote a Template 1
   fake of the cliff browser UI rather than running real cliff
   (which does network fetches at startup).
 - scope-tui: real binary needs an audio backend or file source — both
