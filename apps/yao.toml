@@ -1,0 +1,11 @@
+name = "yao"
+description = "✨ Build AI agents and web apps — with a single binary."
+author = "YaoApp"
+homepage = "https://github.com/YaoApp/yao"
+readme = "https://raw.githubusercontent.com/YaoApp/yao/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/YaoApp/yao@latest"

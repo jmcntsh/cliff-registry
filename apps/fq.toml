@@ -1,0 +1,11 @@
+name = "fq"
+description = "jq for binary formats - tool, language and decoders for working with binary and text formats"
+author = "wader"
+homepage = "https://github.com/wader/fq"
+readme = "https://raw.githubusercontent.com/wader/fq/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/wader/fq@latest"

@@ -1,0 +1,11 @@
+name = "codeburn"
+description = "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability."
+author = "getagentseal"
+homepage = "https://github.com/getagentseal/codeburn"
+readme = "https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "codeburn"

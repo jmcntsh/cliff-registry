@@ -1,0 +1,11 @@
+name = "streamlink"
+description = "Streamlink is a CLI utility which pipes video streams from various services into a video player"
+author = "streamlink"
+homepage = "https://github.com/streamlink/streamlink"
+readme = "https://raw.githubusercontent.com/streamlink/streamlink/master/README.md"
+tags = ["cli"]
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "streamlink"

@@ -1,0 +1,11 @@
+name = "hatch"
+description = "Modern, extensible Python project management"
+author = "pypa"
+homepage = "https://github.com/pypa/hatch"
+readme = "https://raw.githubusercontent.com/pypa/hatch/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "hatch"

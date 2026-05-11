@@ -1,0 +1,11 @@
+name = "kubectl-ai"
+description = "AI powered Kubernetes Assistant"
+author = "GoogleCloudPlatform"
+homepage = "https://github.com/GoogleCloudPlatform/kubectl-ai"
+readme = "https://raw.githubusercontent.com/GoogleCloudPlatform/kubectl-ai/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/GoogleCloudPlatform/kubectl-ai@latest"

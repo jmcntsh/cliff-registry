@@ -1,0 +1,11 @@
+name = "gdu"
+description = "Fast disk usage analyzer with console interface written in Go"
+author = "dundee"
+homepage = "https://github.com/dundee/gdu"
+readme = "https://raw.githubusercontent.com/dundee/gdu/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dundee/gdu@latest"

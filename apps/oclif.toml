@@ -1,0 +1,11 @@
+name = "oclif"
+description = "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+author = "oclif"
+homepage = "https://github.com/oclif/oclif"
+readme = "https://raw.githubusercontent.com/oclif/oclif/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "oclif"

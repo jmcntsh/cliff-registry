@@ -1,0 +1,11 @@
+name = "zcf"
+description = "Zero-Config Code Flow for Claude code & Codex"
+author = "UfoMiao"
+homepage = "https://github.com/UfoMiao/zcf"
+readme = "https://raw.githubusercontent.com/UfoMiao/zcf/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "zcf"

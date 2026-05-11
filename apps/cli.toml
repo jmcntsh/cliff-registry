@@ -1,0 +1,11 @@
+name = "cli"
+description = "The Docker CLI"
+author = "docker"
+homepage = "https://github.com/docker/cli"
+readme = "https://raw.githubusercontent.com/docker/cli/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/docker/cli@latest"

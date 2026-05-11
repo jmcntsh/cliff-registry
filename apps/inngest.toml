@@ -1,0 +1,11 @@
+name = "inngest"
+description = "The leading workflow orchestration platform. Run stateful step functions and AI workflows on serverless, servers, or..."
+author = "inngest"
+homepage = "https://github.com/inngest/inngest"
+readme = "https://raw.githubusercontent.com/inngest/inngest/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/inngest/inngest@latest"

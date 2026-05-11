@@ -1,0 +1,11 @@
+name = "ipatool"
+description = "Command-line tool that allows searching and downloading app packages (known as ipa files) from the iOS App Store"
+author = "majd"
+homepage = "https://github.com/majd/ipatool"
+readme = "https://raw.githubusercontent.com/majd/ipatool/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/majd/ipatool@latest"

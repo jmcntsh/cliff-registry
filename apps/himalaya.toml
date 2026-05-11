@@ -1,0 +1,11 @@
+name = "himalaya"
+description = "CLI to manage emails"
+author = "pimalaya"
+homepage = "https://github.com/pimalaya/himalaya"
+readme = "https://raw.githubusercontent.com/pimalaya/himalaya/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "himalaya"
