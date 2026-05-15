@@ -1,0 +1,13 @@
+name = "draw"
+description = "Terminal canvas for drawing ASCII art with mouse, color, save, and export"
+author = "jmcntsh"
+homepage = "https://github.com/jmcntsh/draw"
+readme = "https://raw.githubusercontent.com/jmcntsh/draw/main/README.md"
+tags = ["drawing", "ascii", "canvas", "tui"]
+license = "MIT"
+category = "Creative"
+language = "Go"
+
+[install]
+type = "go"
+package = "github.com/jmcntsh/draw@latest"
