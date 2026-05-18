@@ -1,0 +1,11 @@
+name = "intelli-shell"
+description = "Like IntelliSense, but for shells"
+author = "lasantosr"
+homepage = "https://github.com/lasantosr/intelli-shell"
+readme = "https://raw.githubusercontent.com/lasantosr/intelli-shell/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "intelli-shell"

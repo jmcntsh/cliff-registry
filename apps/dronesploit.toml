@@ -1,0 +1,11 @@
+name = "dronesploit"
+description = "Drone pentesting framework console"
+author = "dronesploit"
+homepage = "https://github.com/dronesploit/dronesploit"
+readme = "https://raw.githubusercontent.com/dronesploit/dronesploit/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "dronesploit"

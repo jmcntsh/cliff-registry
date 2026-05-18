@@ -1,0 +1,11 @@
+name = "gruvbox-factory"
+description = "🏭 convert any image to the gruvbox pallete"
+author = "paulopacitti"
+homepage = "https://github.com/paulopacitti/gruvbox-factory"
+readme = "https://raw.githubusercontent.com/paulopacitti/gruvbox-factory/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "gruvbox-factory"

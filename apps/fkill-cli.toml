@@ -1,0 +1,11 @@
+name = "fkill-cli"
+description = "Fabulously kill processes. Cross-platform."
+author = "sindresorhus"
+homepage = "https://github.com/sindresorhus/fkill-cli"
+readme = "https://raw.githubusercontent.com/sindresorhus/fkill-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "fkill-cli"

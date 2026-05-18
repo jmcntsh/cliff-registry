@@ -1,0 +1,11 @@
+name = "dunk"
+description = "Prettier git diffs in the terminal 🎨"
+author = "darrenburns"
+homepage = "https://github.com/darrenburns/dunk"
+readme = "https://raw.githubusercontent.com/darrenburns/dunk/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "dunk"

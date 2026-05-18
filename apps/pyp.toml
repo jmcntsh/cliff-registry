@@ -1,0 +1,11 @@
+name = "pyp"
+description = "Easily run Python at the shell! Magical, but never mysterious."
+author = "hauntsaninja"
+homepage = "https://github.com/hauntsaninja/pyp"
+readme = "https://raw.githubusercontent.com/hauntsaninja/pyp/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pyp"

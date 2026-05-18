@@ -1,0 +1,11 @@
+name = "gocloc"
+description = "A little fast cloc(Count Lines Of Code)"
+author = "hhatto"
+homepage = "https://github.com/hhatto/gocloc"
+readme = "https://raw.githubusercontent.com/hhatto/gocloc/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hhatto/gocloc@latest"

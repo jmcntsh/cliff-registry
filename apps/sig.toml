@@ -1,0 +1,11 @@
+name = "sig"
+description = "Interactive grep (for streaming)"
+author = "ynqa"
+homepage = "https://github.com/ynqa/sig"
+readme = "https://raw.githubusercontent.com/ynqa/sig/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "sig"

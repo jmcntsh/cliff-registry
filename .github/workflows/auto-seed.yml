@@ -7,7 +7,7 @@ on:
     inputs:
       max_new:
         description: "Cap on emitted manifests"
-        default: "20"
+        default: "50"
         type: string
       dry_run:
         description: "Print only; touch nothing"
@@ -36,7 +36,7 @@ jobs:
           python-version: "3.12"
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_NEW: ${{ inputs.max_new || '20' }}
+          MAX_NEW: ${{ inputs.max_new || '50' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: |
           extra=""

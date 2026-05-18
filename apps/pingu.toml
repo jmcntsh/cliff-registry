@@ -1,0 +1,11 @@
+name = "pingu"
+description = "🐧ping command but with pingu"
+author = "sheepla"
+homepage = "https://github.com/sheepla/pingu"
+readme = "https://raw.githubusercontent.com/sheepla/pingu/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sheepla/pingu@latest"

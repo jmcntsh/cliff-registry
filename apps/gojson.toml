@@ -1,0 +1,11 @@
+name = "gojson"
+description = "Automatically generate Go (golang) struct definitions from example JSON"
+author = "ChimeraCoder"
+homepage = "https://github.com/ChimeraCoder/gojson"
+readme = "https://raw.githubusercontent.com/ChimeraCoder/gojson/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ChimeraCoder/gojson@latest"

@@ -1,0 +1,11 @@
+name = "tml"
+description = ":rainbow::computer::art: A tiny markup language for terminal output. Makes formatting output in CLI apps easier!"
+author = "liamg"
+homepage = "https://github.com/liamg/tml"
+readme = "https://raw.githubusercontent.com/liamg/tml/master/README.md"
+tags = ["cli"]
+license = "UNLICENSE"
+
+[[installs]]
+type = "go"
+package = "github.com/liamg/tml@latest"

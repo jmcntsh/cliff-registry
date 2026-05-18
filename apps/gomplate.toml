@@ -1,0 +1,11 @@
+name = "gomplate"
+description = "A flexible commandline tool for template rendering. Supports lots of local and remote datasources."
+author = "hairyhenderson"
+homepage = "https://github.com/hairyhenderson/gomplate"
+readme = "https://raw.githubusercontent.com/hairyhenderson/gomplate/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hairyhenderson/gomplate@latest"

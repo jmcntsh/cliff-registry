@@ -1,0 +1,11 @@
+name = "envio"
+description = "A secure command-line tool for managing environment variables"
+author = "humblepenguinn"
+homepage = "https://github.com/humblepenguinn/envio"
+readme = "https://raw.githubusercontent.com/humblepenguinn/envio/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "envio"

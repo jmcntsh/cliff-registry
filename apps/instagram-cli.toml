@@ -1,0 +1,11 @@
+name = "instagram-cli"
+description = "Instagram's CLI and TUI client -- The ultimate weapon against brainrot"
+author = "supreme-gg-gg"
+homepage = "https://github.com/supreme-gg-gg/instagram-cli"
+readme = "https://raw.githubusercontent.com/supreme-gg-gg/instagram-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "instagram-cli"

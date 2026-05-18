@@ -1,0 +1,11 @@
+name = "kafkactl"
+description = "Command Line Tool for managing Apache Kafka"
+author = "deviceinsight"
+homepage = "https://github.com/deviceinsight/kafkactl"
+readme = "https://raw.githubusercontent.com/deviceinsight/kafkactl/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/deviceinsight/kafkactl@latest"

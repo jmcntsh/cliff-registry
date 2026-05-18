@@ -1,0 +1,11 @@
+name = "pi-agent-rust"
+description = "High-performance AI coding agent CLI written in Rust with zero unsafe code"
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/pi_agent_rust"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "pi_agent_rust"

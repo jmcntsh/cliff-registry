@@ -1,0 +1,11 @@
+name = "saw"
+description = "Fast, multi-purpose tool for AWS CloudWatch Logs"
+author = "TylerBrock"
+homepage = "https://github.com/TylerBrock/saw"
+readme = "https://raw.githubusercontent.com/TylerBrock/saw/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/TylerBrock/saw@latest"

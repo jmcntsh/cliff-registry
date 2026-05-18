@@ -1,0 +1,11 @@
+name = "vorpal"
+description = "Node's framework for interactive CLIs"
+author = "dthree"
+homepage = "https://github.com/dthree/vorpal"
+readme = "https://raw.githubusercontent.com/dthree/vorpal/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "vorpal"

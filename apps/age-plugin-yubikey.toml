@@ -1,0 +1,11 @@
+name = "age-plugin-yubikey"
+description = "YubiKey plugin for age"
+author = "str4d"
+homepage = "https://github.com/str4d/age-plugin-yubikey"
+readme = "https://raw.githubusercontent.com/str4d/age-plugin-yubikey/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "age-plugin-yubikey"

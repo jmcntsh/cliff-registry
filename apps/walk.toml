@@ -1,0 +1,11 @@
+name = "walk"
+description = "Terminal file manager"
+author = "antonmedv"
+homepage = "https://github.com/antonmedv/walk"
+readme = "https://raw.githubusercontent.com/antonmedv/walk/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/antonmedv/walk@latest"

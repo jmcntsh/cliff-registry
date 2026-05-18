@@ -1,0 +1,11 @@
+name = "yt-fts"
+description = "YouTube Full Text Search - Search all of YouTube from the command line"
+author = "NotJoeMartinez"
+homepage = "https://github.com/NotJoeMartinez/yt-fts"
+readme = "https://raw.githubusercontent.com/NotJoeMartinez/yt-fts/main/README.md"
+tags = ["cli"]
+license = "UNLICENSE"
+
+[[installs]]
+type = "pipx"
+package = "yt-fts"

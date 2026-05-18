@@ -1,0 +1,11 @@
+name = "zlsgo"
+description = "简单易用、足够轻量、性能好的 Golang 库 - Easy to use, light enough, good performance Golang library"
+author = "sohaha"
+homepage = "https://github.com/sohaha/zlsgo"
+readme = "https://raw.githubusercontent.com/sohaha/zlsgo/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sohaha/zlsgo@latest"

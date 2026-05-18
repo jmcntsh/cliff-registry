@@ -1,0 +1,11 @@
+name = "haft"
+description = "Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity..."
+author = "m0n0x41d"
+homepage = "https://github.com/m0n0x41d/haft"
+readme = "https://raw.githubusercontent.com/m0n0x41d/haft/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/m0n0x41d/haft@latest"

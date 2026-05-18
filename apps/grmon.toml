@@ -1,0 +1,11 @@
+name = "grmon"
+description = "Command line monitoring for goroutines"
+author = "bcicen"
+homepage = "https://github.com/bcicen/grmon"
+readme = "https://raw.githubusercontent.com/bcicen/grmon/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bcicen/grmon@latest"

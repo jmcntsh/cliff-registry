@@ -1,0 +1,11 @@
+name = "hiper"
+description = "🚀 A statistical analysis tool for performance testing"
+author = "pod4g"
+homepage = "https://github.com/pod4g/hiper"
+readme = "https://raw.githubusercontent.com/pod4g/hiper/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "hiper"

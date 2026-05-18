@@ -1,0 +1,11 @@
+name = "lune"
+description = "A standalone Luau runtime"
+author = "lune-org"
+homepage = "https://github.com/lune-org/lune"
+readme = "https://raw.githubusercontent.com/lune-org/lune/main/README.md"
+tags = ["cli"]
+license = "MPL-2.0"
+
+[[installs]]
+type = "cargo"
+package = "lune"

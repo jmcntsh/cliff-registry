@@ -1,0 +1,11 @@
+name = "feflow"
+description = "🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript."
+author = "Tencent"
+homepage = "https://github.com/Tencent/feflow"
+readme = "https://raw.githubusercontent.com/Tencent/feflow/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "feflow"

@@ -1,0 +1,11 @@
+name = "serve"
+description = "Static file serving and directory listing"
+author = "vercel"
+homepage = "https://github.com/vercel/serve"
+readme = "https://raw.githubusercontent.com/vercel/serve/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "serve"

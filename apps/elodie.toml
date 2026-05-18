@@ -1,0 +1,11 @@
+name = "elodie"
+description = "An EXIF-based photo assistant, organizer and workflow automation tool."
+author = "jmathai"
+homepage = "https://github.com/jmathai/elodie"
+readme = "https://raw.githubusercontent.com/jmathai/elodie/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "elodie"

@@ -1,0 +1,11 @@
+name = "dukascopy-node"
+description = "✨ Download historical and real-time price tick data for Crypto, Stocks, ETFs, CFDs, Forex via CLI and Node.js ✨"
+author = "Leo4815162342"
+homepage = "https://github.com/Leo4815162342/dukascopy-node"
+readme = "https://raw.githubusercontent.com/Leo4815162342/dukascopy-node/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "dukascopy-node"

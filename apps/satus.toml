@@ -1,0 +1,10 @@
+name = "satus"
+description = "Advanced Next.js App Router starter for content-driven sites"
+author = "darkroomengineering"
+homepage = "https://github.com/darkroomengineering/satus"
+readme = "https://raw.githubusercontent.com/darkroomengineering/satus/main/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "satus"

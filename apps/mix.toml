@@ -1,0 +1,11 @@
+name = "mix"
+description = "✨ Standard Toolkit for Go fast development / Go 快速开发标准工具包"
+author = "mix-go"
+homepage = "https://github.com/mix-go/mix"
+readme = "https://raw.githubusercontent.com/mix-go/mix/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/mix-go/mix@latest"

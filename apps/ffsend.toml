@@ -1,0 +1,11 @@
+name = "ffsend"
+description = ":mailbox_with_mail: Easily and securely share files from the command line. A fully featured Firefox Send client."
+author = "timvisee"
+homepage = "https://github.com/timvisee/ffsend"
+readme = "https://raw.githubusercontent.com/timvisee/ffsend/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "ffsend"

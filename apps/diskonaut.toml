@@ -1,0 +1,11 @@
+name = "diskonaut"
+description = "Terminal disk space navigator 🔭"
+author = "imsnif"
+homepage = "https://github.com/imsnif/diskonaut"
+readme = "https://raw.githubusercontent.com/imsnif/diskonaut/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "diskonaut"

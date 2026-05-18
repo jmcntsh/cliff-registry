@@ -1,0 +1,11 @@
+name = "graphqlviz"
+description = "GraphQL Server schema visualizer"
+author = "sheerun"
+homepage = "https://github.com/sheerun/graphqlviz"
+readme = "https://raw.githubusercontent.com/sheerun/graphqlviz/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "graphqlviz"

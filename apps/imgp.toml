@@ -1,0 +1,11 @@
+name = "imgp"
+description = ":camera_flash: Fast batch image resizer and rotator"
+author = "jarun"
+homepage = "https://github.com/jarun/imgp"
+readme = "https://raw.githubusercontent.com/jarun/imgp/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "imgp"

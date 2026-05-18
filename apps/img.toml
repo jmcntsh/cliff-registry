@@ -1,0 +1,11 @@
+name = "img"
+description = "Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder."
+author = "genuinetools"
+homepage = "https://github.com/genuinetools/img"
+readme = "https://raw.githubusercontent.com/genuinetools/img/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/genuinetools/img@latest"

@@ -1,0 +1,11 @@
+name = "asitop"
+description = "Perf monitoring CLI tool for Apple Silicon"
+author = "tlkh"
+homepage = "https://github.com/tlkh/asitop"
+readme = "https://raw.githubusercontent.com/tlkh/asitop/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "asitop"

@@ -1,0 +1,11 @@
+name = "viu"
+description = "Terminal image viewer with native support for iTerm and Kitty"
+author = "atanunq"
+homepage = "https://github.com/atanunq/viu"
+readme = "https://raw.githubusercontent.com/atanunq/viu/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "viu"

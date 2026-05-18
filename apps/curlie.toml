@@ -1,0 +1,11 @@
+name = "curlie"
+description = "The power of curl, the ease of use of httpie."
+author = "rs"
+homepage = "https://github.com/rs/curlie"
+readme = "https://raw.githubusercontent.com/rs/curlie/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rs/curlie@latest"

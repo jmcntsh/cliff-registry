@@ -1,0 +1,11 @@
+name = "trdsql"
+description = "CLI tool that can execute SQL queries on CSV, LTSV, JSON, YAML and TBLN. Can output to various formats."
+author = "noborus"
+homepage = "https://github.com/noborus/trdsql"
+readme = "https://raw.githubusercontent.com/noborus/trdsql/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/noborus/trdsql@latest"

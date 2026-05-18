@@ -1,0 +1,11 @@
+name = "prompts"
+description = "❯ Lightweight, beautiful and user-friendly interactive prompts"
+author = "terkelg"
+homepage = "https://github.com/terkelg/prompts"
+readme = "https://raw.githubusercontent.com/terkelg/prompts/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "prompts"

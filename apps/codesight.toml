@@ -1,0 +1,11 @@
+name = "codesight"
+description = "Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, an..."
+author = "Houseofmvps"
+homepage = "https://github.com/Houseofmvps/codesight"
+readme = "https://raw.githubusercontent.com/Houseofmvps/codesight/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "codesight"

@@ -1,0 +1,11 @@
+name = "ccmanager"
+description = "Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / Cline CLI / Open..."
+author = "kbwo"
+homepage = "https://github.com/kbwo/ccmanager"
+readme = "https://raw.githubusercontent.com/kbwo/ccmanager/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ccmanager"

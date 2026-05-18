@@ -25,8 +25,9 @@ python3 scripts/seed.py --commit --dry-push
 
 Useful flags:
 
-- `--min-stars 20` — lower bound for the Search query.
-- `--max-new 20` — cap on new manifests emitted per run.
+- `--min-stars 5` — lower bound for each Search query.
+- `--limit 300` — max repos returned per Search query.
+- `--max-new 50` — cap on new manifests emitted per run.
 - `--full-scan` — ignore the recency fast-path; scan all topics.
 - `--no-verify-registry` — skip HEAD checks against PyPI/npm/crates.io.
 
@@ -34,7 +35,8 @@ Useful flags:
 
 1. Load `scripts/seen-ledger.json` (or start empty).
 2. Take its `updated_at` timestamp; pass `pushed:>=<that date - 1 day>`
-   to GitHub Search. Most weeks this returns a small handful of repos.
+   to every GitHub Search query. The query set covers topics, names,
+   descriptions, and README matches for CLI/TUI-related terms.
 3. Skip anything in the ledger or already in `apps/` by homepage.
 4. For survivors: category-check, suggest an install type, optionally
    HEAD-check the package registry, render a manifest.

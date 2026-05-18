@@ -1,0 +1,11 @@
+name = "code2prompt-raphaelmansuy"
+description = "Code2Prompt is a powerful command-line tool that simplifies the process of providing context to Large Language Models..."
+author = "raphaelmansuy"
+homepage = "https://github.com/raphaelmansuy/code2prompt"
+readme = "https://raw.githubusercontent.com/raphaelmansuy/code2prompt/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "code2prompt"

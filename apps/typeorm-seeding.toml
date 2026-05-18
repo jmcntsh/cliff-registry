@@ -1,0 +1,11 @@
+name = "typeorm-seeding"
+description = "🌱 A delightful way to seed test data into your database."
+author = "w3tecch"
+homepage = "https://github.com/w3tecch/typeorm-seeding"
+readme = "https://raw.githubusercontent.com/w3tecch/typeorm-seeding/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "typeorm-seeding"

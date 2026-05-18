@@ -1,0 +1,11 @@
+name = "mob"
+description = "Tool for smooth git handover."
+author = "remotemobprogramming"
+homepage = "https://github.com/remotemobprogramming/mob"
+readme = "https://raw.githubusercontent.com/remotemobprogramming/mob/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/remotemobprogramming/mob@latest"

@@ -1,0 +1,11 @@
+name = "run"
+description = "Universal multi-language runner and smart REPL written in Rust."
+author = "Esubaalew"
+homepage = "https://github.com/Esubaalew/run"
+readme = "https://raw.githubusercontent.com/Esubaalew/run/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "run"

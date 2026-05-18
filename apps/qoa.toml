@@ -1,0 +1,11 @@
+name = "qoa"
+description = "Minimal interactive command-line prompts library"
+author = "klaudiosinani"
+homepage = "https://github.com/klaudiosinani/qoa"
+readme = "https://raw.githubusercontent.com/klaudiosinani/qoa/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "qoa"

@@ -1,0 +1,11 @@
+name = "typeshare"
+description = "Typeshare is the ultimate tool for synchronizing your type definitions between Rust and other languages for seamless..."
+author = "1Password"
+homepage = "https://github.com/1Password/typeshare"
+readme = "https://raw.githubusercontent.com/1Password/typeshare/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "typeshare"

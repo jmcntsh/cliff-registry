@@ -1,0 +1,11 @@
+name = "diagram"
+description = "CLI app to convert ASCII arts into hand drawn diagrams."
+author = "esimov"
+homepage = "https://github.com/esimov/diagram"
+readme = "https://raw.githubusercontent.com/esimov/diagram/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/esimov/diagram@latest"

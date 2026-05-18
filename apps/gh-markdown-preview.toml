@@ -1,0 +1,11 @@
+name = "gh-markdown-preview"
+description = "GitHub CLI extension to preview Markdown looks like GitHub."
+author = "yusukebe"
+homepage = "https://github.com/yusukebe/gh-markdown-preview"
+readme = "https://raw.githubusercontent.com/yusukebe/gh-markdown-preview/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/yusukebe/gh-markdown-preview@latest"

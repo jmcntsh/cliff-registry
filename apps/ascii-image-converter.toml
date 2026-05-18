@@ -1,0 +1,11 @@
+name = "ascii-image-converter"
+description = "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports brail..."
+author = "TheZoraiz"
+homepage = "https://github.com/TheZoraiz/ascii-image-converter"
+readme = "https://raw.githubusercontent.com/TheZoraiz/ascii-image-converter/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/TheZoraiz/ascii-image-converter@latest"

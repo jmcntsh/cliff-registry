@@ -1,0 +1,11 @@
+name = "so"
+description = "A terminal interface for Stack Overflow"
+author = "samtay"
+homepage = "https://github.com/samtay/so"
+readme = "https://raw.githubusercontent.com/samtay/so/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "so"

@@ -1,0 +1,11 @@
+name = "evans"
+description = "Evans: more expressive universal gRPC client"
+author = "ktr0731"
+homepage = "https://github.com/ktr0731/evans"
+readme = "https://raw.githubusercontent.com/ktr0731/evans/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ktr0731/evans@latest"

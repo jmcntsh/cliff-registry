@@ -1,0 +1,11 @@
+name = "tasuku"
+description = "✅ タスク — The minimal task visualizer for Node.js"
+author = "privatenumber"
+homepage = "https://github.com/privatenumber/tasuku"
+readme = "https://raw.githubusercontent.com/privatenumber/tasuku/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "tasuku"

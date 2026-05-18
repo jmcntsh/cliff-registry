@@ -1,0 +1,11 @@
+name = "lumen"
+description = "Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI"
+author = "jnsahaj"
+homepage = "https://github.com/jnsahaj/lumen"
+readme = "https://raw.githubusercontent.com/jnsahaj/lumen/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "lumen"

@@ -1,0 +1,11 @@
+name = "github-spray"
+description = ":octocat: Draw on your GitHub contribution graph ░▒▓█"
+author = "Annihil"
+homepage = "https://github.com/Annihil/github-spray"
+readme = "https://raw.githubusercontent.com/Annihil/github-spray/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "github-spray"

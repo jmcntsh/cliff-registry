@@ -1,0 +1,10 @@
+name = "cli-supabase"
+description = "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating t..."
+author = "supabase"
+homepage = "https://github.com/supabase/cli"
+readme = "https://raw.githubusercontent.com/supabase/cli/develop/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "cli"

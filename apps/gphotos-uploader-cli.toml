@@ -1,0 +1,11 @@
+name = "gphotos-uploader-cli"
+description = "Command line tool to mass upload media folders to your google photos account(s) (Mac OS / Linux)"
+author = "gphotosuploader"
+homepage = "https://github.com/gphotosuploader/gphotos-uploader-cli"
+readme = "https://raw.githubusercontent.com/gphotosuploader/gphotos-uploader-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gphotosuploader/gphotos-uploader-cli@latest"

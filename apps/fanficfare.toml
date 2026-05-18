@@ -1,0 +1,11 @@
+name = "fanficfare"
+description = "FanFicFare is a tool for making eBooks from stories on fanfiction and other web sites."
+author = "JimmXinu"
+homepage = "https://github.com/JimmXinu/FanFicFare"
+readme = "https://raw.githubusercontent.com/JimmXinu/FanFicFare/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "FanFicFare"

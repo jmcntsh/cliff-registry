@@ -1,0 +1,11 @@
+name = "pulsemixer"
+description = "CLI and curses mixer for PulseAudio"
+author = "GeorgeFilipkin"
+homepage = "https://github.com/GeorgeFilipkin/pulsemixer"
+readme = "https://raw.githubusercontent.com/GeorgeFilipkin/pulsemixer/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pulsemixer"

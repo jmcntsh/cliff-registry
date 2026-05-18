@@ -1,0 +1,10 @@
+name = "workflow"
+description = "一个工作流平台"
+author = "luoxue-victor"
+homepage = "https://github.com/luoxue-victor/workflow"
+readme = "https://raw.githubusercontent.com/luoxue-victor/workflow/master/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "workflow"

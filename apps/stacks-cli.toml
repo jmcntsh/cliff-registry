@@ -1,0 +1,11 @@
+name = "stacks-cli"
+description = "📊 Analyze website stack from the terminal 💻"
+author = "WeiChiaChang"
+homepage = "https://github.com/WeiChiaChang/stacks-cli"
+readme = "https://raw.githubusercontent.com/WeiChiaChang/stacks-cli/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "stacks-cli"

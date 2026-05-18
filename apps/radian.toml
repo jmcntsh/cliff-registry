@@ -1,0 +1,11 @@
+name = "radian"
+description = "A 21 century R console"
+author = "randy3k"
+homepage = "https://github.com/randy3k/radian"
+readme = "https://raw.githubusercontent.com/randy3k/radian/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "radian"

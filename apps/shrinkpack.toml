@@ -1,0 +1,11 @@
+name = "shrinkpack"
+description = "Fast, resilient, reproducible builds with npm install."
+author = "JamieMason"
+homepage = "https://github.com/JamieMason/shrinkpack"
+readme = "https://raw.githubusercontent.com/JamieMason/shrinkpack/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "shrinkpack"

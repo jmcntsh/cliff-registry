@@ -1,0 +1,11 @@
+name = "cyme"
+description = "List system USB buses and devices. A modern cross-platform lsusb that attempts to maintain compatibility with, but al..."
+author = "tuna-f1sh"
+homepage = "https://github.com/tuna-f1sh/cyme"
+readme = "https://raw.githubusercontent.com/tuna-f1sh/cyme/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "cyme"

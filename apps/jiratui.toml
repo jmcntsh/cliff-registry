@@ -1,0 +1,11 @@
+name = "jiratui"
+description = "A Textual User Interface for interacting with Atlassian Jira from your shell"
+author = "whyisdifficult"
+homepage = "https://github.com/whyisdifficult/jiratui"
+readme = "https://raw.githubusercontent.com/whyisdifficult/jiratui/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "jiratui"

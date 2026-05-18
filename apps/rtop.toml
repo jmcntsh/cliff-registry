@@ -1,0 +1,11 @@
+name = "rtop"
+description = "rtop is an interactive, remote system monitoring tool based on SSH"
+author = "rapidloop"
+homepage = "https://github.com/rapidloop/rtop"
+readme = "https://raw.githubusercontent.com/rapidloop/rtop/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/rapidloop/rtop@latest"

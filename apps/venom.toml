@@ -1,0 +1,11 @@
+name = "venom"
+description = "🐍 Manage and run your integration tests with efficiency - Venom run executors (script, HTTP Request, web, imap, et..."
+author = "ovh"
+homepage = "https://github.com/ovh/venom"
+readme = "https://raw.githubusercontent.com/ovh/venom/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ovh/venom@latest"

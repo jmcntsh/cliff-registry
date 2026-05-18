@@ -1,0 +1,11 @@
+name = "sprite-dicing"
+description = "Cross-engine tool for lossless compression of sprites with identical regions"
+author = "elringus"
+homepage = "https://github.com/elringus/sprite-dicing"
+readme = "https://raw.githubusercontent.com/elringus/sprite-dicing/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "sprite-dicing"

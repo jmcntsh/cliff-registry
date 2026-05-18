@@ -1,0 +1,11 @@
+name = "promptui"
+description = "Interactive prompt for command-line applications"
+author = "manifoldco"
+homepage = "https://github.com/manifoldco/promptui"
+readme = "https://raw.githubusercontent.com/manifoldco/promptui/master/README.md"
+tags = ["cli"]
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/manifoldco/promptui@latest"

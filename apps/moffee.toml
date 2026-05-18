@@ -1,0 +1,11 @@
+name = "moffee"
+description = "moffee: Make Markdown Ready to Present"
+author = "wbopan"
+homepage = "https://github.com/wbopan/moffee"
+readme = "https://raw.githubusercontent.com/wbopan/moffee/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "moffee"

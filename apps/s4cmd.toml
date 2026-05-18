@@ -1,0 +1,11 @@
+name = "s4cmd"
+description = "Super S3 command line tool"
+author = "bloomreach"
+homepage = "https://github.com/bloomreach/s4cmd"
+readme = "https://raw.githubusercontent.com/bloomreach/s4cmd/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "s4cmd"

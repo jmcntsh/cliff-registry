@@ -1,0 +1,11 @@
+name = "llm-wiki-compiler"
+description = "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
+author = "atomicstrata"
+homepage = "https://github.com/atomicstrata/llm-wiki-compiler"
+readme = "https://raw.githubusercontent.com/atomicstrata/llm-wiki-compiler/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "llm-wiki-compiler"

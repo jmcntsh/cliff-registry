@@ -1,0 +1,10 @@
+name = "autor"
+description = "AI handles execution, humans own the direction, and every run becomes an inspectable research artifact on disk."
+author = "AutoX-AI-Labs"
+homepage = "https://github.com/AutoX-AI-Labs/AutoR"
+readme = "https://raw.githubusercontent.com/AutoX-AI-Labs/AutoR/main/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "pipx"
+package = "AutoR"

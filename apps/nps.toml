@@ -1,0 +1,11 @@
+name = "nps"
+description = "NPM Package Scripts -- All the benefits of npm scripts without the cost of a bloated package.json and limits of json"
+author = "sezna"
+homepage = "https://github.com/sezna/nps"
+readme = "https://raw.githubusercontent.com/sezna/nps/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "nps"

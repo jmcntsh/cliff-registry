@@ -1,0 +1,11 @@
+name = "html-to-markdown"
+description = "⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules."
+author = "JohannesKaufmann"
+homepage = "https://github.com/JohannesKaufmann/html-to-markdown"
+readme = "https://raw.githubusercontent.com/JohannesKaufmann/html-to-markdown/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/JohannesKaufmann/html-to-markdown@latest"

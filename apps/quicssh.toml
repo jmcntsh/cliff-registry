@@ -1,0 +1,11 @@
+name = "quicssh"
+description = "SSH over QUIC"
+author = "moul"
+homepage = "https://github.com/moul/quicssh"
+readme = "https://raw.githubusercontent.com/moul/quicssh/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/moul/quicssh@latest"

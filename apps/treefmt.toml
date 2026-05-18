@@ -1,0 +1,11 @@
+name = "treefmt"
+description = "the formatter multiplexer [maintainers=@zimbatm,@brianmcgee]"
+author = "numtide"
+homepage = "https://github.com/numtide/treefmt"
+readme = "https://raw.githubusercontent.com/numtide/treefmt/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/numtide/treefmt@latest"

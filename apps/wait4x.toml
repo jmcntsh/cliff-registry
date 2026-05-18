@@ -1,0 +1,11 @@
+name = "wait4x"
+description = "Wait4X allows you to wait for a port or a service to enter the requested state."
+author = "wait4x"
+homepage = "https://github.com/wait4x/wait4x"
+readme = "https://raw.githubusercontent.com/wait4x/wait4x/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/wait4x/wait4x@latest"

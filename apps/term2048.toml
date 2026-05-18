@@ -1,0 +1,11 @@
+name = "term2048"
+description = ":tada: 2048 in your terminal"
+author = "bfontaine"
+homepage = "https://github.com/bfontaine/term2048"
+readme = "https://raw.githubusercontent.com/bfontaine/term2048/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "term2048"

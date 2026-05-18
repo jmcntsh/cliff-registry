@@ -1,0 +1,11 @@
+name = "cleo"
+description = "Cleo allows you to create beautiful and testable command-line interfaces."
+author = "python-poetry"
+homepage = "https://github.com/python-poetry/cleo"
+readme = "https://raw.githubusercontent.com/python-poetry/cleo/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cleo"

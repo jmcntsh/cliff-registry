@@ -1,0 +1,11 @@
+name = "beachpatrol"
+description = "🏝️ A CLI Tool to Automate Your Everyday Web Browser."
+author = "sebastiancarlos"
+homepage = "https://github.com/sebastiancarlos/beachpatrol"
+readme = "https://raw.githubusercontent.com/sebastiancarlos/beachpatrol/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "beachpatrol"

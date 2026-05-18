@@ -1,0 +1,11 @@
+name = "bombardier"
+description = "Fast cross-platform HTTP benchmarking tool written in Go"
+author = "codesenberg"
+homepage = "https://github.com/codesenberg/bombardier"
+readme = "https://raw.githubusercontent.com/codesenberg/bombardier/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/codesenberg/bombardier@latest"

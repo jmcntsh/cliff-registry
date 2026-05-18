@@ -1,0 +1,11 @@
+name = "pup"
+description = "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products."
+author = "DataDog"
+homepage = "https://github.com/DataDog/pup"
+readme = "https://raw.githubusercontent.com/DataDog/pup/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "pup"

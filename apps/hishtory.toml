@@ -1,0 +1,11 @@
+name = "hishtory"
+description = "Your shell history: synced, queryable, and in context"
+author = "ddworken"
+homepage = "https://github.com/ddworken/hishtory"
+readme = "https://raw.githubusercontent.com/ddworken/hishtory/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ddworken/hishtory@latest"

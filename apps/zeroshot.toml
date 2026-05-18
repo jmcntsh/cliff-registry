@@ -1,0 +1,11 @@
+name = "zeroshot"
+description = "Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code..."
+author = "covibes"
+homepage = "https://github.com/covibes/zeroshot"
+readme = "https://raw.githubusercontent.com/covibes/zeroshot/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "zeroshot"

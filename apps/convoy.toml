@@ -1,0 +1,11 @@
+name = "convoy"
+description = "The Cloud Native Webhooks Gateway"
+author = "frain-dev"
+homepage = "https://github.com/frain-dev/convoy"
+readme = "https://raw.githubusercontent.com/frain-dev/convoy/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/frain-dev/convoy@latest"

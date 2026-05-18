@@ -1,0 +1,11 @@
+name = "jwt-cli"
+description = "A super fast CLI tool to decode and encode JWTs built in Rust"
+author = "mike-engel"
+homepage = "https://github.com/mike-engel/jwt-cli"
+readme = "https://raw.githubusercontent.com/mike-engel/jwt-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "jwt-cli"

@@ -1,0 +1,11 @@
+name = "clasp"
+description = "🔗 Command Line Apps Script Projects"
+author = "google"
+homepage = "https://github.com/google/clasp"
+readme = "https://raw.githubusercontent.com/google/clasp/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "clasp"

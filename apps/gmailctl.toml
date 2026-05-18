@@ -1,0 +1,11 @@
+name = "gmailctl"
+description = "Declarative configuration for Gmail filters"
+author = "mbrt"
+homepage = "https://github.com/mbrt/gmailctl"
+readme = "https://raw.githubusercontent.com/mbrt/gmailctl/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mbrt/gmailctl@latest"

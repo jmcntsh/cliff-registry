@@ -1,0 +1,11 @@
+name = "fubectl"
+description = "Reduces repetitive interactions with kubectl"
+author = "kubermatic"
+homepage = "https://github.com/kubermatic/fubectl"
+readme = "https://raw.githubusercontent.com/kubermatic/fubectl/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/kubermatic/fubectl@latest"

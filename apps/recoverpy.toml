@@ -1,0 +1,11 @@
+name = "recoverpy"
+description = "Interactively find and recover deleted or :point_right: overwritten :point_left: files from your terminal"
+author = "PabloLec"
+homepage = "https://github.com/PabloLec/RecoverPy"
+readme = "https://raw.githubusercontent.com/PabloLec/RecoverPy/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "RecoverPy"

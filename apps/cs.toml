@@ -1,0 +1,11 @@
+name = "cs"
+description = "codespelunker - CLI code search tool that understands code structure and ranks results by relevance. No indexing requ..."
+author = "boyter"
+homepage = "https://github.com/boyter/cs"
+readme = "https://raw.githubusercontent.com/boyter/cs/master/README.md"
+tags = ["tui"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/boyter/cs@latest"

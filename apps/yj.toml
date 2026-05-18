@@ -1,0 +1,11 @@
+name = "yj"
+description = "CLI - Convert between YAML, TOML, JSON, and HCL. Preserves map order."
+author = "sclevine"
+homepage = "https://github.com/sclevine/yj"
+readme = "https://raw.githubusercontent.com/sclevine/yj/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/sclevine/yj@latest"

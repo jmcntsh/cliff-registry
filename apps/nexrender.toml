@@ -1,0 +1,11 @@
+name = "nexrender"
+description = "📹 Data-driven render automation for After Effects"
+author = "inlife"
+homepage = "https://github.com/inlife/nexrender"
+readme = "https://raw.githubusercontent.com/inlife/nexrender/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "nexrender"

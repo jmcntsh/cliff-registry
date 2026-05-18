@@ -1,0 +1,11 @@
+name = "doit"
+description = "CLI task management & automation tool"
+author = "pydoit"
+homepage = "https://github.com/pydoit/doit"
+readme = "https://raw.githubusercontent.com/pydoit/doit/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "doit"

@@ -1,0 +1,11 @@
+name = "postcss-cli"
+description = "CLI for postcss"
+author = "postcss"
+homepage = "https://github.com/postcss/postcss-cli"
+readme = "https://raw.githubusercontent.com/postcss/postcss-cli/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "postcss-cli"

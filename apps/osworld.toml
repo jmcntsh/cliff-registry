@@ -1,0 +1,11 @@
+name = "osworld"
+description = "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+author = "xlang-ai"
+homepage = "https://github.com/xlang-ai/OSWorld"
+readme = "https://raw.githubusercontent.com/xlang-ai/OSWorld/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "OSWorld"

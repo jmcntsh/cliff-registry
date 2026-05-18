@@ -1,0 +1,10 @@
+name = "clipanion"
+description = "Type-safe CLI library / framework with no runtime dependencies"
+author = "arcanis"
+homepage = "https://github.com/arcanis/clipanion"
+readme = "https://raw.githubusercontent.com/arcanis/clipanion/master/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "clipanion"

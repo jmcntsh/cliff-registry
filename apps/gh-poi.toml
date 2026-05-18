@@ -1,0 +1,11 @@
+name = "gh-poi"
+description = "✨ Safely clean up your local branches"
+author = "seachicken"
+homepage = "https://github.com/seachicken/gh-poi"
+readme = "https://raw.githubusercontent.com/seachicken/gh-poi/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/seachicken/gh-poi@latest"

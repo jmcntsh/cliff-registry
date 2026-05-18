@@ -1,0 +1,11 @@
+name = "plop"
+description = "Consistency Made Simple"
+author = "plopjs"
+homepage = "https://github.com/plopjs/plop"
+readme = "https://raw.githubusercontent.com/plopjs/plop/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "plop"

@@ -1,0 +1,11 @@
+name = "mov-cli"
+description = "Watch everything from your terminal."
+author = "mov-cli"
+homepage = "https://github.com/mov-cli/mov-cli"
+readme = "https://raw.githubusercontent.com/mov-cli/mov-cli/v4/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mov-cli"

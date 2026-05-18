@@ -1,0 +1,11 @@
+name = "vfox"
+description = "A cross-platform and extendable version manager with support for Java, Node.js, Golang, Python, Flutter, .NET & more"
+author = "version-fox"
+homepage = "https://github.com/version-fox/vfox"
+readme = "https://raw.githubusercontent.com/version-fox/vfox/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/version-fox/vfox@latest"

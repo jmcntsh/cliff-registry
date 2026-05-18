@@ -1,0 +1,11 @@
+name = "gitless"
+description = "A simple version control system built on top of Git"
+author = "gitless-vcs"
+homepage = "https://github.com/gitless-vcs/gitless"
+readme = "https://raw.githubusercontent.com/gitless-vcs/gitless/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "gitless"

@@ -1,0 +1,11 @@
+name = "hl"
+description = "A fast and powerful log viewer and processor that converts JSON logs or logfmt logs into a clear human-readable format."
+author = "pamburus"
+homepage = "https://github.com/pamburus/hl"
+readme = "https://raw.githubusercontent.com/pamburus/hl/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "hl"

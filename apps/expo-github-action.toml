@@ -1,0 +1,11 @@
+name = "expo-github-action"
+description = "Expo GitHub Action makes it easy to automate EAS builds or updates"
+author = "expo"
+homepage = "https://github.com/expo/expo-github-action"
+readme = "https://raw.githubusercontent.com/expo/expo-github-action/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "expo-github-action"

@@ -1,0 +1,11 @@
+name = "scaffdog"
+description = ":dog: scaffdog is Markdown driven scaffolding tool."
+author = "scaffdog"
+homepage = "https://github.com/scaffdog/scaffdog"
+readme = "https://raw.githubusercontent.com/scaffdog/scaffdog/canary/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "scaffdog"

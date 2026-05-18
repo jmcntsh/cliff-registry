@@ -1,0 +1,11 @@
+name = "arkit"
+description = "JavaScript architecture diagrams and dependency graphs"
+author = "dyatko"
+homepage = "https://github.com/dyatko/arkit"
+readme = "https://raw.githubusercontent.com/dyatko/arkit/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "arkit"

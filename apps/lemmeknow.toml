@@ -1,0 +1,11 @@
+name = "lemmeknow"
+description = "The fastest way to identify anything!"
+author = "swanandx"
+homepage = "https://github.com/swanandx/lemmeknow"
+readme = "https://raw.githubusercontent.com/swanandx/lemmeknow/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "lemmeknow"

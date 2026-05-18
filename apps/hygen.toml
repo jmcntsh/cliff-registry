@@ -1,0 +1,11 @@
+name = "hygen"
+description = "The simple, fast, and scalable code generator that lives in your project."
+author = "jondot"
+homepage = "https://github.com/jondot/hygen"
+readme = "https://raw.githubusercontent.com/jondot/hygen/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "hygen"

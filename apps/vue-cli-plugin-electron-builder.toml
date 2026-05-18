@@ -1,0 +1,11 @@
+name = "vue-cli-plugin-electron-builder"
+description = "Easily Build Your Vue.js App For Desktop With Electron"
+author = "nklayman"
+homepage = "https://github.com/nklayman/vue-cli-plugin-electron-builder"
+readme = "https://raw.githubusercontent.com/nklayman/vue-cli-plugin-electron-builder/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "vue-cli-plugin-electron-builder"

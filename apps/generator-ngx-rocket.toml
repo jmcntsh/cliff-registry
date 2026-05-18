@@ -1,0 +1,11 @@
+name = "generator-ngx-rocket"
+description = ":rocket: Extensible Angular 14+ enterprise-grade project generator"
+author = "ngx-rocket"
+homepage = "https://github.com/ngx-rocket/generator-ngx-rocket"
+readme = "https://raw.githubusercontent.com/ngx-rocket/generator-ngx-rocket/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "generator-ngx-rocket"

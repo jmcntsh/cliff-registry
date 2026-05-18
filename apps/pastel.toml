@@ -1,0 +1,11 @@
+name = "pastel"
+description = "A command-line tool to generate, analyze, convert and manipulate colors"
+author = "sharkdp"
+homepage = "https://github.com/sharkdp/pastel"
+readme = "https://raw.githubusercontent.com/sharkdp/pastel/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "pastel"

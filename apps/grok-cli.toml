@@ -1,0 +1,11 @@
+name = "grok-cli"
+description = "An open-source coding agent for the Grok API"
+author = "superagent-ai"
+homepage = "https://github.com/superagent-ai/grok-cli"
+readme = "https://raw.githubusercontent.com/superagent-ai/grok-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "grok-cli"

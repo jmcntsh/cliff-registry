@@ -1,0 +1,11 @@
+name = "graphqurl"
+description = "curl for GraphQL with autocomplete, subscriptions and GraphiQL. Also a dead-simple universal javascript GraphQL client."
+author = "hasura"
+homepage = "https://github.com/hasura/graphqurl"
+readme = "https://raw.githubusercontent.com/hasura/graphqurl/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "graphqurl"

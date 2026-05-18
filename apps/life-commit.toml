@@ -1,0 +1,11 @@
+name = "life-commit"
+description = "🏃📆 Life as a git. Commit on your life."
+author = "ByronHsu"
+homepage = "https://github.com/ByronHsu/life-commit"
+readme = "https://raw.githubusercontent.com/ByronHsu/life-commit/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "life-commit"

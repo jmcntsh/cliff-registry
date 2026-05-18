@@ -1,0 +1,11 @@
+name = "goanime"
+description = "A TUI tool to browse, stream, and download anime in PT-BR and EN"
+author = "alvarorichard"
+homepage = "https://github.com/alvarorichard/GoAnime"
+readme = "https://raw.githubusercontent.com/alvarorichard/GoAnime/main/README.md"
+tags = ["tui"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/alvarorichard/GoAnime@latest"

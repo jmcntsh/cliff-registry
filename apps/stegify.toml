@@ -1,0 +1,11 @@
+name = "stegify"
+description = "🔍 Go tool for LSB steganography, capable of hiding any file within an image."
+author = "DimitarPetrov"
+homepage = "https://github.com/DimitarPetrov/stegify"
+readme = "https://raw.githubusercontent.com/DimitarPetrov/stegify/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/DimitarPetrov/stegify@latest"

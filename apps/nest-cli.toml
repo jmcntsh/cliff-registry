@@ -1,0 +1,11 @@
+name = "nest-cli"
+description = "CLI tool for Nest applications 🍹"
+author = "nestjs"
+homepage = "https://github.com/nestjs/nest-cli"
+readme = "https://raw.githubusercontent.com/nestjs/nest-cli/master/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "nest-cli"

@@ -1,0 +1,11 @@
+name = "matcha"
+description = "A beautiful and functional email client for your terminal, built with Go and the charming Bubble Tea TUI library. Nev..."
+author = "floatpane"
+homepage = "https://github.com/floatpane/matcha"
+readme = "https://raw.githubusercontent.com/floatpane/matcha/master/README.md"
+tags = ["tui"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/floatpane/matcha@latest"

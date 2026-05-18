@@ -1,0 +1,11 @@
+name = "single-file-cli"
+description = "CLI tool for saving a faithful copy of a complete web page in a single HTML file (based on SingleFile)"
+author = "gildas-lormeau"
+homepage = "https://github.com/gildas-lormeau/single-file-cli"
+readme = "https://raw.githubusercontent.com/gildas-lormeau/single-file-cli/master/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "single-file-cli"

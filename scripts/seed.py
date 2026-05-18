@@ -7,8 +7,9 @@ apps/ → run lint → commit and push to main. The TUI's hotness algorithm
 does the actual curation post-merge.
 
 Design notes:
-- One Search API call per run (OR'd query). With the recency filter,
-  most runs return a small handful of repos and finish in seconds.
+- Search intentionally fans out across topics, names, and descriptions.
+  The ledger dedupes prior decisions; this script's job is to keep the
+  funnel large enough that the client-side hotness sort has material.
 - The ledger is the source of truth for "what we've already looked at."
   Only TERMINAL verdicts (accepted, rejected) get recorded. Deferred
   candidates remain re-evaluable next run.
@@ -31,9 +32,30 @@ from pathlib import Path
 from typing import Any
 
 
-# Single OR-query covers ~95% of what the old five-query union did.
-# The Search API accepts boolean OR between qualifiers like topic:.
-SEARCH_QUERY = "topic:cli OR topic:tui OR topic:terminal"
+# Keep these focused enough to avoid awesome-list/library floods, but broad
+# enough to catch projects that never bothered to set GitHub topics.
+SEARCH_QUERIES = (
+    "topic:cli OR topic:tui OR topic:terminal OR topic:terminal-ui OR topic:command-line OR topic:command-line-tool",
+    "cli in:name,description,readme",
+    "tui in:name,description,readme",
+    "terminal in:name,description,readme",
+    "command-line in:name,description,readme",
+    '"command line" in:description,readme',
+    '"command-line tool" in:description,readme',
+    '"terminal app" in:description,readme',
+    '"terminal tool" in:description,readme',
+    '"terminal ui" in:description,readme',
+    '"text user interface" in:description,readme',
+    "curses in:name,description,readme",
+    "ncurses in:name,description,readme",
+    "ratatui in:name,description,readme",
+    "bubbletea in:name,description,readme",
+    '"bubble tea" in:description,readme',
+    "charmbracelet in:name,description,readme",
+    "tview in:name,description,readme",
+    "urwid in:name,description,readme",
+    "textual in:name,description,readme",
+)
 
 # Minimal category-check terms. The hotness algorithm in cliff handles
 # real curation; this list only catches things that are categorically
@@ -106,44 +128,60 @@ def collect_repos(
     limit: int,
     pushed_since: str | None = None,
 ) -> list[dict[str, Any]]:
-    """One paged search call against the OR'd query.
+    """Fan out GitHub repo search queries and dedupe by full name.
 
     Uses gh CLI (already authenticated in CI via GH_TOKEN). When
     pushed_since is set (YYYY-MM-DD), only repos pushed on or after that
-    date are returned — the recency fast-path. Returns up to `limit` repos.
+    date are returned — the recency fast-path. Returns up to `limit` repos
+    per query, then dedupes while preserving discovery order.
     """
-    cmd = [
-        "gh", "search", "repos", SEARCH_QUERY,
-        "--limit", str(limit),
-        "--sort", "stars",
-        "--order", "desc",
-        "--stars", f">={min_stars}",
-        "--archived=false",
-        "--include-forks=false",
-        "--visibility", "public",
-        "--json", "fullName,name,owner,url,description,stargazersCount,"
-                  "language,createdAt,pushedAt,defaultBranch,license,"
-                  "isArchived,isFork",
-    ]
-    if pushed_since:
-        cmd += ["--updated", f">={pushed_since}"]
+    json_fields = (
+        "fullName,name,owner,url,description,stargazersCount,"
+        "language,createdAt,pushedAt,defaultBranch,license,"
+        "isArchived,isFork"
+    )
+    out: dict[str, dict[str, Any]] = {}
+    failed: list[str] = []
 
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    if proc.returncode != 0:
-        err = proc.stderr.strip() or "gh search failed"
-        if "rate limit" in err.lower() or "403" in err:
-            print(f"warn: rate-limited on search; returning empty", file=sys.stderr)
-            return []
-        raise RuntimeError(err)
+    for i, query in enumerate(SEARCH_QUERIES, start=1):
+        cmd = [
+            "gh", "search", "repos", query,
+            "--limit", str(limit),
+            "--sort", "stars",
+            "--order", "desc",
+            "--stars", f">={min_stars}",
+            "--archived=false",
+            "--include-forks=false",
+            "--visibility", "public",
+            "--json", json_fields,
+        ]
+        if pushed_since:
+            cmd += ["--updated", f">={pushed_since}"]
 
-    items = json.loads(proc.stdout)
-    out: list[dict[str, Any]] = []
-    for item in items:
-        if item.get("isArchived") or item.get("isFork"):
+        proc = subprocess.run(cmd, capture_output=True, text=True)
+        if proc.returncode != 0:
+            err = proc.stderr.strip() or "gh search failed"
+            if "rate limit" in err.lower() or "403" in err:
+                print("warn: rate-limited on search; returning partial results", file=sys.stderr)
+                break
+            failed.append(f"{query}: {err}")
+            print(f"warn: search failed for query {query!r}: {err}", file=sys.stderr)
             continue
-        if str(item.get("fullName", "")):
-            out.append(item)
-    return out
+
+        items = json.loads(proc.stdout)
+        before = len(out)
+        for item in items:
+            if item.get("isArchived") or item.get("isFork"):
+                continue
+            full_name = str(item.get("fullName", ""))
+            if full_name:
+                out.setdefault(full_name.lower(), item)
+        added = len(out) - before
+        print(f"search {i:02d}/{len(SEARCH_QUERIES)}: {len(items)} returned, {added} new ({query})")
+
+    if not out and failed:
+        raise RuntimeError("; ".join(failed))
+    return list(out.values())
 
 
 def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
@@ -429,10 +467,10 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--apps-dir", type=Path, default=Path("apps"))
     ap.add_argument("--ledger", type=Path, default=Path("scripts/seen-ledger.json"))
-    ap.add_argument("--min-stars", type=int, default=20)
-    ap.add_argument("--limit", type=int, default=200,
-                    help="Max repos returned by the GitHub Search call.")
-    ap.add_argument("--max-new", type=int, default=20,
+    ap.add_argument("--min-stars", type=int, default=5)
+    ap.add_argument("--limit", type=int, default=300,
+                    help="Max repos returned per GitHub Search query.")
+    ap.add_argument("--max-new", type=int, default=50,
                     help="Cap on new manifests emitted per run.")
     ap.add_argument("--no-verify-registry", dest="verify_registry",
                     action="store_false", default=True,

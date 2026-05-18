@@ -1,0 +1,11 @@
+name = "kaskade"
+description = "kaskade is a text user interface for kafka, which allows you to interact and consume topics from your terminal in style!"
+author = "sauljabin"
+homepage = "https://github.com/sauljabin/kaskade"
+readme = "https://raw.githubusercontent.com/sauljabin/kaskade/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "kaskade"

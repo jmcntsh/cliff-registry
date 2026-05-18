@@ -1,0 +1,11 @@
+name = "cassowary"
+description = ":rocket: Modern cross-platform HTTP load-testing tool written in Go"
+author = "rogerwelin"
+homepage = "https://github.com/rogerwelin/cassowary"
+readme = "https://raw.githubusercontent.com/rogerwelin/cassowary/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rogerwelin/cassowary@latest"

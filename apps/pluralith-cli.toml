@@ -1,0 +1,11 @@
+name = "pluralith-cli"
+description = "A tool for Terraform state visualisation and automated generation of infrastructure documentation"
+author = "Pluralith"
+homepage = "https://github.com/Pluralith/pluralith-cli"
+readme = "https://raw.githubusercontent.com/Pluralith/pluralith-cli/main/README.md"
+tags = ["cli"]
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Pluralith/pluralith-cli@latest"

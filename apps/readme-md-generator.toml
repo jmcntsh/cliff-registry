@@ -1,0 +1,11 @@
+name = "readme-md-generator"
+description = "📄 CLI that generates beautiful README.md files"
+author = "kefranabg"
+homepage = "https://github.com/kefranabg/readme-md-generator"
+readme = "https://raw.githubusercontent.com/kefranabg/readme-md-generator/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "readme-md-generator"

@@ -1,0 +1,11 @@
+name = "macmon"
+description = "🦀🌡️ Real-time system monitor for Apple Silicon Macs (M1–M5). No sudo. TUI, JSON/Prometheus metrics server..."
+author = "vladkens"
+homepage = "https://github.com/vladkens/macmon"
+readme = "https://raw.githubusercontent.com/vladkens/macmon/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "macmon"

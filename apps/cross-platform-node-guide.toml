@@ -1,0 +1,11 @@
+name = "cross-platform-node-guide"
+description = "📗 How to write cross-platform Node.js code"
+author = "ehmicky"
+homepage = "https://github.com/ehmicky/cross-platform-node-guide"
+readme = "https://raw.githubusercontent.com/ehmicky/cross-platform-node-guide/main/README.md"
+tags = ["cli"]
+license = "CC-BY-4.0"
+
+[[installs]]
+type = "npm"
+package = "cross-platform-node-guide"

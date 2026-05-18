@@ -1,0 +1,11 @@
+name = "git-branchless"
+description = "High-velocity, monorepo-scale workflow for Git"
+author = "arxanas"
+homepage = "https://github.com/arxanas/git-branchless"
+readme = "https://raw.githubusercontent.com/arxanas/git-branchless/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "git-branchless"

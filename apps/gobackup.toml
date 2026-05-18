@@ -1,0 +1,11 @@
+name = "gobackup"
+description = "🗄 CLI tool for backup your databases, files to cloud storages in schedully."
+author = "gobackup"
+homepage = "https://github.com/gobackup/gobackup"
+readme = "https://raw.githubusercontent.com/gobackup/gobackup/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gobackup/gobackup@latest"

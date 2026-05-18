@@ -1,0 +1,10 @@
+name = "emma-cli"
+description = "📦 Terminal assistant to find and install node packages."
+author = "maticzav"
+homepage = "https://github.com/maticzav/emma-cli"
+readme = "https://raw.githubusercontent.com/maticzav/emma-cli/master/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "emma-cli"

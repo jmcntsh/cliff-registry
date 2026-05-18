@@ -1,0 +1,11 @@
+name = "bit"
+description = "Bit is a modern Git CLI"
+author = "chriswalz"
+homepage = "https://github.com/chriswalz/bit"
+readme = "https://raw.githubusercontent.com/chriswalz/bit/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/chriswalz/bit@latest"

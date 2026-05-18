@@ -1,0 +1,11 @@
+name = "proxelar"
+description = "A programmable MITM proxy that intercepts HTTP/HTTPS traffic so you don't have to guess what your app is doing. Forwa..."
+author = "emanuele-em"
+homepage = "https://github.com/emanuele-em/proxelar"
+readme = "https://raw.githubusercontent.com/emanuele-em/proxelar/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "proxelar"

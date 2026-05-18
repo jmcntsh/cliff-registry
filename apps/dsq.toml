@@ -1,0 +1,11 @@
+name = "dsq"
+description = "Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more."
+author = "multiprocessio"
+homepage = "https://github.com/multiprocessio/dsq"
+readme = "https://raw.githubusercontent.com/multiprocessio/dsq/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/multiprocessio/dsq@latest"

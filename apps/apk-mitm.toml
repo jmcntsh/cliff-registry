@@ -1,0 +1,11 @@
+name = "apk-mitm"
+description = "🤖 A CLI application that automatically prepares Android APK files for HTTPS inspection"
+author = "niklashigi"
+homepage = "https://github.com/niklashigi/apk-mitm"
+readme = "https://raw.githubusercontent.com/niklashigi/apk-mitm/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "apk-mitm"

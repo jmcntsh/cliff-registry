@@ -1,0 +1,11 @@
+name = "ludusavi"
+description = "Backup tool for PC game saves"
+author = "mtkennerly"
+homepage = "https://github.com/mtkennerly/ludusavi"
+readme = "https://raw.githubusercontent.com/mtkennerly/ludusavi/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ludusavi"

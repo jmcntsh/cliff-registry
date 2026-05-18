@@ -1,0 +1,11 @@
+name = "faas-cli"
+description = "Official CLI for OpenFaaS"
+author = "openfaas"
+homepage = "https://github.com/openfaas/faas-cli"
+readme = "https://raw.githubusercontent.com/openfaas/faas-cli/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/openfaas/faas-cli@latest"

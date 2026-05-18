@@ -1,0 +1,11 @@
+name = "resume-cli"
+description = "CLI tool to easily setup a new resume 📑"
+author = "jsonresume"
+homepage = "https://github.com/jsonresume/resume-cli"
+readme = "https://raw.githubusercontent.com/jsonresume/resume-cli/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "resume-cli"

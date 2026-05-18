@@ -1,0 +1,11 @@
+name = "semantra"
+description = "Multi-tool for semantic search"
+author = "freedmand"
+homepage = "https://github.com/freedmand/semantra"
+readme = "https://raw.githubusercontent.com/freedmand/semantra/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "semantra"

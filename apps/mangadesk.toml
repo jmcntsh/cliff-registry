@@ -1,0 +1,11 @@
+name = "mangadesk"
+description = "Terminal client for MangaDex 📖"
+author = "darylhjd"
+homepage = "https://github.com/darylhjd/mangadesk"
+readme = "https://raw.githubusercontent.com/darylhjd/mangadesk/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/darylhjd/mangadesk@latest"

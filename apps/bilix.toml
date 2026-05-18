@@ -1,0 +1,11 @@
+name = "bilix"
+description = "⚡️Lightning-fast async download tool for bilibili and more"
+author = "HFrost0"
+homepage = "https://github.com/HFrost0/bilix"
+readme = "https://raw.githubusercontent.com/HFrost0/bilix/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "bilix"

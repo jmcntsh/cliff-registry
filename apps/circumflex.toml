@@ -1,0 +1,11 @@
+name = "circumflex"
+description = "🌿 It's Hacker News in your terminal"
+author = "bensadeh"
+homepage = "https://github.com/bensadeh/circumflex"
+readme = "https://raw.githubusercontent.com/bensadeh/circumflex/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bensadeh/circumflex@latest"

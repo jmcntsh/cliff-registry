@@ -1,0 +1,11 @@
+name = "isd"
+description = "isd (interactive systemd) – a better way to work with systemd units"
+author = "kainctl"
+homepage = "https://github.com/kainctl/isd"
+readme = "https://raw.githubusercontent.com/kainctl/isd/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "isd"

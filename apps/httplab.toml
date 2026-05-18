@@ -1,0 +1,11 @@
+name = "httplab"
+description = "The interactive web server"
+author = "qustavo"
+homepage = "https://github.com/qustavo/httplab"
+readme = "https://raw.githubusercontent.com/qustavo/httplab/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/qustavo/httplab@latest"

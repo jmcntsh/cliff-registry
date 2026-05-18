@@ -1,0 +1,11 @@
+name = "notesmd-cli"
+description = "Obsidian CLI (Community) - Interact with Obsidian in the terminal!"
+author = "Yakitrak"
+homepage = "https://github.com/Yakitrak/notesmd-cli"
+readme = "https://raw.githubusercontent.com/Yakitrak/notesmd-cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Yakitrak/notesmd-cli@latest"

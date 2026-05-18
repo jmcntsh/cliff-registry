@@ -1,0 +1,11 @@
+name = "mcp2cli"
+description = "Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen"
+author = "knowsuchagency"
+homepage = "https://github.com/knowsuchagency/mcp2cli"
+readme = "https://raw.githubusercontent.com/knowsuchagency/mcp2cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mcp2cli"

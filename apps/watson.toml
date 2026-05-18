@@ -1,0 +1,11 @@
+name = "watson"
+description = ":watch: A wonderful CLI to track your time!"
+author = "jazzband"
+homepage = "https://github.com/jazzband/Watson"
+readme = "https://raw.githubusercontent.com/jazzband/Watson/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Watson"

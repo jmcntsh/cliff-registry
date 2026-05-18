@@ -1,0 +1,11 @@
+name = "awscli-local"
+description = "💲 'awslocal' - Thin wrapper around the 'aws' command line interface for use with LocalStack"
+author = "localstack"
+homepage = "https://github.com/localstack/awscli-local"
+readme = "https://raw.githubusercontent.com/localstack/awscli-local/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "awscli-local"

@@ -1,0 +1,11 @@
+name = "certigo"
+description = "A utility to examine and validate certificates in a variety of formats"
+author = "square"
+homepage = "https://github.com/square/certigo"
+readme = "https://raw.githubusercontent.com/square/certigo/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/square/certigo@latest"

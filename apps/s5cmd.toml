@@ -1,0 +1,11 @@
+name = "s5cmd"
+description = "Parallel S3 and local filesystem execution tool."
+author = "peak"
+homepage = "https://github.com/peak/s5cmd"
+readme = "https://raw.githubusercontent.com/peak/s5cmd/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/peak/s5cmd@latest"

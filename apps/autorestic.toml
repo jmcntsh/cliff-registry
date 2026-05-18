@@ -1,0 +1,11 @@
+name = "autorestic"
+description = "Config driven, easy backup cli for restic."
+author = "cupcakearmy"
+homepage = "https://github.com/cupcakearmy/autorestic"
+readme = "https://raw.githubusercontent.com/cupcakearmy/autorestic/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/cupcakearmy/autorestic@latest"

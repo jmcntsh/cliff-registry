@@ -1,0 +1,11 @@
+name = "mdformat"
+description = "CommonMark compliant Markdown formatter"
+author = "hukkin"
+homepage = "https://github.com/hukkin/mdformat"
+readme = "https://raw.githubusercontent.com/hukkin/mdformat/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mdformat"

@@ -1,0 +1,11 @@
+name = "tv"
+description = "📺(tv) Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment."
+author = "alexhallam"
+homepage = "https://github.com/alexhallam/tv"
+readme = "https://raw.githubusercontent.com/alexhallam/tv/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tv"

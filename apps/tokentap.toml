@@ -1,0 +1,11 @@
+name = "tokentap"
+description = "Intercept LLM API traffic and visualize token usage in a real-time terminal dashboard. Track costs, debug prompts, an..."
+author = "jmuncor"
+homepage = "https://github.com/jmuncor/tokentap"
+readme = "https://raw.githubusercontent.com/jmuncor/tokentap/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "tokentap"

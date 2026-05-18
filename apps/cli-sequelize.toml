@@ -1,0 +1,11 @@
+name = "cli-sequelize"
+description = "The Sequelize CLI"
+author = "sequelize"
+homepage = "https://github.com/sequelize/cli"
+readme = "https://raw.githubusercontent.com/sequelize/cli/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

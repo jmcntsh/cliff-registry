@@ -1,0 +1,11 @@
+name = "topgrade"
+description = "Upgrade all the things"
+author = "topgrade-rs"
+homepage = "https://github.com/topgrade-rs/topgrade"
+readme = "https://raw.githubusercontent.com/topgrade-rs/topgrade/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "topgrade"

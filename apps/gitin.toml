@@ -1,0 +1,11 @@
+name = "gitin"
+description = "commit/branch/workdir explorer for git"
+author = "isacikgoz"
+homepage = "https://github.com/isacikgoz/gitin"
+readme = "https://raw.githubusercontent.com/isacikgoz/gitin/master/README.md"
+tags = ["cli"]
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/isacikgoz/gitin@latest"

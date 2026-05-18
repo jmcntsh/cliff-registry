@@ -1,0 +1,11 @@
+name = "preact-cli"
+description = "😺 Your next Preact PWA starts in 30 seconds."
+author = "preactjs"
+homepage = "https://github.com/preactjs/preact-cli"
+readme = "https://raw.githubusercontent.com/preactjs/preact-cli/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "preact-cli"

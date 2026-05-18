@@ -1,0 +1,11 @@
+name = "termshot"
+description = "Creates screenshots based on terminal command output"
+author = "homeport"
+homepage = "https://github.com/homeport/termshot"
+readme = "https://raw.githubusercontent.com/homeport/termshot/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/homeport/termshot@latest"

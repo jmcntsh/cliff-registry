@@ -1,0 +1,11 @@
+name = "youtube-tui"
+description = "An aesthetically pleasing YouTube TUI written in Rust"
+author = "Siriusmart"
+homepage = "https://github.com/Siriusmart/youtube-tui"
+readme = "https://raw.githubusercontent.com/Siriusmart/youtube-tui/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "youtube-tui"

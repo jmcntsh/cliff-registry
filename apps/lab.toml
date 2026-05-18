@@ -1,0 +1,11 @@
+name = "lab"
+description = "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab"
+author = "zaquestion"
+homepage = "https://github.com/zaquestion/lab"
+readme = "https://raw.githubusercontent.com/zaquestion/lab/master/README.md"
+tags = ["cli"]
+license = "CC0-1.0"
+
+[[installs]]
+type = "go"
+package = "github.com/zaquestion/lab@latest"

@@ -1,0 +1,11 @@
+name = "yq"
+description = "Command-line YAML, XML, TOML processor - jq wrapper for YAML/XML/TOML documents"
+author = "kislyuk"
+homepage = "https://github.com/kislyuk/yq"
+readme = "https://raw.githubusercontent.com/kislyuk/yq/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "yq"

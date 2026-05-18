@@ -1,0 +1,11 @@
+name = "q"
+description = "q - Run SQL directly on delimited files and multi-file sqlite databases"
+author = "harelba"
+homepage = "https://github.com/harelba/q"
+readme = "https://raw.githubusercontent.com/harelba/q/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "q"

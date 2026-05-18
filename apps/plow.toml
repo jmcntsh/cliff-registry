@@ -1,0 +1,11 @@
+name = "plow"
+description = "A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display"
+author = "six-ddc"
+homepage = "https://github.com/six-ddc/plow"
+readme = "https://raw.githubusercontent.com/six-ddc/plow/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/six-ddc/plow@latest"

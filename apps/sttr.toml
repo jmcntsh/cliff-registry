@@ -1,0 +1,11 @@
+name = "sttr"
+description = "cross-platform, cli app to perform various operations on string"
+author = "abhimanyu003"
+homepage = "https://github.com/abhimanyu003/sttr"
+readme = "https://raw.githubusercontent.com/abhimanyu003/sttr/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/abhimanyu003/sttr@latest"

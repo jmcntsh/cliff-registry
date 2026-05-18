@@ -1,0 +1,11 @@
+name = "portr"
+description = "Expose local http, tcp or websocket connections to the public internet"
+author = "amalshaji"
+homepage = "https://github.com/amalshaji/portr"
+readme = "https://raw.githubusercontent.com/amalshaji/portr/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/amalshaji/portr@latest"

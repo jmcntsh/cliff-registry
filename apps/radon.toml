@@ -1,0 +1,11 @@
+name = "radon"
+description = "Various code metrics for Python code"
+author = "rubik"
+homepage = "https://github.com/rubik/radon"
+readme = "https://raw.githubusercontent.com/rubik/radon/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "radon"

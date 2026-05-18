@@ -1,0 +1,11 @@
+name = "mangadex-downloader"
+description = "A command-line tool to download manga from MangaDex, written in Python."
+author = "mansuf"
+homepage = "https://github.com/mansuf/mangadex-downloader"
+readme = "https://raw.githubusercontent.com/mansuf/mangadex-downloader/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mangadex-downloader"

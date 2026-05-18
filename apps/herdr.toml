@@ -1,0 +1,11 @@
+name = "herdr"
+description = "agent multiplexer that lives in your terminal."
+author = "ogulcancelik"
+homepage = "https://github.com/ogulcancelik/herdr"
+readme = "https://raw.githubusercontent.com/ogulcancelik/herdr/master/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "herdr"

@@ -1,0 +1,11 @@
+name = "hover"
+description = "Hover helps developers to release Flutter applications on desktop."
+author = "go-flutter-desktop"
+homepage = "https://github.com/go-flutter-desktop/hover"
+readme = "https://raw.githubusercontent.com/go-flutter-desktop/hover/master/README.md"
+tags = ["cli"]
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/go-flutter-desktop/hover@latest"

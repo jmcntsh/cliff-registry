@@ -1,0 +1,11 @@
+name = "otplib"
+description = "One Time Password (OTP) / 2FA for Node.js and Browser - Supports HOTP, TOTP and Google Authenticator"
+author = "yeojz"
+homepage = "https://github.com/yeojz/otplib"
+readme = "https://raw.githubusercontent.com/yeojz/otplib/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "otplib"

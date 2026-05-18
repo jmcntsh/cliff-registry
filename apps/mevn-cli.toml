@@ -1,0 +1,11 @@
+name = "mevn-cli"
+description = "Light speed setup for MEVN(Mongo Express Vue Node) Apps"
+author = "madlabsinc"
+homepage = "https://github.com/madlabsinc/mevn-cli"
+readme = "https://raw.githubusercontent.com/madlabsinc/mevn-cli/develop/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "mevn-cli"

@@ -1,0 +1,10 @@
+name = "nsh"
+description = "A command-line shell like fish, but POSIX compatible."
+author = "nuta"
+homepage = "https://github.com/nuta/nsh"
+readme = "https://raw.githubusercontent.com/nuta/nsh/main/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "cargo"
+package = "nsh"

@@ -1,0 +1,11 @@
+name = "ervy"
+description = "Bring charts to terminal."
+author = "chunqiuyiyu"
+homepage = "https://github.com/chunqiuyiyu/ervy"
+readme = "https://raw.githubusercontent.com/chunqiuyiyu/ervy/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ervy"

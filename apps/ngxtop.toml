@@ -1,0 +1,11 @@
+name = "ngxtop"
+description = "Real-time metrics for nginx server"
+author = "lebinh"
+homepage = "https://github.com/lebinh/ngxtop"
+readme = "https://raw.githubusercontent.com/lebinh/ngxtop/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ngxtop"

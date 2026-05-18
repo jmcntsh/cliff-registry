@@ -1,0 +1,11 @@
+name = "bitrise"
+description = "Bitrise runner CLI - run your automations on your Mac or Linux machine -"
+author = "bitrise-io"
+homepage = "https://github.com/bitrise-io/bitrise"
+readme = "https://raw.githubusercontent.com/bitrise-io/bitrise/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bitrise-io/bitrise@latest"

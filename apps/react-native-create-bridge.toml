@@ -1,0 +1,11 @@
+name = "react-native-create-bridge"
+description = "A CLI tool that bridges React Native modules & UI components with ease 🎉"
+author = "peggyrayzis"
+homepage = "https://github.com/peggyrayzis/react-native-create-bridge"
+readme = "https://raw.githubusercontent.com/peggyrayzis/react-native-create-bridge/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "react-native-create-bridge"

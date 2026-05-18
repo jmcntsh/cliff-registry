@@ -1,0 +1,11 @@
+name = "ytt"
+description = "YAML templating tool that works on YAML structure instead of text"
+author = "carvel-dev"
+homepage = "https://github.com/carvel-dev/ytt"
+readme = "https://raw.githubusercontent.com/carvel-dev/ytt/develop/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/carvel-dev/ytt@latest"

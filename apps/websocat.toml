@@ -1,0 +1,11 @@
+name = "websocat"
+description = "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+author = "vi"
+homepage = "https://github.com/vi/websocat"
+readme = "https://raw.githubusercontent.com/vi/websocat/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "websocat"

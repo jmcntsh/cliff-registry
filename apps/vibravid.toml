@@ -1,0 +1,11 @@
+name = "vibravid"
+description = "Downloader for Movie, TV Series and anime."
+author = "AstraeLabs"
+homepage = "https://github.com/AstraeLabs/VibraVid"
+readme = "https://raw.githubusercontent.com/AstraeLabs/VibraVid/main/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "VibraVid"

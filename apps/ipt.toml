@@ -1,0 +1,11 @@
+name = "ipt"
+description = "Interactive Pipe To: The Node.js cli interactive workflow"
+author = "ruyadorno"
+homepage = "https://github.com/ruyadorno/ipt"
+readme = "https://raw.githubusercontent.com/ruyadorno/ipt/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ipt"

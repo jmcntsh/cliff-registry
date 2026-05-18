@@ -1,0 +1,11 @@
+name = "kirimase"
+description = "Build full-stack Next.js apps, incredibly fast"
+author = "vercel"
+homepage = "https://github.com/vercel/kirimase"
+readme = "https://raw.githubusercontent.com/vercel/kirimase/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "kirimase"

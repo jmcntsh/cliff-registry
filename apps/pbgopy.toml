@@ -1,0 +1,11 @@
+name = "pbgopy"
+description = "Copy and paste between devices"
+author = "nakabonne"
+homepage = "https://github.com/nakabonne/pbgopy"
+readme = "https://raw.githubusercontent.com/nakabonne/pbgopy/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nakabonne/pbgopy@latest"

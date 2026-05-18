@@ -1,0 +1,11 @@
+name = "rumdl"
+description = "Fast Markdown linter and formatter written in Rust"
+author = "rvben"
+homepage = "https://github.com/rvben/rumdl"
+readme = "https://raw.githubusercontent.com/rvben/rumdl/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rumdl"

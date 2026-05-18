@@ -1,0 +1,11 @@
+name = "ov"
+description = "🎑Feature-rich terminal-based text viewer. It is a so-called terminal pager."
+author = "noborus"
+homepage = "https://github.com/noborus/ov"
+readme = "https://raw.githubusercontent.com/noborus/ov/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/noborus/ov@latest"

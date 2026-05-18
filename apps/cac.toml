@@ -1,0 +1,11 @@
+name = "cac"
+description = "Simple yet powerful framework for building command-line apps."
+author = "cacjs"
+homepage = "https://github.com/cacjs/cac"
+readme = "https://raw.githubusercontent.com/cacjs/cac/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cac"

@@ -1,0 +1,11 @@
+name = "go-qrcode"
+description = "To help gophers generate QR Codes with customized styles, such as color, block size, block shape, and icon."
+author = "yeqown"
+homepage = "https://github.com/yeqown/go-qrcode"
+readme = "https://raw.githubusercontent.com/yeqown/go-qrcode/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/yeqown/go-qrcode@latest"

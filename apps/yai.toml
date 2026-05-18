@@ -1,0 +1,11 @@
+name = "yai"
+description = "Your AI powered terminal assistant."
+author = "ekkinox"
+homepage = "https://github.com/ekkinox/yai"
+readme = "https://raw.githubusercontent.com/ekkinox/yai/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ekkinox/yai@latest"

@@ -1,0 +1,11 @@
+name = "typioca"
+description = "Cozy typing speed tester in terminal"
+author = "bloznelis"
+homepage = "https://github.com/bloznelis/typioca"
+readme = "https://raw.githubusercontent.com/bloznelis/typioca/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bloznelis/typioca@latest"

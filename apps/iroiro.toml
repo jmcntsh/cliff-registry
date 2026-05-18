@@ -1,0 +1,11 @@
+name = "iroiro"
+description = "Beautiful Colors Lookup in CLI"
+author = "antfu"
+homepage = "https://github.com/antfu/iroiro"
+readme = "https://raw.githubusercontent.com/antfu/iroiro/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "iroiro"

@@ -1,0 +1,11 @@
+name = "editly"
+description = "Slick, declarative command line video editing & API"
+author = "mifi"
+homepage = "https://github.com/mifi/editly"
+readme = "https://raw.githubusercontent.com/mifi/editly/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "editly"

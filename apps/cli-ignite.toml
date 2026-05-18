@@ -1,0 +1,11 @@
+name = "cli-ignite"
+description = "Ignite is a CLI tool and hub designed for constructing Proof of Stake Blockchains rooted in Cosmos-SDK"
+author = "ignite"
+homepage = "https://github.com/ignite/cli"
+readme = "https://raw.githubusercontent.com/ignite/cli/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/ignite/cli@latest"

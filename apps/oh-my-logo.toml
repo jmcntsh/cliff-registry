@@ -1,0 +1,11 @@
+name = "oh-my-logo"
+description = "Display giant ASCII-art logos with colorful gradients in your terminal — like Claude Code or Gemini CLI."
+author = "shinshin86"
+homepage = "https://github.com/shinshin86/oh-my-logo"
+readme = "https://raw.githubusercontent.com/shinshin86/oh-my-logo/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "oh-my-logo"

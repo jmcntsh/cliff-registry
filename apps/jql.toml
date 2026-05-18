@@ -1,0 +1,11 @@
+name = "jql"
+description = "A JSON Query Language CLI tool"
+author = "yamafaktory"
+homepage = "https://github.com/yamafaktory/jql"
+readme = "https://raw.githubusercontent.com/yamafaktory/jql/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "jql"

@@ -1,0 +1,11 @@
+name = "skillshare"
+description = "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, O..."
+author = "runkids"
+homepage = "https://github.com/runkids/skillshare"
+readme = "https://raw.githubusercontent.com/runkids/skillshare/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/runkids/skillshare@latest"

@@ -1,0 +1,11 @@
+name = "toot"
+description = "toot - Mastodon CLI & TUI"
+author = "ihabunek"
+homepage = "https://github.com/ihabunek/toot"
+readme = "https://raw.githubusercontent.com/ihabunek/toot/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "toot"

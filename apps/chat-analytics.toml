@@ -1,0 +1,11 @@
+name = "chat-analytics"
+description = "Generate interactive, beautiful and insightful chat analysis reports"
+author = "mlomb"
+homepage = "https://github.com/mlomb/chat-analytics"
+readme = "https://raw.githubusercontent.com/mlomb/chat-analytics/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "chat-analytics"

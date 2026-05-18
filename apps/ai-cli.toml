@@ -1,0 +1,11 @@
+name = "ai-cli"
+description = "Get answers for CLI commands from ChatGPT right from your terminal"
+author = "abhagsain"
+homepage = "https://github.com/abhagsain/ai-cli"
+readme = "https://raw.githubusercontent.com/abhagsain/ai-cli/master/README.md"
+tags = ["cli"]
+license = "GPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "ai-cli"

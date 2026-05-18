@@ -1,0 +1,10 @@
+name = "svgexport"
+description = "SVG to PNG/JPEG command-line tool and Node.js module"
+author = "piqnt"
+homepage = "https://github.com/piqnt/svgexport"
+readme = "https://raw.githubusercontent.com/piqnt/svgexport/master/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "svgexport"

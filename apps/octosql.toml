@@ -1,0 +1,11 @@
+name = "octosql"
+description = "OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats..."
+author = "cube2222"
+homepage = "https://github.com/cube2222/octosql"
+readme = "https://raw.githubusercontent.com/cube2222/octosql/main/README.md"
+tags = ["cli"]
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/cube2222/octosql@latest"

@@ -1,0 +1,11 @@
+name = "wormhole-william"
+description = "End-to-end encrypted file transfer. A magic wormhole CLI and API in Go (golang)."
+author = "psanford"
+homepage = "https://github.com/psanford/wormhole-william"
+readme = "https://raw.githubusercontent.com/psanford/wormhole-william/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/psanford/wormhole-william@latest"

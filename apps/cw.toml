@@ -1,0 +1,11 @@
+name = "cw"
+description = "The best way to tail AWS CloudWatch Logs from your terminal"
+author = "lucagrulla"
+homepage = "https://github.com/lucagrulla/cw"
+readme = "https://raw.githubusercontent.com/lucagrulla/cw/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/lucagrulla/cw@latest"

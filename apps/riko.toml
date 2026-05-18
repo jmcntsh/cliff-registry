@@ -1,0 +1,11 @@
+name = "riko"
+description = "A Python stream processing engine modeled after Yahoo! Pipes"
+author = "nerevu"
+homepage = "https://github.com/nerevu/riko"
+readme = "https://raw.githubusercontent.com/nerevu/riko/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "riko"

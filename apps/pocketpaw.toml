@@ -1,0 +1,11 @@
+name = "pocketpaw"
+description = "Your AI agent in 30 seconds. Not 30 hours. Self-hosted, open-source personal AI with desktop installer, multi-agent C..."
+author = "pocketpaw"
+homepage = "https://github.com/pocketpaw/pocketpaw"
+readme = "https://raw.githubusercontent.com/pocketpaw/pocketpaw/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pocketpaw"

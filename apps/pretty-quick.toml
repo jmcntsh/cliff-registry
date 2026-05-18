@@ -1,0 +1,11 @@
+name = "pretty-quick"
+description = "⚡ Get Pretty Quick"
+author = "prettier"
+homepage = "https://github.com/prettier/pretty-quick"
+readme = "https://raw.githubusercontent.com/prettier/pretty-quick/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pretty-quick"

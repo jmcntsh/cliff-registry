@@ -1,0 +1,11 @@
+name = "nat"
+description = "`ls` alternative with useful info and a splash of color 🎨"
+author = "willdoescode"
+homepage = "https://github.com/willdoescode/nat"
+readme = "https://raw.githubusercontent.com/willdoescode/nat/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "nat"

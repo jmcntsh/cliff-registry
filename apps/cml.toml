@@ -1,0 +1,11 @@
+name = "cml"
+description = "♾️ CML - Continuous Machine Learning | CI/CD for ML"
+author = "iterative"
+homepage = "https://github.com/iterative/cml"
+readme = "https://raw.githubusercontent.com/iterative/cml/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cml"

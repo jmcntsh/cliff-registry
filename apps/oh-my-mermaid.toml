@@ -1,0 +1,11 @@
+name = "oh-my-mermaid"
+description = "Turn complex codebases into clear, navigable architecture diagrams with Claude Code."
+author = "oh-my-mermaid"
+homepage = "https://github.com/oh-my-mermaid/oh-my-mermaid"
+readme = "https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "oh-my-mermaid"

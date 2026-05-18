@@ -1,0 +1,11 @@
+name = "schemathesis"
+description = "Catch API bugs before your users do"
+author = "schemathesis"
+homepage = "https://github.com/schemathesis/schemathesis"
+readme = "https://raw.githubusercontent.com/schemathesis/schemathesis/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "schemathesis"

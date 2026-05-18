@@ -1,0 +1,11 @@
+name = "iterm2"
+description = "An arctic, north-bluish clean and elegant iTerm2 color scheme."
+author = "nordtheme"
+homepage = "https://github.com/nordtheme/iterm2"
+readme = "https://raw.githubusercontent.com/nordtheme/iterm2/develop/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "iterm2"

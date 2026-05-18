@@ -1,0 +1,11 @@
+name = "musicn"
+description = "🎵 一个可播放及下载音乐的 Node.js 命令行工具"
+author = "zonemeen"
+homepage = "https://github.com/zonemeen/musicn"
+readme = "https://raw.githubusercontent.com/zonemeen/musicn/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "musicn"

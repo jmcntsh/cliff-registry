@@ -1,0 +1,11 @@
+name = "eva"
+description = "a calculator REPL, similar to bc(1)"
+author = "oppiliappan"
+homepage = "https://github.com/oppiliappan/eva"
+readme = "https://raw.githubusercontent.com/oppiliappan/eva/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "eva"

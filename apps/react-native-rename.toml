@@ -1,0 +1,11 @@
+name = "react-native-rename"
+description = "Rename react-native app with just one command"
+author = "junedomingo"
+homepage = "https://github.com/junedomingo/react-native-rename"
+readme = "https://raw.githubusercontent.com/junedomingo/react-native-rename/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "react-native-rename"

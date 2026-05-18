@@ -1,0 +1,11 @@
+name = "lstr"
+description = "A fast, minimalist directory tree viewer, written in Rust."
+author = "bgreenwell"
+homepage = "https://github.com/bgreenwell/lstr"
+readme = "https://raw.githubusercontent.com/bgreenwell/lstr/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "lstr"

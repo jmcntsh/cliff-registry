@@ -1,0 +1,10 @@
+name = "aqua"
+description = "Declarative CLI Version manager written in Go. Support Lazy Install, Registry, and continuous update with Renovate. C..."
+author = "aquaproj"
+homepage = "https://github.com/aquaproj/aqua"
+readme = "https://raw.githubusercontent.com/aquaproj/aqua/main/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "go"
+package = "github.com/aquaproj/aqua@latest"

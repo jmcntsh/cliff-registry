@@ -1,0 +1,10 @@
+name = "good-first-issue"
+description = "🖥 CLI for finding good first issues"
+author = "cutenode"
+homepage = "https://github.com/cutenode/good-first-issue"
+readme = "https://raw.githubusercontent.com/cutenode/good-first-issue/master/README.md"
+tags = ["cli"]
+
+[[installs]]
+type = "npm"
+package = "good-first-issue"

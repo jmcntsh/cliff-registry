@@ -1,0 +1,11 @@
+name = "gpg-tui"
+description = "Manage your GnuPG keys with ease! 🔐"
+author = "orhun"
+homepage = "https://github.com/orhun/gpg-tui"
+readme = "https://raw.githubusercontent.com/orhun/gpg-tui/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gpg-tui"

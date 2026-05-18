@@ -1,0 +1,11 @@
+name = "destructive-command-guard"
+description = "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents."
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/destructive_command_guard"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/destructive_command_guard/main/README.md"
+tags = ["cli"]
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "destructive_command_guard"

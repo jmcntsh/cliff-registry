@@ -1,0 +1,11 @@
+name = "spacer"
+description = "CLI tool to insert spacers when command output stops"
+author = "samwho"
+homepage = "https://github.com/samwho/spacer"
+readme = "https://raw.githubusercontent.com/samwho/spacer/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "spacer"

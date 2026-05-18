@@ -1,0 +1,11 @@
+name = "taskwarrior-tui"
+description = "`taskwarrior-tui`: A terminal user interface for taskwarrior"
+author = "kdheepak"
+homepage = "https://github.com/kdheepak/taskwarrior-tui"
+readme = "https://raw.githubusercontent.com/kdheepak/taskwarrior-tui/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "taskwarrior-tui"

@@ -1,0 +1,11 @@
+name = "jungle"
+description = "AWS operations by cli should be simpler"
+author = "achiku"
+homepage = "https://github.com/achiku/jungle"
+readme = "https://raw.githubusercontent.com/achiku/jungle/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "jungle"
