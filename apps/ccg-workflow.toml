@@ -1,0 +1,11 @@
+name = "ccg-workflow"
+description = "多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略、编排 Codex + Gemin..."
+author = "fengshao1227"
+homepage = "https://github.com/fengshao1227/ccg-workflow"
+readme = "https://raw.githubusercontent.com/fengshao1227/ccg-workflow/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/fengshao1227/ccg-workflow@latest"

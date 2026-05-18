@@ -1,0 +1,11 @@
+name = "claude-squad"
+description = "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp."
+author = "smtg-ai"
+homepage = "https://github.com/smtg-ai/claude-squad"
+readme = "https://raw.githubusercontent.com/smtg-ai/claude-squad/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/smtg-ai/claude-squad@latest"

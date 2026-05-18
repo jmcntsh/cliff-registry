@@ -126,6 +126,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "alexellis/arkade": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "go",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "allinurl/goaccess": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -448,6 +455,13 @@
       "last_seen": "2026-05-04",
       "reason": "ok"
     },
+    "blockchaincommons/learning-bitcoin-from-the-command-line": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "unknown",
+      "last_seen": "2026-05-18",
+      "reason": "no-install-mapping"
+    },
     "bnb/awesome-hyper": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -518,12 +532,26 @@
       "last_seen": "2026-05-04",
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
+    "campfirein/byterover-cli": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "can1357/oh-my-pi": {
       "decision": "deferred",
       "first_seen": "2026-05-04",
       "install_type": "npm",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "carloscuesta/gitmoji-cli": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "chalk/chalk": {
       "decision": "deferred",
@@ -601,6 +629,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
+    },
+    "claudiodangelis/qrcp": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "go",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "cli-guidelines/cli-guidelines": {
       "decision": "rejected",
@@ -748,6 +783,13 @@
       "install_type": "",
       "last_seen": "2026-05-04",
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "dankamongmen/notcurses": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "unknown",
+      "last_seen": "2026-05-18",
+      "reason": "no-install-mapping"
     },
     "danvega/spring-initializr-tui": {
       "decision": "rejected",
@@ -1015,6 +1057,13 @@
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
     },
+    "esengine/deepseek-reasonix": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "package-not-published:npm:DeepSeek-Reasonix"
+    },
     "eugeny/tabby": {
       "decision": "deferred",
       "first_seen": "2026-05-04",
@@ -1113,6 +1162,13 @@
       "last_seen": "2026-05-04",
       "reason": "package-not-published:cargo:carbonyl"
     },
+    "fengshao1227/ccg-workflow": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "go",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "fish-shell/fish-shell": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -1181,6 +1237,13 @@
       "first_seen": "2026-05-04",
       "install_type": "go",
       "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "generalaction/emdash": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
       "reason": "ok"
     },
     "genivia/ugrep": {
@@ -1316,6 +1379,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "gptme/gptme": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "pipx",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "grindlemire/go-tui": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -1377,6 +1447,13 @@
       "first_seen": "2026-05-04",
       "install_type": "cargo",
       "last_seen": "2026-05-04",
+      "reason": "ok"
+    },
+    "helixdb/helix-db": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "cargo",
+      "last_seen": "2026-05-18",
       "reason": "ok"
     },
     "hetznercloud/cli": {
@@ -1645,6 +1722,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "jhspetersson/fselect": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "cargo",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "jline/jline3": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -1700,6 +1784,13 @@
       "install_type": "go",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "jrnl-org/jrnl": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "pipx",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "jtdaugherty/brick": {
       "decision": "rejected",
@@ -1827,6 +1918,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "laravel-zero/laravel-zero": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "",
+      "last_seen": "2026-05-18",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
     "lastpass/lastpass-cli": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -1854,6 +1952,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
+    },
+    "lirantal/nodejs-cli-apps-best-practices": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "package-not-published:npm:nodejs-cli-apps-best-practices"
     },
     "liumengxuan04/minicode": {
       "decision": "rejected",
@@ -1924,6 +2029,13 @@
       "install_type": "",
       "last_seen": "2026-05-04",
       "reason": "category-deny:mcp server"
+    },
+    "mangiucugna/json_repair": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "pipx",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "manrajgrover/football-cli": {
       "decision": "deferred",
@@ -2078,6 +2190,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "modem-dev/hunk": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "moizibnyousaf/ai-agent-skills": {
       "decision": "rejected",
@@ -2275,6 +2394,20 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "nunomaduro/collision": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "unknown",
+      "last_seen": "2026-05-18",
+      "reason": "no-install-mapping"
+    },
+    "nunomaduro/phpinsights": {
+      "decision": "rejected",
+      "first_seen": "2026-05-18",
+      "install_type": "unknown",
+      "last_seen": "2026-05-18",
+      "reason": "no-install-mapping"
+    },
     "o2sh/onefetch": {
       "decision": "deferred",
       "first_seen": "2026-05-04",
@@ -2337,6 +2470,20 @@
       "install_type": "npm",
       "last_seen": "2026-05-04",
       "reason": "package-not-published:npm:onecli"
+    },
+    "open-cli-tools/concurrently": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
+    "openclaw/mcporter": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "openhands/openhands": {
       "decision": "deferred",
@@ -2926,6 +3073,13 @@
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
     },
+    "sindresorhus/np": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "sindresorhus/pure": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -2946,6 +3100,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-11",
       "reason": "no-install-mapping"
+    },
+    "smtg-ai/claude-squad": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "go",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "sorin-ionescu/prezto": {
       "decision": "rejected",
@@ -3157,6 +3318,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "tmux-python/tmuxp": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "pipx",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "tomnomnom/gron": {
       "decision": "deferred",
       "first_seen": "2026-05-04",
@@ -3325,6 +3493,13 @@
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
     },
+    "voidcosmos/npkill": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "npm",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
+    },
     "voidenhq/voiden": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -3359,6 +3534,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "wasm-bindgen/wasm-pack": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "cargo",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     },
     "wavetermdev/waveterm": {
       "decision": "deferred",
@@ -3569,8 +3751,15 @@
       "install_type": "go",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "zu1k/nali": {
+      "decision": "accepted",
+      "first_seen": "2026-05-18",
+      "install_type": "go",
+      "last_seen": "2026-05-18",
+      "reason": "ok"
     }
   },
-  "updated_at": "2026-05-11T16:31:11+00:00",
+  "updated_at": "2026-05-18T16:46:08+00:00",
   "version": 1
 }

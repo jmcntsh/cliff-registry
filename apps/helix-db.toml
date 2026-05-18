@@ -1,0 +1,11 @@
+name = "helix-db"
+description = "HelixDB is an open-source graph-vector database built from scratch in Rust."
+author = "HelixDB"
+homepage = "https://github.com/HelixDB/helix-db"
+readme = "https://raw.githubusercontent.com/HelixDB/helix-db/main/README.md"
+tags = ["cli"]
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "helix-db"

@@ -1,0 +1,11 @@
+name = "emdash"
+description = "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use..."
+author = "generalaction"
+homepage = "https://github.com/generalaction/emdash"
+readme = "https://raw.githubusercontent.com/generalaction/emdash/main/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "emdash"

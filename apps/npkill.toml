@@ -1,0 +1,11 @@
+name = "npkill"
+description = "List any node_modules 📦 dir in your system and how heavy they are. You can then select which ones you want to eras..."
+author = "voidcosmos"
+homepage = "https://github.com/voidcosmos/npkill"
+readme = "https://raw.githubusercontent.com/voidcosmos/npkill/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "npkill"

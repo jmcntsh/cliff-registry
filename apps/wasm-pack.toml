@@ -1,0 +1,11 @@
+name = "wasm-pack"
+description = "📦✨ your favorite rust -> wasm workflow tool!"
+author = "wasm-bindgen"
+homepage = "https://github.com/wasm-bindgen/wasm-pack"
+readme = "https://raw.githubusercontent.com/wasm-bindgen/wasm-pack/master/README.md"
+tags = ["cli"]
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "wasm-pack"

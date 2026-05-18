@@ -1,0 +1,11 @@
+name = "hunk"
+description = "Review-first terminal diff viewer for agentic coders"
+author = "modem-dev"
+homepage = "https://github.com/modem-dev/hunk"
+readme = "https://raw.githubusercontent.com/modem-dev/hunk/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "hunk"

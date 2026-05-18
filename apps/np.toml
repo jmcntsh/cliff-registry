@@ -1,0 +1,11 @@
+name = "np"
+description = "A better `npm publish`"
+author = "sindresorhus"
+homepage = "https://github.com/sindresorhus/np"
+readme = "https://raw.githubusercontent.com/sindresorhus/np/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "np"

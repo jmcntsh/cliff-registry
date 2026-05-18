@@ -1,0 +1,11 @@
+name = "arkade"
+description = "Open Source Marketplace For Developer Tools"
+author = "alexellis"
+homepage = "https://github.com/alexellis/arkade"
+readme = "https://raw.githubusercontent.com/alexellis/arkade/master/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/alexellis/arkade@latest"

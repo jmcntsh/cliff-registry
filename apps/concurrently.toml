@@ -1,0 +1,11 @@
+name = "concurrently"
+description = "Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better."
+author = "open-cli-tools"
+homepage = "https://github.com/open-cli-tools/concurrently"
+readme = "https://raw.githubusercontent.com/open-cli-tools/concurrently/main/README.md"
+tags = ["cli"]
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "concurrently"
