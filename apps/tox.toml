@@ -4,6 +4,7 @@ author = "tox-dev"
 homepage = "https://github.com/tox-dev/tox"
 readme = "https://raw.githubusercontent.com/tox-dev/tox/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

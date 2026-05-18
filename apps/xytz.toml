@@ -4,6 +4,7 @@ author = "xdagiz"
 homepage = "https://github.com/xdagiz/xytz"
 readme = "https://raw.githubusercontent.com/xdagiz/xytz/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [install]

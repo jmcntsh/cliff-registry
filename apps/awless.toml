@@ -4,6 +4,7 @@ author = "wallix"
 homepage = "https://github.com/wallix/awless"
 readme = "https://raw.githubusercontent.com/wallix/awless/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

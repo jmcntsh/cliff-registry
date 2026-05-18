@@ -4,6 +4,7 @@ author = "amalshaji"
 homepage = "https://github.com/amalshaji/portr"
 readme = "https://raw.githubusercontent.com/amalshaji/portr/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "AGPL-3.0"
 
 [[installs]]

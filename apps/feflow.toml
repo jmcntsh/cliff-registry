@@ -4,6 +4,7 @@ author = "Tencent"
 homepage = "https://github.com/Tencent/feflow"
 readme = "https://raw.githubusercontent.com/Tencent/feflow/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [[installs]]

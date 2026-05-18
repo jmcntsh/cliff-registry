@@ -4,6 +4,7 @@ author = "harbur"
 homepage = "https://github.com/harbur/captain"
 readme = "https://raw.githubusercontent.com/harbur/captain/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "maticzav"
 homepage = "https://github.com/maticzav/emma-cli"
 readme = "https://raw.githubusercontent.com/maticzav/emma-cli/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 
 [[installs]]
 type = "npm"

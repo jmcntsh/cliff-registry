@@ -4,6 +4,7 @@ author = "control-theory"
 homepage = "https://github.com/control-theory/gonzo"
 readme = "https://raw.githubusercontent.com/control-theory/gonzo/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [install]

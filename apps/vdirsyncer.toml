@@ -4,6 +4,7 @@ author = "pimutils"
 homepage = "https://github.com/pimutils/vdirsyncer"
 readme = "https://raw.githubusercontent.com/pimutils/vdirsyncer/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "OTHER"
 
 [[installs]]

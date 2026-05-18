@@ -4,6 +4,7 @@ author = "fgeller"
 homepage = "https://github.com/fgeller/kt"
 readme = "https://raw.githubusercontent.com/fgeller/kt/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

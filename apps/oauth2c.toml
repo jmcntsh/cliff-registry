@@ -4,6 +4,7 @@ author = "SecureAuthCorp"
 homepage = "https://github.com/SecureAuthCorp/oauth2c"
 readme = "https://raw.githubusercontent.com/SecureAuthCorp/oauth2c/master/README.md"
 tags = ["cli"]
+category = "Security"
 license = "APACHE-2.0"
 
 [[installs]]

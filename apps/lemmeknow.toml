@@ -4,6 +4,7 @@ author = "swanandx"
 homepage = "https://github.com/swanandx/lemmeknow"
 readme = "https://raw.githubusercontent.com/swanandx/lemmeknow/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

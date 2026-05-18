@@ -4,6 +4,7 @@ author = "soldatov-ss"
 homepage = "https://github.com/soldatov-ss/thanos"
 readme = "https://raw.githubusercontent.com/soldatov-ss/thanos/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [install]

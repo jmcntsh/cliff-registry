@@ -4,6 +4,7 @@ author = "99designs"
 homepage = "https://github.com/99designs/aws-vault"
 readme = "https://raw.githubusercontent.com/99designs/aws-vault/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

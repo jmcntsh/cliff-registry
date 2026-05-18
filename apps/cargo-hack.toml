@@ -4,6 +4,7 @@ author = "taiki-e"
 homepage = "https://github.com/taiki-e/cargo-hack"
 readme = "https://raw.githubusercontent.com/taiki-e/cargo-hack/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

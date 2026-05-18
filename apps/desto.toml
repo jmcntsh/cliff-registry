@@ -4,6 +4,7 @@ author = "kalfasyan"
 homepage = "https://github.com/kalfasyan/desto"
 readme = "https://raw.githubusercontent.com/kalfasyan/desto/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "CC-BY-4.0"
 
 [install]

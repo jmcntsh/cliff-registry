@@ -4,6 +4,7 @@ author = "ranyitz"
 homepage = "https://github.com/ranyitz/qnm"
 readme = "https://raw.githubusercontent.com/ranyitz/qnm/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

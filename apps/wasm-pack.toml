@@ -4,6 +4,7 @@ author = "wasm-bindgen"
 homepage = "https://github.com/wasm-bindgen/wasm-pack"
 readme = "https://raw.githubusercontent.com/wasm-bindgen/wasm-pack/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [[installs]]

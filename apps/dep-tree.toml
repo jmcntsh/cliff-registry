@@ -4,6 +4,7 @@ author = "gabotechs"
 homepage = "https://github.com/gabotechs/dep-tree"
 readme = "https://raw.githubusercontent.com/gabotechs/dep-tree/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "bgreenwell"
 homepage = "https://github.com/bgreenwell/lstr"
 readme = "https://raw.githubusercontent.com/bgreenwell/lstr/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

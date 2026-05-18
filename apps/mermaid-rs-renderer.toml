@@ -4,6 +4,7 @@ author = "1jehuang"
 homepage = "https://github.com/1jehuang/mermaid-rs-renderer"
 readme = "https://raw.githubusercontent.com/1jehuang/mermaid-rs-renderer/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [install]

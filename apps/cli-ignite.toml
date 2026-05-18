@@ -4,6 +4,7 @@ author = "ignite"
 homepage = "https://github.com/ignite/cli"
 readme = "https://raw.githubusercontent.com/ignite/cli/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "OTHER"
 
 [[installs]]

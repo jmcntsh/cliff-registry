@@ -4,6 +4,7 @@ author = "mmulet"
 homepage = "https://github.com/mmulet/term.everything"
 readme = "https://raw.githubusercontent.com/mmulet/term.everything/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "AGPL-3.0"
 
 [install]

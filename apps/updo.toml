@@ -4,6 +4,7 @@ author = "Owloops"
 homepage = "https://github.com/Owloops/updo"
 readme = "https://raw.githubusercontent.com/Owloops/updo/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

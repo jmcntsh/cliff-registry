@@ -4,6 +4,7 @@ author = "lasantosr"
 homepage = "https://github.com/lasantosr/intelli-shell"
 readme = "https://raw.githubusercontent.com/lasantosr/intelli-shell/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "JamieMason"
 homepage = "https://github.com/JamieMason/shrinkpack"
 readme = "https://raw.githubusercontent.com/JamieMason/shrinkpack/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

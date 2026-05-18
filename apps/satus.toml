@@ -4,6 +4,7 @@ author = "darkroomengineering"
 homepage = "https://github.com/darkroomengineering/satus"
 readme = "https://raw.githubusercontent.com/darkroomengineering/satus/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 
 [[installs]]
 type = "npm"

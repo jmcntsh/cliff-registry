@@ -4,6 +4,7 @@ author = "ernestofgonzalez"
 homepage = "https://github.com/ernestofgonzalez/epub-utils"
 readme = "https://raw.githubusercontent.com/ernestofgonzalez/epub-utils/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [install]

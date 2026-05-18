@@ -4,6 +4,7 @@ author = "hasura"
 homepage = "https://github.com/hasura/graphqurl"
 readme = "https://raw.githubusercontent.com/hasura/graphqurl/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sibprogrammer"
 homepage = "https://github.com/sibprogrammer/xq"
 readme = "https://raw.githubusercontent.com/sibprogrammer/xq/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

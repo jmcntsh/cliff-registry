@@ -4,6 +4,7 @@ author = "brandonyoungdev"
 homepage = "https://github.com/brandonyoungdev/tldx"
 readme = "https://raw.githubusercontent.com/brandonyoungdev/tldx/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

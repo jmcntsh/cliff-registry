@@ -4,6 +4,7 @@ author = "TheYahya"
 homepage = "https://github.com/TheYahya/enola"
 readme = "https://raw.githubusercontent.com/TheYahya/enola/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "kubecolor"
 homepage = "https://github.com/kubecolor/kubecolor"
 readme = "https://raw.githubusercontent.com/kubecolor/kubecolor/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

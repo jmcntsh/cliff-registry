@@ -4,6 +4,7 @@ author = "guyzmo"
 homepage = "https://github.com/guyzmo/git-repo"
 readme = "https://raw.githubusercontent.com/guyzmo/git-repo/devel/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "OTHER"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "ricklamers"
 homepage = "https://github.com/ricklamers/shell-ai"
 readme = "https://raw.githubusercontent.com/ricklamers/shell-ai/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "bensadeh"
 homepage = "https://github.com/bensadeh/circumflex"
 readme = "https://raw.githubusercontent.com/bensadeh/circumflex/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

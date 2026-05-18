@@ -4,6 +4,7 @@ author = "cutenode"
 homepage = "https://github.com/cutenode/good-first-issue"
 readme = "https://raw.githubusercontent.com/cutenode/good-first-issue/master/README.md"
 tags = ["cli"]
+category = "Other"
 
 [[installs]]
 type = "npm"

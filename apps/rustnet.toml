@@ -4,6 +4,7 @@ author = "domcyrus"
 homepage = "https://github.com/domcyrus/rustnet"
 readme = "https://raw.githubusercontent.com/domcyrus/rustnet/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "APACHE-2.0"
 
 [install]

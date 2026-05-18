@@ -4,6 +4,7 @@ author = "mifi"
 homepage = "https://github.com/mifi/ezshare"
 readme = "https://raw.githubusercontent.com/mifi/ezshare/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

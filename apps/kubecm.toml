@@ -4,6 +4,7 @@ author = "sunny0826"
 homepage = "https://github.com/sunny0826/kubecm"
 readme = "https://raw.githubusercontent.com/sunny0826/kubecm/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

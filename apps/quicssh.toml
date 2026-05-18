@@ -4,6 +4,7 @@ author = "moul"
 homepage = "https://github.com/moul/quicssh"
 readme = "https://raw.githubusercontent.com/moul/quicssh/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "APACHE-2.0"
 
 [[installs]]

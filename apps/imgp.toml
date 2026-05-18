@@ -4,6 +4,7 @@ author = "jarun"
 homepage = "https://github.com/jarun/imgp"
 readme = "https://raw.githubusercontent.com/jarun/imgp/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "GPL-3.0"
 
 [[installs]]

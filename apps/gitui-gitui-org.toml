@@ -4,6 +4,7 @@ author = "gitui-org"
 homepage = "https://github.com/gitui-org/gitui"
 readme = "https://raw.githubusercontent.com/gitui-org/gitui/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

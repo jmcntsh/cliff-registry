@@ -4,6 +4,7 @@ author = "runkids"
 homepage = "https://github.com/runkids/skillshare"
 readme = "https://raw.githubusercontent.com/runkids/skillshare/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

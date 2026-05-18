@@ -4,6 +4,7 @@ author = "rs"
 homepage = "https://github.com/rs/curlie"
 readme = "https://raw.githubusercontent.com/rs/curlie/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

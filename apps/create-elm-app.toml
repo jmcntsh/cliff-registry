@@ -4,6 +4,7 @@ author = "halfzebra"
 homepage = "https://github.com/halfzebra/create-elm-app"
 readme = "https://raw.githubusercontent.com/halfzebra/create-elm-app/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

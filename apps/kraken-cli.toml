@@ -4,6 +4,7 @@ author = "krakenfx"
 homepage = "https://github.com/krakenfx/kraken-cli"
 readme = "https://raw.githubusercontent.com/krakenfx/kraken-cli/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [install]

@@ -4,6 +4,7 @@ author = "dundee"
 homepage = "https://github.com/dundee/gdu"
 readme = "https://raw.githubusercontent.com/dundee/gdu/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

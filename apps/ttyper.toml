@@ -4,6 +4,7 @@ author = "max-niederman"
 homepage = "https://github.com/max-niederman/ttyper"
 readme = "https://raw.githubusercontent.com/max-niederman/ttyper/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

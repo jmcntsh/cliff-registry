@@ -4,6 +4,7 @@ author = "samwho"
 homepage = "https://github.com/samwho/spacer"
 readme = "https://raw.githubusercontent.com/samwho/spacer/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

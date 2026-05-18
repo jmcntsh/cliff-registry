@@ -4,6 +4,7 @@ author = "nikolaeu"
 homepage = "https://github.com/nikolaeu/numi"
 readme = "https://raw.githubusercontent.com/nikolaeu/numi/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

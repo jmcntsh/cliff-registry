@@ -4,6 +4,7 @@ author = "timvisee"
 homepage = "https://github.com/timvisee/ffsend"
 readme = "https://raw.githubusercontent.com/timvisee/ffsend/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "GPL-3.0"
 
 [[installs]]

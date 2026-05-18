@@ -4,6 +4,7 @@ author = "geekjourneyx"
 homepage = "https://github.com/geekjourneyx/md2wechat-skill"
 readme = "https://raw.githubusercontent.com/geekjourneyx/md2wechat-skill/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "OTHER"
 
 [[installs]]

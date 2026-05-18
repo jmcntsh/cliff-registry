@@ -4,6 +4,7 @@ author = "crate-ci"
 homepage = "https://github.com/crate-ci/typos"
 readme = "https://raw.githubusercontent.com/crate-ci/typos/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "APACHE-2.0"
 
 [[installs]]

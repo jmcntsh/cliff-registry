@@ -4,6 +4,7 @@ author = "alexhallam"
 homepage = "https://github.com/alexhallam/tv"
 readme = "https://raw.githubusercontent.com/alexhallam/tv/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

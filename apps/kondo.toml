@@ -4,6 +4,7 @@ author = "tbillington"
 homepage = "https://github.com/tbillington/kondo"
 readme = "https://raw.githubusercontent.com/tbillington/kondo/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

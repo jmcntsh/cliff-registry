@@ -4,6 +4,7 @@ author = "tmux-python"
 homepage = "https://github.com/tmux-python/tmuxp"
 readme = "https://raw.githubusercontent.com/tmux-python/tmuxp/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

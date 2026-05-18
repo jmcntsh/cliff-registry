@@ -4,6 +4,7 @@ author = "superset-sh"
 homepage = "https://github.com/superset-sh/superset"
 readme = "https://raw.githubusercontent.com/superset-sh/superset/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "OTHER"
 
 [[installs]]

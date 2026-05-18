@@ -4,6 +4,7 @@ author = "mohsen1"
 homepage = "https://github.com/mohsen1/yek"
 readme = "https://raw.githubusercontent.com/mohsen1/yek/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

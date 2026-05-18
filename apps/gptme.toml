@@ -4,6 +4,7 @@ author = "gptme"
 homepage = "https://github.com/gptme/gptme"
 readme = "https://raw.githubusercontent.com/gptme/gptme/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

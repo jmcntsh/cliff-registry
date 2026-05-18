@@ -4,6 +4,7 @@ author = "dronesploit"
 homepage = "https://github.com/dronesploit/dronesploit"
 readme = "https://raw.githubusercontent.com/dronesploit/dronesploit/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

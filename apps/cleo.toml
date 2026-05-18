@@ -4,6 +4,7 @@ author = "python-poetry"
 homepage = "https://github.com/python-poetry/cleo"
 readme = "https://raw.githubusercontent.com/python-poetry/cleo/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "frappe"
 homepage = "https://github.com/frappe/bench"
 readme = "https://raw.githubusercontent.com/frappe/bench/develop/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "GPL-3.0"
 
 [[installs]]

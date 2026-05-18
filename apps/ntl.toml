@@ -4,6 +4,7 @@ author = "ruyadorno"
 homepage = "https://github.com/ruyadorno/ntl"
 readme = "https://raw.githubusercontent.com/ruyadorno/ntl/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

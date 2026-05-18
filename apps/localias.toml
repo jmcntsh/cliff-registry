@@ -4,6 +4,7 @@ author = "peterldowns"
 homepage = "https://github.com/peterldowns/localias"
 readme = "https://raw.githubusercontent.com/peterldowns/localias/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

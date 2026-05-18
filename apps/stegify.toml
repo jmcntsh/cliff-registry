@@ -4,6 +4,7 @@ author = "DimitarPetrov"
 homepage = "https://github.com/DimitarPetrov/stegify"
 readme = "https://raw.githubusercontent.com/DimitarPetrov/stegify/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

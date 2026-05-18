@@ -36,25 +36,25 @@ from typing import Any
 # enough to catch projects that never bothered to set GitHub topics.
 SEARCH_QUERIES = (
     "topic:cli OR topic:tui OR topic:terminal OR topic:terminal-ui OR topic:command-line OR topic:command-line-tool",
-    "cli in:name,description,readme",
-    "tui in:name,description,readme",
-    "terminal in:name,description,readme",
-    "command-line in:name,description,readme",
-    '"command line" in:description,readme',
-    '"command-line tool" in:description,readme',
-    '"terminal app" in:description,readme',
-    '"terminal tool" in:description,readme',
-    '"terminal ui" in:description,readme',
-    '"text user interface" in:description,readme',
-    "curses in:name,description,readme",
-    "ncurses in:name,description,readme",
-    "ratatui in:name,description,readme",
-    "bubbletea in:name,description,readme",
-    '"bubble tea" in:description,readme',
-    "charmbracelet in:name,description,readme",
-    "tview in:name,description,readme",
-    "urwid in:name,description,readme",
-    "textual in:name,description,readme",
+    "cli in:name,description",
+    "tui in:name,description",
+    "terminal in:name,description",
+    "command-line in:name,description",
+    '"command line" in:description',
+    '"command-line tool" in:description',
+    '"terminal app" in:description',
+    '"terminal tool" in:description',
+    '"terminal ui" in:description',
+    '"text user interface" in:description',
+    "curses in:name,description",
+    "ncurses in:name,description",
+    "ratatui in:name,description",
+    "bubbletea in:name,description",
+    '"bubble tea" in:description',
+    "charmbracelet in:name,description",
+    "tview in:name,description",
+    "urwid in:name,description",
+    "textual in:name,description",
 )
 
 # Minimal category-check terms. The hotness algorithm in cliff handles
@@ -69,6 +69,11 @@ CATEGORY_DENY_TERMS = (
     "mcp server",
     "prompt pack",
     "cookiecutter template",
+    "github action",
+    "api development ecosystem",
+    "alternative to postman",
+    "web, desktop & cli",
+    "web, desktop and cli",
 )
 
 CATEGORY_DENY_NAME_PATTERNS = (
@@ -83,7 +88,7 @@ CATEGORY_DENY_NAME_PATTERNS = (
 # "CLI for FooSDK" is not blocked.
 LIBRARY_LEAD_TOKENS = (
     "library", "framework", "sdk", "toolkit", "crate", "package",
-    "module", "bindings",
+    "module", "bindings", "plugin", "template",
 )
 
 # Case-insensitive: descriptions where the LIBRARY/FRAMEWORK identity
@@ -96,6 +101,8 @@ LIBRARY_LEAD_PATTERNS_CI = (
     r"^\s*(python|rust|go|golang|node|js|javascript|typescript|ruby|c\+\+)\s+("
         + "|".join(LIBRARY_LEAD_TOKENS) + r")\b",
     r"\bbindings?\s+for\b",
+    r"\b(framework|library|sdk|toolkit|package|module|plugin)\s+for\s+building\b",
+    r"\b(build|create|develop)\s+[^.]{0,80}\b(cli|tui|terminal)\s+(apps?|applications?|tools?)\b",
 )
 
 # Case-sensitive: "X components for ProperName" — catches "TUI
@@ -106,6 +113,17 @@ LIBRARY_LEAD_PATTERNS_CS = (
     r"^\s*\w+\s+(components?|primitives?|widgets?|helpers?|definitions?|utilities)\s+for\s+[A-Z]",
 )
 
+RUNNABLE_APP_PATTERNS_CI = (
+    r"\b(cli|tui)\b",
+    r"\bcommand[- ]?line\b",
+    r"\bterminal[- ]based\b",
+    r"\bterminal\s+(app|tool|ui|interface|client|browser|viewer|manager|dashboard|navigator|player|recorder|emulator|session)\b",
+    r"\b(in|from|inside|within)\s+(the\s+)?terminal\b",
+    r"\b(console|shell)\s+(app|tool|ui|interface|client|browser|viewer|manager|dashboard)\b",
+    r"\b(curses|ncurses|ratatui|bubble\s*tea|bubbletea|tview|urwid|textual)\b",
+    r"\b(repl|pager)\b",
+    r"\bsubcommand\b",
+)
 
 @dataclass
 class Verdict:
@@ -213,6 +231,8 @@ def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
     for pat in LIBRARY_LEAD_PATTERNS_CS:
         if re.search(pat, desc_stripped):
             return False, f"library-lead:{pat[:30]}"
+    if not any(re.search(pat, haystack, re.IGNORECASE) for pat in RUNNABLE_APP_PATTERNS_CI):
+        return False, "no-runnable-cli-tui-signal"
     return True, ""
 
 
@@ -336,6 +356,96 @@ def truncate_to_bytes(s: str, max_bytes: int = 120, ellipsis: str = "...") -> st
     return truncated + ellipsis
 
 
+def infer_category(name: str, description: str, tags: list[str] | tuple[str, ...] = (), language: str = "") -> str:
+    text = " ".join([name, description, " ".join(tags), language]).lower()
+    rules = (
+        ("Version control", (
+            "git", "github", "gitlab", "commit", "branch", "diff", "merge",
+            "version control", "conventional commits",
+        )),
+        ("DevOps", (
+            "kubernetes", "kubectl", "docker", "container", "terraform", "ansible",
+            "aws", "azure", "gcloud", "cloud", "deploy", "deployment", "ci/cd",
+            "serverless", "helm", "ecs", "devops", "infrastructure", "systemd",
+            "kubeconfig", "openfaas",
+        )),
+        ("Networking", (
+            "network", "traffic", "ping", "ssh", "tunnel", "iperf", "port",
+            "ports", "localhost", "hosts", "ip address", "diagnostic", "quic",
+            "remote machines", "sniffer", "gost", "haproxy", "iptables",
+        )),
+        ("HTTP clients", (
+            "http", "api", "rest", "graphql", "grpc", "curl", "request", "webhook",
+            "postman", "openapi",
+        )),
+        ("Databases", (
+            "sql", "sqlite", "postgres", "mysql", "mongo", "redis", "database",
+            "db ", "query",
+        )),
+        ("Data tools", (
+            "json", "yaml", "csv", "parquet", "excel", "data", "jq", "xml",
+            "markdown table",
+        )),
+        ("File management", (
+            "file", "files", "filesystem", "directory", "folder", "backup",
+            "sync", "copy", "disk", "du ", "ls ", "download", "upload",
+        )),
+        ("AI tools", (
+            "ai", "llm", "chatgpt", "claude", "codex", "gemini", "agent",
+            "prompt", "rag",
+        )),
+        ("Security", (
+            "security", "secret", "token", "password", "vulnerability", "scan",
+            "scanner", "pentest", "certificate", "ssl", "tls", "jwt", "oauth",
+            "auth",
+        )),
+        ("Monitoring", (
+            "monitor", "monitoring", "metrics", "logs", "log viewer", "dashboard",
+            "top", "htop", "process", "performance", "benchmark", "status",
+        )),
+        ("Shell utilities", (
+            "shell", "terminal", "command line", "command-line", "subcommand",
+            "repl", "prompt", "history", "alias", "console", "tty", "string",
+            "tmux", "pipe",
+        )),
+        ("Developer tools", (
+            "developer", "code", "lint", "format", "test", "build", "project",
+            "generate", "scaffold", "package manager", "dependency", "release",
+            "version manager", "npm", "node_modules", "postcss", "react native",
+            "preact", "next.js", "web applications", "starter", "sequelize",
+            "nest applications", "publish", "chrome extension", "mdx",
+        )),
+        ("Documentation", (
+            "documentation", "docs", "readme", "markdown", "wiki", "notes",
+            "ebook", "epub", "pdf", "knowledge base", "yuque",
+        )),
+        ("Productivity", (
+            "todo", "task", "time", "calendar", "note", "journal", "workflow",
+            "automation", "browser", "resume", "decision", "notification",
+            "whatsapp", "admin panel",
+        )),
+        ("Music & media", (
+            "music", "audio", "video", "youtube", "spotify", "media", "image",
+            "photo", "movie", "anime",
+        )),
+        ("Games", (
+            "game", "tetris", "chess", "2048", "minesweep", "rogue", "puzzle",
+        )),
+        ("Toys & visualizers", (
+            "ascii", "visual", "visualizer", "chart", "graph", "terminal art",
+            "animation", "screensaver",
+        )),
+    )
+    scores: dict[str, int] = {}
+    for category, terms in rules:
+        score = sum(1 for term in terms if term in text)
+        if score > 0:
+            scores[category] = score
+    if not scores:
+        return "Other"
+    return max(scores.items(), key=lambda item: (item[1], item[0]))[0]
+
+
 def render_manifest(v: Verdict, slug: str) -> str:
     desc = v.description.replace('"', "'").replace("\n", " ").strip()
     desc = re.sub(r"\s+", " ", desc)
@@ -344,6 +454,7 @@ def render_manifest(v: Verdict, slug: str) -> str:
     if "cli" not in tags and "tui" not in tags:
         tags.append("tui" if v.install_type == "go" and "tui" in v.description.lower() else "cli")
     tags_literal = ", ".join(f'"{t}"' for t in tags)
+    category = infer_category(slug, desc, tags, v.language)
     license_line = f'license = "{v.license_spdx}"\n' if v.license_spdx else ""
     readme = f"https://raw.githubusercontent.com/{v.full_name}/{v.default_branch}/README.md"
     return (
@@ -353,6 +464,7 @@ def render_manifest(v: Verdict, slug: str) -> str:
         f'homepage = "{v.html_url}"\n'
         f'readme = "{readme}"\n'
         f"tags = [{tags_literal}]\n"
+        f'category = "{category}"\n'
         f"{license_line}"
         "\n"
         "[[installs]]\n"

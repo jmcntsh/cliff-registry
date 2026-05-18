@@ -4,6 +4,7 @@ author = "gorilla-llm"
 homepage = "https://github.com/gorilla-llm/gorilla-cli"
 readme = "https://raw.githubusercontent.com/gorilla-llm/gorilla-cli/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "mahmoud"
 homepage = "https://github.com/mahmoud/glom"
 readme = "https://raw.githubusercontent.com/mahmoud/glom/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "OTHER"
 
 [[installs]]

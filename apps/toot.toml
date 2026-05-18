@@ -4,6 +4,7 @@ author = "ihabunek"
 homepage = "https://github.com/ihabunek/toot"
 readme = "https://raw.githubusercontent.com/ihabunek/toot/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "GPL-3.0"
 
 [[installs]]

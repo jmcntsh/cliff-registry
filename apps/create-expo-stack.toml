@@ -4,6 +4,7 @@ author = "roninoss"
 homepage = "https://github.com/roninoss/create-expo-stack"
 readme = "https://raw.githubusercontent.com/roninoss/create-expo-stack/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

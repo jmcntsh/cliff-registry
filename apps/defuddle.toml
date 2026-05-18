@@ -4,6 +4,7 @@ author = "kepano"
 homepage = "https://github.com/kepano/defuddle"
 readme = "https://raw.githubusercontent.com/kepano/defuddle/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

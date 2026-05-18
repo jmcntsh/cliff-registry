@@ -4,6 +4,7 @@ author = "modem-dev"
 homepage = "https://github.com/modem-dev/hunk"
 readme = "https://raw.githubusercontent.com/modem-dev/hunk/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

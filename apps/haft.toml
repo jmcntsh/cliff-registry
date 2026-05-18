@@ -4,6 +4,7 @@ author = "m0n0x41d"
 homepage = "https://github.com/m0n0x41d/haft"
 readme = "https://raw.githubusercontent.com/m0n0x41d/haft/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "OTHER"
 
 [[installs]]

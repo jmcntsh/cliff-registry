@@ -4,6 +4,7 @@ author = "harelba"
 homepage = "https://github.com/harelba/q"
 readme = "https://raw.githubusercontent.com/harelba/q/master/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "GPL-3.0"
 
 [[installs]]

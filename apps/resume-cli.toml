@@ -4,6 +4,7 @@ author = "jsonresume"
 homepage = "https://github.com/jsonresume/resume-cli"
 readme = "https://raw.githubusercontent.com/jsonresume/resume-cli/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

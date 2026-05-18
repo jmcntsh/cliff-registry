@@ -4,6 +4,7 @@ author = "sindresorhus"
 homepage = "https://github.com/sindresorhus/fkill-cli"
 readme = "https://raw.githubusercontent.com/sindresorhus/fkill-cli/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

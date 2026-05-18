@@ -4,6 +4,7 @@ author = "sheepla"
 homepage = "https://github.com/sheepla/pingu"
 readme = "https://raw.githubusercontent.com/sheepla/pingu/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

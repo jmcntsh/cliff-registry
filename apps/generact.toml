@@ -4,6 +4,7 @@ author = "diegohaz"
 homepage = "https://github.com/diegohaz/generact"
 readme = "https://raw.githubusercontent.com/diegohaz/generact/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

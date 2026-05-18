@@ -4,6 +4,7 @@ author = "Esubaalew"
 homepage = "https://github.com/Esubaalew/run"
 readme = "https://raw.githubusercontent.com/Esubaalew/run/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

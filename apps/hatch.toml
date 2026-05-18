@@ -4,6 +4,7 @@ author = "pypa"
 homepage = "https://github.com/pypa/hatch"
 readme = "https://raw.githubusercontent.com/pypa/hatch/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

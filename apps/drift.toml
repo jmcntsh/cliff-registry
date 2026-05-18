@@ -4,6 +4,7 @@ author = "phlx0"
 homepage = "https://github.com/phlx0/drift"
 readme = "https://raw.githubusercontent.com/phlx0/drift/main/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [install]

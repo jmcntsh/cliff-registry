@@ -4,6 +4,7 @@ author = "lance0"
 homepage = "https://github.com/lance0/xfr"
 readme = "https://raw.githubusercontent.com/lance0/xfr/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "APACHE-2.0"
 
 [install]

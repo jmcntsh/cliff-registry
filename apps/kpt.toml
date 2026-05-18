@@ -4,6 +4,7 @@ author = "kptdev"
 homepage = "https://github.com/kptdev/kpt"
 readme = "https://raw.githubusercontent.com/kptdev/kpt/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

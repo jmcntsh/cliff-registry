@@ -4,6 +4,7 @@ author = "iwe-org"
 homepage = "https://github.com/iwe-org/iwe"
 readme = "https://raw.githubusercontent.com/iwe-org/iwe/master/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

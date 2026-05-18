@@ -4,6 +4,7 @@ author = "mexirica"
 homepage = "https://github.com/mexirica/aptui"
 readme = "https://raw.githubusercontent.com/mexirica/aptui/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [install]

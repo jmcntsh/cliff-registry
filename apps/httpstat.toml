@@ -4,6 +4,7 @@ author = "reorx"
 homepage = "https://github.com/reorx/httpstat"
 readme = "https://raw.githubusercontent.com/reorx/httpstat/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

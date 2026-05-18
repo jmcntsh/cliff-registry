@@ -4,6 +4,7 @@ author = "WeiChiaChang"
 homepage = "https://github.com/WeiChiaChang/stacks-cli"
 readme = "https://raw.githubusercontent.com/WeiChiaChang/stacks-cli/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

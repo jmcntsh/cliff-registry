@@ -4,6 +4,7 @@ author = "rest-sh"
 homepage = "https://github.com/rest-sh/restish"
 readme = "https://raw.githubusercontent.com/rest-sh/restish/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

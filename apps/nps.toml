@@ -4,6 +4,7 @@ author = "sezna"
 homepage = "https://github.com/sezna/nps"
 readme = "https://raw.githubusercontent.com/sezna/nps/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

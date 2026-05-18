@@ -4,6 +4,7 @@ author = "mangiucugna"
 homepage = "https://github.com/mangiucugna/json_repair"
 readme = "https://raw.githubusercontent.com/mangiucugna/json_repair/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sheeki03"
 homepage = "https://github.com/sheeki03/tirith"
 readme = "https://raw.githubusercontent.com/sheeki03/tirith/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "AGPL-3.0"
 
 [[installs]]

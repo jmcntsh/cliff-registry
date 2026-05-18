@@ -4,6 +4,7 @@ author = "gnebbia"
 homepage = "https://github.com/gnebbia/kb"
 readme = "https://raw.githubusercontent.com/gnebbia/kb/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

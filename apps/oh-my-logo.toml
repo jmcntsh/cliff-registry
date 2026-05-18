@@ -4,6 +4,7 @@ author = "shinshin86"
 homepage = "https://github.com/shinshin86/oh-my-logo"
 readme = "https://raw.githubusercontent.com/shinshin86/oh-my-logo/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "OTHER"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sindresorhus"
 homepage = "https://github.com/sindresorhus/np"
 readme = "https://raw.githubusercontent.com/sindresorhus/np/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "openclaw"
 homepage = "https://github.com/openclaw/mcporter"
 readme = "https://raw.githubusercontent.com/openclaw/mcporter/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

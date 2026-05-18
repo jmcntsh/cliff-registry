@@ -4,6 +4,7 @@ author = "davrodpin"
 homepage = "https://github.com/davrodpin/mole"
 readme = "https://raw.githubusercontent.com/davrodpin/mole/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

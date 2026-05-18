@@ -4,6 +4,7 @@ author = "mike-engel"
 homepage = "https://github.com/mike-engel/jwt-cli"
 readme = "https://raw.githubusercontent.com/mike-engel/jwt-cli/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "MIT"
 
 [[installs]]

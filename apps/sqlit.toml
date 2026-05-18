@@ -4,6 +4,7 @@ author = "Maxteabag"
 homepage = "https://github.com/Maxteabag/sqlit"
 readme = "https://raw.githubusercontent.com/Maxteabag/sqlit/main/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "MIT"
 
 [install]

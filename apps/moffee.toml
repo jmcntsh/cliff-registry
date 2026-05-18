@@ -4,6 +4,7 @@ author = "wbopan"
 homepage = "https://github.com/wbopan/moffee"
 readme = "https://raw.githubusercontent.com/wbopan/moffee/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "lance0"
 homepage = "https://github.com/lance0/ttl"
 readme = "https://raw.githubusercontent.com/lance0/ttl/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [install]

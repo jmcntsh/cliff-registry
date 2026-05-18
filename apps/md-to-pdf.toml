@@ -4,6 +4,7 @@ author = "simonhaenisch"
 homepage = "https://github.com/simonhaenisch/md-to-pdf"
 readme = "https://raw.githubusercontent.com/simonhaenisch/md-to-pdf/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

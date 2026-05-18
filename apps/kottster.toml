@@ -4,6 +4,7 @@ author = "kottster"
 homepage = "https://github.com/kottster/kottster"
 readme = "https://raw.githubusercontent.com/kottster/kottster/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [[installs]]

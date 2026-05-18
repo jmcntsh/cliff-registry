@@ -4,6 +4,7 @@ author = "ruyadorno"
 homepage = "https://github.com/ruyadorno/ipt"
 readme = "https://raw.githubusercontent.com/ruyadorno/ipt/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "wtfutil"
 homepage = "https://github.com/wtfutil/wtf"
 readme = "https://raw.githubusercontent.com/wtfutil/wtf/trunk/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MPL-2.0"
 
 [[installs]]

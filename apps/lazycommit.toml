@@ -4,6 +4,7 @@ author = "KartikLabhshetwar"
 homepage = "https://github.com/KartikLabhshetwar/lazycommit"
 readme = "https://raw.githubusercontent.com/KartikLabhshetwar/lazycommit/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "APACHE-2.0"
 
 [install]

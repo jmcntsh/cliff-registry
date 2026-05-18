@@ -4,6 +4,7 @@ author = "cloudflare"
 homepage = "https://github.com/cloudflare/workers-sdk"
 readme = "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

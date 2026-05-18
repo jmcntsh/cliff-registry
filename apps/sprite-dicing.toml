@@ -4,6 +4,7 @@ author = "elringus"
 homepage = "https://github.com/elringus/sprite-dicing"
 readme = "https://raw.githubusercontent.com/elringus/sprite-dicing/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "MIT"
 
 [[installs]]

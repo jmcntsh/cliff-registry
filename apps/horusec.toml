@@ -4,6 +4,7 @@ author = "ZupIT"
 homepage = "https://github.com/ZupIT/horusec"
 readme = "https://raw.githubusercontent.com/ZupIT/horusec/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "APACHE-2.0"
 
 [[installs]]

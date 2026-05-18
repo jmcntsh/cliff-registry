@@ -4,6 +4,7 @@ author = "ekzhang"
 homepage = "https://github.com/ekzhang/bore"
 readme = "https://raw.githubusercontent.com/ekzhang/bore/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

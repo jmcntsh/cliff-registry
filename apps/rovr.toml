@@ -4,6 +4,7 @@ author = "NSPC911"
 homepage = "https://github.com/NSPC911/rovr"
 readme = "https://raw.githubusercontent.com/NSPC911/rovr/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

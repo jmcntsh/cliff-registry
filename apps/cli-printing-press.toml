@@ -4,6 +4,7 @@ author = "mvanhorn"
 homepage = "https://github.com/mvanhorn/cli-printing-press"
 readme = "https://raw.githubusercontent.com/mvanhorn/cli-printing-press/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "MIT"
 
 [[installs]]

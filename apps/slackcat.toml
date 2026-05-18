@@ -4,6 +4,7 @@ author = "bcicen"
 homepage = "https://github.com/bcicen/slackcat"
 readme = "https://raw.githubusercontent.com/bcicen/slackcat/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

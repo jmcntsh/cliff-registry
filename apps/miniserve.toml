@@ -4,6 +4,7 @@ author = "svenstaro"
 homepage = "https://github.com/svenstaro/miniserve"
 readme = "https://raw.githubusercontent.com/svenstaro/miniserve/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "psanford"
 homepage = "https://github.com/psanford/wormhole-william"
 readme = "https://raw.githubusercontent.com/psanford/wormhole-william/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

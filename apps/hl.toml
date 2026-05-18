@@ -4,6 +4,7 @@ author = "pamburus"
 homepage = "https://github.com/pamburus/hl"
 readme = "https://raw.githubusercontent.com/pamburus/hl/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

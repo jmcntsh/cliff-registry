@@ -4,6 +4,7 @@ author = "sachaos"
 homepage = "https://github.com/sachaos/todoist"
 readme = "https://raw.githubusercontent.com/sachaos/todoist/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

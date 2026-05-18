@@ -4,6 +4,7 @@ author = "Annihil"
 homepage = "https://github.com/Annihil/github-spray"
 readme = "https://raw.githubusercontent.com/Annihil/github-spray/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

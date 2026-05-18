@@ -4,6 +4,7 @@ author = "jazzband"
 homepage = "https://github.com/jazzband/Watson"
 readme = "https://raw.githubusercontent.com/jazzband/Watson/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

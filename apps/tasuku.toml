@@ -4,6 +4,7 @@ author = "privatenumber"
 homepage = "https://github.com/privatenumber/tasuku"
 readme = "https://raw.githubusercontent.com/privatenumber/tasuku/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

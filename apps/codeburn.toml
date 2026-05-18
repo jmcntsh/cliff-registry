@@ -4,6 +4,7 @@ author = "getagentseal"
 homepage = "https://github.com/getagentseal/codeburn"
 readme = "https://raw.githubusercontent.com/getagentseal/codeburn/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

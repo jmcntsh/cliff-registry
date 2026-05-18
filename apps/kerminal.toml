@@ -4,6 +4,7 @@ author = "klpod221"
 homepage = "https://github.com/klpod221/kerminal"
 readme = "https://raw.githubusercontent.com/klpod221/kerminal/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [install]

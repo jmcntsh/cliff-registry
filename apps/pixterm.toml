@@ -4,6 +4,7 @@ author = "eliukblau"
 homepage = "https://github.com/eliukblau/pixterm"
 readme = "https://raw.githubusercontent.com/eliukblau/pixterm/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MPL-2.0"
 
 [[installs]]

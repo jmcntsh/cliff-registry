@@ -4,6 +4,7 @@ author = "abhixdd"
 homepage = "https://github.com/abhixdd/ghgrab"
 readme = "https://raw.githubusercontent.com/abhixdd/ghgrab/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [install]

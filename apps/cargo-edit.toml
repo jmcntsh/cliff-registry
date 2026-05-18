@@ -4,6 +4,7 @@ author = "killercup"
 homepage = "https://github.com/killercup/cargo-edit"
 readme = "https://raw.githubusercontent.com/killercup/cargo-edit/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "steipete"
 homepage = "https://github.com/steipete/wacli"
 readme = "https://raw.githubusercontent.com/steipete/wacli/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "OTHER"
 
 [install]

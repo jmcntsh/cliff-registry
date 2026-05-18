@@ -4,6 +4,7 @@ author = "saulpw"
 homepage = "https://github.com/saulpw/visidata"
 readme = "https://raw.githubusercontent.com/saulpw/visidata/develop/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

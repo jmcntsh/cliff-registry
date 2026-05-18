@@ -4,6 +4,7 @@ author = "ihabunek"
 homepage = "https://github.com/ihabunek/twitch-dl"
 readme = "https://raw.githubusercontent.com/ihabunek/twitch-dl/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "GPL-3.0"
 
 [[installs]]

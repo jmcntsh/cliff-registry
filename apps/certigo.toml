@@ -4,6 +4,7 @@ author = "square"
 homepage = "https://github.com/square/certigo"
 readme = "https://raw.githubusercontent.com/square/certigo/master/README.md"
 tags = ["cli"]
+category = "Security"
 license = "APACHE-2.0"
 
 [[installs]]

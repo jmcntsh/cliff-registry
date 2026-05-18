@@ -4,6 +4,7 @@ author = "Toblerity"
 homepage = "https://github.com/Toblerity/Fiona"
 readme = "https://raw.githubusercontent.com/Toblerity/Fiona/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "BSD-3-CLAUSE"
 
 [[installs]]

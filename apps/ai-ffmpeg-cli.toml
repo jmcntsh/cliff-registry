@@ -4,6 +4,7 @@ author = "d-k-patel"
 homepage = "https://github.com/d-k-patel/ai-ffmpeg-cli"
 readme = "https://raw.githubusercontent.com/d-k-patel/ai-ffmpeg-cli/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [install]

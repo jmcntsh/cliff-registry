@@ -4,6 +4,7 @@ author = "bcicen"
 homepage = "https://github.com/bcicen/grmon"
 readme = "https://raw.githubusercontent.com/bcicen/grmon/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

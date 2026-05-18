@@ -4,6 +4,7 @@ author = "nakabonne"
 homepage = "https://github.com/nakabonne/pbgopy"
 readme = "https://raw.githubusercontent.com/nakabonne/pbgopy/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

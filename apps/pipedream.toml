@@ -4,6 +4,7 @@ author = "PipedreamHQ"
 homepage = "https://github.com/PipedreamHQ/pipedream"
 readme = "https://raw.githubusercontent.com/PipedreamHQ/pipedream/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [[installs]]

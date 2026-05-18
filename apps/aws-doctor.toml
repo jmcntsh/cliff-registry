@@ -4,6 +4,7 @@ author = "elC0mpa"
 homepage = "https://github.com/elC0mpa/aws-doctor"
 readme = "https://raw.githubusercontent.com/elC0mpa/aws-doctor/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "MIT"
 
 [install]

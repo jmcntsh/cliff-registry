@@ -4,6 +4,7 @@ author = "darrenburns"
 homepage = "https://github.com/darrenburns/dunk"
 readme = "https://raw.githubusercontent.com/darrenburns/dunk/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

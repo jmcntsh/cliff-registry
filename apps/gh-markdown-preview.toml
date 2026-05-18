@@ -4,6 +4,7 @@ author = "yusukebe"
 homepage = "https://github.com/yusukebe/gh-markdown-preview"
 readme = "https://raw.githubusercontent.com/yusukebe/gh-markdown-preview/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "pimalaya"
 homepage = "https://github.com/pimalaya/himalaya"
 readme = "https://raw.githubusercontent.com/pimalaya/himalaya/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

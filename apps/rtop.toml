@@ -4,6 +4,7 @@ author = "rapidloop"
 homepage = "https://github.com/rapidloop/rtop"
 readme = "https://raw.githubusercontent.com/rapidloop/rtop/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "OTHER"
 
 [[installs]]

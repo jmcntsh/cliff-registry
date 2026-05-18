@@ -4,6 +4,7 @@ author = "numtide"
 homepage = "https://github.com/numtide/treefmt"
 readme = "https://raw.githubusercontent.com/numtide/treefmt/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

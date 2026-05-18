@@ -4,6 +4,7 @@ author = "carapace-sh"
 homepage = "https://github.com/carapace-sh/carapace-bin"
 readme = "https://raw.githubusercontent.com/carapace-sh/carapace-bin/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "aksakalli"
 homepage = "https://github.com/aksakalli/gtop"
 readme = "https://raw.githubusercontent.com/aksakalli/gtop/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "bfontaine"
 homepage = "https://github.com/bfontaine/term2048"
 readme = "https://raw.githubusercontent.com/bfontaine/term2048/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

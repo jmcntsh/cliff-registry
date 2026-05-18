@@ -4,6 +4,7 @@ author = "gxr404"
 homepage = "https://github.com/gxr404/yuque-dl"
 readme = "https://raw.githubusercontent.com/gxr404/yuque-dl/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 
 [[installs]]
 type = "npm"

@@ -4,6 +4,7 @@ author = "c0m4r"
 homepage = "https://github.com/c0m4r/kula"
 readme = "https://raw.githubusercontent.com/c0m4r/kula/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "AGPL-3.0"
 
 [install]

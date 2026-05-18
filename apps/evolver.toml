@@ -4,6 +4,7 @@ author = "EvoMap"
 homepage = "https://github.com/EvoMap/evolver"
 readme = "https://raw.githubusercontent.com/EvoMap/evolver/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "GPL-3.0"
 
 [[installs]]

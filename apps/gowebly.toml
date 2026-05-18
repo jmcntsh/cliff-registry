@@ -4,6 +4,7 @@ author = "gowebly"
 homepage = "https://github.com/gowebly/gowebly"
 readme = "https://raw.githubusercontent.com/gowebly/gowebly/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "APACHE-2.0"
 
 [[installs]]

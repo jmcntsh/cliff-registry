@@ -4,6 +4,7 @@ author = "sachaos"
 homepage = "https://github.com/sachaos/viddy"
 readme = "https://raw.githubusercontent.com/sachaos/viddy/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

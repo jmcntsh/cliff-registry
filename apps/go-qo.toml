@@ -4,6 +4,7 @@ author = "kiki-ki"
 homepage = "https://github.com/kiki-ki/go-qo"
 readme = "https://raw.githubusercontent.com/kiki-ki/go-qo/main/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "MIT"
 
 [install]

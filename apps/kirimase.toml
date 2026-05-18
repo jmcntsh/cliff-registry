@@ -4,6 +4,7 @@ author = "vercel"
 homepage = "https://github.com/vercel/kirimase"
 readme = "https://raw.githubusercontent.com/vercel/kirimase/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

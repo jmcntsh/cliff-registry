@@ -4,6 +4,7 @@ author = "google"
 homepage = "https://github.com/google/clasp"
 readme = "https://raw.githubusercontent.com/google/clasp/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

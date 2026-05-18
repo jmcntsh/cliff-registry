@@ -4,6 +4,7 @@ author = "rogerwelin"
 homepage = "https://github.com/rogerwelin/cassowary"
 readme = "https://raw.githubusercontent.com/rogerwelin/cassowary/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "lebinh"
 homepage = "https://github.com/lebinh/ngxtop"
 readme = "https://raw.githubusercontent.com/lebinh/ngxtop/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

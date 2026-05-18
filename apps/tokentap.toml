@@ -4,6 +4,7 @@ author = "jmuncor"
 homepage = "https://github.com/jmuncor/tokentap"
 readme = "https://raw.githubusercontent.com/jmuncor/tokentap/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "emanuele-em"
 homepage = "https://github.com/emanuele-em/proxelar"
 readme = "https://raw.githubusercontent.com/emanuele-em/proxelar/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "pls-rs"
 homepage = "https://github.com/pls-rs/pls"
 readme = "https://raw.githubusercontent.com/pls-rs/pls/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "GPL-3.0"
 
 [[installs]]

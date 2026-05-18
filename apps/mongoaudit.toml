@@ -4,6 +4,7 @@ author = "stampery"
 homepage = "https://github.com/stampery/mongoaudit"
 readme = "https://raw.githubusercontent.com/stampery/mongoaudit/master/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "MIT"
 
 [[installs]]

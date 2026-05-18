@@ -4,6 +4,7 @@ author = "showwin"
 homepage = "https://github.com/showwin/speedtest-go"
 readme = "https://raw.githubusercontent.com/showwin/speedtest-go/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "freedmand"
 homepage = "https://github.com/freedmand/semantra"
 readme = "https://raw.githubusercontent.com/freedmand/semantra/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

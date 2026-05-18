@@ -4,6 +4,7 @@ author = "zu1k"
 homepage = "https://github.com/zu1k/nali"
 readme = "https://raw.githubusercontent.com/zu1k/nali/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

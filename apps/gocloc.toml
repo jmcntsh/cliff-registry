@@ -4,6 +4,7 @@ author = "hhatto"
 homepage = "https://github.com/hhatto/gocloc"
 readme = "https://raw.githubusercontent.com/hhatto/gocloc/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

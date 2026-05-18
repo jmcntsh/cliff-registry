@@ -4,6 +4,7 @@ author = "AstraeLabs"
 homepage = "https://github.com/AstraeLabs/VibraVid"
 readme = "https://raw.githubusercontent.com/AstraeLabs/VibraVid/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "GPL-3.0"
 
 [[installs]]

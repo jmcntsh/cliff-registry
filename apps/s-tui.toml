@@ -4,6 +4,7 @@ author = "amanusk"
 homepage = "https://github.com/amanusk/s-tui"
 readme = "https://raw.githubusercontent.com/amanusk/s-tui/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "GPL-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sigoden"
 homepage = "https://github.com/sigoden/aichat"
 readme = "https://raw.githubusercontent.com/sigoden/aichat/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

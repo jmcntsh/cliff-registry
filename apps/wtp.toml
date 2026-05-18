@@ -4,6 +4,7 @@ author = "satococoa"
 homepage = "https://github.com/satococoa/wtp"
 readme = "https://raw.githubusercontent.com/satococoa/wtp/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [install]

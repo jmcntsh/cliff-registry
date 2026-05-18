@@ -4,6 +4,7 @@ author = "xullexer"
 homepage = "https://github.com/xullexer/PYDNS-Scanner"
 readme = "https://raw.githubusercontent.com/xullexer/PYDNS-Scanner/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "MIT"
 
 [install]

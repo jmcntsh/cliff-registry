@@ -4,6 +4,7 @@ author = "lucagrulla"
 homepage = "https://github.com/lucagrulla/cw"
 readme = "https://raw.githubusercontent.com/lucagrulla/cw/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

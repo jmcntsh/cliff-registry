@@ -4,6 +4,7 @@ author = "Achno"
 homepage = "https://github.com/Achno/gowall"
 readme = "https://raw.githubusercontent.com/Achno/gowall/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

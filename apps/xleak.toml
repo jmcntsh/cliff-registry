@@ -4,6 +4,7 @@ author = "bgreenwell"
 homepage = "https://github.com/bgreenwell/xleak"
 readme = "https://raw.githubusercontent.com/bgreenwell/xleak/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

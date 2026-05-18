@@ -4,6 +4,7 @@ author = "azat-io"
 homepage = "https://github.com/azat-io/actions-up"
 readme = "https://raw.githubusercontent.com/azat-io/actions-up/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [install]

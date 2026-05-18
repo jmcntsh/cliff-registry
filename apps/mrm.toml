@@ -4,6 +4,7 @@ author = "sapegin"
 homepage = "https://github.com/sapegin/mrm"
 readme = "https://raw.githubusercontent.com/sapegin/mrm/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

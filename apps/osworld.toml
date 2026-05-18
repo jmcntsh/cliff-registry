@@ -4,6 +4,7 @@ author = "xlang-ai"
 homepage = "https://github.com/xlang-ai/OSWorld"
 readme = "https://raw.githubusercontent.com/xlang-ai/OSWorld/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [[installs]]

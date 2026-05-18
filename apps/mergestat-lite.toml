@@ -4,6 +4,7 @@ author = "mergestat"
 homepage = "https://github.com/mergestat/mergestat-lite"
 readme = "https://raw.githubusercontent.com/mergestat/mergestat-lite/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

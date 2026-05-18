@@ -4,6 +4,7 @@ author = "carloscuesta"
 homepage = "https://github.com/carloscuesta/gitmoji-cli"
 readme = "https://raw.githubusercontent.com/carloscuesta/gitmoji-cli/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

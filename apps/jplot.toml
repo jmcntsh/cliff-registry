@@ -4,6 +4,7 @@ author = "rs"
 homepage = "https://github.com/rs/jplot"
 readme = "https://raw.githubusercontent.com/rs/jplot/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "WordOps"
 homepage = "https://github.com/WordOps/WordOps"
 readme = "https://raw.githubusercontent.com/WordOps/WordOps/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

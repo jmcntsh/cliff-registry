@@ -4,6 +4,7 @@ author = "gobackup"
 homepage = "https://github.com/gobackup/gobackup"
 readme = "https://raw.githubusercontent.com/gobackup/gobackup/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

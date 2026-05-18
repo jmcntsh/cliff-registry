@@ -4,6 +4,7 @@ author = "vladkens"
 homepage = "https://github.com/vladkens/macmon"
 readme = "https://raw.githubusercontent.com/vladkens/macmon/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

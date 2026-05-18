@@ -4,6 +4,7 @@ author = "yigitkonur"
 homepage = "https://github.com/yigitkonur/cli-continues"
 readme = "https://raw.githubusercontent.com/yigitkonur/cli-continues/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

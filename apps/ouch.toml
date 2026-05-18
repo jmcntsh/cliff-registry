@@ -4,6 +4,7 @@ author = "ouch-org"
 homepage = "https://github.com/ouch-org/ouch"
 readme = "https://raw.githubusercontent.com/ouch-org/ouch/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [[installs]]

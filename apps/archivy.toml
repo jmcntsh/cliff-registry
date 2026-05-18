@@ -4,6 +4,7 @@ author = "archivy"
 homepage = "https://github.com/archivy/archivy"
 readme = "https://raw.githubusercontent.com/archivy/archivy/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

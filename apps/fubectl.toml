@@ -4,6 +4,7 @@ author = "kubermatic"
 homepage = "https://github.com/kubermatic/fubectl"
 readme = "https://raw.githubusercontent.com/kubermatic/fubectl/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

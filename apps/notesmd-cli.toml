@@ -4,6 +4,7 @@ author = "Yakitrak"
 homepage = "https://github.com/Yakitrak/notesmd-cli"
 readme = "https://raw.githubusercontent.com/Yakitrak/notesmd-cli/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

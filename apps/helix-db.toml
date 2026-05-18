@@ -4,6 +4,7 @@ author = "HelixDB"
 homepage = "https://github.com/HelixDB/helix-db"
 readme = "https://raw.githubusercontent.com/HelixDB/helix-db/main/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "AGPL-3.0"
 
 [[installs]]

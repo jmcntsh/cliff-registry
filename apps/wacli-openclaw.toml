@@ -4,6 +4,7 @@ author = "openclaw"
 homepage = "https://github.com/openclaw/wacli"
 readme = "https://raw.githubusercontent.com/openclaw/wacli/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

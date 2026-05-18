@@ -4,6 +4,7 @@ author = "callstack"
 homepage = "https://github.com/callstack/haul"
 readme = "https://raw.githubusercontent.com/callstack/haul/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

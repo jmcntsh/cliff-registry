@@ -4,6 +4,7 @@ author = "alajmo"
 homepage = "https://github.com/alajmo/sake"
 readme = "https://raw.githubusercontent.com/alajmo/sake/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

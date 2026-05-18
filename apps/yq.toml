@@ -4,6 +4,7 @@ author = "kislyuk"
 homepage = "https://github.com/kislyuk/yq"
 readme = "https://raw.githubusercontent.com/kislyuk/yq/main/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "APACHE-2.0"
 
 [[installs]]

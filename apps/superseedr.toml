@@ -4,6 +4,7 @@ author = "Jagalite"
 homepage = "https://github.com/Jagalite/superseedr"
 readme = "https://raw.githubusercontent.com/Jagalite/superseedr/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [install]

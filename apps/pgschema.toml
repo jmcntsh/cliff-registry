@@ -4,6 +4,7 @@ author = "pgplex"
 homepage = "https://github.com/pgplex/pgschema"
 readme = "https://raw.githubusercontent.com/pgplex/pgschema/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [install]

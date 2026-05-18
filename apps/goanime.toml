@@ -4,6 +4,7 @@ author = "alvarorichard"
 homepage = "https://github.com/alvarorichard/GoAnime"
 readme = "https://raw.githubusercontent.com/alvarorichard/GoAnime/main/README.md"
 tags = ["tui"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

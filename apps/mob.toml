@@ -4,6 +4,7 @@ author = "remotemobprogramming"
 homepage = "https://github.com/remotemobprogramming/mob"
 readme = "https://raw.githubusercontent.com/remotemobprogramming/mob/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

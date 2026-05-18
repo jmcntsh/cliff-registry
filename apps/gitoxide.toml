@@ -4,6 +4,7 @@ author = "GitoxideLabs"
 homepage = "https://github.com/GitoxideLabs/gitoxide"
 readme = "https://raw.githubusercontent.com/GitoxideLabs/gitoxide/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "APACHE-2.0"
 
 [[installs]]

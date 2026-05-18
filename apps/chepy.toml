@@ -4,6 +4,7 @@ author = "securisec"
 homepage = "https://github.com/securisec/chepy"
 readme = "https://raw.githubusercontent.com/securisec/chepy/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "GPL-3.0"
 
 [[installs]]

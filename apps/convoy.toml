@@ -4,6 +4,7 @@ author = "frain-dev"
 homepage = "https://github.com/frain-dev/convoy"
 readme = "https://raw.githubusercontent.com/frain-dev/convoy/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "OTHER"
 
 [[installs]]

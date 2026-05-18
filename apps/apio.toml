@@ -4,6 +4,7 @@ author = "FPGAwars"
 homepage = "https://github.com/FPGAwars/apio"
 readme = "https://raw.githubusercontent.com/FPGAwars/apio/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "GPL-3.0"
 
 [[installs]]

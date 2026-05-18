@@ -4,6 +4,7 @@ author = "darylhjd"
 homepage = "https://github.com/darylhjd/mangadesk"
 readme = "https://raw.githubusercontent.com/darylhjd/mangadesk/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

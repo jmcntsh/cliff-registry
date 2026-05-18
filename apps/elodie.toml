@@ -4,6 +4,7 @@ author = "jmathai"
 homepage = "https://github.com/jmathai/elodie"
 readme = "https://raw.githubusercontent.com/jmathai/elodie/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [[installs]]

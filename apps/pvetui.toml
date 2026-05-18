@@ -4,6 +4,7 @@ author = "devnullvoid"
 homepage = "https://github.com/devnullvoid/pvetui"
 readme = "https://raw.githubusercontent.com/devnullvoid/pvetui/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

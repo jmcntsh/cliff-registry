@@ -4,6 +4,7 @@ author = "blacklanternsecurity"
 homepage = "https://github.com/blacklanternsecurity/bbot"
 readme = "https://raw.githubusercontent.com/blacklanternsecurity/bbot/stable/README.md"
 tags = ["cli"]
+category = "Security"
 license = "AGPL-3.0"
 
 [[installs]]

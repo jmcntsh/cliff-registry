@@ -4,6 +4,7 @@ author = "nanobox-io"
 homepage = "https://github.com/nanobox-io/nanobox"
 readme = "https://raw.githubusercontent.com/nanobox-io/nanobox/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

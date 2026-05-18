@@ -4,6 +4,7 @@ author = "oh-my-mermaid"
 homepage = "https://github.com/oh-my-mermaid/oh-my-mermaid"
 readme = "https://raw.githubusercontent.com/oh-my-mermaid/oh-my-mermaid/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

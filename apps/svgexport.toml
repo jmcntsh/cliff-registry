@@ -4,6 +4,7 @@ author = "piqnt"
 homepage = "https://github.com/piqnt/svgexport"
 readme = "https://raw.githubusercontent.com/piqnt/svgexport/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 
 [[installs]]
 type = "npm"

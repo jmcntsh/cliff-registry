@@ -4,6 +4,7 @@ author = "hartwork"
 homepage = "https://github.com/hartwork/git-delete-merged-branches"
 readme = "https://raw.githubusercontent.com/hartwork/git-delete-merged-branches/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "GPL-3.0"
 
 [[installs]]

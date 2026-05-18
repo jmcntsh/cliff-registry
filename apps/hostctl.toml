@@ -4,6 +4,7 @@ author = "guumaster"
 homepage = "https://github.com/guumaster/hostctl"
 readme = "https://raw.githubusercontent.com/guumaster/hostctl/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

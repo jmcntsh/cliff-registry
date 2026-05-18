@@ -4,6 +4,7 @@ author = "samtay"
 homepage = "https://github.com/samtay/so"
 readme = "https://raw.githubusercontent.com/samtay/so/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

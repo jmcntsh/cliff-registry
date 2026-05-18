@@ -4,6 +4,7 @@ author = "antfu-collective"
 homepage = "https://github.com/antfu-collective/ni"
 readme = "https://raw.githubusercontent.com/antfu-collective/ni/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

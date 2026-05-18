@@ -4,6 +4,7 @@ author = "jxnblk"
 homepage = "https://github.com/jxnblk/ok-mdx"
 readme = "https://raw.githubusercontent.com/jxnblk/ok-mdx/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 
 [[installs]]
 type = "npm"

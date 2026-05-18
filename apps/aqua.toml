@@ -4,6 +4,7 @@ author = "aquaproj"
 homepage = "https://github.com/aquaproj/aqua"
 readme = "https://raw.githubusercontent.com/aquaproj/aqua/main/README.md"
 tags = ["cli"]
+category = "Networking"
 
 [[installs]]
 type = "go"

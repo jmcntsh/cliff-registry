@@ -4,6 +4,7 @@ author = "AmanVarshney01"
 homepage = "https://github.com/AmanVarshney01/create-better-t-stack"
 readme = "https://raw.githubusercontent.com/AmanVarshney01/create-better-t-stack/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

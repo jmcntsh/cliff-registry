@@ -4,6 +4,7 @@ author = "rohitg00"
 homepage = "https://github.com/rohitg00/skillkit"
 readme = "https://raw.githubusercontent.com/rohitg00/skillkit/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

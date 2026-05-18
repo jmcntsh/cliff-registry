@@ -4,6 +4,7 @@ author = "ktr0731"
 homepage = "https://github.com/ktr0731/evans"
 readme = "https://raw.githubusercontent.com/ktr0731/evans/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "aisk"
 homepage = "https://github.com/aisk/pick"
 readme = "https://raw.githubusercontent.com/aisk/pick/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "boyter"
 homepage = "https://github.com/boyter/cs"
 readme = "https://raw.githubusercontent.com/boyter/cs/master/README.md"
 tags = ["tui"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "campfirein"
 homepage = "https://github.com/campfirein/byterover-cli"
 readme = "https://raw.githubusercontent.com/campfirein/byterover-cli/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "OTHER"
 
 [[installs]]

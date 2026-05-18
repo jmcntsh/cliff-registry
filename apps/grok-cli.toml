@@ -4,6 +4,7 @@ author = "superagent-ai"
 homepage = "https://github.com/superagent-ai/grok-cli"
 readme = "https://raw.githubusercontent.com/superagent-ai/grok-cli/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

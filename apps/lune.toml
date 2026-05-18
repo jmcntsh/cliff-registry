@@ -4,6 +4,7 @@ author = "lune-org"
 homepage = "https://github.com/lune-org/lune"
 readme = "https://raw.githubusercontent.com/lune-org/lune/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MPL-2.0"
 
 [[installs]]

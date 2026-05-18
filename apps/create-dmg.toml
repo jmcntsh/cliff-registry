@@ -4,6 +4,7 @@ author = "sindresorhus"
 homepage = "https://github.com/sindresorhus/create-dmg"
 readme = "https://raw.githubusercontent.com/sindresorhus/create-dmg/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

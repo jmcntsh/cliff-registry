@@ -4,6 +4,7 @@ author = "mansuf"
 homepage = "https://github.com/mansuf/mangadex-downloader"
 readme = "https://raw.githubusercontent.com/mansuf/mangadex-downloader/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

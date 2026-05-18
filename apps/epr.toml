@@ -4,6 +4,7 @@ author = "wustho"
 homepage = "https://github.com/wustho/epr"
 readme = "https://raw.githubusercontent.com/wustho/epr/master/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

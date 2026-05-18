@@ -4,6 +4,7 @@ author = "kbwo"
 homepage = "https://github.com/kbwo/ccmanager"
 readme = "https://raw.githubusercontent.com/kbwo/ccmanager/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

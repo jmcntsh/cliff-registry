@@ -4,6 +4,7 @@ author = "irevenko"
 homepage = "https://github.com/irevenko/what-anime-cli"
 readme = "https://raw.githubusercontent.com/irevenko/what-anime-cli/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

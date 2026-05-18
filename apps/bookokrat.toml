@@ -4,6 +4,7 @@ author = "bugzmanov"
 homepage = "https://github.com/bugzmanov/bookokrat"
 readme = "https://raw.githubusercontent.com/bugzmanov/bookokrat/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "AGPL-3.0"
 
 [install]

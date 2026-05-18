@@ -4,6 +4,7 @@ author = "dutiyesh"
 homepage = "https://github.com/dutiyesh/chrome-extension-cli"
 readme = "https://raw.githubusercontent.com/dutiyesh/chrome-extension-cli/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

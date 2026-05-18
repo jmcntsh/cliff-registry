@@ -4,6 +4,7 @@ author = "carvel-dev"
 homepage = "https://github.com/carvel-dev/kapp"
 readme = "https://raw.githubusercontent.com/carvel-dev/kapp/develop/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

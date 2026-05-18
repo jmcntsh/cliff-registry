@@ -4,6 +4,7 @@ author = "six-ddc"
 homepage = "https://github.com/six-ddc/plow"
 readme = "https://raw.githubusercontent.com/six-ddc/plow/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "APACHE-2.0"
 
 [[installs]]

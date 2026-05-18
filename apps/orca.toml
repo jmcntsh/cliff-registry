@@ -4,6 +4,7 @@ author = "stablyai"
 homepage = "https://github.com/stablyai/orca"
 readme = "https://raw.githubusercontent.com/stablyai/orca/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

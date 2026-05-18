@@ -4,6 +4,7 @@ author = "mixn"
 homepage = "https://github.com/mixn/carbon-now-cli"
 readme = "https://raw.githubusercontent.com/mixn/carbon-now-cli/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

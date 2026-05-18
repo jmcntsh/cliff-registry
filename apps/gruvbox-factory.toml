@@ -4,6 +4,7 @@ author = "paulopacitti"
 homepage = "https://github.com/paulopacitti/gruvbox-factory"
 readme = "https://raw.githubusercontent.com/paulopacitti/gruvbox-factory/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

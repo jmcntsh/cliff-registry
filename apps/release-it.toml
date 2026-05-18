@@ -4,6 +4,7 @@ author = "release-it"
 homepage = "https://github.com/release-it/release-it"
 readme = "https://raw.githubusercontent.com/release-it/release-it/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

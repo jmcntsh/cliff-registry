@@ -4,6 +4,7 @@ author = "hanebox"
 homepage = "https://github.com/hanebox/ekphos"
 readme = "https://raw.githubusercontent.com/hanebox/ekphos/release/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

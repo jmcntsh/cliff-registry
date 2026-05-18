@@ -4,6 +4,7 @@ author = "hairyhenderson"
 homepage = "https://github.com/hairyhenderson/gomplate"
 readme = "https://raw.githubusercontent.com/hairyhenderson/gomplate/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

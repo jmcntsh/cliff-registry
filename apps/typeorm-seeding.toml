@@ -4,6 +4,7 @@ author = "w3tecch"
 homepage = "https://github.com/w3tecch/typeorm-seeding"
 readme = "https://raw.githubusercontent.com/w3tecch/typeorm-seeding/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

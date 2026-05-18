@@ -4,6 +4,7 @@ author = "ynqa"
 homepage = "https://github.com/ynqa/sig"
 readme = "https://raw.githubusercontent.com/ynqa/sig/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

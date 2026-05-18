@@ -4,6 +4,7 @@ author = "ekkinox"
 homepage = "https://github.com/ekkinox/yai"
 readme = "https://raw.githubusercontent.com/ekkinox/yai/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

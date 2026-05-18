@@ -4,6 +4,7 @@ author = "nklayman"
 homepage = "https://github.com/nklayman/vue-cli-plugin-electron-builder"
 readme = "https://raw.githubusercontent.com/nklayman/vue-cli-plugin-electron-builder/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

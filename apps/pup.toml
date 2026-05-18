@@ -4,6 +4,7 @@ author = "DataDog"
 homepage = "https://github.com/DataDog/pup"
 readme = "https://raw.githubusercontent.com/DataDog/pup/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

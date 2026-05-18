@@ -4,6 +4,7 @@ author = "suzuki-shunsuke"
 homepage = "https://github.com/suzuki-shunsuke/pinact"
 readme = "https://raw.githubusercontent.com/suzuki-shunsuke/pinact/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

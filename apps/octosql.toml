@@ -4,6 +4,7 @@ author = "cube2222"
 homepage = "https://github.com/cube2222/octosql"
 readme = "https://raw.githubusercontent.com/cube2222/octosql/main/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "MPL-2.0"
 
 [[installs]]

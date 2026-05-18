@@ -4,6 +4,7 @@ author = "ofek"
 homepage = "https://github.com/ofek/pyapp"
 readme = "https://raw.githubusercontent.com/ofek/pyapp/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 
 [[installs]]
 type = "cargo"

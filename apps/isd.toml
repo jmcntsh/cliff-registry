@@ -4,6 +4,7 @@ author = "kainctl"
 homepage = "https://github.com/kainctl/isd"
 readme = "https://raw.githubusercontent.com/kainctl/isd/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "OTHER"
 
 [[installs]]

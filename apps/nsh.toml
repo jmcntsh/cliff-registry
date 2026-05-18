@@ -4,6 +4,7 @@ author = "nuta"
 homepage = "https://github.com/nuta/nsh"
 readme = "https://raw.githubusercontent.com/nuta/nsh/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 
 [[installs]]
 type = "cargo"

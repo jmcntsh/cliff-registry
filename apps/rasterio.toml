@@ -4,6 +4,7 @@ author = "rasterio"
 homepage = "https://github.com/rasterio/rasterio"
 readme = "https://raw.githubusercontent.com/rasterio/rasterio/main/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "OTHER"
 
 [[installs]]

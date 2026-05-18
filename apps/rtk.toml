@@ -4,6 +4,7 @@ author = "rtk-ai"
 homepage = "https://github.com/rtk-ai/rtk"
 readme = "https://raw.githubusercontent.com/rtk-ai/rtk/master/README.md"
 tags = ["cli"]
+category = "Security"
 license = "APACHE-2.0"
 
 [install]

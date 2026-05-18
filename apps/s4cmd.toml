@@ -4,6 +4,7 @@ author = "bloomreach"
 homepage = "https://github.com/bloomreach/s4cmd"
 readme = "https://raw.githubusercontent.com/bloomreach/s4cmd/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

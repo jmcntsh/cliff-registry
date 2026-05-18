@@ -4,6 +4,7 @@ author = "kha7iq"
 homepage = "https://github.com/kha7iq/pingme"
 readme = "https://raw.githubusercontent.com/kha7iq/pingme/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sharkdp"
 homepage = "https://github.com/sharkdp/diskus"
 readme = "https://raw.githubusercontent.com/sharkdp/diskus/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "seachicken"
 homepage = "https://github.com/seachicken/gh-poi"
 readme = "https://raw.githubusercontent.com/seachicken/gh-poi/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

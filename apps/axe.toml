@@ -4,6 +4,7 @@ author = "jrswab"
 homepage = "https://github.com/jrswab/axe"
 readme = "https://raw.githubusercontent.com/jrswab/axe/master/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "Adembc"
 homepage = "https://github.com/Adembc/lazyssh"
 readme = "https://raw.githubusercontent.com/Adembc/lazyssh/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [install]

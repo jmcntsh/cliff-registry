@@ -4,6 +4,7 @@ author = "supabase"
 homepage = "https://github.com/supabase/cli"
 readme = "https://raw.githubusercontent.com/supabase/cli/develop/README.md"
 tags = ["cli"]
+category = "File management"
 
 [[installs]]
 type = "npm"

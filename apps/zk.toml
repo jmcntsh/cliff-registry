@@ -4,6 +4,7 @@ author = "zk-org"
 homepage = "https://github.com/zk-org/zk"
 readme = "https://raw.githubusercontent.com/zk-org/zk/dev/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "GPL-3.0"
 
 [[installs]]

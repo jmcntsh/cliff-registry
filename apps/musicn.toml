@@ -4,6 +4,7 @@ author = "zonemeen"
 homepage = "https://github.com/zonemeen/musicn"
 readme = "https://raw.githubusercontent.com/zonemeen/musicn/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

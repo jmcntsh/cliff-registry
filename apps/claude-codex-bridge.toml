@@ -4,6 +4,7 @@ author = "SeemSeam"
 homepage = "https://github.com/SeemSeam/claude_codex_bridge"
 readme = "https://raw.githubusercontent.com/SeemSeam/claude_codex_bridge/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "OTHER"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "kdheepak"
 homepage = "https://github.com/kdheepak/taskwarrior-tui"
 readme = "https://raw.githubusercontent.com/kdheepak/taskwarrior-tui/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

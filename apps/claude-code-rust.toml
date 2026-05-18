@@ -4,6 +4,7 @@ author = "lorryjovens-hub"
 homepage = "https://github.com/lorryjovens-hub/claude-code-rust"
 readme = "https://raw.githubusercontent.com/lorryjovens-hub/claude-code-rust/working/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

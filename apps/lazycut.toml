@@ -4,6 +4,7 @@ author = "ozemin"
 homepage = "https://github.com/ozemin/lazycut"
 readme = "https://raw.githubusercontent.com/ozemin/lazycut/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

@@ -4,6 +4,7 @@ author = "YaoApp"
 homepage = "https://github.com/YaoApp/yao"
 readme = "https://raw.githubusercontent.com/YaoApp/yao/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "OTHER"
 
 [[installs]]

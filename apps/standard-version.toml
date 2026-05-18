@@ -4,6 +4,7 @@ author = "conventional-changelog"
 homepage = "https://github.com/conventional-changelog/standard-version"
 readme = "https://raw.githubusercontent.com/conventional-changelog/standard-version/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "ISC"
 
 [[installs]]

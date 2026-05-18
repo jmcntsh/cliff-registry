@@ -4,6 +4,7 @@ author = "noborus"
 homepage = "https://github.com/noborus/trdsql"
 readme = "https://raw.githubusercontent.com/noborus/trdsql/master/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "MIT"
 
 [[installs]]

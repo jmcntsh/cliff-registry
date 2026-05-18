@@ -4,6 +4,7 @@ author = "cytostack"
 homepage = "https://github.com/cytostack/openwolf"
 readme = "https://raw.githubusercontent.com/cytostack/openwolf/main/README.md"
 tags = ["cli"]
+category = "Security"
 license = "AGPL-3.0"
 
 [[installs]]

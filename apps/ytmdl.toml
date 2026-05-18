@@ -4,6 +4,7 @@ author = "deepjyoti30"
 homepage = "https://github.com/deepjyoti30/ytmdl"
 readme = "https://raw.githubusercontent.com/deepjyoti30/ytmdl/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

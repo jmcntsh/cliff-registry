@@ -4,6 +4,7 @@ author = "whyisdifficult"
 homepage = "https://github.com/whyisdifficult/jiratui"
 readme = "https://raw.githubusercontent.com/whyisdifficult/jiratui/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

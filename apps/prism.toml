@@ -4,6 +4,7 @@ author = "stoplightio"
 homepage = "https://github.com/stoplightio/prism"
 readme = "https://raw.githubusercontent.com/stoplightio/prism/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "APACHE-2.0"
 
 [[installs]]

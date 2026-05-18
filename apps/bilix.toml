@@ -4,6 +4,7 @@ author = "HFrost0"
 homepage = "https://github.com/HFrost0/bilix"
 readme = "https://raw.githubusercontent.com/HFrost0/bilix/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "APACHE-2.0"
 
 [[installs]]

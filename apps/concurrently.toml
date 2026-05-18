@@ -4,6 +4,7 @@ author = "open-cli-tools"
 homepage = "https://github.com/open-cli-tools/concurrently"
 readme = "https://raw.githubusercontent.com/open-cli-tools/concurrently/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

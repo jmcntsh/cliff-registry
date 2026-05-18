@@ -4,6 +4,7 @@ author = "vi"
 homepage = "https://github.com/vi/websocat"
 readme = "https://raw.githubusercontent.com/vi/websocat/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

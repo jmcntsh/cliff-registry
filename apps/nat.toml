@@ -4,6 +4,7 @@ author = "willdoescode"
 homepage = "https://github.com/willdoescode/nat"
 readme = "https://raw.githubusercontent.com/willdoescode/nat/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

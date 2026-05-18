@@ -4,6 +4,7 @@ author = "mtkennerly"
 homepage = "https://github.com/mtkennerly/ludusavi"
 readme = "https://raw.githubusercontent.com/mtkennerly/ludusavi/master/README.md"
 tags = ["cli"]
+category = "Games"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "akavel"
 homepage = "https://github.com/akavel/up"
 readme = "https://raw.githubusercontent.com/akavel/up/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

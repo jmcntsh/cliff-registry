@@ -4,6 +4,7 @@ author = "chaqchase"
 homepage = "https://github.com/chaqchase/lla"
 readme = "https://raw.githubusercontent.com/chaqchase/lla/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

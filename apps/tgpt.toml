@@ -4,6 +4,7 @@ author = "aandrew-me"
 homepage = "https://github.com/aandrew-me/tgpt"
 readme = "https://raw.githubusercontent.com/aandrew-me/tgpt/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

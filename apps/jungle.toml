@@ -4,6 +4,7 @@ author = "achiku"
 homepage = "https://github.com/achiku/jungle"
 readme = "https://raw.githubusercontent.com/achiku/jungle/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

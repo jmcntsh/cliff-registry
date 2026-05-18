@@ -4,6 +4,7 @@ author = "zZedix"
 homepage = "https://github.com/zZedix/Shifter"
 readme = "https://raw.githubusercontent.com/zZedix/Shifter/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [install]

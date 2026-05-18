@@ -4,6 +4,7 @@ author = "genuinetools"
 homepage = "https://github.com/genuinetools/bane"
 readme = "https://raw.githubusercontent.com/genuinetools/bane/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "wagoodman"
 homepage = "https://github.com/wagoodman/dive"
 readme = "https://raw.githubusercontent.com/wagoodman/dive/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

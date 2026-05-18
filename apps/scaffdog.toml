@@ -4,6 +4,7 @@ author = "scaffdog"
 homepage = "https://github.com/scaffdog/scaffdog"
 readme = "https://raw.githubusercontent.com/scaffdog/scaffdog/canary/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

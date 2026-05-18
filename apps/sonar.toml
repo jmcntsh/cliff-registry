@@ -4,6 +4,7 @@ author = "raskrebs"
 homepage = "https://github.com/raskrebs/sonar"
 readme = "https://raw.githubusercontent.com/raskrebs/sonar/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [install]

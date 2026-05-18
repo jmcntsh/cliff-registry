@@ -4,6 +4,7 @@ author = "codesenberg"
 homepage = "https://github.com/codesenberg/bombardier"
 readme = "https://raw.githubusercontent.com/codesenberg/bombardier/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

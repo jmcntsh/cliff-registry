@@ -4,6 +4,7 @@ author = "ekristen"
 homepage = "https://github.com/ekristen/aws-nuke"
 readme = "https://raw.githubusercontent.com/ekristen/aws-nuke/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

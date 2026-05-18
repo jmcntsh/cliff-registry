@@ -4,6 +4,7 @@ author = "Bahaaio"
 homepage = "https://github.com/Bahaaio/pomo"
 readme = "https://raw.githubusercontent.com/Bahaaio/pomo/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [install]

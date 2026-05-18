@@ -4,6 +4,7 @@ author = "nosarthur"
 homepage = "https://github.com/nosarthur/gita"
 readme = "https://raw.githubusercontent.com/nosarthur/gita/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

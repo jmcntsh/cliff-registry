@@ -4,6 +4,7 @@ author = "Zouuup"
 homepage = "https://github.com/Zouuup/landrun"
 readme = "https://raw.githubusercontent.com/Zouuup/landrun/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

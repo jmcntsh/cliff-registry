@@ -4,6 +4,7 @@ author = "carvel-dev"
 homepage = "https://github.com/carvel-dev/ytt"
 readme = "https://raw.githubusercontent.com/carvel-dev/ytt/develop/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "APACHE-2.0"
 
 [[installs]]

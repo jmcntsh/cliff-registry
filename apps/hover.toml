@@ -4,6 +4,7 @@ author = "go-flutter-desktop"
 homepage = "https://github.com/go-flutter-desktop/hover"
 readme = "https://raw.githubusercontent.com/go-flutter-desktop/hover/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "BSD-3-CLAUSE"
 
 [[installs]]

@@ -35,8 +35,10 @@ Useful flags:
 
 1. Load `scripts/seen-ledger.json` (or start empty).
 2. Take its `updated_at` timestamp; pass `pushed:>=<that date - 1 day>`
-   to every GitHub Search query. The query set covers topics, names,
-   descriptions, and README matches for CLI/TUI-related terms.
+   to every GitHub Search query. The query set covers topics, names, and
+   descriptions for CLI/TUI-related terms. README-only matches are avoided
+   because they tend to admit libraries, templates, and docs that merely
+   mention command-line usage.
 3. Skip anything in the ledger or already in `apps/` by homepage.
 4. For survivors: category-check, suggest an install type, optionally
    HEAD-check the package registry, render a manifest.

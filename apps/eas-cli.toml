@@ -4,6 +4,7 @@ author = "expo"
 homepage = "https://github.com/expo/eas-cli"
 readme = "https://raw.githubusercontent.com/expo/eas-cli/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

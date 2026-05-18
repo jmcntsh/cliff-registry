@@ -4,6 +4,7 @@ author = "supreme-gg-gg"
 homepage = "https://github.com/supreme-gg-gg/instagram-cli"
 readme = "https://raw.githubusercontent.com/supreme-gg-gg/instagram-cli/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

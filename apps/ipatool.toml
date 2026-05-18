@@ -4,6 +4,7 @@ author = "majd"
 homepage = "https://github.com/majd/ipatool"
 readme = "https://raw.githubusercontent.com/majd/ipatool/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

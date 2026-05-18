@@ -4,6 +4,7 @@ author = "achannarasappa"
 homepage = "https://github.com/achannarasappa/ticker"
 readme = "https://raw.githubusercontent.com/achannarasappa/ticker/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

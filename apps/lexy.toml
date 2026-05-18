@@ -4,6 +4,7 @@ author = "antoniorodr"
 homepage = "https://github.com/antoniorodr/lexy"
 readme = "https://raw.githubusercontent.com/antoniorodr/lexy/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "APACHE-2.0"
 
 [install]

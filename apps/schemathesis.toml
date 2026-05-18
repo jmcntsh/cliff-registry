@@ -4,6 +4,7 @@ author = "schemathesis"
 homepage = "https://github.com/schemathesis/schemathesis"
 readme = "https://raw.githubusercontent.com/schemathesis/schemathesis/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

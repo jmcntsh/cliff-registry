@@ -4,6 +4,7 @@ author = "huseyinbabal"
 homepage = "https://github.com/huseyinbabal/taws"
 readme = "https://raw.githubusercontent.com/huseyinbabal/taws/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

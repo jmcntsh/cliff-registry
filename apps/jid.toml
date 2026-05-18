@@ -4,6 +4,7 @@ author = "simeji"
 homepage = "https://github.com/simeji/jid"
 readme = "https://raw.githubusercontent.com/simeji/jid/master/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "MIT"
 
 [[installs]]

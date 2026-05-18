@@ -4,6 +4,7 @@ author = "Houseofmvps"
 homepage = "https://github.com/Houseofmvps/codesight"
 readme = "https://raw.githubusercontent.com/Houseofmvps/codesight/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "genuinetools"
 homepage = "https://github.com/genuinetools/img"
 readme = "https://raw.githubusercontent.com/genuinetools/img/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

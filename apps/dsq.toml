@@ -4,6 +4,7 @@ author = "multiprocessio"
 homepage = "https://github.com/multiprocessio/dsq"
 readme = "https://raw.githubusercontent.com/multiprocessio/dsq/main/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "OTHER"
 
 [[installs]]

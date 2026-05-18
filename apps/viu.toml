@@ -4,6 +4,7 @@ author = "atanunq"
 homepage = "https://github.com/atanunq/viu"
 readme = "https://raw.githubusercontent.com/atanunq/viu/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

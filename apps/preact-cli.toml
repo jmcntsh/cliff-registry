@@ -4,6 +4,7 @@ author = "preactjs"
 homepage = "https://github.com/preactjs/preact-cli"
 readme = "https://raw.githubusercontent.com/preactjs/preact-cli/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

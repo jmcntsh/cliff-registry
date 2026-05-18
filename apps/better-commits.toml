@@ -4,6 +4,7 @@ author = "Everduin94"
 homepage = "https://github.com/Everduin94/better-commits"
 readme = "https://raw.githubusercontent.com/Everduin94/better-commits/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

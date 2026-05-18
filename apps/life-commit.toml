@@ -4,6 +4,7 @@ author = "ByronHsu"
 homepage = "https://github.com/ByronHsu/life-commit"
 readme = "https://raw.githubusercontent.com/ByronHsu/life-commit/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

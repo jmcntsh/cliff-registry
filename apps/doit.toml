@@ -4,6 +4,7 @@ author = "pydoit"
 homepage = "https://github.com/pydoit/doit"
 readme = "https://raw.githubusercontent.com/pydoit/doit/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

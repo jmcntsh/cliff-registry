@@ -4,6 +4,7 @@ author = "AutoX-AI-Labs"
 homepage = "https://github.com/AutoX-AI-Labs/AutoR"
 readme = "https://raw.githubusercontent.com/AutoX-AI-Labs/AutoR/main/README.md"
 tags = ["cli"]
+category = "File management"
 
 [[installs]]
 type = "pipx"

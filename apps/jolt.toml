@@ -4,6 +4,7 @@ author = "jordond"
 homepage = "https://github.com/jordond/jolt"
 readme = "https://raw.githubusercontent.com/jordond/jolt/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

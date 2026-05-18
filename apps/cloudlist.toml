@@ -4,6 +4,7 @@ author = "projectdiscovery"
 homepage = "https://github.com/projectdiscovery/cloudlist"
 readme = "https://raw.githubusercontent.com/projectdiscovery/cloudlist/dev/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "elirantutia"
 homepage = "https://github.com/elirantutia/vibeyard"
 readme = "https://raw.githubusercontent.com/elirantutia/vibeyard/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

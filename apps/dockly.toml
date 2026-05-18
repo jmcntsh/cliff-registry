@@ -4,6 +4,7 @@ author = "lirantal"
 homepage = "https://github.com/lirantal/dockly"
 readme = "https://raw.githubusercontent.com/lirantal/dockly/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "andreybleme"
 homepage = "https://github.com/andreybleme/lazycontainer"
 readme = "https://raw.githubusercontent.com/andreybleme/lazycontainer/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

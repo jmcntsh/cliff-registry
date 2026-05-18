@@ -4,6 +4,7 @@ author = "sharkdp"
 homepage = "https://github.com/sharkdp/pastel"
 readme = "https://raw.githubusercontent.com/sharkdp/pastel/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

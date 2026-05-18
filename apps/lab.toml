@@ -4,6 +4,7 @@ author = "zaquestion"
 homepage = "https://github.com/zaquestion/lab"
 readme = "https://raw.githubusercontent.com/zaquestion/lab/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "CC0-1.0"
 
 [[installs]]

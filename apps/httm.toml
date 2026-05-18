@@ -4,6 +4,7 @@ author = "kimono-koans"
 homepage = "https://github.com/kimono-koans/httm"
 readme = "https://raw.githubusercontent.com/kimono-koans/httm/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MPL-2.0"
 
 [[installs]]

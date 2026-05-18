@@ -4,6 +4,7 @@ author = "CVarisco"
 homepage = "https://github.com/CVarisco/create-component-app"
 readme = "https://raw.githubusercontent.com/CVarisco/create-component-app/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

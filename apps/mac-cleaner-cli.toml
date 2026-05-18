@@ -4,6 +4,7 @@ author = "guhcostan"
 homepage = "https://github.com/guhcostan/mac-cleaner-cli"
 readme = "https://raw.githubusercontent.com/guhcostan/mac-cleaner-cli/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [install]

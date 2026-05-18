@@ -4,6 +4,7 @@ author = "aws-amplify"
 homepage = "https://github.com/aws-amplify/amplify-cli"
 readme = "https://raw.githubusercontent.com/aws-amplify/amplify-cli/dev/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

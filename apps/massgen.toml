@@ -4,6 +4,7 @@ author = "massgen"
 homepage = "https://github.com/massgen/MassGen"
 readme = "https://raw.githubusercontent.com/massgen/MassGen/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [[installs]]

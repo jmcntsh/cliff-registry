@@ -4,6 +4,7 @@ author = "simeg"
 homepage = "https://github.com/simeg/eureka"
 readme = "https://raw.githubusercontent.com/simeg/eureka/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

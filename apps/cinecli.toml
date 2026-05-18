@@ -4,6 +4,7 @@ author = "eyeblech"
 homepage = "https://github.com/eyeblech/cinecli"
 readme = "https://raw.githubusercontent.com/eyeblech/cinecli/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

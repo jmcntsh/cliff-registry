@@ -4,6 +4,7 @@ author = "tlkh"
 homepage = "https://github.com/tlkh/asitop"
 readme = "https://raw.githubusercontent.com/tlkh/asitop/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "danburzo"
 homepage = "https://github.com/danburzo/percollate"
 readme = "https://raw.githubusercontent.com/danburzo/percollate/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

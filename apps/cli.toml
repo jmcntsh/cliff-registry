@@ -4,6 +4,7 @@ author = "docker"
 homepage = "https://github.com/docker/cli"
 readme = "https://raw.githubusercontent.com/docker/cli/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

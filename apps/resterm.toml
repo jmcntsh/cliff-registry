@@ -4,6 +4,7 @@ author = "unkn0wn-root"
 homepage = "https://github.com/unkn0wn-root/resterm"
 readme = "https://raw.githubusercontent.com/unkn0wn-root/resterm/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "APACHE-2.0"
 
 [install]

@@ -4,6 +4,7 @@ author = "streamlink"
 homepage = "https://github.com/streamlink/streamlink"
 readme = "https://raw.githubusercontent.com/streamlink/streamlink/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "BSD-2-CLAUSE"
 
 [[installs]]

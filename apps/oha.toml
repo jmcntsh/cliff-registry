@@ -4,6 +4,7 @@ author = "hatoo"
 homepage = "https://github.com/hatoo/oha"
 readme = "https://raw.githubusercontent.com/hatoo/oha/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

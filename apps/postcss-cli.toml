@@ -4,6 +4,7 @@ author = "postcss"
 homepage = "https://github.com/postcss/postcss-cli"
 readme = "https://raw.githubusercontent.com/postcss/postcss-cli/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "OTHER"
 
 [[installs]]

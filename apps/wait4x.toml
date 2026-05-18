@@ -4,6 +4,7 @@ author = "wait4x"
 homepage = "https://github.com/wait4x/wait4x"
 readme = "https://raw.githubusercontent.com/wait4x/wait4x/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "APACHE-2.0"
 
 [[installs]]

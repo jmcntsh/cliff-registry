@@ -4,6 +4,7 @@ author = "liamg"
 homepage = "https://github.com/liamg/tml"
 readme = "https://raw.githubusercontent.com/liamg/tml/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "UNLICENSE"
 
 [[installs]]

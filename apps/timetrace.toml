@@ -4,6 +4,7 @@ author = "dominikbraun"
 homepage = "https://github.com/dominikbraun/timetrace"
 readme = "https://raw.githubusercontent.com/dominikbraun/timetrace/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "sebastiancarlos"
 homepage = "https://github.com/sebastiancarlos/beachpatrol"
 readme = "https://raw.githubusercontent.com/sebastiancarlos/beachpatrol/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

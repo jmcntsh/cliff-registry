@@ -4,6 +4,7 @@ author = "pocketpaw"
 homepage = "https://github.com/pocketpaw/pocketpaw"
 readme = "https://raw.githubusercontent.com/pocketpaw/pocketpaw/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

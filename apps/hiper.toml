@@ -4,6 +4,7 @@ author = "pod4g"
 homepage = "https://github.com/pod4g/hiper"
 readme = "https://raw.githubusercontent.com/pod4g/hiper/master/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

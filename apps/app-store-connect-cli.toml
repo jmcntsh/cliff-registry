@@ -4,6 +4,7 @@ author = "rorkai"
 homepage = "https://github.com/rorkai/App-Store-Connect-CLI"
 readme = "https://raw.githubusercontent.com/rorkai/App-Store-Connect-CLI/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [install]

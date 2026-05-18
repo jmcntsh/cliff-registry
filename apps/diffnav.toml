@@ -4,6 +4,7 @@ author = "dlvhdr"
 homepage = "https://github.com/dlvhdr/diffnav"
 readme = "https://raw.githubusercontent.com/dlvhdr/diffnav/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

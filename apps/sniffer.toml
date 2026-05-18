@@ -4,6 +4,7 @@ author = "chenjiandongx"
 homepage = "https://github.com/chenjiandongx/sniffer"
 readme = "https://raw.githubusercontent.com/chenjiandongx/sniffer/master/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

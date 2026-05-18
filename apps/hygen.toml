@@ -4,6 +4,7 @@ author = "jondot"
 homepage = "https://github.com/jondot/hygen"
 readme = "https://raw.githubusercontent.com/jondot/hygen/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

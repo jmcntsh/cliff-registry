@@ -4,6 +4,7 @@ author = "mufeedvh"
 homepage = "https://github.com/mufeedvh/code2prompt"
 readme = "https://raw.githubusercontent.com/mufeedvh/code2prompt/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

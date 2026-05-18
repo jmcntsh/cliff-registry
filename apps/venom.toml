@@ -4,6 +4,7 @@ author = "ovh"
 homepage = "https://github.com/ovh/venom"
 readme = "https://raw.githubusercontent.com/ovh/venom/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "APACHE-2.0"
 
 [[installs]]

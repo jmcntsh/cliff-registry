@@ -4,6 +4,7 @@ author = "jackwener"
 homepage = "https://github.com/jackwener/xhs-cli"
 readme = "https://raw.githubusercontent.com/jackwener/xhs-cli/main/README.md"
 tags = ["cli"]
+category = "Other"
 license = "APACHE-2.0"
 
 [install]

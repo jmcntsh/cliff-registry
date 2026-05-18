@@ -4,6 +4,7 @@ author = "UfoMiao"
 homepage = "https://github.com/UfoMiao/zcf"
 readme = "https://raw.githubusercontent.com/UfoMiao/zcf/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

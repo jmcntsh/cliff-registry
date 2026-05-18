@@ -4,6 +4,7 @@ author = "gphotosuploader"
 homepage = "https://github.com/gphotosuploader/gphotos-uploader-cli"
 readme = "https://raw.githubusercontent.com/gphotosuploader/gphotos-uploader-cli/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

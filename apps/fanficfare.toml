@@ -4,6 +4,7 @@ author = "JimmXinu"
 homepage = "https://github.com/JimmXinu/FanFicFare"
 readme = "https://raw.githubusercontent.com/JimmXinu/FanFicFare/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "OTHER"
 
 [[installs]]

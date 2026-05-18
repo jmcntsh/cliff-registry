@@ -4,6 +4,7 @@ author = "gcla"
 homepage = "https://github.com/gcla/termshark"
 readme = "https://raw.githubusercontent.com/gcla/termshark/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

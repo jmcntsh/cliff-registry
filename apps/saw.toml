@@ -4,6 +4,7 @@ author = "TylerBrock"
 homepage = "https://github.com/TylerBrock/saw"
 readme = "https://raw.githubusercontent.com/TylerBrock/saw/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

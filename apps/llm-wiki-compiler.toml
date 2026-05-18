@@ -4,6 +4,7 @@ author = "atomicstrata"
 homepage = "https://github.com/atomicstrata/llm-wiki-compiler"
 readme = "https://raw.githubusercontent.com/atomicstrata/llm-wiki-compiler/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "fengshao1227"
 homepage = "https://github.com/fengshao1227/ccg-workflow"
 readme = "https://raw.githubusercontent.com/fengshao1227/ccg-workflow/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

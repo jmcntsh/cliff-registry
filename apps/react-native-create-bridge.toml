@@ -4,6 +4,7 @@ author = "peggyrayzis"
 homepage = "https://github.com/peggyrayzis/react-native-create-bridge"
 readme = "https://raw.githubusercontent.com/peggyrayzis/react-native-create-bridge/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

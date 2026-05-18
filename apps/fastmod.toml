@@ -4,6 +4,7 @@ author = "facebookincubator"
 homepage = "https://github.com/facebookincubator/fastmod"
 readme = "https://raw.githubusercontent.com/facebookincubator/fastmod/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

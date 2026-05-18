@@ -4,6 +4,7 @@ author = "antonmedv"
 homepage = "https://github.com/antonmedv/fx"
 readme = "https://raw.githubusercontent.com/antonmedv/fx/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

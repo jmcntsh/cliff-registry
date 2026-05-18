@@ -4,6 +4,7 @@ author = "PaulJuliusMartinez"
 homepage = "https://github.com/PaulJuliusMartinez/jless"
 readme = "https://raw.githubusercontent.com/PaulJuliusMartinez/jless/main/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "MIT"
 
 [[installs]]

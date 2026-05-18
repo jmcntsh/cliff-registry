@@ -4,6 +4,7 @@ author = "humblepenguinn"
 homepage = "https://github.com/humblepenguinn/envio"
 readme = "https://raw.githubusercontent.com/humblepenguinn/envio/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

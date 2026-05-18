@@ -4,6 +4,7 @@ author = "trasta298"
 homepage = "https://github.com/trasta298/keifu"
 readme = "https://raw.githubusercontent.com/trasta298/keifu/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [install]

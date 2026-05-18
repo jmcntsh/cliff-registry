@@ -4,6 +4,7 @@ author = "peters"
 homepage = "https://github.com/peters/horizon"
 readme = "https://raw.githubusercontent.com/peters/horizon/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

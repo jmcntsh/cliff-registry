@@ -4,6 +4,7 @@ author = "bombshell-dev"
 homepage = "https://github.com/bombshell-dev/clack"
 readme = "https://raw.githubusercontent.com/bombshell-dev/clack/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [[installs]]

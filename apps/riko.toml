@@ -4,6 +4,7 @@ author = "nerevu"
 homepage = "https://github.com/nerevu/riko"
 readme = "https://raw.githubusercontent.com/nerevu/riko/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

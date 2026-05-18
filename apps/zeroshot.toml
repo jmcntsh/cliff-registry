@@ -4,6 +4,7 @@ author = "covibes"
 homepage = "https://github.com/covibes/zeroshot"
 readme = "https://raw.githubusercontent.com/covibes/zeroshot/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

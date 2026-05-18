@@ -4,6 +4,7 @@ author = "Siriusmart"
 homepage = "https://github.com/Siriusmart/youtube-tui"
 readme = "https://raw.githubusercontent.com/Siriusmart/youtube-tui/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "GPL-3.0"
 
 [[installs]]

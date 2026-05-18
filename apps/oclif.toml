@@ -4,6 +4,7 @@ author = "oclif"
 homepage = "https://github.com/oclif/oclif"
 readme = "https://raw.githubusercontent.com/oclif/oclif/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

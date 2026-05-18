@@ -4,6 +4,7 @@ author = "zZedix"
 homepage = "https://github.com/zZedix/Smite"
 readme = "https://raw.githubusercontent.com/zZedix/Smite/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [install]

@@ -4,6 +4,7 @@ author = "solidiquis"
 homepage = "https://github.com/solidiquis/erdtree"
 readme = "https://raw.githubusercontent.com/solidiquis/erdtree/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

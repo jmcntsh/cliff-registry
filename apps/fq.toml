@@ -4,6 +4,7 @@ author = "wader"
 homepage = "https://github.com/wader/fq"
 readme = "https://raw.githubusercontent.com/wader/fq/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "OTHER"
 
 [[installs]]

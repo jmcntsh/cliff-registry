@@ -4,6 +4,7 @@ author = "flozz"
 homepage = "https://github.com/flozz/rivalcfg"
 readme = "https://raw.githubusercontent.com/flozz/rivalcfg/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "WTFPL"
 
 [[installs]]

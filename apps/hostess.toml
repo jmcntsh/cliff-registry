@@ -4,6 +4,7 @@ author = "cbednarski"
 homepage = "https://github.com/cbednarski/hostess"
 readme = "https://raw.githubusercontent.com/cbednarski/hostess/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

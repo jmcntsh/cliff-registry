@@ -4,6 +4,7 @@ author = "gitless-vcs"
 homepage = "https://github.com/gitless-vcs/gitless"
 readme = "https://raw.githubusercontent.com/gitless-vcs/gitless/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

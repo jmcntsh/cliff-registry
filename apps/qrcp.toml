@@ -4,6 +4,7 @@ author = "claudiodangelis"
 homepage = "https://github.com/claudiodangelis/qrcp"
 readme = "https://raw.githubusercontent.com/claudiodangelis/qrcp/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

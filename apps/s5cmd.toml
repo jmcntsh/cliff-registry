@@ -4,6 +4,7 @@ author = "peak"
 homepage = "https://github.com/peak/s5cmd"
 readme = "https://raw.githubusercontent.com/peak/s5cmd/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

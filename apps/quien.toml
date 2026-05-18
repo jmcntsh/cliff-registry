@@ -4,6 +4,7 @@ author = "retlehs"
 homepage = "https://github.com/retlehs/quien"
 readme = "https://raw.githubusercontent.com/retlehs/quien/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [install]

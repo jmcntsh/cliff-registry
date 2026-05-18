@@ -4,6 +4,7 @@ author = "jdepoix"
 homepage = "https://github.com/jdepoix/youtube-transcript-api"
 readme = "https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/master/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

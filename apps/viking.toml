@@ -4,6 +4,7 @@ author = "d3witt"
 homepage = "https://github.com/d3witt/viking"
 readme = "https://raw.githubusercontent.com/d3witt/viking/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

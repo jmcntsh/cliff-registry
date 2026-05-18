@@ -4,6 +4,7 @@ author = "charmbracelet"
 homepage = "https://github.com/charmbracelet/lipgloss"
 readme = "https://raw.githubusercontent.com/charmbracelet/lipgloss/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

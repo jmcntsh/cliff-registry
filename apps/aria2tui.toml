@@ -4,6 +4,7 @@ author = "grimandgreedy"
 homepage = "https://github.com/grimandgreedy/aria2tui"
 readme = "https://raw.githubusercontent.com/grimandgreedy/aria2tui/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [install]

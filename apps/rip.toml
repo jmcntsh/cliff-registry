@@ -4,6 +4,7 @@ author = "cesarferreira"
 homepage = "https://github.com/cesarferreira/rip"
 readme = "https://raw.githubusercontent.com/cesarferreira/rip/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

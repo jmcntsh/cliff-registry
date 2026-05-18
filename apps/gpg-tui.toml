@@ -4,6 +4,7 @@ author = "orhun"
 homepage = "https://github.com/orhun/gpg-tui"
 readme = "https://raw.githubusercontent.com/orhun/gpg-tui/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

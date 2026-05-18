@@ -4,6 +4,7 @@ author = "variety"
 homepage = "https://github.com/variety/variety"
 readme = "https://raw.githubusercontent.com/variety/variety/main/README.md"
 tags = ["cli"]
+category = "Databases"
 license = "MIT"
 
 [[installs]]

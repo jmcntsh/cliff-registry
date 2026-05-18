@@ -4,6 +4,7 @@ author = "create-go-app"
 homepage = "https://github.com/create-go-app/cli"
 readme = "https://raw.githubusercontent.com/create-go-app/cli/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "mbrt"
 homepage = "https://github.com/mbrt/gmailctl"
 readme = "https://raw.githubusercontent.com/mbrt/gmailctl/master/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

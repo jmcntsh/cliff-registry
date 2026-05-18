@@ -4,6 +4,7 @@ author = "orhun"
 homepage = "https://github.com/orhun/halp"
 readme = "https://raw.githubusercontent.com/orhun/halp/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "APACHE-2.0"
 
 [[installs]]

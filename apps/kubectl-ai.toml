@@ -4,6 +4,7 @@ author = "GoogleCloudPlatform"
 homepage = "https://github.com/GoogleCloudPlatform/kubectl-ai"
 readme = "https://raw.githubusercontent.com/GoogleCloudPlatform/kubectl-ai/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

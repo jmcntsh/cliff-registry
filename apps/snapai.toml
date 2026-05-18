@@ -4,6 +4,7 @@ author = "betomoedano"
 homepage = "https://github.com/betomoedano/snapai"
 readme = "https://raw.githubusercontent.com/betomoedano/snapai/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [install]

@@ -4,6 +4,7 @@ author = "manparvesh"
 homepage = "https://github.com/manparvesh/yoda"
 readme = "https://raw.githubusercontent.com/manparvesh/yoda/v2/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 
 [[installs]]
 type = "pipx"

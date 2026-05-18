@@ -4,6 +4,7 @@ author = "restatedev"
 homepage = "https://github.com/restatedev/restate"
 readme = "https://raw.githubusercontent.com/restatedev/restate/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "OTHER"
 
 [[installs]]

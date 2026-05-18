@@ -4,6 +4,7 @@ author = "ChimeraCoder"
 homepage = "https://github.com/ChimeraCoder/gojson"
 readme = "https://raw.githubusercontent.com/ChimeraCoder/gojson/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "GPL-3.0"
 
 [[installs]]

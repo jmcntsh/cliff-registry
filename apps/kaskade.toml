@@ -4,6 +4,7 @@ author = "sauljabin"
 homepage = "https://github.com/sauljabin/kaskade"
 readme = "https://raw.githubusercontent.com/sauljabin/kaskade/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

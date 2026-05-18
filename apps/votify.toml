@@ -4,6 +4,7 @@ author = "glomatico"
 homepage = "https://github.com/glomatico/votify"
 readme = "https://raw.githubusercontent.com/glomatico/votify/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

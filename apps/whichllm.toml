@@ -4,6 +4,7 @@ author = "Andyyyy64"
 homepage = "https://github.com/Andyyyy64/whichllm"
 readme = "https://raw.githubusercontent.com/Andyyyy64/whichllm/main/README.md"
 tags = ["cli"]
+category = "Monitoring"
 license = "MIT"
 
 [[installs]]

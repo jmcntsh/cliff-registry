@@ -4,6 +4,7 @@ author = "reviewdog"
 homepage = "https://github.com/reviewdog/reviewdog"
 readme = "https://raw.githubusercontent.com/reviewdog/reviewdog/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

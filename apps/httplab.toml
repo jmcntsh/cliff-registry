@@ -4,6 +4,7 @@ author = "qustavo"
 homepage = "https://github.com/qustavo/httplab"
 readme = "https://raw.githubusercontent.com/qustavo/httplab/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "MIT"
 
 [[installs]]

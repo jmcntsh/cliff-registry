@@ -4,6 +4,7 @@ author = "projectdiscovery"
 homepage = "https://github.com/projectdiscovery/cdncheck"
 readme = "https://raw.githubusercontent.com/projectdiscovery/cdncheck/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

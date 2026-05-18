@@ -4,6 +4,7 @@ author = "sinedied"
 homepage = "https://github.com/sinedied/backslide"
 readme = "https://raw.githubusercontent.com/sinedied/backslide/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

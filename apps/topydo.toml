@@ -4,6 +4,7 @@ author = "topydo"
 homepage = "https://github.com/topydo/topydo"
 readme = "https://raw.githubusercontent.com/topydo/topydo/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

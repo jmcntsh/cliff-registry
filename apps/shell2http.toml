@@ -4,6 +4,7 @@ author = "msoap"
 homepage = "https://github.com/msoap/shell2http"
 readme = "https://raw.githubusercontent.com/msoap/shell2http/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

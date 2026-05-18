@@ -4,6 +4,7 @@ author = "mrinfinidy"
 homepage = "https://github.com/mrinfinidy/qrcode-pretty"
 readme = "https://raw.githubusercontent.com/mrinfinidy/qrcode-pretty/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "OTHER"
 
 [install]

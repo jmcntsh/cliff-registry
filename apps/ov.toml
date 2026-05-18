@@ -4,6 +4,7 @@ author = "noborus"
 homepage = "https://github.com/noborus/ov"
 readme = "https://raw.githubusercontent.com/noborus/ov/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

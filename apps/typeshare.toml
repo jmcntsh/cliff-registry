@@ -4,6 +4,7 @@ author = "1Password"
 homepage = "https://github.com/1Password/typeshare"
 readme = "https://raw.githubusercontent.com/1Password/typeshare/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "APACHE-2.0"
 
 [[installs]]

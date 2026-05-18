@@ -4,6 +4,7 @@ author = "dominikwilkowski"
 homepage = "https://github.com/dominikwilkowski/cfonts"
 readme = "https://raw.githubusercontent.com/dominikwilkowski/cfonts/released/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

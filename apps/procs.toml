@@ -4,6 +4,7 @@ author = "dalance"
 homepage = "https://github.com/dalance/procs"
 readme = "https://raw.githubusercontent.com/dalance/procs/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

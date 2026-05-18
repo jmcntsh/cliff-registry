@@ -4,6 +4,7 @@ author = "Svetlitski"
 homepage = "https://github.com/Svetlitski/fcp"
 readme = "https://raw.githubusercontent.com/Svetlitski/fcp/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "BSD-3-CLAUSE"
 
 [[installs]]

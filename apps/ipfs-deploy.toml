@@ -4,6 +4,7 @@ author = "ipfs-shipyard"
 homepage = "https://github.com/ipfs-shipyard/ipfs-deploy"
 readme = "https://raw.githubusercontent.com/ipfs-shipyard/ipfs-deploy/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "OTHER"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "projectdiscovery"
 homepage = "https://github.com/projectdiscovery/uncover"
 readme = "https://raw.githubusercontent.com/projectdiscovery/uncover/main/README.md"
 tags = ["cli"]
+category = "Networking"
 license = "MIT"
 
 [[installs]]

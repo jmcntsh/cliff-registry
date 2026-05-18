@@ -4,6 +4,7 @@ author = "jkwill87"
 homepage = "https://github.com/jkwill87/mnamer"
 readme = "https://raw.githubusercontent.com/jkwill87/mnamer/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [[installs]]

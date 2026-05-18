@@ -4,6 +4,7 @@ author = "tuna-f1sh"
 homepage = "https://github.com/tuna-f1sh/cyme"
 readme = "https://raw.githubusercontent.com/tuna-f1sh/cyme/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "GPL-3.0"
 
 [[installs]]

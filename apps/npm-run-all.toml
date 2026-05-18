@@ -4,6 +4,7 @@ author = "mysticatea"
 homepage = "https://github.com/mysticatea/npm-run-all"
 readme = "https://raw.githubusercontent.com/mysticatea/npm-run-all/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "ozeranskii"
 homepage = "https://github.com/ozeranskii/httptap"
 readme = "https://raw.githubusercontent.com/ozeranskii/httptap/main/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "APACHE-2.0"
 
 [install]

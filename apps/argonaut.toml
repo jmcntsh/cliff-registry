@@ -4,6 +4,7 @@ author = "darksworm"
 homepage = "https://github.com/darksworm/argonaut"
 readme = "https://raw.githubusercontent.com/darksworm/argonaut/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [install]

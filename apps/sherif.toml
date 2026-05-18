@@ -4,6 +4,7 @@ author = "QuiiBz"
 homepage = "https://github.com/QuiiBz/sherif"
 readme = "https://raw.githubusercontent.com/QuiiBz/sherif/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

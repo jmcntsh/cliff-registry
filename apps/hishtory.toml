@@ -4,6 +4,7 @@ author = "ddworken"
 homepage = "https://github.com/ddworken/hishtory"
 readme = "https://raw.githubusercontent.com/ddworken/hishtory/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

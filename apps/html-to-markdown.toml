@@ -4,6 +4,7 @@ author = "JohannesKaufmann"
 homepage = "https://github.com/JohannesKaufmann/html-to-markdown"
 readme = "https://raw.githubusercontent.com/JohannesKaufmann/html-to-markdown/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "MIT"
 
 [[installs]]

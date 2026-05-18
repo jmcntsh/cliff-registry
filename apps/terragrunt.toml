@@ -4,6 +4,7 @@ author = "gruntwork-io"
 homepage = "https://github.com/gruntwork-io/terragrunt"
 readme = "https://raw.githubusercontent.com/gruntwork-io/terragrunt/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MIT"
 
 [[installs]]

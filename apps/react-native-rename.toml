@@ -4,6 +4,7 @@ author = "junedomingo"
 homepage = "https://github.com/junedomingo/react-native-rename"
 readme = "https://raw.githubusercontent.com/junedomingo/react-native-rename/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "MIT"
 
 [[installs]]

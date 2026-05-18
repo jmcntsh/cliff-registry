@@ -4,6 +4,7 @@ author = "alexpovel"
 homepage = "https://github.com/alexpovel/srgn"
 readme = "https://raw.githubusercontent.com/alexpovel/srgn/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

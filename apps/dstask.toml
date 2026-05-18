@@ -4,6 +4,7 @@ author = "naggie"
 homepage = "https://github.com/naggie/dstask"
 readme = "https://raw.githubusercontent.com/naggie/dstask/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

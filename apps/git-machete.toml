@@ -4,6 +4,7 @@ author = "VirtusLab"
 homepage = "https://github.com/VirtusLab/git-machete"
 readme = "https://raw.githubusercontent.com/VirtusLab/git-machete/develop/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "graykode"
 homepage = "https://github.com/graykode/abtop"
 readme = "https://raw.githubusercontent.com/graykode/abtop/main/README.md"
 tags = ["cli"]
+category = "AI tools"
 license = "MIT"
 
 [[installs]]

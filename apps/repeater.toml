@@ -4,6 +4,7 @@ author = "shaankhosla"
 homepage = "https://github.com/shaankhosla/repeater"
 readme = "https://raw.githubusercontent.com/shaankhosla/repeater/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [install]

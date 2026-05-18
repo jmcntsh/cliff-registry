@@ -4,6 +4,7 @@ author = "dosisod"
 homepage = "https://github.com/dosisod/refurb"
 readme = "https://raw.githubusercontent.com/dosisod/refurb/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "GPL-3.0"
 
 [[installs]]

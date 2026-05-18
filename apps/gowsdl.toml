@@ -4,6 +4,7 @@ author = "hooklift"
 homepage = "https://github.com/hooklift/gowsdl"
 readme = "https://raw.githubusercontent.com/hooklift/gowsdl/master/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MPL-2.0"
 
 [[installs]]

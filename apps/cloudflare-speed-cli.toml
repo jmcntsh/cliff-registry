@@ -4,6 +4,7 @@ author = "kavehtehrani"
 homepage = "https://github.com/kavehtehrani/cloudflare-speed-cli"
 readme = "https://raw.githubusercontent.com/kavehtehrani/cloudflare-speed-cli/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "GPL-3.0"
 
 [install]

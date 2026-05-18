@@ -4,6 +4,7 @@ author = "dyatko"
 homepage = "https://github.com/dyatko/arkit"
 readme = "https://raw.githubusercontent.com/dyatko/arkit/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

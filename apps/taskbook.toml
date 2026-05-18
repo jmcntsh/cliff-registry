@@ -4,6 +4,7 @@ author = "klaudiosinani"
 homepage = "https://github.com/klaudiosinani/taskbook"
 readme = "https://raw.githubusercontent.com/klaudiosinani/taskbook/master/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "MIT"
 
 [[installs]]

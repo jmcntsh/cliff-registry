@@ -4,6 +4,7 @@ author = "batrachianai"
 homepage = "https://github.com/batrachianai/toad"
 readme = "https://raw.githubusercontent.com/batrachianai/toad/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "AGPL-3.0"
 
 [install]

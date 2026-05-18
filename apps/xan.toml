@@ -4,6 +4,7 @@ author = "medialab"
 homepage = "https://github.com/medialab/xan"
 readme = "https://raw.githubusercontent.com/medialab/xan/master/README.md"
 tags = ["cli"]
+category = "Data tools"
 license = "UNLICENSE"
 
 [[installs]]

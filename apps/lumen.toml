@@ -4,6 +4,7 @@ author = "jnsahaj"
 homepage = "https://github.com/jnsahaj/lumen"
 readme = "https://raw.githubusercontent.com/jnsahaj/lumen/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

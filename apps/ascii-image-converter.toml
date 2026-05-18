@@ -4,6 +4,7 @@ author = "TheZoraiz"
 homepage = "https://github.com/TheZoraiz/ascii-image-converter"
 readme = "https://raw.githubusercontent.com/TheZoraiz/ascii-image-converter/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "raphaelmansuy"
 homepage = "https://github.com/raphaelmansuy/code2prompt"
 readme = "https://raw.githubusercontent.com/raphaelmansuy/code2prompt/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

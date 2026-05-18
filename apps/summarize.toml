@@ -4,6 +4,7 @@ author = "steipete"
 homepage = "https://github.com/steipete/summarize"
 readme = "https://raw.githubusercontent.com/steipete/summarize/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "OTHER"
 
 [install]

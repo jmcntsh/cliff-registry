@@ -4,6 +4,7 @@ author = "gulpjs"
 homepage = "https://github.com/gulpjs/liftoff"
 readme = "https://raw.githubusercontent.com/gulpjs/liftoff/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

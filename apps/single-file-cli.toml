@@ -4,6 +4,7 @@ author = "gildas-lormeau"
 homepage = "https://github.com/gildas-lormeau/single-file-cli"
 readme = "https://raw.githubusercontent.com/gildas-lormeau/single-file-cli/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "AGPL-3.0"
 
 [[installs]]

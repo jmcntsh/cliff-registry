@@ -4,6 +4,7 @@ author = "taiki-e"
 homepage = "https://github.com/taiki-e/cargo-llvm-cov"
 readme = "https://raw.githubusercontent.com/taiki-e/cargo-llvm-cov/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

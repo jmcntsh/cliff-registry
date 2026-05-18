@@ -4,6 +4,7 @@ author = "sheerun"
 homepage = "https://github.com/sheerun/graphqlviz"
 readme = "https://raw.githubusercontent.com/sheerun/graphqlviz/master/README.md"
 tags = ["cli"]
+category = "Toys & visualizers"
 license = "MIT"
 
 [[installs]]

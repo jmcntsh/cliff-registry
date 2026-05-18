@@ -4,6 +4,7 @@ author = "floatpane"
 homepage = "https://github.com/floatpane/matcha"
 readme = "https://raw.githubusercontent.com/floatpane/matcha/master/README.md"
 tags = ["tui"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

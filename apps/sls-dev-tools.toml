@@ -4,6 +4,7 @@ author = "aleios-cloud"
 homepage = "https://github.com/aleios-cloud/sls-dev-tools"
 readme = "https://raw.githubusercontent.com/aleios-cloud/sls-dev-tools/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "kriuchkov"
 homepage = "https://github.com/kriuchkov/tock"
 readme = "https://raw.githubusercontent.com/kriuchkov/tock/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [install]

@@ -4,6 +4,7 @@ author = "isacikgoz"
 homepage = "https://github.com/isacikgoz/gitin"
 readme = "https://raw.githubusercontent.com/isacikgoz/gitin/master/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "BSD-3-CLAUSE"
 
 [[installs]]

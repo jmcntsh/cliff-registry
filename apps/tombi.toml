@@ -4,6 +4,7 @@ author = "tombi-toml"
 homepage = "https://github.com/tombi-toml/tombi"
 readme = "https://raw.githubusercontent.com/tombi-toml/tombi/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

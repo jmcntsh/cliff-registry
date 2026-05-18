@@ -4,6 +4,7 @@ author = "next-hat"
 homepage = "https://github.com/next-hat/nanocl"
 readme = "https://raw.githubusercontent.com/next-hat/nanocl/nightly/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

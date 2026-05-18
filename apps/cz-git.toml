@@ -4,6 +4,7 @@ author = "Zhengqbbb"
 homepage = "https://github.com/Zhengqbbb/cz-git"
 readme = "https://raw.githubusercontent.com/Zhengqbbb/cz-git/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

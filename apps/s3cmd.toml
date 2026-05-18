@@ -4,6 +4,7 @@ author = "s3tools"
 homepage = "https://github.com/s3tools/s3cmd"
 readme = "https://raw.githubusercontent.com/s3tools/s3cmd/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-2.0"
 
 [[installs]]

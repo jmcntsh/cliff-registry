@@ -4,6 +4,7 @@ author = "voidcosmos"
 homepage = "https://github.com/voidcosmos/npkill"
 readme = "https://raw.githubusercontent.com/voidcosmos/npkill/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

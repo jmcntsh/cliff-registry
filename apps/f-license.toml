@@ -4,6 +4,7 @@ author = "furkansenharputlu"
 homepage = "https://github.com/furkansenharputlu/f-license"
 readme = "https://raw.githubusercontent.com/furkansenharputlu/f-license/master/README.md"
 tags = ["cli"]
+category = "Other"
 license = "APACHE-2.0"
 
 [[installs]]

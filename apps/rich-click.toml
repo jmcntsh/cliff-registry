@@ -4,6 +4,7 @@ author = "ewels"
 homepage = "https://github.com/ewels/rich-click"
 readme = "https://raw.githubusercontent.com/ewels/rich-click/main/README.md"
 tags = ["cli"]
+category = "Developer tools"
 license = "MIT"
 
 [[installs]]

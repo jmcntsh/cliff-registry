@@ -4,6 +4,7 @@ author = "dnote"
 homepage = "https://github.com/dnote/dnote"
 readme = "https://raw.githubusercontent.com/dnote/dnote/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "mifi"
 homepage = "https://github.com/mifi/editly"
 readme = "https://raw.githubusercontent.com/mifi/editly/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "Pluralith"
 homepage = "https://github.com/Pluralith/pluralith-cli"
 readme = "https://raw.githubusercontent.com/Pluralith/pluralith-cli/main/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "MPL-2.0"
 
 [[installs]]

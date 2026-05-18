@@ -4,6 +4,7 @@ author = "localstack"
 homepage = "https://github.com/localstack/awscli-local"
 readme = "https://raw.githubusercontent.com/localstack/awscli-local/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "APACHE-2.0"
 
 [[installs]]

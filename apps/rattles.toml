@@ -4,6 +4,7 @@ author = "vyfor"
 homepage = "https://github.com/vyfor/rattles"
 readme = "https://raw.githubusercontent.com/vyfor/rattles/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

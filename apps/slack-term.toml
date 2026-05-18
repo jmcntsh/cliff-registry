@@ -4,6 +4,7 @@ author = "jpbruinsslot"
 homepage = "https://github.com/jpbruinsslot/slack-term"
 readme = "https://raw.githubusercontent.com/jpbruinsslot/slack-term/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

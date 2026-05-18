@@ -4,6 +4,7 @@ author = "arl"
 homepage = "https://github.com/arl/gitmux"
 readme = "https://raw.githubusercontent.com/arl/gitmux/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

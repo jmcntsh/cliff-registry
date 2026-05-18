@@ -4,6 +4,7 @@ author = "Krasjet"
 homepage = "https://github.com/Krasjet/pdf.tocgen"
 readme = "https://raw.githubusercontent.com/Krasjet/pdf.tocgen/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "GPL-3.0"
 
 [[installs]]

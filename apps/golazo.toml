@@ -4,6 +4,7 @@ author = "0xjuanma"
 homepage = "https://github.com/0xjuanma/golazo"
 readme = "https://raw.githubusercontent.com/0xjuanma/golazo/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [install]

@@ -4,6 +4,7 @@ author = "superstarryeyes"
 homepage = "https://github.com/superstarryeyes/lue"
 readme = "https://raw.githubusercontent.com/superstarryeyes/lue/main/README.md"
 tags = ["cli"]
+category = "Documentation"
 license = "GPL-3.0"
 
 [[installs]]

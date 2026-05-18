@@ -4,6 +4,7 @@ author = "tvrzna"
 homepage = "https://github.com/tvrzna/emptty"
 readme = "https://raw.githubusercontent.com/tvrzna/emptty/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

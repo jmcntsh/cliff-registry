@@ -4,6 +4,7 @@ author = "nikolassv"
 homepage = "https://github.com/nikolassv/bartib"
 readme = "https://raw.githubusercontent.com/nikolassv/bartib/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "GPL-3.0"
 
 [[installs]]

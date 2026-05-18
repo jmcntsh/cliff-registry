@@ -4,6 +4,7 @@ author = "aliyun"
 homepage = "https://github.com/aliyun/aliyun-cli"
 readme = "https://raw.githubusercontent.com/aliyun/aliyun-cli/master/README.md"
 tags = ["cli"]
+category = "DevOps"
 license = "APACHE-2.0"
 
 [[installs]]

@@ -4,6 +4,7 @@ author = "ferrislucas"
 homepage = "https://github.com/ferrislucas/promptr"
 readme = "https://raw.githubusercontent.com/ferrislucas/promptr/main/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

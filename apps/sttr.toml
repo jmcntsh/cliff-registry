@@ -4,6 +4,7 @@ author = "abhimanyu003"
 homepage = "https://github.com/abhimanyu003/sttr"
 readme = "https://raw.githubusercontent.com/abhimanyu003/sttr/main/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

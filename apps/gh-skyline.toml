@@ -4,6 +4,7 @@ author = "github"
 homepage = "https://github.com/github/gh-skyline"
 readme = "https://raw.githubusercontent.com/github/gh-skyline/main/README.md"
 tags = ["cli"]
+category = "Version control"
 license = "MIT"
 
 [[installs]]

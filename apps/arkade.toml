@@ -4,6 +4,7 @@ author = "alexellis"
 homepage = "https://github.com/alexellis/arkade"
 readme = "https://raw.githubusercontent.com/alexellis/arkade/master/README.md"
 tags = ["cli"]
+category = "File management"
 license = "MIT"
 
 [[installs]]

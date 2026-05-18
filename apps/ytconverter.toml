@@ -4,6 +4,7 @@ author = "kaifcodec"
 homepage = "https://github.com/kaifcodec/ytconverter"
 readme = "https://raw.githubusercontent.com/kaifcodec/ytconverter/main/README.md"
 tags = ["cli"]
+category = "Music & media"
 license = "MIT"
 
 [install]

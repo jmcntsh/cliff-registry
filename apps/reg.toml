@@ -4,6 +4,7 @@ author = "genuinetools"
 homepage = "https://github.com/genuinetools/reg"
 readme = "https://raw.githubusercontent.com/genuinetools/reg/master/README.md"
 tags = ["cli"]
+category = "Shell utilities"
 license = "MIT"
 
 [[installs]]

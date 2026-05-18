@@ -4,6 +4,7 @@ author = "ponzu-cms"
 homepage = "https://github.com/ponzu-cms/ponzu"
 readme = "https://raw.githubusercontent.com/ponzu-cms/ponzu/master/README.md"
 tags = ["cli"]
+category = "HTTP clients"
 license = "BSD-3-CLAUSE"
 
 [[installs]]

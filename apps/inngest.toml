@@ -4,6 +4,7 @@ author = "inngest"
 homepage = "https://github.com/inngest/inngest"
 readme = "https://raw.githubusercontent.com/inngest/inngest/main/README.md"
 tags = ["cli"]
+category = "Productivity"
 license = "OTHER"
 
 [[installs]]
