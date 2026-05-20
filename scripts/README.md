@@ -3,7 +3,7 @@
 ## `seed.py` — automated catalog expansion
 
 Runs Mondays via `.github/workflows/auto-seed.yml`. Searches GitHub for
-new CLI/TUI repos, evaluates them against a small category filter,
+new TUI, terminal game, and visual terminal repos, evaluates them against a small category filter,
 writes manifests directly into `apps/`, runs `cmd/lint`, and (in
 `--commit` mode) commits + pushes the result to `main`.
 
@@ -17,10 +17,10 @@ script's job is to keep the funnel topped up.
 python3 scripts/seed.py --dry-run
 
 # Write manifests into apps/, run lint, commit + push to main.
-python3 scripts/seed.py --commit
+python3 scripts/seed.py --tui-only --commit
 
 # Same as --commit but stop short of `git push` (for inspection).
-python3 scripts/seed.py --commit --dry-push
+python3 scripts/seed.py --tui-only --commit --dry-push
 ```
 
 Useful flags:
@@ -29,20 +29,18 @@ Useful flags:
 - `--limit 300` — max repos returned per Search query.
 - `--max-new 50` — cap on new manifests emitted per run.
 - `--full-scan` — ignore the recency fast-path; scan all topics.
-- `--tui-only` — use TUI/game-first searches and reject plain CLI-only matches.
+- `--tui-only` — use TUI/game-first searches and reject plain CLI-only matches. This is the scheduled default.
 - `--no-verify-registry` — skip HEAD checks against PyPI/npm/crates.io.
 
 ### How a run is shaped
 
 1. Load `scripts/seen-ledger.json` (or start empty).
 2. Take its `updated_at` timestamp; pass `pushed:>=<that date - 1 day>`
-   to every GitHub Search query. The query set covers topics, names, and
-   descriptions for CLI/TUI-related terms. README-only matches are avoided
+   to every GitHub Search query. The scheduled query set is TUI-only and
+   covers topics, names, and descriptions for terminal games, TUIs, and
+   visual terminal apps. README-only matches are avoided
    because they tend to admit libraries, templates, and docs that merely
    mention command-line usage.
-   With `--tui-only`, the query set is narrower and game-first: terminal
-   games, curses/ncurses, Ratatui, Bubble Tea, Textual, tview, termbox,
-   and similar TUI-specific signals.
 3. Skip anything in the ledger or already in `apps/` by homepage.
 4. For survivors: category-check, suggest an install type, optionally
    HEAD-check the package registry, render a manifest.

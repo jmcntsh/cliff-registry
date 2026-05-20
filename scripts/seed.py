@@ -126,6 +126,8 @@ CATEGORY_DENY_TERMS = (
     "rendering backend for ratatui",
     "syntax highlighter for ratatui",
     "develop ratatui widgets",
+    "color themes for ratatui",
+    "pipes video streams",
 )
 
 CATEGORY_DENY_NAME_PATTERNS = (
@@ -181,11 +183,14 @@ RUNNABLE_APP_PATTERNS_CI = (
 TUI_APP_PATTERNS_CI = (
     r"\btui\b",
     r"\bterminal[- ]based\b",
-    r"\bterminal\s+(ui|dashboard|client|browser|viewer|manager|navigator|player|game|roguelike|tetris|chess|snake|minesweeper)\b",
+    r"\bterminal\s+(ui|interface|dashboard|browser|viewer|file manager|manager|navigator|reader|player|game|roguelike|tetris|chess|snake|minesweeper|emulator)\b",
     r"\btext\s+user\s+interface\b",
-    r"\bconsole\s+(ui|client|game)\b",
+    r"\bconsole\s+(ui|interface|game)\b",
     r"\b(curses|ncurses|ratatui|bubble\s*tea|bubbletea|charmbracelet|tview|tcell|termbox|urwid|textual)\b",
     r"\b(ascii|ansi)\s+game\b",
+    r"\b(ascii|ansi)\s+art\b",
+    r"\bterminal\s+(graphics|image)\b",
+    r"\b(chart|charts|graph|graphs|diagram|diagrams|plot|plots|screensaver|visuali[sz]er)\b",
     r"\broguelike\b",
 )
 
