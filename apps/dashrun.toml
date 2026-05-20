@@ -1,0 +1,12 @@
+name = "dashrun"
+description = "Run a node.js script and watch process execution on a terminal dashboard."
+author = "bguerout"
+homepage = "https://github.com/bguerout/dashrun"
+readme = "https://raw.githubusercontent.com/bguerout/dashrun/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "dashrun"

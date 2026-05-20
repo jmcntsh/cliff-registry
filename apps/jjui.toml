@@ -1,0 +1,12 @@
+name = "jjui"
+description = "jjui is a TUI designed for interacting with the Jujutsu version control system."
+author = "idursun"
+homepage = "https://github.com/idursun/jjui"
+readme = "https://raw.githubusercontent.com/idursun/jjui/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/idursun/jjui@latest"

@@ -1,0 +1,12 @@
+name = "zuse"
+description = "ZUSE is an irc client for the terminal made in Go with Bubbletea"
+author = "babycommando"
+homepage = "https://github.com/babycommando/zuse"
+readme = "https://raw.githubusercontent.com/babycommando/zuse/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/babycommando/zuse@latest"

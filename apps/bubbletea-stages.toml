@@ -1,0 +1,11 @@
+name = "bubbletea-stages"
+description = "Simple POC for bubbletea CLI / TUI that leverages sequential 'stages' of work"
+author = "zackproser"
+homepage = "https://github.com/zackproser/bubbletea-stages"
+readme = "https://raw.githubusercontent.com/zackproser/bubbletea-stages/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+
+[[installs]]
+type = "go"
+package = "github.com/zackproser/bubbletea-stages@latest"

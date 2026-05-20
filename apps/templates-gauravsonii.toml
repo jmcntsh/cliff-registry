@@ -1,0 +1,12 @@
+name = "templates-gauravsonii"
+description = "Templates for bootstrapping a Rust TUI application with Ratatui"
+author = "gauravsonii"
+homepage = "https://github.com/gauravsonii/templates"
+readme = "https://raw.githubusercontent.com/gauravsonii/templates/MAIN/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "templates"

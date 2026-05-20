@@ -1,0 +1,11 @@
+name = "terminal-chess"
+description = "Terminal Chess is a simple chess game playable in the command line. It allows two players to compete against each oth..."
+author = "nurbaeth"
+homepage = "https://github.com/nurbaeth/Terminal-Chess"
+readme = "https://raw.githubusercontent.com/nurbaeth/Terminal-Chess/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "pipx"
+package = "Terminal-Chess"

@@ -1,0 +1,11 @@
+name = "aws-tui"
+description = "[WIP] Unofficial terminal Interface for AWS"
+author = "rfc2119"
+homepage = "https://github.com/rfc2119/aws-tui"
+readme = "https://raw.githubusercontent.com/rfc2119/aws-tui/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/rfc2119/aws-tui@latest"

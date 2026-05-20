@@ -1,0 +1,11 @@
+name = "botctl"
+description = "Manage persistent AI bots with a terminal dashboard, web UI, and declarative configuration."
+author = "montanaflynn"
+homepage = "https://github.com/montanaflynn/botctl"
+readme = "https://raw.githubusercontent.com/montanaflynn/botctl/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "go"
+package = "github.com/montanaflynn/botctl@latest"

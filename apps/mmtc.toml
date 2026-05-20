@@ -1,0 +1,12 @@
+name = "mmtc"
+description = "Minimal mpd terminal client that aims to be simple yet highly configurable"
+author = "figsoda"
+homepage = "https://github.com/figsoda/mmtc"
+readme = "https://raw.githubusercontent.com/figsoda/mmtc/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MPL-2.0"
+
+[[installs]]
+type = "cargo"
+package = "mmtc"

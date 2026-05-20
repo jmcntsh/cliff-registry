@@ -1,0 +1,12 @@
+name = "c9s"
+description = "Terminal dashboard for Claude Code — zero config, track all sessions, switch context instantly, never lose track of..."
+author = "StefanoGuerrini"
+homepage = "https://github.com/StefanoGuerrini/c9s"
+readme = "https://raw.githubusercontent.com/StefanoGuerrini/c9s/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/StefanoGuerrini/c9s@latest"

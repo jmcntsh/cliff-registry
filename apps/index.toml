@@ -1,0 +1,12 @@
+name = "index"
+description = "Index é um organizador de artigos e documentos PDF elegante para o terminal. Ele utiliza uma interface TUI (Text Use..."
+author = "DeividSouSan"
+homepage = "https://github.com/DeividSouSan/index"
+readme = "https://raw.githubusercontent.com/DeividSouSan/index/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "index"

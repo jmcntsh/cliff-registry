@@ -1,0 +1,12 @@
+name = "nexus"
+description = "Terminal dashboard for monitoring and managing AI coding agent sessions, accounts, and quotas across Codex, Claude, a..."
+author = "filipeaaoliveira"
+homepage = "https://github.com/filipeaaoliveira/nexus"
+readme = "https://raw.githubusercontent.com/filipeaaoliveira/nexus/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "nexus"

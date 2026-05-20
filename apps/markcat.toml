@@ -1,0 +1,12 @@
+name = "markcat"
+description = ":eyeglasses: Markdown files terminal viewer."
+author = "BubuAnabelas"
+homepage = "https://github.com/BubuAnabelas/markcat"
+readme = "https://raw.githubusercontent.com/BubuAnabelas/markcat/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "markcat"

@@ -1,0 +1,11 @@
+name = "watchit"
+description = "Rust terminal browser for IMDb Top 250 movies and series. Part of the Fe2O3 suite."
+author = "isene"
+homepage = "https://github.com/isene/watchit"
+readme = "https://raw.githubusercontent.com/isene/watchit/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "cargo"
+package = "watchit"

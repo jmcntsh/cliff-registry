@@ -1,0 +1,12 @@
+name = "yamusic-tui"
+description = "An unofficial Yandex Music terminal client."
+author = "DECE2183"
+homepage = "https://github.com/DECE2183/yamusic-tui"
+readme = "https://raw.githubusercontent.com/DECE2183/yamusic-tui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/DECE2183/yamusic-tui@latest"

@@ -1,0 +1,11 @@
+name = "inshorts-tv"
+description = "An Unoffical Inshorts Terminal viewer"
+author = "prashanthvish"
+homepage = "https://github.com/prashanthvish/inshorts-tv"
+readme = "https://raw.githubusercontent.com/prashanthvish/inshorts-tv/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "inshorts-tv"

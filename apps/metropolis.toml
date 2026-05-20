@@ -1,0 +1,12 @@
+name = "metropolis"
+description = "A cyberpunk system monitor that transforms kernel metrics into a living terminal skyline. Built with Rust & Ratatui."
+author = "5c0"
+homepage = "https://github.com/5c0/metropolis"
+readme = "https://raw.githubusercontent.com/5c0/metropolis/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "metropolis"

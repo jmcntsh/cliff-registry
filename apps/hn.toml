@@ -1,0 +1,12 @@
+name = "hn"
+description = "A hackernews ncurses CLI written in GO"
+author = "andrewstuart"
+homepage = "https://github.com/andrewstuart/hn"
+readme = "https://raw.githubusercontent.com/andrewstuart/hn/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/andrewstuart/hn@latest"

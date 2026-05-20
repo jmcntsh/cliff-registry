@@ -1,0 +1,12 @@
+name = "snips-sh"
+description = "✂️ passwordless, anonymous SSH-powered pastebin with a human-friendly TUI and web UI"
+author = "robherley"
+homepage = "https://github.com/robherley/snips.sh"
+readme = "https://raw.githubusercontent.com/robherley/snips.sh/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/robherley/snips.sh@latest"

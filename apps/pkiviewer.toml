@@ -1,0 +1,12 @@
+name = "pkiviewer"
+description = "A terminal viewer for file types associated with PKI (X.509 Certificates etc.)"
+author = "sffjunkie"
+homepage = "https://github.com/sffjunkie/pkiviewer"
+readme = "https://raw.githubusercontent.com/sffjunkie/pkiviewer/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "pkiviewer"

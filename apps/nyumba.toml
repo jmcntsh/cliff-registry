@@ -1,0 +1,11 @@
+name = "nyumba"
+description = "A Yazi-inspired terminal file manager built in Go with Bubble Tea"
+author = "OsteenK"
+homepage = "https://github.com/OsteenK/Nyumba"
+readme = "https://raw.githubusercontent.com/OsteenK/Nyumba/main/README.md"
+tags = ["cli"]
+category = "File management"
+
+[[installs]]
+type = "go"
+package = "github.com/OsteenK/Nyumba@latest"

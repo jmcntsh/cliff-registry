@@ -1,0 +1,12 @@
+name = "pi-dashboard"
+description = "Beautiful terminal dashboard for Raspberry Pi"
+author = "nukeop"
+homepage = "https://github.com/nukeop/pi-dashboard"
+readme = "https://raw.githubusercontent.com/nukeop/pi-dashboard/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "pi-dashboard"

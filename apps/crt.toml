@@ -1,0 +1,12 @@
+name = "crt"
+description = "Minimal terminal emulator for Bubbletea."
+author = "BigJk"
+homepage = "https://github.com/BigJk/crt"
+readme = "https://raw.githubusercontent.com/BigJk/crt/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/BigJk/crt@latest"

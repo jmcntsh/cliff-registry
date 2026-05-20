@@ -1,0 +1,11 @@
+name = "btop-clementbolin"
+description = "Btop is your personal terminal dashboard. The goal of this project, is to display many information of your system 🚀"
+author = "clementbolin"
+homepage = "https://github.com/clementbolin/btop"
+readme = "https://raw.githubusercontent.com/clementbolin/btop/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "go"
+package = "github.com/clementbolin/btop@latest"

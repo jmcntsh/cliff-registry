@@ -1,0 +1,11 @@
+name = "json-log-viewer"
+description = "Powerful terminal based viewer for JSON logs using ncurses."
+author = "gistia"
+homepage = "https://github.com/gistia/json-log-viewer"
+readme = "https://raw.githubusercontent.com/gistia/json-log-viewer/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "npm"
+package = "json-log-viewer"

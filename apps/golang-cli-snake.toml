@@ -1,0 +1,11 @@
+name = "golang-cli-snake"
+description = "🐍 Go 語言製作的終端機貪食蛇，terminal snake by golang"
+author = "oawu"
+homepage = "https://github.com/oawu/Golang-cli-snake"
+readme = "https://raw.githubusercontent.com/oawu/Golang-cli-snake/master/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "go"
+package = "github.com/oawu/Golang-cli-snake@latest"

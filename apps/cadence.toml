@@ -1,0 +1,12 @@
+name = "cadence"
+description = "OTLP traces in your terminal. Browse with the TUI, pipe with the CLI."
+author = "johnletey"
+homepage = "https://github.com/johnletey/cadence"
+readme = "https://raw.githubusercontent.com/johnletey/cadence/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/johnletey/cadence@latest"

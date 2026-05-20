@@ -1,0 +1,12 @@
+name = "ralphi"
+description = "Ralphi helps you launch, monitor, and steer PRD-driven coding runs from a terminal dashboard."
+author = "fagnerjs"
+homepage = "https://github.com/fagnerjs/ralphi"
+readme = "https://raw.githubusercontent.com/fagnerjs/ralphi/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ralphi"

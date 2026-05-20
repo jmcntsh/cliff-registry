@@ -1,0 +1,12 @@
+name = "yup"
+description = "Arch Linux AUR Helper with ncurses functionality and better searching and sorting"
+author = "ericm"
+homepage = "https://github.com/ericm/yup"
+readme = "https://raw.githubusercontent.com/ericm/yup/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ericm/yup@latest"

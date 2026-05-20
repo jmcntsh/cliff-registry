@@ -1,0 +1,12 @@
+name = "nerdlog"
+description = "Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server"
+author = "dimonomid"
+homepage = "https://github.com/dimonomid/nerdlog"
+readme = "https://raw.githubusercontent.com/dimonomid/nerdlog/master/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/dimonomid/nerdlog@latest"

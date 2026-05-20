@@ -1,0 +1,12 @@
+name = "bpython"
+description = "bpython - A fancy curses interface to the Python interactive interpreter"
+author = "bpython"
+homepage = "https://github.com/bpython/bpython"
+readme = "https://raw.githubusercontent.com/bpython/bpython/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "bpython"

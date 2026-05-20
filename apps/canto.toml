@@ -1,0 +1,12 @@
+name = "canto"
+description = "A flexible RSS/Atom reader based on ncurses and feedparser"
+author = "themoken"
+homepage = "https://github.com/themoken/Canto"
+readme = "https://raw.githubusercontent.com/themoken/Canto/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "Canto"

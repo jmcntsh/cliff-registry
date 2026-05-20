@@ -1,0 +1,11 @@
+name = "hnterminal"
+description = "terminal client for browsing hacker news"
+author = "Aperocky"
+homepage = "https://github.com/Aperocky/hnterminal"
+readme = "https://raw.githubusercontent.com/Aperocky/hnterminal/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "pipx"
+package = "hnterminal"

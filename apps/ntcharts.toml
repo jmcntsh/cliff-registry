@@ -1,0 +1,12 @@
+name = "ntcharts"
+description = "Nimble Terminal Charts for the Golang BubbleTea framework and your TUIs"
+author = "NimbleMarkets"
+homepage = "https://github.com/NimbleMarkets/ntcharts"
+readme = "https://raw.githubusercontent.com/NimbleMarkets/ntcharts/v2/README.md"
+tags = ["tui"]
+category = "Toys & visualizers"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/NimbleMarkets/ntcharts@latest"

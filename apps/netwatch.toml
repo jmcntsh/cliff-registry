@@ -1,0 +1,12 @@
+name = "netwatch"
+description = "Real-time terminal dashboard that monitors per-process network connections on macOS, Windows and Linux"
+author = "itsecurityco"
+homepage = "https://github.com/itsecurityco/netwatch"
+readme = "https://raw.githubusercontent.com/itsecurityco/netwatch/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "netwatch"

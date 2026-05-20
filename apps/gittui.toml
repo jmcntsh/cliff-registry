@@ -1,0 +1,12 @@
+name = "gittui"
+description = "GitHub profile viewer TUI - Terminal dashboard for GitHub activity"
+author = "WillyV3"
+homepage = "https://github.com/WillyV3/gittui"
+readme = "https://raw.githubusercontent.com/WillyV3/gittui/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/WillyV3/gittui@latest"

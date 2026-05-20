@@ -1,0 +1,12 @@
+name = "egui-ratatui"
+description = "A ratatui backend that is also an egui widget. Deploy on web with WASM or ship natively with bevy, macroquad, or eframe"
+author = "gold-silver-copper"
+homepage = "https://github.com/gold-silver-copper/egui_ratatui"
+readme = "https://raw.githubusercontent.com/gold-silver-copper/egui_ratatui/update/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "egui_ratatui"

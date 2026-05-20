@@ -1,0 +1,12 @@
+name = "gpto"
+description = "An Unofficial OpenAI Terminal Client"
+author = "alanvardy"
+homepage = "https://github.com/alanvardy/gpto"
+readme = "https://raw.githubusercontent.com/alanvardy/gpto/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gpto"

@@ -1,0 +1,12 @@
+name = "precis"
+description = "⌨️ A terminal dashboard which gives an overview of useful things"
+author = "benmatselby"
+homepage = "https://github.com/benmatselby/precis"
+readme = "https://raw.githubusercontent.com/benmatselby/precis/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/benmatselby/precis@latest"

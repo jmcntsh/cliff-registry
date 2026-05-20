@@ -1,0 +1,12 @@
+name = "pytest-tui"
+description = "A Text User Interface (TUI) for Pytest, with console scripts to launch a TUI or an HTML page"
+author = "jeffwright13"
+homepage = "https://github.com/jeffwright13/pytest-tui"
+readme = "https://raw.githubusercontent.com/jeffwright13/pytest-tui/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pytest-tui"

@@ -1,0 +1,12 @@
+name = "zfxtop"
+description = "[WIP] fetch top for gen Z with X written by bubbletea enjoyer"
+author = "ssleert"
+homepage = "https://github.com/ssleert/zfxtop"
+readme = "https://raw.githubusercontent.com/ssleert/zfxtop/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/ssleert/zfxtop@latest"

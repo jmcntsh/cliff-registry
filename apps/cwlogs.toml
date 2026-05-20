@@ -1,0 +1,12 @@
+name = "cwlogs"
+description = "Lightweight terminal viewer for AWS CloudWatch Logs — supports live tailing, search, and multiple AWS profiles."
+author = "teaguru"
+homepage = "https://github.com/teaguru/cwlogs"
+readme = "https://raw.githubusercontent.com/teaguru/cwlogs/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/teaguru/cwlogs@latest"

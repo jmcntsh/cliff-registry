@@ -1,0 +1,12 @@
+name = "linode-tui"
+description = "Text User Interface for Linode"
+author = "abemassry"
+homepage = "https://github.com/abemassry/linode-tui"
+readme = "https://raw.githubusercontent.com/abemassry/linode-tui/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/abemassry/linode-tui@latest"

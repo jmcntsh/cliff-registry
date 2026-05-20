@@ -1,0 +1,12 @@
+name = "opcua-commander"
+description = "a opcua client with blessed (ncurses)"
+author = "node-opcua"
+homepage = "https://github.com/node-opcua/opcua-commander"
+readme = "https://raw.githubusercontent.com/node-opcua/opcua-commander/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opcua-commander"

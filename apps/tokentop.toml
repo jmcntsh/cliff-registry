@@ -1,0 +1,12 @@
+name = "tokentop"
+description = "Terminal dashboard for monitoring OpenRouter and Codex API usage in real time"
+author = "lwlee2608"
+homepage = "https://github.com/lwlee2608/tokentop"
+readme = "https://raw.githubusercontent.com/lwlee2608/tokentop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lwlee2608/tokentop@latest"

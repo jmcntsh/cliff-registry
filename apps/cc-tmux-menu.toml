@@ -1,0 +1,12 @@
+name = "cc-tmux-menu"
+description = "TUI session manager for Claude Code with tmux — built with Go + Bubbletea"
+author = "mousems"
+homepage = "https://github.com/mousems/cc-tmux-menu"
+readme = "https://raw.githubusercontent.com/mousems/cc-tmux-menu/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mousems/cc-tmux-menu@latest"

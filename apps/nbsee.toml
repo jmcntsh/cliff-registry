@@ -1,0 +1,12 @@
+name = "nbsee"
+description = "Terminal viewer for Jupyter notebooks with easy code/output copying"
+author = "AnakTeka"
+homepage = "https://github.com/AnakTeka/nbsee"
+readme = "https://raw.githubusercontent.com/AnakTeka/nbsee/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "nbsee"

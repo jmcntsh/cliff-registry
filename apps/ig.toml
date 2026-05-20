@@ -1,0 +1,11 @@
+name = "ig"
+description = ":camera: Terminal browser for Instagram"
+author = "adyshake"
+homepage = "https://github.com/adyshake/ig"
+readme = "https://raw.githubusercontent.com/adyshake/ig/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "pipx"
+package = "ig"

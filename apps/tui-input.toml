@@ -1,0 +1,12 @@
+name = "tui-input"
+description = "TUI input library supporting multiple backends, tui-rs and ratatui"
+author = "sayanarijit"
+homepage = "https://github.com/sayanarijit/tui-input"
+readme = "https://raw.githubusercontent.com/sayanarijit/tui-input/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tui-input"

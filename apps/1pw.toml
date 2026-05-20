@@ -1,0 +1,11 @@
+name = "1pw"
+description = "terminal viewer for 1password/opvault data in golang"
+author = "special"
+homepage = "https://github.com/special/1pw"
+readme = "https://raw.githubusercontent.com/special/1pw/master/README.md"
+tags = ["cli"]
+category = "Security"
+
+[[installs]]
+type = "go"
+package = "github.com/special/1pw@latest"

@@ -1,0 +1,12 @@
+name = "nbpreview"
+description = "A terminal viewer for Jupyter notebooks. It's like cat for ipynb files."
+author = "paw-lu"
+homepage = "https://github.com/paw-lu/nbpreview"
+readme = "https://raw.githubusercontent.com/paw-lu/nbpreview/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "nbpreview"

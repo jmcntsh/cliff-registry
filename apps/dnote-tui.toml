@@ -1,0 +1,12 @@
+name = "dnote-tui"
+description = "Dnote TUI with ratatui"
+author = "deepanchal"
+homepage = "https://github.com/deepanchal/dnote-tui"
+readme = "https://raw.githubusercontent.com/deepanchal/dnote-tui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "dnote-tui"

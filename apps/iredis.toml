@@ -1,0 +1,12 @@
+name = "iredis"
+description = "Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting."
+author = "laixintao"
+homepage = "https://github.com/laixintao/iredis"
+readme = "https://raw.githubusercontent.com/laixintao/iredis/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "iredis"

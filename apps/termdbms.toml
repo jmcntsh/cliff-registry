@@ -1,0 +1,12 @@
+name = "termdbms"
+description = "A TUI for viewing and editing database files."
+author = "mathaou"
+homepage = "https://github.com/mathaou/termdbms"
+readme = "https://raw.githubusercontent.com/mathaou/termdbms/master/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mathaou/termdbms@latest"

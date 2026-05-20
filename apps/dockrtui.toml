@@ -1,0 +1,11 @@
+name = "dockrtui"
+description = "A fast, modern and keyboard-driven terminal dashboard for Docker — built with Rust and Ratatui"
+author = "LuuNa-JD"
+homepage = "https://github.com/LuuNa-JD/dockrtui"
+readme = "https://raw.githubusercontent.com/LuuNa-JD/dockrtui/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "cargo"
+package = "dockrtui"

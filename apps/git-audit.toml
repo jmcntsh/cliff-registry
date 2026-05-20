@@ -1,0 +1,11 @@
+name = "git-audit"
+description = "A lazygit-style terminal dashboard for codebase intelligence. Runs the 5 git commands from https://piechowski.io/post..."
+author = "mikaoelitiana"
+homepage = "https://github.com/mikaoelitiana/git-audit"
+readme = "https://raw.githubusercontent.com/mikaoelitiana/git-audit/main/README.md"
+tags = ["tui"]
+category = "Version control"
+
+[[installs]]
+type = "go"
+package = "github.com/mikaoelitiana/git-audit@latest"

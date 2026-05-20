@@ -1,0 +1,11 @@
+name = "logdog"
+description = "A terminal viewer for Android's logging system. Originally by Jeff Sharkey."
+author = "dj-foxxy"
+homepage = "https://github.com/dj-foxxy/logdog"
+readme = "https://raw.githubusercontent.com/dj-foxxy/logdog/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "pipx"
+package = "logdog"

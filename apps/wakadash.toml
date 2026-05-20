@@ -1,0 +1,12 @@
+name = "wakadash"
+description = "A live terminal dashboard for WakaTime coding stats"
+author = "b00y0h"
+homepage = "https://github.com/b00y0h/wakadash"
+readme = "https://raw.githubusercontent.com/b00y0h/wakadash/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/b00y0h/wakadash@latest"

@@ -1,0 +1,12 @@
+name = "xrel-terminal-client"
+description = "A terminal client to access the xREL.to API, written in Go."
+author = "hashworks"
+homepage = "https://github.com/hashworks/xREL-Terminal-Client"
+readme = "https://raw.githubusercontent.com/hashworks/xREL-Terminal-Client/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/hashworks/xREL-Terminal-Client@latest"

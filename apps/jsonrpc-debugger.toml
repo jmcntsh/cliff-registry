@@ -1,0 +1,12 @@
+name = "jsonrpc-debugger"
+description = "A terminal-based TUI JSON-RPC debugger with interception capabilities, built with Rust and ratatui. Inspect, modify..."
+author = "shanejonas"
+homepage = "https://github.com/shanejonas/jsonrpc-debugger"
+readme = "https://raw.githubusercontent.com/shanejonas/jsonrpc-debugger/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "jsonrpc-debugger"

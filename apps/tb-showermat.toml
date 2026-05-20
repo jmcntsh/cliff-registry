@@ -1,0 +1,11 @@
+name = "tb-showermat"
+description = "Interactive terminal browser for tree-structured data"
+author = "showermat"
+homepage = "https://github.com/showermat/tb"
+readme = "https://raw.githubusercontent.com/showermat/tb/master/README.md"
+tags = ["cli"]
+category = "Data tools"
+
+[[installs]]
+type = "cargo"
+package = "tb"

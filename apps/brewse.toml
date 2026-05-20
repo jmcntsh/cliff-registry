@@ -1,0 +1,12 @@
+name = "brewse"
+description = "Terminal browser for Homebrew packages."
+author = "jonasjancarik"
+homepage = "https://github.com/jonasjancarik/brewse"
+readme = "https://raw.githubusercontent.com/jonasjancarik/brewse/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "brewse"

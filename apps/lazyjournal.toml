@@ -1,0 +1,12 @@
+name = "lazyjournal"
+description = "TUI for viewing logs from journald, auditd, file system, Docker and Podman containers, Compose stacks and Kubernetes..."
+author = "Lifailon"
+homepage = "https://github.com/Lifailon/lazyjournal"
+readme = "https://raw.githubusercontent.com/Lifailon/lazyjournal/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Lifailon/lazyjournal@latest"

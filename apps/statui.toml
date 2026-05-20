@@ -1,0 +1,12 @@
+name = "statui"
+description = "API health check TUI dashboard built with Rust and Ratatui."
+author = "Mohamed-Badry"
+homepage = "https://github.com/Mohamed-Badry/statui"
+readme = "https://raw.githubusercontent.com/Mohamed-Badry/statui/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "statui"

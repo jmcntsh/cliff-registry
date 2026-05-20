@@ -1,0 +1,12 @@
+name = "txtv"
+description = "txtv cli - A simple and fast terminal client for browsing Swedish Text TV"
+author = "uherman"
+homepage = "https://github.com/uherman/txtv"
+readme = "https://raw.githubusercontent.com/uherman/txtv/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "txtv"

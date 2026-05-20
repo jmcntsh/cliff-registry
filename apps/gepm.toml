@@ -1,0 +1,11 @@
+name = "gepm"
+description = "Go Express Package Manager. Terminal browser and installer for Go packages."
+author = "jkreshpaj"
+homepage = "https://github.com/jkreshpaj/gepm"
+readme = "https://raw.githubusercontent.com/jkreshpaj/gepm/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "go"
+package = "github.com/jkreshpaj/gepm@latest"

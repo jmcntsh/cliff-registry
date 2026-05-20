@@ -1,0 +1,12 @@
+name = "bubbleprompt"
+description = "Prompt widget for bubbletea based on go-prompt"
+author = "aschey"
+homepage = "https://github.com/aschey/bubbleprompt"
+readme = "https://raw.githubusercontent.com/aschey/bubbleprompt/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aschey/bubbleprompt@latest"

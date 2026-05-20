@@ -1,0 +1,12 @@
+name = "git-terminal"
+description = "A tiny terminal dashboard to monitor and manage multiple git repositories"
+author = "yomansk8"
+homepage = "https://github.com/yomansk8/git-terminal"
+readme = "https://raw.githubusercontent.com/yomansk8/git-terminal/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "git-terminal"

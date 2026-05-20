@@ -1,0 +1,12 @@
+name = "tachyonfx"
+description = "Effects and animation library for Ratatui applications"
+author = "ratatui"
+homepage = "https://github.com/ratatui/tachyonfx"
+readme = "https://raw.githubusercontent.com/ratatui/tachyonfx/development/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tachyonfx"

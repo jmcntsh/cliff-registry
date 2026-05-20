@@ -1,0 +1,11 @@
+name = "mocha-cloud-grid-view"
+description = "Terminal browser grid view for 'mocha cloud' testing"
+author = "tj"
+homepage = "https://github.com/tj/mocha-cloud-grid-view"
+readme = "https://raw.githubusercontent.com/tj/mocha-cloud-grid-view/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "npm"
+package = "mocha-cloud-grid-view"

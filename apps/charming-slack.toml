@@ -1,0 +1,11 @@
+name = "charming-slack"
+description = "A cool slack over ssh project with a pretty bubbletea tui"
+author = "taciturnaxolotl"
+homepage = "https://github.com/taciturnaxolotl/charming-slack"
+readme = "https://raw.githubusercontent.com/taciturnaxolotl/charming-slack/main/README.md"
+tags = ["tui"]
+category = "Networking"
+
+[[installs]]
+type = "go"
+package = "github.com/taciturnaxolotl/charming-slack@latest"

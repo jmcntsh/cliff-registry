@@ -1,0 +1,12 @@
+name = "unkeyb"
+description = "A simple TUI keyboard typing speed test built using Go and the bubbletea framework."
+author = "untemi"
+homepage = "https://github.com/untemi/unkeyb"
+readme = "https://raw.githubusercontent.com/untemi/unkeyb/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/untemi/unkeyb@latest"

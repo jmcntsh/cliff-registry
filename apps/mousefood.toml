@@ -1,0 +1,12 @@
+name = "mousefood"
+description = "embedded-graphics backend for Ratatui"
+author = "ratatui"
+homepage = "https://github.com/ratatui/mousefood"
+readme = "https://raw.githubusercontent.com/ratatui/mousefood/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "mousefood"

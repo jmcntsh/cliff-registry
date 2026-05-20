@@ -1,0 +1,12 @@
+name = "micasa"
+description = "A modal TUI for tracking home projects, maintenance schedules, appliances, and vendor quotes."
+author = "micasa-dev"
+homepage = "https://github.com/micasa-dev/micasa"
+readme = "https://raw.githubusercontent.com/micasa-dev/micasa/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/micasa-dev/micasa@latest"

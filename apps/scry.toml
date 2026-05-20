@@ -1,0 +1,12 @@
+name = "scry"
+description = "scry - a magical, interactive terminal viewer for logs."
+author = "williamkehl"
+homepage = "https://github.com/williamkehl/scry"
+readme = "https://raw.githubusercontent.com/williamkehl/scry/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "UNLICENSE"
+
+[[installs]]
+type = "cargo"
+package = "scry"

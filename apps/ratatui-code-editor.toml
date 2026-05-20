@@ -1,0 +1,12 @@
+name = "ratatui-code-editor"
+description = "A code editor widget for Ratatui"
+author = "vipmax"
+homepage = "https://github.com/vipmax/ratatui-code-editor"
+readme = "https://raw.githubusercontent.com/vipmax/ratatui-code-editor/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-code-editor"

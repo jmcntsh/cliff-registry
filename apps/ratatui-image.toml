@@ -1,0 +1,12 @@
+name = "ratatui-image"
+description = "Ratatui widget for rendering image graphics in terminals that support it"
+author = "ratatui"
+homepage = "https://github.com/ratatui/ratatui-image"
+readme = "https://raw.githubusercontent.com/ratatui/ratatui-image/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-image"

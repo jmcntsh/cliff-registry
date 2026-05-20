@@ -1,0 +1,12 @@
+name = "ferrodb"
+description = "Database management tool with explicit, auditable schema migrations and built-in terminal browser. :dart:"
+author = "qbart"
+homepage = "https://github.com/qbart/ferrodb"
+readme = "https://raw.githubusercontent.com/qbart/ferrodb/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/qbart/ferrodb@latest"

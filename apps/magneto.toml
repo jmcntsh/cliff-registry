@@ -1,0 +1,12 @@
+name = "magneto"
+description = "Pipe runc (OCI compatible) events to a stats TUI (Text User Interface)."
+author = "genuinetools"
+homepage = "https://github.com/genuinetools/magneto"
+readme = "https://raw.githubusercontent.com/genuinetools/magneto/master/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/genuinetools/magneto@latest"

@@ -1,0 +1,12 @@
+name = "terminalus"
+description = "npm terminal dashboard"
+author = "andreidmt"
+homepage = "https://github.com/andreidmt/terminalus"
+readme = "https://raw.githubusercontent.com/andreidmt/terminalus/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "terminalus"

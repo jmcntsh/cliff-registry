@@ -1,0 +1,12 @@
+name = "ns-tui"
+description = "A beautiful terminal interface for searching Nixpkgs, HM options in real-time."
+author = "briheet"
+homepage = "https://github.com/briheet/ns-tui"
+readme = "https://raw.githubusercontent.com/briheet/ns-tui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/briheet/ns-tui@latest"

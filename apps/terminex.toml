@@ -1,0 +1,12 @@
+name = "terminex"
+description = "A terminal dashboard for live prices across three asset classes; foreign-exchange, cryptocurrencies and commodities."
+author = "Bij4n"
+homepage = "https://github.com/Bij4n/terminex"
+readme = "https://raw.githubusercontent.com/Bij4n/terminex/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "terminex"

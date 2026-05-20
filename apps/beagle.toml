@@ -1,0 +1,12 @@
+name = "beagle"
+description = "Claude Code plugin for code review skills and verification workflows. Python, Go, React, FastAPI, BubbleTea, and AI f..."
+author = "existential-birds"
+homepage = "https://github.com/existential-birds/beagle"
+readme = "https://raw.githubusercontent.com/existential-birds/beagle/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "beagle"

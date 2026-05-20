@@ -1,0 +1,12 @@
+name = "howto"
+description = "Terminal client for stack overflow"
+author = "pr4k"
+homepage = "https://github.com/pr4k/howto"
+readme = "https://raw.githubusercontent.com/pr4k/howto/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/pr4k/howto@latest"

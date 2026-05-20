@@ -1,0 +1,12 @@
+name = "kk"
+description = "A kubernetes/kubectl terminal client"
+author = "nii236"
+homepage = "https://github.com/nii236/kk"
+readme = "https://raw.githubusercontent.com/nii236/kk/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nii236/kk@latest"

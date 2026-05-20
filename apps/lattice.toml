@@ -1,0 +1,12 @@
+name = "lattice"
+description = "A modular terminal dashboard built with Go and Bubble Tea"
+author = "floatpane"
+homepage = "https://github.com/floatpane/lattice"
+readme = "https://raw.githubusercontent.com/floatpane/lattice/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/floatpane/lattice@latest"

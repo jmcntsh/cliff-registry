@@ -1,0 +1,12 @@
+name = "ghcrawl"
+description = "Terminal UI and local CLI for crawling GitHub issues and pull requests, generating embeddings, and clustering related..."
+author = "pwrdrvr"
+homepage = "https://github.com/pwrdrvr/ghcrawl"
+readme = "https://raw.githubusercontent.com/pwrdrvr/ghcrawl/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ghcrawl"

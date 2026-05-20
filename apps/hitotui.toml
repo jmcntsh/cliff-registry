@@ -1,0 +1,12 @@
+name = "hitotui"
+description = "A beautiful, colorful terminal file manager inspired by yazi, built with Go and Bubbletea. Features dual-pane interfa..."
+author = "guicybercode"
+homepage = "https://github.com/guicybercode/hitotui"
+readme = "https://raw.githubusercontent.com/guicybercode/hitotui/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/guicybercode/hitotui@latest"

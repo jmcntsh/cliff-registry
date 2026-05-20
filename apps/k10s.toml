@@ -1,0 +1,11 @@
+name = "k10s"
+description = "A fast, concurrent, and highly functional multi-cluster Kubernetes terminal dashboard."
+author = "mpiorowski"
+homepage = "https://github.com/mpiorowski/k10s"
+readme = "https://raw.githubusercontent.com/mpiorowski/k10s/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/mpiorowski/k10s@latest"

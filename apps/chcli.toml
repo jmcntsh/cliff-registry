@@ -1,0 +1,12 @@
+name = "chcli"
+description = "A Terminal Client for ClickHouse with AutoCompletion and Syntax Highlighting."
+author = "long2ice"
+homepage = "https://github.com/long2ice/chcli"
+readme = "https://raw.githubusercontent.com/long2ice/chcli/dev/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "chcli"

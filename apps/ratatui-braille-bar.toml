@@ -1,0 +1,12 @@
+name = "ratatui-braille-bar"
+description = "Once-style braille progress bars for Ratatui"
+author = "penso"
+homepage = "https://github.com/penso/ratatui-braille-bar"
+readme = "https://raw.githubusercontent.com/penso/ratatui-braille-bar/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-braille-bar"

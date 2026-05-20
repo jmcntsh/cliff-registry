@@ -1,0 +1,12 @@
+name = "klient"
+description = "multiple terminal client for data storage [kafka | mysql | postgresql | click house |redis]"
+author = "lubit"
+homepage = "https://github.com/lubit/klient"
+readme = "https://raw.githubusercontent.com/lubit/klient/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/lubit/klient@latest"

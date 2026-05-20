@@ -1,0 +1,12 @@
+name = "lazysql"
+description = "A cross-platform TUI database management tool written in Go."
+author = "jorgerojas26"
+homepage = "https://github.com/jorgerojas26/lazysql"
+readme = "https://raw.githubusercontent.com/jorgerojas26/lazysql/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jorgerojas26/lazysql@latest"

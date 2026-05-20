@@ -1,0 +1,12 @@
+name = "fusiondatacli"
+description = "Terminal browser for Autodesk Fusion and simple MCP actions for open and insert. Uses Autodesk Platform Services (APS..."
+author = "schneik80"
+homepage = "https://github.com/schneik80/FusionDataCLI"
+readme = "https://raw.githubusercontent.com/schneik80/FusionDataCLI/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/schneik80/FusionDataCLI@latest"

@@ -57,6 +57,40 @@ SEARCH_QUERIES = (
     "textual in:name,description",
 )
 
+TUI_SEARCH_QUERIES = (
+    '"terminal game" in:description',
+    '"console game" in:description',
+    '"ascii game" in:description',
+    '"command-line game" in:description',
+    '"terminal tetris" in:description',
+    '"terminal chess" in:description',
+    '"terminal snake" in:description',
+    '"terminal minesweeper" in:description',
+    '"terminal roguelike" in:description',
+    "roguelike in:name,description",
+    "topic:tui OR topic:terminal-ui OR topic:curses OR topic:ncurses OR topic:ratatui OR topic:bubbletea",
+    "tui in:name,description",
+    '"terminal ui" in:description',
+    '"text user interface" in:description',
+    '"terminal interface" in:description',
+    '"terminal dashboard" in:description',
+    '"terminal file manager" in:description',
+    '"terminal client" in:description',
+    '"terminal browser" in:description',
+    '"terminal viewer" in:description',
+    "curses in:name,description",
+    "ncurses in:name,description",
+    "ratatui in:name,description",
+    "bubbletea in:name,description",
+    '"bubble tea" in:description',
+    "charmbracelet in:name,description",
+    "tview in:name,description",
+    "tcell in:name,description",
+    "termbox in:name,description",
+    "urwid in:name,description",
+    "textual in:name,description",
+)
+
 # Minimal category-check terms. The hotness algorithm in cliff handles
 # real curation; this list only catches things that are categorically
 # wrong (not a CLI/TUI at all) so we don't pollute the registry index.
@@ -74,6 +108,24 @@ CATEGORY_DENY_TERMS = (
     "alternative to postman",
     "web, desktop & cli",
     "web, desktop and cli",
+    "web ui libraries",
+    "profile readme",
+    "typing effects",
+    "offline installer",
+    "collection of components",
+    "widget toolkit",
+    "tui renderer",
+    "text user interface functions",
+    "ui components",
+    "tui table component",
+    "ratatui widget",
+    "widget for ratatui",
+    "widgets for ratatui",
+    "tui components",
+    "software renderer for ratatui",
+    "rendering backend for ratatui",
+    "syntax highlighter for ratatui",
+    "develop ratatui widgets",
 )
 
 CATEGORY_DENY_NAME_PATTERNS = (
@@ -88,7 +140,7 @@ CATEGORY_DENY_NAME_PATTERNS = (
 # "CLI for FooSDK" is not blocked.
 LIBRARY_LEAD_TOKENS = (
     "library", "framework", "sdk", "toolkit", "crate", "package",
-    "module", "bindings", "plugin", "template",
+    "module", "bindings", "plugin", "template", "renderer",
 )
 
 # Case-insensitive: descriptions where the LIBRARY/FRAMEWORK identity
@@ -103,6 +155,7 @@ LIBRARY_LEAD_PATTERNS_CI = (
     r"\bbindings?\s+for\b",
     r"\b(framework|library|sdk|toolkit|package|module|plugin)\s+for\s+building\b",
     r"\b(build|create|develop)\s+[^.]{0,80}\b(cli|tui|terminal)\s+(apps?|applications?|tools?)\b",
+    r"\b(collection|set)\s+of\s+[^.]{0,40}\b(components?|widgets?|helpers?|functions?)\b",
 )
 
 # Case-sensitive: "X components for ProperName" — catches "TUI
@@ -125,6 +178,17 @@ RUNNABLE_APP_PATTERNS_CI = (
     r"\bsubcommand\b",
 )
 
+TUI_APP_PATTERNS_CI = (
+    r"\btui\b",
+    r"\bterminal[- ]based\b",
+    r"\bterminal\s+(ui|dashboard|client|browser|viewer|manager|navigator|player|game|roguelike|tetris|chess|snake|minesweeper)\b",
+    r"\btext\s+user\s+interface\b",
+    r"\bconsole\s+(ui|client|game)\b",
+    r"\b(curses|ncurses|ratatui|bubble\s*tea|bubbletea|charmbracelet|tview|tcell|termbox|urwid|textual)\b",
+    r"\b(ascii|ansi)\s+game\b",
+    r"\broguelike\b",
+)
+
 @dataclass
 class Verdict:
     full_name: str
@@ -145,6 +209,7 @@ def collect_repos(
     min_stars: int,
     limit: int,
     pushed_since: str | None = None,
+    queries: tuple[str, ...] = SEARCH_QUERIES,
 ) -> list[dict[str, Any]]:
     """Fan out GitHub repo search queries and dedupe by full name.
 
@@ -161,7 +226,7 @@ def collect_repos(
     out: dict[str, dict[str, Any]] = {}
     failed: list[str] = []
 
-    for i, query in enumerate(SEARCH_QUERIES, start=1):
+    for i, query in enumerate(queries, start=1):
         cmd = [
             "gh", "search", "repos", query,
             "--limit", str(limit),
@@ -195,7 +260,7 @@ def collect_repos(
             if full_name:
                 out.setdefault(full_name.lower(), item)
         added = len(out) - before
-        print(f"search {i:02d}/{len(SEARCH_QUERIES)}: {len(items)} returned, {added} new ({query})")
+        print(f"search {i:02d}/{len(queries)}: {len(items)} returned, {added} new ({query})")
 
     if not out and failed:
         raise RuntimeError("; ".join(failed))
@@ -213,6 +278,8 @@ def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
     name = str(repo.get("name") or "")
     full = str(repo.get("fullName") or "").lower()
     desc = str(repo.get("description") or "")
+    if not desc.strip():
+        return False, "missing-description"
     haystack = f"{full} {name} {desc}".lower()
 
     # Strip leading emoji/punctuation so library-lead patterns anchored
@@ -429,7 +496,9 @@ def infer_category(name: str, description: str, tags: list[str] | tuple[str, ...
             "photo", "movie", "anime",
         )),
         ("Games", (
-            "game", "tetris", "chess", "2048", "minesweep", "rogue", "puzzle",
+            " game ", " game.", " game,", "games", "tetris", "chess", "2048", "minesweep", "rogue", "puzzle",
+            "terminal game", "console game", "ascii game", "terminal snake",
+            "terminal chess", "terminal tetris", "terminal roguelike",
         )),
         ("Toys & visualizers", (
             "ascii", "visual", "visualizer", "chart", "graph", "terminal art",
@@ -443,7 +512,26 @@ def infer_category(name: str, description: str, tags: list[str] | tuple[str, ...
             scores[category] = score
     if not scores:
         return "Other"
-    return max(scores.items(), key=lambda item: (item[1], item[0]))[0]
+    priority = {
+        "Games": 100,
+        "Music & media": 90,
+        "AI tools": 80,
+        "DevOps": 75,
+        "Version control": 70,
+        "Databases": 65,
+        "HTTP clients": 60,
+        "Networking": 55,
+        "Security": 50,
+        "Monitoring": 45,
+        "File management": 40,
+        "Data tools": 35,
+        "Documentation": 30,
+        "Productivity": 25,
+        "Developer tools": 20,
+        "Toys & visualizers": 15,
+        "Shell utilities": 10,
+    }
+    return max(scores.items(), key=lambda item: (item[1], priority.get(item[0], 0)))[0]
 
 
 def render_manifest(v: Verdict, slug: str) -> str:
@@ -473,11 +561,24 @@ def render_manifest(v: Verdict, slug: str) -> str:
     )
 
 
+def looks_like_tui_app(repo: dict[str, Any]) -> tuple[bool, str]:
+    ok, why = looks_like_app(repo)
+    if not ok:
+        return ok, why
+    name = str(repo.get("name") or "")
+    desc = str(repo.get("description") or "")
+    haystack = f"{name} {desc}".lower()
+    if any(re.search(pat, haystack, re.IGNORECASE) for pat in TUI_APP_PATTERNS_CI):
+        return True, ""
+    return False, "no-tui-signal"
+
+
 def evaluate(
     repo: dict[str, Any],
     ledger: dict[str, dict[str, Any]],
     existing_homepages: set[str],
     verify_registry: bool,
+    tui_only: bool = False,
 ) -> Verdict:
     full_name = str(repo.get("fullName") or "")
     full_lower = full_name.lower()
@@ -507,7 +608,7 @@ def evaluate(
         base.reason = "already-in-registry"
         return base
 
-    ok, why = looks_like_app(repo)
+    ok, why = looks_like_tui_app(repo) if tui_only else looks_like_app(repo)
     if not ok:
         base.reason = why
         return base
@@ -595,6 +696,8 @@ def main() -> int:
                     help="Print what would happen; touch nothing on disk.")
     ap.add_argument("--full-scan", action="store_true",
                     help="Ignore the recency fast-path; scan everything.")
+    ap.add_argument("--tui-only", action="store_true",
+                    help="Use TUI/game-focused searches and reject plain CLI-only matches.")
     args = ap.parse_args()
 
     repo_root = args.apps_dir.resolve().parent
@@ -608,7 +711,10 @@ def main() -> int:
     print(f"existing apps: {len(existing_homepages)}")
     print(f"search since:  {pushed_since or 'unbounded'}")
 
-    repos = collect_repos(args.min_stars, args.limit, pushed_since=pushed_since)
+    queries = TUI_SEARCH_QUERIES if args.tui_only else SEARCH_QUERIES
+    print(f"search mode:   {'tui-only' if args.tui_only else 'general'}")
+
+    repos = collect_repos(args.min_stars, args.limit, pushed_since=pushed_since, queries=queries)
     print(f"repos returned: {len(repos)}")
 
     if not repos:
@@ -618,7 +724,7 @@ def main() -> int:
     verdicts: list[Verdict] = []
     accepted_count = 0
     for repo in repos:
-        v = evaluate(repo, ledger, existing_homepages, args.verify_registry)
+        v = evaluate(repo, ledger, existing_homepages, args.verify_registry, tui_only=args.tui_only)
         if v.decision == "accepted" and accepted_count >= args.max_new:
             v.decision = "deferred"
             v.reason = "max-new-cap"

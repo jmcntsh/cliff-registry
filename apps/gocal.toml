@@ -1,0 +1,11 @@
+name = "gocal"
+description = "Quick and dirty Google Calendar terminal viewer"
+author = "shapeshed"
+homepage = "https://github.com/shapeshed/gocal"
+readme = "https://raw.githubusercontent.com/shapeshed/gocal/master/README.md"
+tags = ["cli"]
+category = "Networking"
+
+[[installs]]
+type = "go"
+package = "github.com/shapeshed/gocal@latest"

@@ -1,0 +1,12 @@
+name = "mmng-ui"
+description = "A TUI (text user interface) frontend for multimon-ng."
+author = "lingfish"
+homepage = "https://github.com/lingfish/mmng-ui"
+readme = "https://raw.githubusercontent.com/lingfish/mmng-ui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "mmng-ui"

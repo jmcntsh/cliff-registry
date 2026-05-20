@@ -1,0 +1,12 @@
+name = "ratatui-snake"
+description = "Terminal snake game built with Ratatui"
+author = "kriskw1999"
+homepage = "https://github.com/kriskw1999/ratatui-snake"
+readme = "https://raw.githubusercontent.com/kriskw1999/ratatui-snake/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-snake"

@@ -1,0 +1,11 @@
+name = "nascoder-terminal-browser-mcp"
+description = "🌐 Ultimate Standalone Terminal Browser & Web Scraper MCP - Browse any website, extract content & links directly in..."
+author = "freelancernasimofficial"
+homepage = "https://github.com/freelancernasimofficial/nascoder-terminal-browser-mcp"
+readme = "https://raw.githubusercontent.com/freelancernasimofficial/nascoder-terminal-browser-mcp/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "npm"
+package = "nascoder-terminal-browser-mcp"

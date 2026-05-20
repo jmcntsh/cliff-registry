@@ -1,0 +1,12 @@
+name = "tui-shader"
+description = "A Ratatui Widget for computing styles in the terminal at runtime using the power of the GPU"
+author = "pemattern"
+homepage = "https://github.com/pemattern/tui-shader"
+readme = "https://raw.githubusercontent.com/pemattern/tui-shader/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "tui-shader"

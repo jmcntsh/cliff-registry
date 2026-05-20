@@ -1,0 +1,12 @@
+name = "joy"
+description = "A terminal dashboard for monitoring Claude Code sessions in real-time."
+author = "yumazak"
+homepage = "https://github.com/yumazak/joy"
+readme = "https://raw.githubusercontent.com/yumazak/joy/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "joy"

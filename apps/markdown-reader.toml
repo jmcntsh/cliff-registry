@@ -1,0 +1,12 @@
+name = "markdown-reader"
+description = "A TUI markdown file browser and viewer built with Rust and ratatui"
+author = "leboiko"
+homepage = "https://github.com/leboiko/markdown-reader"
+readme = "https://raw.githubusercontent.com/leboiko/markdown-reader/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "markdown-reader"

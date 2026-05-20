@@ -1,0 +1,12 @@
+name = "claudeview"
+description = "Terminal dashboard for real-time Claude Code session monitoring — k9s-style TUI with live tool call tracking, token..."
+author = "Curt-Park"
+homepage = "https://github.com/Curt-Park/claudeview"
+readme = "https://raw.githubusercontent.com/Curt-Park/claudeview/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Curt-Park/claudeview@latest"

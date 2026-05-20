@@ -1,0 +1,12 @@
+name = "bluetuith"
+description = "A cross-platform TUI bluetooth manager."
+author = "bluetuith-org"
+homepage = "https://github.com/bluetuith-org/bluetuith"
+readme = "https://raw.githubusercontent.com/bluetuith-org/bluetuith/master/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bluetuith-org/bluetuith@latest"

@@ -1,0 +1,11 @@
+name = "octotui"
+description = "A GitKraken-Like Text User Interface (TUI) That Runs In Your CLI!"
+author = "never-use-gui"
+homepage = "https://github.com/never-use-gui/octotui"
+readme = "https://raw.githubusercontent.com/never-use-gui/octotui/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "pipx"
+package = "octotui"

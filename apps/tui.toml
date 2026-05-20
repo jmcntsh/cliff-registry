@@ -1,0 +1,12 @@
+name = "tui"
+description = "A simple text user interface for GPTScript chatbots and scripts"
+author = "gptscript-ai"
+homepage = "https://github.com/gptscript-ai/tui"
+readme = "https://raw.githubusercontent.com/gptscript-ai/tui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/gptscript-ai/tui@latest"

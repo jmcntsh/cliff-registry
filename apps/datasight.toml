@@ -1,0 +1,12 @@
+name = "datasight"
+description = "Fast terminal viewer (TUI) for CSV, TSV, Parquet, JSON, and NDJSON files. Vim-style keybindings, instant filtering, m..."
+author = "SpollaL"
+homepage = "https://github.com/SpollaL/datasight"
+readme = "https://raw.githubusercontent.com/SpollaL/datasight/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "datasight"

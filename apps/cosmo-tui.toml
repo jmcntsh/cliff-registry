@@ -1,0 +1,12 @@
+name = "cosmo-tui"
+description = "A terminal dashboard for NASA's open data"
+author = "irahulstomar"
+homepage = "https://github.com/irahulstomar/cosmo-tui"
+readme = "https://raw.githubusercontent.com/irahulstomar/cosmo-tui/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cosmo-tui"

@@ -1,0 +1,12 @@
+name = "nano-ffmpeg"
+description = "nano-ffmpeg wraps the full power of ffmpeg in a beautiful, keyboard-driven terminal dashboard. No more googling flags..."
+author = "dgr8akki"
+homepage = "https://github.com/dgr8akki/nano-ffmpeg"
+readme = "https://raw.githubusercontent.com/dgr8akki/nano-ffmpeg/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dgr8akki/nano-ffmpeg@latest"

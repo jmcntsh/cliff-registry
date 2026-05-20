@@ -1,0 +1,11 @@
+name = "dashboard-shell"
+description = "terminal dashboard"
+author = "Kurama622"
+homepage = "https://github.com/Kurama622/dashboard-shell"
+readme = "https://raw.githubusercontent.com/Kurama622/dashboard-shell/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/Kurama622/dashboard-shell@latest"

@@ -1,0 +1,12 @@
+name = "littlecontrolroom"
+description = "Terminal dashboard for tracking AI work across multiple local projects"
+author = "dpasca"
+homepage = "https://github.com/dpasca/LittleControlRoom"
+readme = "https://raw.githubusercontent.com/dpasca/LittleControlRoom/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dpasca/LittleControlRoom@latest"

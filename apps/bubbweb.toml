@@ -1,0 +1,12 @@
+name = "bubbweb"
+description = "bubbweb - bubbletea CLIs in the browser"
+author = "tmc"
+homepage = "https://github.com/tmc/bubbweb"
+readme = "https://raw.githubusercontent.com/tmc/bubbweb/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tmc/bubbweb@latest"

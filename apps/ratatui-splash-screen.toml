@@ -1,0 +1,12 @@
+name = "ratatui-splash-screen"
+description = "A Ratatui widget to turn any image to a splash screen in your terminal ✨"
+author = "orhun"
+homepage = "https://github.com/orhun/ratatui-splash-screen"
+readme = "https://raw.githubusercontent.com/orhun/ratatui-splash-screen/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-splash-screen"

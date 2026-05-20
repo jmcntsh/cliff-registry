@@ -1,0 +1,11 @@
+name = "hst"
+description = "history search & picker in ncurses - also can pick other things"
+author = "Hipo"
+homepage = "https://github.com/Hipo/hst"
+readme = "https://raw.githubusercontent.com/Hipo/hst/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "pipx"
+package = "hst"

@@ -1,0 +1,12 @@
+name = "cldctrl"
+description = "Mission control for Claude Code — terminal dashboard for session management, usage tracking, and project switching"
+author = "RyanSeanPhillips"
+homepage = "https://github.com/RyanSeanPhillips/cldctrl"
+readme = "https://raw.githubusercontent.com/RyanSeanPhillips/cldctrl/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "cldctrl"

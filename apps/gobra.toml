@@ -1,0 +1,12 @@
+name = "gobra"
+description = "Feature-rich terminal snake clone using ncurses and golang."
+author = "alexanderstephan"
+homepage = "https://github.com/alexanderstephan/gobra"
+readme = "https://raw.githubusercontent.com/alexanderstephan/gobra/master/README.md"
+tags = ["cli"]
+category = "Games"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/alexanderstephan/gobra@latest"

@@ -1,0 +1,11 @@
+name = "titan"
+description = "A half-finished terminal browser for the Gemini protocol"
+author = "mkeeter"
+homepage = "https://github.com/mkeeter/titan"
+readme = "https://raw.githubusercontent.com/mkeeter/titan/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "cargo"
+package = "titan"

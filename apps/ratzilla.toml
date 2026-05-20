@@ -1,0 +1,12 @@
+name = "ratzilla"
+description = "Build terminal-themed web applications with Rust and WebAssembly. Powered by Ratatui."
+author = "ratatui"
+homepage = "https://github.com/ratatui/ratzilla"
+readme = "https://raw.githubusercontent.com/ratatui/ratzilla/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "ratzilla"

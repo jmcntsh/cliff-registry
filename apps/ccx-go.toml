@@ -1,0 +1,12 @@
+name = "ccx-go"
+description = "Go implementation of an AI coding assistant CLI. Zero-dependency binary, goroutine-based agents, Bubbletea TUI."
+author = "anton-abyzov"
+homepage = "https://github.com/anton-abyzov/ccx-go"
+readme = "https://raw.githubusercontent.com/anton-abyzov/ccx-go/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/anton-abyzov/ccx-go@latest"

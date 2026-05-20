@@ -1,0 +1,12 @@
+name = "agenttop"
+description = "Real-time terminal dashboard for monitoring AI coding agent sessions"
+author = "wrxck"
+homepage = "https://github.com/wrxck/agenttop"
+readme = "https://raw.githubusercontent.com/wrxck/agenttop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "agenttop"

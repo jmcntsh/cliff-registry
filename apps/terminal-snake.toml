@@ -1,0 +1,11 @@
+name = "terminal-snake"
+description = "Well-known terminal snake included some creative upgrades with Python and curses library."
+author = "abdullahorzan"
+homepage = "https://github.com/abdullahorzan/terminal_snake"
+readme = "https://raw.githubusercontent.com/abdullahorzan/terminal_snake/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "pipx"
+package = "terminal_snake"

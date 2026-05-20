@@ -1,0 +1,11 @@
+name = "gncdu"
+description = "Implements NCurses Disk Usage(ncdu) with golang"
+author = "bastengao"
+homepage = "https://github.com/bastengao/gncdu"
+readme = "https://raw.githubusercontent.com/bastengao/gncdu/master/README.md"
+tags = ["cli"]
+category = "File management"
+
+[[installs]]
+type = "go"
+package = "github.com/bastengao/gncdu@latest"

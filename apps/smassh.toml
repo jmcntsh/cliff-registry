@@ -1,0 +1,12 @@
+name = "smassh"
+description = "Smassh your Keyboard, TUI Edition"
+author = "kraanzu"
+homepage = "https://github.com/kraanzu/smassh"
+readme = "https://raw.githubusercontent.com/kraanzu/smassh/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "smassh"

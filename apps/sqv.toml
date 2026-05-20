@@ -1,0 +1,12 @@
+name = "sqv"
+description = "SQLite database viewer terminal/text user interface (TUI) for exploring SQLite databases."
+author = "RhetTbull"
+homepage = "https://github.com/RhetTbull/sqv"
+readme = "https://raw.githubusercontent.com/RhetTbull/sqv/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "sqv"

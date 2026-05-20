@@ -1,0 +1,12 @@
+name = "nibble"
+description = "A tool for glamorous shell scripts. Quick, inline TUI components built with Ratatui—no full-screen takeover, just s..."
+author = "Vaishnav-Sabari-Girish"
+homepage = "https://github.com/Vaishnav-Sabari-Girish/nibble"
+readme = "https://raw.githubusercontent.com/Vaishnav-Sabari-Girish/nibble/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "nibble"

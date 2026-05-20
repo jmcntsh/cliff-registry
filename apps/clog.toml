@@ -1,0 +1,12 @@
+name = "clog"
+description = "A high-performance, real-time terminal dashboard for Caddy JSON logs. Features live RPS tracking, status code distrib..."
+author = "hellotimking"
+homepage = "https://github.com/hellotimking/clog"
+readme = "https://raw.githubusercontent.com/hellotimking/clog/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hellotimking/clog@latest"

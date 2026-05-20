@@ -1,0 +1,11 @@
+name = "snake"
+description = "Simple terminal snake game using curses"
+author = "JChouCode"
+homepage = "https://github.com/JChouCode/Snake"
+readme = "https://raw.githubusercontent.com/JChouCode/Snake/master/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "pipx"
+package = "Snake"

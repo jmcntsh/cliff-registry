@@ -1,0 +1,12 @@
+name = "schemaui"
+description = "schemaui turns JSON Schema documents into fully interactive terminal UIs powered by ratatui, crossterm, and jsonschem..."
+author = "YuniqueUnic"
+homepage = "https://github.com/YuniqueUnic/schemaui"
+readme = "https://raw.githubusercontent.com/YuniqueUnic/schemaui/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "schemaui"

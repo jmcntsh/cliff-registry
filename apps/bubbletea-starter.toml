@@ -1,0 +1,12 @@
+name = "bubbletea-starter"
+description = "Starting point for a bubbletea app"
+author = "mistakenelf"
+homepage = "https://github.com/mistakenelf/bubbletea-starter"
+readme = "https://raw.githubusercontent.com/mistakenelf/bubbletea-starter/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mistakenelf/bubbletea-starter@latest"

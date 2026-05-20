@@ -1,0 +1,12 @@
+name = "bosun"
+description = "Tmux-native orchestrator for AI agent sessions. Rust + ratatui."
+author = "yetidevworks"
+homepage = "https://github.com/yetidevworks/bosun"
+readme = "https://raw.githubusercontent.com/yetidevworks/bosun/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "bosun"

@@ -1,0 +1,12 @@
+name = "jellycli"
+description = "Jellyfin terminal client"
+author = "tryffel"
+homepage = "https://github.com/tryffel/jellycli"
+readme = "https://raw.githubusercontent.com/tryffel/jellycli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/tryffel/jellycli@latest"

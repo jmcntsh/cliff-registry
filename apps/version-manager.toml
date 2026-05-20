@@ -1,0 +1,12 @@
+name = "version-manager"
+description = "🔥 A general version manager for thousands of SDKs with TUI inspired by lazygit. No need to remember any commands..."
+author = "gvcgo"
+homepage = "https://github.com/gvcgo/version-manager"
+readme = "https://raw.githubusercontent.com/gvcgo/version-manager/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gvcgo/version-manager@latest"

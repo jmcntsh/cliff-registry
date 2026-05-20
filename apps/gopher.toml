@@ -1,0 +1,11 @@
+name = "gopher"
+description = "A terminal browser for the Gopher protocol."
+author = "therainingmonkey"
+homepage = "https://github.com/therainingmonkey/gopher"
+readme = "https://raw.githubusercontent.com/therainingmonkey/gopher/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "go"
+package = "github.com/therainingmonkey/gopher@latest"

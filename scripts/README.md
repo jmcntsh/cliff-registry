@@ -29,6 +29,7 @@ Useful flags:
 - `--limit 300` — max repos returned per Search query.
 - `--max-new 50` — cap on new manifests emitted per run.
 - `--full-scan` — ignore the recency fast-path; scan all topics.
+- `--tui-only` — use TUI/game-first searches and reject plain CLI-only matches.
 - `--no-verify-registry` — skip HEAD checks against PyPI/npm/crates.io.
 
 ### How a run is shaped
@@ -39,6 +40,9 @@ Useful flags:
    descriptions for CLI/TUI-related terms. README-only matches are avoided
    because they tend to admit libraries, templates, and docs that merely
    mention command-line usage.
+   With `--tui-only`, the query set is narrower and game-first: terminal
+   games, curses/ncurses, Ratatui, Bubble Tea, Textual, tview, termbox,
+   and similar TUI-specific signals.
 3. Skip anything in the ledger or already in `apps/` by homepage.
 4. For survivors: category-check, suggest an install type, optionally
    HEAD-check the package registry, render a manifest.

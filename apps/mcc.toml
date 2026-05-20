@@ -1,0 +1,12 @@
+name = "mcc"
+description = "A terminal dashboard, command launcher, GitHub client.. etc"
+author = "qmu"
+homepage = "https://github.com/qmu/mcc"
+readme = "https://raw.githubusercontent.com/qmu/mcc/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/qmu/mcc@latest"

@@ -1,0 +1,12 @@
+name = "templates"
+description = "Templates for bootstrapping a Rust TUI application with Ratatui"
+author = "ratatui"
+homepage = "https://github.com/ratatui/templates"
+readme = "https://raw.githubusercontent.com/ratatui/templates/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "templates"

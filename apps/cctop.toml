@@ -1,0 +1,12 @@
+name = "cctop"
+description = "Like htop, but for Claude Code. A live terminal dashboard for monitoring all your sessions at a glance."
+author = "DeanLa"
+homepage = "https://github.com/DeanLa/cctop"
+readme = "https://raw.githubusercontent.com/DeanLa/cctop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cctop"

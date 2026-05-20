@@ -1,0 +1,11 @@
+name = "canvas-tui"
+description = "🏫 🔅 A terminal interface for Canvas LMS"
+author = "GideonWolfe"
+homepage = "https://github.com/GideonWolfe/canvas-tui"
+readme = "https://raw.githubusercontent.com/GideonWolfe/canvas-tui/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/GideonWolfe/canvas-tui@latest"

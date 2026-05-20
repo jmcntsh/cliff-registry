@@ -1,0 +1,11 @@
+name = "cli-kanban"
+description = "command line kanban built using the BubbleTea framework"
+author = "b-sia"
+homepage = "https://github.com/b-sia/cli_kanban"
+readme = "https://raw.githubusercontent.com/b-sia/cli_kanban/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/b-sia/cli_kanban@latest"

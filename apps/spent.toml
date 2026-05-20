@@ -1,0 +1,12 @@
+name = "spent"
+description = "Claude Code session cost tracker. Efficiency score, productive vs wasted breakdown, live terminal dashboard."
+author = "loplop-h"
+homepage = "https://github.com/loplop-h/spent"
+readme = "https://raw.githubusercontent.com/loplop-h/spent/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "spent"

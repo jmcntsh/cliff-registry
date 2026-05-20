@@ -1,0 +1,12 @@
+name = "sql-tap"
+description = "Watch SQL traffic in real-time with a TUI"
+author = "mickamy"
+homepage = "https://github.com/mickamy/sql-tap"
+readme = "https://raw.githubusercontent.com/mickamy/sql-tap/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mickamy/sql-tap@latest"

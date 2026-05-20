@@ -1,0 +1,12 @@
+name = "bubbletea-rs"
+description = "A rust implementation of Bubbletea https://github.com/charmbracelet/bubbletea"
+author = "whit3rabbit"
+homepage = "https://github.com/whit3rabbit/bubbletea-rs"
+readme = "https://raw.githubusercontent.com/whit3rabbit/bubbletea-rs/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "bubbletea-rs"

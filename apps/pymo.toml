@@ -1,0 +1,11 @@
+name = "pymo"
+description = "Simple Terminal Browser for MongoDB"
+author = "skreutzberger"
+homepage = "https://github.com/skreutzberger/PyMo"
+readme = "https://raw.githubusercontent.com/skreutzberger/PyMo/master/README.md"
+tags = ["cli"]
+category = "Databases"
+
+[[installs]]
+type = "pipx"
+package = "PyMo"

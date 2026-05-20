@@ -1,0 +1,12 @@
+name = "h5v"
+description = "HDF5 Terminal Viewer"
+author = "DanielHauge"
+homepage = "https://github.com/DanielHauge/h5v"
+readme = "https://raw.githubusercontent.com/DanielHauge/h5v/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "h5v"

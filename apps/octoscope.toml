@@ -1,0 +1,12 @@
+name = "octoscope"
+description = "Terminal dashboard for GitHub — followers, stars, PRs and issues at a glance, auto-refreshed"
+author = "gfazioli"
+homepage = "https://github.com/gfazioli/octoscope"
+readme = "https://raw.githubusercontent.com/gfazioli/octoscope/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gfazioli/octoscope@latest"

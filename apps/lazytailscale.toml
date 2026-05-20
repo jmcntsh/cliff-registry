@@ -1,0 +1,12 @@
+name = "lazytailscale"
+description = "A terminal dashboard for your Tailscale network. Two-pane keyboard-driven TUI: peer list on the left, selected-peer d..."
+author = "mogglemoss"
+homepage = "https://github.com/mogglemoss/lazytailscale"
+readme = "https://raw.githubusercontent.com/mogglemoss/lazytailscale/master/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mogglemoss/lazytailscale@latest"

@@ -1,0 +1,11 @@
+name = "hapi-dash"
+description = "A terminal dashboard for hapi"
+author = "clarkie"
+homepage = "https://github.com/clarkie/hapi-dash"
+readme = "https://raw.githubusercontent.com/clarkie/hapi-dash/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+
+[[installs]]
+type = "npm"
+package = "hapi-dash"

@@ -1,0 +1,11 @@
+name = "go-resource-monitor"
+description = "Basic resource monitor terminal dashboard written in GO with TUI."
+author = "krisfur"
+homepage = "https://github.com/krisfur/go-resource-monitor"
+readme = "https://raw.githubusercontent.com/krisfur/go-resource-monitor/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+
+[[installs]]
+type = "go"
+package = "github.com/krisfur/go-resource-monitor@latest"

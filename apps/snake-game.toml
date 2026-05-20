@@ -1,0 +1,11 @@
+name = "snake-game"
+description = "Terminal Snake game implemented with Python's curses module"
+author = "EvoDoesCoding"
+homepage = "https://github.com/EvoDoesCoding/snake-game"
+readme = "https://raw.githubusercontent.com/EvoDoesCoding/snake-game/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "npm"
+package = "snake-game"

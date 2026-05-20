@@ -1,0 +1,12 @@
+name = "cabal-cli"
+description = "Terminal client for Cabal, the p2p chat platform."
+author = "cabal-club"
+homepage = "https://github.com/cabal-club/cabal-cli"
+readme = "https://raw.githubusercontent.com/cabal-club/cabal-cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "cabal-cli"

@@ -1,0 +1,12 @@
+name = "cli-wechaty"
+description = "Terminal Client for Wechaty"
+author = "wechaty"
+homepage = "https://github.com/wechaty/cli"
+readme = "https://raw.githubusercontent.com/wechaty/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cli"

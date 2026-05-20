@@ -1,0 +1,12 @@
+name = "cli-mankees"
+description = "Terminal client for mankees (MIT)"
+author = "mankees"
+homepage = "https://github.com/mankees/cli"
+readme = "https://raw.githubusercontent.com/mankees/cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

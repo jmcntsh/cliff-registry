@@ -1,0 +1,12 @@
+name = "crates-tui"
+description = "A TUI for exploring crates.io using Ratatui"
+author = "ratatui"
+homepage = "https://github.com/ratatui/crates-tui"
+readme = "https://raw.githubusercontent.com/ratatui/crates-tui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "crates-tui"

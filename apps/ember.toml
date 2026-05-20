@@ -1,0 +1,12 @@
+name = "ember"
+description = "🔥 Real-time terminal dashboard for Caddy servers, with built-in FrankenPHP support"
+author = "alexandre-daubois"
+homepage = "https://github.com/alexandre-daubois/ember"
+readme = "https://raw.githubusercontent.com/alexandre-daubois/ember/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/alexandre-daubois/ember@latest"

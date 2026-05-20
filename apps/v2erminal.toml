@@ -1,0 +1,11 @@
+name = "v2erminal"
+description = "Interactive terminal client for V2EX."
+author = "yuyinws"
+homepage = "https://github.com/yuyinws/v2erminal"
+readme = "https://raw.githubusercontent.com/yuyinws/v2erminal/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "v2erminal"

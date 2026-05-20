@@ -1,0 +1,12 @@
+name = "textual-web"
+description = "Run TUIs and terminals in your browser"
+author = "Textualize"
+homepage = "https://github.com/Textualize/textual-web"
+readme = "https://raw.githubusercontent.com/Textualize/textual-web/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "textual-web"

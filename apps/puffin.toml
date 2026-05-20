@@ -1,0 +1,12 @@
+name = "puffin"
+description = "A beautiful terminal dashboard for hledger 💰"
+author = "siddhantac"
+homepage = "https://github.com/siddhantac/puffin"
+readme = "https://raw.githubusercontent.com/siddhantac/puffin/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/siddhantac/puffin@latest"

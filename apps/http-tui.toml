@@ -1,0 +1,12 @@
+name = "http-tui"
+description = "A HTTP client with a simple terminal interface."
+author = "shahin8r"
+homepage = "https://github.com/shahin8r/http-tui"
+readme = "https://raw.githubusercontent.com/shahin8r/http-tui/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "http-tui"

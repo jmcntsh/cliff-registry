@@ -1,0 +1,11 @@
+name = "checkmate"
+description = "♟️ A terminal chess application combining a Rust engine with iterative deepening, alpha-beta pruning, and advance..."
+author = "galfrevn"
+homepage = "https://github.com/galfrevn/checkmate"
+readme = "https://raw.githubusercontent.com/galfrevn/checkmate/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "cargo"
+package = "checkmate"

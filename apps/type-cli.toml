@@ -1,0 +1,12 @@
+name = "type-cli"
+description = "terminal-based typing test built with Go and BubbleTea."
+author = "fulsiram"
+homepage = "https://github.com/fulsiram/type-cli"
+readme = "https://raw.githubusercontent.com/fulsiram/type-cli/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/fulsiram/type-cli@latest"

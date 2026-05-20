@@ -1,0 +1,12 @@
+name = "easydocker"
+description = "EasyDocker is a TUI focused on investigating and troubleshooting Docker resources. Highly inspired by lazydocker and..."
+author = "joao-zanutto"
+homepage = "https://github.com/joao-zanutto/easydocker"
+readme = "https://raw.githubusercontent.com/joao-zanutto/easydocker/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/joao-zanutto/easydocker@latest"

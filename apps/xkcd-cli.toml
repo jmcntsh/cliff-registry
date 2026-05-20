@@ -1,0 +1,12 @@
+name = "xkcd-cli"
+description = "A xkcd terminal viewer that uses fzf for searching and renders images directly in terminals that support image render..."
+author = "dotcs"
+homepage = "https://github.com/dotcs/xkcd-cli"
+readme = "https://raw.githubusercontent.com/dotcs/xkcd-cli/develop/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "xkcd-cli"

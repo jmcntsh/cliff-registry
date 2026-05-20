@@ -1,0 +1,12 @@
+name = "sonicradio"
+description = "A TUI radio player making use of Radio Browser API and Bubbletea."
+author = "dancnb"
+homepage = "https://github.com/dancnb/sonicradio"
+readme = "https://raw.githubusercontent.com/dancnb/sonicradio/main/README.md"
+tags = ["tui"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dancnb/sonicradio@latest"

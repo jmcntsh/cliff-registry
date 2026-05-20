@@ -1,0 +1,12 @@
+name = "tabiew"
+description = "A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet."
+author = "shshemi"
+homepage = "https://github.com/shshemi/tabiew"
+readme = "https://raw.githubusercontent.com/shshemi/tabiew/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tabiew"

@@ -1,0 +1,11 @@
+name = "taki-cli"
+description = "taki-cli is a terminal dashboard for running multiple local services in one place. https://www.npmjs.com/package/@kwi..."
+author = "kwiruu"
+homepage = "https://github.com/kwiruu/taki-cli"
+readme = "https://raw.githubusercontent.com/kwiruu/taki-cli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+
+[[installs]]
+type = "npm"
+package = "taki-cli"

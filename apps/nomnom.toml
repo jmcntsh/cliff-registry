@@ -1,0 +1,11 @@
+name = "nomnom"
+description = ":pizza: A Zomato terminal browser"
+author = "adyshake"
+homepage = "https://github.com/adyshake/nomnom"
+readme = "https://raw.githubusercontent.com/adyshake/nomnom/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "pipx"
+package = "nomnom"

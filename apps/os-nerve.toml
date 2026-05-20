@@ -1,0 +1,11 @@
+name = "os-nerve"
+description = "A lightweight, terminal dashboard that monitors your system vitals in real-time. for developers who live in the termi..."
+author = "Eul45"
+homepage = "https://github.com/Eul45/os-nerve"
+readme = "https://raw.githubusercontent.com/Eul45/os-nerve/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "npm"
+package = "os-nerve"

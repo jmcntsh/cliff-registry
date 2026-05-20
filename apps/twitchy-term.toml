@@ -1,0 +1,12 @@
+name = "twitchy-term"
+description = "Terminal browser for Twitch.tv"
+author = "piggyandy"
+homepage = "https://github.com/piggyandy/twitchy-term"
+readme = "https://raw.githubusercontent.com/piggyandy/twitchy-term/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "twitchy-term"

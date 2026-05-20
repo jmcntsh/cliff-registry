@@ -1,0 +1,12 @@
+name = "curses-2048"
+description = "Trivial implementation of 2048 for the terminal using python and ncurses"
+author = "odkq"
+homepage = "https://github.com/odkq/curses-2048"
+readme = "https://raw.githubusercontent.com/odkq/curses-2048/master/README.md"
+tags = ["cli"]
+category = "Games"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "curses-2048"

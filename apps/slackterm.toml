@@ -1,0 +1,12 @@
+name = "slackterm"
+description = "Slack terminal client written in Go"
+author = "rob05c"
+homepage = "https://github.com/rob05c/slackterm"
+readme = "https://raw.githubusercontent.com/rob05c/slackterm/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rob05c/slackterm@latest"

@@ -1,0 +1,12 @@
+name = "phoenix"
+description = "High-performance TUI framework for Go with DDD + Rich model inspired architecture, perfect Unicode, and Elm-inspired..."
+author = "phoenix-tui"
+homepage = "https://github.com/phoenix-tui/phoenix"
+readme = "https://raw.githubusercontent.com/phoenix-tui/phoenix/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/phoenix-tui/phoenix@latest"

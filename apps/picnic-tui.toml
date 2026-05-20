@@ -1,0 +1,12 @@
+name = "picnic-tui"
+description = "An unofficial terminal interface for the online supermarket Picnic"
+author = "simonmartyr"
+homepage = "https://github.com/simonmartyr/picnic-tui"
+readme = "https://raw.githubusercontent.com/simonmartyr/picnic-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/simonmartyr/picnic-tui@latest"

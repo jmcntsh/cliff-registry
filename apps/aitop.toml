@@ -1,0 +1,12 @@
+name = "aitop"
+description = "btop for AI — terminal dashboard for monitoring AI token usage and costs"
+author = "bugkill3r"
+homepage = "https://github.com/bugkill3r/aitop"
+readme = "https://raw.githubusercontent.com/bugkill3r/aitop/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "aitop"

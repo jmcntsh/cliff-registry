@@ -1,0 +1,11 @@
+name = "mdedit"
+description = "ratatui markdown editor"
+author = "thscharler"
+homepage = "https://github.com/thscharler/mdedit"
+readme = "https://raw.githubusercontent.com/thscharler/mdedit/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+
+[[installs]]
+type = "cargo"
+package = "mdedit"

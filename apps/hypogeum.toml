@@ -1,0 +1,12 @@
+name = "hypogeum"
+description = "A terminal browser for markdown directories"
+author = "wilkes"
+homepage = "https://github.com/wilkes/hypogeum"
+readme = "https://raw.githubusercontent.com/wilkes/hypogeum/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/wilkes/hypogeum@latest"

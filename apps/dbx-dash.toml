@@ -1,0 +1,12 @@
+name = "dbx-dash"
+description = "Terminal dashboard for monitoring Databricks workspaces, written in Go"
+author = "tttao"
+homepage = "https://github.com/tttao/dbx-dash"
+readme = "https://raw.githubusercontent.com/tttao/dbx-dash/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/tttao/dbx-dash@latest"

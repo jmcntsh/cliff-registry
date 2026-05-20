@@ -1,0 +1,12 @@
+name = "jupyter-shell"
+description = "WebSocket terminal client for Jupyter servers - access Jupyter terminals from the command line"
+author = "Adversis"
+homepage = "https://github.com/Adversis/jupyter-shell"
+readme = "https://raw.githubusercontent.com/Adversis/jupyter-shell/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Adversis/jupyter-shell@latest"

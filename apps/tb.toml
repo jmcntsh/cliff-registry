@@ -1,0 +1,11 @@
+name = "tb"
+description = "a terminal browser"
+author = "Tesohh"
+homepage = "https://github.com/Tesohh/tb"
+readme = "https://raw.githubusercontent.com/Tesohh/tb/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "cargo"
+package = "tb"

@@ -1,0 +1,12 @@
+name = "siridb-prompt"
+description = "SiriDB a terminal client for communicating with SiriDB."
+author = "SiriDB"
+homepage = "https://github.com/SiriDB/siridb-prompt"
+readme = "https://raw.githubusercontent.com/SiriDB/siridb-prompt/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/SiriDB/siridb-prompt@latest"

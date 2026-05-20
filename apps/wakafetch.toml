@@ -1,0 +1,12 @@
+name = "wakafetch"
+description = "Terminal dashboard for your WakaTime/Wakapi coding activity"
+author = "sahaj-b"
+homepage = "https://github.com/sahaj-b/wakafetch"
+readme = "https://raw.githubusercontent.com/sahaj-b/wakafetch/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sahaj-b/wakafetch@latest"

@@ -1,0 +1,11 @@
+name = "supervigo"
+description = "Personal terminal dashboard supervisor (Sentry,redis,rabbitMQ,HTTP)"
+author = "agirot"
+homepage = "https://github.com/agirot/superviGo"
+readme = "https://raw.githubusercontent.com/agirot/superviGo/master/README.md"
+tags = ["cli"]
+category = "Databases"
+
+[[installs]]
+type = "go"
+package = "github.com/agirot/superviGo@latest"

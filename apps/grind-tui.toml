@@ -1,0 +1,12 @@
+name = "grind-tui"
+description = "LeetCode in your terminal. Browse problems, run tests, and submit solutions using your own editor — no browser requ..."
+author = "vnctaing"
+homepage = "https://github.com/vnctaing/grind-tui"
+readme = "https://raw.githubusercontent.com/vnctaing/grind-tui/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "grind-tui"

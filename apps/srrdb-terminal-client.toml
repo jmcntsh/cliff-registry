@@ -1,0 +1,12 @@
+name = "srrdb-terminal-client"
+description = "A terminal client to access srrdb.com"
+author = "hashworks"
+homepage = "https://github.com/hashworks/srrdb-Terminal-Client"
+readme = "https://raw.githubusercontent.com/hashworks/srrdb-Terminal-Client/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/hashworks/srrdb-Terminal-Client@latest"

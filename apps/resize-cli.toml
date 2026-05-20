@@ -1,0 +1,11 @@
+name = "resize-cli"
+description = "Terminal client to resize images keeping the aspect ratio"
+author = "jmpas"
+homepage = "https://github.com/jmpas/resize-cli"
+readme = "https://raw.githubusercontent.com/jmpas/resize-cli/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "npm"
+package = "resize-cli"

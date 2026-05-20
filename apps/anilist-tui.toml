@@ -1,0 +1,11 @@
+name = "anilist-tui"
+description = "Terminal Interface for the AniList API."
+author = "pndpti"
+homepage = "https://github.com/pndpti/anilist-tui"
+readme = "https://raw.githubusercontent.com/pndpti/anilist-tui/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+
+[[installs]]
+type = "pipx"
+package = "anilist-tui"

@@ -1,0 +1,12 @@
+name = "ratatui-gamepad-tester"
+description = "a TUI app for visualizing gamepad input"
+author = "sermuns"
+homepage = "https://github.com/sermuns/ratatui-gamepad-tester"
+readme = "https://raw.githubusercontent.com/sermuns/ratatui-gamepad-tester/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-gamepad-tester"

@@ -1,0 +1,12 @@
+name = "pycamera"
+description = "Webcam terminal viewer"
+author = "bdreager"
+homepage = "https://github.com/bdreager/PyCamera"
+readme = "https://raw.githubusercontent.com/bdreager/PyCamera/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "PyCamera"

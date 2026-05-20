@@ -1,0 +1,12 @@
+name = "ansizalizer"
+description = "A TUI to convert Images to ANSI strings using bubbletea"
+author = "Zebbeni"
+homepage = "https://github.com/Zebbeni/ansizalizer"
+readme = "https://raw.githubusercontent.com/Zebbeni/ansizalizer/main/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Zebbeni/ansizalizer@latest"

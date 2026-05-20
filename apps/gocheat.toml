@@ -1,0 +1,12 @@
+name = "gocheat"
+description = "Golang terminal client for cht.sh that uses charm.sh's bubbletea project"
+author = "moniquelive"
+homepage = "https://github.com/moniquelive/gocheat"
+readme = "https://raw.githubusercontent.com/moniquelive/gocheat/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/moniquelive/gocheat@latest"

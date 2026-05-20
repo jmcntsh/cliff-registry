@@ -1,0 +1,12 @@
+name = "sft-cli"
+description = "An interactive terminal browser for `.safetensors` files"
+author = "matanby"
+homepage = "https://github.com/matanby/sft-cli"
+readme = "https://raw.githubusercontent.com/matanby/sft-cli/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "sft-cli"

@@ -1,0 +1,12 @@
+name = "claw-dashboard"
+description = "A beautiful, real-time terminal dashboard for monitoring OpenClaw instances — inspired by modern system monitors li..."
+author = "spleck"
+homepage = "https://github.com/spleck/claw-dashboard"
+readme = "https://raw.githubusercontent.com/spleck/claw-dashboard/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "claw-dashboard"

@@ -1,0 +1,12 @@
+name = "xsearch"
+description = "XSearch is a powerful hacker-style terminal browser search tool built in Python."
+author = "HasnainDarkNet"
+homepage = "https://github.com/HasnainDarkNet/xsearch"
+readme = "https://raw.githubusercontent.com/HasnainDarkNet/xsearch/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "xsearch"

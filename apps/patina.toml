@@ -1,0 +1,11 @@
+name = "patina"
+description = "Patina - High-performance terminal client for Claude API"
+author = "postrv"
+homepage = "https://github.com/postrv/patina"
+readme = "https://raw.githubusercontent.com/postrv/patina/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "cargo"
+package = "patina"

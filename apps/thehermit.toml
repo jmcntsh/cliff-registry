@@ -1,0 +1,12 @@
+name = "thehermit"
+description = "A quick fix model for the Charm BubbleTea ecosystem."
+author = "Genekkion"
+homepage = "https://github.com/Genekkion/theHermit"
+readme = "https://raw.githubusercontent.com/Genekkion/theHermit/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Genekkion/theHermit@latest"

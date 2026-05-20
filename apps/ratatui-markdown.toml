@@ -1,0 +1,12 @@
+name = "ratatui-markdown"
+description = "Render markdown on TUI via ratatui."
+author = "celestia-island"
+homepage = "https://github.com/celestia-island/ratatui-markdown"
+readme = "https://raw.githubusercontent.com/celestia-island/ratatui-markdown/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-markdown"

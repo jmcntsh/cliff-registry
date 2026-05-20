@@ -1,0 +1,12 @@
+name = "tuigreet"
+description = "Stylish graphical console greeter for greetd, built with Ratatui"
+author = "NotAShelf"
+homepage = "https://github.com/NotAShelf/tuigreet"
+readme = "https://raw.githubusercontent.com/NotAShelf/tuigreet/master/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "tuigreet"

@@ -1,0 +1,12 @@
+name = "clash-cli"
+description = "a terminal client for clash"
+author = "jqs7"
+homepage = "https://github.com/jqs7/clash_cli"
+readme = "https://raw.githubusercontent.com/jqs7/clash_cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jqs7/clash_cli@latest"

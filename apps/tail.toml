@@ -1,0 +1,12 @@
+name = "tail"
+description = "A terminal dashboard for Pipecat"
+author = "pipecat-ai"
+homepage = "https://github.com/pipecat-ai/tail"
+readme = "https://raw.githubusercontent.com/pipecat-ai/tail/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "tail"

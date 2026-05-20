@@ -1,0 +1,12 @@
+name = "pvw"
+description = "A port viewer TUI made with BubbleTea in Go"
+author = "allyring"
+homepage = "https://github.com/allyring/pvw"
+readme = "https://raw.githubusercontent.com/allyring/pvw/master/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/allyring/pvw@latest"

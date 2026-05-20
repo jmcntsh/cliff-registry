@@ -1,0 +1,12 @@
+name = "middaycommander"
+description = "A TUI dual-panel terminal file manager written in Go, inspired by Midnight Commander."
+author = "kooler"
+homepage = "https://github.com/kooler/MiddayCommander"
+readme = "https://raw.githubusercontent.com/kooler/MiddayCommander/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kooler/MiddayCommander@latest"

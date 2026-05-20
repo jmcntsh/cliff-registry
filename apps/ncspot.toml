@@ -1,0 +1,12 @@
+name = "ncspot"
+description = "Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes."
+author = "hrkfdn"
+homepage = "https://github.com/hrkfdn/ncspot"
+readme = "https://raw.githubusercontent.com/hrkfdn/ncspot/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "cargo"
+package = "ncspot"

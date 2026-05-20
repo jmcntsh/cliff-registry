@@ -1,0 +1,11 @@
+name = "docker-stats"
+description = "Command-line that uses the Docker engine API to present container stats in a terminal dashboard"
+author = "hyleung"
+homepage = "https://github.com/hyleung/docker-stats"
+readme = "https://raw.githubusercontent.com/hyleung/docker-stats/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/hyleung/docker-stats@latest"

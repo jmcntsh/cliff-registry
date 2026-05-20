@@ -1,0 +1,11 @@
+name = "elasticsearch-bulk-dashboard"
+description = "Elasticsearch Bulk Ingestion Terminal Dashboard"
+author = "iamchrismiller"
+homepage = "https://github.com/iamchrismiller/elasticsearch-bulk-dashboard"
+readme = "https://raw.githubusercontent.com/iamchrismiller/elasticsearch-bulk-dashboard/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "npm"
+package = "elasticsearch-bulk-dashboard"

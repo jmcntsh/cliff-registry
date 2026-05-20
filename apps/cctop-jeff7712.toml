@@ -1,0 +1,12 @@
+name = "cctop-jeff7712"
+description = "Terminal dashboard for computational chemistry output folders."
+author = "JEFF7712"
+homepage = "https://github.com/JEFF7712/cctop"
+readme = "https://raw.githubusercontent.com/JEFF7712/cctop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cctop"

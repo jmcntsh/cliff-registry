@@ -1,0 +1,12 @@
+name = "psx-terminal"
+description = "A fast, data‑dense terminal dashboard for Pakistan Stock Exchange market feeds. This is a read‑only trading termi..."
+author = "nordixsoft"
+homepage = "https://github.com/nordixsoft/psx-terminal"
+readme = "https://raw.githubusercontent.com/nordixsoft/psx-terminal/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "psx-terminal"

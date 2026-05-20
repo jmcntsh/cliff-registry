@@ -1,0 +1,12 @@
+name = "solenoid"
+description = "A private, local, multi-agent system powered by Google ADK with an AG-UI compatible API server and Textual-based term..."
+author = "elicollinson"
+homepage = "https://github.com/elicollinson/Solenoid"
+readme = "https://raw.githubusercontent.com/elicollinson/Solenoid/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "Solenoid"

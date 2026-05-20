@@ -1,0 +1,12 @@
+name = "jcv"
+description = "Terminal viewer for JSON Canvas 1.0 files with live reload"
+author = "hgflima"
+homepage = "https://github.com/hgflima/jcv"
+readme = "https://raw.githubusercontent.com/hgflima/jcv/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "jcv"

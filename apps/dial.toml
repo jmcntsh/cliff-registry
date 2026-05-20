@@ -1,0 +1,11 @@
+name = "dial"
+description = "A code snippet tui manager built with rust and ratatui."
+author = "mouhamadalmounayar"
+homepage = "https://github.com/mouhamadalmounayar/dial"
+readme = "https://raw.githubusercontent.com/mouhamadalmounayar/dial/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+
+[[installs]]
+type = "cargo"
+package = "dial"

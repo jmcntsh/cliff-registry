@@ -1,0 +1,12 @@
+name = "minesweeper"
+description = "Terminal minesweeper game written in Python with a curses interface"
+author = "M-Mueller"
+homepage = "https://github.com/M-Mueller/Minesweeper"
+readme = "https://raw.githubusercontent.com/M-Mueller/Minesweeper/master/README.md"
+tags = ["cli"]
+category = "Games"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "Minesweeper"

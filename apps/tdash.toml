@@ -1,0 +1,12 @@
+name = "tdash"
+description = "A terminal dashboard with stats from Google Analytics, GitHub, Travis CI, and Jenkins. Very much built specific to me."
+author = "jessfraz"
+homepage = "https://github.com/jessfraz/tdash"
+readme = "https://raw.githubusercontent.com/jessfraz/tdash/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jessfraz/tdash@latest"

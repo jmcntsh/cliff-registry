@@ -1,0 +1,12 @@
+name = "catwalk"
+description = "test library for Bubbletea TUI models"
+author = "knz"
+homepage = "https://github.com/knz/catwalk"
+readme = "https://raw.githubusercontent.com/knz/catwalk/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/knz/catwalk@latest"

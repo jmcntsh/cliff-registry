@@ -1,0 +1,12 @@
+name = "vrcli"
+description = "VRChat API terminal client"
+author = "VRCli"
+homepage = "https://github.com/VRCli/vrcli"
+readme = "https://raw.githubusercontent.com/VRCli/vrcli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "vrcli"

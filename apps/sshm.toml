@@ -1,0 +1,12 @@
+name = "sshm"
+description = "SSHM is a beautiful command-line tool that transforms how you manage and connect to your SSH hosts. Built with Go and..."
+author = "Gu1llaum-3"
+homepage = "https://github.com/Gu1llaum-3/sshm"
+readme = "https://raw.githubusercontent.com/Gu1llaum-3/sshm/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Gu1llaum-3/sshm@latest"
