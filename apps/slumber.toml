@@ -1,0 +1,12 @@
+name = "slumber"
+description = "Terminal-based HTTP/REST client"
+author = "LucasPickering"
+homepage = "https://github.com/LucasPickering/slumber"
+readme = "https://raw.githubusercontent.com/LucasPickering/slumber/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "slumber"

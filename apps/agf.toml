@@ -1,0 +1,12 @@
+name = "agf"
+description = "AI Agent Session Finder — TUI to find, resume and manage sessions across Claude Code, Codex, Gemini, Kiro, OpenCode..."
+author = "subinium"
+homepage = "https://github.com/subinium/agf"
+readme = "https://raw.githubusercontent.com/subinium/agf/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "agf"

@@ -1,0 +1,12 @@
+name = "sidekick-agent-hub"
+description = "Multi-provider AI coding assistant & agent session monitor for VS Code and the terminal — inline completions, code..."
+author = "cesarandreslopez"
+homepage = "https://github.com/cesarandreslopez/sidekick-agent-hub"
+readme = "https://raw.githubusercontent.com/cesarandreslopez/sidekick-agent-hub/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "sidekick-agent-hub"

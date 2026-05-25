@@ -1,0 +1,12 @@
+name = "threatdeck"
+description = "Terminal-based threat intelligence monitoring and alerting platform"
+author = "gripebomb"
+homepage = "https://github.com/gripebomb/ThreatDeck"
+readme = "https://raw.githubusercontent.com/gripebomb/ThreatDeck/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ThreatDeck"

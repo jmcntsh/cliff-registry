@@ -1,0 +1,12 @@
+name = "rura"
+description = "Interactive TUI scratchpad for building shell pipelines"
+author = "tlipinski"
+homepage = "https://github.com/tlipinski/rura"
+readme = "https://raw.githubusercontent.com/tlipinski/rura/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rura"

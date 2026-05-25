@@ -1,0 +1,12 @@
+name = "exosphere"
+description = "A simple CLI and TUI driven application that offers patch reporting for remote unix systems, written in Python"
+author = "mrdaemon"
+homepage = "https://github.com/mrdaemon/exosphere"
+readme = "https://raw.githubusercontent.com/mrdaemon/exosphere/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "exosphere"

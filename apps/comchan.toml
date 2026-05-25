@@ -1,0 +1,12 @@
+name = "comchan"
+description = "A Blazingly Fast Minimal Serial Monitor with serial plottter TUI and more"
+author = "Vaishnav-Sabari-Girish"
+homepage = "https://github.com/Vaishnav-Sabari-Girish/ComChan"
+readme = "https://raw.githubusercontent.com/Vaishnav-Sabari-Girish/ComChan/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ComChan"

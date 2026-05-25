@@ -1,0 +1,12 @@
+name = "git-time-machine"
+description = "🕰️ Browse Git reflog visually and recover reachable local history with a TUI"
+author = "dinakars777"
+homepage = "https://github.com/dinakars777/git-time-machine"
+readme = "https://raw.githubusercontent.com/dinakars777/git-time-machine/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "git-time-machine"

@@ -1,0 +1,12 @@
+name = "tuxedo"
+description = "A fast, keyboard-driven terminal UI for todo.txt."
+author = "webstonehq"
+homepage = "https://github.com/webstonehq/tuxedo"
+readme = "https://raw.githubusercontent.com/webstonehq/tuxedo/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tuxedo"

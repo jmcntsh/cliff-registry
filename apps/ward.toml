@@ -1,0 +1,12 @@
+name = "ward"
+description = "Security scanner built for Laravel, detects misconfigurations, vulnerabilities, and exposed secrets with a beautiful..."
+author = "Eljakani"
+homepage = "https://github.com/Eljakani/ward"
+readme = "https://raw.githubusercontent.com/Eljakani/ward/main/README.md"
+tags = ["tui"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Eljakani/ward@latest"

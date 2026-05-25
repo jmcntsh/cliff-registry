@@ -1,0 +1,12 @@
+name = "siggy"
+description = "Terminal-based Signal messenger client with vim keybindings"
+author = "johnsideserf"
+homepage = "https://github.com/johnsideserf/siggy"
+readme = "https://raw.githubusercontent.com/johnsideserf/siggy/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "siggy"

@@ -1,0 +1,12 @@
+name = "concord"
+description = "A feature-rich TUI client for Discord, written in Rust."
+author = "chojs23"
+homepage = "https://github.com/chojs23/concord"
+readme = "https://raw.githubusercontent.com/chojs23/concord/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "concord"

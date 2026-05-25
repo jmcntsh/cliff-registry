@@ -1,0 +1,12 @@
+name = "openseek"
+description = "OpenSeek - 广度求索: open-source TUI coding agent with multi-provider routing, MCP, LSP, and Plan/Agent/YOLO modes."
+author = "LichAmnesia"
+homepage = "https://github.com/LichAmnesia/openseek"
+readme = "https://raw.githubusercontent.com/LichAmnesia/openseek/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "openseek"

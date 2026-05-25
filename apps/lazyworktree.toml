@@ -1,0 +1,12 @@
+name = "lazyworktree"
+description = "Easy Git worktree management CLI and TUI for the terminal."
+author = "chmouel"
+homepage = "https://github.com/chmouel/lazyworktree"
+readme = "https://raw.githubusercontent.com/chmouel/lazyworktree/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/chmouel/lazyworktree@latest"

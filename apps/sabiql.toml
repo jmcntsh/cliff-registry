@@ -1,0 +1,12 @@
+name = "sabiql"
+description = "A fast PostgreSQL TUI written in Rust — driver-less, vim-first, with ER diagrams. No database drivers, no setup, ju..."
+author = "riii111"
+homepage = "https://github.com/riii111/sabiql"
+readme = "https://raw.githubusercontent.com/riii111/sabiql/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "sabiql"

@@ -1,0 +1,12 @@
+name = "marchat"
+description = "Terminal chat for developers: Go WebSocket server + Bubble Tea TUI client, optional E2E, reactions, DMs, channels, pl..."
+author = "Cod-e-Codes"
+homepage = "https://github.com/Cod-e-Codes/marchat"
+readme = "https://raw.githubusercontent.com/Cod-e-Codes/marchat/main/README.md"
+tags = ["tui"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Cod-e-Codes/marchat@latest"

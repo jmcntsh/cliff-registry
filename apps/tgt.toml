@@ -1,0 +1,12 @@
+name = "tgt"
+description = "TUI for Telegram written in Rust 🦀"
+author = "FedericoBruzzone"
+homepage = "https://github.com/FedericoBruzzone/tgt"
+readme = "https://raw.githubusercontent.com/FedericoBruzzone/tgt/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "tgt"

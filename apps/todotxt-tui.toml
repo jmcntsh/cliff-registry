@@ -1,0 +1,12 @@
+name = "todotxt-tui"
+description = "Todo.txt TUI - Terminal-based Todo Task Manager"
+author = "Fanteria"
+homepage = "https://github.com/Fanteria/todotxt-tui"
+readme = "https://raw.githubusercontent.com/Fanteria/todotxt-tui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "todotxt-tui"

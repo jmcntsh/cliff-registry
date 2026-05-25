@@ -1,0 +1,12 @@
+name = "waves"
+description = "Terminal music player with Soulseek integration, MusicBrainz tagging, Last.fm scrobbling, and radio mode. Built with..."
+author = "llehouerou"
+homepage = "https://github.com/llehouerou/waves"
+readme = "https://raw.githubusercontent.com/llehouerou/waves/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/llehouerou/waves@latest"

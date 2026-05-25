@@ -1,0 +1,12 @@
+name = "togo"
+description = "A fast and simple terminal-based task and todo manager built in go"
+author = "prime-run"
+homepage = "https://github.com/prime-run/togo"
+readme = "https://raw.githubusercontent.com/prime-run/togo/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/prime-run/togo@latest"

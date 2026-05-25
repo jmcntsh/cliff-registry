@@ -1,0 +1,12 @@
+name = "journalview"
+description = "JournalView is a lightweight, terminal-based application written in Rust that allows users to efficiently view, filte..."
+author = "codervijo"
+homepage = "https://github.com/codervijo/journalview"
+readme = "https://raw.githubusercontent.com/codervijo/journalview/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "journalview"

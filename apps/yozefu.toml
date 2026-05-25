@@ -1,0 +1,12 @@
+name = "yozefu"
+description = "An interactive terminal user interface (TUI) application for exploring data of a kafka cluster."
+author = "MAIF"
+homepage = "https://github.com/MAIF/yozefu"
+readme = "https://raw.githubusercontent.com/MAIF/yozefu/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "yozefu"

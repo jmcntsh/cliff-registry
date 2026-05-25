@@ -1,0 +1,12 @@
+name = "bridle"
+description = "TUI / CLI config manager for agentic harnesses (Amp, Claude Code, Opencode, Goose, Copilot CLI, Crush, Droid)"
+author = "neiii"
+homepage = "https://github.com/neiii/bridle"
+readme = "https://raw.githubusercontent.com/neiii/bridle/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "bridle"

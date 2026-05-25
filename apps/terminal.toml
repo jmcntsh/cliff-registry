@@ -1,0 +1,12 @@
+name = "terminal"
+description = "Terminal UI to get stuff done in the browser"
+author = "browser-use"
+homepage = "https://github.com/browser-use/terminal"
+readme = "https://raw.githubusercontent.com/browser-use/terminal/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "terminal"

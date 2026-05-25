@@ -1,0 +1,12 @@
+name = "stonks-cli"
+description = "A terminal investment portfolio tracker with live prices, P&L, stock financials, candlestick charts, news feed and AI..."
+author = "igoropaniuk"
+homepage = "https://github.com/igoropaniuk/stonks-cli"
+readme = "https://raw.githubusercontent.com/igoropaniuk/stonks-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "stonks-cli"

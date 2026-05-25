@@ -1,0 +1,12 @@
+name = "subtui"
+description = "A lightweight Subsonic TUI music player built in Go with scrobbling support."
+author = "MattiaPun"
+homepage = "https://github.com/MattiaPun/SubTUI"
+readme = "https://raw.githubusercontent.com/MattiaPun/SubTUI/main/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/MattiaPun/SubTUI@latest"

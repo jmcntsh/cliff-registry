@@ -1,0 +1,12 @@
+name = "tatuin"
+description = "Tatuin (Task Aggregator TUI for N providers)"
+author = "panter-dsd"
+homepage = "https://github.com/panter-dsd/tatuin"
+readme = "https://raw.githubusercontent.com/panter-dsd/tatuin/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tatuin"

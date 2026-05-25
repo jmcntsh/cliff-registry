@@ -1,0 +1,12 @@
+name = "timr-tui"
+description = "TUI to organize your time: Pomodoro, Countdown, Timer, Event."
+author = "sectore"
+homepage = "https://github.com/sectore/timr-tui"
+readme = "https://raw.githubusercontent.com/sectore/timr-tui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "timr-tui"

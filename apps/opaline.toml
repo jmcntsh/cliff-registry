@@ -1,0 +1,12 @@
+name = "opaline"
+description = "✦ A token-based theme engine for Rust TUI applications"
+author = "hyperb1iss"
+homepage = "https://github.com/hyperb1iss/opaline"
+readme = "https://raw.githubusercontent.com/hyperb1iss/opaline/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "opaline"

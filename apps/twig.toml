@@ -1,0 +1,12 @@
+name = "twig"
+description = "Terminal-based JSON & YAML viewer (TUI) for exploring and searching large files — fast, interactive, and privacy-fi..."
+author = "workdone0"
+homepage = "https://github.com/workdone0/twig"
+readme = "https://raw.githubusercontent.com/workdone0/twig/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "twig"

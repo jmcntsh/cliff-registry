@@ -1,0 +1,12 @@
+name = "kubetui"
+description = "An intuitive Terminal User Interface (TUI) tool for real-time monitoring and exploration of Kubernetes resources"
+author = "sarub0b0"
+homepage = "https://github.com/sarub0b0/kubetui"
+readme = "https://raw.githubusercontent.com/sarub0b0/kubetui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "kubetui"

@@ -1,0 +1,12 @@
+name = "ytsub"
+description = "A subscriptions only TUI YouTube client"
+author = "sarowish"
+homepage = "https://github.com/sarowish/ytsub"
+readme = "https://raw.githubusercontent.com/sarowish/ytsub/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "ytsub"

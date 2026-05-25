@@ -1,0 +1,12 @@
+name = "omnyssh"
+description = "A fast, keyboard-driven TUI for managing SSH connections, written in Rust"
+author = "timhartmann7"
+homepage = "https://github.com/timhartmann7/omnyssh"
+readme = "https://raw.githubusercontent.com/timhartmann7/omnyssh/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "omnyssh"

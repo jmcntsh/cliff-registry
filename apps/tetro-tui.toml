@@ -1,0 +1,12 @@
+name = "tetro-tui"
+description = "A terminal-based but modern tetromino-stacking game that is customizable and cross-platform."
+author = "Strophox"
+homepage = "https://github.com/Strophox/tetro-tui"
+readme = "https://raw.githubusercontent.com/Strophox/tetro-tui/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tetro-tui"

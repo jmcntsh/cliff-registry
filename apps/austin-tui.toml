@@ -1,0 +1,12 @@
+name = "austin-tui"
+description = "The top-like text-based user interface for Austin"
+author = "P403n1x87"
+homepage = "https://github.com/P403n1x87/austin-tui"
+readme = "https://raw.githubusercontent.com/P403n1x87/austin-tui/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "austin-tui"

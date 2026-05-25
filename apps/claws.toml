@@ -1,0 +1,12 @@
+name = "claws"
+description = "k9s-inspired TUI for AWS resource management with vim-style navigation"
+author = "clawscli"
+homepage = "https://github.com/clawscli/claws"
+readme = "https://raw.githubusercontent.com/clawscli/claws/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/clawscli/claws@latest"

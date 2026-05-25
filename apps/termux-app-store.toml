@@ -1,0 +1,12 @@
+name = "termux-app-store"
+description = "TUI & CLI package manager for Termux on Android. Browse, build, and install community tools from source and binary so..."
+author = "djunekz"
+homepage = "https://github.com/djunekz/termux-app-store"
+readme = "https://raw.githubusercontent.com/djunekz/termux-app-store/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "termux-app-store"

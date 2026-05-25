@@ -1,0 +1,12 @@
+name = "ansible-navigator"
+description = "A text-based user interface (TUI) for Ansible."
+author = "ansible"
+homepage = "https://github.com/ansible/ansible-navigator"
+readme = "https://raw.githubusercontent.com/ansible/ansible-navigator/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "ansible-navigator"

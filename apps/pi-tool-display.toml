@@ -1,0 +1,12 @@
+name = "pi-tool-display"
+description = "Compact tool call rendering, diff visualization, and output truncation extension for Pi coding agent. Hides, collapse..."
+author = "MasuRii"
+homepage = "https://github.com/MasuRii/pi-tool-display"
+readme = "https://raw.githubusercontent.com/MasuRii/pi-tool-display/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-tool-display"

@@ -1,0 +1,12 @@
+name = "models"
+description = "TUI and CLI for browsing AI models, benchmarks, coding agents, and statuses for AI providers."
+author = "reyamira"
+homepage = "https://github.com/reyamira/models"
+readme = "https://raw.githubusercontent.com/reyamira/models/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "models"

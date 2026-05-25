@@ -1,0 +1,12 @@
+name = "termide"
+description = "A cross-platform terminal-based IDE, file manager, and virtual terminal written in Rust."
+author = "termide"
+homepage = "https://github.com/termide/termide"
+readme = "https://raw.githubusercontent.com/termide/termide/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "termide"

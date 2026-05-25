@@ -1,0 +1,12 @@
+name = "poke-cli"
+description = "A hybrid CLI/TUI tool written in Go for viewing Pokémon data from the terminal! Also doubles as a Data Engineering p..."
+author = "digitalghost-dev"
+homepage = "https://github.com/digitalghost-dev/poke-cli"
+readme = "https://raw.githubusercontent.com/digitalghost-dev/poke-cli/main/README.md"
+tags = ["tui"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/digitalghost-dev/poke-cli@latest"

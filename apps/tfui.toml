@@ -1,0 +1,12 @@
+name = "tfui"
+description = "Interactive TUI for performing Terraform workflows"
+author = "SayYoungMan"
+homepage = "https://github.com/SayYoungMan/tfui"
+readme = "https://raw.githubusercontent.com/SayYoungMan/tfui/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/SayYoungMan/tfui@latest"

@@ -1,0 +1,12 @@
+name = "hygg"
+description = "📚 Simplifying the way you read. Minimalistic Vim-like TUI document reader."
+author = "kruseio"
+homepage = "https://github.com/kruseio/hygg"
+readme = "https://raw.githubusercontent.com/kruseio/hygg/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "hygg"

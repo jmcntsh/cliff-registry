@@ -1,0 +1,12 @@
+name = "pytermtk"
+description = "Python Terminal Toolkit - a Spiced Up Cross Compatible TUI Library 🌶️"
+author = "ceccopierangiolieugenio"
+homepage = "https://github.com/ceccopierangiolieugenio/pyTermTk"
+readme = "https://raw.githubusercontent.com/ceccopierangiolieugenio/pyTermTk/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pyTermTk"

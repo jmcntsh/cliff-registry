@@ -1,0 +1,12 @@
+name = "ssm"
+description = "A terminal interface that makes your existing ~/.ssh/config fast, reliable, and actually pleasant to use at scale"
+author = "lfaoro"
+homepage = "https://github.com/lfaoro/ssm"
+readme = "https://raw.githubusercontent.com/lfaoro/ssm/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lfaoro/ssm@latest"

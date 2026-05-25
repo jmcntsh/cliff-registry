@@ -1,0 +1,12 @@
+name = "kanban"
+description = "Terminal based project management solution"
+author = "fulsomenko"
+homepage = "https://github.com/fulsomenko/kanban"
+readme = "https://raw.githubusercontent.com/fulsomenko/kanban/develop/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "kanban"

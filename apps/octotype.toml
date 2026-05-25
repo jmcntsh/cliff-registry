@@ -1,0 +1,12 @@
+name = "octotype"
+description = "A WIP TUI typing trainer inspired by monkeytype with a focus on customization"
+author = "mahlquistj"
+homepage = "https://github.com/mahlquistj/octotype"
+readme = "https://raw.githubusercontent.com/mahlquistj/octotype/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "octotype"

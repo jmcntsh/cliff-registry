@@ -1,0 +1,12 @@
+name = "labcoat"
+description = "NixOS system deployment TUI"
+author = "jhillyerd"
+homepage = "https://github.com/jhillyerd/labcoat"
+readme = "https://raw.githubusercontent.com/jhillyerd/labcoat/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jhillyerd/labcoat@latest"
