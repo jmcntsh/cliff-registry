@@ -1,0 +1,12 @@
+name = "eneru"
+description = "⚡ UPS monitoring and shutdown orchestration for NUT: multi-UPS policy, VM/container/remote shutdown, TUI, API, Prom..."
+author = "m4r1k"
+homepage = "https://github.com/m4r1k/Eneru"
+readme = "https://raw.githubusercontent.com/m4r1k/Eneru/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Eneru"

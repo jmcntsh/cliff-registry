@@ -1,0 +1,12 @@
+name = "md-tui"
+description = "Markdown renderer in the terminal"
+author = "henriklovhaug"
+homepage = "https://github.com/henriklovhaug/md-tui"
+readme = "https://raw.githubusercontent.com/henriklovhaug/md-tui/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "md-tui"

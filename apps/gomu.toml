@@ -1,0 +1,12 @@
+name = "gomu"
+description = "golang TUI music player"
+author = "raziman18"
+homepage = "https://github.com/raziman18/gomu"
+readme = "https://raw.githubusercontent.com/raziman18/gomu/master/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "GPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/raziman18/gomu@latest"

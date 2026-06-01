@@ -1,0 +1,12 @@
+name = "packemon"
+description = "Packet monster (っ‘-’)╮=͟͟͞͞◒ ヽ( '-'ヽ) TUI tool for sending packets of arbitrary input and monitorin..."
+author = "ddddddO"
+homepage = "https://github.com/ddddddO/packemon"
+readme = "https://raw.githubusercontent.com/ddddddO/packemon/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/ddddddO/packemon@latest"

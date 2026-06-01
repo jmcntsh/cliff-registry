@@ -1,0 +1,12 @@
+name = "opencode-visual-cache"
+description = "OpenCode TUI 插件 · 实时 Token 缓存命中率 · 侧边栏可视化 / Real-time Token Cache Hit Rate Sidebar Pl..."
+author = "Hotakus"
+homepage = "https://github.com/Hotakus/opencode-visual-cache"
+readme = "https://raw.githubusercontent.com/Hotakus/opencode-visual-cache/master/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-visual-cache"

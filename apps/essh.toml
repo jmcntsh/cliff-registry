@@ -1,0 +1,12 @@
+name = "essh"
+description = "Enhanced SSH client with TUI — manage connections, keys, and sessions"
+author = "matthart1983"
+homepage = "https://github.com/matthart1983/essh"
+readme = "https://raw.githubusercontent.com/matthart1983/essh/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "essh"

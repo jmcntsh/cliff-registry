@@ -1,0 +1,12 @@
+name = "clashtui"
+description = "Mihomo (Clash.Meta) / sing-box TUI Client"
+author = "JohanChane"
+homepage = "https://github.com/JohanChane/clashtui"
+readme = "https://raw.githubusercontent.com/JohanChane/clashtui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "clashtui"

@@ -1,0 +1,12 @@
+name = "deja"
+description = "Predictive inline shell autosuggestions for zsh — Go daemon, no TUI, no sync"
+author = "Giammarco-Ferranti"
+homepage = "https://github.com/Giammarco-Ferranti/deja"
+readme = "https://raw.githubusercontent.com/Giammarco-Ferranti/deja/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Giammarco-Ferranti/deja@latest"

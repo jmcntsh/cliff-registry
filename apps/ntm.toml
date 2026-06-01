@@ -1,0 +1,12 @@
+name = "ntm"
+description = "Named Tmux Manager: spawn, tile, and coordinate multiple AI coding agents (Claude, Codex, Gemini) across tmux panes w..."
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/ntm"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/ntm/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/Dicklesworthstone/ntm@latest"

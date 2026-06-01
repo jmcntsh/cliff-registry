@@ -1,0 +1,12 @@
+name = "gitv"
+description = "gitv is a terminal-based viewer for GitHub issues. It allows you to view and manage your GitHub issues directly from..."
+author = "JayanAXHF"
+homepage = "https://github.com/JayanAXHF/gitv"
+readme = "https://raw.githubusercontent.com/JayanAXHF/gitv/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "UNLICENSE"
+
+[[installs]]
+type = "cargo"
+package = "gitv"

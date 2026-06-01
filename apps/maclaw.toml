@@ -1,0 +1,11 @@
+name = "maclaw"
+description = "下一代自主进化智能体平台（GUI/TUI/Service/SDK)"
+author = "RapidAI"
+homepage = "https://github.com/RapidAI/MaClaw"
+readme = "https://raw.githubusercontent.com/RapidAI/MaClaw/main/README.md"
+tags = ["tui"]
+category = "Other"
+
+[[installs]]
+type = "go"
+package = "github.com/RapidAI/MaClaw@latest"

@@ -1,0 +1,12 @@
+name = "taproom"
+description = "An interactive TUI for Homebrew"
+author = "hzqtc"
+homepage = "https://github.com/hzqtc/taproom"
+readme = "https://raw.githubusercontent.com/hzqtc/taproom/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hzqtc/taproom@latest"

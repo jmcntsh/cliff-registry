@@ -1,0 +1,12 @@
+name = "tail-claude"
+description = "A Go Bubble Tea TUI for reading Claude Code session JSONL files"
+author = "kylesnowschwartz"
+homepage = "https://github.com/kylesnowschwartz/tail-claude"
+readme = "https://raw.githubusercontent.com/kylesnowschwartz/tail-claude/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kylesnowschwartz/tail-claude@latest"

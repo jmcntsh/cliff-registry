@@ -1,0 +1,12 @@
+name = "syswatch"
+description = "Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS..."
+author = "matthart1983"
+homepage = "https://github.com/matthart1983/syswatch"
+readme = "https://raw.githubusercontent.com/matthart1983/syswatch/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "syswatch"

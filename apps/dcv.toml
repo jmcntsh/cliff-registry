@@ -1,0 +1,11 @@
+name = "dcv"
+description = "TUI viewer for docker-compose"
+author = "tokuhirom"
+homepage = "https://github.com/tokuhirom/dcv"
+readme = "https://raw.githubusercontent.com/tokuhirom/dcv/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/tokuhirom/dcv@latest"

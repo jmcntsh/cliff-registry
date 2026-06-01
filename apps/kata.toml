@@ -1,0 +1,12 @@
+name = "kata"
+description = "Local-first issue tracking for AI-assisted software work, with an agent-friendly CLI and human-facing TUI"
+author = "kenn-io"
+homepage = "https://github.com/kenn-io/kata"
+readme = "https://raw.githubusercontent.com/kenn-io/kata/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kenn-io/kata@latest"

@@ -1,0 +1,12 @@
+name = "ghr"
+description = "https://catcoding.me/ghr/ ghr is a fast terminal workspace for staying on top of GitHub. It brings pull requests, iss..."
+author = "chenyukang"
+homepage = "https://github.com/chenyukang/ghr"
+readme = "https://raw.githubusercontent.com/chenyukang/ghr/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ghr"

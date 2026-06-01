@@ -1,0 +1,12 @@
+name = "dead-man-switch"
+description = "Rust no-BS Dead Man's Switch library, TUI and Web Interface"
+author = "storopoli"
+homepage = "https://github.com/storopoli/dead-man-switch"
+readme = "https://raw.githubusercontent.com/storopoli/dead-man-switch/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "dead-man-switch"

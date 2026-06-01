@@ -1,0 +1,12 @@
+name = "ollamamq"
+description = "High-performance Ollama proxy with per-user fair-share queuing, round-robin scheduling, and a real-time TUI dashboard..."
+author = "Chleba"
+homepage = "https://github.com/Chleba/ollamaMQ"
+readme = "https://raw.githubusercontent.com/Chleba/ollamaMQ/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ollamaMQ"

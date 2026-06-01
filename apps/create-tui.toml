@@ -1,0 +1,11 @@
+name = "create-tui"
+description = "The easiest way to get started with OpenTUI is by using create-tui. This CLI tool enables you to quickly start buildi..."
+author = "msmps"
+homepage = "https://github.com/msmps/create-tui"
+readme = "https://raw.githubusercontent.com/msmps/create-tui/main/README.md"
+tags = ["cli"]
+category = "Networking"
+
+[[installs]]
+type = "npm"
+package = "create-tui"

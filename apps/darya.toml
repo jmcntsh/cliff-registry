@@ -1,0 +1,12 @@
+name = "darya"
+description = "Disk usage explorer with a TUI and live treemap"
+author = "mrkatebzadeh"
+homepage = "https://github.com/mrkatebzadeh/darya"
+readme = "https://raw.githubusercontent.com/mrkatebzadeh/darya/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "darya"

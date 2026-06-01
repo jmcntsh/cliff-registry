@@ -1,0 +1,12 @@
+name = "tttui"
+description = "A typing test TUI(Text-based User Interface) previously written in python, now migrated to rust!"
+author = "ReidoBoss"
+homepage = "https://github.com/ReidoBoss/tttui"
+readme = "https://raw.githubusercontent.com/ReidoBoss/tttui/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tttui"

@@ -1,0 +1,12 @@
+name = "flowrs"
+description = "Flowrs is a TUI application for Apache Airflow that allows you to monitor, inspect and trigger Airflow DAGs from the..."
+author = "jvanbuel"
+homepage = "https://github.com/jvanbuel/flowrs"
+readme = "https://raw.githubusercontent.com/jvanbuel/flowrs/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "flowrs"

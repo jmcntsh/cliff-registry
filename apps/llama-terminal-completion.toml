@@ -1,0 +1,12 @@
+name = "llama-terminal-completion"
+description = "AI terminal assistant for any OpenAI-compatible API. Features interactive chat TUI, command generation, code explanat..."
+author = "adammpkins"
+homepage = "https://github.com/adammpkins/llama-terminal-completion"
+readme = "https://raw.githubusercontent.com/adammpkins/llama-terminal-completion/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/adammpkins/llama-terminal-completion@latest"

@@ -1,0 +1,12 @@
+name = "rmux"
+description = "Universal Rust multiplexer with a typed SDK — drive any CLI or TUI app from code. Native on Linux, macOS, and Windows."
+author = "Helvesec"
+homepage = "https://github.com/Helvesec/rmux"
+readme = "https://raw.githubusercontent.com/Helvesec/rmux/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rmux"

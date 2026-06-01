@@ -1,0 +1,12 @@
+name = "sbom-tools"
+description = "Semantic SBOM/CBOM diff, quality scoring, and TUI analysis tool for CycloneDX/SPDX — covering component changes, de..."
+author = "sbom-tool"
+homepage = "https://github.com/sbom-tool/sbom-tools"
+readme = "https://raw.githubusercontent.com/sbom-tool/sbom-tools/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "sbom-tools"

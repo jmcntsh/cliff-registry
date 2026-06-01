@@ -1,0 +1,12 @@
+name = "foxguard"
+description = "A blazingly fast security scanner, written in Rust. Batteries included, TUI for triage, secrets, post-quantum audits..."
+author = "0sec-labs"
+homepage = "https://github.com/0sec-labs/foxguard"
+readme = "https://raw.githubusercontent.com/0sec-labs/foxguard/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "foxguard"

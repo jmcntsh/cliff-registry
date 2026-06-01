@@ -1,0 +1,12 @@
+name = "golem"
+description = "Golem — The self-evolving GeoAI Agent for the geospatial industry — natural-language GDAL/PostGIS workflows, lear..."
+author = "MEKXH"
+homepage = "https://github.com/MEKXH/golem"
+readme = "https://raw.githubusercontent.com/MEKXH/golem/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/MEKXH/golem@latest"

@@ -1,0 +1,12 @@
+name = "slk"
+description = "A blazingly fast Slack TUI"
+author = "gammons"
+homepage = "https://github.com/gammons/slk"
+readme = "https://raw.githubusercontent.com/gammons/slk/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gammons/slk@latest"

@@ -1,0 +1,11 @@
+name = "epiq"
+description = "CLI based issue tracker TUI - distributed and backed by git"
+author = "ljtn"
+homepage = "https://github.com/ljtn/epiq"
+readme = "https://raw.githubusercontent.com/ljtn/epiq/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "npm"
+package = "epiq"

@@ -1,0 +1,12 @@
+name = "wlctl"
+description = "🛜 TUI for managing wifi/ethernet on Linux with Network Manager"
+author = "aashish-thapa"
+homepage = "https://github.com/aashish-thapa/wlctl"
+readme = "https://raw.githubusercontent.com/aashish-thapa/wlctl/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "wlctl"

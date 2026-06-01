@@ -1,0 +1,12 @@
+name = "glyph"
+description = "declarative TUI library for Go"
+author = "kungfusheep"
+homepage = "https://github.com/kungfusheep/glyph"
+readme = "https://raw.githubusercontent.com/kungfusheep/glyph/master/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/kungfusheep/glyph@latest"

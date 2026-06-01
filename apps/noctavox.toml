@@ -1,0 +1,12 @@
+name = "noctavox"
+description = "Local TUI Music Player"
+author = "Jaxx497"
+homepage = "https://github.com/Jaxx497/NoctaVox"
+readme = "https://raw.githubusercontent.com/Jaxx497/NoctaVox/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "NoctaVox"

@@ -1,0 +1,12 @@
+name = "bubble-table"
+description = "A customizable, interactive table component for the Bubble Tea framework"
+author = "Evertras"
+homepage = "https://github.com/Evertras/bubble-table"
+readme = "https://raw.githubusercontent.com/Evertras/bubble-table/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Evertras/bubble-table@latest"

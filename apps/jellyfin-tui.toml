@@ -1,0 +1,12 @@
+name = "jellyfin-tui"
+description = "🪼 Modern music streaming client for the terminal"
+author = "dhonus"
+homepage = "https://github.com/dhonus/jellyfin-tui"
+readme = "https://raw.githubusercontent.com/dhonus/jellyfin-tui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "jellyfin-tui"

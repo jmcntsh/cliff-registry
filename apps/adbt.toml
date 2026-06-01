@@ -1,0 +1,12 @@
+name = "adbt"
+description = "A modern, keyboard-driven Android Debug Bridge TUI."
+author = "SakshhamTheCoder"
+homepage = "https://github.com/SakshhamTheCoder/adbt"
+readme = "https://raw.githubusercontent.com/SakshhamTheCoder/adbt/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/SakshhamTheCoder/adbt@latest"

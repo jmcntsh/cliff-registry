@@ -1,0 +1,12 @@
+name = "sbb-tui"
+description = "TUI client for Switzerland's public transport timetables, inspidered by the SBB/CFF/FFS app"
+author = "Necrom4"
+homepage = "https://github.com/Necrom4/sbb-tui"
+readme = "https://raw.githubusercontent.com/Necrom4/sbb-tui/master/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Necrom4/sbb-tui@latest"

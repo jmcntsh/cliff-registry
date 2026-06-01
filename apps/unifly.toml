@@ -1,0 +1,12 @@
+name = "unifly"
+description = "🌐 Elegant UniFi network management CLI & TUI - for humans and agents"
+author = "hyperb1iss"
+homepage = "https://github.com/hyperb1iss/unifly"
+readme = "https://raw.githubusercontent.com/hyperb1iss/unifly/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "unifly"

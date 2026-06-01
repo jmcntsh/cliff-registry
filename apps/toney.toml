@@ -1,0 +1,12 @@
+name = "toney"
+description = "Toney is a fast, lightweight, terminal-based note-taking app for the modern developer."
+author = "SourcewareLab"
+homepage = "https://github.com/SourcewareLab/Toney"
+readme = "https://raw.githubusercontent.com/SourcewareLab/Toney/dev/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/SourcewareLab/Toney@latest"

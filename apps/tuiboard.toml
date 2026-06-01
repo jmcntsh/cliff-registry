@@ -1,0 +1,12 @@
+name = "tuiboard"
+description = "Terminal dashboard for markdown task boards — kanban + Today/Tomorrow + 24h timeline + Claude Code agent view, all..."
+author = "NazzarenoGiannelli"
+homepage = "https://github.com/NazzarenoGiannelli/tuiboard"
+readme = "https://raw.githubusercontent.com/NazzarenoGiannelli/tuiboard/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "tuiboard"

@@ -1,0 +1,12 @@
+name = "ducker"
+description = "A slightly quackers Docker TUI based on k9s 🦆"
+author = "robertpsoane"
+homepage = "https://github.com/robertpsoane/ducker"
+readme = "https://raw.githubusercontent.com/robertpsoane/ducker/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ducker"

@@ -1,0 +1,11 @@
+name = "agent-tui"
+description = "TUI automation for AI agents. Control any terminal app from code."
+author = "pproenca"
+homepage = "https://github.com/pproenca/agent-tui"
+readme = "https://raw.githubusercontent.com/pproenca/agent-tui/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "agent-tui"

@@ -1,0 +1,11 @@
+name = "yappad"
+description = "A TUI Note/Journal making app with image rendering and theming :D"
+author = "A-Knee09"
+homepage = "https://github.com/A-Knee09/YapPad"
+readme = "https://raw.githubusercontent.com/A-Knee09/YapPad/main/README.md"
+tags = ["tui"]
+category = "Productivity"
+
+[[installs]]
+type = "go"
+package = "github.com/A-Knee09/YapPad@latest"

@@ -1,0 +1,12 @@
+name = "stax"
+description = "The fastest stacked-branch workflow for Git. Interactive TUI, smart PRs, safe undo. Written in Rust."
+author = "cesarferreira"
+homepage = "https://github.com/cesarferreira/stax"
+readme = "https://raw.githubusercontent.com/cesarferreira/stax/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "stax"

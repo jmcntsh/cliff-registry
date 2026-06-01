@@ -1,0 +1,12 @@
+name = "twitch-tui"
+description = "Twitch chat in the terminal."
+author = "Xithrius"
+homepage = "https://github.com/Xithrius/twitch-tui"
+readme = "https://raw.githubusercontent.com/Xithrius/twitch-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "twitch-tui"

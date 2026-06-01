@@ -1,0 +1,12 @@
+name = "heretek"
+description = "GDB TUI Dashboard for the understanding of vast knowledge"
+author = "wcampbell0x2a"
+homepage = "https://github.com/wcampbell0x2a/heretek"
+readme = "https://raw.githubusercontent.com/wcampbell0x2a/heretek/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "heretek"

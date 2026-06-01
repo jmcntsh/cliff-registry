@@ -1,0 +1,12 @@
+name = "herm"
+description = "The Hermes TUI built with OpenTUI"
+author = "liftaris"
+homepage = "https://github.com/liftaris/herm"
+readme = "https://raw.githubusercontent.com/liftaris/herm/dev/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "herm"
