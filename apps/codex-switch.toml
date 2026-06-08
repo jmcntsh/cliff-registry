@@ -1,0 +1,12 @@
+name = "codex-switch"
+description = "Multi-account profile manager for OpenAI Codex CLI with usage dashboard and interactive TUI."
+author = "xjoker"
+homepage = "https://github.com/xjoker/codex-switch"
+readme = "https://raw.githubusercontent.com/xjoker/codex-switch/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "codex-switch"

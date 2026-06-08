@@ -1,0 +1,12 @@
+name = "xpdig"
+description = "🧰 Dig into Crossplane traces via TUI (a là k9s)"
+author = "brunoluiz"
+homepage = "https://github.com/brunoluiz/xpdig"
+readme = "https://raw.githubusercontent.com/brunoluiz/xpdig/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/brunoluiz/xpdig@latest"

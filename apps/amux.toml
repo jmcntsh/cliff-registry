@@ -1,0 +1,12 @@
+name = "amux"
+description = "TUI for easily running parallel coding agents"
+author = "andyrewlee"
+homepage = "https://github.com/andyrewlee/amux"
+readme = "https://raw.githubusercontent.com/andyrewlee/amux/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/andyrewlee/amux@latest"

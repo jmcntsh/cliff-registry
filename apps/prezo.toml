@@ -1,0 +1,11 @@
+name = "prezo"
+description = "TUI presentation tool"
+author = "abilian"
+homepage = "https://github.com/abilian/prezo"
+readme = "https://raw.githubusercontent.com/abilian/prezo/main/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "pipx"
+package = "prezo"

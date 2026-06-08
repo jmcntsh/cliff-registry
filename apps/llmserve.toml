@@ -1,0 +1,12 @@
+name = "llmserve"
+description = "A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it"
+author = "AlexsJones"
+homepage = "https://github.com/AlexsJones/llmserve"
+readme = "https://raw.githubusercontent.com/AlexsJones/llmserve/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "llmserve"

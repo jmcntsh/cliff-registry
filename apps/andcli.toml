@@ -1,0 +1,12 @@
+name = "andcli"
+description = "A 2FA TUI for your shell"
+author = "tjblackheart"
+homepage = "https://github.com/tjblackheart/andcli"
+readme = "https://raw.githubusercontent.com/tjblackheart/andcli/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tjblackheart/andcli@latest"

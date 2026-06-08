@@ -1,0 +1,12 @@
+name = "tasktimer"
+description = "Task Timer (tt) is a dead simple TUI task timer"
+author = "caarlos0"
+homepage = "https://github.com/caarlos0/tasktimer"
+readme = "https://raw.githubusercontent.com/caarlos0/tasktimer/main/README.md"
+tags = ["tui"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/caarlos0/tasktimer@latest"

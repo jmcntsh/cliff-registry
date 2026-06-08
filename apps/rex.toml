@@ -1,0 +1,12 @@
+name = "rex"
+description = "TUI program for keeping track of incomes and expenses, created with Rust"
+author = "TheRustyPickle"
+homepage = "https://github.com/TheRustyPickle/Rex"
+readme = "https://raw.githubusercontent.com/TheRustyPickle/Rex/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Rex"

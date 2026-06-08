@@ -1,0 +1,12 @@
+name = "reevesagents"
+description = "ReevesAgents is a Free and Open Source workspace manager for AI CLI agents. No API key needed. Tui WebUi Mcp Cli all..."
+author = "mertkayacs"
+homepage = "https://github.com/mertkayacs/reevesagents"
+readme = "https://raw.githubusercontent.com/mertkayacs/reevesagents/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "reevesagents"

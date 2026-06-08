@@ -1,0 +1,12 @@
+name = "peri"
+description = "Rust terminal coding agent, Claude Code compatible — your .claude/ config just works. Multi-LLM, streaming Markdown..."
+author = "KonghaYao"
+homepage = "https://github.com/KonghaYao/peri"
+readme = "https://raw.githubusercontent.com/KonghaYao/peri/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "peri"

@@ -1,0 +1,12 @@
+name = "youtui"
+description = "TUI and API for YouTube Music written in Rust"
+author = "nick42d"
+homepage = "https://github.com/nick42d/youtui"
+readme = "https://raw.githubusercontent.com/nick42d/youtui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "youtui"

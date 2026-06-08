@@ -1,0 +1,12 @@
+name = "agenttrace"
+description = "Local-first TUI for AI coding-agent session history: trace cost, tokens, time, tool failures, latency, health, diffs..."
+author = "luoyuctl"
+homepage = "https://github.com/luoyuctl/agenttrace"
+readme = "https://raw.githubusercontent.com/luoyuctl/agenttrace/master/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/luoyuctl/agenttrace@latest"

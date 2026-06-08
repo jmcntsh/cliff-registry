@@ -1,0 +1,12 @@
+name = "swpui"
+description = "Search and replace, TUI style. Mirror available on Codeberg."
+author = "beeb"
+homepage = "https://github.com/beeb/swpui"
+readme = "https://raw.githubusercontent.com/beeb/swpui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "swpui"

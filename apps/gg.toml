@@ -1,0 +1,12 @@
+name = "gg"
+description = "gg - Go Github is a small Rust CLI helper and TUI for more quickly getting to a repo's Github page, Issues, Milestone..."
+author = "frankwiles"
+homepage = "https://github.com/frankwiles/gg"
+readme = "https://raw.githubusercontent.com/frankwiles/gg/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gg"

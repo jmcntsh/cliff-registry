@@ -1,0 +1,12 @@
+name = "lyre"
+description = "A beautiful music visualizer and metadata TUI built with Node.js and Ink."
+author = "DeadZone-0"
+homepage = "https://github.com/DeadZone-0/lyre"
+readme = "https://raw.githubusercontent.com/DeadZone-0/lyre/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "ISC"
+
+[[installs]]
+type = "npm"
+package = "lyre"

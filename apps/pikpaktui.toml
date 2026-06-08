@@ -1,0 +1,12 @@
+name = "pikpaktui"
+description = "A TUI and CLI client for PikPak cloud storage — written in pure Rust. OpenClaw friendly. Browse, download, upload..."
+author = "Bengerthelorf"
+homepage = "https://github.com/Bengerthelorf/pikpaktui"
+readme = "https://raw.githubusercontent.com/Bengerthelorf/pikpaktui/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "pikpaktui"

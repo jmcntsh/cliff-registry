@@ -1,0 +1,12 @@
+name = "nview"
+description = "A TUI for monitoring Cardano nodes"
+author = "blinklabs-io"
+homepage = "https://github.com/blinklabs-io/nview"
+readme = "https://raw.githubusercontent.com/blinklabs-io/nview/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/blinklabs-io/nview@latest"

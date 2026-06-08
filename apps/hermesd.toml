@@ -1,0 +1,12 @@
+name = "hermesd"
+description = "TUI monitoring dashboard for Hermes AI agent"
+author = "mudrii"
+homepage = "https://github.com/mudrii/hermesd"
+readme = "https://raw.githubusercontent.com/mudrii/hermesd/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "hermesd"

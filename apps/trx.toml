@@ -1,0 +1,12 @@
+name = "trx"
+description = "TUI package manager"
+author = "pie-314"
+homepage = "https://github.com/pie-314/trx"
+readme = "https://raw.githubusercontent.com/pie-314/trx/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "trx"

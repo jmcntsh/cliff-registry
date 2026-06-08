@@ -1,0 +1,12 @@
+name = "tanin"
+description = "A simple TUI noise generator"
+author = "AnonMiraj"
+homepage = "https://github.com/AnonMiraj/Tanin"
+readme = "https://raw.githubusercontent.com/AnonMiraj/Tanin/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Tanin"

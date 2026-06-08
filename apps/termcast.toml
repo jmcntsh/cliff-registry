@@ -1,0 +1,11 @@
+name = "termcast"
+description = "Turn any Raycast extension into a terminal user interface (TUI). Powered by opentui & react"
+author = "remorses"
+homepage = "https://github.com/remorses/termcast"
+readme = "https://raw.githubusercontent.com/remorses/termcast/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "termcast"

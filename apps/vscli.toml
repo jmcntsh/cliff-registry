@@ -1,0 +1,12 @@
+name = "vscli"
+description = "A CLI/TUI that simplifies launching VSCode projects, with a focus on dev containers"
+author = "michidk"
+homepage = "https://github.com/michidk/vscli"
+readme = "https://raw.githubusercontent.com/michidk/vscli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "vscli"

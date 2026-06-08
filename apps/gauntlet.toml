@@ -1,0 +1,11 @@
+name = "gauntlet"
+description = "AI-powered QA testing framework that uses LLMs (Claude or GPT) to test web apps, CLI tools, and TUI programs from mar..."
+author = "prime-radiant-inc"
+homepage = "https://github.com/prime-radiant-inc/gauntlet"
+readme = "https://raw.githubusercontent.com/prime-radiant-inc/gauntlet/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "gauntlet"

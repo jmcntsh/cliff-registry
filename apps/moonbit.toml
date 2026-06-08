@@ -1,0 +1,12 @@
+name = "moonbit"
+description = "A modern system cleaner built in Go with a TUI and CLI."
+author = "Nomadcxx"
+homepage = "https://github.com/Nomadcxx/moonbit"
+readme = "https://raw.githubusercontent.com/Nomadcxx/moonbit/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Nomadcxx/moonbit@latest"

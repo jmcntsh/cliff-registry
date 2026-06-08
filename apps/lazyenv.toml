@@ -1,0 +1,12 @@
+name = "lazyenv"
+description = "TUI for managing .env files"
+author = "lazynop"
+homepage = "https://github.com/lazynop/lazyenv"
+readme = "https://raw.githubusercontent.com/lazynop/lazyenv/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lazynop/lazyenv@latest"

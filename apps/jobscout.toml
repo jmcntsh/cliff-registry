@@ -1,0 +1,12 @@
+name = "jobscout"
+description = "A TUI job finder and tracker"
+author = "wallentx"
+homepage = "https://github.com/wallentx/jobscout"
+readme = "https://raw.githubusercontent.com/wallentx/jobscout/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/wallentx/jobscout@latest"

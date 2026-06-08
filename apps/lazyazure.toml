@@ -1,0 +1,12 @@
+name = "lazyazure"
+description = "The lazy way to view your Azure resources. TUI for drilling down into Azure subscriptions, resource groups and resour..."
+author = "matsest"
+homepage = "https://github.com/matsest/lazyazure"
+readme = "https://raw.githubusercontent.com/matsest/lazyazure/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/matsest/lazyazure@latest"

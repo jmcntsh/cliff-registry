@@ -1,0 +1,12 @@
+name = "chatuino"
+description = "A feature rich TUI Twitch IRC Client"
+author = "julez-dev"
+homepage = "https://github.com/julez-dev/chatuino"
+readme = "https://raw.githubusercontent.com/julez-dev/chatuino/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/julez-dev/chatuino@latest"

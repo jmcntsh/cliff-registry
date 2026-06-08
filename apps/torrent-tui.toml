@@ -1,0 +1,12 @@
+name = "torrent-tui"
+description = "⚡A lightweight tui based bit torrent client"
+author = "ryadios"
+homepage = "https://github.com/ryadios/torrent-tui"
+readme = "https://raw.githubusercontent.com/ryadios/torrent-tui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "torrent-tui"

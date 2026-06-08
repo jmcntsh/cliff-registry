@@ -1,0 +1,12 @@
+name = "mult"
+description = "Run a command multiple times and glance at the outputs via a TUI"
+author = "dhth"
+homepage = "https://github.com/dhth/mult"
+readme = "https://raw.githubusercontent.com/dhth/mult/main/README.md"
+tags = ["tui"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dhth/mult@latest"

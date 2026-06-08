@@ -1,0 +1,12 @@
+name = "gcscope"
+description = "Go GC visualizer TUI for gctrace, runtime/metrics, STW pauses, heap live/goal, and pacer signals."
+author = "timur-developer"
+homepage = "https://github.com/timur-developer/gcscope"
+readme = "https://raw.githubusercontent.com/timur-developer/gcscope/main/README.md"
+tags = ["tui"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/timur-developer/gcscope@latest"

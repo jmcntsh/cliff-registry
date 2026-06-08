@@ -1,0 +1,12 @@
+name = "pgterm"
+description = "A terminal-based interface (TUI) for PostgreSQL, written in Go. It allows you to connect to a PostgreSQL database, ru..."
+author = "nabsk911"
+homepage = "https://github.com/nabsk911/pgterm"
+readme = "https://raw.githubusercontent.com/nabsk911/pgterm/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nabsk911/pgterm@latest"

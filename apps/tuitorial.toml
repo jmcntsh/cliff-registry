@@ -1,0 +1,12 @@
+name = "tuitorial"
+description = "Create beautiful terminal-based code tutorials with syntax highlighting and interactive navigation."
+author = "basnijholt"
+homepage = "https://github.com/basnijholt/tuitorial"
+readme = "https://raw.githubusercontent.com/basnijholt/tuitorial/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "tuitorial"

@@ -1,0 +1,12 @@
+name = "socktop"
+description = "socktop is a remote system monitor with a rich TUI interface, inspired by `top` and `btop`, that communicates with a..."
+author = "jasonwitty"
+homepage = "https://github.com/jasonwitty/socktop"
+readme = "https://raw.githubusercontent.com/jasonwitty/socktop/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "socktop"

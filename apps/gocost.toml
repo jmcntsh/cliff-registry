@@ -1,0 +1,12 @@
+name = "gocost"
+description = "Simple TUI application to manage monthly expenses"
+author = "madalinpopa"
+homepage = "https://github.com/madalinpopa/gocost"
+readme = "https://raw.githubusercontent.com/madalinpopa/gocost/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/madalinpopa/gocost@latest"

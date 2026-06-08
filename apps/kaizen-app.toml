@@ -1,0 +1,12 @@
+name = "kaizen-app"
+description = "A modern manga + anime streaming mobile app built with React Native and Expo, continuing legacy of Kaizen-TUI"
+author = "serene-brew"
+homepage = "https://github.com/serene-brew/kaizen-app"
+readme = "https://raw.githubusercontent.com/serene-brew/kaizen-app/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "kaizen-app"

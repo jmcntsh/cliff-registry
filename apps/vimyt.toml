@@ -1,0 +1,12 @@
+name = "vimyt"
+description = "TUI for YT Music with vim keybindings"
+author = "Sadoaz"
+homepage = "https://github.com/Sadoaz/vimyt"
+readme = "https://raw.githubusercontent.com/Sadoaz/vimyt/main/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Sadoaz/vimyt@latest"

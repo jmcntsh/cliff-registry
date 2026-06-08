@@ -1,0 +1,12 @@
+name = "glint"
+description = "Terminal TUI-based dashboard, serving at-a-glance information across multiple domains"
+author = "ntrospect0"
+homepage = "https://github.com/ntrospect0/glint"
+readme = "https://raw.githubusercontent.com/ntrospect0/glint/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "glint"

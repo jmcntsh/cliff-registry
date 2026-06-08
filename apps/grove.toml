@@ -1,0 +1,12 @@
+name = "grove"
+description = "A Kanban-style TUI for parallel AI coding. Manage Git worktrees as tasks, run multiple agents in isolated tmux sessio..."
+author = "GarrickZ2"
+homepage = "https://github.com/GarrickZ2/grove"
+readme = "https://raw.githubusercontent.com/GarrickZ2/grove/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "grove"

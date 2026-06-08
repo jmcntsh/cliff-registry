@@ -1,0 +1,12 @@
+name = "tui-journal"
+description = "Your journal app if you live in a terminal"
+author = "AmmarAbouZor"
+homepage = "https://github.com/AmmarAbouZor/tui-journal"
+readme = "https://raw.githubusercontent.com/AmmarAbouZor/tui-journal/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tui-journal"

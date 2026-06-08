@@ -1,0 +1,12 @@
+name = "cosmo"
+description = "Cosmo is a terminal user interface (TUI) that provides real-time visibility into PostgreSQL database health, query pe..."
+author = "mujib77"
+homepage = "https://github.com/mujib77/cosmo"
+readme = "https://raw.githubusercontent.com/mujib77/cosmo/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mujib77/cosmo@latest"

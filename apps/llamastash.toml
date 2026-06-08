@@ -1,0 +1,12 @@
+name = "llamastash"
+description = "A fast terminal native app (TUI) and CLI with init wizard for launching local LLMs via llama.cpp with zero overhead"
+author = "llamastash"
+homepage = "https://github.com/llamastash/llamastash"
+readme = "https://raw.githubusercontent.com/llamastash/llamastash/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "llamastash"

@@ -1,0 +1,12 @@
+name = "dskditto"
+description = "Ultra fast and easy duplicate file finder. Awesome TUI/GUI to manage results."
+author = "jdefrancesco"
+homepage = "https://github.com/jdefrancesco/dskDitto"
+readme = "https://raw.githubusercontent.com/jdefrancesco/dskDitto/master/README.md"
+tags = ["tui"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/jdefrancesco/dskDitto@latest"

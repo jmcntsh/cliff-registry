@@ -1,0 +1,12 @@
+name = "tuifimanager"
+description = "A cross-platform terminal-based termux-oriented file manager (and component), meant to be used with a Uni-Curses proj..."
+author = "GiorgosXou"
+homepage = "https://github.com/GiorgosXou/TUIFIManager"
+readme = "https://raw.githubusercontent.com/GiorgosXou/TUIFIManager/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "TUIFIManager"

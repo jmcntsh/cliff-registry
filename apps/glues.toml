@@ -1,0 +1,12 @@
+name = "glues"
+description = "Vim-inspired TUI note-taking app with multi-backend storage — privacy-focused"
+author = "gluesql"
+homepage = "https://github.com/gluesql/glues"
+readme = "https://raw.githubusercontent.com/gluesql/glues/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "glues"

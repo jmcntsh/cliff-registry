@@ -1,0 +1,12 @@
+name = "wiremix"
+description = "Simple TUI audio mixer for PipeWire"
+author = "tsowell"
+homepage = "https://github.com/tsowell/wiremix"
+readme = "https://raw.githubusercontent.com/tsowell/wiremix/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "wiremix"

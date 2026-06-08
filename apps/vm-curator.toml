@@ -1,0 +1,12 @@
+name = "vm-curator"
+description = "vm-curator is a fast and friendly TUI to build and manage QEMU/KVM virtual machines for desktop use with working 3D a..."
+author = "mroboff"
+homepage = "https://github.com/mroboff/vm-curator"
+readme = "https://raw.githubusercontent.com/mroboff/vm-curator/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "vm-curator"

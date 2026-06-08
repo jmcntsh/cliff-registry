@@ -1,0 +1,12 @@
+name = "grafatui"
+description = "A lightweight, interactive TUI for Prometheus with Grafana dashboard support. 🦀 📈"
+author = "fedexist"
+homepage = "https://github.com/fedexist/grafatui"
+readme = "https://raw.githubusercontent.com/fedexist/grafatui/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "grafatui"

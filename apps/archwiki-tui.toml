@@ -1,0 +1,12 @@
+name = "archwiki-tui"
+description = "A terminal browser for the Arch Wiki. No bloat. No browser. Just the wiki."
+author = "Harshil-Anuwadia"
+homepage = "https://github.com/Harshil-Anuwadia/archwiki-tui"
+readme = "https://raw.githubusercontent.com/Harshil-Anuwadia/archwiki-tui/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Harshil-Anuwadia/archwiki-tui@latest"
