@@ -1,0 +1,12 @@
+name = "clin-rs"
+description = "TUI note management app inspired by Obsidian"
+author = "reekta92"
+homepage = "https://github.com/reekta92/clin-rs"
+readme = "https://raw.githubusercontent.com/reekta92/clin-rs/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "clin-rs"

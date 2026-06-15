@@ -1,0 +1,12 @@
+name = "rmcl"
+description = "A minecraft TUI/CLI launcher written in Rust"
+author = "objz"
+homepage = "https://github.com/objz/rmcl"
+readme = "https://raw.githubusercontent.com/objz/rmcl/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "rmcl"

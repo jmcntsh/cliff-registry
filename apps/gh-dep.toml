@@ -1,0 +1,12 @@
+name = "gh-dep"
+description = "Interactive TUI for bulk managing dependency PRs. Multi-repo support, keyboard navigation, live settings. A better De..."
+author = "jackchuka"
+homepage = "https://github.com/jackchuka/gh-dep"
+readme = "https://raw.githubusercontent.com/jackchuka/gh-dep/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jackchuka/gh-dep@latest"

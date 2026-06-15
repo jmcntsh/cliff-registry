@@ -1,0 +1,12 @@
+name = "terminalist"
+description = "A Todoist TUI client written in Rust"
+author = "romaintb"
+homepage = "https://github.com/romaintb/terminalist"
+readme = "https://raw.githubusercontent.com/romaintb/terminalist/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "terminalist"

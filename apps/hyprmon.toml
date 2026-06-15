@@ -1,0 +1,12 @@
+name = "hyprmon"
+description = "TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management"
+author = "erans"
+homepage = "https://github.com/erans/hyprmon"
+readme = "https://raw.githubusercontent.com/erans/hyprmon/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/erans/hyprmon@latest"

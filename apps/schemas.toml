@@ -1,0 +1,12 @@
+name = "schemas"
+description = "Inspect postgres schemas via a TUI"
+author = "dhth"
+homepage = "https://github.com/dhth/schemas"
+readme = "https://raw.githubusercontent.com/dhth/schemas/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dhth/schemas@latest"

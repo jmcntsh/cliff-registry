@@ -1,0 +1,12 @@
+name = "hive"
+description = "CLI/TUI for managing multiple AI agent sessions in isolated git environments with real-time status monitoring, task t..."
+author = "colonyops"
+homepage = "https://github.com/colonyops/hive"
+readme = "https://raw.githubusercontent.com/colonyops/hive/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/colonyops/hive@latest"

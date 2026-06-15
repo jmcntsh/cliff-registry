@@ -1,0 +1,12 @@
+name = "azdo"
+description = "A TUI for working with Azure DevOps in ze terminal."
+author = "Elpulgo"
+homepage = "https://github.com/Elpulgo/azdo"
+readme = "https://raw.githubusercontent.com/Elpulgo/azdo/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Elpulgo/azdo@latest"

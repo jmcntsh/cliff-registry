@@ -1,0 +1,12 @@
+name = "cull"
+description = "Interactive TUI disk space analyzer"
+author = "legostin"
+homepage = "https://github.com/legostin/cull"
+readme = "https://raw.githubusercontent.com/legostin/cull/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/legostin/cull@latest"

@@ -1,0 +1,12 @@
+name = "agentmanager"
+description = "CLI/TUI app to easily detect, manage, install, and update AI Agent CLI tools"
+author = "kevinelliott"
+homepage = "https://github.com/kevinelliott/agentmanager"
+readme = "https://raw.githubusercontent.com/kevinelliott/agentmanager/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kevinelliott/agentmanager@latest"

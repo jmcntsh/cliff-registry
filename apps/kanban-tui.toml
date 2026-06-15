@@ -1,0 +1,12 @@
+name = "kanban-tui"
+description = "Task Manager with a TUI written in Python and usable by agents"
+author = "Zaloog"
+homepage = "https://github.com/Zaloog/kanban-tui"
+readme = "https://raw.githubusercontent.com/Zaloog/kanban-tui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "kanban-tui"

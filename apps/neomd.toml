@@ -1,0 +1,12 @@
+name = "neomd"
+description = "Keyboard-first TUI email: write in Neovim, render as Markdown, screen senders first, organize emails once."
+author = "ssp-data"
+homepage = "https://github.com/ssp-data/neomd"
+readme = "https://raw.githubusercontent.com/ssp-data/neomd/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ssp-data/neomd@latest"

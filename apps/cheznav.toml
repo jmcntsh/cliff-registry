@@ -1,0 +1,12 @@
+name = "cheznav"
+description = "TUI for chezmoi"
+author = "djetelina"
+homepage = "https://github.com/djetelina/cheznav"
+readme = "https://raw.githubusercontent.com/djetelina/cheznav/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cheznav"

@@ -1,0 +1,12 @@
+name = "rdmatop"
+description = "htop-like TUI for real-time RDMA network monitoring."
+author = "uccl-project"
+homepage = "https://github.com/uccl-project/rdmatop"
+readme = "https://raw.githubusercontent.com/uccl-project/rdmatop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rdmatop"

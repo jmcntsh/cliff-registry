@@ -1,0 +1,12 @@
+name = "cerno"
+description = "This tool provides an interactive TUI for reviewing Nessus finding exports, running security tools (nmap, netexec, me..."
+author = "ridgebackinfosec"
+homepage = "https://github.com/ridgebackinfosec/cerno"
+readme = "https://raw.githubusercontent.com/ridgebackinfosec/cerno/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cerno"

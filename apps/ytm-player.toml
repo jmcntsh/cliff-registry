@@ -1,0 +1,12 @@
+name = "ytm-player"
+description = "YouTube Music TUI client with vim keybindings, synced lyrics, and cross-platform media keys"
+author = "peternaame-boop"
+homepage = "https://github.com/peternaame-boop/ytm-player"
+readme = "https://raw.githubusercontent.com/peternaame-boop/ytm-player/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ytm-player"

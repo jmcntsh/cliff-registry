@@ -1,0 +1,12 @@
+name = "sysc-greet"
+description = "A tui greeter (not built in rust)"
+author = "Nomadcxx"
+homepage = "https://github.com/Nomadcxx/sysc-greet"
+readme = "https://raw.githubusercontent.com/Nomadcxx/sysc-greet/master/README.md"
+tags = ["tui"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Nomadcxx/sysc-greet@latest"

@@ -1,0 +1,12 @@
+name = "clipse"
+description = "Configurable TUI clipboard manager for Unix"
+author = "savedra1"
+homepage = "https://github.com/savedra1/clipse"
+readme = "https://raw.githubusercontent.com/savedra1/clipse/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/savedra1/clipse@latest"

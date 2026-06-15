@@ -1,0 +1,12 @@
+name = "redis-tui"
+description = "Redis TUI Manager"
+author = "davidbudnick"
+homepage = "https://github.com/davidbudnick/redis-tui"
+readme = "https://raw.githubusercontent.com/davidbudnick/redis-tui/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/davidbudnick/redis-tui@latest"

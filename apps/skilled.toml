@@ -1,0 +1,11 @@
+name = "skilled"
+description = "TUI dashboard for skill usage stats across AI coding tools"
+author = "av"
+homepage = "https://github.com/av/skilled"
+readme = "https://raw.githubusercontent.com/av/skilled/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "skilled"

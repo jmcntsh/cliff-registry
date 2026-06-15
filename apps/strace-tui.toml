@@ -1,0 +1,12 @@
+name = "strace-tui"
+description = "A terminal user interface (TUI) for visualizing and exploring strace output"
+author = "Rodrigodd"
+homepage = "https://github.com/Rodrigodd/strace-tui"
+readme = "https://raw.githubusercontent.com/Rodrigodd/strace-tui/master/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "strace-tui"

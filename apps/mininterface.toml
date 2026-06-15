@@ -1,0 +1,12 @@
+name = "mininterface"
+description = "CLI & dialog toolkit – a minimal interface to Python application (GUI, TUI, CLI + config files, web)"
+author = "CZ-NIC"
+homepage = "https://github.com/CZ-NIC/mininterface"
+readme = "https://raw.githubusercontent.com/CZ-NIC/mininterface/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "mininterface"

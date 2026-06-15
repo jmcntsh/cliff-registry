@@ -1,0 +1,12 @@
+name = "radiogogo"
+description = "📻 Go-powered CLI to surf global radio waves via a sleek TUI. Tune in & let's Go 🚀!"
+author = "matteo-pacini"
+homepage = "https://github.com/matteo-pacini/RadioGoGo"
+readme = "https://raw.githubusercontent.com/matteo-pacini/RadioGoGo/master/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/matteo-pacini/RadioGoGo@latest"

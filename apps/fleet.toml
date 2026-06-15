@@ -1,0 +1,12 @@
+name = "fleet"
+description = "TUI tool for managing multiple Claude Code sessions in parallel using tmux"
+author = "brizzai"
+homepage = "https://github.com/brizzai/fleet"
+readme = "https://raw.githubusercontent.com/brizzai/fleet/master/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/brizzai/fleet@latest"

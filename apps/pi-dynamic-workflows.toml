@@ -1,0 +1,12 @@
+name = "pi-dynamic-workflows"
+description = "Claude Code–style dynamic workflows for Pi: code-mode subagents with real model routing, journaled resume, git-work..."
+author = "QuintinShaw"
+homepage = "https://github.com/QuintinShaw/pi-dynamic-workflows"
+readme = "https://raw.githubusercontent.com/QuintinShaw/pi-dynamic-workflows/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-dynamic-workflows"

@@ -1,0 +1,12 @@
+name = "fsel"
+description = "Fast TUI app launcher for GNU/Linux and *BSD"
+author = "Mjoyufull"
+homepage = "https://github.com/Mjoyufull/fsel"
+readme = "https://raw.githubusercontent.com/Mjoyufull/fsel/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "cargo"
+package = "fsel"

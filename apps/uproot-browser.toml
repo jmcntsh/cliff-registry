@@ -1,0 +1,12 @@
+name = "uproot-browser"
+description = "A TUI viewer for ROOT files"
+author = "scikit-hep"
+homepage = "https://github.com/scikit-hep/uproot-browser"
+readme = "https://raw.githubusercontent.com/scikit-hep/uproot-browser/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "uproot-browser"

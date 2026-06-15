@@ -1,0 +1,12 @@
+name = "lazyvpn-for-omarchy"
+description = "LazyVPN is an Omarchy VPN manager for WireGuard connections. It replaces manual systemd-networkd configuration with a..."
+author = "blank-query"
+homepage = "https://github.com/blank-query/lazyVPN-for-Omarchy"
+readme = "https://raw.githubusercontent.com/blank-query/lazyVPN-for-Omarchy/master/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/blank-query/lazyVPN-for-Omarchy@latest"

@@ -1,0 +1,11 @@
+name = "kli"
+description = "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods. Inspired..."
+author = "bjarneo"
+homepage = "https://github.com/bjarneo/kli"
+readme = "https://raw.githubusercontent.com/bjarneo/kli/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/bjarneo/kli@latest"

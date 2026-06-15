@@ -1,0 +1,12 @@
+name = "openkanban"
+description = "TUI kanban board for orchestrating AI coding agents"
+author = "TechDufus"
+homepage = "https://github.com/TechDufus/openkanban"
+readme = "https://raw.githubusercontent.com/TechDufus/openkanban/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/TechDufus/openkanban@latest"

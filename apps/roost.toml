@@ -1,0 +1,12 @@
+name = "roost"
+description = "TUI-first dotfiles manager, written in Rust"
+author = "mt-22"
+homepage = "https://github.com/mt-22/roost"
+readme = "https://raw.githubusercontent.com/mt-22/roost/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "roost"

@@ -1,0 +1,12 @@
+name = "maestro"
+description = "Maestro spawns and monitors multiple AI providers sessions working on the same project simultaneously. It provides re..."
+author = "CarlosDanielDev"
+homepage = "https://github.com/CarlosDanielDev/maestro"
+readme = "https://raw.githubusercontent.com/CarlosDanielDev/maestro/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "maestro"

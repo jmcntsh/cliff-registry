@@ -1,0 +1,12 @@
+name = "soundscope"
+description = "A TUI app for analyzing audio data such as frequencies and loudness (LUFS)"
+author = "bananaofhappiness"
+homepage = "https://github.com/bananaofhappiness/soundscope"
+readme = "https://raw.githubusercontent.com/bananaofhappiness/soundscope/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "soundscope"

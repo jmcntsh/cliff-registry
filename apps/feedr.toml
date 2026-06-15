@@ -1,0 +1,12 @@
+name = "feedr"
+description = "A feature-rich terminal-based RSS/Atom feed reader written in Rust."
+author = "bahdotsh"
+homepage = "https://github.com/bahdotsh/feedr"
+readme = "https://raw.githubusercontent.com/bahdotsh/feedr/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "feedr"

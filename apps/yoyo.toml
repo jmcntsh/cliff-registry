@@ -1,0 +1,12 @@
+name = "yoyo"
+description = "TUI command launcher 🚀"
+author = "leolorenzato"
+homepage = "https://github.com/leolorenzato/yoyo"
+readme = "https://raw.githubusercontent.com/leolorenzato/yoyo/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/leolorenzato/yoyo@latest"

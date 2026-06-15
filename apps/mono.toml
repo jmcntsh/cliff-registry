@@ -1,0 +1,11 @@
+name = "mono"
+description = "A privacy-first screen time tracking application for Linux with a polished terminal-based user interface (TUI)."
+author = "xonoxc"
+homepage = "https://github.com/xonoxc/mono"
+readme = "https://raw.githubusercontent.com/xonoxc/mono/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "cargo"
+package = "mono"

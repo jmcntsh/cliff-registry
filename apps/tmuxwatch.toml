@@ -1,0 +1,12 @@
+name = "tmuxwatch"
+description = "A simple TUI to watch tmux sessions"
+author = "steipete"
+homepage = "https://github.com/steipete/tmuxwatch"
+readme = "https://raw.githubusercontent.com/steipete/tmuxwatch/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/steipete/tmuxwatch@latest"

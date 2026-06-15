@@ -1,0 +1,12 @@
+name = "thokr"
+description = "✨ sleek typing tui with visualized results and historical logging"
+author = "jrnxf"
+homepage = "https://github.com/jrnxf/thokr"
+readme = "https://raw.githubusercontent.com/jrnxf/thokr/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "thokr"

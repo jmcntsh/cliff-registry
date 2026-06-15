@@ -1,0 +1,12 @@
+name = "wintui"
+description = "Go TUI frontend for winget (Windows Package Manager) — built with Bubble Tea, Bubbles, and Lip Gloss"
+author = "kts982"
+homepage = "https://github.com/kts982/wintui"
+readme = "https://raw.githubusercontent.com/kts982/wintui/main/README.md"
+tags = ["tui"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kts982/wintui@latest"

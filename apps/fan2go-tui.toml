@@ -1,0 +1,12 @@
+name = "fan2go-tui"
+description = "Terminal UI for fan2go."
+author = "markusressel"
+homepage = "https://github.com/markusressel/fan2go-tui"
+readme = "https://raw.githubusercontent.com/markusressel/fan2go-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/markusressel/fan2go-tui@latest"

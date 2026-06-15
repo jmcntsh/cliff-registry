@@ -1,0 +1,12 @@
+name = "sifty"
+description = "Windows maintenance CLI + TUI that sifts the junk from the keep. Dry-run by default, Recycle Bin only, undo included."
+author = "Vortrix5"
+homepage = "https://github.com/Vortrix5/sifty"
+readme = "https://raw.githubusercontent.com/Vortrix5/sifty/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "sifty"

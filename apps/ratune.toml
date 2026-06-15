@@ -1,0 +1,12 @@
+name = "ratune"
+description = "A modern highly-customizable Subsonic TUI client built in Rust."
+author = "acmagn"
+homepage = "https://github.com/acmagn/ratune"
+readme = "https://raw.githubusercontent.com/acmagn/ratune/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "ratune"

@@ -1,0 +1,12 @@
+name = "gh-news"
+description = "gh cli tui extension to read GitHub notifications (and more) in the terminal"
+author = "chmouel"
+homepage = "https://github.com/chmouel/gh-news"
+readme = "https://raw.githubusercontent.com/chmouel/gh-news/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "gh-news"

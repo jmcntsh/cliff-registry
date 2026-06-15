@@ -1,0 +1,12 @@
+name = "smelt"
+description = "TUI coding agent"
+author = "leonardcser"
+homepage = "https://github.com/leonardcser/smelt"
+readme = "https://raw.githubusercontent.com/leonardcser/smelt/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "smelt"

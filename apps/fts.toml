@@ -1,0 +1,12 @@
+name = "fts"
+description = "A lightweight CLI tool and TUI application for fast local-network file transfers and communication."
+author = "Terabase-Studios"
+homepage = "https://github.com/Terabase-Studios/fts"
+readme = "https://raw.githubusercontent.com/Terabase-Studios/fts/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "fts"
