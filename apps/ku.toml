@@ -1,0 +1,12 @@
+name = "ku"
+description = "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods."
+author = "bjarneo"
+homepage = "https://github.com/bjarneo/ku"
+readme = "https://raw.githubusercontent.com/bjarneo/ku/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bjarneo/ku@latest"

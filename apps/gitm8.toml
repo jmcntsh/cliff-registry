@@ -1,0 +1,12 @@
+name = "gitm8"
+description = "Git TUI for the masses!!"
+author = "b404dev"
+homepage = "https://github.com/b404dev/gitm8"
+readme = "https://raw.githubusercontent.com/b404dev/gitm8/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/b404dev/gitm8@latest"

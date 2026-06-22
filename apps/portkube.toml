@@ -1,0 +1,11 @@
+name = "portkube"
+description = "Terminal UI for transparent Kubernetes service access from your local machine"
+author = "huseyinbabal"
+homepage = "https://github.com/huseyinbabal/portkube"
+readme = "https://raw.githubusercontent.com/huseyinbabal/portkube/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "cargo"
+package = "portkube"

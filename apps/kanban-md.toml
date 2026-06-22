@@ -1,0 +1,12 @@
+name = "kanban-md"
+description = "File-based kanban board CLI and TUI for multi-agent workflows. Skills included."
+author = "antopolskiy"
+homepage = "https://github.com/antopolskiy/kanban-md"
+readme = "https://raw.githubusercontent.com/antopolskiy/kanban-md/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/antopolskiy/kanban-md@latest"

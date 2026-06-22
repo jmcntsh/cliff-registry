@@ -1,0 +1,12 @@
+name = "redthread"
+description = "A sticky-note pegboard TUI for your terminal — drag notes around an ASCII corkboard, dangle red strings between the..."
+author = "B33pBeeps"
+homepage = "https://github.com/B33pBeeps/redthread"
+readme = "https://raw.githubusercontent.com/B33pBeeps/redthread/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/B33pBeeps/redthread@latest"

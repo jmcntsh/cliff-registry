@@ -1,0 +1,12 @@
+name = "abacus"
+description = "Interactive terminal UI for visualizing and navigating Beads issue tracking projects"
+author = "ChrisEdwards"
+homepage = "https://github.com/ChrisEdwards/abacus"
+readme = "https://raw.githubusercontent.com/ChrisEdwards/abacus/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ChrisEdwards/abacus@latest"

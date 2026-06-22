@@ -1,0 +1,12 @@
+name = "lazydiff"
+description = "A fast terminal UI for reviewing Git diffs with support for annotations for agents"
+author = "Ataraxy-Labs"
+homepage = "https://github.com/Ataraxy-Labs/lazydiff"
+readme = "https://raw.githubusercontent.com/Ataraxy-Labs/lazydiff/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "lazydiff"

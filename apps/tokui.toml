@@ -1,0 +1,12 @@
+name = "tokui"
+description = "An interactive TUI for visualizing code statistics from tokei."
+author = "zdyxry"
+homepage = "https://github.com/zdyxry/tokui"
+readme = "https://raw.githubusercontent.com/zdyxry/tokui/main/README.md"
+tags = ["tui"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/zdyxry/tokui@latest"

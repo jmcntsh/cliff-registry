@@ -1,0 +1,12 @@
+name = "etcd-walker"
+description = "Opensource TUI tool for etcd"
+author = "nexusriot"
+homepage = "https://github.com/nexusriot/etcd-walker"
+readme = "https://raw.githubusercontent.com/nexusriot/etcd-walker/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nexusriot/etcd-walker@latest"

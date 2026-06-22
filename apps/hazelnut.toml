@@ -1,0 +1,12 @@
+name = "hazelnut"
+description = "🌰 Terminal-based automated file organizer inspired by Hazel. Watch folders and organize files with rules."
+author = "ricardodantas"
+homepage = "https://github.com/ricardodantas/hazelnut"
+readme = "https://raw.githubusercontent.com/ricardodantas/hazelnut/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "hazelnut"

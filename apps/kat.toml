@@ -1,0 +1,12 @@
+name = "kat"
+description = "TUI and rule-based rendering engine for Kubernetes manifests"
+author = "MacroPower"
+homepage = "https://github.com/MacroPower/kat"
+readme = "https://raw.githubusercontent.com/MacroPower/kat/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/MacroPower/kat@latest"

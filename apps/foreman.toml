@@ -1,0 +1,12 @@
+name = "foreman"
+description = "A Boris-style agentic orchestrator TUI that supervises headless Claude Code agents through a gated software-delivery..."
+author = "VisionForge-OU"
+homepage = "https://github.com/VisionForge-OU/foreman"
+readme = "https://raw.githubusercontent.com/VisionForge-OU/foreman/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "foreman"

@@ -1,0 +1,11 @@
+name = "mdr"
+description = "a very light rust based markdown reader with support of mermaid (web, native, TUI). vibe coded"
+author = "CleverCloud"
+homepage = "https://github.com/CleverCloud/mdr"
+readme = "https://raw.githubusercontent.com/CleverCloud/mdr/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "cargo"
+package = "mdr"

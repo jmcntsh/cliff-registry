@@ -1,0 +1,12 @@
+name = "gh-kanban"
+description = ":octocat: Simple terminal UI for GitHub Project"
+author = "shuntaka9576"
+homepage = "https://github.com/shuntaka9576/gh-kanban"
+readme = "https://raw.githubusercontent.com/shuntaka9576/gh-kanban/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/shuntaka9576/gh-kanban@latest"

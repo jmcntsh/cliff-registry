@@ -1,0 +1,12 @@
+name = "throbber-widgets-tui"
+description = "This is a tui widget that displays throbber. Also known as loading icons, spinner."
+author = "arkbig"
+homepage = "https://github.com/arkbig/throbber-widgets-tui"
+readme = "https://raw.githubusercontent.com/arkbig/throbber-widgets-tui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "ZLIB"
+
+[[installs]]
+type = "cargo"
+package = "throbber-widgets-tui"

@@ -1,0 +1,12 @@
+name = "vi-sql"
+description = "Terminal UI for SQL databases"
+author = "kopecmaciej"
+homepage = "https://github.com/kopecmaciej/vi-sql"
+readme = "https://raw.githubusercontent.com/kopecmaciej/vi-sql/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/kopecmaciej/vi-sql@latest"

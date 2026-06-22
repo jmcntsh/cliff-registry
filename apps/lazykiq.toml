@@ -1,0 +1,12 @@
+name = "lazykiq"
+description = "rich terminal UI for Sidekiq"
+author = "kpumuk"
+homepage = "https://github.com/kpumuk/lazykiq"
+readme = "https://raw.githubusercontent.com/kpumuk/lazykiq/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kpumuk/lazykiq@latest"

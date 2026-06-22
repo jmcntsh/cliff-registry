@@ -1,0 +1,12 @@
+name = "bomkit"
+description = "Python flat bill-of-material program based on Excel files with interactive TUI browser"
+author = "robsiegwart"
+homepage = "https://github.com/robsiegwart/bomkit"
+readme = "https://raw.githubusercontent.com/robsiegwart/bomkit/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "bomkit"

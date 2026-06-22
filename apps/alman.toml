@@ -1,0 +1,12 @@
+name = "alman"
+description = "Smart alias manager with TUI for shell aliases and command-line efficiency 🚀"
+author = "vaibhav-mattoo"
+homepage = "https://github.com/vaibhav-mattoo/alman"
+readme = "https://raw.githubusercontent.com/vaibhav-mattoo/alman/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "alman"

@@ -1,0 +1,12 @@
+name = "drako"
+description = "A grid-based, customizable and extendable TUI-Deck launcher"
+author = "lucky7xz"
+homepage = "https://github.com/lucky7xz/drako"
+readme = "https://raw.githubusercontent.com/lucky7xz/drako/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/lucky7xz/drako@latest"

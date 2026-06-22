@@ -1,0 +1,12 @@
+name = "wg-cmd"
+description = "TUI for managing WireGuard configuration files"
+author = "AndrianBdn"
+homepage = "https://github.com/AndrianBdn/wg-cmd"
+readme = "https://raw.githubusercontent.com/AndrianBdn/wg-cmd/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/AndrianBdn/wg-cmd@latest"

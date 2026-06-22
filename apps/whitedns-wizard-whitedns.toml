@@ -1,0 +1,11 @@
+name = "whitedns-wizard-whitedns"
+description = "Cloudflare-first WhiteDNS CLI/TUI for provisioning a managed 3x-ui/Xray VPN stack over SSH, with DNS, certificates, c..."
+author = "WhiteDNS"
+homepage = "https://github.com/WhiteDNS/WhiteDNS-Wizard"
+readme = "https://raw.githubusercontent.com/WhiteDNS/WhiteDNS-Wizard/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+
+[[installs]]
+type = "go"
+package = "github.com/WhiteDNS/WhiteDNS-Wizard@latest"

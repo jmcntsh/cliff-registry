@@ -1,0 +1,12 @@
+name = "nostui"
+description = "A TUI client for Nostr"
+author = "akiomik"
+homepage = "https://github.com/akiomik/nostui"
+readme = "https://raw.githubusercontent.com/akiomik/nostui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "nostui"

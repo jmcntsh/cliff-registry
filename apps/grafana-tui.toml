@@ -1,0 +1,12 @@
+name = "grafana-tui"
+description = "Grafana dashboards in your terminal"
+author = "lovromazgon"
+homepage = "https://github.com/lovromazgon/grafana-tui"
+readme = "https://raw.githubusercontent.com/lovromazgon/grafana-tui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lovromazgon/grafana-tui@latest"

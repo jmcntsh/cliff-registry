@@ -1,0 +1,12 @@
+name = "yeehaw"
+description = "TUI Framework With Batteries Included"
+author = "bogzbonny"
+homepage = "https://github.com/bogzbonny/yeehaw"
+readme = "https://raw.githubusercontent.com/bogzbonny/yeehaw/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "yeehaw"

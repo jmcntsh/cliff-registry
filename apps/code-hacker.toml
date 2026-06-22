@@ -1,0 +1,12 @@
+name = "code-hacker"
+description = "Code Hacker - VS Code Custom Agent + Web + TUI"
+author = "hackerlibs"
+homepage = "https://github.com/hackerlibs/code-hacker"
+readme = "https://raw.githubusercontent.com/hackerlibs/code-hacker/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "code-hacker"

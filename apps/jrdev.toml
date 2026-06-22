@@ -1,0 +1,12 @@
+name = "jrdev"
+description = "JrDev is a free open-source AI developer assistant for the terminal. It provides CLI/TUI interfaces to interact with..."
+author = "presstab"
+homepage = "https://github.com/presstab/jrdev"
+readme = "https://raw.githubusercontent.com/presstab/jrdev/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "jrdev"

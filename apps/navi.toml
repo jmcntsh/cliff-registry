@@ -1,0 +1,12 @@
+name = "navi"
+description = "Specialized deployment tool for NixOS with persistent daemon architecture, integrated infrastructure provisioning (Te..."
+author = "cafkafk"
+homepage = "https://github.com/cafkafk/navi"
+readme = "https://raw.githubusercontent.com/cafkafk/navi/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "navi"

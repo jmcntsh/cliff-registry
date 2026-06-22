@@ -1,0 +1,12 @@
+name = "opencrabs"
+description = "The all-in-one AI agent living in your terminal. Build landing, mobile apps, backends, manages files, deep research..."
+author = "adolfousier"
+homepage = "https://github.com/adolfousier/opencrabs"
+readme = "https://raw.githubusercontent.com/adolfousier/opencrabs/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "opencrabs"

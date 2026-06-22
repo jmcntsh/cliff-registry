@@ -1,0 +1,12 @@
+name = "dz6"
+description = "Fast Vim-inspired TUI hex editor"
+author = "mentebinaria"
+homepage = "https://github.com/mentebinaria/dz6"
+readme = "https://raw.githubusercontent.com/mentebinaria/dz6/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "dz6"

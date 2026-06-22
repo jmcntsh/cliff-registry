@@ -1,0 +1,12 @@
+name = "gtt"
+description = "Google Translate TUI (Originally). Currently supports Apertium, Bing, ChatGPT, DeepL, DeepLX, Google, LibreTranslate..."
+author = "eeeXun"
+homepage = "https://github.com/eeeXun/gtt"
+readme = "https://raw.githubusercontent.com/eeeXun/gtt/master/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/eeeXun/gtt@latest"

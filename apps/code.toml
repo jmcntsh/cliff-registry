@@ -1,0 +1,12 @@
+name = "code"
+description = "Noumena's internal version of your favorite coding tui but improved and optimized for our inference stack"
+author = "Noumena-Network"
+homepage = "https://github.com/Noumena-Network/code"
+readme = "https://raw.githubusercontent.com/Noumena-Network/code/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "code"

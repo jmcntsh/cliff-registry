@@ -1,0 +1,12 @@
+name = "dux"
+description = "Dux is a terminal UI that lets you run multiple AI coding agents side by side, each in its own git worktree, with ful..."
+author = "patrickdappollonio"
+homepage = "https://github.com/patrickdappollonio/dux"
+readme = "https://raw.githubusercontent.com/patrickdappollonio/dux/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "dux"

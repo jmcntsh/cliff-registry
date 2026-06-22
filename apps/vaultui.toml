@@ -1,0 +1,12 @@
+name = "vaultui"
+description = "A k9s-inspired terminal UI for HashiCorp Vault — browse secrets, policies, auth methods, PKI, Transit, and Identity..."
+author = "miladbeigi"
+homepage = "https://github.com/miladbeigi/vaultui"
+readme = "https://raw.githubusercontent.com/miladbeigi/vaultui/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/miladbeigi/vaultui@latest"

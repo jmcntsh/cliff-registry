@@ -1,0 +1,12 @@
+name = "tuify"
+description = "Spotify TUI - Spotify without the noise"
+author = "lounge"
+homepage = "https://github.com/lounge/tuify"
+readme = "https://raw.githubusercontent.com/lounge/tuify/develop/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lounge/tuify@latest"

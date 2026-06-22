@@ -1,0 +1,12 @@
+name = "zfs-file-history"
+description = "Terminal UI for inspecting and restoring file history on ZFS snapshots."
+author = "markusressel"
+homepage = "https://github.com/markusressel/zfs-file-history"
+readme = "https://raw.githubusercontent.com/markusressel/zfs-file-history/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/markusressel/zfs-file-history@latest"

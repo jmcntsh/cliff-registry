@@ -1,0 +1,11 @@
+name = "lyrtui"
+description = "Fast and good looking TUI for Lyrion Music Server"
+author = "hjelev"
+homepage = "https://github.com/hjelev/lyrtui"
+readme = "https://raw.githubusercontent.com/hjelev/lyrtui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "cargo"
+package = "lyrtui"

@@ -1,0 +1,11 @@
+name = "oyui"
+description = "Modern TUI merge tool and interactive diff editor for Jujutsu (jj) and Git"
+author = "emilien-jegou"
+homepage = "https://github.com/emilien-jegou/oyui"
+readme = "https://raw.githubusercontent.com/emilien-jegou/oyui/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "cargo"
+package = "oyui"

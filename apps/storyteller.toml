@@ -1,0 +1,12 @@
+name = "storyteller"
+description = "🎙 Architect TUI and text user output for multiple output destinations using events, in Rust."
+author = "foresterre"
+homepage = "https://github.com/foresterre/storyteller"
+readme = "https://raw.githubusercontent.com/foresterre/storyteller/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "storyteller"

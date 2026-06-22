@@ -1,0 +1,11 @@
+name = "gh-dungeons"
+description = "A GitHub CLI extension roguelike dungeon crawler that turns your codebase into a playable game. Procedurally generate..."
+author = "leereilly"
+homepage = "https://github.com/leereilly/gh-dungeons"
+readme = "https://raw.githubusercontent.com/leereilly/gh-dungeons/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "go"
+package = "github.com/leereilly/gh-dungeons@latest"

@@ -1,0 +1,12 @@
+name = "mastui"
+description = "A TUI client for mastodon written in python"
+author = "kimusan"
+homepage = "https://github.com/kimusan/mastui"
+readme = "https://raw.githubusercontent.com/kimusan/mastui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mastui"

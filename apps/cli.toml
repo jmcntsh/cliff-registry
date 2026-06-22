@@ -1,0 +1,12 @@
+name = "cli"
+description = "💻 Misha - tui ssh client"
+author = "misha-ssh"
+homepage = "https://github.com/misha-ssh/cli"
+readme = "https://raw.githubusercontent.com/misha-ssh/cli/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/misha-ssh/cli@latest"

@@ -1,0 +1,11 @@
+name = "pi-archimedes"
+description = "Visual polish and useful context for the Pi coding agent TUI"
+author = "danielcherubini"
+homepage = "https://github.com/danielcherubini/pi-archimedes"
+readme = "https://raw.githubusercontent.com/danielcherubini/pi-archimedes/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "pi-archimedes"

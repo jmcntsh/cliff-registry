@@ -1,0 +1,12 @@
+name = "git-scope"
+description = "A fast TUI to see the status of all git repositories on your machine."
+author = "Bharath-code"
+homepage = "https://github.com/Bharath-code/git-scope"
+readme = "https://raw.githubusercontent.com/Bharath-code/git-scope/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Bharath-code/git-scope@latest"

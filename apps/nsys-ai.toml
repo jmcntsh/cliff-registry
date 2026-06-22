@@ -1,0 +1,12 @@
+name = "nsys-ai"
+description = "Terminal UI for NVIDIA Nsight Systems profiles — timeline viewer, kernel navigator, NVTX hierarchy"
+author = "GindaChen"
+homepage = "https://github.com/GindaChen/nsys-ai"
+readme = "https://raw.githubusercontent.com/GindaChen/nsys-ai/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "nsys-ai"

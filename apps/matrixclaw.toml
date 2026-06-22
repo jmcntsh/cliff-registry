@@ -1,0 +1,12 @@
+name = "matrixclaw"
+description = "Always-on local AI assistant and AI coding agent runtime in Go. OpenClaw, Claude Code, Codex, and OpenCode alternativ..."
+author = "Suren878"
+homepage = "https://github.com/Suren878/matrixclaw"
+readme = "https://raw.githubusercontent.com/Suren878/matrixclaw/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Suren878/matrixclaw@latest"

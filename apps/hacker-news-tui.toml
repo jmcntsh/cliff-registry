@@ -1,0 +1,12 @@
+name = "hacker-news-tui"
+description = "A terminal UI for browsing Hacker News - feeds, threaded comments, bookmarks. Built with Rust and Ratatui."
+author = "danfry1"
+homepage = "https://github.com/danfry1/hacker-news-tui"
+readme = "https://raw.githubusercontent.com/danfry1/hacker-news-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "hacker-news-tui"

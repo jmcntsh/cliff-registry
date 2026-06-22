@@ -1,0 +1,12 @@
+name = "gsim-rs"
+description = "A G-code simulator written in Rust. Parses, interprets, manages machine state and simulates the toolpaths. The contro..."
+author = "navrajkalsi"
+homepage = "https://github.com/navrajkalsi/gsim-rs"
+readme = "https://raw.githubusercontent.com/navrajkalsi/gsim-rs/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gsim-rs"
