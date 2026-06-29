@@ -1,0 +1,12 @@
+name = "bgscan"
+description = "BG SCAN is Ultra‑fast multi‑protocol scanner with a modular chained engine and interactive BubbleTea terminal UI."
+author = "MohsenBg"
+homepage = "https://github.com/MohsenBg/bgscan"
+readme = "https://raw.githubusercontent.com/MohsenBg/bgscan/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/MohsenBg/bgscan@latest"

@@ -1,0 +1,12 @@
+name = "aws-terminal"
+description = "Terminal UI for creating and managing AWS resources"
+author = "ShAd0W20"
+homepage = "https://github.com/ShAd0W20/aws-terminal"
+readme = "https://raw.githubusercontent.com/ShAd0W20/aws-terminal/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ShAd0W20/aws-terminal@latest"

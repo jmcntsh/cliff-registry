@@ -1,0 +1,12 @@
+name = "parllama"
+description = "TUI for Ollama and other LLM providers"
+author = "paulrobello"
+homepage = "https://github.com/paulrobello/parllama"
+readme = "https://raw.githubusercontent.com/paulrobello/parllama/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "parllama"

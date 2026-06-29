@@ -1,0 +1,12 @@
+name = "gravityfile"
+description = "File system explorer and analyzer with an interactive TUI"
+author = "Epistates"
+homepage = "https://github.com/Epistates/gravityfile"
+readme = "https://raw.githubusercontent.com/Epistates/gravityfile/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "gravityfile"

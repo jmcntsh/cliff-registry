@@ -1,0 +1,12 @@
+name = "blazingjj"
+description = "TUI for Jujutsu/jj"
+author = "blazingjj"
+homepage = "https://github.com/blazingjj/blazingjj"
+readme = "https://raw.githubusercontent.com/blazingjj/blazingjj/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "blazingjj"

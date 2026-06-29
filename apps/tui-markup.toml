@@ -1,0 +1,12 @@
+name = "tui-markup"
+description = "markup language for terminal styled text"
+author = "7sDream"
+homepage = "https://github.com/7sDream/tui-markup"
+readme = "https://raw.githubusercontent.com/7sDream/tui-markup/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-3-CLAUSE-CLEAR"
+
+[[installs]]
+type = "cargo"
+package = "tui-markup"

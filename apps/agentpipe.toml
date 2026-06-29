@@ -1,0 +1,12 @@
+name = "agentpipe"
+description = "A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qw..."
+author = "kevinelliott"
+homepage = "https://github.com/kevinelliott/agentpipe"
+readme = "https://raw.githubusercontent.com/kevinelliott/agentpipe/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kevinelliott/agentpipe@latest"

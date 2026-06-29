@@ -1,0 +1,12 @@
+name = "gistui"
+description = "A terminal UI for managing GitHub Gists"
+author = "akunzai"
+homepage = "https://github.com/akunzai/gistui"
+readme = "https://raw.githubusercontent.com/akunzai/gistui/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gistui"

@@ -1,0 +1,12 @@
+name = "crabcode"
+description = "🦀 Rust AI CLI Coding Agent with a beautiful terminal UI. Like OpenCode but pure Rust."
+author = "Blankeos"
+homepage = "https://github.com/Blankeos/crabcode"
+readme = "https://raw.githubusercontent.com/Blankeos/crabcode/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "crabcode"

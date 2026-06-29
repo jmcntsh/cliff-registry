@@ -1,0 +1,12 @@
+name = "differ"
+description = "Terminal UI git diff viewer with two-panel layout, syntax highlighting, vim keybindings, and AI-powered commits. Buil..."
+author = "JanSmrcka"
+homepage = "https://github.com/JanSmrcka/differ"
+readme = "https://raw.githubusercontent.com/JanSmrcka/differ/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/JanSmrcka/differ@latest"

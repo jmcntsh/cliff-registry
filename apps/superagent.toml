@@ -1,0 +1,12 @@
+name = "superagent"
+description = "An interactive, terminal-based AI coding assistant featuring a cyberpunk style terminal UI, context token tracking, a..."
+author = "RudyCity"
+homepage = "https://github.com/RudyCity/superagent"
+readme = "https://raw.githubusercontent.com/RudyCity/superagent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "superagent"

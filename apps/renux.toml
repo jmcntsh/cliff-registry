@@ -1,0 +1,12 @@
+name = "renux"
+description = "A terminal-based bulk file renamer with a TUI"
+author = "andrianllmm"
+homepage = "https://github.com/andrianllmm/renux"
+readme = "https://raw.githubusercontent.com/andrianllmm/renux/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "renux"

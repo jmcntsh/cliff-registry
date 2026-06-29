@@ -1,0 +1,12 @@
+name = "bold-brew"
+description = "Bold Brew (bbrew) - A Homebrew TUI Manager"
+author = "Valkyrie00"
+homepage = "https://github.com/Valkyrie00/bold-brew"
+readme = "https://raw.githubusercontent.com/Valkyrie00/bold-brew/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Valkyrie00/bold-brew@latest"

@@ -1,0 +1,12 @@
+name = "riptide"
+description = "Tidal TUI player built in Rust 🦀"
+author = "fezzik-the-giant"
+homepage = "https://github.com/fezzik-the-giant/riptide"
+readme = "https://raw.githubusercontent.com/fezzik-the-giant/riptide/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "riptide"

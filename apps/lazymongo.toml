@@ -1,0 +1,12 @@
+name = "lazymongo"
+description = "A fast, keyboard-driven terminal UI for MongoDB - like lazygit, but for Mongodb"
+author = "saheersk"
+homepage = "https://github.com/saheersk/lazymongo"
+readme = "https://raw.githubusercontent.com/saheersk/lazymongo/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/saheersk/lazymongo@latest"

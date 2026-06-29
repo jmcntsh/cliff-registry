@@ -1,0 +1,12 @@
+name = "agtop"
+description = "Terminal UI for monitoring AI coding agents — like top, but for Claude Code, Codex, Aider, Gemini, Goose. Reads /pr..."
+author = "MBrassey"
+homepage = "https://github.com/MBrassey/agtop"
+readme = "https://raw.githubusercontent.com/MBrassey/agtop/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "agtop"

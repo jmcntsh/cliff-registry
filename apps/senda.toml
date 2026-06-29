@@ -1,0 +1,12 @@
+name = "senda"
+description = "Fast, lightweight, git-native API client. Collections are plain folders of YAML — no cloud account, no lock-in, jus..."
+author = "this-senda"
+homepage = "https://github.com/this-senda/senda"
+readme = "https://raw.githubusercontent.com/this-senda/senda/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/this-senda/senda@latest"

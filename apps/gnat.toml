@@ -1,0 +1,12 @@
+name = "gnat"
+description = "TUI Client for NATS"
+author = "galaxy-io"
+homepage = "https://github.com/galaxy-io/gnat"
+readme = "https://raw.githubusercontent.com/galaxy-io/gnat/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/galaxy-io/gnat@latest"

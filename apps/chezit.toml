@@ -1,0 +1,12 @@
+name = "chezit"
+description = "Terminal UI for chezmoi dotfile management"
+author = "daptify14"
+homepage = "https://github.com/daptify14/chezit"
+readme = "https://raw.githubusercontent.com/daptify14/chezit/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/daptify14/chezit@latest"

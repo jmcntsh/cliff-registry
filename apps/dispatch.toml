@@ -1,0 +1,12 @@
+name = "dispatch"
+description = "A terminal UI for browsing and launching GitHub Copilot CLI sessions. Search, filter, group, preview, and resume..."
+author = "jongio"
+homepage = "https://github.com/jongio/dispatch"
+readme = "https://raw.githubusercontent.com/jongio/dispatch/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jongio/dispatch@latest"

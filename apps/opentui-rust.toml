@@ -1,0 +1,12 @@
+name = "opentui-rust"
+description = "Terminal UI rendering engine for Rust with real RGBA alpha blending, scissor clipping, and double-buffered cell compo..."
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/opentui_rust"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/opentui_rust/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "opentui_rust"

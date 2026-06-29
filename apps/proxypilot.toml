@@ -1,0 +1,12 @@
+name = "proxypilot"
+description = "Windows-native CLIProxyAPI fork with TUI, system tray, and multi-provider OAuth for AI coding tools - No API key needed"
+author = "Finesssee"
+homepage = "https://github.com/Finesssee/ProxyPilot"
+readme = "https://raw.githubusercontent.com/Finesssee/ProxyPilot/main/README.md"
+tags = ["tui"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Finesssee/ProxyPilot@latest"

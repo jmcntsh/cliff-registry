@@ -1,0 +1,12 @@
+name = "aku"
+description = "Terminal UI for Kubernetes clusters built with Bubble Tea. Resource browsing, YAML/describe views, live log streaming..."
+author = "aohoyd"
+homepage = "https://github.com/aohoyd/aku"
+readme = "https://raw.githubusercontent.com/aohoyd/aku/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aohoyd/aku@latest"

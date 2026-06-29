@@ -1,0 +1,12 @@
+name = "opencode-subagent-magazine"
+description = "OpenCode TUI 插件 · 实时子代理监控 · 侧边栏可视化 / Real-time Sub-Agent Monitor Sidebar Plugin for O..."
+author = "Hotakus"
+homepage = "https://github.com/Hotakus/opencode-subagent-magazine"
+readme = "https://raw.githubusercontent.com/Hotakus/opencode-subagent-magazine/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-subagent-magazine"

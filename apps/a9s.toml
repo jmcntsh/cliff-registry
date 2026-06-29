@@ -1,0 +1,12 @@
+name = "a9s"
+description = "Terminal UI AWS Resource Manager — browse, inspect, and manage 60+ AWS resource types"
+author = "k2m30"
+homepage = "https://github.com/k2m30/a9s"
+readme = "https://raw.githubusercontent.com/k2m30/a9s/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/k2m30/a9s@latest"

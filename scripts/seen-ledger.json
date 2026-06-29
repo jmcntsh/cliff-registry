@@ -28,6 +28,13 @@
       "last_seen": "2026-06-01",
       "reason": "ok"
     },
+    "0u44/kitty-tools": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:pipx:Kitty-Tools"
+    },
     "0xacx/chatgpt-shell-cli": {
       "decision": "rejected",
       "first_seen": "2026-05-18",
@@ -41,6 +48,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "0xdracula/lazywsl": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:LazyWSL"
     },
     "0xdres/astro-devosfera": {
       "decision": "rejected",
@@ -238,6 +252,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "7sdream/tui-markup": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "7xuanlu/origin": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -265,6 +286,20 @@
       "install_type": "go",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "9thlevelsoftware/legion": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
+    },
+    "a-chacon/procman": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "a-kenji/tui-term": {
       "decision": "rejected",
@@ -377,6 +412,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "aartiq/servicenow-mcp": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
     },
     "aashish-thapa/wlctl": {
       "decision": "accepted",
@@ -903,6 +945,13 @@
       "last_seen": "2026-06-01",
       "reason": "category-deny:agent skill"
     },
+    "agiprolabs/claude-trading-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
+    },
     "agirot/supervigo": {
       "decision": "accepted",
       "first_seen": "2026-05-20",
@@ -1036,6 +1085,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:pipx:Make-Your-Video"
     },
+    "aipmandy/andysoul": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "aisk/pick": {
       "decision": "accepted",
       "first_seen": "2026-05-18",
@@ -1120,12 +1176,33 @@
       "last_seen": "2026-05-04",
       "reason": "ok"
     },
+    "aksisonline/gitswitch": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "aktowns/termbox-ffi": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "akuchis/yap": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
+    "akunzai/gistui": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "al3rez/zehn": {
       "decision": "rejected",
@@ -1351,6 +1428,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "alexzio00/sovereign-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "alganet/tuish": {
       "decision": "rejected",
       "first_seen": "2026-06-22",
@@ -1504,6 +1588,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-18",
       "reason": "no-install-mapping"
+    },
+    "alterlab-ieu/alterlab-academic-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "altsem/gitu": {
       "decision": "deferred",
@@ -1687,6 +1778,13 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "ancode666/multicad-mcp": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
+    },
     "andarius/piou": {
       "decision": "rejected",
       "first_seen": "2026-06-08",
@@ -1792,6 +1890,13 @@
       "last_seen": "2026-06-22",
       "reason": "ok"
     },
+    "andrianllmm/renux": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "andrius/ascii-patrol": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -1847,6 +1952,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-tui-signal"
+    },
+    "andylow92/file-system-like-github": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
     },
     "andyrewlee/amux": {
       "decision": "accepted",
@@ -2098,6 +2210,13 @@
       "first_seen": "2026-05-20",
       "install_type": "pipx",
       "last_seen": "2026-05-20",
+      "reason": "ok"
+    },
+    "aohoyd/aku": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "aome510/hackernews-tui": {
@@ -2667,6 +2786,13 @@
       "last_seen": "2026-06-22",
       "reason": "category-deny:mcp server"
     },
+    "atlassian/atlassian-mcp-server": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
+    },
     "atom2ueki/mcp-server-synology": {
       "decision": "rejected",
       "first_seen": "2026-06-01",
@@ -2778,6 +2904,13 @@
       "install_type": "npm",
       "last_seen": "2026-06-15",
       "reason": "ok"
+    },
+    "avadiii/rewardspy": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:pipx:rewardspy"
     },
     "avajs/ava": {
       "decision": "deferred",
@@ -3332,6 +3465,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:npm:BitVision"
     },
+    "bercribe/karatui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:karatui"
+    },
     "berdal84/nodable": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -3652,6 +3792,20 @@
       "first_seen": "2026-06-15",
       "install_type": "go",
       "last_seen": "2026-06-15",
+      "reason": "ok"
+    },
+    "blankeos/crabcode": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
+    "blazingjj/blazingjj": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "blink22/claude-sessions-status": {
@@ -5642,6 +5796,13 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "codeabra/iai-personal-memory-engine": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
+    },
     "codealive-ai/ai-driven-development": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -5865,6 +6026,13 @@
       "install_type": "npm",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "conwayusp/mushrooms": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "cookiy-ai/user-research-skill": {
       "decision": "rejected",
@@ -6215,6 +6383,13 @@
       "install_type": "go",
       "last_seen": "2026-05-20",
       "reason": "ok"
+    },
+    "curtosis-org/phub-cli": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
     },
     "custosh/tuix-core": {
       "decision": "rejected",
@@ -6629,12 +6804,26 @@
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
     },
+    "daptify14/chezit": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "darius/sturm": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-tui-signal"
+    },
+    "dark-alex-17/managarr": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "dark-kernel/tuisic": {
       "decision": "rejected",
@@ -7112,6 +7301,13 @@
       "last_seen": "2026-05-25",
       "reason": "category-deny:mcp server"
     },
+    "deveshctl/layerx": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "deviceinsight/kafkactl": {
       "decision": "rejected",
       "first_seen": "2026-05-18",
@@ -7159,6 +7355,13 @@
       "first_seen": "2026-05-04",
       "install_type": "unknown",
       "last_seen": "2026-05-04",
+      "reason": "no-install-mapping"
+    },
+    "devopifex/tooey": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
       "reason": "no-install-mapping"
     },
     "devspace-sh/devspace": {
@@ -7308,6 +7511,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "dicklesworthstone/beads_viewer_rust": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "dicklesworthstone/charmed_rust": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -7355,6 +7565,13 @@
       "first_seen": "2026-06-01",
       "install_type": "go",
       "last_seen": "2026-06-01",
+      "reason": "ok"
+    },
+    "dicklesworthstone/opentui_rust": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "dicklesworthstone/pi_agent_rust": {
@@ -7658,6 +7875,20 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "doganarif/k9sight": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
+    "doganarif/portfinder": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "domblack/bubble-shell": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -7741,6 +7972,13 @@
       "install_type": "pipx",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "doraemonkeys/claude-code-debug-mode": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "dorajistyle/whiplash": {
       "decision": "rejected",
@@ -8085,6 +8323,13 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "dy-sh/obsidian-remember-cursor-position": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "dyan-dev/loopi": {
       "decision": "rejected",
       "first_seen": "2026-06-01",
@@ -8421,6 +8666,20 @@
       "last_seen": "2026-05-20",
       "reason": "no-install-mapping"
     },
+    "elcste/hide-cursor": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
+    "eldara-tech/swarmcli": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "elder-plinius/cl4r1t4s": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -8448,6 +8707,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "elevenjune/respire": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:respire"
     },
     "elewis787/boa": {
       "decision": "rejected",
@@ -8652,6 +8918,13 @@
       "last_seen": "2026-05-18",
       "reason": "no-install-mapping"
     },
+    "emersonfelipesp/netbox-sdk": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "emicklei/tviewplus": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -8771,6 +9044,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:pipx:aurdex"
     },
+    "epistates/gravityfile": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "epistates/pmetal": {
       "decision": "rejected",
       "first_seen": "2026-06-08",
@@ -8820,6 +9100,13 @@
       "last_seen": "2026-05-20",
       "reason": "ok"
     },
+    "ericoulashin/slymail": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
     "ericshang98/perfect-web-clone": {
       "decision": "rejected",
       "first_seen": "2026-06-22",
@@ -8861,6 +9148,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "ersinkoc/project-architect": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "es617/claude-replay": {
       "decision": "rejected",
@@ -8938,6 +9232,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-20",
       "reason": "package-not-published:cargo:robco-term"
+    },
+    "eugenioenko/ttt": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "eugeny/tabby": {
       "decision": "deferred",
@@ -9478,6 +9779,20 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "fezzik-the-giant/riptide": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
+    "fg-labs/snakesee": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "fgeller/kt": {
       "decision": "rejected",
       "first_seen": "2026-05-18",
@@ -9504,6 +9819,13 @@
       "first_seen": "2026-05-20",
       "install_type": "cargo",
       "last_seen": "2026-05-20",
+      "reason": "ok"
+    },
+    "finesssee/proxypilot": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "fini-net/gh-observer": {
@@ -10038,6 +10360,13 @@
       "last_seen": "2026-06-08",
       "reason": "category-deny:agent skill"
     },
+    "gaasher/agent-loop-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
+    },
     "gabe565/ascii-movie": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -10087,12 +10416,26 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-runnable-app"
     },
+    "galaxy-io/gnat": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "galfrevn/checkmate": {
       "decision": "accepted",
       "first_seen": "2026-05-20",
       "install_type": "cargo",
       "last_seen": "2026-05-20",
       "reason": "ok"
+    },
+    "gamedev-skills/awesome-gamedev-agent-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "gamelab/roguelike-blueprint": {
       "decision": "rejected",
@@ -10387,6 +10730,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "get-convex/convex-agent-plugins": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
     "getagentseal/codeburn": {
       "decision": "accepted",
@@ -11011,6 +11361,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "grapeot/cursor_slides": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
     "grapeot/devin.cursorrules": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -11045,6 +11402,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-20",
       "reason": "no-install-mapping"
+    },
+    "green-pt/honey-for-devs": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
     },
     "greenpolo/cc-multi-cli-plugin": {
       "decision": "rejected",
@@ -11122,6 +11486,13 @@
       "install_type": "unknown",
       "last_seen": "2026-06-08",
       "reason": "no-install-mapping"
+    },
+    "grouzen/framework-tool-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
     "groverkaushal/tcell_toggle_tetrahedron": {
       "decision": "rejected",
@@ -11220,6 +11591,13 @@
       "install_type": "npm",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "gunheeaug/web-seo-aeo-geo-google-naver-skill": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "gunnarfarneback/packagecompatui.jl": {
       "decision": "rejected",
@@ -11374,6 +11752,13 @@
       "install_type": "",
       "last_seen": "2026-05-25",
       "reason": "category-deny:agent skill"
+    },
+    "haileyok/victrola": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:pipx:victrola"
     },
     "hairyhenderson/gomplate": {
       "decision": "rejected",
@@ -12144,6 +12529,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-20",
       "reason": "no-install-mapping"
+    },
+    "hotakus/opencode-subagent-magazine": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "hotakus/opencode-visual-cache": {
       "decision": "accepted",
@@ -13111,6 +13503,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "ivanjeka/tmuzika": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
     "ivanmurzak/unity-mcp": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -13180,6 +13579,13 @@
       "install_type": "go",
       "last_seen": "2026-06-15",
       "reason": "ok"
+    },
+    "jackderksen/minui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
     "jackielii/skhd.zig": {
       "decision": "rejected",
@@ -13419,6 +13825,13 @@
       "last_seen": "2026-06-15",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "jansmrcka/differ": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "jarain78/healthcareavr-iotcellularassistant": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -13565,6 +13978,13 @@
       "install_type": "",
       "last_seen": "2026-06-01",
       "reason": "no-tui-signal"
+    },
+    "jaymzh/iptstate": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
     },
     "jaytaph/termbox": {
       "decision": "rejected",
@@ -13727,6 +14147,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "jeonbyeongmin/gh-orbit": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "jeremygrosser/notcursesada": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -13866,6 +14293,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "jgravelle/jcodemunch-mcp": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
     },
     "jha14/prdm1_tcell_atherosclerosis": {
       "decision": "rejected",
@@ -14363,6 +14797,13 @@
       "install_type": "npm",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "jongio/dispatch": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "jongio/grut": {
       "decision": "rejected",
@@ -14910,6 +15351,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:npm:TermiKKio"
     },
+    "k2m30/a9s": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "k4l1sh/network-gpt": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -15022,6 +15470,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:pipx:kalshi-crypto-bot"
     },
+    "kapilpokhrel/regexplain": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:regexplain"
+    },
     "karanjot786/termui": {
       "decision": "rejected",
       "first_seen": "2026-06-01",
@@ -15104,6 +15559,13 @@
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
+      "reason": "no-runnable-cli-tui-signal"
+    },
+    "kbwen/agentic-os": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
       "reason": "no-runnable-cli-tui-signal"
     },
     "kbwo/ccmanager": {
@@ -15230,6 +15692,13 @@
       "first_seen": "2026-06-15",
       "install_type": "go",
       "last_seen": "2026-06-15",
+      "reason": "ok"
+    },
+    "kevinelliott/agentpipe": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "kevm/bubbleo": {
@@ -15414,6 +15883,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "kitlangton/ghui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:npm:ghui"
+    },
     "kivattt/fen": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -15596,6 +16072,13 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "koisama0411/act-combat-design": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "koishi510/rustris": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -15658,6 +16141,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "kosthi/ipatool-rs": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:ipatool-rs"
     },
     "kostja94/marketing-skills": {
       "decision": "rejected",
@@ -15771,12 +16261,26 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "kristoferlund/ratcn": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:ui components"
+    },
     "kritoxx1/terminal-minesweeper": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "kriuchkov/tock": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "kronenthaler/mod-pbxproj": {
       "decision": "rejected",
@@ -16275,6 +16779,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "leemysw/feishu-docx": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "leereilly/gh-dungeons": {
       "decision": "accepted",
       "first_seen": "2026-06-22",
@@ -16288,6 +16799,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
+    },
+    "legioncodeinc/honeycomb": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "legostin/cull": {
       "decision": "accepted",
@@ -16506,6 +17024,13 @@
       "last_seen": "2026-05-25",
       "reason": "ok"
     },
+    "licyk/ani2xcur-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
     "lidge-jun/cli-jaw": {
       "decision": "rejected",
       "first_seen": "2026-06-01",
@@ -16715,6 +17240,13 @@
       "install_type": "",
       "last_seen": "2026-06-22",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "liuxingqitd/skills-hub": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "livecycle/preevy": {
       "decision": "rejected",
@@ -17205,6 +17737,13 @@
       "install_type": "",
       "last_seen": "2026-05-25",
       "reason": "no-tui-signal"
+    },
+    "lzap/git-xcleaner": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
     },
     "lzinga/us-gov-open-data-mcp": {
       "decision": "rejected",
@@ -17829,6 +18368,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "masterblaster1999/nethack-roguelike": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "mastercont/it-cube-cpp-game1": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -18129,6 +18675,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-18",
       "reason": "no-install-mapping"
+    },
+    "mbrassey/agtop": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "mbround18/valheim-docker": {
       "decision": "rejected",
@@ -18438,6 +18991,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:pipx:SEARLE"
     },
+    "michaelmackus/libroguelike": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "michaelshimeles/ralphy": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -18514,6 +19074,13 @@
       "install_type": "npm",
       "last_seen": "2026-05-04",
       "reason": "package-not-published:npm:rnx-kit"
+    },
+    "microsoft/shell-use": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "microsoft/terminal": {
       "decision": "rejected",
@@ -19047,6 +19614,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "mohsenbg/bgscan": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "moizibnyousaf/ai-agent-skills": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -19249,6 +19823,13 @@
       "install_type": "pipx",
       "last_seen": "2026-06-08",
       "reason": "package-not-published:pipx:Wifi-Hacking"
+    },
+    "mr-smith-org/mr": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(library|framework|sdk|too"
     },
     "mrcalderon3d/everything-game-dev-code": {
       "decision": "rejected",
@@ -19509,6 +20090,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "muhammedaksam/easiarr": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:npm:easiarr"
+    },
     "muhammedaksam/waha-tui": {
       "decision": "rejected",
       "first_seen": "2026-06-08",
@@ -19572,6 +20160,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-tui-signal"
     },
+    "murkl/arch-os": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "murli0399/rock_paper_scissors_game": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -19628,6 +20223,13 @@
       "last_seen": "2026-05-25",
       "reason": "category-deny:agent skill"
     },
+    "myikuns/jichangtz-tuijian": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "mysterywolf/termbox": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -19648,6 +20250,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
+    "n0pashkov/netbird-tui": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "n1xev/charmbracelet-docs": {
       "decision": "rejected",
@@ -19780,6 +20389,13 @@
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
+      "reason": "no-runnable-cli-tui-signal"
+    },
+    "naorsabag/openhop": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
       "reason": "no-runnable-cli-tui-signal"
     },
     "narcooo/inkos": {
@@ -19922,6 +20538,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-tui-signal"
     },
+    "nebrass/hve-spielberg": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "nebutra/mineru-skill": {
       "decision": "rejected",
       "first_seen": "2026-06-01",
@@ -19948,6 +20571,13 @@
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
+      "reason": "no-tui-signal"
+    },
+    "nehemiaharchives/bbl": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
       "reason": "no-tui-signal"
     },
     "neiii/bridle": {
@@ -20257,6 +20887,13 @@
       "install_type": "unknown",
       "last_seen": "2026-06-08",
       "reason": "no-install-mapping"
+    },
+    "nickvanw/qbittorrent-tui": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "nicolai256/stable-textual-inversion_win": {
       "decision": "rejected",
@@ -20817,6 +21454,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
+    },
+    "nuixyz/kanarenshu": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "nukeop/pi-dashboard": {
       "decision": "accepted",
@@ -21609,12 +22253,26 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "oughie/clock-rs": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "over-null/fleas": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "overthinker1127/tui-worktree": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "ovh/venom": {
       "decision": "rejected",
@@ -21973,6 +22631,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "paulrobello/parllama": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "pavdmyt/yaspin": {
       "decision": "rejected",
       "first_seen": "2026-05-18",
@@ -22302,6 +22967,13 @@
       "last_seen": "2026-05-18",
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
+    "phuetz/code-buddy": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:npm:code-buddy"
+    },
     "phunterlau/beijing_fushengji.py": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -22329,6 +23001,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "pierridotite/stonks-dashboard": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "piezogo/snek": {
       "decision": "rejected",
@@ -22469,6 +23148,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-18",
       "reason": "no-install-mapping"
+    },
+    "pixverseai/skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:agent skill"
     },
     "pk13055/bomberman": {
       "decision": "rejected",
@@ -22715,6 +23401,13 @@
       "last_seen": "2026-05-25",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "pranshuparmar/witr": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "prashanthvish/inshorts-tv": {
       "decision": "accepted",
       "first_seen": "2026-05-20",
@@ -22756,6 +23449,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-20",
       "reason": "cleanup-not-runnable-app"
+    },
+    "prekarshamaxx123/dogbrowser": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
     },
     "presstab/jrdev": {
       "decision": "accepted",
@@ -23072,6 +23772,13 @@
       "last_seen": "2026-05-20",
       "reason": "library-lead:\\bbindings?\\s+for\\b"
     },
+    "pvolok/dekit": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "pvolok/mprocs": {
       "decision": "deferred",
       "first_seen": "2026-05-04",
@@ -23177,6 +23884,13 @@
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
     },
+    "pzep1/lazycontainer": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "qadischaudhry/ranger": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -23254,6 +23968,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "quanghuynt14/bullmq-dash": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "quantamixsol/graqle": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -23281,6 +24002,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-18",
       "reason": "package-not-published:cargo:sshs"
+    },
+    "quaywin/caudata": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
     },
     "quiibz/sherif": {
       "decision": "rejected",
@@ -23800,6 +24528,13 @@
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
     },
+    "red-kangaroo/wanderer": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "redblobgames/2126-roguelikedev": {
       "decision": "rejected",
       "first_seen": "2026-06-08",
@@ -23813,6 +24548,13 @@
       "install_type": "",
       "last_seen": "2026-06-08",
       "reason": "category-deny:ui components"
+    },
+    "redshakespeare/ia-ch": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "reekta92/clin-rs": {
       "decision": "accepted",
@@ -23961,6 +24703,13 @@
       "last_seen": "2026-05-25",
       "reason": "package-not-published:pipx:bubblewrap-tui"
     },
+    "reubeno/tui-uefi": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:tui-uefi"
+    },
     "revanced/revanced-cli": {
       "decision": "rejected",
       "first_seen": "2026-05-04",
@@ -23975,11 +24724,25 @@
       "last_seen": "2026-05-04",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "revunix/defqon.1-recorder": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "reyamira/models": {
       "decision": "accepted",
       "first_seen": "2026-05-25",
       "install_type": "cargo",
       "last_seen": "2026-05-25",
+      "reason": "ok"
+    },
+    "reyamira/pass-cli": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "rezmoss/timetrackcli": {
@@ -24093,6 +24856,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-18",
       "reason": "no-install-mapping"
+    },
+    "ricoberger/httpmonitor": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "ricott1/asterion": {
       "decision": "rejected",
@@ -24339,6 +25109,13 @@
       "last_seen": "2026-06-01",
       "reason": "package-not-published:cargo:wiretui"
     },
+    "robinebers/skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "name-pattern:(^|/)skills?($|[-_])"
+    },
     "robinmoisson/staticrypt": {
       "decision": "rejected",
       "first_seen": "2026-05-18",
@@ -24422,6 +25199,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-20",
       "reason": "no-install-mapping"
+    },
+    "rogercoll/eprofiler-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:eprofiler-tui"
     },
     "rogerwelin/cassowary": {
       "decision": "rejected",
@@ -24520,6 +25304,13 @@
       "install_type": "unknown",
       "last_seen": "2026-05-04",
       "reason": "no-install-mapping"
+    },
+    "rose-pine/cursors": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "roshie548/proxmux": {
       "decision": "deferred",
@@ -24639,6 +25430,13 @@
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "library-lead:\\bbindings?\\s+for\\b"
+    },
+    "rudycity/superagent": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "ruin0x11/opennefia": {
       "decision": "rejected",
@@ -24890,6 +25688,13 @@
       "first_seen": "2026-05-20",
       "install_type": "go",
       "last_seen": "2026-05-20",
+      "reason": "ok"
+    },
+    "saheersk/lazymongo": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
       "reason": "ok"
     },
     "sajjon/klirr": {
@@ -25613,6 +26418,13 @@
       "last_seen": "2026-05-20",
       "reason": "package-not-published:cargo:ratatypst"
     },
+    "sermuns/v4l-tui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "cargo",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:cargo:v4l-tui"
+    },
     "set-soft/tvision": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -25682,6 +26494,13 @@
       "install_type": "",
       "last_seen": "2026-06-01",
       "reason": "no-runnable-cli-tui-signal"
+    },
+    "shad0w20/aws-terminal": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "shadawck/awesome-cli-frameworks": {
       "decision": "rejected",
@@ -26467,6 +27286,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "snoowfall/lyse": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "snstac/inrcot": {
       "decision": "rejected",
       "first_seen": "2026-06-15",
@@ -26508,6 +27334,13 @@
       "install_type": "go",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-runnable-app"
+    },
+    "soham109/cpos": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "soheilpro/catj": {
       "decision": "rejected",
@@ -26964,6 +27797,13 @@
       "last_seen": "2026-05-20",
       "reason": "ok"
     },
+    "stefanprodan/cctop": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "stefanweck/dungeongeneration": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -27153,6 +27993,13 @@
       "last_seen": "2026-05-25",
       "reason": "category-deny:mcp server"
     },
+    "subhasundardass/tuix": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*\\S+\\s+is\\s+(a|an|the)\\s+[^"
+    },
     "subinium/agf": {
       "decision": "accepted",
       "first_seen": "2026-05-25",
@@ -27321,6 +28168,13 @@
       "last_seen": "2026-06-22",
       "reason": "ok"
     },
+    "surendranb/google-search-console-mcp": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
+    },
     "surething-io/cockpit": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -27397,6 +28251,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "swillner/highlight-pointer": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "swordfish90/cool-retro-term": {
       "decision": "rejected",
@@ -27509,6 +28370,13 @@
       "install_type": "npm",
       "last_seen": "2026-05-04",
       "reason": "max-new-cap"
+    },
+    "tabularisdb/tabularis": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
     },
     "tach-org/tach": {
       "decision": "rejected",
@@ -28266,6 +29134,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "this-senda/senda": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "thiswind/cursor-agent-team": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -28791,6 +29666,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "toseaai/awesome-html-slide-skills": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "name-pattern:(^|/)awesome[-_]"
+    },
     "totbwf/steamcurses": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -28966,6 +29848,13 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "tsouth89/conduit": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "category-deny:mcp server"
+    },
     "tsowell/wiremix": {
       "decision": "accepted",
       "first_seen": "2026-06-08",
@@ -29022,12 +29911,54 @@
       "last_seen": "2026-05-20",
       "reason": "ok"
     },
+    "tu-darmstadt-ros-pkg/hector_recorder": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
     "tudorbotezan/zigchat": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "unknown",
       "last_seen": "2026-05-20",
       "reason": "no-install-mapping"
+    },
+    "tui-cs/f7history": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
+    },
+    "tui-cs/nstack": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
+    },
+    "tui-cs/terminal.gui": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
+    "tui-cs/terminal.gui.templates": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "library-lead:^\\s*(library|framework|sdk|too"
+    },
+    "tui-cs/terminalguidesigner": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
     },
     "tuic-protocol/tuic": {
       "decision": "rejected",
@@ -29279,6 +30210,13 @@
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
+      "reason": "no-runnable-cli-tui-signal"
+    },
+    "umacloud/umadev": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
       "reason": "no-runnable-cli-tui-signal"
     },
     "umogal/terminalquest": {
@@ -29554,12 +30492,26 @@
       "last_seen": "2026-05-20",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "valkyrie00/bold-brew": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
+    },
     "valqelyan/tygit": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
       "install_type": "",
       "last_seen": "2026-05-20",
       "reason": "no-tui-signal"
+    },
+    "vanszs/qwencloud-generator": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "pipx",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:pipx:qwencloud-generator"
     },
     "vanzan01/cursor-memory-bank": {
       "decision": "rejected",
@@ -29938,6 +30890,13 @@
       "install_type": "cargo",
       "last_seen": "2026-05-20",
       "reason": "package-not-published:cargo:ralertsinua"
+    },
+    "voidchecksum/unleash": {
+      "decision": "accepted",
+      "first_seen": "2026-06-29",
+      "install_type": "go",
+      "last_seen": "2026-06-29",
+      "reason": "ok"
     },
     "voidcosmos/npkill": {
       "decision": "rejected",
@@ -30478,6 +31437,13 @@
       "last_seen": "2026-05-11",
       "reason": "no-install-mapping"
     },
+    "wfxr/tmux-fzf-url": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "whales/cataclysm": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -30835,6 +31801,13 @@
       "last_seen": "2026-06-22",
       "reason": "no-runnable-cli-tui-signal"
     },
+    "wrongstack/wrongstack": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "npm",
+      "last_seen": "2026-06-29",
+      "reason": "package-not-published:npm:WrongStack"
+    },
     "wrxck/agenttop": {
       "decision": "accepted",
       "first_seen": "2026-05-20",
@@ -30876,6 +31849,13 @@
       "install_type": "pipx",
       "last_seen": "2026-05-18",
       "reason": "package-not-published:pipx:gpt_image_2_skill"
+    },
+    "wxkingstar/specfusion": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
     },
     "x-cmd/x-cmd": {
       "decision": "rejected",
@@ -31052,6 +32032,13 @@
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
     },
+    "xllm-go/bypass": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
+    },
     "xmas7/termbox-sys": {
       "decision": "rejected",
       "first_seen": "2026-05-20",
@@ -31122,6 +32109,13 @@
       "last_seen": "2026-05-04",
       "reason": "package-not-published:npm:xterm.js"
     },
+    "xterna/income-generator": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "unknown",
+      "last_seen": "2026-06-29",
+      "reason": "no-install-mapping"
+    },
     "xuiltul/animaworks": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -31135,6 +32129,13 @@
       "install_type": "",
       "last_seen": "2026-06-01",
       "reason": "no-tui-signal"
+    },
+    "xuweizhengo/cursor-free-api": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "xwmx/nb": {
       "decision": "rejected",
@@ -31906,6 +32907,13 @@
       "last_seen": "2026-05-18",
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     },
+    "zhikunqingtao/zhikuncode": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-tui-signal"
+    },
     "zhitongblog/solomd": {
       "decision": "rejected",
       "first_seen": "2026-05-25",
@@ -31982,6 +32990,13 @@
       "install_type": "go",
       "last_seen": "2026-05-18",
       "reason": "cleanup-not-visual-terminal-app"
+    },
+    "zoharbabin/web-researcher-mcp": {
+      "decision": "rejected",
+      "first_seen": "2026-06-29",
+      "install_type": "",
+      "last_seen": "2026-06-29",
+      "reason": "no-runnable-cli-tui-signal"
     },
     "zond/sshtcelltty": {
       "decision": "rejected",
@@ -32075,6 +33090,6 @@
       "reason": "library-lead:^\\s*(a|an|the)\\s+[^.]{0,60}\\b("
     }
   },
-  "updated_at": "2026-06-22T18:11:36+00:00",
+  "updated_at": "2026-06-29T16:55:19+00:00",
   "version": 1
 }

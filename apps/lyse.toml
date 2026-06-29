@@ -1,0 +1,12 @@
+name = "lyse"
+description = "Realtime TUI lyrics for your favorite songs, directly in the terminal."
+author = "snoowfall"
+homepage = "https://github.com/snoowfall/lyse"
+readme = "https://raw.githubusercontent.com/snoowfall/lyse/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "lyse"

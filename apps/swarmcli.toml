@@ -1,0 +1,12 @@
+name = "swarmcli"
+description = "A terminal UI for Docker Swarm that makes cluster state easier to see, understand, and reason about."
+author = "Eldara-Tech"
+homepage = "https://github.com/Eldara-Tech/swarmcli"
+readme = "https://raw.githubusercontent.com/Eldara-Tech/swarmcli/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Eldara-Tech/swarmcli@latest"

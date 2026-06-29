@@ -1,0 +1,11 @@
+name = "gitswitch"
+description = "A terminal UI for managing multiple local git identities. Switch the name, email, SSH key, and GitHub account that ar..."
+author = "aksisonline"
+homepage = "https://github.com/aksisonline/gitswitch"
+readme = "https://raw.githubusercontent.com/aksisonline/gitswitch/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "go"
+package = "github.com/aksisonline/gitswitch@latest"

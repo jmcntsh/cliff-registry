@@ -1,0 +1,12 @@
+name = "httpmonitor"
+description = "A small TUI application to monitor a single or multiple targets"
+author = "ricoberger"
+homepage = "https://github.com/ricoberger/httpmonitor"
+readme = "https://raw.githubusercontent.com/ricoberger/httpmonitor/main/README.md"
+tags = ["tui"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ricoberger/httpmonitor@latest"

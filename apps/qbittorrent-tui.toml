@@ -1,0 +1,11 @@
+name = "qbittorrent-tui"
+description = "Terminal User Interface for qBittorrent"
+author = "nickvanw"
+homepage = "https://github.com/nickvanw/qbittorrent-tui"
+readme = "https://raw.githubusercontent.com/nickvanw/qbittorrent-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/nickvanw/qbittorrent-tui@latest"

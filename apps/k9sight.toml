@@ -1,0 +1,12 @@
+name = "k9sight"
+description = "A fast, keyboard-driven TUI for debugging Kubernetes workloads"
+author = "doganarif"
+homepage = "https://github.com/doganarif/k9sight"
+readme = "https://raw.githubusercontent.com/doganarif/k9sight/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/doganarif/k9sight@latest"

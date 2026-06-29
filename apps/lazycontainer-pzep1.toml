@@ -1,0 +1,12 @@
+name = "lazycontainer-pzep1"
+description = "Lazydocker-style terminal UI for Apple's container CLI"
+author = "pzep1"
+homepage = "https://github.com/pzep1/lazycontainer"
+readme = "https://raw.githubusercontent.com/pzep1/lazycontainer/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/pzep1/lazycontainer@latest"

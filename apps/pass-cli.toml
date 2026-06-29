@@ -1,0 +1,12 @@
+name = "pass-cli"
+description = "A secure, cross-platform, always-free, and open-source alternative to 1password, bitwarden, etc., Password and API ke..."
+author = "reyamira"
+homepage = "https://github.com/reyamira/pass-cli"
+readme = "https://raw.githubusercontent.com/reyamira/pass-cli/main/README.md"
+tags = ["tui"]
+category = "HTTP clients"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/reyamira/pass-cli@latest"

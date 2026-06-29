@@ -1,0 +1,12 @@
+name = "feishu-docx"
+description = "🚀 Feishu/Lark Docs、Sheet、Bitable <-> Markdown | AI Agent-friendly knowledge base exporter and writer with OAut..."
+author = "leemysw"
+homepage = "https://github.com/leemysw/feishu-docx"
+readme = "https://raw.githubusercontent.com/leemysw/feishu-docx/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "feishu-docx"

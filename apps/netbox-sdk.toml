@@ -1,0 +1,12 @@
+name = "netbox-sdk"
+description = "Modern NetBox toolkit with an SDK, CLI and TUI (terminal UI) for faster automation."
+author = "emersonfelipesp"
+homepage = "https://github.com/emersonfelipesp/netbox-sdk"
+readme = "https://raw.githubusercontent.com/emersonfelipesp/netbox-sdk/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "netbox-sdk"

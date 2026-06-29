@@ -1,0 +1,12 @@
+name = "bullmq-dash"
+description = "Terminal UI dashboard for BullMQ"
+author = "quanghuynt14"
+homepage = "https://github.com/quanghuynt14/bullmq-dash"
+readme = "https://raw.githubusercontent.com/quanghuynt14/bullmq-dash/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "bullmq-dash"

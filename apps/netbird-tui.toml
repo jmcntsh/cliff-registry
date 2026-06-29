@@ -1,0 +1,12 @@
+name = "netbird-tui"
+description = "A terminal UI for the local NetBird daemon. It uses the daemon gRPC socket directly and keeps common monitoring and m..."
+author = "n0pashkov"
+homepage = "https://github.com/n0pashkov/netbird-tui"
+readme = "https://raw.githubusercontent.com/n0pashkov/netbird-tui/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/n0pashkov/netbird-tui@latest"

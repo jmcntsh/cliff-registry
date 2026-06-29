@@ -1,0 +1,12 @@
+name = "unleash"
+description = "Unleash Claude Code. 113 patches — zero refusals, zero telemetry, 42 feature gates unlocked. In-place Bun SEA bytec..."
+author = "VoidChecksum"
+homepage = "https://github.com/VoidChecksum/unleash"
+readme = "https://raw.githubusercontent.com/VoidChecksum/unleash/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/VoidChecksum/unleash@latest"

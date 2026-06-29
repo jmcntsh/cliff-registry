@@ -1,0 +1,12 @@
+name = "gh-orbit"
+description = "A gh CLI extension for reviewing local git in the terminal — commit graph, diffs, branches, worktrees, and inline P..."
+author = "jeonbyeongmin"
+homepage = "https://github.com/jeonbyeongmin/gh-orbit"
+readme = "https://raw.githubusercontent.com/jeonbyeongmin/gh-orbit/develop/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jeonbyeongmin/gh-orbit@latest"

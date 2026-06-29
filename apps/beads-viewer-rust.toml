@@ -1,0 +1,12 @@
+name = "beads-viewer-rust"
+description = "Rust port of beads_viewer (bvr): graph-aware TUI for the Beads issue tracker with robot-mode JSON API, conformance te..."
+author = "Dicklesworthstone"
+homepage = "https://github.com/Dicklesworthstone/beads_viewer_rust"
+readme = "https://raw.githubusercontent.com/Dicklesworthstone/beads_viewer_rust/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "beads_viewer_rust"

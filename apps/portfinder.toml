@@ -1,0 +1,12 @@
+name = "portfinder"
+description = "A fast, lightweight Go-based CLI tool to detect and manage processes using network ports—featuring project awarenes..."
+author = "doganarif"
+homepage = "https://github.com/doganarif/portfinder"
+readme = "https://raw.githubusercontent.com/doganarif/portfinder/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/doganarif/portfinder@latest"

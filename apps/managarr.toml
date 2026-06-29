@@ -1,0 +1,12 @@
+name = "managarr"
+description = "A TUI and CLI for managing *arr servers. Built with 🤎 in Rust"
+author = "Dark-Alex-17"
+homepage = "https://github.com/Dark-Alex-17/managarr"
+readme = "https://raw.githubusercontent.com/Dark-Alex-17/managarr/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "managarr"

@@ -1,0 +1,12 @@
+name = "defqon-1-recorder"
+description = "A powerful terminal-based application for recording multiple Mixlr streams simultaneously with a beautiful TUI (Termi..."
+author = "revunix"
+homepage = "https://github.com/revunix/DEFQON.1-Recorder"
+readme = "https://raw.githubusercontent.com/revunix/DEFQON.1-Recorder/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/revunix/DEFQON.1-Recorder@latest"

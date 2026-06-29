@@ -1,0 +1,12 @@
+name = "stonks-dashboard"
+description = "A cyberpunk-style, real-time financial monitor that runs directly in the terminal. It visualizes cryptocurrency and s..."
+author = "pierridotite"
+homepage = "https://github.com/pierridotite/stonks-dashboard"
+readme = "https://raw.githubusercontent.com/pierridotite/stonks-dashboard/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "stonks-dashboard"

@@ -1,0 +1,11 @@
+name = "kanarenshu"
+description = "A minimal TUI application to practise Japanese from the terminal."
+author = "nuixyz"
+homepage = "https://github.com/nuixyz/kanarenshu"
+readme = "https://raw.githubusercontent.com/nuixyz/kanarenshu/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/nuixyz/kanarenshu@latest"

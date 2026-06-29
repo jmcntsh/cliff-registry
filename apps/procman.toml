@@ -1,0 +1,12 @@
+name = "procman"
+description = "(TUI) Process manager for Procfile-based applications"
+author = "a-chacon"
+homepage = "https://github.com/a-chacon/procman"
+readme = "https://raw.githubusercontent.com/a-chacon/procman/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "procman"
