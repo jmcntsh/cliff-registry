@@ -1,0 +1,12 @@
+name = "cortex-cli"
+description = "Sleek, fast, token-efficient AI coding agent. Multi-provider (Cortex, OpenAI, Anthropic, Ollama) with a polished term..."
+author = "Mateooo93"
+homepage = "https://github.com/Mateooo93/cortex-cli"
+readme = "https://raw.githubusercontent.com/Mateooo93/cortex-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/Mateooo93/cortex-cli@latest"

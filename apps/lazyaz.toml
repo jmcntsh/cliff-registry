@@ -1,0 +1,12 @@
+name = "lazyaz"
+description = "Keyboard-driven terminal UI for Azure. Like lazygit, for Azure."
+author = "karlssonsimon"
+homepage = "https://github.com/karlssonsimon/lazyaz"
+readme = "https://raw.githubusercontent.com/karlssonsimon/lazyaz/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/karlssonsimon/lazyaz@latest"

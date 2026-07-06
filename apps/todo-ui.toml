@@ -1,0 +1,12 @@
+name = "todo-ui"
+description = "A colourful, offline-first terminal UI for Todoist (Go + Bubble Tea)"
+author = "grassbl8d"
+homepage = "https://github.com/grassbl8d/todo-ui"
+readme = "https://raw.githubusercontent.com/grassbl8d/todo-ui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/grassbl8d/todo-ui@latest"

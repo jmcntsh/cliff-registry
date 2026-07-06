@@ -1,0 +1,12 @@
+name = "bit"
+description = "CLI / TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export"
+author = "superstarryeyes"
+homepage = "https://github.com/superstarryeyes/bit"
+readme = "https://raw.githubusercontent.com/superstarryeyes/bit/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/superstarryeyes/bit@latest"

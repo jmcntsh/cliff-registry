@@ -1,0 +1,12 @@
+name = "ditto"
+description = "a system-wide ascii keyboard visualizer in the terminal"
+author = "arvingarciabtw"
+homepage = "https://github.com/arvingarciabtw/ditto"
+readme = "https://raw.githubusercontent.com/arvingarciabtw/ditto/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/arvingarciabtw/ditto@latest"

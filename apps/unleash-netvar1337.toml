@@ -1,0 +1,12 @@
+name = "unleash-netvar1337"
+description = "Unleash Claude Code. 113 patches — zero refusals, zero telemetry, 42 feature gates unlocked. In-place Bun SEA bytec..."
+author = "NetVar1337"
+homepage = "https://github.com/NetVar1337/unleash"
+readme = "https://raw.githubusercontent.com/NetVar1337/unleash/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/NetVar1337/unleash@latest"

@@ -1,0 +1,11 @@
+name = "ratatui-labs"
+description = "Experimental Ratatui crates and prototypes"
+author = "ratatui"
+homepage = "https://github.com/ratatui/ratatui-labs"
+readme = "https://raw.githubusercontent.com/ratatui/ratatui-labs/main/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "cargo"
+package = "ratatui-labs"

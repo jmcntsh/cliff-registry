@@ -1,0 +1,12 @@
+name = "dnsglobe"
+description = "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world..."
+author = "514-labs"
+homepage = "https://github.com/514-labs/dnsglobe"
+readme = "https://raw.githubusercontent.com/514-labs/dnsglobe/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "dnsglobe"

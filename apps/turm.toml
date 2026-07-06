@@ -1,0 +1,12 @@
+name = "turm"
+description = "TUI for the Slurm Workload Manager"
+author = "karimknaebel"
+homepage = "https://github.com/karimknaebel/turm"
+readme = "https://raw.githubusercontent.com/karimknaebel/turm/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "turm"

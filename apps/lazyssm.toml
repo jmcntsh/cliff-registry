@@ -1,0 +1,12 @@
+name = "lazyssm"
+description = "Persistent-panel terminal UI for AWS SSM Session Manager — browse, filter, pin, and connect to instances with no SS..."
+author = "chalvinwz"
+homepage = "https://github.com/chalvinwz/lazyssm"
+readme = "https://raw.githubusercontent.com/chalvinwz/lazyssm/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/chalvinwz/lazyssm@latest"

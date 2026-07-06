@@ -1,0 +1,12 @@
+name = "repartee"
+description = "A modern terminal IRC client built with Ratatui, Tokio, and Rust"
+author = "outragedevs"
+homepage = "https://github.com/outragedevs/repartee"
+readme = "https://raw.githubusercontent.com/outragedevs/repartee/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "repartee"

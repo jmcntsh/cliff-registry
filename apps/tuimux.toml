@@ -1,0 +1,11 @@
+name = "tuimux"
+description = "A terminal multiplexer for TUI apps. Run btop, lazygit, Claude Code, and any other TUI in embedded terminal windows w..."
+author = "shuv1337"
+homepage = "https://github.com/shuv1337/tuimux"
+readme = "https://raw.githubusercontent.com/shuv1337/tuimux/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "tuimux"

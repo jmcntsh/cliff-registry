@@ -1,0 +1,12 @@
+name = "tokenpile"
+description = "A Go CLI + terminal UI that tracks LLM token usage and cost per GitHub issue"
+author = "CDimonaco"
+homepage = "https://github.com/CDimonaco/tokenpile"
+readme = "https://raw.githubusercontent.com/CDimonaco/tokenpile/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/CDimonaco/tokenpile@latest"

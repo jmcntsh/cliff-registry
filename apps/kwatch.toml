@@ -1,0 +1,12 @@
+name = "kwatch"
+description = "A terminal UI for monitoring Kubernetes services. Get instant visibility into your K8s pods, deployments, and more..."
+author = "tituscarl"
+homepage = "https://github.com/tituscarl/kwatch"
+readme = "https://raw.githubusercontent.com/tituscarl/kwatch/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/tituscarl/kwatch@latest"

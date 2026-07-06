@@ -1,0 +1,12 @@
+name = "heimdall"
+description = "Heimdall is a lightweight, cross-platform hardware monitoring system with a real-time terminal dashboard."
+author = "kinncj"
+homepage = "https://github.com/kinncj/Heimdall"
+readme = "https://raw.githubusercontent.com/kinncj/Heimdall/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/kinncj/Heimdall@latest"

@@ -1,0 +1,12 @@
+name = "sermonizer"
+description = "🔌 A sleek, fast serial monitor with a terminal UI built in Rust"
+author = "Systemscape"
+homepage = "https://github.com/Systemscape/sermonizer"
+readme = "https://raw.githubusercontent.com/Systemscape/sermonizer/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "sermonizer"

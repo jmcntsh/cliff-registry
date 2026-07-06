@@ -1,0 +1,12 @@
+name = "cinder"
+description = "Rust terminal UI for Phoenix perpetuals on Solana: live charts, a merged on-chain spline + optional CLOB order book..."
+author = "cosmic-markets"
+homepage = "https://github.com/cosmic-markets/cinder"
+readme = "https://raw.githubusercontent.com/cosmic-markets/cinder/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "cinder"

@@ -1,0 +1,12 @@
+name = "devx"
+description = "Manage parallel development sessions with a terminal UI, git worktrees, and automatic HTTPS hostnames"
+author = "jfox85"
+homepage = "https://github.com/jfox85/devx"
+readme = "https://raw.githubusercontent.com/jfox85/devx/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jfox85/devx@latest"

@@ -1,0 +1,12 @@
+name = "ai-dash"
+description = "A terminal UI for browsing coding sessions across multiple tools from local transcripts, session logs, and databases..."
+author = "adinhodovic"
+homepage = "https://github.com/adinhodovic/ai-dash"
+readme = "https://raw.githubusercontent.com/adinhodovic/ai-dash/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/adinhodovic/ai-dash@latest"

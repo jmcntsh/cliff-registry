@@ -1,0 +1,12 @@
+name = "tudo"
+description = "Fast, local, keyboard driven todo list TUI"
+author = "jolleyDesign"
+homepage = "https://github.com/jolleyDesign/tudo"
+readme = "https://raw.githubusercontent.com/jolleyDesign/tudo/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tudo"

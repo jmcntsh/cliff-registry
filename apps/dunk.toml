@@ -1,0 +1,12 @@
+name = "dunk"
+description = "Review diffs in a terminal UI, leave inline comments, and let coding agents fix them"
+author = "amix"
+homepage = "https://github.com/amix/dunk"
+readme = "https://raw.githubusercontent.com/amix/dunk/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "dunk"

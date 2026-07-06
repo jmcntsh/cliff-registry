@@ -1,0 +1,12 @@
+name = "voice-code"
+description = "语音驱动的交互式编程助手 — 支持命令行、TUI 和语音模式的 AI 编程工具"
+author = "yangguan-xue"
+homepage = "https://github.com/yangguan-xue/Voice-code"
+readme = "https://raw.githubusercontent.com/yangguan-xue/Voice-code/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "Voice-code"

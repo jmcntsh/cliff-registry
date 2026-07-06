@@ -1,0 +1,12 @@
+name = "gaia"
+description = "Gaia is a command-line interface (CLI) tool for interacting with language models via a local API. It features a beaut..."
+author = "vonglasow"
+homepage = "https://github.com/vonglasow/gaia"
+readme = "https://raw.githubusercontent.com/vonglasow/gaia/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/vonglasow/gaia@latest"

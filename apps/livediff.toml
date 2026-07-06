@@ -1,0 +1,12 @@
+name = "livediff"
+description = "⚡ Livediff: Watch file diffs live in your terminal. Minimalist Rust TUI for instant feedback loops."
+author = "SoCkEt7"
+homepage = "https://github.com/SoCkEt7/Livediff"
+readme = "https://raw.githubusercontent.com/SoCkEt7/Livediff/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "Livediff"

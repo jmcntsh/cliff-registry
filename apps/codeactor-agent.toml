@@ -1,0 +1,12 @@
+name = "codeactor-agent"
+description = "Vim style TUI with Repository-Aware, Self-Evolving Agent That Understands Codebase in Real Time powered by Hybrid Sem..."
+author = "iohub"
+homepage = "https://github.com/iohub/codeactor-agent"
+readme = "https://raw.githubusercontent.com/iohub/codeactor-agent/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/iohub/codeactor-agent@latest"

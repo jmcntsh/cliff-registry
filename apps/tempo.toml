@@ -1,0 +1,12 @@
+name = "tempo"
+description = "TUI Client for Temporal"
+author = "galaxy-io"
+homepage = "https://github.com/galaxy-io/tempo"
+readme = "https://raw.githubusercontent.com/galaxy-io/tempo/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/galaxy-io/tempo@latest"

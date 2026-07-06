@@ -1,0 +1,12 @@
+name = "makro"
+description = "Manage multiple coding agents through a split-pane terminal UI"
+author = "cybernagle"
+homepage = "https://github.com/cybernagle/makro"
+readme = "https://raw.githubusercontent.com/cybernagle/makro/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/cybernagle/makro@latest"

@@ -1,0 +1,12 @@
+name = "roctop"
+description = "`roctop` is a small AMD ROCm GPU monitor. It shows GPU VRAM usage, utilization, temperature, and GPU processes in a r..."
+author = "nrhevu"
+homepage = "https://github.com/nrhevu/roctop"
+readme = "https://raw.githubusercontent.com/nrhevu/roctop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "roctop"

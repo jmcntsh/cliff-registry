@@ -1,0 +1,11 @@
+name = "glab-tui"
+description = "A terminal user interface (TUI) for GitLab/GitHub, built on top of glab/gh. Browse issues, merge requests, pipelines..."
+author = "rcieri"
+homepage = "https://github.com/rcieri/glab-tui"
+readme = "https://raw.githubusercontent.com/rcieri/glab-tui/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "cargo"
+package = "glab-tui"

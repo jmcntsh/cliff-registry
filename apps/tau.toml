@@ -1,0 +1,12 @@
+name = "tau"
+description = "Tau: self-extensible agent CLI with terminal UI, multi-provider LLM support, session management, and a plugin system..."
+author = "Jeomon"
+homepage = "https://github.com/Jeomon/Tau"
+readme = "https://raw.githubusercontent.com/Jeomon/Tau/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Tau"

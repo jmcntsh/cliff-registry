@@ -1,0 +1,11 @@
+name = "aktop"
+description = "A terminal UI for monitoring consensus and provider operations."
+author = "cloud-j-luna"
+homepage = "https://github.com/cloud-j-luna/aktop"
+readme = "https://raw.githubusercontent.com/cloud-j-luna/aktop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "go"
+package = "github.com/cloud-j-luna/aktop@latest"

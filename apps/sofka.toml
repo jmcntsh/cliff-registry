@@ -1,0 +1,12 @@
+name = "sofka"
+description = "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up."
+author = "nklmilojevic"
+homepage = "https://github.com/nklmilojevic/sofka"
+readme = "https://raw.githubusercontent.com/nklmilojevic/sofka/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "sofka"

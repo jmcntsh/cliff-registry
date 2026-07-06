@@ -1,0 +1,12 @@
+name = "ffdash"
+description = "A terminal UI for batch AV1 & VP9 video encoding with hardware acceleration, real-time progress monitoring, and full..."
+author = "bcherb2"
+homepage = "https://github.com/bcherb2/ffdash"
+readme = "https://raw.githubusercontent.com/bcherb2/ffdash/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ffdash"

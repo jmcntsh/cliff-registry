@@ -1,0 +1,12 @@
+name = "sqltui"
+description = "sqltui is a TUI tool to operate sql and nosql databases"
+author = "LinPr"
+homepage = "https://github.com/LinPr/sqltui"
+readme = "https://raw.githubusercontent.com/LinPr/sqltui/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/LinPr/sqltui@latest"

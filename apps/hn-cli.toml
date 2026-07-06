@@ -1,0 +1,12 @@
+name = "hn-cli"
+description = "Blazing fast, Hacker News CLI (TUI)⚡"
+author = "heartleo"
+homepage = "https://github.com/heartleo/hn-cli"
+readme = "https://raw.githubusercontent.com/heartleo/hn-cli/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/heartleo/hn-cli@latest"

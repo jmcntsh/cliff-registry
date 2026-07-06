@@ -1,0 +1,12 @@
+name = "a2ui"
+description = "Rust impl of the A2UI protocol (ratatui terminal + Slint / egui / Bevy / Iced / Dioxus desktop)"
+author = "Liangdi"
+homepage = "https://github.com/Liangdi/a2ui"
+readme = "https://raw.githubusercontent.com/Liangdi/a2ui/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "a2ui"

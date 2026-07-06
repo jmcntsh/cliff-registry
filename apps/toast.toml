@@ -1,0 +1,12 @@
+name = "toast"
+description = "A lightweight TUI IDE for making quick in-the-moment edits."
+author = "paradise-runner"
+homepage = "https://github.com/paradise-runner/toast"
+readme = "https://raw.githubusercontent.com/paradise-runner/toast/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/paradise-runner/toast@latest"

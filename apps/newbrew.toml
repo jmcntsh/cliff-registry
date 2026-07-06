@@ -1,0 +1,12 @@
+name = "newbrew"
+description = "Terminal UI for discovering recent Homebrew formula additions, with searchable results, cached fetches, and one-key h..."
+author = "matt-riley"
+homepage = "https://github.com/matt-riley/newbrew"
+readme = "https://raw.githubusercontent.com/matt-riley/newbrew/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/matt-riley/newbrew@latest"

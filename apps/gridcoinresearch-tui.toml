@@ -1,0 +1,12 @@
+name = "gridcoinresearch-tui"
+description = "Simple terminal ui wrapper for gridcoinreserarch (tui wallet)"
+author = "gridcat"
+homepage = "https://github.com/gridcat/gridcoinresearch-tui"
+readme = "https://raw.githubusercontent.com/gridcat/gridcoinresearch-tui/master/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gridcat/gridcoinresearch-tui@latest"

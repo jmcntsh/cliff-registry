@@ -1,0 +1,12 @@
+name = "diskwatch"
+description = "Single-host, read-only disk diagnostics TUI. Sibling to netwatch and syswatch."
+author = "matthart1983"
+homepage = "https://github.com/matthart1983/diskwatch"
+readme = "https://raw.githubusercontent.com/matthart1983/diskwatch/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "diskwatch"

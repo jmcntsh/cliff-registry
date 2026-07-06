@@ -1,0 +1,12 @@
+name = "fleet-nicknisi"
+description = "A terminal dashboard for managing multiple AI agent sessions in tmux"
+author = "nicknisi"
+homepage = "https://github.com/nicknisi/fleet"
+readme = "https://raw.githubusercontent.com/nicknisi/fleet/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "fleet"

@@ -1,0 +1,12 @@
+name = "datafusion-dft"
+description = "Batteries included CLI, TUI, and server implementations for DataFusion."
+author = "datafusion-contrib"
+homepage = "https://github.com/datafusion-contrib/datafusion-dft"
+readme = "https://raw.githubusercontent.com/datafusion-contrib/datafusion-dft/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "datafusion-dft"

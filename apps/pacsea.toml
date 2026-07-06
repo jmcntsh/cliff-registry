@@ -1,0 +1,12 @@
+name = "pacsea"
+description = "Fast TUI for searching, inspecting, and queueing pacman/AUR packages."
+author = "Firstp1ck"
+homepage = "https://github.com/Firstp1ck/Pacsea"
+readme = "https://raw.githubusercontent.com/Firstp1ck/Pacsea/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Pacsea"

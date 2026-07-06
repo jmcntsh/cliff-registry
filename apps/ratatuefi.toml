@@ -1,0 +1,12 @@
+name = "ratatuefi"
+description = "Zero-bloat Ratatui apps in UEFI"
+author = "sermuns"
+homepage = "https://github.com/sermuns/ratatuefi"
+readme = "https://raw.githubusercontent.com/sermuns/ratatuefi/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "ratatuefi"

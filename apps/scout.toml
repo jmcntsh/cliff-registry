@@ -1,0 +1,12 @@
+name = "scout"
+description = "a safe simple readonly tui (terminal ui) to show file changes including git changes. inspired by ranger, broot, and yazi"
+author = "mirageglobe"
+homepage = "https://github.com/mirageglobe/scout"
+readme = "https://raw.githubusercontent.com/mirageglobe/scout/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/mirageglobe/scout@latest"

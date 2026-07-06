@@ -1,0 +1,12 @@
+name = "ultracodex"
+description = "Run Claude Code workflow scripts, unmodified, on the OpenAI Codex CLI — fable plans, codex executes, fable verifies..."
+author = "YuanpingSong"
+homepage = "https://github.com/YuanpingSong/ultracodex"
+readme = "https://raw.githubusercontent.com/YuanpingSong/ultracodex/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "ultracodex"

@@ -1,0 +1,12 @@
+name = "kairos"
+description = "A fast, keyboard-driven terminal UI for todo.txt. Vim-style bindings, atomic writes, instant external-edit detection..."
+author = "suraniharsh"
+homepage = "https://github.com/suraniharsh/kairos"
+readme = "https://raw.githubusercontent.com/suraniharsh/kairos/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "kairos"
