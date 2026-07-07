@@ -19,7 +19,6 @@ type Manifest struct {
 	Author      string   `toml:"author"`
 	Homepage    string   `toml:"homepage"`
 	Readme      string   `toml:"readme,omitempty"`
-	Demo        string   `toml:"demo,omitempty"`
 	Screenshots []string `toml:"screenshots,omitempty"`
 	Tags        []string `toml:"tags,omitempty"`
 	License     string   `toml:"license,omitempty"`
@@ -107,9 +106,6 @@ func (m *Manifest) Validate() error {
 		errs = append(errs, err.Error())
 	}
 	if err := requireURL("readme", m.Readme, false); err != nil {
-		errs = append(errs, err.Error())
-	}
-	if err := requireURL("demo", m.Demo, false); err != nil {
 		errs = append(errs, err.Error())
 	}
 	for i, s := range m.Screenshots {
@@ -241,7 +237,6 @@ func (m *Manifest) ToApp() index.App {
 		Homepage:     m.Homepage,
 		Author:       m.Author,
 		Readme:       m.Readme,
-		Demo:         m.Demo,
 		Screenshots:  m.Screenshots,
 		Tags:         m.Tags,
 		Binary:       m.Binary,

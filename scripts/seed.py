@@ -3,13 +3,13 @@
 Seed cliff-registry with new CLI/TUI candidates from GitHub.
 
 End-to-end self-contained: search → evaluate → emit manifests into
-apps/ → run lint → commit and push to main. The TUI's hotness algorithm
-does the actual curation post-merge.
+apps/ → run lint → commit and push to main. The TUI's stars/recency
+sorts and search do the browsing-side ranking post-merge.
 
 Design notes:
 - Search intentionally fans out across topics, names, and descriptions.
   The ledger dedupes prior decisions; this script's job is to keep the
-  funnel large enough that the client-side hotness sort has material.
+  funnel large enough that the catalog stays fresh week over week.
 - The ledger is the source of truth for "what we've already looked at."
   Only TERMINAL verdicts (accepted, rejected) get recorded. Deferred
   candidates remain re-evaluable next run.
@@ -91,9 +91,9 @@ TUI_SEARCH_QUERIES = (
     "textual in:name,description",
 )
 
-# Minimal category-check terms. The hotness algorithm in cliff handles
-# real curation; this list only catches things that are categorically
-# wrong (not a CLI/TUI at all) so we don't pollute the registry index.
+# Minimal category-check terms. This list only catches things that are
+# categorically wrong (not a CLI/TUI at all) so we don't pollute the
+# registry index; ranking is the client's job.
 CATEGORY_DENY_TERMS = (
     "awesome list",
     "awesome-list",
@@ -275,10 +275,10 @@ def collect_repos(
 def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
     """Lightweight category check. Reject obvious non-apps; accept the rest.
 
-    The bar is low on purpose — hotness in the TUI does the real curation.
-    What we reject here is anything that is *categorically* not a runnable
-    CLI/TUI: awesome-lists, libraries that describe themselves as such,
-    AI agent meta-tooling, etc.
+    The bar is low on purpose — the TUI's sorts and search handle
+    ranking. What we reject here is anything that is *categorically* not
+    a runnable CLI/TUI: awesome-lists, libraries that describe
+    themselves as such, AI agent meta-tooling, etc.
     """
     name = str(repo.get("name") or "")
     full = str(repo.get("fullName") or "").lower()

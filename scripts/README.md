@@ -7,8 +7,8 @@ new TUI, terminal game, and visual terminal repos, evaluates them against a smal
 writes manifests directly into `apps/`, runs `cmd/lint`, and (in
 `--commit` mode) commits + pushes the result to `main`.
 
-The TUI's hotness algorithm does the real curation post-merge. This
-script's job is to keep the funnel topped up.
+The TUI's stars/recency sorts and search do the browsing-side ranking
+post-merge. This script's job is to keep the funnel topped up.
 
 ### Local usage
 

@@ -47,7 +47,6 @@ package = "github.com/charmbracelet/glow@latest"
 ## Optional
 
 - `readme` — `http` or `https` URL to a raw README; rendered in the TUI.
-- `demo` — `http` or `https` URL for an external demo artifact.
 - `screenshots` — array of `http` or `https` URLs.
 - `tags` — lowercase tags.
 - `license` — SPDX identifier when known.
@@ -56,10 +55,6 @@ package = "github.com/charmbracelet/glow@latest"
 - `binary` — installed executable name when it does not match the repo basename.
 - `[uninstall]` — command override for uninstall; required when any install method has `type = "script"`.
 - `[upgrade]` — command override for upgrade; optional.
-
-Demo reels are added separately as `reels/<name>.reel`. During index
-build, the registry sets `has_reel = true` for apps with a matching
-reel file.
 
 ## Install methods
 

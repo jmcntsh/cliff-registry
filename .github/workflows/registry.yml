@@ -26,10 +26,6 @@ jobs:
       - run: go vet ./...
       - run: go test ./...
       - run: go run ./cmd/lint ./apps
-      # Reel guardrails: block path leaks and missing disclaimers before
-      # publishing. Cheap (json grep, stdlib-only), runs after manifest
-      # lint so reel issues only surface when manifests are sane.
-      - run: python3 scripts/lint-reels.py
 
   publish:
     needs: lint
@@ -51,14 +47,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_SHA: ${{ github.sha }}
         run: |
-          mkdir -p public public/reels
+          mkdir -p public
           go run ./cmd/build ./apps ./public/index.json
           cp CNAME public/CNAME 2>/dev/null || true
-          # Publish reels next to index.json. Cliff fetches them by slug
-          # at https://registry.cliff.sh/reels/<slug>.reel — only the .reel
-          # artifacts ship, not the demo.sh sources, since cliff only ever
-          # plays them.
-          cp reels/*.reel public/reels/ 2>/dev/null || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
