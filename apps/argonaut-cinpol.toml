@@ -1,0 +1,12 @@
+name = "argonaut-cinpol"
+description = "Argonaut is keyboard-driven Terminal UI for Ceph"
+author = "cinpol"
+homepage = "https://github.com/cinpol/argonaut"
+readme = "https://raw.githubusercontent.com/cinpol/argonaut/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/cinpol/argonaut@latest"

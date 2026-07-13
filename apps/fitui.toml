@@ -1,0 +1,11 @@
+name = "fitui"
+description = "Terminal based expense tracker built in rust"
+author = "ayanchavand"
+homepage = "https://github.com/ayanchavand/FiTui"
+readme = "https://raw.githubusercontent.com/ayanchavand/FiTui/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "cargo"
+package = "FiTui"

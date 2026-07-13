@@ -1,0 +1,12 @@
+name = "psnet"
+description = "A beautiful real-time TUI network monitor for Windows PowerShell — built in Rust"
+author = "psmux"
+homepage = "https://github.com/psmux/psnet"
+readme = "https://raw.githubusercontent.com/psmux/psnet/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "psnet"

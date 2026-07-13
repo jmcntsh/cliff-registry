@@ -1,0 +1,12 @@
+name = "bit-paulilaaso"
+description = "CLI / TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export"
+author = "paulilaaso"
+homepage = "https://github.com/paulilaaso/bit"
+readme = "https://raw.githubusercontent.com/paulilaaso/bit/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/paulilaaso/bit@latest"

@@ -1,0 +1,12 @@
+name = "goplaying"
+description = "Now Playing TUI written in Go"
+author = "justinmdickey"
+homepage = "https://github.com/justinmdickey/goplaying"
+readme = "https://raw.githubusercontent.com/justinmdickey/goplaying/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/justinmdickey/goplaying@latest"

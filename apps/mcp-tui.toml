@@ -1,0 +1,12 @@
+name = "mcp-tui"
+description = "Fast terminal UI and CLI for testing, debugging, and automating Model Context Protocol (MCP) servers. STDIO, SSE, HTT..."
+author = "standardbeagle"
+homepage = "https://github.com/standardbeagle/mcp-tui"
+readme = "https://raw.githubusercontent.com/standardbeagle/mcp-tui/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/standardbeagle/mcp-tui@latest"

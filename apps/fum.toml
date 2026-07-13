@@ -1,0 +1,12 @@
+name = "fum"
+description = "A fully customizable tui-based mpris music client."
+author = "qxb3"
+homepage = "https://github.com/qxb3/fum"
+readme = "https://raw.githubusercontent.com/qxb3/fum/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "fum"

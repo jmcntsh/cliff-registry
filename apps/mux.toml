@@ -1,0 +1,12 @@
+name = "mux"
+description = "TUI tmux session manager with live preview — built for AI coding workflows"
+author = "lunemis"
+homepage = "https://github.com/lunemis/mux"
+readme = "https://raw.githubusercontent.com/lunemis/mux/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lunemis/mux@latest"

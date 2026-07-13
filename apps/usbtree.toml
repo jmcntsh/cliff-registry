@@ -1,0 +1,12 @@
+name = "usbtree"
+description = "Live USB device tree in your terminal. Rust TUI, no root, no libusb. Full activity metrics on Linux; device tree on m..."
+author = "gnomeria"
+homepage = "https://github.com/gnomeria/usbtree"
+readme = "https://raw.githubusercontent.com/gnomeria/usbtree/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "usbtree"

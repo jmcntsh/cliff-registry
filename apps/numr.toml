@@ -1,0 +1,12 @@
+name = "numr"
+description = "Natural-language text calculator with TUI/CLI: variables, units, currencies, and live exchange rates"
+author = "nasedkinpv"
+homepage = "https://github.com/nasedkinpv/numr"
+readme = "https://raw.githubusercontent.com/nasedkinpv/numr/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "numr"

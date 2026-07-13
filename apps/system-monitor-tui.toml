@@ -1,0 +1,11 @@
+name = "system-monitor-tui"
+description = "A simple System Monitor terminal user interface with Go"
+author = "ivan-penchev"
+homepage = "https://github.com/ivan-penchev/system-monitor-tui"
+readme = "https://raw.githubusercontent.com/ivan-penchev/system-monitor-tui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "go"
+package = "github.com/ivan-penchev/system-monitor-tui@latest"

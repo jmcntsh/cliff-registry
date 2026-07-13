@@ -1,0 +1,12 @@
+name = "godap"
+description = "A complete terminal user interface (TUI) for LDAP."
+author = "Macmod"
+homepage = "https://github.com/Macmod/godap"
+readme = "https://raw.githubusercontent.com/Macmod/godap/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Macmod/godap@latest"

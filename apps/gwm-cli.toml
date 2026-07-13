@@ -1,0 +1,12 @@
+name = "gwm-cli"
+description = "git worktree manager — Rust CLI + ratatui TUI, native libgit2, per-repo bootstrap via .gwm.toml"
+author = "kbrdn1"
+homepage = "https://github.com/kbrdn1/gwm-cli"
+readme = "https://raw.githubusercontent.com/kbrdn1/gwm-cli/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gwm-cli"

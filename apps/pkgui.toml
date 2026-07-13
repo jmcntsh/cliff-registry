@@ -1,0 +1,12 @@
+name = "pkgui"
+description = "📦 a terminal dashboard for everything you've installed"
+author = "bhavya-dang"
+homepage = "https://github.com/bhavya-dang/pkgui"
+readme = "https://raw.githubusercontent.com/bhavya-dang/pkgui/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bhavya-dang/pkgui@latest"

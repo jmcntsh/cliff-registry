@@ -1,0 +1,12 @@
+name = "rusty-krab-manager"
+description = "🕰️ - time management tui in rust"
+author = "aryakaul"
+homepage = "https://github.com/aryakaul/rusty-krab-manager"
+readme = "https://raw.githubusercontent.com/aryakaul/rusty-krab-manager/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "rusty-krab-manager"

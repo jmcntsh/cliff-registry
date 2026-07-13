@@ -1,0 +1,12 @@
+name = "sshub"
+description = "Terminal UI for SSH: hybrid ~/.ssh/config + host DB, embedded PTY sessions, SFTP browser, tunnels, key management, an..."
+author = "Petyok"
+homepage = "https://github.com/Petyok/SSHub"
+readme = "https://raw.githubusercontent.com/Petyok/SSHub/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "SSHub"

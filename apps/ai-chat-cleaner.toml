@@ -1,0 +1,12 @@
+name = "ai-chat-cleaner"
+description = "Clean and remove AI chat with an interactive terminal UI."
+author = "jinghaihan"
+homepage = "https://github.com/jinghaihan/ai-chat-cleaner"
+readme = "https://raw.githubusercontent.com/jinghaihan/ai-chat-cleaner/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ai-chat-cleaner"

@@ -1,0 +1,12 @@
+name = "pi-squad"
+description = "Multi-agent collaboration extension for pi — task decomposition, dependency management, parallel execution, TUI panel"
+author = "picassio"
+homepage = "https://github.com/picassio/pi-squad"
+readme = "https://raw.githubusercontent.com/picassio/pi-squad/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-squad"

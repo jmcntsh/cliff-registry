@@ -1,0 +1,11 @@
+name = "distributed-simd-matrix-multiplication-engine"
+description = "Low-level C++20 SIMD matmul engine behind a Go/gRPC gateway, with SHA-256 request hashing, Redis caching, and a live..."
+author = "yulchanshin"
+homepage = "https://github.com/yulchanshin/Distributed-SIMD-Matrix-Multiplication-Engine"
+readme = "https://raw.githubusercontent.com/yulchanshin/Distributed-SIMD-Matrix-Multiplication-Engine/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+
+[[installs]]
+type = "go"
+package = "github.com/yulchanshin/Distributed-SIMD-Matrix-Multiplication-Engine@latest"

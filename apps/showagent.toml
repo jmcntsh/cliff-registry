@@ -1,0 +1,12 @@
+name = "showagent"
+description = "Every AI coding session on your machine, in one TUI: browse, search, resume, branch — and convert conversations bet..."
+author = "aytzey"
+homepage = "https://github.com/aytzey/showagent"
+readme = "https://raw.githubusercontent.com/aytzey/showagent/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aytzey/showagent@latest"

@@ -1,0 +1,12 @@
+name = "vaul7y"
+description = "TUI for Hashicorp Vault"
+author = "dkyanakiev"
+homepage = "https://github.com/dkyanakiev/vaul7y"
+readme = "https://raw.githubusercontent.com/dkyanakiev/vaul7y/master/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/dkyanakiev/vaul7y@latest"

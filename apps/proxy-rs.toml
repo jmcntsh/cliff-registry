@@ -1,0 +1,12 @@
+name = "proxy-rs"
+description = "Cross-platform sing-box and mihomo manager with native services, Ratatui TUI, tray, telemetry, and CLI."
+author = "MiChongs"
+homepage = "https://github.com/MiChongs/Proxy-RS"
+readme = "https://raw.githubusercontent.com/MiChongs/Proxy-RS/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Proxy-RS"

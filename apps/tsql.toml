@@ -1,0 +1,12 @@
+name = "tsql"
+description = "🐘 tsql — A modern PostgreSQL and MongoDB manager TUI"
+author = "fcoury"
+homepage = "https://github.com/fcoury/tsql"
+readme = "https://raw.githubusercontent.com/fcoury/tsql/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tsql"

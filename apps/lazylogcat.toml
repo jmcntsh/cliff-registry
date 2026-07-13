@@ -1,0 +1,12 @@
+name = "lazylogcat"
+description = "LazyLogcat - TUI to view Android logs from adb logcat"
+author = "parfenovvs"
+homepage = "https://github.com/parfenovvs/lazylogcat"
+readme = "https://raw.githubusercontent.com/parfenovvs/lazylogcat/trunk/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/parfenovvs/lazylogcat@latest"

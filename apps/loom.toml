@@ -1,0 +1,12 @@
+name = "loom"
+description = "Loom is an AI harness, that can be used with local or cloud LLMs, for complex tasks. It decomposes work, drives execu..."
+author = "sfw"
+homepage = "https://github.com/sfw/loom"
+readme = "https://raw.githubusercontent.com/sfw/loom/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "loom"

@@ -1,0 +1,12 @@
+name = "ptop"
+description = "Interactive TUI that uses eBPF to live-inspect any Linux process — CPU, syscalls, network, I/O, memory, threads, an..."
+author = "trentas"
+homepage = "https://github.com/trentas/ptop"
+readme = "https://raw.githubusercontent.com/trentas/ptop/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/trentas/ptop@latest"

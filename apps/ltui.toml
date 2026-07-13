@@ -1,0 +1,12 @@
+name = "ltui"
+description = "◐ A fast, beautiful TUI for Linear — status-grouped tickets, instant startup, full keyboard + mouse control"
+author = "runpantheon"
+homepage = "https://github.com/runpantheon/ltui"
+readme = "https://raw.githubusercontent.com/runpantheon/ltui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "ltui"

@@ -1,0 +1,12 @@
+name = "spectatui"
+description = "A TUI (Terminal UI) dashboard for Github Spec-Kit"
+author = "tinesoft"
+homepage = "https://github.com/tinesoft/spectatui"
+readme = "https://raw.githubusercontent.com/tinesoft/spectatui/develop/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "spectatui"

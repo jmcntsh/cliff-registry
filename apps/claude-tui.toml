@@ -1,0 +1,12 @@
+name = "claude-tui"
+description = "Real-time statusline, live monitor, session analytics, and hooks for Claude Code"
+author = "slima4"
+homepage = "https://github.com/slima4/claude-tui"
+readme = "https://raw.githubusercontent.com/slima4/claude-tui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "claude-tui"

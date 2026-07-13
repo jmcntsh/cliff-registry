@@ -1,0 +1,12 @@
+name = "vortex"
+description = "A fast, agentless TUI for managing Linux VPS servers over SSH. Mission Control dashboard, live Network Operations Cen..."
+author = "berkayyytech"
+homepage = "https://github.com/berkayyytech/vortex"
+readme = "https://raw.githubusercontent.com/berkayyytech/vortex/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/berkayyytech/vortex@latest"

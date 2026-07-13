@@ -1,0 +1,12 @@
+name = "pstop"
+description = "htop for Windows . TUI system monitor with per-core CPU bars, memory/swap/network, tree view, process kill, 7 color s..."
+author = "psmux"
+homepage = "https://github.com/psmux/pstop"
+readme = "https://raw.githubusercontent.com/psmux/pstop/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "pstop"

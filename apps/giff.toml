@@ -1,0 +1,12 @@
+name = "giff"
+description = "Interactive terminal UI for git diffs."
+author = "sukechannnn"
+homepage = "https://github.com/sukechannnn/giff"
+readme = "https://raw.githubusercontent.com/sukechannnn/giff/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sukechannnn/giff@latest"

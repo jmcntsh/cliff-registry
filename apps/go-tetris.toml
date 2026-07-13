@@ -1,0 +1,12 @@
+name = "go-tetris"
+description = "Terminal UI and WebAssembly tetris in go using tcell. Works in everything from xterm to Chrome/Safari."
+author = "aaronriekenberg"
+homepage = "https://github.com/aaronriekenberg/go-tetris"
+readme = "https://raw.githubusercontent.com/aaronriekenberg/go-tetris/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aaronriekenberg/go-tetris@latest"

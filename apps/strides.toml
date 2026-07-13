@@ -1,0 +1,12 @@
+name = "strides"
+description = "Async-first terminal UI spinners and progress bars"
+author = "matze"
+homepage = "https://github.com/matze/strides"
+readme = "https://raw.githubusercontent.com/matze/strides/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "strides"

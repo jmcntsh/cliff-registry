@@ -1,0 +1,11 @@
+name = "claude-top"
+description = "Terminal UI for monitoring Claude Code token and cost usage"
+author = "a2d2-dev"
+homepage = "https://github.com/a2d2-dev/claude-top"
+readme = "https://raw.githubusercontent.com/a2d2-dev/claude-top/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "go"
+package = "github.com/a2d2-dev/claude-top@latest"

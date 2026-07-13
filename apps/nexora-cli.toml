@@ -1,0 +1,12 @@
+name = "nexora-cli"
+description = "Terminal client for Nexora — streaming chat, agents, tasks & local tool execution from your shell. Single static Go..."
+author = "ParendumOU"
+homepage = "https://github.com/ParendumOU/Nexora-CLI"
+readme = "https://raw.githubusercontent.com/ParendumOU/Nexora-CLI/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ParendumOU/Nexora-CLI@latest"

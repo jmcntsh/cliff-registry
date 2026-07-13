@@ -1,0 +1,12 @@
+name = "rote"
+description = "A cron that remembers what it did—a CLI job scheduler with run history, captured output, and a live terminal dashbo..."
+author = "zhh2001"
+homepage = "https://github.com/zhh2001/rote"
+readme = "https://raw.githubusercontent.com/zhh2001/rote/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/zhh2001/rote@latest"

@@ -1,0 +1,11 @@
+name = "opencode-dataset-plugin"
+description = "Capture OpenCode agent sessions into a local JSONL dataset, review examples in an OpenTUI terminal UI, and export to..."
+author = "codingstark-dev"
+homepage = "https://github.com/codingstark-dev/opencode-dataset-plugin"
+readme = "https://raw.githubusercontent.com/codingstark-dev/opencode-dataset-plugin/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+
+[[installs]]
+type = "npm"
+package = "opencode-dataset-plugin"

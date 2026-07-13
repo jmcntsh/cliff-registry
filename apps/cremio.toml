@@ -1,0 +1,12 @@
+name = "cremio"
+description = "A creamy Stremio TUI client, powered by Bubble Tea"
+author = "itssoap"
+homepage = "https://github.com/itssoap/cremio"
+readme = "https://raw.githubusercontent.com/itssoap/cremio/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/itssoap/cremio@latest"

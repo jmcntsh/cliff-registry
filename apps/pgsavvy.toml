@@ -1,0 +1,12 @@
+name = "pgsavvy"
+description = "The lazygit for PostgreSQL. A vim-style terminal UI for browsing, querying, and editing your database without leaving..."
+author = "davesavic"
+homepage = "https://github.com/davesavic/pgsavvy"
+readme = "https://raw.githubusercontent.com/davesavic/pgsavvy/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/davesavic/pgsavvy@latest"

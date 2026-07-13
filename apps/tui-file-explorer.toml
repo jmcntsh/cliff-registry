@@ -1,0 +1,12 @@
+name = "tui-file-explorer"
+description = "A Rust ratatui tui file explorer."
+author = "sorinirimies"
+homepage = "https://github.com/sorinirimies/tui-file-explorer"
+readme = "https://raw.githubusercontent.com/sorinirimies/tui-file-explorer/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tui-file-explorer"

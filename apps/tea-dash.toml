@@ -1,0 +1,12 @@
+name = "tea-dash"
+description = "A gh-dash-style terminal dashboard (TUI) for Gitea & Forgejo — PRs, issues, notifications, Actions runs, and branch..."
+author = "gbarany"
+homepage = "https://github.com/gbarany/tea-dash"
+readme = "https://raw.githubusercontent.com/gbarany/tea-dash/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gbarany/tea-dash@latest"

@@ -1,0 +1,12 @@
+name = "nibble-backendsystems"
+description = "easy to use network scanner, with a clickable tui interface"
+author = "backendsystems"
+homepage = "https://github.com/backendsystems/nibble"
+readme = "https://raw.githubusercontent.com/backendsystems/nibble/main/README.md"
+tags = ["tui"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/backendsystems/nibble@latest"

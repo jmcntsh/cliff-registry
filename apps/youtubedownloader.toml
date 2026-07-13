@@ -1,0 +1,12 @@
+name = "youtubedownloader"
+description = "Download video and audio from YouTube through a terminal UI."
+author = "VolRencs"
+homepage = "https://github.com/VolRencs/YouTubeDownloader"
+readme = "https://raw.githubusercontent.com/VolRencs/YouTubeDownloader/Dev/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/VolRencs/YouTubeDownloader@latest"

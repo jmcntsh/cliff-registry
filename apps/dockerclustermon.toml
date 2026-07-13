@@ -1,0 +1,12 @@
+name = "dockerclustermon"
+description = "A TUI tool for a live view of your docker containers running on a remote server. #pypackage"
+author = "mikeckennedy"
+homepage = "https://github.com/mikeckennedy/dockerclustermon"
+readme = "https://raw.githubusercontent.com/mikeckennedy/dockerclustermon/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "dockerclustermon"
