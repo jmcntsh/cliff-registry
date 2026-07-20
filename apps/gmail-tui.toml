@@ -1,0 +1,11 @@
+name = "gmail-tui"
+description = "gmail but in your terminal"
+author = "ivanjm3"
+homepage = "https://github.com/ivanjm3/gmail-tui"
+readme = "https://raw.githubusercontent.com/ivanjm3/gmail-tui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "go"
+package = "github.com/ivanjm3/gmail-tui@latest"

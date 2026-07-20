@@ -1,0 +1,11 @@
+name = "inventree-tui"
+description = "Terminal UI for InvenTree — fuzzy search, CRUD, undo/redo, touchscreen"
+author = "AndrewYatzkan"
+homepage = "https://github.com/AndrewYatzkan/inventree-tui"
+readme = "https://raw.githubusercontent.com/AndrewYatzkan/inventree-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/AndrewYatzkan/inventree-tui@latest"

@@ -1,0 +1,12 @@
+name = "di-tui"
+description = "A simple terminal UI player for di.fm"
+author = "acaloiaro"
+homepage = "https://github.com/acaloiaro/di-tui"
+readme = "https://raw.githubusercontent.com/acaloiaro/di-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/acaloiaro/di-tui@latest"

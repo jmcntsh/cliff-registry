@@ -1,0 +1,12 @@
+name = "tui-piechart"
+description = "A customizable pie chart widget for Rust TUI applications."
+author = "sorinirimies"
+homepage = "https://github.com/sorinirimies/tui-piechart"
+readme = "https://raw.githubusercontent.com/sorinirimies/tui-piechart/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tui-piechart"

@@ -1,0 +1,12 @@
+name = "crepuscularity"
+description = "write react for gpui tui and embedded, write rust for web extensions, write both for websites, swiftui, mobile apps a..."
+author = "tschk"
+homepage = "https://github.com/tschk/crepuscularity"
+readme = "https://raw.githubusercontent.com/tschk/crepuscularity/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "ISC"
+
+[[installs]]
+type = "cargo"
+package = "crepuscularity"

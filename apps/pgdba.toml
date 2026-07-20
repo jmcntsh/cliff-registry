@@ -1,0 +1,11 @@
+name = "pgdba"
+description = "Terminal UI for PostgreSQL DBAs — interactive diagnostics and management directly in the terminal."
+author = "liciomatos"
+homepage = "https://github.com/liciomatos/pgdba"
+readme = "https://raw.githubusercontent.com/liciomatos/pgdba/main/README.md"
+tags = ["cli"]
+category = "Databases"
+
+[[installs]]
+type = "go"
+package = "github.com/liciomatos/pgdba@latest"

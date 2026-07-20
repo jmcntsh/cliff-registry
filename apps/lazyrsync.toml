@@ -1,0 +1,12 @@
+name = "lazyrsync"
+description = "🦀 A friendly terminal UI for rsync, written in Rust. Reusable profiles, an honest dry-run diff, and live progress..."
+author = "westpoint-io"
+homepage = "https://github.com/westpoint-io/lazyrsync"
+readme = "https://raw.githubusercontent.com/westpoint-io/lazyrsync/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "lazyrsync"

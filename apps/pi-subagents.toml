@@ -1,0 +1,12 @@
+name = "pi-subagents"
+description = "Power-user multi-agent framework for Pi: named agents, interactive sessions via Herdr/cmux/tmux/zellij/WezTerm, backg..."
+author = "edxeth"
+homepage = "https://github.com/edxeth/pi-subagents"
+readme = "https://raw.githubusercontent.com/edxeth/pi-subagents/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-subagents"

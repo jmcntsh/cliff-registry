@@ -1,0 +1,12 @@
+name = "tira"
+description = "A blazing fast terminal interface for Jira, written in Go."
+author = "justinmklam"
+homepage = "https://github.com/justinmklam/tira"
+readme = "https://raw.githubusercontent.com/justinmklam/tira/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/justinmklam/tira@latest"

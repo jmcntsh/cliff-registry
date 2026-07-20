@@ -1,0 +1,12 @@
+name = "tui-calendar"
+description = "- Terminal-based - Google Calendar sync - Built with BubbleTea -"
+author = "NStefan002"
+homepage = "https://github.com/NStefan002/tui-calendar"
+readme = "https://raw.githubusercontent.com/NStefan002/tui-calendar/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/NStefan002/tui-calendar@latest"

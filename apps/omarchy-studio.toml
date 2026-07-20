@@ -1,0 +1,12 @@
+name = "omarchy-studio"
+description = "One-stop theming cockpit for Omarchy — themes, wallpapers, keybinds, animations, Waybar, notifications from one TUI"
+author = "arino08"
+homepage = "https://github.com/arino08/omarchy-studio"
+readme = "https://raw.githubusercontent.com/arino08/omarchy-studio/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "omarchy-studio"

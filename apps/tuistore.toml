@@ -1,0 +1,12 @@
+name = "tuistore"
+description = "🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded fr..."
+author = "Gheat1"
+homepage = "https://github.com/Gheat1/tuistore"
+readme = "https://raw.githubusercontent.com/Gheat1/tuistore/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "tuistore"

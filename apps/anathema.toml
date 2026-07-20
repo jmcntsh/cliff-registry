@@ -1,0 +1,12 @@
+name = "anathema"
+description = "TUI library in Rust with a custom templating language and runtime"
+author = "togglebyte"
+homepage = "https://github.com/togglebyte/anathema"
+readme = "https://raw.githubusercontent.com/togglebyte/anathema/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "anathema"

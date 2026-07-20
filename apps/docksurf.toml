@@ -1,0 +1,12 @@
+name = "docksurf"
+description = "Live, keyboard-driven terminal UI for Docker. Compose-aware, real-time stats, zero polling. Manage containers, images..."
+author = "praneeth-etta"
+homepage = "https://github.com/praneeth-etta/docksurf"
+readme = "https://raw.githubusercontent.com/praneeth-etta/docksurf/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "docksurf"

@@ -1,0 +1,12 @@
+name = "ghostty-config-cli"
+description = "Fullscreen terminal UI for editing your Ghostty config, with a live preview of themes, fonts, colors, and cursor."
+author = "ajr-khll"
+homepage = "https://github.com/ajr-khll/ghostty-config-cli"
+readme = "https://raw.githubusercontent.com/ajr-khll/ghostty-config-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ghostty-config-cli"

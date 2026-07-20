@@ -1,0 +1,12 @@
+name = "opencode-tps-meter"
+description = "Live streaming and final output TPS meter for the OpenCode TUI"
+author = "floze-the-genius"
+homepage = "https://github.com/floze-the-genius/opencode-tps-meter"
+readme = "https://raw.githubusercontent.com/floze-the-genius/opencode-tps-meter/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-tps-meter"

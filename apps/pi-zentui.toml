@@ -1,0 +1,12 @@
+name = "pi-zentui"
+description = "A Starship-inspired statusline and Opencode-style TUI for Pi"
+author = "lmilojevicc"
+homepage = "https://github.com/lmilojevicc/pi-zentui"
+readme = "https://raw.githubusercontent.com/lmilojevicc/pi-zentui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-zentui"

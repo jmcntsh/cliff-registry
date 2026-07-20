@@ -1,0 +1,12 @@
+name = "nmwrap"
+description = "An interactive terminal user interface (TUI) written in Rust and Ratatui for scanning and managing Wi-Fi connections..."
+author = "Pakelzz"
+homepage = "https://github.com/Pakelzz/nmwrap"
+readme = "https://raw.githubusercontent.com/Pakelzz/nmwrap/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "nmwrap"

@@ -1,0 +1,12 @@
+name = "mirro-rs"
+description = "An Arch Linux mirrorlist manager with a TUI"
+author = "rtkay123"
+homepage = "https://github.com/rtkay123/mirro-rs"
+readme = "https://raw.githubusercontent.com/rtkay123/mirro-rs/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "mirro-rs"

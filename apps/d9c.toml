@@ -1,0 +1,12 @@
+name = "d9c"
+description = "Go TUI for monitoring and managing Docker over TCP/SSH (bubbletea + Docker SDK)"
+author = "kirg0"
+homepage = "https://github.com/kirg0/d9c"
+readme = "https://raw.githubusercontent.com/kirg0/d9c/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kirg0/d9c@latest"

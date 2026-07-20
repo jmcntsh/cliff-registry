@@ -1,0 +1,12 @@
+name = "clip-join"
+description = "🎬 An interactive terminal UI for joining videos into one file"
+author = "BrenoHA"
+homepage = "https://github.com/BrenoHA/clip-join"
+readme = "https://raw.githubusercontent.com/BrenoHA/clip-join/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "clip-join"

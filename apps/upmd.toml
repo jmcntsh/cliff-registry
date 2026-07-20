@@ -1,0 +1,12 @@
+name = "upmd"
+description = "upmd - Run code blocks directly from Markdown in a terminal UI or an automation-friendly CLI"
+author = "rezigned"
+homepage = "https://github.com/rezigned/upmd"
+readme = "https://raw.githubusercontent.com/rezigned/upmd/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "upmd"

@@ -1,0 +1,12 @@
+name = "latuicon"
+description = "😴 TUI icon picker (emojis / kaomojis / unicode / nerd fonts) ripped from late.sh"
+author = "coko7"
+homepage = "https://github.com/coko7/latuicon"
+readme = "https://raw.githubusercontent.com/coko7/latuicon/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "latuicon"

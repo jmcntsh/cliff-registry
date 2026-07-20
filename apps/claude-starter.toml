@@ -1,0 +1,11 @@
+name = "claude-starter"
+description = "A beautiful terminal UI for Claude Code sessions — built for local-first, AI-native developer workflows."
+author = "Bojun-Vvibe"
+homepage = "https://github.com/Bojun-Vvibe/claude-starter"
+readme = "https://raw.githubusercontent.com/Bojun-Vvibe/claude-starter/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+
+[[installs]]
+type = "npm"
+package = "claude-starter"

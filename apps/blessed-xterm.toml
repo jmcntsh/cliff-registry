@@ -1,0 +1,11 @@
+name = "blessed-xterm"
+description = "XTerm Widget for Blessed Curses Environment"
+author = "rse"
+homepage = "https://github.com/rse/blessed-xterm"
+readme = "https://raw.githubusercontent.com/rse/blessed-xterm/master/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "npm"
+package = "blessed-xterm"

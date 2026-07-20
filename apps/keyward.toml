@@ -1,0 +1,12 @@
+name = "keyward"
+description = "Terminal UI to manage SSH keys, edit ~/.ssh/config, and audit your SSH security. Encrypted metadata + backups, an A..."
+author = "gateway-of-last-resort"
+homepage = "https://github.com/gateway-of-last-resort/keyward"
+readme = "https://raw.githubusercontent.com/gateway-of-last-resort/keyward/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gateway-of-last-resort/keyward@latest"

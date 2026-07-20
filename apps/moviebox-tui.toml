@@ -1,0 +1,12 @@
+name = "moviebox-tui"
+description = "A modern Rust based terminal user interface for MovieBox. Fast, lightweight, keyboard first, and cross-platform."
+author = "mesamirh"
+homepage = "https://github.com/mesamirh/MovieBox-Tui"
+readme = "https://raw.githubusercontent.com/mesamirh/MovieBox-Tui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "MovieBox-Tui"

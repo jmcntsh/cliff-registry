@@ -1,0 +1,12 @@
+name = "wsup"
+description = "Terminal UI for monitoring localhost processes and ports. Real-time CPU/Memory graphs, process management. Built with..."
+author = "NotKiwy"
+homepage = "https://github.com/NotKiwy/wsup"
+readme = "https://raw.githubusercontent.com/NotKiwy/wsup/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "wsup"

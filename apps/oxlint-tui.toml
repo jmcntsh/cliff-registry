@@ -1,0 +1,12 @@
+name = "oxlint-tui"
+description = "A lightweight, dependency-free Node.js Terminal User Interface (TUI) for browsing and running all available oxlint ru..."
+author = "holoflash"
+homepage = "https://github.com/holoflash/oxlint-tui"
+readme = "https://raw.githubusercontent.com/holoflash/oxlint-tui/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "oxlint-tui"

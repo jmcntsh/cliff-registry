@@ -1,0 +1,12 @@
+name = "portboard"
+description = "A terminal dashboard for discovering and managing local development services"
+author = "LeonPure"
+homepage = "https://github.com/LeonPure/portboard"
+readme = "https://raw.githubusercontent.com/LeonPure/portboard/develop/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "portboard"

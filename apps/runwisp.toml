@@ -1,0 +1,12 @@
+name = "runwisp"
+description = "Cron job manager + process supervisor in a single binary. Web dashboard, TUI, retries, failure notifications. crond/s..."
+author = "runwisp"
+homepage = "https://github.com/runwisp/runwisp"
+readme = "https://raw.githubusercontent.com/runwisp/runwisp/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/runwisp/runwisp@latest"

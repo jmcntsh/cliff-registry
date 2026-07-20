@@ -1,0 +1,12 @@
+name = "contact"
+description = "A curses-based console UI for Meshtastic, providing mesh chat, and device configuration from the terminal."
+author = "pdxlocations"
+homepage = "https://github.com/pdxlocations/contact"
+readme = "https://raw.githubusercontent.com/pdxlocations/contact/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "contact"
