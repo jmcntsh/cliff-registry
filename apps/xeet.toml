@@ -1,0 +1,12 @@
+name = "xeet"
+description = "x dot com tui"
+author = "melqtx"
+homepage = "https://github.com/melqtx/xeet"
+readme = "https://raw.githubusercontent.com/melqtx/xeet/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/melqtx/xeet@latest"

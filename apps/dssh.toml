@@ -1,0 +1,12 @@
+name = "dssh"
+description = "The dead-simple SSH connection manager. CLI & TUI."
+author = "madLinux7"
+homepage = "https://github.com/madLinux7/dssh"
+readme = "https://raw.githubusercontent.com/madLinux7/dssh/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/madLinux7/dssh@latest"

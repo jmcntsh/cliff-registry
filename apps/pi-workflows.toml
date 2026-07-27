@@ -1,0 +1,12 @@
+name = "pi-workflows"
+description = "Workflow engine, JSON control-flow tool, and live terminal viewer for the pi coding agent"
+author = "osolmaz"
+homepage = "https://github.com/osolmaz/pi-workflows"
+readme = "https://raw.githubusercontent.com/osolmaz/pi-workflows/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-workflows"

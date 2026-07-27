@@ -1,0 +1,12 @@
+name = "comhad"
+description = "S3 TUI client"
+author = "Eoin-McMahon"
+homepage = "https://github.com/Eoin-McMahon/comhad"
+readme = "https://raw.githubusercontent.com/Eoin-McMahon/comhad/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "comhad"

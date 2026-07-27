@@ -1,0 +1,12 @@
+name = "agent-manager"
+description = "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok Build) in tmux: live status, group..."
+author = "YoanWai"
+homepage = "https://github.com/YoanWai/agent-manager"
+readme = "https://raw.githubusercontent.com/YoanWai/agent-manager/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/YoanWai/agent-manager@latest"

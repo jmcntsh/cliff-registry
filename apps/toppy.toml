@@ -1,0 +1,11 @@
+name = "toppy"
+description = "A colorful htop/btop-style system monitor TUI built with Rust and ratatui"
+author = "cesarferreira"
+homepage = "https://github.com/cesarferreira/toppy"
+readme = "https://raw.githubusercontent.com/cesarferreira/toppy/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+
+[[installs]]
+type = "cargo"
+package = "toppy"

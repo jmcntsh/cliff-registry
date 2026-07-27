@@ -1,0 +1,12 @@
+name = "amdtop"
+description = "nvitop-style TUI frontend for amdgpu_top (AMDGPU + Strix Halo XDNA NPU)"
+author = "lhl"
+homepage = "https://github.com/lhl/amdtop"
+readme = "https://raw.githubusercontent.com/lhl/amdtop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "amdtop"

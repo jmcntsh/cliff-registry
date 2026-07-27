@@ -1,0 +1,12 @@
+name = "tofuref"
+description = "TUI for OpenTofu/Terraform provider registry"
+author = "djetelina"
+homepage = "https://github.com/djetelina/tofuref"
+readme = "https://raw.githubusercontent.com/djetelina/tofuref/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "tofuref"

@@ -1,0 +1,12 @@
+name = "tomesole"
+description = "A terminal client (TUI and CLI) for searching and downloading from Library Genesis"
+author = "ChrisThoma"
+homepage = "https://github.com/ChrisThoma/tomesole"
+readme = "https://raw.githubusercontent.com/ChrisThoma/tomesole/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tomesole"

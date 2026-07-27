@@ -1,0 +1,12 @@
+name = "clauth"
+description = "Claude Code account switcher, real-time usage monitor with a CLI, TUI and MCP"
+author = "uwuclxdy"
+homepage = "https://github.com/uwuclxdy/clauth"
+readme = "https://raw.githubusercontent.com/uwuclxdy/clauth/mommy/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "clauth"

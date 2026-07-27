@@ -1,0 +1,12 @@
+name = "linear-tui"
+description = "A terminal user interface (TUI) for Linear built with Go and tview."
+author = "roeyazroel"
+homepage = "https://github.com/roeyazroel/linear-tui"
+readme = "https://raw.githubusercontent.com/roeyazroel/linear-tui/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/roeyazroel/linear-tui@latest"

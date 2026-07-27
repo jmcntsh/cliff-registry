@@ -1,0 +1,12 @@
+name = "bushuray-tui"
+description = "An Xray TUI client for Linux"
+author = "Keivan-sf"
+homepage = "https://github.com/Keivan-sf/Bushuray-tui"
+readme = "https://raw.githubusercontent.com/Keivan-sf/Bushuray-tui/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Keivan-sf/Bushuray-tui@latest"

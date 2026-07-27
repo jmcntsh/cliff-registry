@@ -1,0 +1,12 @@
+name = "gitwig"
+description = "a rust based tui an alternative to sourcetree"
+author = "tareqmy"
+homepage = "https://github.com/tareqmy/gitwig"
+readme = "https://raw.githubusercontent.com/tareqmy/gitwig/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "gitwig"

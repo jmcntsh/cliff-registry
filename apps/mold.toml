@@ -1,0 +1,12 @@
+name = "mold"
+description = "CLI-native local AI image and video generation for people, scripts, and agents — CUDA on Linux, Metal on macOS, plu..."
+author = "utensils"
+homepage = "https://github.com/utensils/mold"
+readme = "https://raw.githubusercontent.com/utensils/mold/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "mold"

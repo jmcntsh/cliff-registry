@@ -1,0 +1,12 @@
+name = "karat"
+description = "A powerful Terminal UI (TUI) for Apache Kafka that provides an intuitive, keyboard-driven interface for managing and..."
+author = "uraniumdawn"
+homepage = "https://github.com/uraniumdawn/karat"
+readme = "https://raw.githubusercontent.com/uraniumdawn/karat/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/uraniumdawn/karat@latest"

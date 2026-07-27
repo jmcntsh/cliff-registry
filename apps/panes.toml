@@ -1,0 +1,12 @@
+name = "panes"
+description = "Spatial layout engine — compute rectangles, render anywhere. Ratatui, egui, WASM, CSS."
+author = "jostled-org"
+homepage = "https://github.com/jostled-org/panes"
+readme = "https://raw.githubusercontent.com/jostled-org/panes/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "panes"

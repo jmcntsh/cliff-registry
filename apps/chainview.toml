@@ -1,0 +1,12 @@
+name = "chainview"
+description = "Terminal UI for option chains, Greeks and volatility — real-time and backtest replay"
+author = "joaquinbejar"
+homepage = "https://github.com/joaquinbejar/ChainView"
+readme = "https://raw.githubusercontent.com/joaquinbejar/ChainView/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ChainView"

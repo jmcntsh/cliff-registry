@@ -1,0 +1,12 @@
+name = "rwx"
+description = "🦀 An interactive Unix file permissions and ownership TUI manager built in Rust with Ratatui and crossterm."
+author = "vncsmnl"
+homepage = "https://github.com/vncsmnl/rwx"
+readme = "https://raw.githubusercontent.com/vncsmnl/rwx/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rwx"

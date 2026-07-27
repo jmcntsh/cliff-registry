@@ -1,0 +1,12 @@
+name = "shiki"
+description = "TUI note-taking app in Rust — Yazi-style navigation, notebooks as independent git repos, real per-note version hist..."
+author = "sazardev"
+homepage = "https://github.com/sazardev/shiki"
+readme = "https://raw.githubusercontent.com/sazardev/shiki/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "shiki"

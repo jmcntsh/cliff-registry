@@ -1,0 +1,12 @@
+name = "network-doctor"
+description = "Cross-platform network troubleshooting TUI that pinpoints DNS, TCP, TLS, HTTP, and proxy failures—and even suggests..."
+author = "heymaikol"
+homepage = "https://github.com/heymaikol/network-doctor"
+readme = "https://raw.githubusercontent.com/heymaikol/network-doctor/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/heymaikol/network-doctor@latest"

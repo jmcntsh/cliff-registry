@@ -1,0 +1,12 @@
+name = "plank"
+description = "Interactive terminal coding agent in Rust — runs the DeepSeek V4 Flash model locally on macOS (Metal), with a Ratat..."
+author = "aovestdipaperino"
+homepage = "https://github.com/aovestdipaperino/plank"
+readme = "https://raw.githubusercontent.com/aovestdipaperino/plank/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "plank"

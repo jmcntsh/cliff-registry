@@ -1,0 +1,12 @@
+name = "glipboard"
+description = "A lightweight, cross-platform clipboard manager written in Go. Runs as a silent background daemon with a built-in Ter..."
+author = "bedirmirac"
+homepage = "https://github.com/bedirmirac/glipboard"
+readme = "https://raw.githubusercontent.com/bedirmirac/glipboard/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bedirmirac/glipboard@latest"

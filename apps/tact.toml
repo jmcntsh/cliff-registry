@@ -1,0 +1,12 @@
+name = "tact"
+description = "A terminal interface for Nanocodex"
+author = "clabby"
+homepage = "https://github.com/clabby/tact"
+readme = "https://raw.githubusercontent.com/clabby/tact/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "tact"

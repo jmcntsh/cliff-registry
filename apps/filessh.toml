@@ -1,0 +1,12 @@
+name = "filessh"
+description = "A fast and convenient TUI file browser for remote servers"
+author = "JayanAXHF"
+homepage = "https://github.com/JayanAXHF/filessh"
+readme = "https://raw.githubusercontent.com/JayanAXHF/filessh/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "UNLICENSE"
+
+[[installs]]
+type = "cargo"
+package = "filessh"

@@ -1,0 +1,12 @@
+name = "ghzinga"
+description = "Easy, clickable TUI to view a single GitHub issue or PR, in Rust"
+author = "osolmaz"
+homepage = "https://github.com/osolmaz/ghzinga"
+readme = "https://raw.githubusercontent.com/osolmaz/ghzinga/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ghzinga"
