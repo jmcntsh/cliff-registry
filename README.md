@@ -9,11 +9,14 @@ fetches.
 ## How apps get in
 
 A scheduled scraper (`scripts/seed.py`, run weekly by
-`.github/workflows/auto-seed.yml`) searches GitHub for new TUIs and
-terminal apps, filters out non-apps (libraries, awesome-lists,
+`.github/workflows/auto-seed.yml`) searches GitHub for new TUIs, CLIs,
+terminal games, and visual terminal apps, filters out non-apps (libraries, awesome-lists,
 templates), maps each repo's language to an install method, verifies
 the package is actually published, and commits the resulting manifests
-to `main`. The next index build ships them to every client.
+to `main`. The same workflow then rebuilds and publishes `index.json`
+from the new commit. This explicit publish step is required because
+GitHub does not start another workflow for a push made with
+`GITHUB_TOKEN`.
 
 There is no submission queue. To add an app the scraper missed, or fix
 a manifest:
@@ -38,6 +41,9 @@ internal/index/        wire types for index.json (mirrors the client's catalog t
 scripts/seed.py        the GitHub scraper (see scripts/README.md)
 .github/workflows/     lint on PR; build + Pages publish on merge; weekly auto-seed
 ```
+
+The `registry` workflow also supports manual dispatch, which can
+republish the current `main` branch without changing the catalog.
 
 ## Trust model
 

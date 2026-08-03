@@ -17,6 +17,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: auto-seed
@@ -41,4 +43,60 @@ jobs:
         run: |
           extra=""
           if [ "$DRY_RUN" = "true" ]; then extra="--dry-run"; fi
-          python3 scripts/seed.py --tui-only --max-new "$MAX_NEW" --commit $extra
+          python3 scripts/seed.py --max-new "$MAX_NEW" --commit $extra
+
+  publish:
+    needs: seed
+    if: ${{ inputs.dry_run != 'true' }}
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Pushes made with GITHUB_TOKEN do not start registry.yml. Check out
+      # main again so this job publishes the commit created by the seed job.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - name: Validate registry
+        run: |
+          go vet ./...
+          go test ./...
+          go run ./cmd/lint ./apps
+      - name: Build index.json
+        id: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p public
+          source_sha="$(git rev-parse HEAD)"
+          GITHUB_SHA="$source_sha" go run ./cmd/build ./apps ./public/index.json
+          cp CNAME public/CNAME 2>/dev/null || true
+          echo "source_sha=$source_sha" >> "$GITHUB_OUTPUT"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify published source
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          SOURCE_SHA: ${{ steps.build.outputs.source_sha }}
+        run: |
+          payload="$(curl -fsSL --retry 5 --retry-delay 3 \
+            "${PAGE_URL%/}/index.json?source=$SOURCE_SHA")"
+          published_sha="$(jq -r '.source_commit' <<<"$payload")"
+          if [ "$published_sha" != "$SOURCE_SHA" ]; then
+            echo "published source_commit=$published_sha; expected $SOURCE_SHA" >&2
+            exit 1
+          fi
+          echo "published $(jq '.apps | length' <<<"$payload") apps from $SOURCE_SHA"

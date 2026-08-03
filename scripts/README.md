@@ -3,9 +3,12 @@
 ## `seed.py` — automated catalog expansion
 
 Runs Mondays via `.github/workflows/auto-seed.yml`. Searches GitHub for
-new TUI, terminal game, and visual terminal repos, evaluates them against a small category filter,
-writes manifests directly into `apps/`, runs `cmd/lint`, and (in
+new TUI, CLI, terminal game, and visual terminal repos, evaluates them
+against a small category filter, writes manifests directly into
+`apps/`, runs `cmd/lint`, and (in
 `--commit` mode) commits + pushes the result to `main`.
+The scheduled workflow publishes GitHub Pages directly after this push;
+workflow-token pushes do not trigger the separate `registry` workflow.
 
 The TUI's stars/recency sorts and search do the browsing-side ranking
 post-merge. This script's job is to keep the funnel topped up.
@@ -29,16 +32,17 @@ Useful flags:
 - `--limit 300` — max repos returned per Search query.
 - `--max-new 50` — cap on new manifests emitted per run.
 - `--full-scan` — ignore the recency fast-path; scan all topics.
-- `--tui-only` — use TUI/game-first searches and reject plain CLI-only matches. This is the scheduled default.
+- `--tui-only` — optionally narrow a manual run to TUI/game-first
+  searches and reject plain CLI-only matches.
 - `--no-verify-registry` — skip HEAD checks against PyPI/npm/crates.io.
 
 ### How a run is shaped
 
 1. Load `scripts/seen-ledger.json` (or start empty).
 2. Take its `updated_at` timestamp; pass `pushed:>=<that date - 1 day>`
-   to every GitHub Search query. The scheduled query set is TUI-only and
-   covers topics, names, and descriptions for terminal games, TUIs, and
-   visual terminal apps. README-only matches are avoided
+   to every GitHub Search query. The scheduled query set covers topics,
+   names, and descriptions for CLIs, terminal games, TUIs, and visual
+   terminal apps. README-only matches are avoided
    because they tend to admit libraries, templates, and docs that merely
    mention command-line usage.
 3. Skip anything in the ledger or already in `apps/` by homepage.
