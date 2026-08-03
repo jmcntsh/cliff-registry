@@ -1,0 +1,12 @@
+name = "kaggle-cli"
+description = "Official Kaggle CLI"
+author = "Kaggle"
+homepage = "https://github.com/Kaggle/kaggle-cli"
+readme = "https://raw.githubusercontent.com/Kaggle/kaggle-cli/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "kaggle-cli"

@@ -1,0 +1,12 @@
+name = "worktrunk"
+description = "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+author = "max-sixty"
+homepage = "https://github.com/max-sixty/worktrunk"
+readme = "https://raw.githubusercontent.com/max-sixty/worktrunk/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "worktrunk"

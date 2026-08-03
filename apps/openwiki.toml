@@ -1,0 +1,12 @@
+name = "openwiki"
+description = "OpenWiki is a CLI that writes and maintains agent documentation for your codebase."
+author = "langchain-ai"
+homepage = "https://github.com/langchain-ai/openwiki"
+readme = "https://raw.githubusercontent.com/langchain-ai/openwiki/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "openwiki"

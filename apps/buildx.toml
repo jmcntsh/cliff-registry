@@ -1,0 +1,12 @@
+name = "buildx"
+description = "Docker CLI plugin for extended build capabilities with BuildKit"
+author = "docker"
+homepage = "https://github.com/docker/buildx"
+readme = "https://raw.githubusercontent.com/docker/buildx/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/docker/buildx@latest"

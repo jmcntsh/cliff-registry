@@ -1,0 +1,12 @@
+name = "runc"
+description = "CLI tool for spawning and running containers according to the OCI specification"
+author = "opencontainers"
+homepage = "https://github.com/opencontainers/runc"
+readme = "https://raw.githubusercontent.com/opencontainers/runc/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/opencontainers/runc@latest"

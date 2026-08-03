@@ -1,0 +1,12 @@
+name = "loop-engineering"
+description = "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and o..."
+author = "cobusgreyling"
+homepage = "https://github.com/cobusgreyling/loop-engineering"
+readme = "https://raw.githubusercontent.com/cobusgreyling/loop-engineering/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "loop-engineering"

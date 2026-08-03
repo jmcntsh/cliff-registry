@@ -1,0 +1,12 @@
+name = "kimi-cli"
+description = "Kimi Code CLI is your next CLI agent."
+author = "MoonshotAI"
+homepage = "https://github.com/MoonshotAI/kimi-cli"
+readme = "https://raw.githubusercontent.com/MoonshotAI/kimi-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "kimi-cli"

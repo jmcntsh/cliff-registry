@@ -1,0 +1,12 @@
+name = "code-review-graph"
+description = "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read..."
+author = "tirth8205"
+homepage = "https://github.com/tirth8205/code-review-graph"
+readme = "https://raw.githubusercontent.com/tirth8205/code-review-graph/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "code-review-graph"

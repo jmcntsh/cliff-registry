@@ -1,0 +1,12 @@
+name = "mistral-vibe"
+description = "Minimal CLI coding agent by Mistral"
+author = "mistralai"
+homepage = "https://github.com/mistralai/mistral-vibe"
+readme = "https://raw.githubusercontent.com/mistralai/mistral-vibe/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "mistral-vibe"

@@ -1,0 +1,12 @@
+name = "biome"
+description = "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, u..."
+author = "biomejs"
+homepage = "https://github.com/biomejs/biome"
+readme = "https://raw.githubusercontent.com/biomejs/biome/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "biome"

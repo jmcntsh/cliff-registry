@@ -1,0 +1,12 @@
+name = "ade-cli"
+description = "The official CLI for Agentic Document Extraction (ADE) by LandingAI — parse documents and extract schema-shaped dat..."
+author = "landing-ai"
+homepage = "https://github.com/landing-ai/ade-cli"
+readme = "https://raw.githubusercontent.com/landing-ai/ade-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "ade-cli"

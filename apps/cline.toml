@@ -1,0 +1,12 @@
+name = "cline"
+description = "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
+author = "cline"
+homepage = "https://github.com/cline/cline"
+readme = "https://raw.githubusercontent.com/cline/cline/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cline"

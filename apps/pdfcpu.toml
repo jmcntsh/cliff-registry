@@ -1,0 +1,12 @@
+name = "pdfcpu"
+description = "PDF tooling for Go and the command line."
+author = "pdfcpu"
+homepage = "https://github.com/pdfcpu/pdfcpu"
+readme = "https://raw.githubusercontent.com/pdfcpu/pdfcpu/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/pdfcpu/pdfcpu@latest"

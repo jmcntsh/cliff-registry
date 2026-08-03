@@ -1,0 +1,12 @@
+name = "nextdns"
+description = "NextDNS CLI client (DoH Proxy)"
+author = "nextdns"
+homepage = "https://github.com/nextdns/nextdns"
+readme = "https://raw.githubusercontent.com/nextdns/nextdns/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nextdns/nextdns@latest"

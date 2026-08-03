@@ -1,0 +1,11 @@
+name = "memory-lancedb-pro"
+description = "Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope I..."
+author = "CortexReach"
+homepage = "https://github.com/CortexReach/memory-lancedb-pro"
+readme = "https://raw.githubusercontent.com/CortexReach/memory-lancedb-pro/master/README.md"
+tags = ["cli"]
+category = "Databases"
+
+[[installs]]
+type = "npm"
+package = "memory-lancedb-pro"

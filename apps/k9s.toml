@@ -1,0 +1,12 @@
+name = "k9s"
+description = "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
+author = "derailed"
+homepage = "https://github.com/derailed/k9s"
+readme = "https://raw.githubusercontent.com/derailed/k9s/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/derailed/k9s@latest"

@@ -1,0 +1,12 @@
+name = "ntrace-core"
+description = "NextTrace, an open source visual route tracking CLI tool"
+author = "nxtrace"
+homepage = "https://github.com/nxtrace/NTrace-core"
+readme = "https://raw.githubusercontent.com/nxtrace/NTrace-core/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/nxtrace/NTrace-core@latest"

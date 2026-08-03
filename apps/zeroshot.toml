@@ -1,0 +1,12 @@
+name = "zeroshot"
+description = "Your autonomous engineering team in a CLI. The agent loop produces senior-level code that you can actually trust in p..."
+author = "the-open-engine"
+homepage = "https://github.com/the-open-engine/zeroshot"
+readme = "https://raw.githubusercontent.com/the-open-engine/zeroshot/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "zeroshot"

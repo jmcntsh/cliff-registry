@@ -1,0 +1,12 @@
+name = "cli-snyk"
+description = "Snyk CLI scans and monitors your projects for security vulnerabilities."
+author = "snyk"
+homepage = "https://github.com/snyk/cli"
+readme = "https://raw.githubusercontent.com/snyk/cli/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "cli"

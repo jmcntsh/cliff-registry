@@ -1,0 +1,12 @@
+name = "vale"
+description = ":pencil: A markup-aware linter for prose built with speed and extensibility in mind."
+author = "vale-cli"
+homepage = "https://github.com/vale-cli/vale"
+readme = "https://raw.githubusercontent.com/vale-cli/vale/v3/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vale-cli/vale@latest"

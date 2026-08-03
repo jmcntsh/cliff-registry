@@ -1,0 +1,12 @@
+name = "finch"
+description = "The Finch CLI is an open source client for container development"
+author = "runfinch"
+homepage = "https://github.com/runfinch/finch"
+readme = "https://raw.githubusercontent.com/runfinch/finch/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/runfinch/finch@latest"

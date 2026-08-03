@@ -1,0 +1,12 @@
+name = "kopia"
+description = "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encrypti..."
+author = "kopia"
+homepage = "https://github.com/kopia/kopia"
+readme = "https://raw.githubusercontent.com/kopia/kopia/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/kopia/kopia@latest"

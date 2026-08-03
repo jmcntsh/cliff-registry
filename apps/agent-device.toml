@@ -1,0 +1,12 @@
+name = "agent-device"
+description = "CLI to control iOS and Android devices for AI agents"
+author = "callstack"
+homepage = "https://github.com/callstack/agent-device"
+readme = "https://raw.githubusercontent.com/callstack/agent-device/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "agent-device"

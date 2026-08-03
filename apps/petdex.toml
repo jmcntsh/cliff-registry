@@ -1,0 +1,12 @@
+name = "petdex"
+description = "The public gallery of animated pet for Codex, Claude Code, OpenCode y Gemini CLI"
+author = "crafter-station"
+homepage = "https://github.com/crafter-station/petdex"
+readme = "https://raw.githubusercontent.com/crafter-station/petdex/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "petdex"

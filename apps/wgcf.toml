@@ -1,0 +1,12 @@
+name = "wgcf"
+description = "🚤 Cross-platform, unofficial CLI for Cloudflare Warp"
+author = "ViRb3"
+homepage = "https://github.com/ViRb3/wgcf"
+readme = "https://raw.githubusercontent.com/ViRb3/wgcf/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ViRb3/wgcf@latest"

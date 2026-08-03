@@ -1,0 +1,12 @@
+name = "remove-ai-watermarks"
+description = "AI watermark remover. CLI and Python library to strip visible and invisible AI watermarks (Gemini / Nano Banana spark..."
+author = "wiltodelta"
+homepage = "https://github.com/wiltodelta/remove-ai-watermarks"
+readme = "https://raw.githubusercontent.com/wiltodelta/remove-ai-watermarks/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "remove-ai-watermarks"

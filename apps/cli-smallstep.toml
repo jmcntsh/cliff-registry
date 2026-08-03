@@ -1,0 +1,12 @@
+name = "cli-smallstep"
+description = "🧰 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc."
+author = "smallstep"
+homepage = "https://github.com/smallstep/cli"
+readme = "https://raw.githubusercontent.com/smallstep/cli/master/README.md"
+tags = ["cli"]
+category = "Security"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/smallstep/cli@latest"

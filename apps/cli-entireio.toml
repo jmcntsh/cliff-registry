@@ -1,0 +1,12 @@
+name = "cli-entireio"
+description = "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside..."
+author = "entireio"
+homepage = "https://github.com/entireio/cli"
+readme = "https://raw.githubusercontent.com/entireio/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/entireio/cli@latest"

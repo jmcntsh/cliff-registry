@@ -1,0 +1,12 @@
+name = "aicommits"
+description = "A CLI that writes your git commit messages for you with AI"
+author = "Nutlope"
+homepage = "https://github.com/Nutlope/aicommits"
+readme = "https://raw.githubusercontent.com/Nutlope/aicommits/develop/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "aicommits"

@@ -1,0 +1,12 @@
+name = "webpack-bundle-analyzer"
+description = "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap"
+author = "webpack"
+homepage = "https://github.com/webpack/webpack-bundle-analyzer"
+readme = "https://raw.githubusercontent.com/webpack/webpack-bundle-analyzer/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "webpack-bundle-analyzer"

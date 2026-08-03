@@ -1,0 +1,12 @@
+name = "dua-cli"
+description = "View disk space usage and delete unwanted data, fast."
+author = "Byron"
+homepage = "https://github.com/Byron/dua-cli"
+readme = "https://raw.githubusercontent.com/Byron/dua-cli/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "dua-cli"

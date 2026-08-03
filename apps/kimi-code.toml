@@ -1,0 +1,12 @@
+name = "kimi-code"
+description = "Kimi Code CLI — The Starting Point for Next-Gen Agents"
+author = "MoonshotAI"
+homepage = "https://github.com/MoonshotAI/kimi-code"
+readme = "https://raw.githubusercontent.com/MoonshotAI/kimi-code/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "kimi-code"

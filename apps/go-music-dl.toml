@@ -1,0 +1,12 @@
+name = "go-music-dl"
+description = "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网..."
+author = "guohuiyuan"
+homepage = "https://github.com/guohuiyuan/go-music-dl"
+readme = "https://raw.githubusercontent.com/guohuiyuan/go-music-dl/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/guohuiyuan/go-music-dl@latest"

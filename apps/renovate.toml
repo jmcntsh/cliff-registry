@@ -1,0 +1,12 @@
+name = "renovate"
+description = "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+author = "renovatebot"
+homepage = "https://github.com/renovatebot/renovate"
+readme = "https://raw.githubusercontent.com/renovatebot/renovate/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "renovate"

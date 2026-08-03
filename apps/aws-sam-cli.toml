@@ -1,0 +1,12 @@
+name = "aws-sam-cli"
+description = "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+author = "aws"
+homepage = "https://github.com/aws/aws-sam-cli"
+readme = "https://raw.githubusercontent.com/aws/aws-sam-cli/develop/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "aws-sam-cli"

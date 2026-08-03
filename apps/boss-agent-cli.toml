@@ -1,0 +1,12 @@
+name = "boss-agent-cli"
+description = "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-r..."
+author = "can4hou6joeng4"
+homepage = "https://github.com/can4hou6joeng4/boss-agent-cli"
+readme = "https://raw.githubusercontent.com/can4hou6joeng4/boss-agent-cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "boss-agent-cli"

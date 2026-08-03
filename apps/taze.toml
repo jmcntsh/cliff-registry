@@ -1,0 +1,12 @@
+name = "taze"
+description = "🥦 A modern cli tool that keeps your deps fresh"
+author = "antfu-collective"
+homepage = "https://github.com/antfu-collective/taze"
+readme = "https://raw.githubusercontent.com/antfu-collective/taze/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "taze"

@@ -1,0 +1,12 @@
+name = "codex-security"
+description = "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: htt..."
+author = "openai"
+homepage = "https://github.com/openai/codex-security"
+readme = "https://raw.githubusercontent.com/openai/codex-security/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "codex-security"

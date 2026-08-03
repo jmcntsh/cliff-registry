@@ -1,0 +1,12 @@
+name = "pgcli"
+description = "Postgres CLI with autocompletion and syntax highlighting"
+author = "dbcli"
+homepage = "https://github.com/dbcli/pgcli"
+readme = "https://raw.githubusercontent.com/dbcli/pgcli/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "pgcli"

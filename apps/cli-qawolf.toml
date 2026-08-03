@@ -1,0 +1,12 @@
+name = "cli-qawolf"
+description = "QA Wolf from anywhere — your terminal, your CI, your AI agent."
+author = "qawolf"
+homepage = "https://github.com/qawolf/cli"
+readme = "https://raw.githubusercontent.com/qawolf/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cli"
