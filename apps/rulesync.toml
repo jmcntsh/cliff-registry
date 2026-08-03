@@ -1,0 +1,12 @@
+name = "rulesync"
+description = "A Utility CLI for AI Coding Agents"
+author = "dyoshikawa"
+homepage = "https://github.com/dyoshikawa/rulesync"
+readme = "https://raw.githubusercontent.com/dyoshikawa/rulesync/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "rulesync"

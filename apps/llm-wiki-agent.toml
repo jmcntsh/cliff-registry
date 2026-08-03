@@ -1,0 +1,12 @@
+name = "llm-wiki-agent"
+description = "A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them..."
+author = "SamurAIGPT"
+homepage = "https://github.com/SamurAIGPT/llm-wiki-agent"
+readme = "https://raw.githubusercontent.com/SamurAIGPT/llm-wiki-agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "llm-wiki-agent"

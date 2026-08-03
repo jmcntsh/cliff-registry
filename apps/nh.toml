@@ -1,0 +1,12 @@
+name = "nh"
+description = "Yet another Nix CLI helper. [Maintainers=@NotAShelf, @faukah]"
+author = "nix-community"
+homepage = "https://github.com/nix-community/nh"
+readme = "https://raw.githubusercontent.com/nix-community/nh/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "EUPL-1.2"
+
+[[installs]]
+type = "cargo"
+package = "nh"

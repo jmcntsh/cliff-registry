@@ -1,0 +1,12 @@
+name = "ship-safe"
+description = "CLI security scanner built for the agentic era. Detects CI/CD misconfigs, agent permission risks, MCP tool injection..."
+author = "asamassekou10"
+homepage = "https://github.com/asamassekou10/ship-safe"
+readme = "https://raw.githubusercontent.com/asamassekou10/ship-safe/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ship-safe"

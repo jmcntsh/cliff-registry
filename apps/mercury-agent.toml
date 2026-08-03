@@ -1,0 +1,12 @@
+name = "mercury-agent"
+description = "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or T..."
+author = "cosmicstack-labs"
+homepage = "https://github.com/cosmicstack-labs/mercury-agent"
+readme = "https://raw.githubusercontent.com/cosmicstack-labs/mercury-agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "mercury-agent"

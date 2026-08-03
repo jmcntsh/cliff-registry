@@ -1,0 +1,12 @@
+name = "tossinvest-cli"
+description = "토스증권을 AI 에이전트와 터미널에서 다루는 도구. CLI 와 MCP 서버로 계좌·시세·주문은..."
+author = "JungHoonGhae"
+homepage = "https://github.com/JungHoonGhae/tossinvest-cli"
+readme = "https://raw.githubusercontent.com/JungHoonGhae/tossinvest-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/JungHoonGhae/tossinvest-cli@latest"

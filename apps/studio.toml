@@ -1,0 +1,12 @@
+name = "studio"
+description = "WordPress Studio, a free desktop app and CLI that helps developers streamline their local WordPress development workf..."
+author = "Automattic"
+homepage = "https://github.com/Automattic/studio"
+readme = "https://raw.githubusercontent.com/Automattic/studio/trunk/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-2.0"
+
+[[installs]]
+type = "npm"
+package = "studio"

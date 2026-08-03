@@ -1,0 +1,12 @@
+name = "prettier-eslint-cli"
+description = "CLI for prettier-eslint"
+author = "prettier"
+homepage = "https://github.com/prettier/prettier-eslint-cli"
+readme = "https://raw.githubusercontent.com/prettier/prettier-eslint-cli/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "prettier-eslint-cli"

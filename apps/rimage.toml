@@ -1,0 +1,12 @@
+name = "rimage"
+description = "This is CLI tool inspired by squoosh!"
+author = "vlad-salone"
+homepage = "https://github.com/vlad-salone/rimage"
+readme = "https://raw.githubusercontent.com/vlad-salone/rimage/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rimage"

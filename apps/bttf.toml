@@ -1,0 +1,12 @@
+name = "bttf"
+description = "A command line tool for datetime arithmetic, parsing, formatting and more."
+author = "BurntSushi"
+homepage = "https://github.com/BurntSushi/bttf"
+readme = "https://raw.githubusercontent.com/BurntSushi/bttf/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "UNLICENSE"
+
+[[installs]]
+type = "cargo"
+package = "bttf"

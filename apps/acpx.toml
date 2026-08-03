@@ -1,0 +1,12 @@
+name = "acpx"
+description = "Headless CLI client for stateful Agent Client Protocol (ACP) sessions"
+author = "openclaw"
+homepage = "https://github.com/openclaw/acpx"
+readme = "https://raw.githubusercontent.com/openclaw/acpx/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "acpx"

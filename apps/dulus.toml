@@ -1,0 +1,12 @@
+name = "dulus"
+description = "Dulus Ai — Gui, Web, Cli, Telegram, 2,000 MCP, 100K Skills . LiteLLM (100+ providers), local models via Ollama, /la..."
+author = "KevRojo"
+homepage = "https://github.com/KevRojo/Dulus"
+readme = "https://raw.githubusercontent.com/KevRojo/Dulus/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "Dulus"

@@ -1,0 +1,12 @@
+name = "wasm-tools"
+description = "CLI and Rust libraries for low-level manipulation of WebAssembly modules"
+author = "bytecodealliance"
+homepage = "https://github.com/bytecodealliance/wasm-tools"
+readme = "https://raw.githubusercontent.com/bytecodealliance/wasm-tools/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "wasm-tools"

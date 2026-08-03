@@ -1,0 +1,12 @@
+name = "cookcli"
+description = "Recipe Management CLI + embedded web-server in one binary"
+author = "cooklang"
+homepage = "https://github.com/cooklang/cookcli"
+readme = "https://raw.githubusercontent.com/cooklang/cookcli/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "cookcli"

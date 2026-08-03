@@ -1,0 +1,12 @@
+name = "pbi-cli"
+description = "Power BI CLI - semantic models (.NET TOM) and PBIR reports for token-efficient AI agent usage, built for Claude Code"
+author = "MinaSaad1"
+homepage = "https://github.com/MinaSaad1/pbi-cli"
+readme = "https://raw.githubusercontent.com/MinaSaad1/pbi-cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pbi-cli"

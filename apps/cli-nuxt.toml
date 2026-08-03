@@ -1,0 +1,12 @@
+name = "cli-nuxt"
+description = "Nuxt CLI"
+author = "nuxt"
+homepage = "https://github.com/nuxt/cli"
+readme = "https://raw.githubusercontent.com/nuxt/cli/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

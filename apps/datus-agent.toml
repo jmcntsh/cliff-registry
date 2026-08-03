@@ -1,0 +1,12 @@
+name = "datus-agent"
+description = "The Future of Data Engineering — A CLI SQL client for the modern data stack, enabling AI-native context engineering..."
+author = "Datus-ai"
+homepage = "https://github.com/Datus-ai/Datus-agent"
+readme = "https://raw.githubusercontent.com/Datus-ai/Datus-agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "Datus-agent"

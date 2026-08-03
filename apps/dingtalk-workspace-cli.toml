@@ -1,0 +1,12 @@
+name = "dingtalk-workspace-cli"
+description = "DingTalk Workspace is an officially open-sourced cross-platform CLI tool from DingTalk. It unifies DingTalk’s full..."
+author = "DingTalk-Real-AI"
+homepage = "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli"
+readme = "https://raw.githubusercontent.com/DingTalk-Real-AI/dingtalk-workspace-cli/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/DingTalk-Real-AI/dingtalk-workspace-cli@latest"

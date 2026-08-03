@@ -1,0 +1,12 @@
+name = "jsonargparse"
+description = "Minimal effort CLIs derived from type hints and parse from command line, config files and environment variables"
+author = "mauvilsa"
+homepage = "https://github.com/mauvilsa/jsonargparse"
+readme = "https://raw.githubusercontent.com/mauvilsa/jsonargparse/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "jsonargparse"

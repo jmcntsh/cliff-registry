@@ -1,0 +1,12 @@
+name = "ingestr"
+description = "ingestr is a CLI tool to copy data between any databases with a single command seamlessly."
+author = "bruin-data"
+homepage = "https://github.com/bruin-data/ingestr"
+readme = "https://raw.githubusercontent.com/bruin-data/ingestr/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/bruin-data/ingestr@latest"

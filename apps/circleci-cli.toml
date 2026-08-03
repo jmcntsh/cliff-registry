@@ -1,0 +1,12 @@
+name = "circleci-cli"
+description = "Use CircleCI from the command line"
+author = "CircleCI-Public"
+homepage = "https://github.com/CircleCI-Public/circleci-cli"
+readme = "https://raw.githubusercontent.com/CircleCI-Public/circleci-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/CircleCI-Public/circleci-cli@latest"

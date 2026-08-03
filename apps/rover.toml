@@ -1,0 +1,12 @@
+name = "rover"
+description = "The CLI for Apollo GraphOS"
+author = "apollographql"
+homepage = "https://github.com/apollographql/rover"
+readme = "https://raw.githubusercontent.com/apollographql/rover/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "rover"

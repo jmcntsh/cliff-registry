@@ -1,0 +1,12 @@
+name = "gunshi"
+description = "Gunshi: Modern javascript command-line library"
+author = "kazupon"
+homepage = "https://github.com/kazupon/gunshi"
+readme = "https://raw.githubusercontent.com/kazupon/gunshi/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "gunshi"

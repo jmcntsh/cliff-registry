@@ -1,0 +1,12 @@
+name = "cli-railwayapp"
+description = "Railway CLI"
+author = "railwayapp"
+homepage = "https://github.com/railwayapp/cli"
+readme = "https://raw.githubusercontent.com/railwayapp/cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "cli"

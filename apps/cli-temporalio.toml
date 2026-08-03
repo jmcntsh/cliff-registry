@@ -1,0 +1,12 @@
+name = "cli-temporalio"
+description = "Command-line interface for running Temporal Server and interacting with Workflows, Activities, Namespaces, and other..."
+author = "temporalio"
+homepage = "https://github.com/temporalio/cli"
+readme = "https://raw.githubusercontent.com/temporalio/cli/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/temporalio/cli@latest"

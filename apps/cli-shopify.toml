@@ -1,0 +1,12 @@
+name = "cli-shopify"
+description = "Build apps, themes, and hydrogen storefronts for Shopify"
+author = "Shopify"
+homepage = "https://github.com/Shopify/cli"
+readme = "https://raw.githubusercontent.com/Shopify/cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

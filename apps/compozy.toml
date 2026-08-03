@@ -1,0 +1,12 @@
+name = "compozy"
+description = "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) an..."
+author = "compozy"
+homepage = "https://github.com/compozy/compozy"
+readme = "https://raw.githubusercontent.com/compozy/compozy/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/compozy/compozy@latest"

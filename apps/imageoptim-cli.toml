@@ -1,0 +1,12 @@
+name = "imageoptim-cli"
+description = "Make optimisation of images part of your automated build process"
+author = "JamieMason"
+homepage = "https://github.com/JamieMason/ImageOptim-CLI"
+readme = "https://raw.githubusercontent.com/JamieMason/ImageOptim-CLI/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ImageOptim-CLI"

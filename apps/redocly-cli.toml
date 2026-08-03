@@ -1,0 +1,12 @@
+name = "redocly-cli"
+description = "⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more."
+author = "Redocly"
+homepage = "https://github.com/Redocly/redocly-cli"
+readme = "https://raw.githubusercontent.com/Redocly/redocly-cli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "redocly-cli"

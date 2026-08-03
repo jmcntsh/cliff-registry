@@ -1,0 +1,12 @@
+name = "cli-ui5"
+description = "An open and modular toolchain to develop state of the art applications based on the UI5 framework"
+author = "UI5"
+homepage = "https://github.com/UI5/cli"
+readme = "https://raw.githubusercontent.com/UI5/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cli"

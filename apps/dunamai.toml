@@ -1,0 +1,12 @@
+name = "dunamai"
+description = "Dynamic versioning library and CLI"
+author = "mtkennerly"
+homepage = "https://github.com/mtkennerly/dunamai"
+readme = "https://raw.githubusercontent.com/mtkennerly/dunamai/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "dunamai"

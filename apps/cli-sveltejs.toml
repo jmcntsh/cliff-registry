@@ -1,0 +1,12 @@
+name = "cli-sveltejs"
+description = "The Svelte CLI"
+author = "sveltejs"
+homepage = "https://github.com/sveltejs/cli"
+readme = "https://raw.githubusercontent.com/sveltejs/cli/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

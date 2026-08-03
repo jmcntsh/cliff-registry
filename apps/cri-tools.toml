@@ -1,0 +1,12 @@
+name = "cri-tools"
+description = "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+author = "kubernetes-sigs"
+homepage = "https://github.com/kubernetes-sigs/cri-tools"
+readme = "https://raw.githubusercontent.com/kubernetes-sigs/cri-tools/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/kubernetes-sigs/cri-tools@latest"

@@ -1,0 +1,12 @@
+name = "bootdev"
+description = "CLI used to complete coding challenges and lessons on Boot.dev"
+author = "bootdotdev"
+homepage = "https://github.com/bootdotdev/bootdev"
+readme = "https://raw.githubusercontent.com/bootdotdev/bootdev/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bootdotdev/bootdev@latest"

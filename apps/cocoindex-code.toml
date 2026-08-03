@@ -1,0 +1,12 @@
+name = "cocoindex-code"
+description = "A super light-weight embedded code search engine CLI (AST based) that just works - improves speed and efficiency for..."
+author = "cocoindex-io"
+homepage = "https://github.com/cocoindex-io/cocoindex-code"
+readme = "https://raw.githubusercontent.com/cocoindex-io/cocoindex-code/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "cocoindex-code"

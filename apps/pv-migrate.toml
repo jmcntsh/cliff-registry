@@ -1,0 +1,12 @@
+name = "pv-migrate"
+description = "CLI tool to easily migrate or backup/restore Kubernetes persistent volumes"
+author = "utkuozdemir"
+homepage = "https://github.com/utkuozdemir/pv-migrate"
+readme = "https://raw.githubusercontent.com/utkuozdemir/pv-migrate/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/utkuozdemir/pv-migrate@latest"

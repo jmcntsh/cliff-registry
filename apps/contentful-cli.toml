@@ -1,0 +1,12 @@
+name = "contentful-cli"
+description = "The official Contentful command line interface. Use Contentful features straight from the command line!"
+author = "contentful"
+homepage = "https://github.com/contentful/contentful-cli"
+readme = "https://raw.githubusercontent.com/contentful/contentful-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "contentful-cli"

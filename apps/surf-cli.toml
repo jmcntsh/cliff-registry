@@ -1,0 +1,12 @@
+name = "surf-cli"
+description = "The CLI for AI agents to control Chrome. Zero config, agent-agnostic, battle-tested."
+author = "nicobailon"
+homepage = "https://github.com/nicobailon/surf-cli"
+readme = "https://raw.githubusercontent.com/nicobailon/surf-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "surf-cli"

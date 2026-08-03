@@ -1,0 +1,12 @@
+name = "shtab"
+description = "↔️ Automagic shell tab completion for Python CLI applications"
+author = "tqdm"
+homepage = "https://github.com/tqdm/shtab"
+readme = "https://raw.githubusercontent.com/tqdm/shtab/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "shtab"

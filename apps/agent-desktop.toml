@@ -1,0 +1,12 @@
+name = "agent-desktop"
+description = "Native desktop automation CLI for AI agents. Control any application through OS accessibility trees with structured J..."
+author = "lahfir"
+homepage = "https://github.com/lahfir/agent-desktop"
+readme = "https://raw.githubusercontent.com/lahfir/agent-desktop/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "agent-desktop"

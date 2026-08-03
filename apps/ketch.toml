@@ -1,0 +1,12 @@
+name = "ketch"
+description = "Fast, stateless CLI for web search and scrape. Built for AI agents."
+author = "1broseidon"
+homepage = "https://github.com/1broseidon/ketch"
+readme = "https://raw.githubusercontent.com/1broseidon/ketch/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/1broseidon/ketch@latest"

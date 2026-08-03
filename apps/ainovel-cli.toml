@@ -1,0 +1,12 @@
+name = "ainovel-cli"
+description = "✨多agent实现全自动AI小说生成"
+author = "voocel"
+homepage = "https://github.com/voocel/ainovel-cli"
+readme = "https://raw.githubusercontent.com/voocel/ainovel-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/voocel/ainovel-cli@latest"
