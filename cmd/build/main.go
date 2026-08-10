@@ -62,12 +62,12 @@ func main() {
 	}
 
 	var (
-		apps            []index.App
-		appObservation  []int64
-		observations    []stars.Observation
-		fails           int
-		metadataMissing int
-		catSeen         = map[string]int{}
+		apps             []index.App
+		appObservation   []int64
+		observationsByID = map[int64]stars.Observation{}
+		fails            int
+		metadataMissing  int
+		catSeen          = map[string]int{}
 	)
 	for _, l := range loaded {
 		if err := l.Manifest.Validate(); err != nil {
@@ -106,7 +106,7 @@ func main() {
 					app.LastCommitISO = observation.PushedAt.UTC().Format(time.RFC3339)
 				}
 				observationID = observation.ID
-				observations = append(observations, observation)
+				observationsByID[observation.ID] = observation
 			}
 		}
 
@@ -124,6 +124,10 @@ func main() {
 	}
 	sort.Slice(cats, func(i, j int) bool { return cats[i].Name < cats[j].Name })
 
+	observations := make([]stars.Observation, 0, len(observationsByID))
+	for _, observation := range observationsByID {
+		observations = append(observations, observation)
+	}
 	current := stars.NewSnapshot(capturedAt, sourceCommit, observations)
 	if snapshotPath != "" {
 		if err := stars.Write(snapshotPath, current); err != nil {

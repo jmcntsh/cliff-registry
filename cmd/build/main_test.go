@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 	"testing"
 	"time"
 
@@ -16,7 +17,7 @@ import (
 
 func TestBuildGeneratesGrowthIndexFromFixtureHistory(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path != "/repos/acme/tool" {
+		if r.URL.Path != "/repos/acme/tool" && r.URL.Path != "/repos/acme/tool-alias" {
 			t.Errorf("GitHub fixture path = %q", r.URL.Path)
 		}
 		w.Header().Set("Content-Type", "application/json")
@@ -50,6 +51,11 @@ type = "go"
 package = "github.com/acme/tool@latest"
 `
 	if err := os.WriteFile(filepath.Join(appsDir, "tool.toml"), []byte(manifest), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	aliasManifest := strings.Replace(manifest, `name = "tool"`, `name = "tool-alias"`, 1)
+	aliasManifest = strings.ReplaceAll(aliasManifest, "acme/tool", "acme/tool-alias")
+	if err := os.WriteFile(filepath.Join(appsDir, "tool-alias.toml"), []byte(aliasManifest), 0o644); err != nil {
 		t.Fatal(err)
 	}
 	baseline := stars.NewSnapshot(time.Now().UTC().Add(-48*time.Hour), "baseline", []stars.Observation{{
@@ -90,10 +96,19 @@ package = "github.com/acme/tool@latest"
 	if window.From == nil || window.To == nil || window.Complete {
 		t.Fatalf("fixture should produce an available partial 7d window: %+v", window)
 	}
-	if len(catalog.Apps) != 1 || catalog.Apps[0].StarGrowth["7d"] != 5 {
+	if len(catalog.Apps) != 2 {
 		t.Fatalf("fixture growth not published: %+v", catalog.Apps)
 	}
-	if _, err := stars.Load(snapshotPath); err != nil {
+	for _, app := range catalog.Apps {
+		if app.StarGrowth["7d"] != 5 {
+			t.Fatalf("fixture growth not published for %s: %+v", app.Name, app.StarGrowth)
+		}
+	}
+	snapshot, err := stars.Load(snapshotPath)
+	if err != nil {
 		t.Fatalf("generated snapshot invalid: %v", err)
+	}
+	if len(snapshot.Repositories) != 1 {
+		t.Fatalf("duplicate GitHub repository id was not collapsed: %+v", snapshot.Repositories)
 	}
 }
