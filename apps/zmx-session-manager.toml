@@ -1,0 +1,12 @@
+name = "zmx-session-manager"
+description = "TUI session manager for zmx"
+author = "mdsakalu"
+homepage = "https://github.com/mdsakalu/zmx-session-manager"
+readme = "https://raw.githubusercontent.com/mdsakalu/zmx-session-manager/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mdsakalu/zmx-session-manager@latest"

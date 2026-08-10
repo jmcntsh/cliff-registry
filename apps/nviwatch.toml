@@ -1,0 +1,12 @@
+name = "nviwatch"
+description = "NviWatch: A blazingly fast rust based TUI for managing and monitoring NVIDIA GPU processes"
+author = "msminhas93"
+homepage = "https://github.com/msminhas93/nviwatch"
+readme = "https://raw.githubusercontent.com/msminhas93/nviwatch/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "nviwatch"

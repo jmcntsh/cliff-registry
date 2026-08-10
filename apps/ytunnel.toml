@@ -1,0 +1,12 @@
+name = "ytunnel"
+description = "A TUI-first CLI for managing Cloudflare Tunnels with custom domains"
+author = "yetidevworks"
+homepage = "https://github.com/yetidevworks/ytunnel"
+readme = "https://raw.githubusercontent.com/yetidevworks/ytunnel/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ytunnel"

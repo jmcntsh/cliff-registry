@@ -1,0 +1,12 @@
+name = "ghost"
+description = "Detects process injection and memory manipulation used by malware. Finds RWX regions, shellcode patterns, API hooks..."
+author = "pandaadir05"
+homepage = "https://github.com/pandaadir05/ghost"
+readme = "https://raw.githubusercontent.com/pandaadir05/ghost/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ghost"

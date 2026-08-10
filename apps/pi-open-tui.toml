@@ -1,0 +1,12 @@
+name = "pi-open-tui"
+description = "A polished TUI for Pi coding agent: animated logo header, Starship-style footer, rounded editor with model metadata..."
+author = "OldSuns"
+homepage = "https://github.com/OldSuns/pi-open-tui"
+readme = "https://raw.githubusercontent.com/OldSuns/pi-open-tui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-open-tui"

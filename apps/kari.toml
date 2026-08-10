@@ -1,0 +1,12 @@
+name = "kari"
+description = "Kari just a tui for getting media from providers and playing it in your media player with nice to have features."
+author = "Dhairya3391"
+homepage = "https://github.com/Dhairya3391/kari"
+readme = "https://raw.githubusercontent.com/Dhairya3391/kari/main/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Dhairya3391/kari@latest"

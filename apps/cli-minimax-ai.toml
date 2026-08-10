@@ -1,0 +1,11 @@
+name = "cli-minimax-ai"
+description = "Generate text, images, video, speech, and music by MiniMax."
+author = "MiniMax-AI"
+homepage = "https://github.com/MiniMax-AI/cli"
+readme = "https://raw.githubusercontent.com/MiniMax-AI/cli/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "npm"
+package = "cli"

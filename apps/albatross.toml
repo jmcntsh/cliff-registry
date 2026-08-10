@@ -1,0 +1,12 @@
+name = "albatross"
+description = "Open source, terminal-first AI coding agent with fully transparent multi-model routing. Local (Ollama, LM Studio, MLX..."
+author = "morganlinton"
+homepage = "https://github.com/morganlinton/Albatross"
+readme = "https://raw.githubusercontent.com/morganlinton/Albatross/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Albatross"

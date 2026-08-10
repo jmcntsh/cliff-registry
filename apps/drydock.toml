@@ -1,0 +1,12 @@
+name = "drydock"
+description = "What's uncommitted, unpushed, and unreleased across every repo you own. A live TUI dashboard for a fleet of git repos."
+author = "yetidevworks"
+homepage = "https://github.com/yetidevworks/drydock"
+readme = "https://raw.githubusercontent.com/yetidevworks/drydock/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "drydock"

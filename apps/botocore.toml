@@ -1,0 +1,12 @@
+name = "botocore"
+description = "The low-level, core functionality of boto3 and the AWS CLI."
+author = "boto"
+homepage = "https://github.com/boto/botocore"
+readme = "https://raw.githubusercontent.com/boto/botocore/develop/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "botocore"

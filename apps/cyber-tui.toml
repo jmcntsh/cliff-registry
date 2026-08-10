@@ -1,0 +1,12 @@
+name = "cyber-tui"
+description = "TUI for cyberspace.online"
+author = "ArmadilloBrillo"
+homepage = "https://github.com/ArmadilloBrillo/cyber-tui"
+readme = "https://raw.githubusercontent.com/ArmadilloBrillo/cyber-tui/dev/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ArmadilloBrillo/cyber-tui@latest"

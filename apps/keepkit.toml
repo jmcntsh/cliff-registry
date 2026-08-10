@@ -1,0 +1,12 @@
+name = "keepkit"
+description = "Lightweight TUI for tracking versions of your favorite tools"
+author = "stanlyzoolo"
+homepage = "https://github.com/stanlyzoolo/keepkit"
+readme = "https://raw.githubusercontent.com/stanlyzoolo/keepkit/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/stanlyzoolo/keepkit@latest"

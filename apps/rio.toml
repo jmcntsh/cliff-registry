@@ -1,0 +1,12 @@
+name = "rio"
+description = "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+author = "raphamorim"
+homepage = "https://github.com/raphamorim/rio"
+readme = "https://raw.githubusercontent.com/raphamorim/rio/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rio"

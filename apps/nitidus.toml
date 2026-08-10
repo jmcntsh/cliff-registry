@@ -1,0 +1,11 @@
+name = "nitidus"
+description = "A TUI email client in rust"
+author = "joshka"
+homepage = "https://github.com/joshka/nitidus"
+readme = "https://raw.githubusercontent.com/joshka/nitidus/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "cargo"
+package = "nitidus"

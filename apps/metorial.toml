@@ -1,0 +1,12 @@
+name = "metorial"
+description = "Connect any AI model to 1200+ integrations (MCP, CLI, API)"
+author = "metorial"
+homepage = "https://github.com/metorial/metorial"
+readme = "https://raw.githubusercontent.com/metorial/metorial/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "metorial"

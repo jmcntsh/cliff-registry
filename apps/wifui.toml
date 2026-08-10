@@ -1,0 +1,12 @@
+name = "wifui"
+description = "A lightweight, keyboard-driven Terminal User Interface (TUI) for managing Wi-Fi connections on Windows."
+author = "sohamw03"
+homepage = "https://github.com/sohamw03/wifui"
+readme = "https://raw.githubusercontent.com/sohamw03/wifui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "wifui"

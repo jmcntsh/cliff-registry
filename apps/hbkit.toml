@@ -1,0 +1,12 @@
+name = "hbkit"
+description = "Recover files from Synology Hyper Backup (.hbk) archives without Synology software — CLI + TUI, checksum-verified..."
+author = "YordiLorenzo"
+homepage = "https://github.com/YordiLorenzo/hbkit"
+readme = "https://raw.githubusercontent.com/YordiLorenzo/hbkit/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "hbkit"

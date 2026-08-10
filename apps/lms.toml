@@ -1,0 +1,12 @@
+name = "lms"
+description = "LM Studio CLI"
+author = "lmstudio-ai"
+homepage = "https://github.com/lmstudio-ai/lms"
+readme = "https://raw.githubusercontent.com/lmstudio-ai/lms/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "lms"

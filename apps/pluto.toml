@@ -1,0 +1,12 @@
+name = "pluto"
+description = "A cli tool to help discover deprecated apiVersions in Kubernetes"
+author = "FairwindsOps"
+homepage = "https://github.com/FairwindsOps/pluto"
+readme = "https://raw.githubusercontent.com/FairwindsOps/pluto/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/FairwindsOps/pluto@latest"

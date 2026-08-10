@@ -1,0 +1,12 @@
+name = "loghew"
+description = "A TUI to read and observe .log files"
+author = "nehadyounis"
+homepage = "https://github.com/nehadyounis/loghew"
+readme = "https://raw.githubusercontent.com/nehadyounis/loghew/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "loghew"

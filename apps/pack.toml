@@ -1,0 +1,12 @@
+name = "pack"
+description = "CLI for building apps using Cloud Native Buildpacks"
+author = "buildpacks"
+homepage = "https://github.com/buildpacks/pack"
+readme = "https://raw.githubusercontent.com/buildpacks/pack/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/buildpacks/pack@latest"

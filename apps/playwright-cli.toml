@@ -1,0 +1,12 @@
+name = "playwright-cli"
+description = "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots."
+author = "microsoft"
+homepage = "https://github.com/microsoft/playwright-cli"
+readme = "https://raw.githubusercontent.com/microsoft/playwright-cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "playwright-cli"

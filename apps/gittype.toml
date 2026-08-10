@@ -1,0 +1,12 @@
+name = "gittype"
+description = "A CLI code-typing game that turns your source code into typing challenges"
+author = "unhappychoice"
+homepage = "https://github.com/unhappychoice/gittype"
+readme = "https://raw.githubusercontent.com/unhappychoice/gittype/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gittype"

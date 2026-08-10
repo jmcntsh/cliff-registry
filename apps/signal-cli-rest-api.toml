@@ -1,0 +1,12 @@
+name = "signal-cli-rest-api"
+description = "Dockerized Signal Messenger REST API"
+author = "bbernhard"
+homepage = "https://github.com/bbernhard/signal-cli-rest-api"
+readme = "https://raw.githubusercontent.com/bbernhard/signal-cli-rest-api/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bbernhard/signal-cli-rest-api@latest"

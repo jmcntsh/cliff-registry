@@ -1,0 +1,12 @@
+name = "homebench"
+description = "Benchmark your local LLMs: speed, memory, and quality, in one command. TUI leaderboard for Ollama, LM Studio, llama.c..."
+author = "david-g-3654"
+homepage = "https://github.com/david-g-3654/homebench"
+readme = "https://raw.githubusercontent.com/david-g-3654/homebench/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "homebench"

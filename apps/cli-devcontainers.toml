@@ -1,0 +1,12 @@
+name = "cli-devcontainers"
+description = "A reference implementation for the specification that can create and configure a dev container from a devcontainer.json."
+author = "devcontainers"
+homepage = "https://github.com/devcontainers/cli"
+readme = "https://raw.githubusercontent.com/devcontainers/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

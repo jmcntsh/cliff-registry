@@ -1,0 +1,12 @@
+name = "proxy-scraper-checker"
+description = "Fast proxy scraper and checker written in Rust. Collects HTTP, SOCKS4 and SOCKS5 proxies from any number of sources..."
+author = "monosans"
+homepage = "https://github.com/monosans/proxy-scraper-checker"
+readme = "https://raw.githubusercontent.com/monosans/proxy-scraper-checker/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "proxy-scraper-checker"

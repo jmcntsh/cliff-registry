@@ -1,0 +1,12 @@
+name = "axi"
+description = "Design principles for agent ergonomics. Higher accuracy with lower token cost than both MCP and regular CLI."
+author = "kunchenguid"
+homepage = "https://github.com/kunchenguid/axi"
+readme = "https://raw.githubusercontent.com/kunchenguid/axi/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "axi"

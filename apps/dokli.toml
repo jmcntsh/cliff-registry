@@ -1,0 +1,11 @@
+name = "dokli"
+description = "Magical Dokploy CLI/TUI."
+author = "jonykalavera"
+homepage = "https://github.com/jonykalavera/dokli"
+readme = "https://raw.githubusercontent.com/jonykalavera/dokli/main/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "pipx"
+package = "dokli"

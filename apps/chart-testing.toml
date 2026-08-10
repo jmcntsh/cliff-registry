@@ -1,0 +1,12 @@
+name = "chart-testing"
+description = "CLI tool for linting and testing Helm charts"
+author = "helm"
+homepage = "https://github.com/helm/chart-testing"
+readme = "https://raw.githubusercontent.com/helm/chart-testing/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/helm/chart-testing@latest"

@@ -1,0 +1,12 @@
+name = "kubo"
+description = "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API"
+author = "ipfs"
+homepage = "https://github.com/ipfs/kubo"
+readme = "https://raw.githubusercontent.com/ipfs/kubo/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/ipfs/kubo@latest"

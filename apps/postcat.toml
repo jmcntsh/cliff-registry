@@ -1,0 +1,12 @@
+name = "postcat"
+description = "Keyboard and mouse friendly TUI for debugging HTTP requests in terminal"
+author = "egoist"
+homepage = "https://github.com/egoist/postcat"
+readme = "https://raw.githubusercontent.com/egoist/postcat/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "postcat"

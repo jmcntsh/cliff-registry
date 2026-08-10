@@ -1,0 +1,12 @@
+name = "copacetic"
+description = "🧵 CLI tool for directly patching container images!"
+author = "project-copacetic"
+homepage = "https://github.com/project-copacetic/copacetic"
+readme = "https://raw.githubusercontent.com/project-copacetic/copacetic/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/project-copacetic/copacetic@latest"

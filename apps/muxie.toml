@@ -1,0 +1,12 @@
+name = "muxie"
+description = "Muxie is a terminal user interface (TUI) tool for tmux that simplifies session management. Define your entire develop..."
+author = "phanorcoll"
+homepage = "https://github.com/phanorcoll/muxie"
+readme = "https://raw.githubusercontent.com/phanorcoll/muxie/master/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/phanorcoll/muxie@latest"

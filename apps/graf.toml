@@ -1,0 +1,12 @@
+name = "graf"
+description = "A TUI graph view for markdown files with wikilinks. Customizable."
+author = "reekta92"
+homepage = "https://github.com/reekta92/graf"
+readme = "https://raw.githubusercontent.com/reekta92/graf/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "graf"

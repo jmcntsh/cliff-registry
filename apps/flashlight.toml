@@ -1,0 +1,12 @@
+name = "flashlight"
+description = "📱⚡️ Lighthouse for Mobile - audits your app and gives a performance score to your Android apps (native, React..."
+author = "bamlab"
+homepage = "https://github.com/bamlab/flashlight"
+readme = "https://raw.githubusercontent.com/bamlab/flashlight/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "flashlight"

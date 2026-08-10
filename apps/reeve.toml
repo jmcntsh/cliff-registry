@@ -1,0 +1,12 @@
+name = "reeve"
+description = "A TUI based local web development stack for macOS and Linux"
+author = "yetidevworks"
+homepage = "https://github.com/yetidevworks/reeve"
+readme = "https://raw.githubusercontent.com/yetidevworks/reeve/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "reeve"

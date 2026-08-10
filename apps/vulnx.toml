@@ -1,0 +1,12 @@
+name = "vulnx"
+description = "Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities."
+author = "projectdiscovery"
+homepage = "https://github.com/projectdiscovery/vulnx"
+readme = "https://raw.githubusercontent.com/projectdiscovery/vulnx/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/projectdiscovery/vulnx@latest"

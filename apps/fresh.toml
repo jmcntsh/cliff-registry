@@ -1,0 +1,12 @@
+name = "fresh"
+description = "Terminal based IDE & text editor: easy, powerful and fast"
+author = "sinelaw"
+homepage = "https://github.com/sinelaw/fresh"
+readme = "https://raw.githubusercontent.com/sinelaw/fresh/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "cargo"
+package = "fresh"

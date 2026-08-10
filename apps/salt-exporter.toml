@@ -1,0 +1,12 @@
+name = "salt-exporter"
+description = "Salt Prometheus exporter working out of the box without any configuration on Salt side. Comes with an event watcher TUI."
+author = "kpetremann"
+homepage = "https://github.com/kpetremann/salt-exporter"
+readme = "https://raw.githubusercontent.com/kpetremann/salt-exporter/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kpetremann/salt-exporter@latest"

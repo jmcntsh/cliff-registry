@@ -1,0 +1,12 @@
+name = "huggingface-hub"
+description = "The official CLI and Python client for the Hugging Face Hub."
+author = "huggingface"
+homepage = "https://github.com/huggingface/huggingface_hub"
+readme = "https://raw.githubusercontent.com/huggingface/huggingface_hub/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "huggingface_hub"

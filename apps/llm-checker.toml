@@ -1,0 +1,12 @@
+name = "llm-checker"
+description = "Advanced CLI tool that scans your hardware and tells you exactly which LLM or sLLM models you can run locally, with f..."
+author = "signerless"
+homepage = "https://github.com/signerless/llm-checker"
+readme = "https://raw.githubusercontent.com/signerless/llm-checker/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "llm-checker"

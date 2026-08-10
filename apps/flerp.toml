@@ -1,0 +1,12 @@
+name = "flerp"
+description = "text analysis app with tui"
+author = "Huseynteymurzade28"
+homepage = "https://github.com/Huseynteymurzade28/flerp"
+readme = "https://raw.githubusercontent.com/Huseynteymurzade28/flerp/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "flerp"

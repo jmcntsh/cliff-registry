@@ -1,0 +1,12 @@
+name = "khal"
+description = ":calendar: CLI calendar application"
+author = "pimutils"
+homepage = "https://github.com/pimutils/khal"
+readme = "https://raw.githubusercontent.com/pimutils/khal/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "khal"

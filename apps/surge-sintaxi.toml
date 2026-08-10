@@ -1,0 +1,11 @@
+name = "surge-sintaxi"
+description = "CLI for the surge.sh CDN"
+author = "sintaxi"
+homepage = "https://github.com/sintaxi/surge"
+readme = "https://raw.githubusercontent.com/sintaxi/surge/master/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "npm"
+package = "surge"

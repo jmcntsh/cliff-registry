@@ -1,0 +1,12 @@
+name = "abacus-empero-org"
+description = "A simple but powerful TUI coding agent. Fully native rust, cross-compatible."
+author = "empero-org"
+homepage = "https://github.com/empero-org/abacus"
+readme = "https://raw.githubusercontent.com/empero-org/abacus/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "abacus"
