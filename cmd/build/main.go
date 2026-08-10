@@ -3,17 +3,17 @@
 // catalog the client deserializes; see internal/index for the wire types.
 //
 // Stars and last-commit timestamps are snapshotted from the GitHub REST
-// API at build time using the GITHUB_TOKEN environment variable. If the
-// token is missing or a request fails, the affected fields are left
-// zero/empty and the build continues — registry availability is more
-// important than perfect metadata.
+// API at build time using the GITHUB_TOKEN environment variable. Optional
+// history/snapshot paths produce static net-growth metadata. Failed requests
+// reuse prior lifetime metadata when available but never produce a period
+// delta; registry availability remains more important than perfect metadata.
 package main
 
 import (
+	"context"
 	"encoding/json"
+	"flag"
 	"fmt"
-	"io"
-	"net/http"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -23,30 +23,51 @@ import (
 
 	"github.com/jmcntsh/cliff-registry/internal/index"
 	"github.com/jmcntsh/cliff-registry/internal/manifest"
+	"github.com/jmcntsh/cliff-registry/internal/stars"
 )
 
 func main() {
-	if len(os.Args) != 3 {
-		fmt.Fprintln(os.Stderr, "usage: build <apps-dir> <out.json>")
+	var historyDir, snapshotPath string
+	flag.StringVar(&historyDir, "history", "", "directory of prior star snapshots")
+	flag.StringVar(&snapshotPath, "snapshot", "", "path for the current star snapshot")
+	flag.Usage = func() {
+		fmt.Fprintln(flag.CommandLine.Output(), "usage: build [-history dir] [-snapshot file] <apps-dir> <out.json>")
+		flag.PrintDefaults()
+	}
+	flag.Parse()
+	if flag.NArg() != 2 {
+		flag.Usage()
 		os.Exit(2)
 	}
-	appsDir, outPath := os.Args[1], os.Args[2]
+	appsDir, outPath := flag.Arg(0), flag.Arg(1)
 
 	loaded, err := manifest.LoadDir(appsDir)
 	if err != nil {
 		die("load: %v", err)
 	}
+	history, err := stars.LoadDir(historyDir)
+	if err != nil {
+		die("load star history: %v", err)
+	}
 
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
-		fmt.Fprintln(os.Stderr, "warn: GITHUB_TOKEN not set; stars and last_commit will be empty")
+		fmt.Fprintln(os.Stderr, "warn: GITHUB_TOKEN not set; GitHub requests may be rate limited")
 	}
-	gh := &ghClient{token: token, http: &http.Client{Timeout: 10 * time.Second}}
+	gh := stars.Client{Token: token, BaseURL: os.Getenv("GITHUB_API_URL")}
+	capturedAt := time.Now().UTC()
+	sourceCommit := os.Getenv("GITHUB_SHA")
+	if sourceCommit == "" {
+		sourceCommit = "registry@local"
+	}
 
 	var (
-		apps    []index.App
-		fails   int
-		catSeen = map[string]int{}
+		apps            []index.App
+		appObservation  []int64
+		observations    []stars.Observation
+		fails           int
+		metadataMissing int
+		catSeen         = map[string]int{}
 	)
 	for _, l := range loaded {
 		if err := l.Manifest.Validate(); err != nil {
@@ -62,18 +83,35 @@ func main() {
 			app.AddedAtISO = added.UTC().Format(time.RFC3339)
 		}
 
+		var observationID int64
 		if app.Repo != "" && strings.Count(app.Repo, "/") == 1 {
-			if stars, last, err := gh.snapshot(app.Repo); err != nil {
+			previous, hasPrevious := stars.LatestByRepo(history, app.Repo)
+			var previousPtr *stars.Observation
+			if hasPrevious {
+				previousPtr = &previous
+			}
+			observation, err := gh.Fetch(context.Background(), app.Repo, previousPtr)
+			if err != nil {
 				fmt.Fprintf(os.Stderr, "warn: snapshot %s: %v\n", app.Repo, err)
-			} else {
-				app.Stars = stars
-				if !last.IsZero() {
-					app.LastCommitISO = last.UTC().Format(time.RFC3339)
+				metadataMissing++
+				if hasPrevious {
+					app.Stars = previous.Stars
+					if previous.PushedAt != nil {
+						app.LastCommitISO = previous.PushedAt.UTC().Format(time.RFC3339)
+					}
 				}
+			} else {
+				app.Stars = observation.Stars
+				if observation.PushedAt != nil {
+					app.LastCommitISO = observation.PushedAt.UTC().Format(time.RFC3339)
+				}
+				observationID = observation.ID
+				observations = append(observations, observation)
 			}
 		}
 
 		apps = append(apps, app)
+		appObservation = append(appObservation, observationID)
 		catSeen[app.Category]++
 	}
 	if fails > 0 {
@@ -86,15 +124,49 @@ func main() {
 	}
 	sort.Slice(cats, func(i, j int) bool { return cats[i].Name < cats[j].Name })
 
+	current := stars.NewSnapshot(capturedAt, sourceCommit, observations)
+	if snapshotPath != "" {
+		if err := stars.Write(snapshotPath, current); err != nil {
+			die("write star snapshot: %v", err)
+		}
+	}
+	windowResults := stars.CalculateWindows(current, history, []stars.WindowSpec{
+		{Key: "7d", Days: 7},
+		{Key: "30d", Days: 30},
+	})
+	starWindows := make(map[string]index.StarWindow, len(windowResults))
+	for key, result := range windowResults {
+		starWindows[key] = index.StarWindow{
+			RequestedDays: result.RequestedDays,
+			From:          result.From,
+			To:            result.To,
+			Complete:      result.Complete,
+		}
+	}
+	for i := range apps {
+		id := appObservation[i]
+		if id == 0 {
+			continue
+		}
+		for key, result := range windowResults {
+			delta, ok := result.Deltas[id]
+			if !ok {
+				continue
+			}
+			if apps[i].StarGrowth == nil {
+				apps[i].StarGrowth = map[string]int{}
+			}
+			apps[i].StarGrowth[key] = delta
+		}
+	}
+
 	cat := index.Catalog{
 		SchemaVersion: index.SchemaVersion,
-		GeneratedAt:   time.Now().UTC(),
-		SourceCommit:  os.Getenv("GITHUB_SHA"),
+		GeneratedAt:   capturedAt,
+		SourceCommit:  sourceCommit,
 		Apps:          apps,
 		Categories:    cats,
-	}
-	if cat.SourceCommit == "" {
-		cat.SourceCommit = "registry@local"
+		StarWindows:   starWindows,
 	}
 
 	buf, err := json.MarshalIndent(cat, "", "  ")
@@ -106,7 +178,8 @@ func main() {
 		die("write %s: %v", outPath, err)
 	}
 
-	fmt.Printf("wrote %s (%d apps, %d categories)\n", outPath, len(apps), len(cats))
+	fmt.Printf("wrote %s (%d apps, %d categories, %d observed, %d missing)\n",
+		outPath, len(apps), len(cats), len(observations), metadataMissing)
 }
 
 func die(format string, args ...any) {
@@ -150,53 +223,4 @@ func gitAddedAt(path string) (time.Time, error) {
 		return time.Time{}, fmt.Errorf("parse %q: %w", raw, err)
 	}
 	return t, nil
-}
-
-type ghClient struct {
-	token string
-	http  *http.Client
-}
-
-func (c *ghClient) snapshot(repo string) (stars int, lastCommit time.Time, err error) {
-	type repoResp struct {
-		StargazersCount int    `json:"stargazers_count"`
-		PushedAt        string `json:"pushed_at"`
-	}
-	var r repoResp
-	if err := c.get("/repos/"+repo, &r); err != nil {
-		return 0, time.Time{}, err
-	}
-	var t time.Time
-	if r.PushedAt != "" {
-		if parsed, perr := time.Parse(time.RFC3339, r.PushedAt); perr == nil {
-			t = parsed
-		}
-	}
-	return r.StargazersCount, t, nil
-}
-
-func (c *ghClient) get(path string, out any) error {
-	req, err := http.NewRequest("GET", "https://api.github.com"+path, nil)
-	if err != nil {
-		return err
-	}
-	req.Header.Set("Accept", "application/vnd.github+json")
-	req.Header.Set("X-GitHub-Api-Version", "2022-11-28")
-	if c.token != "" {
-		req.Header.Set("Authorization", "Bearer "+c.token)
-	}
-	resp, err := c.http.Do(req)
-	if err != nil {
-		return err
-	}
-	defer resp.Body.Close()
-	body, _ := io.ReadAll(resp.Body)
-	if resp.StatusCode != 200 {
-		snip := string(body)
-		if len(snip) > 200 {
-			snip = snip[:200]
-		}
-		return fmt.Errorf("github %s: %d %s", path, resp.StatusCode, snip)
-	}
-	return json.Unmarshal(body, out)
 }

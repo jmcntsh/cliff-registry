@@ -4,12 +4,12 @@ on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: "17 4 * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -32,8 +32,13 @@ jobs:
     needs: lint
     if: >-
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
       (github.event_name == 'push' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -46,16 +51,47 @@ jobs:
           go-version-file: go.mod
           cache: true
       - name: Build index.json
+        id: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_SHA: ${{ github.sha }}
         run: |
           mkdir -p public
-          go run ./cmd/build ./apps ./public/index.json
+          source_sha="$(git log -1 --format=%H -- . ':(exclude)data/stars/**')"
+          snapshot_path="./data/stars/$(date -u +%Y-%m-%dT%H%M%SZ).json"
+          GITHUB_SHA="$source_sha" go run ./cmd/build \
+            -history ./data/stars \
+            -snapshot "$snapshot_path" \
+            ./apps ./public/index.json
           cp CNAME public/CNAME 2>/dev/null || true
+          echo "source_sha=$source_sha" >> "$GITHUB_OUTPUT"
+          echo "snapshot_path=$snapshot_path" >> "$GITHUB_OUTPUT"
+      - name: Persist star snapshot
+        env:
+          SNAPSHOT_PATH: ${{ steps.build.outputs.snapshot_path }}
+        run: |
+          git add "$SNAPSHOT_PATH"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name=cliff-registry \
+            -c user.email=actions@github.com \
+            commit -m "metrics: record star snapshot $(date -u +%F)"
+          git push origin HEAD:main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published source
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          SOURCE_SHA: ${{ steps.build.outputs.source_sha }}
+        run: |
+          payload="$(curl -fsSL --retry 5 --retry-delay 3 \
+            "${PAGE_URL%/}/index.json?source=$SOURCE_SHA")"
+          published_sha="$(jq -r '.source_commit' <<<"$payload")"
+          if [ "$published_sha" != "$SOURCE_SHA" ]; then
+            echo "published source_commit=$published_sha; expected $SOURCE_SHA" >&2
+            exit 1
+          fi

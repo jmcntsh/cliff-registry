@@ -4,7 +4,9 @@ App manifests for [cliff](https://cliff.sh).
 
 CI compiles `apps/*.toml` into `index.json` and publishes it to
 <https://registry.cliff.sh/index.json>, which the cliff client
-fetches.
+fetches. A daily workflow records public GitHub star-count snapshots
+and publishes static 7-day and 30-day net-growth rankings; it does not
+collect Cliff usage or user telemetry.
 
 ## How apps get in
 
@@ -38,12 +40,16 @@ cmd/build/             compiles apps/*.toml + GitHub stars/last-commit → index
 cmd/scan-methods/      housekeeping: report likely-missing install methods
 internal/manifest/     TOML schema + validation
 internal/index/        wire types for index.json (mirrors the client's catalog types)
+internal/stars/        GitHub metadata client + deterministic growth calculation
+data/stars/            generated, timestamped star-count observations
 scripts/seed.py        the GitHub scraper (see scripts/README.md)
-.github/workflows/     lint on PR; build + Pages publish on merge; weekly auto-seed
+.github/workflows/     lint on PR; daily build + Pages publish; weekly auto-seed
 ```
 
 The `registry` workflow also supports manual dispatch, which can
 republish the current `main` branch without changing the catalog.
+Ranking semantics and failure handling are defined in
+[`docs/hot-rankings.md`](docs/hot-rankings.md).
 
 ## Trust model
 

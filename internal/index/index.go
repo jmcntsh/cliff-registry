@@ -8,25 +8,27 @@ package index
 
 import "time"
 
-const SchemaVersion = 1
+const SchemaVersion = 2
 
 type Catalog struct {
-	SchemaVersion int        `json:"schema_version"`
-	GeneratedAt   time.Time  `json:"generated_at"`
-	SourceCommit  string     `json:"source_commit"`
-	Apps          []App      `json:"apps"`
-	Categories    []Category `json:"categories"`
+	SchemaVersion int                   `json:"schema_version"`
+	GeneratedAt   time.Time             `json:"generated_at"`
+	SourceCommit  string                `json:"source_commit"`
+	Apps          []App                 `json:"apps"`
+	Categories    []Category            `json:"categories"`
+	StarWindows   map[string]StarWindow `json:"star_windows,omitempty"`
 }
 
 type App struct {
-	Name        string `json:"name"`
-	Repo        string `json:"repo"`
-	Description string `json:"description"`
-	Category    string `json:"category"`
-	Language    string `json:"language"`
-	License     string `json:"license"`
-	Stars       int    `json:"stars"`
-	Homepage    string `json:"homepage"`
+	Name        string         `json:"name"`
+	Repo        string         `json:"repo"`
+	Description string         `json:"description"`
+	Category    string         `json:"category"`
+	Language    string         `json:"language"`
+	License     string         `json:"license"`
+	Stars       int            `json:"stars"`
+	Homepage    string         `json:"homepage"`
+	StarGrowth  map[string]int `json:"star_growth,omitempty"`
 
 	Author      string   `json:"author,omitempty"`
 	Readme      string   `json:"readme,omitempty"`
@@ -92,4 +94,11 @@ func (s *InstallSpec) Shell() string {
 type Category struct {
 	Name  string `json:"name"`
 	Count int    `json:"count"`
+}
+
+type StarWindow struct {
+	RequestedDays int        `json:"requested_days"`
+	From          *time.Time `json:"from,omitempty"`
+	To            *time.Time `json:"to,omitempty"`
+	Complete      bool       `json:"complete"`
 }
