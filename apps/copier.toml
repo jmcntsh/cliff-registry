@@ -1,0 +1,12 @@
+name = "copier"
+description = "Library and command-line utility for rendering projects templates."
+author = "copier-org"
+homepage = "https://github.com/copier-org/copier"
+readme = "https://raw.githubusercontent.com/copier-org/copier/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "copier"

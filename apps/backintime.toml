@@ -1,0 +1,11 @@
+name = "backintime"
+description = "A comfortable and well-configurable graphical Frontend for incremental backups, with a command-line version also avai..."
+author = "bit-team"
+homepage = "https://github.com/bit-team/backintime"
+readme = "https://raw.githubusercontent.com/bit-team/backintime/dev/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "pipx"
+package = "backintime"

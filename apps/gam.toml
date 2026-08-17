@@ -1,0 +1,12 @@
+name = "gam"
+description = "command line management for Google Workspace"
+author = "GAM-team"
+homepage = "https://github.com/GAM-team/GAM"
+readme = "https://raw.githubusercontent.com/GAM-team/GAM/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "GAM"

@@ -1,0 +1,12 @@
+name = "promptfoo"
+description = "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT..."
+author = "promptfoo"
+homepage = "https://github.com/promptfoo/promptfoo"
+readme = "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "promptfoo"

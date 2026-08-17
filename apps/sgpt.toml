@@ -1,0 +1,12 @@
+name = "sgpt"
+description = "SGPT is a command-line tool that provides a convenient way to interact with OpenAI models, enabling users to run quer..."
+author = "tbckr"
+homepage = "https://github.com/tbckr/sgpt"
+readme = "https://raw.githubusercontent.com/tbckr/sgpt/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tbckr/sgpt@latest"

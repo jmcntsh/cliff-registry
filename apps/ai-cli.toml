@@ -1,0 +1,11 @@
+name = "ai-cli"
+description = "Generate anything from your terminal"
+author = "vercel-labs"
+homepage = "https://github.com/vercel-labs/ai-cli"
+readme = "https://raw.githubusercontent.com/vercel-labs/ai-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "ai-cli"

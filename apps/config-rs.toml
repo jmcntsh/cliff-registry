@@ -1,0 +1,12 @@
+name = "config-rs"
+description = "⚙️ Layered configuration system for Rust applications (with strong support for 12-factor applications)."
+author = "rust-cli"
+homepage = "https://github.com/rust-cli/config-rs"
+readme = "https://raw.githubusercontent.com/rust-cli/config-rs/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "config-rs"

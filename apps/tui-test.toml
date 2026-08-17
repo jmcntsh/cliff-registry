@@ -1,0 +1,12 @@
+name = "tui-test"
+description = "💻 testing framework and cli for driving tests for terminal apps - native ai agent support"
+author = "microsoft"
+homepage = "https://github.com/microsoft/tui-test"
+readme = "https://raw.githubusercontent.com/microsoft/tui-test/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tui-test"

@@ -1,0 +1,12 @@
+name = "focusd"
+description = "A beautiful terminal pomodoro timer with daemon, waybar integration and interactive TUI"
+author = "BibekBhusal0"
+homepage = "https://github.com/BibekBhusal0/focusd"
+readme = "https://raw.githubusercontent.com/BibekBhusal0/focusd/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "focusd"

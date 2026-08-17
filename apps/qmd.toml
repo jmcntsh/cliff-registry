@@ -1,0 +1,12 @@
+name = "qmd"
+description = "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches whil..."
+author = "tobi"
+homepage = "https://github.com/tobi/qmd"
+readme = "https://raw.githubusercontent.com/tobi/qmd/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "qmd"

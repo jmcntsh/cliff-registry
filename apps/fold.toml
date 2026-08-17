@@ -1,0 +1,12 @@
+name = "fold"
+description = "Fold is an Effect-native, provider-agnostic, isomorphic agent core with an optional opinionated coding agent, CLI, an..."
+author = "humanlayer"
+homepage = "https://github.com/humanlayer/fold"
+readme = "https://raw.githubusercontent.com/humanlayer/fold/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "fold"

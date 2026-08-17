@@ -1,0 +1,12 @@
+name = "web-ext"
+description = "A command line tool to help build, run, and test web extensions"
+author = "mozilla"
+homepage = "https://github.com/mozilla/web-ext"
+readme = "https://raw.githubusercontent.com/mozilla/web-ext/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MPL-2.0"
+
+[[installs]]
+type = "npm"
+package = "web-ext"

@@ -1,0 +1,12 @@
+name = "paper-search-mcp"
+description = "MCP, CLI, Skills for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc."
+author = "openags"
+homepage = "https://github.com/openags/paper-search-mcp"
+readme = "https://raw.githubusercontent.com/openags/paper-search-mcp/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "paper-search-mcp"

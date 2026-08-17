@@ -1,0 +1,12 @@
+name = "trafilatura"
+description = "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSO..."
+author = "adbar"
+homepage = "https://github.com/adbar/trafilatura"
+readme = "https://raw.githubusercontent.com/adbar/trafilatura/master/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "trafilatura"

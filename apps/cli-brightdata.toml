@@ -1,0 +1,12 @@
+name = "cli-brightdata"
+description = "Official Bright Data CLI - scrape, search, and extract structured web data directly from your terminal."
+author = "brightdata"
+homepage = "https://github.com/brightdata/cli"
+readme = "https://raw.githubusercontent.com/brightdata/cli/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

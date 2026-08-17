@@ -1,0 +1,12 @@
+name = "flyctl"
+description = "Command line tools for fly.io services"
+author = "superfly"
+homepage = "https://github.com/superfly/flyctl"
+readme = "https://raw.githubusercontent.com/superfly/flyctl/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/superfly/flyctl@latest"

@@ -1,0 +1,12 @@
+name = "scooter"
+description = "Interactive find-and-replace in the terminal"
+author = "thomasschafer"
+homepage = "https://github.com/thomasschafer/scooter"
+readme = "https://raw.githubusercontent.com/thomasschafer/scooter/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "scooter"

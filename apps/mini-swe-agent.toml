@@ -1,0 +1,12 @@
+name = "mini-swe-agent"
+description = "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs..."
+author = "SWE-agent"
+homepage = "https://github.com/SWE-agent/mini-swe-agent"
+readme = "https://raw.githubusercontent.com/SWE-agent/mini-swe-agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mini-swe-agent"

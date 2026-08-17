@@ -1,0 +1,12 @@
+name = "ratty"
+description = "A GPU-rendered terminal emulator with inline 3D graphics 🐀🧀"
+author = "orhun"
+homepage = "https://github.com/orhun/ratty"
+readme = "https://raw.githubusercontent.com/orhun/ratty/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratty"

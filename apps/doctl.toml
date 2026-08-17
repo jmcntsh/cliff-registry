@@ -1,0 +1,12 @@
+name = "doctl"
+description = "The official command line interface for the DigitalOcean API."
+author = "digitalocean"
+homepage = "https://github.com/digitalocean/doctl"
+readme = "https://raw.githubusercontent.com/digitalocean/doctl/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/digitalocean/doctl@latest"

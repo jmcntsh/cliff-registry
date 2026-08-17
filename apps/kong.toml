@@ -1,0 +1,12 @@
+name = "kong"
+description = "Kong is a command-line parser for Go"
+author = "alecthomas"
+homepage = "https://github.com/alecthomas/kong"
+readme = "https://raw.githubusercontent.com/alecthomas/kong/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/alecthomas/kong@latest"

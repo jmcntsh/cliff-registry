@@ -1,0 +1,12 @@
+name = "tinygo"
+description = "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM."
+author = "tinygo-org"
+homepage = "https://github.com/tinygo-org/tinygo"
+readme = "https://raw.githubusercontent.com/tinygo-org/tinygo/dev/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/tinygo-org/tinygo@latest"

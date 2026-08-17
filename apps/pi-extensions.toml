@@ -1,0 +1,12 @@
+name = "pi-extensions"
+description = "Extensions for pi, the terminal-based coding agent"
+author = "ogulcancelik"
+homepage = "https://github.com/ogulcancelik/pi-extensions"
+readme = "https://raw.githubusercontent.com/ogulcancelik/pi-extensions/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-extensions"

@@ -1,0 +1,12 @@
+name = "snow-cli"
+description = "Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编..."
+author = "MayDay-wpf"
+homepage = "https://github.com/MayDay-wpf/snow-cli"
+readme = "https://raw.githubusercontent.com/MayDay-wpf/snow-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "snow-cli"

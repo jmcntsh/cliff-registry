@@ -1,0 +1,12 @@
+name = "syncthingtui"
+description = "TUI for Syncthing"
+author = "Evidlo"
+homepage = "https://github.com/Evidlo/syncthingtui"
+readme = "https://raw.githubusercontent.com/Evidlo/syncthingtui/master/README.md"
+tags = ["tui"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Evidlo/syncthingtui@latest"

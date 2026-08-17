@@ -1,0 +1,12 @@
+name = "mandible"
+description = "A TUI manual viewer for every command-line tool you have."
+author = "AS-FOSS"
+homepage = "https://github.com/AS-FOSS/mandible"
+readme = "https://raw.githubusercontent.com/AS-FOSS/mandible/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "mandible"

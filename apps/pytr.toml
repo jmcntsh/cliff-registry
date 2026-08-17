@@ -1,0 +1,12 @@
+name = "pytr"
+description = "Use TradeRepublic in terminal and mass download all documents"
+author = "pytr-org"
+homepage = "https://github.com/pytr-org/pytr"
+readme = "https://raw.githubusercontent.com/pytr-org/pytr/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pytr"

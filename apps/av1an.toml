@@ -1,0 +1,12 @@
+name = "av1an"
+description = "Cross-platform command-line AV1 / VP9 / HEVC / H264 encoding framework with per scene quality encoding"
+author = "rust-av"
+homepage = "https://github.com/rust-av/Av1an"
+readme = "https://raw.githubusercontent.com/rust-av/Av1an/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "Av1an"

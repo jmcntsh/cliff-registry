@@ -1,0 +1,12 @@
+name = "clap"
+description = "A full featured, fast Command Line Argument Parser for Rust"
+author = "clap-rs"
+homepage = "https://github.com/clap-rs/clap"
+readme = "https://raw.githubusercontent.com/clap-rs/clap/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "clap"

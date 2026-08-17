@@ -1,0 +1,12 @@
+name = "wterm"
+description = "A terminal emulator for the web"
+author = "vercel-labs"
+homepage = "https://github.com/vercel-labs/wterm"
+readme = "https://raw.githubusercontent.com/vercel-labs/wterm/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "wterm"

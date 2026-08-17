@@ -1,0 +1,12 @@
+name = "lsoff"
+description = "CLI / TUI that lists listening TCP/UDP ports"
+author = "yutat23"
+homepage = "https://github.com/yutat23/lsoff"
+readme = "https://raw.githubusercontent.com/yutat23/lsoff/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/yutat23/lsoff@latest"

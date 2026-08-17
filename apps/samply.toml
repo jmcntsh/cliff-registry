@@ -1,0 +1,12 @@
+name = "samply"
+description = "Command-line sampling profiler for macOS, Linux, and Windows"
+author = "mstange"
+homepage = "https://github.com/mstange/samply"
+readme = "https://raw.githubusercontent.com/mstange/samply/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "samply"

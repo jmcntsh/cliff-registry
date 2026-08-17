@@ -1,0 +1,12 @@
+name = "grpc-health-probe"
+description = "A command-line tool to perform health-checks for gRPC applications in Kubernetes and elsewhere"
+author = "grpc-ecosystem"
+homepage = "https://github.com/grpc-ecosystem/grpc-health-probe"
+readme = "https://raw.githubusercontent.com/grpc-ecosystem/grpc-health-probe/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/grpc-ecosystem/grpc-health-probe@latest"

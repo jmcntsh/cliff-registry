@@ -1,0 +1,12 @@
+name = "javascripting"
+description = "Learn JavaScript by adventuring around in the terminal."
+author = "workshopper"
+homepage = "https://github.com/workshopper/javascripting"
+readme = "https://raw.githubusercontent.com/workshopper/javascripting/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "javascripting"

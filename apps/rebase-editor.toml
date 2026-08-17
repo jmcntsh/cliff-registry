@@ -1,0 +1,11 @@
+name = "rebase-editor"
+description = "Simple terminal based sequence editor for git interactive rebase."
+author = "sjurba"
+homepage = "https://github.com/sjurba/rebase-editor"
+readme = "https://raw.githubusercontent.com/sjurba/rebase-editor/master/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "npm"
+package = "rebase-editor"

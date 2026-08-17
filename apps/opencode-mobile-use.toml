@@ -1,0 +1,12 @@
+name = "opencode-mobile-use"
+description = "Control mobile devices from OpenCode — live TUI sidebar screen, resilient UI hierarchy dumps, touch gestures, and d..."
+author = "system1970"
+homepage = "https://github.com/system1970/opencode-mobile-use"
+readme = "https://raw.githubusercontent.com/system1970/opencode-mobile-use/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-mobile-use"

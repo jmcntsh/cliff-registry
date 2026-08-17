@@ -1,0 +1,12 @@
+name = "wecom-cli"
+description = "企业微信开放平台命令行工具 — 让人类和 AI Agent 都能在终端中操作企业微信"
+author = "WecomTeam"
+homepage = "https://github.com/WecomTeam/wecom-cli"
+readme = "https://raw.githubusercontent.com/WecomTeam/wecom-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "wecom-cli"

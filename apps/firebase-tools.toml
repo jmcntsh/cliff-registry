@@ -1,0 +1,12 @@
+name = "firebase-tools"
+description = "The Firebase Command Line Tools"
+author = "firebase"
+homepage = "https://github.com/firebase/firebase-tools"
+readme = "https://raw.githubusercontent.com/firebase/firebase-tools/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "firebase-tools"

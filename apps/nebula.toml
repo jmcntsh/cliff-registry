@@ -1,0 +1,12 @@
+name = "nebula"
+description = "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class..."
+author = "Kuddev"
+homepage = "https://github.com/Kuddev/nebula"
+readme = "https://raw.githubusercontent.com/Kuddev/nebula/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "nebula"

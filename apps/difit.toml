@@ -1,0 +1,12 @@
+name = "difit"
+description = "A lightweight command-line tool that spins up a local web server to display Git commit diffs in a GitHub-like Files c..."
+author = "yoshiko-pg"
+homepage = "https://github.com/yoshiko-pg/difit"
+readme = "https://raw.githubusercontent.com/yoshiko-pg/difit/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "difit"

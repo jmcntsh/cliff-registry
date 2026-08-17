@@ -1,0 +1,12 @@
+name = "nunu"
+description = "A CLI tool for building Go applications."
+author = "go-nunu"
+homepage = "https://github.com/go-nunu/nunu"
+readme = "https://raw.githubusercontent.com/go-nunu/nunu/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/go-nunu/nunu@latest"

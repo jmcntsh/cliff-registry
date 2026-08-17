@@ -1,0 +1,12 @@
+name = "eksctl"
+description = "The official CLI for Amazon EKS"
+author = "eksctl-io"
+homepage = "https://github.com/eksctl-io/eksctl"
+readme = "https://raw.githubusercontent.com/eksctl-io/eksctl/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/eksctl-io/eksctl@latest"

@@ -1,0 +1,12 @@
+name = "grpcurl"
+description = "Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers"
+author = "fullstorydev"
+homepage = "https://github.com/fullstorydev/grpcurl"
+readme = "https://raw.githubusercontent.com/fullstorydev/grpcurl/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/fullstorydev/grpcurl@latest"

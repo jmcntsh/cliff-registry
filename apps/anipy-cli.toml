@@ -1,0 +1,12 @@
+name = "anipy-cli"
+description = "Little tool in python to watch and download anime from the terminal (the better way to watch anime). Also applicable..."
+author = "sdaqo"
+homepage = "https://github.com/sdaqo/anipy-cli"
+readme = "https://raw.githubusercontent.com/sdaqo/anipy-cli/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "anipy-cli"

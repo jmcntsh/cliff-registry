@@ -1,0 +1,12 @@
+name = "killport"
+description = "A command-line tool to kill processes and containers running on specified ports."
+author = "jkfran"
+homepage = "https://github.com/jkfran/killport"
+readme = "https://raw.githubusercontent.com/jkfran/killport/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "killport"

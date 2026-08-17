@@ -1,0 +1,12 @@
+name = "koanf"
+description = "Simple, extremely lightweight, extensible, configuration management library for Go. Supports JSON, TOML, YAML, env, c..."
+author = "knadh"
+homepage = "https://github.com/knadh/koanf"
+readme = "https://raw.githubusercontent.com/knadh/koanf/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/knadh/koanf@latest"

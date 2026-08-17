@@ -1,0 +1,12 @@
+name = "llm-workflow-engine"
+description = "Power CLI and Workflow manager for LLMs (core package)"
+author = "llm-workflow-engine"
+homepage = "https://github.com/llm-workflow-engine/llm-workflow-engine"
+readme = "https://raw.githubusercontent.com/llm-workflow-engine/llm-workflow-engine/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "llm-workflow-engine"

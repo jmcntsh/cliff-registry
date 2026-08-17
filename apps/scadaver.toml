@@ -1,0 +1,12 @@
+name = "scadaver"
+description = "SCADAver: a Rust-powered, multi-protocol OT/ICS security framework for authorized labs featuring asset discovery, enu..."
+author = "Whispergate"
+homepage = "https://github.com/Whispergate/SCADAVER"
+readme = "https://raw.githubusercontent.com/Whispergate/SCADAVER/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "SCADAVER"

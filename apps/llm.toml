@@ -1,0 +1,12 @@
+name = "llm"
+description = "Access large language models from the command-line"
+author = "simonw"
+homepage = "https://github.com/simonw/llm"
+readme = "https://raw.githubusercontent.com/simonw/llm/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "llm"
