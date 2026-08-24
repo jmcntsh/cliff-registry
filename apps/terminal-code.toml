@@ -1,0 +1,12 @@
+name = "terminal-code"
+description = "VS Code in the terminal"
+author = "zenbu-labs"
+homepage = "https://github.com/zenbu-labs/terminal-code"
+readme = "https://raw.githubusercontent.com/zenbu-labs/terminal-code/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "terminal-code"

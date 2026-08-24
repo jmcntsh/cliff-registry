@@ -1,0 +1,12 @@
+name = "av"
+description = "A command line tool to manage stacked PRs with Aviator"
+author = "aviator-co"
+homepage = "https://github.com/aviator-co/av"
+readme = "https://raw.githubusercontent.com/aviator-co/av/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aviator-co/av@latest"

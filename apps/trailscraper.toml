@@ -1,0 +1,12 @@
+name = "trailscraper"
+description = "A command-line tool to get valuable information out of AWS CloudTrail"
+author = "flosell"
+homepage = "https://github.com/flosell/trailscraper"
+readme = "https://raw.githubusercontent.com/flosell/trailscraper/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "trailscraper"

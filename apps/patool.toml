@@ -1,0 +1,12 @@
+name = "patool"
+description = "patool is a portable command line archive file manager"
+author = "wummel"
+homepage = "https://github.com/wummel/patool"
+readme = "https://raw.githubusercontent.com/wummel/patool/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "patool"

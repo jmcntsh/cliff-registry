@@ -1,0 +1,12 @@
+name = "terraform-switcher"
+description = "A command line tool to switch between different versions of terraform (install with homebrew and more)"
+author = "warrensbox"
+homepage = "https://github.com/warrensbox/terraform-switcher"
+readme = "https://raw.githubusercontent.com/warrensbox/terraform-switcher/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/warrensbox/terraform-switcher@latest"

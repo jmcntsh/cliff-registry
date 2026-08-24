@@ -1,0 +1,12 @@
+name = "chroncal"
+description = "Terminal-first calendar, todo, and journal manager with iCalendar (RFC 5545) support and CalDAV sync — CLI + TUI, l..."
+author = "DouglasdeMoura"
+homepage = "https://github.com/DouglasdeMoura/chroncal"
+readme = "https://raw.githubusercontent.com/DouglasdeMoura/chroncal/master/README.md"
+tags = ["tui"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/DouglasdeMoura/chroncal@latest"

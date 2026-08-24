@@ -1,0 +1,12 @@
+name = "valvefm"
+description = "Vintage FM radio TUI for streaming stations from radio-browser.info."
+author = "Zorig"
+homepage = "https://github.com/Zorig/valveFM"
+readme = "https://raw.githubusercontent.com/Zorig/valveFM/main/README.md"
+tags = ["tui"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Zorig/valveFM@latest"

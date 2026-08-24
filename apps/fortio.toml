@@ -1,0 +1,12 @@
+name = "fortio"
+description = "Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a s..."
+author = "fortio"
+homepage = "https://github.com/fortio/fortio"
+readme = "https://raw.githubusercontent.com/fortio/fortio/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/fortio/fortio@latest"

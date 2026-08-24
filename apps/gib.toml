@@ -1,0 +1,12 @@
+name = "gib"
+description = "A simple TUI application for automating the installation of BepInEx on macOS"
+author = "toebeann"
+homepage = "https://github.com/toebeann/gib"
+readme = "https://raw.githubusercontent.com/toebeann/gib/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "ISC"
+
+[[installs]]
+type = "npm"
+package = "gib"

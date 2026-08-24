@@ -1,0 +1,12 @@
+name = "go-http-file-server"
+description = "Simple command line based HTTP file server to share local file system"
+author = "mjpclab"
+homepage = "https://github.com/mjpclab/go-http-file-server"
+readme = "https://raw.githubusercontent.com/mjpclab/go-http-file-server/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mjpclab/go-http-file-server@latest"

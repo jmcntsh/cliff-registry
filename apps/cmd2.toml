@@ -1,0 +1,12 @@
+name = "cmd2"
+description = "cmd2 - quickly build feature-rich and user-friendly interactive command line applications in Python"
+author = "python-cmd2"
+homepage = "https://github.com/python-cmd2/cmd2"
+readme = "https://raw.githubusercontent.com/python-cmd2/cmd2/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cmd2"

@@ -1,0 +1,12 @@
+name = "openoutreach"
+description = "Open-source AI agent for B2B lead generation — describe your product, it finds the people who fit and explains why..."
+author = "eracle"
+homepage = "https://github.com/eracle/OpenOutreach"
+readme = "https://raw.githubusercontent.com/eracle/OpenOutreach/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "OpenOutreach"

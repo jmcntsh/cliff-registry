@@ -1,0 +1,12 @@
+name = "vrc-get"
+description = "Fast Open Source command line (vrc-get) and graphical (ALCOM) client of VRChat Package Manager (VRChat Creator Compan..."
+author = "vrc-get"
+homepage = "https://github.com/vrc-get/vrc-get"
+readme = "https://raw.githubusercontent.com/vrc-get/vrc-get/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "vrc-get"

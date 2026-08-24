@@ -1,0 +1,12 @@
+name = "cliui"
+description = "easily create complex multi-column command-line-interfaces."
+author = "yargs"
+homepage = "https://github.com/yargs/cliui"
+readme = "https://raw.githubusercontent.com/yargs/cliui/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "ISC"
+
+[[installs]]
+type = "npm"
+package = "cliui"

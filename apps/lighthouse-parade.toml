@@ -1,0 +1,12 @@
+name = "lighthouse-parade"
+description = "A Node.js command line tool that crawls a domain and gathers lighthouse performance data for every page."
+author = "cloudfour"
+homepage = "https://github.com/cloudfour/lighthouse-parade"
+readme = "https://raw.githubusercontent.com/cloudfour/lighthouse-parade/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "lighthouse-parade"

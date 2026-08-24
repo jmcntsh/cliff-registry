@@ -1,0 +1,12 @@
+name = "safecloset"
+description = "Cross-platform Secure TUI Secret Locker"
+author = "Canop"
+homepage = "https://github.com/Canop/safecloset"
+readme = "https://raw.githubusercontent.com/Canop/safecloset/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "safecloset"

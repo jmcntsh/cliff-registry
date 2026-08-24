@@ -1,0 +1,12 @@
+name = "yt-collate"
+description = "Efficient, well-rounded YouTube Music TUI client"
+author = "indigo0445"
+homepage = "https://github.com/indigo0445/yt-collate"
+readme = "https://raw.githubusercontent.com/indigo0445/yt-collate/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "yt-collate"

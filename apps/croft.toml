@@ -1,0 +1,12 @@
+name = "croft"
+description = "VSCode-style TUI written in Rust https://docs.croft.software"
+author = "vitali87"
+homepage = "https://github.com/vitali87/croft"
+readme = "https://raw.githubusercontent.com/vitali87/croft/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "croft"

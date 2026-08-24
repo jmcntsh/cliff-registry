@@ -1,0 +1,12 @@
+name = "tongo"
+description = "A TUI for MongoDB."
+author = "drewzemke"
+homepage = "https://github.com/drewzemke/tongo"
+readme = "https://raw.githubusercontent.com/drewzemke/tongo/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "tongo"

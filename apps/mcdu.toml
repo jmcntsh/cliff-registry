@@ -1,0 +1,12 @@
+name = "mcdu"
+description = "'ncdu' + 'ccleaner' for linux/macos in TUI."
+author = "mikalv"
+homepage = "https://github.com/mikalv/mcdu"
+readme = "https://raw.githubusercontent.com/mikalv/mcdu/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "mcdu"

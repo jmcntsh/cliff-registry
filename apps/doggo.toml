@@ -1,0 +1,12 @@
+name = "doggo"
+description = ":dog: Command-line DNS Client for Humans. Written in Golang"
+author = "mr-karan"
+homepage = "https://github.com/mr-karan/doggo"
+readme = "https://raw.githubusercontent.com/mr-karan/doggo/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/mr-karan/doggo@latest"

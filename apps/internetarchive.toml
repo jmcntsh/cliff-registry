@@ -1,0 +1,12 @@
+name = "internetarchive"
+description = "A Python and Command-Line Interface to Archive.org"
+author = "jjjake"
+homepage = "https://github.com/jjjake/internetarchive"
+readme = "https://raw.githubusercontent.com/jjjake/internetarchive/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "internetarchive"

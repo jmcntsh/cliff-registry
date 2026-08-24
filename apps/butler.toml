@@ -1,0 +1,12 @@
+name = "butler"
+description = "🎩 Command-line itch.io helper"
+author = "itchio"
+homepage = "https://github.com/itchio/butler"
+readme = "https://raw.githubusercontent.com/itchio/butler/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/itchio/butler@latest"

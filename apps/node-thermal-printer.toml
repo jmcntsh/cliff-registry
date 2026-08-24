@@ -1,0 +1,12 @@
+name = "node-thermal-printer"
+description = "Node.js module for Epson, Star, Tanca, Drauma, Custom and Brother thermal printers command line printing."
+author = "Klemen1337"
+homepage = "https://github.com/Klemen1337/node-thermal-printer"
+readme = "https://raw.githubusercontent.com/Klemen1337/node-thermal-printer/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "node-thermal-printer"

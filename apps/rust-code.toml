@@ -1,0 +1,12 @@
+name = "rust-code"
+description = "AI-powered terminal coding agent in Rust — TUI, BAML agent loop, fuzzy search, tmux background tasks, skills, MCP s..."
+author = "fortunto2"
+homepage = "https://github.com/fortunto2/rust-code"
+readme = "https://raw.githubusercontent.com/fortunto2/rust-code/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rust-code"

@@ -1,0 +1,12 @@
+name = "pyghidra-mcp"
+description = "Python Command-Line Ghidra MCP"
+author = "clearbluejar"
+homepage = "https://github.com/clearbluejar/pyghidra-mcp"
+readme = "https://raw.githubusercontent.com/clearbluejar/pyghidra-mcp/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "pyghidra-mcp"

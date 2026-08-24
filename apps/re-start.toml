@@ -1,0 +1,12 @@
+name = "re-start"
+description = "a tui-style browser startpage"
+author = "refact0r"
+homepage = "https://github.com/refact0r/re-start"
+readme = "https://raw.githubusercontent.com/refact0r/re-start/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "re-start"

@@ -1,0 +1,12 @@
+name = "nak"
+description = "a command line tool for doing all things nostr"
+author = "fiatjaf"
+homepage = "https://github.com/fiatjaf/nak"
+readme = "https://raw.githubusercontent.com/fiatjaf/nak/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "UNLICENSE"
+
+[[installs]]
+type = "go"
+package = "github.com/fiatjaf/nak@latest"

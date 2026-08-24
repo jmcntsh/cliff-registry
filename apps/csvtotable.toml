@@ -1,0 +1,12 @@
+name = "csvtotable"
+description = "Simple command-line utility to convert CSV, TSV and Excel files into a single self-contained HTML page with search, f..."
+author = "vividvilla"
+homepage = "https://github.com/vividvilla/csvtotable"
+readme = "https://raw.githubusercontent.com/vividvilla/csvtotable/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vividvilla/csvtotable@latest"

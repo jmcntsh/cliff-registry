@@ -1,0 +1,12 @@
+name = "chat"
+description = "Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chat..."
+author = "tinode"
+homepage = "https://github.com/tinode/chat"
+readme = "https://raw.githubusercontent.com/tinode/chat/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/tinode/chat@latest"

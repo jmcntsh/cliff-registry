@@ -1,0 +1,12 @@
+name = "manifest-tool"
+description = "Command line tool to create and query container image manifest list/indexes"
+author = "estesp"
+homepage = "https://github.com/estesp/manifest-tool"
+readme = "https://raw.githubusercontent.com/estesp/manifest-tool/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/estesp/manifest-tool@latest"

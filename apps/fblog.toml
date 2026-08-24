@@ -1,0 +1,12 @@
+name = "fblog"
+description = "Small command-line JSON Log viewer"
+author = "brocode"
+homepage = "https://github.com/brocode/fblog"
+readme = "https://raw.githubusercontent.com/brocode/fblog/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "WTFPL"
+
+[[installs]]
+type = "cargo"
+package = "fblog"

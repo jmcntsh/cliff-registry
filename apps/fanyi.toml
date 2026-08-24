@@ -1,0 +1,12 @@
+name = "fanyi"
+description = "A 🇨🇳 and 🇺🇸 translator in your command line"
+author = "afc163"
+homepage = "https://github.com/afc163/fanyi"
+readme = "https://raw.githubusercontent.com/afc163/fanyi/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "fanyi"

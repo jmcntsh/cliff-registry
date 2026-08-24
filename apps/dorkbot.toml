@@ -1,0 +1,12 @@
+name = "dorkbot"
+description = "Command-line tool to scan Google search results for vulnerabilities"
+author = "utiso"
+homepage = "https://github.com/utiso/dorkbot"
+readme = "https://raw.githubusercontent.com/utiso/dorkbot/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "dorkbot"

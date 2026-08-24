@@ -1,0 +1,12 @@
+name = "speedtest-cli"
+description = "Command line client for LibreSpeed"
+author = "librespeed"
+homepage = "https://github.com/librespeed/speedtest-cli"
+readme = "https://raw.githubusercontent.com/librespeed/speedtest-cli/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/librespeed/speedtest-cli@latest"

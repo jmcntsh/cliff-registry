@@ -1,0 +1,12 @@
+name = "mavproxy"
+description = "MAVLink proxy and command line ground station"
+author = "ArduPilot"
+homepage = "https://github.com/ArduPilot/MAVProxy"
+readme = "https://raw.githubusercontent.com/ArduPilot/MAVProxy/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "MAVProxy"

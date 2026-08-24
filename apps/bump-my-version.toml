@@ -1,0 +1,12 @@
+name = "bump-my-version"
+description = "A small command line tool to simplify releasing software by updating all version strings in your source code by the c..."
+author = "callowayproject"
+homepage = "https://github.com/callowayproject/bump-my-version"
+readme = "https://raw.githubusercontent.com/callowayproject/bump-my-version/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "bump-my-version"

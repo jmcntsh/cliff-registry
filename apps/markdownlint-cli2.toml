@@ -1,0 +1,12 @@
+name = "markdownlint-cli2"
+description = "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownl..."
+author = "DavidAnson"
+homepage = "https://github.com/DavidAnson/markdownlint-cli2"
+readme = "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "markdownlint-cli2"

@@ -1,0 +1,12 @@
+name = "linode-cli"
+description = "The official Linode command line interface."
+author = "linode"
+homepage = "https://github.com/linode/linode-cli"
+readme = "https://raw.githubusercontent.com/linode/linode-cli/dev/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "linode-cli"

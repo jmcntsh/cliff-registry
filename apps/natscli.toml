@@ -1,0 +1,12 @@
+name = "natscli"
+description = "The NATS Command Line Interface"
+author = "nats-io"
+homepage = "https://github.com/nats-io/natscli"
+readme = "https://raw.githubusercontent.com/nats-io/natscli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/nats-io/natscli@latest"

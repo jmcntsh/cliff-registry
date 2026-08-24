@@ -1,0 +1,12 @@
+name = "oci-cli"
+description = "Command Line Interface for Oracle Cloud Infrastructure"
+author = "oracle"
+homepage = "https://github.com/oracle/oci-cli"
+readme = "https://raw.githubusercontent.com/oracle/oci-cli/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "oci-cli"

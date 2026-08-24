@@ -1,0 +1,12 @@
+name = "rclip"
+description = "Semantic photo search for the command line"
+author = "yurijmikhalevich"
+homepage = "https://github.com/yurijmikhalevich/rclip"
+readme = "https://raw.githubusercontent.com/yurijmikhalevich/rclip/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "rclip"

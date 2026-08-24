@@ -1,0 +1,12 @@
+name = "pokeductor"
+description = "High-performance Rust TUI Pokedex & Evolution Analyzer. Fetches PokeAPI data asynchronously, parses complex branch tr..."
+author = "Huseynteymurzade28"
+homepage = "https://github.com/Huseynteymurzade28/pokeductor"
+readme = "https://raw.githubusercontent.com/Huseynteymurzade28/pokeductor/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "pokeductor"

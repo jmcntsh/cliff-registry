@@ -1,0 +1,12 @@
+name = "cocode"
+description = "Best ready-to-run DeepSeek Harness distribution: DSH desktop GUI, terminal TUI, and harness integration."
+author = "cocode-agency"
+homepage = "https://github.com/cocode-agency/cocode"
+readme = "https://raw.githubusercontent.com/cocode-agency/cocode/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cocode"

@@ -1,0 +1,12 @@
+name = "vultr-cli"
+description = "Official command line tool for Vultr services"
+author = "vultr"
+homepage = "https://github.com/vultr/vultr-cli"
+readme = "https://raw.githubusercontent.com/vultr/vultr-cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/vultr/vultr-cli@latest"

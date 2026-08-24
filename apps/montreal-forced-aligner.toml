@@ -1,0 +1,12 @@
+name = "montreal-forced-aligner"
+description = "Command line utility for forced alignment using Kaldi"
+author = "MontrealCorpusTools"
+homepage = "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner"
+readme = "https://raw.githubusercontent.com/MontrealCorpusTools/Montreal-Forced-Aligner/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Montreal-Forced-Aligner"

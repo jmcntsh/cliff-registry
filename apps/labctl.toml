@@ -1,0 +1,12 @@
+name = "labctl"
+description = "iximiuz Labs control - start remote microVM playgrounds from the command line."
+author = "iximiuz"
+homepage = "https://github.com/iximiuz/labctl"
+readme = "https://raw.githubusercontent.com/iximiuz/labctl/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/iximiuz/labctl@latest"

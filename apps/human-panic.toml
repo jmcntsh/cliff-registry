@@ -1,0 +1,12 @@
+name = "human-panic"
+description = "Panic messages for humans."
+author = "rust-cli"
+homepage = "https://github.com/rust-cli/human-panic"
+readme = "https://raw.githubusercontent.com/rust-cli/human-panic/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "human-panic"
