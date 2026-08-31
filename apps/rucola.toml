@@ -1,0 +1,12 @@
+name = "rucola"
+description = "Terminal-based markdown note manager."
+author = "Linus-Mussmaecher"
+homepage = "https://github.com/Linus-Mussmaecher/rucola"
+readme = "https://raw.githubusercontent.com/Linus-Mussmaecher/rucola/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "rucola"

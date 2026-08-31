@@ -1,0 +1,12 @@
+name = "linear-cli"
+description = "linear without leaving the command line: list, start, and create PRs for linear issues. agent friendly."
+author = "schpet"
+homepage = "https://github.com/schpet/linear-cli"
+readme = "https://raw.githubusercontent.com/schpet/linear-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "ISC"
+
+[[installs]]
+type = "npm"
+package = "linear-cli"

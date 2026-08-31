@@ -1,0 +1,12 @@
+name = "ktea"
+description = "Kafka TUI client"
+author = "jonas-grgt"
+homepage = "https://github.com/jonas-grgt/ktea"
+readme = "https://raw.githubusercontent.com/jonas-grgt/ktea/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/jonas-grgt/ktea@latest"

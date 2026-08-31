@@ -1,0 +1,12 @@
+name = "pines"
+description = "Tree-first orchestration TUI for pi coding agents: run many pi sessions in parallel, keep them alive in the backgroun..."
+author = "edeng23"
+homepage = "https://github.com/edeng23/pines"
+readme = "https://raw.githubusercontent.com/edeng23/pines/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "pines"

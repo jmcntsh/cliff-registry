@@ -1,0 +1,12 @@
+name = "gallery-dl"
+description = "Command-line program to download image galleries and collections from several image hosting sites"
+author = "mikf"
+homepage = "https://github.com/mikf/gallery-dl"
+readme = "https://raw.githubusercontent.com/mikf/gallery-dl/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "gallery-dl"

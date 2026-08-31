@@ -1,0 +1,12 @@
+name = "whip"
+description = "A fast coding-agent harness in Go. Tool-use loop, bubbletea TUI, provider-routable models with live catalog discovery..."
+author = "context-labs"
+homepage = "https://github.com/context-labs/whip"
+readme = "https://raw.githubusercontent.com/context-labs/whip/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/context-labs/whip@latest"

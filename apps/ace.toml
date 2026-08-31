@@ -1,0 +1,12 @@
+name = "ace"
+description = "Node.js framework for creating command line applications"
+author = "adonisjs"
+homepage = "https://github.com/adonisjs/ace"
+readme = "https://raw.githubusercontent.com/adonisjs/ace/14.x/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ace"

@@ -1,0 +1,12 @@
+name = "auth0-cli"
+description = "Build, manage and test your Auth0 integrations from the command line"
+author = "auth0"
+homepage = "https://github.com/auth0/auth0-cli"
+readme = "https://raw.githubusercontent.com/auth0/auth0-cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/auth0/auth0-cli@latest"

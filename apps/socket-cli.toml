@@ -1,0 +1,11 @@
+name = "socket-cli"
+description = "Command-line interface for socket.dev security analysis"
+author = "SocketDev"
+homepage = "https://github.com/SocketDev/socket-cli"
+readme = "https://raw.githubusercontent.com/SocketDev/socket-cli/main/README.md"
+tags = ["cli"]
+category = "Security"
+
+[[installs]]
+type = "npm"
+package = "socket-cli"

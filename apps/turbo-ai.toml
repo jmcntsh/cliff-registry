@@ -1,0 +1,12 @@
+name = "turbo-ai"
+description = "Retro DOS / Turbo Pascal 7.0 TUI frontend for the Pi coding agent"
+author = "kvv256512-ux"
+homepage = "https://github.com/kvv256512-ux/turbo-ai"
+readme = "https://raw.githubusercontent.com/kvv256512-ux/turbo-ai/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "turbo-ai"

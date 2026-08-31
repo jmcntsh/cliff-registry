@@ -1,0 +1,12 @@
+name = "mystmd"
+description = "Command line tools for working with MyST Markdown."
+author = "jupyter-book"
+homepage = "https://github.com/jupyter-book/mystmd"
+readme = "https://raw.githubusercontent.com/jupyter-book/mystmd/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "mystmd"

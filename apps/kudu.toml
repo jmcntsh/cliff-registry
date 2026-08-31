@@ -1,0 +1,12 @@
+name = "kudu"
+description = "🖥️ TUI VM Manager on Linux"
+author = "pythops"
+homepage = "https://github.com/pythops/kudu"
+readme = "https://raw.githubusercontent.com/pythops/kudu/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "kudu"

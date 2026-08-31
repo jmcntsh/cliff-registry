@@ -1,0 +1,12 @@
+name = "force"
+description = "A command-line interface to force.com"
+author = "ForceCLI"
+homepage = "https://github.com/ForceCLI/force"
+readme = "https://raw.githubusercontent.com/ForceCLI/force/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ForceCLI/force@latest"

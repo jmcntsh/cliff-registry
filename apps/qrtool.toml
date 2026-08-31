@@ -1,0 +1,11 @@
+name = "qrtool"
+description = "A command-line utility for encoding and decoding QR code"
+author = "sorairolake"
+homepage = "https://github.com/sorairolake/qrtool"
+readme = "https://raw.githubusercontent.com/sorairolake/qrtool/develop/README.md"
+tags = ["cli"]
+category = "Developer tools"
+
+[[installs]]
+type = "cargo"
+package = "qrtool"

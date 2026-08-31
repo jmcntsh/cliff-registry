@@ -1,0 +1,12 @@
+name = "livekit-cli"
+description = "Command line interface to LiveKit"
+author = "livekit"
+homepage = "https://github.com/livekit/livekit-cli"
+readme = "https://raw.githubusercontent.com/livekit/livekit-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/livekit/livekit-cli@latest"

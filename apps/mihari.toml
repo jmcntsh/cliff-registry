@@ -1,0 +1,12 @@
+name = "mihari"
+description = "Mihari — a new, independent local manager for mihomo, with a daemon-owned control plane shared by CLI, TUI, and bro..."
+author = "mihari-proxy"
+homepage = "https://github.com/mihari-proxy/mihari"
+readme = "https://raw.githubusercontent.com/mihari-proxy/mihari/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/mihari-proxy/mihari@latest"

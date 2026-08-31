@@ -1,0 +1,12 @@
+name = "ekphos-nostacks"
+description = "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian"
+author = "nostacks"
+homepage = "https://github.com/nostacks/ekphos"
+readme = "https://raw.githubusercontent.com/nostacks/ekphos/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ekphos"

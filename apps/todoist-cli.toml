@@ -1,0 +1,12 @@
+name = "todoist-cli"
+description = "Command-line interface for Todoist."
+author = "Doist"
+homepage = "https://github.com/Doist/todoist-cli"
+readme = "https://raw.githubusercontent.com/Doist/todoist-cli/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "todoist-cli"

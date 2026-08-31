@@ -1,0 +1,12 @@
+name = "yt-dlp-manager"
+description = "Self-hosted yt-dlp download manager: web UI, TUI and CLI over one shared queue. Single Go binary."
+author = "ih8d8"
+homepage = "https://github.com/ih8d8/yt-dlp-manager"
+readme = "https://raw.githubusercontent.com/ih8d8/yt-dlp-manager/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ih8d8/yt-dlp-manager@latest"

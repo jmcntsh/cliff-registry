@@ -1,0 +1,12 @@
+name = "f2"
+description = "F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go!"
+author = "ayoisaiah"
+homepage = "https://github.com/ayoisaiah/f2"
+readme = "https://raw.githubusercontent.com/ayoisaiah/f2/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ayoisaiah/f2@latest"

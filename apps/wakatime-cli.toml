@@ -1,0 +1,12 @@
+name = "wakatime-cli"
+description = "Command line interface used by all WakaTime text editor plugins"
+author = "wakatime"
+homepage = "https://github.com/wakatime/wakatime-cli"
+readme = "https://raw.githubusercontent.com/wakatime/wakatime-cli/develop/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/wakatime/wakatime-cli@latest"

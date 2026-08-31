@@ -1,0 +1,11 @@
+name = "cli-withoneai"
+description = "A command-line tool to give your agents access to any app, create workflows and manage your One account."
+author = "withoneai"
+homepage = "https://github.com/withoneai/cli"
+readme = "https://raw.githubusercontent.com/withoneai/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "cli"

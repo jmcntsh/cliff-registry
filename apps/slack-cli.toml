@@ -1,0 +1,12 @@
+name = "slack-cli"
+description = "Create, develop, and deploy Slack apps from the command-line ✨"
+author = "slackapi"
+homepage = "https://github.com/slackapi/slack-cli"
+readme = "https://raw.githubusercontent.com/slackapi/slack-cli/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/slackapi/slack-cli@latest"

@@ -1,0 +1,12 @@
+name = "unity-cli"
+description = "Control Unity Editor from the command line. No MCP, no Python, no dependencies — just a single binary."
+author = "youngwoocho02"
+homepage = "https://github.com/youngwoocho02/unity-cli"
+readme = "https://raw.githubusercontent.com/youngwoocho02/unity-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/youngwoocho02/unity-cli@latest"

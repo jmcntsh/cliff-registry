@@ -1,0 +1,12 @@
+name = "headless-terminal"
+description = "Headless terminal — puppeteer for TUIs (vim/emacs/htop/nethack) with a Go CLI backed by libghostty-vt"
+author = "montanaflynn"
+homepage = "https://github.com/montanaflynn/headless-terminal"
+readme = "https://raw.githubusercontent.com/montanaflynn/headless-terminal/main/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/montanaflynn/headless-terminal@latest"

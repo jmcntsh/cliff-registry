@@ -1,0 +1,12 @@
+name = "fastapi-cli"
+description = "Run and manage FastAPI apps from the command line with FastAPI CLI. 🚀"
+author = "fastapi"
+homepage = "https://github.com/fastapi/fastapi-cli"
+readme = "https://raw.githubusercontent.com/fastapi/fastapi-cli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "fastapi-cli"

@@ -1,0 +1,12 @@
+name = "ctty"
+description = "A lightweight, all-in-one connection manager — SSH, serial, and SFTP in a single TUI 🔥"
+author = "zsuroy"
+homepage = "https://github.com/zsuroy/ctty"
+readme = "https://raw.githubusercontent.com/zsuroy/ctty/master/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/zsuroy/ctty@latest"

@@ -1,0 +1,12 @@
+name = "crush"
+description = "Crush is a command line shell that is also a powerful modern programming language."
+author = "liljencrantz"
+homepage = "https://github.com/liljencrantz/crush"
+readme = "https://raw.githubusercontent.com/liljencrantz/crush/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "crush"

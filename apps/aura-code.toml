@@ -1,0 +1,12 @@
+name = "aura-code"
+description = "Aura — AI coding agent with persistent memory and TUI"
+author = "DusanCar-sudo"
+homepage = "https://github.com/DusanCar-sudo/aura-code"
+readme = "https://raw.githubusercontent.com/DusanCar-sudo/aura-code/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "aura-code"

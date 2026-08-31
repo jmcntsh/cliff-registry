@@ -1,0 +1,12 @@
+name = "cargo-clean-all"
+description = "Fast recursive detection and cleaning of rust projects with interactive TUI and filters. Find rust projects anywhere..."
+author = "dnlmlr"
+homepage = "https://github.com/dnlmlr/cargo-clean-all"
+readme = "https://raw.githubusercontent.com/dnlmlr/cargo-clean-all/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "cargo-clean-all"

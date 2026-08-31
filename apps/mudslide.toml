@@ -1,0 +1,12 @@
+name = "mudslide"
+description = "Send WhatsApp messages from the command-line 📯"
+author = "robvanderleek"
+homepage = "https://github.com/robvanderleek/mudslide"
+readme = "https://raw.githubusercontent.com/robvanderleek/mudslide/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "ISC"
+
+[[installs]]
+type = "npm"
+package = "mudslide"

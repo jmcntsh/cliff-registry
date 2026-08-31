@@ -1,0 +1,12 @@
+name = "mat2"
+description = "mat2 is a metadata removal tool, supporting a wide range of commonly used file formats, written in python3: at its co..."
+author = "jvoisin"
+homepage = "https://github.com/jvoisin/mat2"
+readme = "https://raw.githubusercontent.com/jvoisin/mat2/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "mat2"

@@ -1,0 +1,12 @@
+name = "migrate"
+description = "Database migrations. CLI and Golang library."
+author = "golang-migrate"
+homepage = "https://github.com/golang-migrate/migrate"
+readme = "https://raw.githubusercontent.com/golang-migrate/migrate/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/golang-migrate/migrate@latest"

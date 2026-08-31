@@ -1,0 +1,11 @@
+name = "critter"
+description = "🐛 A TUI for reviewing via github"
+author = "andyhmltn"
+homepage = "https://github.com/andyhmltn/critter"
+readme = "https://raw.githubusercontent.com/andyhmltn/critter/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "cargo"
+package = "critter"

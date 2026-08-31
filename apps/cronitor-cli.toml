@@ -1,0 +1,12 @@
+name = "cronitor-cli"
+description = "Command line tools for Cronitor.io"
+author = "cronitorio"
+homepage = "https://github.com/cronitorio/cronitor-cli"
+readme = "https://raw.githubusercontent.com/cronitorio/cronitor-cli/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/cronitorio/cronitor-cli@latest"

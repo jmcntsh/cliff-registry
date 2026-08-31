@@ -1,0 +1,12 @@
+name = "repgrep"
+description = "An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line."
+author = "acheronfail"
+homepage = "https://github.com/acheronfail/repgrep"
+readme = "https://raw.githubusercontent.com/acheronfail/repgrep/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "repgrep"

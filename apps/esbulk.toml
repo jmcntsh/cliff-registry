@@ -1,0 +1,12 @@
+name = "esbulk"
+description = "Bulk indexing command line tool for elasticsearch."
+author = "miku"
+homepage = "https://github.com/miku/esbulk"
+readme = "https://raw.githubusercontent.com/miku/esbulk/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/miku/esbulk@latest"

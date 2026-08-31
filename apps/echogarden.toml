@@ -1,0 +1,11 @@
+name = "echogarden"
+description = "Cross-platform speech toolset, used from the command-line or as a Node.js library. Includes a variety of engines for..."
+author = "echogarden-project"
+homepage = "https://github.com/echogarden-project/echogarden"
+readme = "https://raw.githubusercontent.com/echogarden-project/echogarden/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "echogarden"

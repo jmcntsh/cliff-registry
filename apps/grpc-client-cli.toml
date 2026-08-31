@@ -1,0 +1,12 @@
+name = "grpc-client-cli"
+description = "generic gRPC command line client"
+author = "vadimi"
+homepage = "https://github.com/vadimi/grpc-client-cli"
+readme = "https://raw.githubusercontent.com/vadimi/grpc-client-cli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vadimi/grpc-client-cli@latest"

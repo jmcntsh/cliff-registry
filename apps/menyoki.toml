@@ -1,0 +1,12 @@
+name = "menyoki"
+description = "Screen{shot,cast} and perform ImageOps on the command line 🌱 🏞️"
+author = "orhun"
+homepage = "https://github.com/orhun/menyoki"
+readme = "https://raw.githubusercontent.com/orhun/menyoki/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "menyoki"

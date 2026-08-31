@@ -1,0 +1,12 @@
+name = "streamtop"
+description = "Terminal HLS, DASH, and IPTV stream monitor. Wire probes, TR 101 290, SCTE-35, Prometheus metrics. Rust CLI/TUI."
+author = "Jorji49"
+homepage = "https://github.com/Jorji49/streamtop"
+readme = "https://raw.githubusercontent.com/Jorji49/streamtop/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "streamtop"

@@ -1,0 +1,12 @@
+name = "agentica"
+description = "One person, a team of agents. Multi-session CLI that collaborates across terminals; /goal keeps long tasks running; W..."
+author = "shibing624"
+homepage = "https://github.com/shibing624/agentica"
+readme = "https://raw.githubusercontent.com/shibing624/agentica/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "agentica"

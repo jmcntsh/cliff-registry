@@ -1,0 +1,12 @@
+name = "steer"
+description = "TUI-oriented coding agent written in Rust."
+author = "BrendanGraham14"
+homepage = "https://github.com/BrendanGraham14/steer"
+readme = "https://raw.githubusercontent.com/BrendanGraham14/steer/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "steer"

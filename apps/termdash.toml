@@ -1,0 +1,12 @@
+name = "termdash"
+description = "Terminal based dashboard."
+author = "mum4k"
+homepage = "https://github.com/mum4k/termdash"
+readme = "https://raw.githubusercontent.com/mum4k/termdash/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/mum4k/termdash@latest"

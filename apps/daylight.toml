@@ -1,0 +1,12 @@
+name = "daylight"
+description = "a command-line program for tracking sunrise and sunset times"
+author = "jbreckmckye"
+homepage = "https://github.com/jbreckmckye/daylight"
+readme = "https://raw.githubusercontent.com/jbreckmckye/daylight/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/jbreckmckye/daylight@latest"

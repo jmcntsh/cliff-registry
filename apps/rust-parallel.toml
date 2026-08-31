@@ -1,0 +1,12 @@
+name = "rust-parallel"
+description = "Fast command line app in rust/tokio to run commands in parallel. Similar interface to GNU parallel or xargs plus usef..."
+author = "aaronriekenberg"
+homepage = "https://github.com/aaronriekenberg/rust-parallel"
+readme = "https://raw.githubusercontent.com/aaronriekenberg/rust-parallel/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rust-parallel"

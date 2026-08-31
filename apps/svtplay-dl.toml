@@ -1,0 +1,12 @@
+name = "svtplay-dl"
+description = "Small command-line program to download videos from some streaming sites."
+author = "spaam"
+homepage = "https://github.com/spaam/svtplay-dl"
+readme = "https://raw.githubusercontent.com/spaam/svtplay-dl/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "svtplay-dl"
