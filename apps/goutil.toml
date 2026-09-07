@@ -1,0 +1,12 @@
+name = "goutil"
+description = "💪 Helper Utils(900+): int, byte, string, array/slice, map, struct, dump, convert/format, error, web/http, cli/flag..."
+author = "gookit"
+homepage = "https://github.com/gookit/goutil"
+readme = "https://raw.githubusercontent.com/gookit/goutil/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gookit/goutil@latest"

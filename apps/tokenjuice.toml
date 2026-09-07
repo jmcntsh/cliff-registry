@@ -1,0 +1,12 @@
+name = "tokenjuice"
+description = "🧃 Token weight loss. Lean output compaction for terminal-heavy agent workflows. Works as a native CLI tool or as a..."
+author = "vincentkoc"
+homepage = "https://github.com/vincentkoc/tokenjuice"
+readme = "https://raw.githubusercontent.com/vincentkoc/tokenjuice/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "tokenjuice"

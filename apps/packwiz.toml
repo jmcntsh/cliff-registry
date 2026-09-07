@@ -1,0 +1,12 @@
+name = "packwiz"
+description = "A command line tool for editing and distributing Minecraft modpacks, using a git-friendly TOML format. Supports Curse..."
+author = "packwiz"
+homepage = "https://github.com/packwiz/packwiz"
+readme = "https://raw.githubusercontent.com/packwiz/packwiz/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/packwiz/packwiz@latest"

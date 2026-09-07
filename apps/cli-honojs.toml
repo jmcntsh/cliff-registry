@@ -1,0 +1,11 @@
+name = "cli-honojs"
+description = "Command-line tool for Hono, made for AI coding agents"
+author = "honojs"
+homepage = "https://github.com/honojs/cli"
+readme = "https://raw.githubusercontent.com/honojs/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "cli"

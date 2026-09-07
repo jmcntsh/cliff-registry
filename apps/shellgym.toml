@@ -1,0 +1,12 @@
+name = "shellgym"
+description = "Shell Gym - an Interactive Linux Command-Line Trainer"
+author = "iximiuz"
+homepage = "https://github.com/iximiuz/shellgym"
+readme = "https://raw.githubusercontent.com/iximiuz/shellgym/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/iximiuz/shellgym@latest"

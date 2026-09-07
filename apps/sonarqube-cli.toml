@@ -1,0 +1,12 @@
+name = "sonarqube-cli"
+description = "Command-line interface for SonarQube with AI agent integration. Scan for secrets and get fast feedback on code qualit..."
+author = "SonarSource"
+homepage = "https://github.com/SonarSource/sonarqube-cli"
+readme = "https://raw.githubusercontent.com/SonarSource/sonarqube-cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "sonarqube-cli"

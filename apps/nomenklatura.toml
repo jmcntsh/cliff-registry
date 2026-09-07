@@ -1,0 +1,12 @@
+name = "nomenklatura"
+description = "Framework and command-line tools for integrating FollowTheMoney data streams from multiple sources"
+author = "opensanctions"
+homepage = "https://github.com/opensanctions/nomenklatura"
+readme = "https://raw.githubusercontent.com/opensanctions/nomenklatura/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "nomenklatura"

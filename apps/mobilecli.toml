@@ -1,0 +1,12 @@
+name = "mobilecli"
+description = "Universal command-line tool for managing iOS and Android devices, simulators, emulators and apps"
+author = "mobile-next"
+homepage = "https://github.com/mobile-next/mobilecli"
+readme = "https://raw.githubusercontent.com/mobile-next/mobilecli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/mobile-next/mobilecli@latest"

@@ -1,0 +1,12 @@
+name = "ledger"
+description = "Command line double-entry accounting program"
+author = "howeyc"
+homepage = "https://github.com/howeyc/ledger"
+readme = "https://raw.githubusercontent.com/howeyc/ledger/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "ISC"
+
+[[installs]]
+type = "go"
+package = "github.com/howeyc/ledger@latest"

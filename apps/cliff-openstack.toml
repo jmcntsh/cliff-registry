@@ -1,0 +1,12 @@
+name = "cliff-openstack"
+description = "Command Line Interface Formulation Framework. Mirror of code maintained at opendev.org."
+author = "openstack"
+homepage = "https://github.com/openstack/cliff"
+readme = "https://raw.githubusercontent.com/openstack/cliff/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "cliff"

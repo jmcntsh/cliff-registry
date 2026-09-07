@@ -1,0 +1,12 @@
+name = "vpype"
+description = "The Swiss-Army-knife command-line tool for plotter vector graphics."
+author = "abey79"
+homepage = "https://github.com/abey79/vpype"
+readme = "https://raw.githubusercontent.com/abey79/vpype/master/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "vpype"

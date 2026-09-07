@@ -1,0 +1,12 @@
+name = "k10s-p10node"
+description = "Kubernetes TUI you can click. Instant search, logs/exec/port-forward, 7 themes, context-aware AI. Single Go binary."
+author = "p10node"
+homepage = "https://github.com/p10node/k10s"
+readme = "https://raw.githubusercontent.com/p10node/k10s/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/p10node/k10s@latest"

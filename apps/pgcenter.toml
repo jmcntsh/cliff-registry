@@ -1,0 +1,12 @@
+name = "pgcenter"
+description = "Command-line admin tool for observing and troubleshooting Postgres."
+author = "lesovsky"
+homepage = "https://github.com/lesovsky/pgcenter"
+readme = "https://raw.githubusercontent.com/lesovsky/pgcenter/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/lesovsky/pgcenter@latest"

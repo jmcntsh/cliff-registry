@@ -1,0 +1,12 @@
+name = "pcs"
+description = "Pacemaker command line interface and GUI"
+author = "ClusterLabs"
+homepage = "https://github.com/ClusterLabs/pcs"
+readme = "https://raw.githubusercontent.com/ClusterLabs/pcs/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "pcs"

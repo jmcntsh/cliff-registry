@@ -1,0 +1,12 @@
+name = "all-smi"
+description = "Command-line utility for monitoring GPU hardware."
+author = "lablup"
+homepage = "https://github.com/lablup/all-smi"
+readme = "https://raw.githubusercontent.com/lablup/all-smi/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "all-smi"

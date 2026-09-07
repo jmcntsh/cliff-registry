@@ -1,0 +1,12 @@
+name = "cmdg"
+description = "Command line Gmail client"
+author = "ThomasHabets"
+homepage = "https://github.com/ThomasHabets/cmdg"
+readme = "https://raw.githubusercontent.com/ThomasHabets/cmdg/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/ThomasHabets/cmdg@latest"

@@ -1,0 +1,12 @@
+name = "dsub"
+description = "Open-source command-line tool to run batch computing tasks and workflows on backend services such as Google Cloud."
+author = "DataBiosphere"
+homepage = "https://github.com/DataBiosphere/dsub"
+readme = "https://raw.githubusercontent.com/DataBiosphere/dsub/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "dsub"

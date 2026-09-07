@@ -1,0 +1,12 @@
+name = "memo"
+description = "Memo is a simple command-line interface (CLI) tool for managing your Apple Notes and Apple Reminders. It’s written..."
+author = "antoniorodr"
+homepage = "https://github.com/antoniorodr/memo"
+readme = "https://raw.githubusercontent.com/antoniorodr/memo/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "memo"

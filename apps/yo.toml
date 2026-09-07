@@ -1,0 +1,12 @@
+name = "yo"
+description = "yo is a command-line tool to generate Go code for Google Cloud Spanner."
+author = "cloudspannerecosystem"
+homepage = "https://github.com/cloudspannerecosystem/yo"
+readme = "https://raw.githubusercontent.com/cloudspannerecosystem/yo/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/cloudspannerecosystem/yo@latest"

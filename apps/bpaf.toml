@@ -1,0 +1,12 @@
+name = "bpaf"
+description = "Command line parser with applicative interface"
+author = "pacak"
+homepage = "https://github.com/pacak/bpaf"
+readme = "https://raw.githubusercontent.com/pacak/bpaf/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "bpaf"

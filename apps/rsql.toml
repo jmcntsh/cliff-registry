@@ -1,0 +1,12 @@
+name = "rsql"
+description = "Command line SQL interface for relational databases and common data file formats"
+author = "theseus-rs"
+homepage = "https://github.com/theseus-rs/rsql"
+readme = "https://raw.githubusercontent.com/theseus-rs/rsql/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rsql"

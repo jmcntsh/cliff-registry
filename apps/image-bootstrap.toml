@@ -1,0 +1,11 @@
+name = "image-bootstrap"
+description = ":partly_sunny: Creates Linux chroots and bootable virtual machine images; command line tool (Python 3)"
+author = "hartwork"
+homepage = "https://github.com/hartwork/image-bootstrap"
+readme = "https://raw.githubusercontent.com/hartwork/image-bootstrap/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "pipx"
+package = "image-bootstrap"

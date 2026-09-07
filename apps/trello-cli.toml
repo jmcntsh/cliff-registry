@@ -1,0 +1,11 @@
+name = "trello-cli"
+description = "Command line client for Trello"
+author = "mheap"
+homepage = "https://github.com/mheap/trello-cli"
+readme = "https://raw.githubusercontent.com/mheap/trello-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "trello-cli"

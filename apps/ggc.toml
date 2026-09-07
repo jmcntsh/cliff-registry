@@ -1,0 +1,12 @@
+name = "ggc"
+description = "A modern Git CLI tool with both traditional command-line and interactive incremental-search UI."
+author = "bmf-san"
+homepage = "https://github.com/bmf-san/ggc"
+readme = "https://raw.githubusercontent.com/bmf-san/ggc/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bmf-san/ggc@latest"

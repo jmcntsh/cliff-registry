@@ -1,0 +1,12 @@
+name = "submit50"
+description = "This is submit50, CS50's command-line tool for submitting problems."
+author = "cs50"
+homepage = "https://github.com/cs50/submit50"
+readme = "https://raw.githubusercontent.com/cs50/submit50/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "submit50"

@@ -1,0 +1,12 @@
+name = "safe-cli"
+description = "Command line utility for Safe"
+author = "safe-global"
+homepage = "https://github.com/safe-global/safe-cli"
+readme = "https://raw.githubusercontent.com/safe-global/safe-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "safe-cli"

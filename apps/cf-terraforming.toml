@@ -1,0 +1,12 @@
+name = "cf-terraforming"
+description = "A command line utility to facilitate terraforming your existing Cloudflare resources."
+author = "cloudflare"
+homepage = "https://github.com/cloudflare/cf-terraforming"
+readme = "https://raw.githubusercontent.com/cloudflare/cf-terraforming/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/cloudflare/cf-terraforming@latest"

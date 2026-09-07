@@ -1,0 +1,12 @@
+name = "excalidraw-converter"
+description = "A command line tool for porting Excalidraw diagrams to Gliffy, draw.io and Mermaid."
+author = "sindrel"
+homepage = "https://github.com/sindrel/excalidraw-converter"
+readme = "https://raw.githubusercontent.com/sindrel/excalidraw-converter/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sindrel/excalidraw-converter@latest"

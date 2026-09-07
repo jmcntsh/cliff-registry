@@ -1,0 +1,12 @@
+name = "plac"
+description = "Plac: Parsing the Command Line the Easy Way"
+author = "ialbert"
+homepage = "https://github.com/ialbert/plac"
+readme = "https://raw.githubusercontent.com/ialbert/plac/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "plac"

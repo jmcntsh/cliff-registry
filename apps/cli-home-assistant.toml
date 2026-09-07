@@ -1,0 +1,12 @@
+name = "cli-home-assistant"
+description = ":white_square_button: Home Assistant command line interface"
+author = "home-assistant"
+homepage = "https://github.com/home-assistant/cli"
+readme = "https://raw.githubusercontent.com/home-assistant/cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/home-assistant/cli@latest"

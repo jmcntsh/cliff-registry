@@ -1,0 +1,12 @@
+name = "monika"
+description = "Monika is a command line application to monitor every part of your web app using a simple YAML configuration file. Ge..."
+author = "hyperjumptech"
+homepage = "https://github.com/hyperjumptech/monika"
+readme = "https://raw.githubusercontent.com/hyperjumptech/monika/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "monika"

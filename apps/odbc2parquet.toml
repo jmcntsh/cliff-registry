@@ -1,0 +1,12 @@
+name = "odbc2parquet"
+description = "A command line tool to query an ODBC data source and write the result into a parquet file."
+author = "pacman82"
+homepage = "https://github.com/pacman82/odbc2parquet"
+readme = "https://raw.githubusercontent.com/pacman82/odbc2parquet/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "odbc2parquet"

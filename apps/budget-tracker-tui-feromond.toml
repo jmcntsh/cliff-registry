@@ -1,0 +1,12 @@
+name = "budget-tracker-tui-feromond"
+description = "A TUI budget tracker app built in rust. Designed to track income and expenses and help visualize and gather basic ins..."
+author = "Feromond"
+homepage = "https://github.com/Feromond/budget-tracker-tui"
+readme = "https://raw.githubusercontent.com/Feromond/budget-tracker-tui/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "budget-tracker-tui"

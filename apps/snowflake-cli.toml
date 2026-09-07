@@ -1,0 +1,12 @@
+name = "snowflake-cli"
+description = "Snowflake CLI is an open-source command-line tool explicitly designed for developer-centric workloads in addition to..."
+author = "snowflakedb"
+homepage = "https://github.com/snowflakedb/snowflake-cli"
+readme = "https://raw.githubusercontent.com/snowflakedb/snowflake-cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "snowflake-cli"

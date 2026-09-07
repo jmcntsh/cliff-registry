@@ -1,0 +1,12 @@
+name = "rdap"
+description = "RDAP command line client"
+author = "openrdap"
+homepage = "https://github.com/openrdap/rdap"
+readme = "https://raw.githubusercontent.com/openrdap/rdap/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/openrdap/rdap@latest"

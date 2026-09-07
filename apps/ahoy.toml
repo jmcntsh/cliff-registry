@@ -1,0 +1,12 @@
+name = "ahoy"
+description = "Create shareable, self-documenting command-line tools from simple YAML files. Easily wrap shell, npm, docker... anyth..."
+author = "ahoy-cli"
+homepage = "https://github.com/ahoy-cli/ahoy"
+readme = "https://raw.githubusercontent.com/ahoy-cli/ahoy/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ahoy-cli/ahoy@latest"

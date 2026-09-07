@@ -1,0 +1,12 @@
+name = "auto-changelog"
+description = "Command line tool for generating a changelog from git tags and commit history"
+author = "cookpete"
+homepage = "https://github.com/cookpete/auto-changelog"
+readme = "https://raw.githubusercontent.com/cookpete/auto-changelog/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "auto-changelog"

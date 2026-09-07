@@ -1,0 +1,12 @@
+name = "pi-cc-extensions"
+description = "Claude Code-style TUI output with some personal touches and handy utilities."
+author = "minuque"
+homepage = "https://github.com/minuque/pi-cc-extensions"
+readme = "https://raw.githubusercontent.com/minuque/pi-cc-extensions/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-cc-extensions"

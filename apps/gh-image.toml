@@ -1,0 +1,12 @@
+name = "gh-image"
+description = "A gh CLI extension that uploads attachments to GitHub from the command line"
+author = "drogers0"
+homepage = "https://github.com/drogers0/gh-image"
+readme = "https://raw.githubusercontent.com/drogers0/gh-image/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/drogers0/gh-image@latest"

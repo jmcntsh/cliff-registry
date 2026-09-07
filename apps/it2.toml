@@ -1,0 +1,12 @@
+name = "it2"
+description = "🖥️ A powerful command-line interface for controlling iTerm2 using its Python API - Send commands, manage session..."
+author = "mkusaka"
+homepage = "https://github.com/mkusaka/it2"
+readme = "https://raw.githubusercontent.com/mkusaka/it2/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "it2"

@@ -1,0 +1,12 @@
+name = "gooey"
+description = "Turn (almost) any Python command line program into a full GUI application with one line"
+author = "chriskiehl"
+homepage = "https://github.com/chriskiehl/Gooey"
+readme = "https://raw.githubusercontent.com/chriskiehl/Gooey/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Gooey"

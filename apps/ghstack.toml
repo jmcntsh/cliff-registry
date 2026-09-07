@@ -1,0 +1,12 @@
+name = "ghstack"
+description = "Submit stacked diffs to GitHub on the command line"
+author = "ezyang"
+homepage = "https://github.com/ezyang/ghstack"
+readme = "https://raw.githubusercontent.com/ezyang/ghstack/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ghstack"

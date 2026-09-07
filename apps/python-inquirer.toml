@@ -1,0 +1,12 @@
+name = "python-inquirer"
+description = "A collection of common interactive command line user interfaces, based on Inquirer.js (https://github.com/SBoudrias/I..."
+author = "magmax"
+homepage = "https://github.com/magmax/python-inquirer"
+readme = "https://raw.githubusercontent.com/magmax/python-inquirer/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "python-inquirer"

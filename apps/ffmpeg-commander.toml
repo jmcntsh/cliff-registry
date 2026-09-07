@@ -1,0 +1,12 @@
+name = "ffmpeg-commander"
+description = "A web-based GUI for quickly generating common FFmpeg command-line operations."
+author = "alfg"
+homepage = "https://github.com/alfg/ffmpeg-commander"
+readme = "https://raw.githubusercontent.com/alfg/ffmpeg-commander/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ffmpeg-commander"

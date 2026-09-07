@@ -1,0 +1,12 @@
+name = "jav"
+description = "🎬 A beautiful Rust TUI client for JavBus — search, browse, preview images in terminal (Kitty protocol), manage f..."
+author = "hyperq"
+homepage = "https://github.com/hyperq/jav"
+readme = "https://raw.githubusercontent.com/hyperq/jav/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "jav"

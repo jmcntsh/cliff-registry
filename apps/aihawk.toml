@@ -1,0 +1,12 @@
+name = "aihawk"
+description = "Open-source AI browser agent for web automation: a web browsing agent and computer-use agent in plain English. Browse..."
+author = "feder-cr"
+homepage = "https://github.com/feder-cr/AIHawk"
+readme = "https://raw.githubusercontent.com/feder-cr/AIHawk/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "AIHawk"
