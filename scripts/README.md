@@ -24,6 +24,10 @@ python3 scripts/seed.py --tui-only --commit
 
 # Same as --commit but stop short of `git push` (for inspection).
 python3 scripts/seed.py --tui-only --commit --dry-push
+
+# Check all Go install paths; --fix rewrites safe module-path mismatches.
+python3 scripts/audit_go_modules.py ./apps
+python3 scripts/audit_go_modules.py --fix ./apps
 ```
 
 Useful flags:
@@ -46,8 +50,9 @@ Useful flags:
    because they tend to admit libraries, templates, and docs that merely
    mention command-line usage.
 3. Skip anything in the ledger or already in `apps/` by homepage.
-4. For survivors: category-check, suggest an install type, optionally
-   HEAD-check the package registry, render a manifest.
+4. For survivors: category-check, suggest an install type, resolve Go
+   packages from the repository's `go.mod` or HEAD-check the other package
+   registries, then render a manifest.
 5. With `--commit`: shell out to `go run ./cmd/lint ./apps`. If lint
    fails, delete the manifests this run wrote and exit non-zero. If
    lint passes, update the ledger, `git add`, commit, push.

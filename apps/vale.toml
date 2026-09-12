@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/vale-cli/vale@latest"
+package = "github.com/vale-cli/vale/v3@latest"

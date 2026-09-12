@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/Giammarco-Ferranti/deja@latest"
+package = "github.com/giammarcoferranti/deja@latest"

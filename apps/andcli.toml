@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/tjblackheart/andcli@latest"
+package = "github.com/tjblackheart/andcli/v2@latest"

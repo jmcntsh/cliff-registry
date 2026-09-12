@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/Necrom4/sbb-tui@latest"
+package = "github.com/necrom4/sbb-tui@latest"

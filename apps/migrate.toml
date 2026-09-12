@@ -9,4 +9,4 @@ license = "OTHER"
 
 [[installs]]
 type = "go"
-package = "github.com/golang-migrate/migrate@latest"
+package = "github.com/golang-migrate/migrate/v4@latest"

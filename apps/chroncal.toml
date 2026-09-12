@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/DouglasdeMoura/chroncal@latest"
+package = "github.com/douglasdemoura/chroncal@latest"

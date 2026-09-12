@@ -36,6 +36,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_NEW: ${{ inputs.max_new || '50' }}
@@ -66,10 +67,28 @@ jobs:
         with:
           go-version-file: go.mod
           cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Repair canonical Go module paths
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/audit_go_modules.py --fix ./apps
+      - name: Persist Go module path repairs
+        run: |
+          git add apps
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name=cliff-registry \
+            -c user.email=actions@github.com \
+            commit -m "fix: canonicalize Go module paths"
+          git push origin HEAD:main
       - name: Validate registry
         run: |
           go vet ./...
           go test ./...
+          python3 -m unittest discover -s scripts -p 'test_*.py'
           go run ./cmd/lint ./apps
       - name: Build index.json
         id: build

@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/boyter/cs@latest"
+package = "github.com/boyter/cs/v3@latest"

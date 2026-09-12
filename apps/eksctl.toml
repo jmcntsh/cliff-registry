@@ -9,4 +9,4 @@ license = "OTHER"
 
 [[installs]]
 type = "go"
-package = "github.com/eksctl-io/eksctl@latest"
+package = "github.com/weaveworks/eksctl@latest"

@@ -9,4 +9,4 @@ license = "GPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/DECE2183/yamusic-tui@latest"
+package = "github.com/dece2183/yamusic-tui@latest"

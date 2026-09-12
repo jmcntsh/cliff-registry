@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/ahoy-cli/ahoy@latest"
+package = "github.com/ahoy-cli/ahoy/v3@latest"

@@ -10,4 +10,4 @@ language = "Go"
 
 [install]
 type = "go"
-package = "github.com/dlvhdr/gh-dash@latest"
+package = "github.com/dlvhdr/gh-dash/v4@latest"

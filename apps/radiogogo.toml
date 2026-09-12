@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/matteo-pacini/RadioGoGo@latest"
+package = "github.com/zi0p4tch0/radiogogo@latest"

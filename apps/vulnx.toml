@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/projectdiscovery/vulnx@latest"
+package = "github.com/projectdiscovery/vulnx/v2@latest"

@@ -9,4 +9,4 @@ license = "OTHER"
 
 [[installs]]
 type = "go"
-package = "github.com/livekit/livekit-cli@latest"
+package = "github.com/livekit/livekit-cli/v2@latest"

@@ -9,4 +9,4 @@ license = "APACHE-2.0"
 
 [[installs]]
 type = "go"
-package = "github.com/containerd/nerdctl@latest"
+package = "github.com/containerd/nerdctl/v2@latest"

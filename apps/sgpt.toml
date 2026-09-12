@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/tbckr/sgpt@latest"
+package = "github.com/tbckr/sgpt/v2@latest"

@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/dundee/gdu@latest"
+package = "github.com/dundee/gdu/v5@latest"

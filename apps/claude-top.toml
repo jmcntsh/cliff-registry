@@ -8,4 +8,4 @@ category = "Monitoring"
 
 [[installs]]
 type = "go"
-package = "github.com/a2d2-dev/claude-top@latest"
+package = "github.com/a2d2-dev/claude-usage-monitor@latest"

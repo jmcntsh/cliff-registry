@@ -8,4 +8,4 @@ category = "DevOps"
 
 [[installs]]
 type = "go"
-package = "github.com/bjarneo/kli@latest"
+package = "github.com/bjarneo/ku@latest"

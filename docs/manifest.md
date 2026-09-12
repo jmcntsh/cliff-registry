@@ -69,6 +69,11 @@ Order matters for `[[installs]]`. The client picks the first method
 whose tool is available, unless the user passes an explicit `--via
 <type>` override. Duplicate method types are rejected.
 
+For `go`, `package` must begin with the module path declared by the
+repository's root `go.mod`; that path can differ from its current GitHub
+URL after an owner or repository rename. The registry audit verifies and
+repairs this prefix while preserving command subdirectories and versions.
+
 ## Uninstall and upgrade
 
 For `brew`, `cargo`, `npm`, `pipx`, and `go`, cliff derives uninstall
@@ -91,4 +96,6 @@ without it, `cliff upgrade` reports that no upgrade recipe exists.
 
 `go run ./cmd/lint ./apps` exits 0 if all manifests pass.
 
-CI runs the same on every PR.
+`python3 scripts/audit_go_modules.py ./apps` checks live Go module
+identities. CI runs both checks on every PR, and publication runs the Go
+audit in repair mode before building the index.
