@@ -9,4 +9,4 @@ license = "GPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/pzep1/lazycontainer@latest"
+package = "github.com/pzep1/lazycont@latest"

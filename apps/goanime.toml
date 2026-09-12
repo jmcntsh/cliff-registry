@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/alvarorichard/GoAnime@latest"
+package = "github.com/alvarorichard/Goanime@latest"

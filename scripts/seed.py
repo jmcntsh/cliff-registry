@@ -31,6 +31,13 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from go_modules import (
+    GitHubGoModClient,
+    GoModuleError,
+    GoModuleIdentityMismatch,
+    GoModuleNotFound,
+)
+
 
 # Keep these focused enough to avoid awesome-list/library floods, but broad
 # enough to catch projects that never bothered to set GitHub topics.
@@ -308,13 +315,21 @@ def looks_like_app(repo: dict[str, Any]) -> tuple[bool, str]:
     return True, ""
 
 
-def suggest_install(repo: dict[str, Any]) -> tuple[str, str]:
+def suggest_install(
+    repo: dict[str, Any],
+    go_module_client: GitHubGoModClient | None = None,
+) -> tuple[str, str]:
     """Map repo language → install type + package string. 'unknown' is fine."""
     language = str(repo.get("language") or "").lower()
     full_name = str(repo.get("fullName") or "")
     name = str(repo.get("name") or "")
     if language == "go":
-        return "go", f"github.com/{full_name}@latest"
+        client = go_module_client or GitHubGoModClient()
+        module = client.fetch(
+            full_name,
+            str(repo.get("defaultBranch") or ""),
+        )
+        return "go", f"{module}@latest"
     if language == "rust":
         return "cargo", name
     if language == "python":
@@ -618,7 +633,17 @@ def evaluate(
         base.reason = why
         return base
 
-    install_type, package = suggest_install(repo)
+    try:
+        install_type, package = suggest_install(repo)
+    except (GoModuleNotFound, GoModuleIdentityMismatch):
+        base.reason = "go-module-unverified"
+        return base
+    except GoModuleError:
+        # A transient GitHub failure is not a terminal verdict. Leaving the
+        # candidate unledgered lets the next scheduled run try it again.
+        base.decision = "deferred"
+        base.reason = "go-module-unavailable"
+        return base
     base.install_type = install_type
     base.package = package
 

@@ -20,6 +20,12 @@ from the new commit. This explicit publish step is required because
 GitHub does not start another workflow for a push made with
 `GITHUB_TOKEN`.
 
+For Go projects, the scraper reads the repository's root `go.mod` and
+uses its declared module path rather than assuming the current GitHub
+owner is the module identity. Every publish also audits existing Go
+entries and commits safe path repairs, which covers repositories renamed
+after they entered the catalog.
+
 There is no submission queue. To add an app the scraper missed, or fix
 a manifest:
 

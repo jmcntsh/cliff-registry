@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/JanSmrcka/differ@latest"
+package = "github.com/jansmrcka/differ@latest"

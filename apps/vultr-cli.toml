@@ -9,4 +9,4 @@ license = "APACHE-2.0"
 
 [[installs]]
 type = "go"
-package = "github.com/vultr/vultr-cli@latest"
+package = "github.com/vultr/vultr-cli/v3@latest"

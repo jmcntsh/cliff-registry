@@ -8,4 +8,4 @@ category = "Other"
 
 [[installs]]
 type = "go"
-package = "github.com/RapidAI/MaClaw@latest"
+package = "github.com/RapidAI/CodeClaw@latest"

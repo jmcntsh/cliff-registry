@@ -8,4 +8,4 @@ category = "AI tools"
 
 [[installs]]
 type = "go"
-package = "github.com/ivanjm3/gmail-tui@latest"
+package = "github.com/rdx40/gmail-tui@latest"

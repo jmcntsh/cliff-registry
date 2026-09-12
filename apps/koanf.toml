@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/knadh/koanf@latest"
+package = "github.com/knadh/koanf/v2@latest"

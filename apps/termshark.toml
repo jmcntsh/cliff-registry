@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/gcla/termshark@latest"
+package = "github.com/gcla/termshark/v2@latest"

@@ -9,4 +9,4 @@ license = "GPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/Evidlo/syncthingtui@latest"
+package = "github.com/evidlo/syncthingtui@latest"

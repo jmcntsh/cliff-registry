@@ -9,4 +9,4 @@ license = "APACHE-2.0"
 
 [[installs]]
 type = "go"
-package = "github.com/FairwindsOps/pluto@latest"
+package = "github.com/fairwindsops/pluto/v5@latest"

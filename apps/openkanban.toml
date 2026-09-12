@@ -9,4 +9,4 @@ license = "AGPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/TechDufus/openkanban@latest"
+package = "github.com/techdufus/openkanban@latest"

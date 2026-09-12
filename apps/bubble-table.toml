@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/Evertras/bubble-table@latest"
+package = "github.com/evertras/bubble-table@latest"

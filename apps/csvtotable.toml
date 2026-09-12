@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/vividvilla/csvtotable@latest"
+package = "github.com/vividvilla/csvtotable/v3@latest"

@@ -9,4 +9,4 @@ license = "GPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/NStefan002/tui-calendar@latest"
+package = "github.com/NStefan002/tui-calendar/v2@latest"

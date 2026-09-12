@@ -9,4 +9,4 @@ license = "GPL-3.0"
 
 [[installs]]
 type = "go"
-package = "github.com/makew0rld/amfora@latest"
+package = "github.com/makeworld-the-better-one/amfora@latest"

@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/bmf-san/ggc@latest"
+package = "github.com/bmf-san/ggc/v8@latest"

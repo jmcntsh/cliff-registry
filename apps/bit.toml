@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/superstarryeyes/bit@latest"
+package = "github.com/paulilaaso/bit@latest"

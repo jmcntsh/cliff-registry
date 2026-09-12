@@ -9,4 +9,4 @@ license = "GPL-2.0"
 
 [[installs]]
 type = "go"
-package = "github.com/raziman18/gomu@latest"
+package = "github.com/issadarkthing/gomu@latest"

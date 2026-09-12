@@ -9,4 +9,4 @@ license = "OTHER"
 
 [[installs]]
 type = "go"
-package = "github.com/k2m30/a9s@latest"
+package = "github.com/k2m30/a9s/v3@latest"

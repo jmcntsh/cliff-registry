@@ -9,4 +9,4 @@ license = "OTHER"
 
 [[installs]]
 type = "go"
-package = "github.com/NimbleMarkets/ntcharts@latest"
+package = "github.com/NimbleMarkets/ntcharts/v2@latest"

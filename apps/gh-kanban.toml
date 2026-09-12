@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/shuntaka9576/gh-kanban@latest"
+package = "github.com/shuntaka9576/kanban@latest"

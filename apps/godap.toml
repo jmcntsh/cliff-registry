@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/Macmod/godap@latest"
+package = "github.com/Macmod/godap/v2@latest"

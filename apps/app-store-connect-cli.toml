@@ -6,7 +6,12 @@ readme = "https://raw.githubusercontent.com/rorkai/App-Store-Connect-CLI/main/RE
 tags = ["cli"]
 category = "Developer tools"
 license = "MIT"
+binary = "asc"
+
+[[installs]]
+type = "brew"
+package = "asc"
 
 [[installs]]
 type = "go"
-package = "github.com/rorkai/App-Store-Connect-CLI@latest"
+package = "github.com/rudrankriyam/App-Store-Connect-CLI@latest"
