@@ -1,0 +1,12 @@
+name = "qodana-cli"
+description = "🔧 JetBrains Qodana’s official command line tool"
+author = "JetBrains"
+homepage = "https://github.com/JetBrains/qodana-cli"
+readme = "https://raw.githubusercontent.com/JetBrains/qodana-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/JetBrains/qodana-cli@latest"

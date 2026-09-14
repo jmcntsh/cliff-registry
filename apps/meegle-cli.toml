@@ -1,0 +1,12 @@
+name = "meegle-cli"
+description = "Command-line tool for Meegle (Lark Project). Manage work items, schedules, and data from your terminal — no browser..."
+author = "larksuite"
+homepage = "https://github.com/larksuite/meegle-cli"
+readme = "https://raw.githubusercontent.com/larksuite/meegle-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/larksuite/meegle-cli@latest"

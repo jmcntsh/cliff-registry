@@ -1,0 +1,12 @@
+name = "soulseek-rs"
+description = "A Soulseek client and lib built in Rust 🦀 for the terminal: TUI, CLI and daemon. Built for agents and people who l..."
+author = "michel"
+homepage = "https://github.com/michel/soulseek-rs"
+readme = "https://raw.githubusercontent.com/michel/soulseek-rs/develop/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "soulseek-rs"

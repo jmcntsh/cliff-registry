@@ -1,0 +1,12 @@
+name = "kd"
+description = "跨平台命令行词典 a command-line dictionary supported Linux/Win/Mac"
+author = "Karmenzind"
+homepage = "https://github.com/Karmenzind/kd"
+readme = "https://raw.githubusercontent.com/Karmenzind/kd/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Karmenzind/kd@latest"

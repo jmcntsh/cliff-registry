@@ -1,0 +1,12 @@
+name = "sandwine"
+description = ":wine_glass: Command-line tool to run Windows apps with Wine and bwrap/bubblewrap isolation on Linux"
+author = "hartwork"
+homepage = "https://github.com/hartwork/sandwine"
+readme = "https://raw.githubusercontent.com/hartwork/sandwine/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "sandwine"

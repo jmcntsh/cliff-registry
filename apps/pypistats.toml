@@ -1,0 +1,12 @@
+name = "pypistats"
+description = "Command-line interface to PyPI Stats API to get download stats for Python packages"
+author = "hugovk"
+homepage = "https://github.com/hugovk/pypistats"
+readme = "https://raw.githubusercontent.com/hugovk/pypistats/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pypistats"

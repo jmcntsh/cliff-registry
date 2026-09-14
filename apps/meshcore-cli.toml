@@ -1,0 +1,12 @@
+name = "meshcore-cli"
+description = "Command line interface to MeshCore node"
+author = "meshcore-dev"
+homepage = "https://github.com/meshcore-dev/meshcore-cli"
+readme = "https://raw.githubusercontent.com/meshcore-dev/meshcore-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "meshcore-cli"

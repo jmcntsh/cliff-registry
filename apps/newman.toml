@@ -1,0 +1,12 @@
+name = "newman"
+description = "Newman is a command-line collection runner for Postman"
+author = "postmanlabs"
+homepage = "https://github.com/postmanlabs/newman"
+readme = "https://raw.githubusercontent.com/postmanlabs/newman/develop/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "newman"

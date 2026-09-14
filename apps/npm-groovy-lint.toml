@@ -1,0 +1,12 @@
+name = "npm-groovy-lint"
+description = "Lint, format and auto-fix your Groovy / Jenkinsfile / Gradle files using command line"
+author = "nvuillam"
+homepage = "https://github.com/nvuillam/npm-groovy-lint"
+readme = "https://raw.githubusercontent.com/nvuillam/npm-groovy-lint/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "npm-groovy-lint"

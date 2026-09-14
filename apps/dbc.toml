@@ -1,0 +1,12 @@
+name = "dbc"
+description = "dbc is the command-line tool for installing and managing ADBC drivers"
+author = "columnar-tech"
+homepage = "https://github.com/columnar-tech/dbc"
+readme = "https://raw.githubusercontent.com/columnar-tech/dbc/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/columnar-tech/dbc@latest"

@@ -1,0 +1,12 @@
+name = "boxcli"
+description = "A command line interface for interacting with the Box API."
+author = "box"
+homepage = "https://github.com/box/boxcli"
+readme = "https://raw.githubusercontent.com/box/boxcli/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "boxcli"

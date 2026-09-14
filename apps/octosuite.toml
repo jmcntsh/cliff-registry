@@ -1,0 +1,12 @@
+name = "octosuite"
+description = "Terminal-based toolkit for GitHub data analysis."
+author = "bellingcat"
+homepage = "https://github.com/bellingcat/octosuite"
+readme = "https://raw.githubusercontent.com/bellingcat/octosuite/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "octosuite"

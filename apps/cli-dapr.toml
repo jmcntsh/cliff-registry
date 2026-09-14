@@ -1,0 +1,12 @@
+name = "cli-dapr"
+description = "Command-line tools for Dapr."
+author = "dapr"
+homepage = "https://github.com/dapr/cli"
+readme = "https://raw.githubusercontent.com/dapr/cli/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/dapr/cli@latest"

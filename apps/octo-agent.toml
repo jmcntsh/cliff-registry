@@ -1,0 +1,12 @@
+name = "octo-agent"
+description = "Open-source, single-binary, self-hosted AI agent — your models and data stay on your machine. A coding agent on par..."
+author = "open-octo"
+homepage = "https://github.com/open-octo/octo-agent"
+readme = "https://raw.githubusercontent.com/open-octo/octo-agent/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/open-octo/octo-agent@latest"

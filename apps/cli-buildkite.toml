@@ -1,0 +1,12 @@
+name = "cli-buildkite"
+description = "A command line interface for Buildkite."
+author = "buildkite"
+homepage = "https://github.com/buildkite/cli"
+readme = "https://raw.githubusercontent.com/buildkite/cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/buildkite/cli/v3@latest"

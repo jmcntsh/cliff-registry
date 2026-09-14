@@ -1,0 +1,12 @@
+name = "rbtools"
+description = "Command line tools for working with Review Board"
+author = "reviewboard"
+homepage = "https://github.com/reviewboard/rbtools"
+readme = "https://raw.githubusercontent.com/reviewboard/rbtools/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "rbtools"

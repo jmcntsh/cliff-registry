@@ -1,0 +1,12 @@
+name = "editor"
+description = "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents."
+author = "pascalorg"
+homepage = "https://github.com/pascalorg/editor"
+readme = "https://raw.githubusercontent.com/pascalorg/editor/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "editor"

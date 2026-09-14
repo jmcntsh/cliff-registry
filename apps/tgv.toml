@@ -1,0 +1,12 @@
+name = "tgv"
+description = "Explore genomes in the terminal. Light, blazing fast 🚀, vim-motion."
+author = "zeqianli"
+homepage = "https://github.com/zeqianli/tgv"
+readme = "https://raw.githubusercontent.com/zeqianli/tgv/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tgv"

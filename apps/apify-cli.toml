@@ -1,0 +1,12 @@
+name = "apify-cli"
+description = "Apify command-line interface helps you create, develop, build and run Apify Actors, and manage the Apify cloud platform."
+author = "apify"
+homepage = "https://github.com/apify/apify-cli"
+readme = "https://raw.githubusercontent.com/apify/apify-cli/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "apify-cli"

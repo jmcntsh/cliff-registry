@@ -1,0 +1,12 @@
+name = "mapillary-tools"
+description = "Command line tools for processing and uploading Mapillary imagery"
+author = "mapillary"
+homepage = "https://github.com/mapillary/mapillary_tools"
+readme = "https://raw.githubusercontent.com/mapillary/mapillary_tools/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "mapillary_tools"

@@ -1,0 +1,12 @@
+name = "cli-vulncheck-oss"
+description = "VulnCheck's official command line tool"
+author = "vulncheck-oss"
+homepage = "https://github.com/vulncheck-oss/cli"
+readme = "https://raw.githubusercontent.com/vulncheck-oss/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/vulncheck-oss/cli@latest"

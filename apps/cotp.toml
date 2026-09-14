@@ -1,0 +1,12 @@
+name = "cotp"
+description = "Encrypted, command-line TOTP/HOTP authenticator app with import functionality."
+author = "replydev"
+homepage = "https://github.com/replydev/cotp"
+readme = "https://raw.githubusercontent.com/replydev/cotp/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "cotp"

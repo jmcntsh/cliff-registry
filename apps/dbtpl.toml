@@ -1,0 +1,12 @@
+name = "dbtpl"
+description = "Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and M..."
+author = "xo"
+homepage = "https://github.com/xo/dbtpl"
+readme = "https://raw.githubusercontent.com/xo/dbtpl/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/xo/dbtpl@latest"

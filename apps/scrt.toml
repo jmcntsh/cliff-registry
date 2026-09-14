@@ -1,0 +1,12 @@
+name = "scrt"
+description = "A command-line secret manager for developers, sysadmins, and devops."
+author = "loderunner"
+homepage = "https://github.com/loderunner/scrt"
+readme = "https://raw.githubusercontent.com/loderunner/scrt/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/loderunner/scrt@latest"

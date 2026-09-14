@@ -1,0 +1,12 @@
+name = "oc"
+description = "The OpenShift Command Line, part of OKD"
+author = "openshift"
+homepage = "https://github.com/openshift/oc"
+readme = "https://raw.githubusercontent.com/openshift/oc/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/openshift/oc@latest"

@@ -1,0 +1,12 @@
+name = "plannotator-tui"
+description = "Annotate Markdown in the terminal: select, comment, looks-good, delete; send the review to your agent."
+author = "plannotator"
+homepage = "https://github.com/plannotator/plannotator-tui"
+readme = "https://raw.githubusercontent.com/plannotator/plannotator-tui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "plannotator-tui"

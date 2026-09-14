@@ -1,0 +1,12 @@
+name = "wait-on"
+description = "wait-on is a cross-platform command line utility and Node.js API which will wait for files, ports, sockets, and http(..."
+author = "jeffbski"
+homepage = "https://github.com/jeffbski/wait-on"
+readme = "https://raw.githubusercontent.com/jeffbski/wait-on/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "wait-on"

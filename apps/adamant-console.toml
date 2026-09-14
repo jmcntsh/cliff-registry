@@ -1,0 +1,11 @@
+name = "adamant-console"
+description = "Command-line and JSON-RPC tool for interacting with the ADAMANT blockchain"
+author = "Adamant-im"
+homepage = "https://github.com/Adamant-im/adamant-console"
+readme = "https://raw.githubusercontent.com/Adamant-im/adamant-console/dev/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "npm"
+package = "adamant-console"

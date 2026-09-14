@@ -1,0 +1,12 @@
+name = "knope"
+description = "A command line tool to handle all the tasks most developers find tedious."
+author = "knope-dev"
+homepage = "https://github.com/knope-dev/knope"
+readme = "https://raw.githubusercontent.com/knope-dev/knope/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "knope"

@@ -1,0 +1,12 @@
+name = "runner"
+description = "A native terminal that orchestrates coding agents. Claude Code and Codex keep their own TUI; Runner adds sessions, sk..."
+author = "yicheng47"
+homepage = "https://github.com/yicheng47/runner"
+readme = "https://raw.githubusercontent.com/yicheng47/runner/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "runner"

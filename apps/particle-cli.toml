@@ -1,0 +1,12 @@
+name = "particle-cli"
+description = "Command Line Interface for Particle Cloud and devices"
+author = "particle-iot"
+homepage = "https://github.com/particle-iot/particle-cli"
+readme = "https://raw.githubusercontent.com/particle-iot/particle-cli/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "particle-cli"

@@ -1,0 +1,11 @@
+name = "plotille"
+description = "Plot in the terminal using braille dots."
+author = "tammoippen"
+homepage = "https://github.com/tammoippen/plotille"
+readme = "https://raw.githubusercontent.com/tammoippen/plotille/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "pipx"
+package = "plotille"

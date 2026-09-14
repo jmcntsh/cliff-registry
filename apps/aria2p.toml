@@ -1,0 +1,12 @@
+name = "aria2p"
+description = "Command-line tool and library to interact with an aria2c daemon process with JSON-RPC."
+author = "pawamoy"
+homepage = "https://github.com/pawamoy/aria2p"
+readme = "https://raw.githubusercontent.com/pawamoy/aria2p/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "ISC"
+
+[[installs]]
+type = "pipx"
+package = "aria2p"

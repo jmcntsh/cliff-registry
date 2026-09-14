@@ -1,0 +1,12 @@
+name = "klog"
+description = "Command-line tool for time tracking in a human-readable, plain-text file format."
+author = "jotaen"
+homepage = "https://github.com/jotaen/klog"
+readme = "https://raw.githubusercontent.com/jotaen/klog/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jotaen/klog@latest"

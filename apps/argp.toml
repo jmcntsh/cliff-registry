@@ -1,0 +1,12 @@
+name = "argp"
+description = "GNU command line argument parser"
+author = "tdewolff"
+homepage = "https://github.com/tdewolff/argp"
+readme = "https://raw.githubusercontent.com/tdewolff/argp/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tdewolff/argp@latest"

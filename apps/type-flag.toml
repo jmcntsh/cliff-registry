@@ -1,0 +1,12 @@
+name = "type-flag"
+description = "⛳️ Typed command-line arguments parser for Node.js"
+author = "privatenumber"
+homepage = "https://github.com/privatenumber/type-flag"
+readme = "https://raw.githubusercontent.com/privatenumber/type-flag/develop/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "type-flag"

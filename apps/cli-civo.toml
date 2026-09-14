@@ -1,0 +1,12 @@
+name = "cli-civo"
+description = "Our Command Line Interface (CLI) for interacting with your Civo resources"
+author = "civo"
+homepage = "https://github.com/civo/cli"
+readme = "https://raw.githubusercontent.com/civo/cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/civo/cli@latest"

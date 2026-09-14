@@ -1,0 +1,11 @@
+name = "mini-harness"
+description = "A small, complete Python agent harness: tools, compaction, retries, and a single-file TUI. Built to learn and use as..."
+author = "mini-harness"
+homepage = "https://github.com/mini-harness/mini-harness"
+readme = "https://raw.githubusercontent.com/mini-harness/mini-harness/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "pipx"
+package = "mini-harness"

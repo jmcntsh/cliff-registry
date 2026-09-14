@@ -1,0 +1,12 @@
+name = "conf"
+description = "Package conf provides support for using environmental variables and command line arguments for configuration."
+author = "ardanlabs"
+homepage = "https://github.com/ardanlabs/conf"
+readme = "https://raw.githubusercontent.com/ardanlabs/conf/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ardanlabs/conf/v3@latest"

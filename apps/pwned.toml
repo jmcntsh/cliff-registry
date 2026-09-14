@@ -1,0 +1,12 @@
+name = "pwned"
+description = "A command-line tool for querying the 'Have I been pwned?' service."
+author = "wKovacs64"
+homepage = "https://github.com/wKovacs64/pwned"
+readme = "https://raw.githubusercontent.com/wKovacs64/pwned/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pwned"

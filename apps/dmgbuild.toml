@@ -1,0 +1,12 @@
+name = "dmgbuild"
+description = "macOS command line utility to build disk images"
+author = "dmgbuild"
+homepage = "https://github.com/dmgbuild/dmgbuild"
+readme = "https://raw.githubusercontent.com/dmgbuild/dmgbuild/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "dmgbuild"

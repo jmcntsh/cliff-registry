@@ -1,0 +1,12 @@
+name = "rush"
+description = "A cross-platform command-line tool for executing jobs in parallel"
+author = "shenwei356"
+homepage = "https://github.com/shenwei356/rush"
+readme = "https://raw.githubusercontent.com/shenwei356/rush/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/shenwei356/rush@latest"

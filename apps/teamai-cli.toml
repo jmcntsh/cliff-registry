@@ -1,0 +1,12 @@
+name = "teamai-cli"
+description = "Make Every Team AI Native"
+author = "Tencent"
+homepage = "https://github.com/Tencent/teamai-cli"
+readme = "https://raw.githubusercontent.com/Tencent/teamai-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "teamai-cli"

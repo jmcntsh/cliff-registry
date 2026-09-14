@@ -1,0 +1,12 @@
+name = "ikea-availability-checker"
+description = "Command-Line-Script & Library for checking the availability of specific IKEA products in specific stores and/or count..."
+author = "Ephigenia"
+homepage = "https://github.com/Ephigenia/ikea-availability-checker"
+readme = "https://raw.githubusercontent.com/Ephigenia/ikea-availability-checker/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ikea-availability-checker"

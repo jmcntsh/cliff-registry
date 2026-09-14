@@ -1,0 +1,12 @@
+name = "shot-scraper"
+description = "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript"
+author = "simonw"
+homepage = "https://github.com/simonw/shot-scraper"
+readme = "https://raw.githubusercontent.com/simonw/shot-scraper/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "shot-scraper"
