@@ -1,0 +1,12 @@
+name = "migrate-tryghost"
+description = "Command-line tools for migrating posts and members from platforms like Substack, WordPress, and Medium to Ghost"
+author = "TryGhost"
+homepage = "https://github.com/TryGhost/migrate"
+readme = "https://raw.githubusercontent.com/TryGhost/migrate/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "migrate"

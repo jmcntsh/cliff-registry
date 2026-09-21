@@ -1,0 +1,12 @@
+name = "ecrm"
+description = "A command line tool for managing ECR repositories."
+author = "fujiwara"
+homepage = "https://github.com/fujiwara/ecrm"
+readme = "https://raw.githubusercontent.com/fujiwara/ecrm/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/fujiwara/ecrm@latest"

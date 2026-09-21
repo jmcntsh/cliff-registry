@@ -1,0 +1,12 @@
+name = "bee"
+description = "Command-line tool to view and manage Backlog"
+author = "nulab"
+homepage = "https://github.com/nulab/bee"
+readme = "https://raw.githubusercontent.com/nulab/bee/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "bee"

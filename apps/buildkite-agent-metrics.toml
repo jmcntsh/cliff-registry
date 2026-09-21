@@ -1,0 +1,12 @@
+name = "buildkite-agent-metrics"
+description = "A command-line tool (and Lambda) for collecting Buildkite agent metrics"
+author = "buildkite"
+homepage = "https://github.com/buildkite/buildkite-agent-metrics"
+readme = "https://raw.githubusercontent.com/buildkite/buildkite-agent-metrics/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/buildkite/buildkite-agent-metrics/v5@latest"

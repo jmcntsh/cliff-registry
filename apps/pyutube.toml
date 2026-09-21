@@ -1,0 +1,12 @@
+name = "pyutube"
+description = "A simple user friendly command line tool to download YouTube videos and playlists with fewer steps."
+author = "hetari"
+homepage = "https://github.com/hetari/pyutube"
+readme = "https://raw.githubusercontent.com/hetari/pyutube/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "pyutube"

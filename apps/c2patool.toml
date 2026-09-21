@@ -1,0 +1,12 @@
+name = "c2patool"
+description = "Command line tool for displaying and adding C2PA manifests"
+author = "contentauth"
+homepage = "https://github.com/contentauth/c2patool"
+readme = "https://raw.githubusercontent.com/contentauth/c2patool/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "c2patool"

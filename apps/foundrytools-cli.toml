@@ -1,0 +1,12 @@
+name = "foundrytools-cli"
+description = "A collection of command line tools to inspect, manipulate and convert font files"
+author = "ftCLI"
+homepage = "https://github.com/ftCLI/FoundryTools-CLI"
+readme = "https://raw.githubusercontent.com/ftCLI/FoundryTools-CLI/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "FoundryTools-CLI"

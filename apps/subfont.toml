@@ -1,0 +1,12 @@
+name = "subfont"
+description = "Command line tool to optimize your webfont loading. Aggressive subsetting based on your font use, self-hosting of Goo..."
+author = "Munter"
+homepage = "https://github.com/Munter/subfont"
+readme = "https://raw.githubusercontent.com/Munter/subfont/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "subfont"

@@ -1,0 +1,12 @@
+name = "oh-my-dm"
+description = "DM without looking like you're DMing — a discreet Agent CLI-style TUI messenger."
+author = "guhyunwoo"
+homepage = "https://github.com/guhyunwoo/oh-my-dm"
+readme = "https://raw.githubusercontent.com/guhyunwoo/oh-my-dm/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "oh-my-dm"

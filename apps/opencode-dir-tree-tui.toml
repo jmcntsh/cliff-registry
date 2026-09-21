@@ -1,0 +1,12 @@
+name = "opencode-dir-tree-tui"
+description = "OpenCode TUI plugin — VS Code-style file tree sidebar with git status coloring and click-to-open"
+author = "aihaipeng"
+homepage = "https://github.com/aihaipeng/opencode-dir-tree-tui"
+readme = "https://raw.githubusercontent.com/aihaipeng/opencode-dir-tree-tui/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-dir-tree-tui"

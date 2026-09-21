@@ -1,0 +1,12 @@
+name = "secbot"
+description = "AI-powered authorized security testing workspace. Maintained on the release branch (NestJS + Ink TUI + Web/Desktop)."
+author = "iammm0"
+homepage = "https://github.com/iammm0/secbot"
+readme = "https://raw.githubusercontent.com/iammm0/secbot/release/README.md"
+tags = ["cli"]
+category = "Security"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "secbot"

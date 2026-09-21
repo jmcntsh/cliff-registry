@@ -1,0 +1,12 @@
+name = "portop"
+description = "🔌 What's really using your ports? htop-style TUI, one keypress to kill it."
+author = "padovanl"
+homepage = "https://github.com/padovanl/portop"
+readme = "https://raw.githubusercontent.com/padovanl/portop/main/README.md"
+tags = ["tui"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/padovanl/portop@latest"

@@ -1,0 +1,12 @@
+name = "acr-cli"
+description = "Command Line Tool for interacting with Azure Container Registry Images"
+author = "Azure"
+homepage = "https://github.com/Azure/acr-cli"
+readme = "https://raw.githubusercontent.com/Azure/acr-cli/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Azure/acr-cli@latest"

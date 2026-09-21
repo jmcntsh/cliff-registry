@@ -1,0 +1,12 @@
+name = "fido"
+description = "Format Identification for Digital Objects (FIDO) is a Python command-line tool to identify the file formats of digita..."
+author = "openpreserve"
+homepage = "https://github.com/openpreserve/fido"
+readme = "https://raw.githubusercontent.com/openpreserve/fido/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "fido"

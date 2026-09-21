@@ -1,0 +1,12 @@
+name = "gpustat"
+description = "📊 A simple command-line utility for querying and monitoring GPU status"
+author = "wookayin"
+homepage = "https://github.com/wookayin/gpustat"
+readme = "https://raw.githubusercontent.com/wookayin/gpustat/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "gpustat"

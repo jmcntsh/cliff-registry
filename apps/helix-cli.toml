@@ -1,0 +1,12 @@
+name = "helix-cli"
+description = "Command-line tools for developing with AEM"
+author = "adobe"
+homepage = "https://github.com/adobe/helix-cli"
+readme = "https://raw.githubusercontent.com/adobe/helix-cli/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "helix-cli"

@@ -1,0 +1,12 @@
+name = "colcon-core"
+description = "Command line tool to build sets of software packages"
+author = "colcon"
+homepage = "https://github.com/colcon/colcon-core"
+readme = "https://raw.githubusercontent.com/colcon/colcon-core/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "colcon-core"

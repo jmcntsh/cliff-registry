@@ -1,0 +1,12 @@
+name = "jinjanator"
+description = "Jinja2 Command-Line Tool, reworked, again"
+author = "kpfleming"
+homepage = "https://github.com/kpfleming/jinjanator"
+readme = "https://raw.githubusercontent.com/kpfleming/jinjanator/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "BSD-2-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "jinjanator"

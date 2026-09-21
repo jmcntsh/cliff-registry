@@ -1,0 +1,12 @@
+name = "latchkey"
+description = "A command-line tool that injects credentials to curl requests to known public APIs."
+author = "imbue-ai"
+homepage = "https://github.com/imbue-ai/latchkey"
+readme = "https://raw.githubusercontent.com/imbue-ai/latchkey/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "latchkey"

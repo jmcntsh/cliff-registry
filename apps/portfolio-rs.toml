@@ -1,0 +1,12 @@
+name = "portfolio-rs"
+description = "A command line tool for managing financial investment portfolios."
+author = "MarkusZoppelt"
+homepage = "https://github.com/MarkusZoppelt/portfolio_rs"
+readme = "https://raw.githubusercontent.com/MarkusZoppelt/portfolio_rs/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "portfolio_rs"

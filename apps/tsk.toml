@@ -1,0 +1,12 @@
+name = "tsk"
+description = "tsk, a Linear alternative that stays in the terminal: a shared task board for you and your agents. TUI for you, CLI f..."
+author = "smarzban"
+homepage = "https://github.com/smarzban/tsk"
+readme = "https://raw.githubusercontent.com/smarzban/tsk/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tsk"

@@ -1,0 +1,12 @@
+name = "log-update"
+description = "Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc."
+author = "sindresorhus"
+homepage = "https://github.com/sindresorhus/log-update"
+readme = "https://raw.githubusercontent.com/sindresorhus/log-update/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "log-update"

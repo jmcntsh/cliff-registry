@@ -1,0 +1,12 @@
+name = "tidemail"
+description = "TUI Key first email client"
+author = "allisonhere"
+homepage = "https://github.com/allisonhere/tidemail"
+readme = "https://raw.githubusercontent.com/allisonhere/tidemail/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/allisonhere/tidemail@latest"

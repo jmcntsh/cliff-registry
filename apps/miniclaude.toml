@@ -1,0 +1,12 @@
+name = "miniclaude"
+description = "MiniClaude 是一个轻量级 Claude Code 风格的终端 AI 编程助手，支持 TUI、工具调用、权限控制..."
+author = "zmylol"
+homepage = "https://github.com/zmylol/MiniClaude"
+readme = "https://raw.githubusercontent.com/zmylol/MiniClaude/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "MiniClaude"

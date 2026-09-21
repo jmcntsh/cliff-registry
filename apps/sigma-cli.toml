@@ -1,0 +1,12 @@
+name = "sigma-cli"
+description = "The Sigma command line interface based on pySigma"
+author = "SigmaHQ"
+homepage = "https://github.com/SigmaHQ/sigma-cli"
+readme = "https://raw.githubusercontent.com/SigmaHQ/sigma-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "LGPL-2.1"
+
+[[installs]]
+type = "pipx"
+package = "sigma-cli"

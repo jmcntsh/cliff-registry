@@ -1,0 +1,12 @@
+name = "ansi-styles"
+description = "ANSI escape codes for styling strings in the terminal"
+author = "chalk"
+homepage = "https://github.com/chalk/ansi-styles"
+readme = "https://raw.githubusercontent.com/chalk/ansi-styles/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ansi-styles"

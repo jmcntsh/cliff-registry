@@ -1,0 +1,12 @@
+name = "specs"
+description = "Schema, types, and command line tools to record and manage UI component specifications."
+author = "DirectedEdges"
+homepage = "https://github.com/DirectedEdges/specs"
+readme = "https://raw.githubusercontent.com/DirectedEdges/specs/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "specs"

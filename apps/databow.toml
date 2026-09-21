@@ -1,0 +1,12 @@
+name = "databow"
+description = "A command-line tool for querying databases"
+author = "columnar-tech"
+homepage = "https://github.com/columnar-tech/databow"
+readme = "https://raw.githubusercontent.com/columnar-tech/databow/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "databow"

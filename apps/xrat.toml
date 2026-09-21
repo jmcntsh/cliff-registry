@@ -1,0 +1,12 @@
+name = "xrat"
+description = "Rust CLI/TUI proxy manager for Xray-core, V2Ray-core, and sing-box: import subscriptions, test latency, rotate proxie..."
+author = "mhyrzt"
+homepage = "https://github.com/mhyrzt/xrat"
+readme = "https://raw.githubusercontent.com/mhyrzt/xrat/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "xrat"

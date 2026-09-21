@@ -1,0 +1,12 @@
+name = "elastic-package"
+description = "elastic-package - Command line tool for developing Elastic Integrations"
+author = "elastic"
+homepage = "https://github.com/elastic/elastic-package"
+readme = "https://raw.githubusercontent.com/elastic/elastic-package/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/elastic/elastic-package@latest"

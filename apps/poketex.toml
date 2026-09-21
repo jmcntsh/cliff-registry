@@ -1,0 +1,12 @@
+name = "poketex"
+description = "Simple Pokedex based on TUI"
+author = "ckaznable"
+homepage = "https://github.com/ckaznable/poketex"
+readme = "https://raw.githubusercontent.com/ckaznable/poketex/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "poketex"

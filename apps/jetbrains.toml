@@ -1,0 +1,12 @@
+name = "jetbrains"
+description = "Check out the command line tool for JetBrains software version update links."
+author = "designinlife"
+homepage = "https://github.com/designinlife/jetbrains"
+readme = "https://raw.githubusercontent.com/designinlife/jetbrains/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/designinlife/jetbrains@latest"

@@ -1,0 +1,12 @@
+name = "omm"
+description = "on-my-mind: a keyboard-driven task manager for the command line"
+author = "dhth"
+homepage = "https://github.com/dhth/omm"
+readme = "https://raw.githubusercontent.com/dhth/omm/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dhth/omm@latest"

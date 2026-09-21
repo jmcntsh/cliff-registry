@@ -1,0 +1,12 @@
+name = "pi-extensions-nicknisi"
+description = "Nick Nisi's pi extensions — a pnpm monorepo of independently installable pi packages (@nicknisi/pi-*). TUI polish..."
+author = "nicknisi"
+homepage = "https://github.com/nicknisi/pi-extensions"
+readme = "https://raw.githubusercontent.com/nicknisi/pi-extensions/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pi-extensions"

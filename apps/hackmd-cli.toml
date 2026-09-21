@@ -1,0 +1,12 @@
+name = "hackmd-cli"
+description = "The HackMD Command Line Tool"
+author = "hackmdio"
+homepage = "https://github.com/hackmdio/hackmd-cli"
+readme = "https://raw.githubusercontent.com/hackmdio/hackmd-cli/develop/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "hackmd-cli"

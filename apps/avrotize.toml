@@ -1,0 +1,12 @@
+name = "avrotize"
+description = "Avrotize is a command-line tool for converting data structure definitions between different schema formats, using Apa..."
+author = "clemensv"
+homepage = "https://github.com/clemensv/avrotize"
+readme = "https://raw.githubusercontent.com/clemensv/avrotize/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "avrotize"

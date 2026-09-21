@@ -1,0 +1,12 @@
+name = "rentry"
+description = "Markdown pastebin from command line"
+author = "radude"
+homepage = "https://github.com/radude/rentry"
+readme = "https://raw.githubusercontent.com/radude/rentry/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "rentry"

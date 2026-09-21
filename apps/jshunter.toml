@@ -1,0 +1,12 @@
+name = "jshunter"
+description = "jshunter is a command-line tool designed for analyzing JavaScript files and extracting endpoints. This tool specializ..."
+author = "cc1a2b"
+homepage = "https://github.com/cc1a2b/JShunter"
+readme = "https://raw.githubusercontent.com/cc1a2b/JShunter/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/cc1a2b/jshunter@latest"

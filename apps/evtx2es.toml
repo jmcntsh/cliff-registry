@@ -1,0 +1,12 @@
+name = "evtx2es"
+description = "A command-line tool for parsing Windows Event Logs and importing the results into Elasticsearch."
+author = "sumeshi"
+homepage = "https://github.com/sumeshi/evtx2es"
+readme = "https://raw.githubusercontent.com/sumeshi/evtx2es/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "evtx2es"

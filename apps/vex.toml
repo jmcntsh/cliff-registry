@@ -1,0 +1,12 @@
+name = "vex"
+description = "Vex is a QEMU auxiliary command-line tool"
+author = "hust-open-atom-club"
+homepage = "https://github.com/hust-open-atom-club/Vex"
+readme = "https://raw.githubusercontent.com/hust-open-atom-club/Vex/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Vex"

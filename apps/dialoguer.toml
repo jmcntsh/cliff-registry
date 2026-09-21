@@ -1,0 +1,12 @@
+name = "dialoguer"
+description = "Rust utility library for nice command line prompts and similar things"
+author = "console-rs"
+homepage = "https://github.com/console-rs/dialoguer"
+readme = "https://raw.githubusercontent.com/console-rs/dialoguer/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "dialoguer"

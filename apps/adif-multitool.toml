@@ -1,0 +1,12 @@
+name = "adif-multitool"
+description = "Validate, modify, and convert ham radio log files with a handy command-line tool. 📻🌳🪓"
+author = "flwyd"
+homepage = "https://github.com/flwyd/adif-multitool"
+readme = "https://raw.githubusercontent.com/flwyd/adif-multitool/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/flwyd/adif-multitool@latest"

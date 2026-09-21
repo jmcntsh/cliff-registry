@@ -1,0 +1,12 @@
+name = "terminal-link"
+description = "Create clickable links in the terminal"
+author = "sindresorhus"
+homepage = "https://github.com/sindresorhus/terminal-link"
+readme = "https://raw.githubusercontent.com/sindresorhus/terminal-link/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "terminal-link"

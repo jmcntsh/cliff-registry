@@ -1,0 +1,12 @@
+name = "tsuru-client"
+description = "tsuru-client is a tsuru command line tool for application developers."
+author = "tsuru"
+homepage = "https://github.com/tsuru/tsuru-client"
+readme = "https://raw.githubusercontent.com/tsuru/tsuru-client/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/tsuru/tsuru-client@latest"

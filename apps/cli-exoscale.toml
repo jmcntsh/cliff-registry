@@ -1,0 +1,12 @@
+name = "cli-exoscale"
+description = "Command-line tool for everything at Exoscale: compute, storage, dns."
+author = "exoscale"
+homepage = "https://github.com/exoscale/cli"
+readme = "https://raw.githubusercontent.com/exoscale/cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/exoscale/cli@latest"
