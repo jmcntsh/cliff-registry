@@ -1,0 +1,12 @@
+name = "vibecheck"
+description = "Vibecheck is a lightweight, cross-platform command line AI-tool that automatically generates meaningful and consisten..."
+author = "rshdhere"
+homepage = "https://github.com/rshdhere/vibecheck"
+readme = "https://raw.githubusercontent.com/rshdhere/vibecheck/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rshdhere/vibecheck@latest"

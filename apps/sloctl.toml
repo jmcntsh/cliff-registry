@@ -1,0 +1,12 @@
+name = "sloctl"
+description = "A command line tool to cast SLO spells 🪄"
+author = "nobl9"
+homepage = "https://github.com/nobl9/sloctl"
+readme = "https://raw.githubusercontent.com/nobl9/sloctl/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/nobl9/sloctl@latest"

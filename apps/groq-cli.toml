@@ -1,0 +1,12 @@
+name = "groq-cli"
+description = "Run GROQ in your command line"
+author = "sanity-io"
+homepage = "https://github.com/sanity-io/groq-cli"
+readme = "https://raw.githubusercontent.com/sanity-io/groq-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "groq-cli"

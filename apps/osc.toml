@@ -1,0 +1,12 @@
+name = "osc"
+description = "The Command Line Interface to work with an Open Build Service"
+author = "openSUSE"
+homepage = "https://github.com/openSUSE/osc"
+readme = "https://raw.githubusercontent.com/openSUSE/osc/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "osc"

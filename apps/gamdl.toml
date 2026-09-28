@@ -1,0 +1,12 @@
+name = "gamdl"
+description = "A command-line app for downloading Apple Music songs, music videos and post videos."
+author = "glomatico"
+homepage = "https://github.com/glomatico/gamdl"
+readme = "https://raw.githubusercontent.com/glomatico/gamdl/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "gamdl"

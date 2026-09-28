@@ -1,0 +1,11 @@
+name = "data-hacks"
+description = "Command line utilities for data analysis"
+author = "bitly"
+homepage = "https://github.com/bitly/data_hacks"
+readme = "https://raw.githubusercontent.com/bitly/data_hacks/master/README.md"
+tags = ["cli"]
+category = "Data tools"
+
+[[installs]]
+type = "pipx"
+package = "data_hacks"

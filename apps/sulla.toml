@@ -1,0 +1,12 @@
+name = "sulla"
+description = "A command-line tool to mount SMB shares and scan them for secrets using NoseyParker."
+author = "praetorian-inc"
+homepage = "https://github.com/praetorian-inc/Sulla"
+readme = "https://raw.githubusercontent.com/praetorian-inc/Sulla/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/praetorian-inc/Sulla@latest"

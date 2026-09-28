@@ -1,0 +1,12 @@
+name = "nlm"
+description = "a command line interface to NotebookLM"
+author = "tmc"
+homepage = "https://github.com/tmc/nlm"
+readme = "https://raw.githubusercontent.com/tmc/nlm/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tmc/nlm@latest"

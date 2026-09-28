@@ -1,0 +1,12 @@
+name = "patsh"
+description = "A command-line tool for patching shell scripts inspired by resholve [maintainer=@figsoda]"
+author = "nix-community"
+homepage = "https://github.com/nix-community/patsh"
+readme = "https://raw.githubusercontent.com/nix-community/patsh/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MPL-2.0"
+
+[[installs]]
+type = "cargo"
+package = "patsh"

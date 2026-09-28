@@ -1,0 +1,12 @@
+name = "deepl-cli"
+description = "DeepL CLI is a comprehensive, developer-friendly command-line tool that integrates DeepL's powerful Translate, Write..."
+author = "DeepL"
+homepage = "https://github.com/DeepL/deepl-cli"
+readme = "https://raw.githubusercontent.com/DeepL/deepl-cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "deepl-cli"

@@ -1,0 +1,12 @@
+name = "dsh-code"
+description = "Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Cla..."
+author = "UNLINEARITY"
+homepage = "https://github.com/UNLINEARITY/dsh-code"
+readme = "https://raw.githubusercontent.com/UNLINEARITY/dsh-code/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "dsh-code"

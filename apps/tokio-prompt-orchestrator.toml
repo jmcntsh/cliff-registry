@@ -1,0 +1,12 @@
+name = "tokio-prompt-orchestrator"
+description = "Tokio pipeline for serving LLM requests: bounded five-stage flow with dedup, circuit breakers, retries, rate limits a..."
+author = "Mattbusel"
+homepage = "https://github.com/Mattbusel/tokio-prompt-orchestrator"
+readme = "https://raw.githubusercontent.com/Mattbusel/tokio-prompt-orchestrator/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tokio-prompt-orchestrator"

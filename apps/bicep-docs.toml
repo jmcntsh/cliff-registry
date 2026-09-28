@@ -1,0 +1,12 @@
+name = "bicep-docs"
+description = "bicep-docs is a command-line tool that generates documentation for Bicep templates."
+author = "christosgalano"
+homepage = "https://github.com/christosgalano/bicep-docs"
+readme = "https://raw.githubusercontent.com/christosgalano/bicep-docs/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/christosgalano/bicep-docs@latest"

@@ -1,0 +1,12 @@
+name = "slidev-workspace"
+description = "Slidev Workspace is a specialized command-line tool designed to manage and showcase multiple Slidev presentations."
+author = "leochiu-a"
+homepage = "https://github.com/leochiu-a/slidev-workspace"
+readme = "https://raw.githubusercontent.com/leochiu-a/slidev-workspace/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "slidev-workspace"

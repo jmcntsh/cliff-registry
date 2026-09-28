@@ -1,0 +1,12 @@
+name = "turso-cli"
+description = "Command line interface to the Turso Cloud."
+author = "tursodatabase"
+homepage = "https://github.com/tursodatabase/turso-cli"
+readme = "https://raw.githubusercontent.com/tursodatabase/turso-cli/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/tursodatabase/turso-cli@latest"

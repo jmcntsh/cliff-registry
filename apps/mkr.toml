@@ -1,0 +1,12 @@
+name = "mkr"
+description = "Command Line Tool for Mackerel"
+author = "mackerelio"
+homepage = "https://github.com/mackerelio/mkr"
+readme = "https://raw.githubusercontent.com/mackerelio/mkr/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/mackerelio/mkr@latest"

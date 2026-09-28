@@ -1,0 +1,12 @@
+name = "raijin"
+description = "A free, simple weather TUI that pulls data without the need for an API key, account, or subscription"
+author = "MasonStooksbury"
+homepage = "https://github.com/MasonStooksbury/Raijin"
+readme = "https://raw.githubusercontent.com/MasonStooksbury/Raijin/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Raijin"

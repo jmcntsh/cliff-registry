@@ -1,0 +1,12 @@
+name = "sentinel-dvpncli"
+description = "Command-line tool to connect, manage, and interact with Sentinel decentralized VPN"
+author = "sentinel-official"
+homepage = "https://github.com/sentinel-official/sentinel-dvpncli"
+readme = "https://raw.githubusercontent.com/sentinel-official/sentinel-dvpncli/development/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/sentinel-official/sentinel-dvpncli@latest"

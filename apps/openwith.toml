@@ -1,0 +1,12 @@
+name = "openwith"
+description = "Manage macOS 'Open With' defaults and URL scheme handlers — CLI, TUI, and native GUI"
+author = "ColeMei"
+homepage = "https://github.com/ColeMei/openwith"
+readme = "https://raw.githubusercontent.com/ColeMei/openwith/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "openwith"

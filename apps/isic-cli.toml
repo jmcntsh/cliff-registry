@@ -1,0 +1,12 @@
+name = "isic-cli"
+description = "The official command line tool for interacting with the ISIC Archive."
+author = "ImageMarkup"
+homepage = "https://github.com/ImageMarkup/isic-cli"
+readme = "https://raw.githubusercontent.com/ImageMarkup/isic-cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "isic-cli"

@@ -1,0 +1,12 @@
+name = "csv2xlsx"
+description = "Fast and simple opensource command line tool to convert CSV do XLSX"
+author = "mentax"
+homepage = "https://github.com/mentax/csv2xlsx"
+readme = "https://raw.githubusercontent.com/mentax/csv2xlsx/master/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mentax/csv2xlsx@latest"

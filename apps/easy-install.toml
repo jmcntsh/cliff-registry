@@ -1,0 +1,11 @@
+name = "easy-install"
+description = "A cross-platform command-line tool for effortlessly installing binaries from GitHub releases and other sources."
+author = "easy-install"
+homepage = "https://github.com/easy-install/easy-install"
+readme = "https://raw.githubusercontent.com/easy-install/easy-install/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "cargo"
+package = "easy-install"

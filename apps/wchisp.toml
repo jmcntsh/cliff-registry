@@ -1,0 +1,12 @@
+name = "wchisp"
+description = "Rust-based Command Line Tool for WCH MCU USB-ISP Programming"
+author = "ch32-rs"
+homepage = "https://github.com/ch32-rs/wchisp"
+readme = "https://raw.githubusercontent.com/ch32-rs/wchisp/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "cargo"
+package = "wchisp"

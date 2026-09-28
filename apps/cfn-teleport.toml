@@ -1,0 +1,12 @@
+name = "cfn-teleport"
+description = "A command-line tool for managing CloudFormation resources across and within stacks."
+author = "udondan"
+homepage = "https://github.com/udondan/cfn-teleport"
+readme = "https://raw.githubusercontent.com/udondan/cfn-teleport/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "cfn-teleport"

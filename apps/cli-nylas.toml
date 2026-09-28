@@ -1,0 +1,12 @@
+name = "cli-nylas"
+description = "Nylas CLI is a unified command-line tool for Nylas API authentication, email management (GPG signing/encryption), cal..."
+author = "nylas"
+homepage = "https://github.com/nylas/cli"
+readme = "https://raw.githubusercontent.com/nylas/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/nylas/cli@latest"

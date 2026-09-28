@@ -1,0 +1,12 @@
+name = "oidc-cli"
+description = "A command line tool to work with OIDC tokens"
+author = "ctron"
+homepage = "https://github.com/ctron/oidc-cli"
+readme = "https://raw.githubusercontent.com/ctron/oidc-cli/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "oidc-cli"

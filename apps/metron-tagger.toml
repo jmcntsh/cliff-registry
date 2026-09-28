@@ -1,0 +1,12 @@
+name = "metron-tagger"
+description = "Command line tool to tag comic archives with metadata from Metron Comic Book Database."
+author = "Metron-Project"
+homepage = "https://github.com/Metron-Project/metron-tagger"
+readme = "https://raw.githubusercontent.com/Metron-Project/metron-tagger/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "metron-tagger"

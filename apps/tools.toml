@@ -1,0 +1,12 @@
+name = "tools"
+description = "Various cli tools for Polkadot and Substrate chains, including basic node monitoring, making API queries via a cli ap..."
+author = "polkadot-js"
+homepage = "https://github.com/polkadot-js/tools"
+readme = "https://raw.githubusercontent.com/polkadot-js/tools/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "tools"

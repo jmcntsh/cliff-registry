@@ -1,0 +1,12 @@
+name = "arduino-fwuploader"
+description = "A Command Line Tool made to update the firmware and/or add SSL certificates for any Arduino board equipped with WINC..."
+author = "arduino"
+homepage = "https://github.com/arduino/arduino-fwuploader"
+readme = "https://raw.githubusercontent.com/arduino/arduino-fwuploader/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/arduino/arduino-fwuploader@latest"

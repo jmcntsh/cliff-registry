@@ -1,0 +1,12 @@
+name = "tsui"
+description = "An (experimental) elegant TUI for configuring Tailscale."
+author = "neuralink"
+homepage = "https://github.com/neuralink/tsui"
+readme = "https://raw.githubusercontent.com/neuralink/tsui/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/neuralinkcorp/tsui@latest"

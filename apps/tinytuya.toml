@@ -1,0 +1,12 @@
+name = "tinytuya"
+description = "Python API and command line tool for Tuya WiFi smart devices using a direct local area network (LAN) connection or th..."
+author = "jasonacox"
+homepage = "https://github.com/jasonacox/tinytuya"
+readme = "https://raw.githubusercontent.com/jasonacox/tinytuya/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "tinytuya"

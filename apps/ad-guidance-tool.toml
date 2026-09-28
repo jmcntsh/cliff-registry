@@ -1,0 +1,12 @@
+name = "ad-guidance-tool"
+description = "A Command-Line Tool for Managing Recurring Architectural Decisions, implemented in Go"
+author = "adr"
+homepage = "https://github.com/adr/ad-guidance-tool"
+readme = "https://raw.githubusercontent.com/adr/ad-guidance-tool/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/adr/ad-guidance-tool@latest"

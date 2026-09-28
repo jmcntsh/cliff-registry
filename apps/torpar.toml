@@ -1,0 +1,12 @@
+name = "torpar"
+description = "TUI Client for Knaben Database"
+author = "varbhat"
+homepage = "https://github.com/varbhat/torpar"
+readme = "https://raw.githubusercontent.com/varbhat/torpar/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/varbhat/torpar@latest"

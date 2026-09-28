@@ -1,0 +1,12 @@
+name = "complyctl"
+description = "A command-line tool for streamlining end-to-end compliance workflows on local systems."
+author = "complytime"
+homepage = "https://github.com/complytime/complyctl"
+readme = "https://raw.githubusercontent.com/complytime/complyctl/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/complytime/complyctl@latest"

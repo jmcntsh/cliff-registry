@@ -1,0 +1,12 @@
+name = "stig"
+description = "TUI and CLI for the BitTorrent client Transmission"
+author = "rndusr"
+homepage = "https://github.com/rndusr/stig"
+readme = "https://raw.githubusercontent.com/rndusr/stig/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "stig"

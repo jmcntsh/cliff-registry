@@ -1,0 +1,12 @@
+name = "themekit"
+description = "Shopify theme development command line tool."
+author = "Shopify"
+homepage = "https://github.com/Shopify/themekit"
+readme = "https://raw.githubusercontent.com/Shopify/themekit/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Shopify/themekit@latest"

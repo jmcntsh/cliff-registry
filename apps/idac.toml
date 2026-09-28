@@ -1,0 +1,12 @@
+name = "idac"
+description = "idac - IDA Pro command line tool for agents and humans"
+author = "trailofbits"
+homepage = "https://github.com/trailofbits/idac"
+readme = "https://raw.githubusercontent.com/trailofbits/idac/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "idac"

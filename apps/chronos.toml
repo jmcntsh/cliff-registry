@@ -1,0 +1,12 @@
+name = "chronos"
+description = "A Vimlike Calendar TUI"
+author = "samuelstranges"
+homepage = "https://github.com/samuelstranges/chronos"
+readme = "https://raw.githubusercontent.com/samuelstranges/chronos/main/README.md"
+tags = ["tui"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/samuelstranges/chronos@latest"

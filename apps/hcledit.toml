@@ -1,0 +1,12 @@
+name = "hcledit"
+description = "A command line editor for HCL"
+author = "minamijoyo"
+homepage = "https://github.com/minamijoyo/hcledit"
+readme = "https://raw.githubusercontent.com/minamijoyo/hcledit/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/minamijoyo/hcledit@latest"

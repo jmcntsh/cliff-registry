@@ -1,0 +1,12 @@
+name = "newrelic-cli"
+description = "New Relic CLI is a command line tool which is used to operate New Relic objects(Synthetic monitors, alert policies, c..."
+author = "IBM"
+homepage = "https://github.com/IBM/newrelic-cli"
+readme = "https://raw.githubusercontent.com/IBM/newrelic-cli/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/IBM/newrelic-cli@latest"

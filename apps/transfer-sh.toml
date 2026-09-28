@@ -1,0 +1,12 @@
+name = "transfer-sh"
+description = "Easy and fast file sharing from the command-line."
+author = "dutchcoders"
+homepage = "https://github.com/dutchcoders/transfer.sh"
+readme = "https://raw.githubusercontent.com/dutchcoders/transfer.sh/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/dutchcoders/transfer.sh@latest"

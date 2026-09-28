@@ -1,0 +1,12 @@
+name = "panther-analysis-tool"
+description = "Command line tool for working with Panther rules and policies"
+author = "panther-labs"
+homepage = "https://github.com/panther-labs/panther_analysis_tool"
+readme = "https://raw.githubusercontent.com/panther-labs/panther_analysis_tool/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "panther_analysis_tool"

@@ -1,0 +1,12 @@
+name = "cli-open-feature"
+description = "OpenFeature’s official command-line tool"
+author = "open-feature"
+homepage = "https://github.com/open-feature/cli"
+readme = "https://raw.githubusercontent.com/open-feature/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/open-feature/cli@latest"

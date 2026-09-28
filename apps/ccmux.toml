@@ -1,0 +1,12 @@
+name = "ccmux"
+description = "One TUI for every AI coding agent session — Claude Code, Codex, Cursor, and more — in sync across every device."
+author = "skzv"
+homepage = "https://github.com/skzv/ccmux"
+readme = "https://raw.githubusercontent.com/skzv/ccmux/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/skzv/ccmux@latest"

@@ -1,0 +1,12 @@
+name = "rsign2"
+description = "A command-line tool to sign files and verify signatures in pure Rust."
+author = "jedisct1"
+homepage = "https://github.com/jedisct1/rsign2"
+readme = "https://raw.githubusercontent.com/jedisct1/rsign2/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rsign2"

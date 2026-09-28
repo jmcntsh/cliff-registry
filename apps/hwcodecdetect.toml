@@ -1,0 +1,12 @@
+name = "hwcodecdetect"
+description = "HwCodecDetect is a lightweight command-line tool that reports on your device's available hardware-accelerated video c..."
+author = "whyb"
+homepage = "https://github.com/whyb/HwCodecDetect"
+readme = "https://raw.githubusercontent.com/whyb/HwCodecDetect/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "HwCodecDetect"

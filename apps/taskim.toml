@@ -1,0 +1,12 @@
+name = "taskim"
+description = "TUI Task Manager with vim-ish motions"
+author = "RohanAdwankar"
+homepage = "https://github.com/RohanAdwankar/taskim"
+readme = "https://raw.githubusercontent.com/RohanAdwankar/taskim/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "taskim"

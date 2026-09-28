@@ -1,0 +1,12 @@
+name = "pwdsafety"
+description = "🔒command line tool checking password safety🔒"
+author = "edoardottt"
+homepage = "https://github.com/edoardottt/pwdsafety"
+readme = "https://raw.githubusercontent.com/edoardottt/pwdsafety/master/README.md"
+tags = ["cli"]
+category = "Security"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/edoardottt/pwdsafety@latest"

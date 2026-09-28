@@ -1,0 +1,12 @@
+name = "ai-chat-md-export"
+description = "Command-line tool for converting ChatGPT and Claude chat history to readable Markdown files"
+author = "sugurutakahashi-1234"
+homepage = "https://github.com/sugurutakahashi-1234/ai-chat-md-export"
+readme = "https://raw.githubusercontent.com/sugurutakahashi-1234/ai-chat-md-export/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ai-chat-md-export"
