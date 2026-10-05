@@ -1,0 +1,12 @@
+name = "jevgrep"
+description = "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context."
+author = "dzhng"
+homepage = "https://github.com/dzhng/jevgrep"
+readme = "https://raw.githubusercontent.com/dzhng/jevgrep/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "jevgrep"

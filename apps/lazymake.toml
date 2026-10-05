@@ -1,0 +1,12 @@
+name = "lazymake"
+description = "Modern TUI for Makefiles with interactive target selection, dependency visualization, and command safety analysis"
+author = "rshelekhov"
+homepage = "https://github.com/rshelekhov/lazymake"
+readme = "https://raw.githubusercontent.com/rshelekhov/lazymake/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rshelekhov/lazymake@latest"

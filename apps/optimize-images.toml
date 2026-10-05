@@ -1,0 +1,12 @@
+name = "optimize-images"
+description = "A command-line interface (CLI) utility written in pure Python to help you reduce the file size of images."
+author = "victordomingos"
+homepage = "https://github.com/victordomingos/optimize-images"
+readme = "https://raw.githubusercontent.com/victordomingos/optimize-images/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "optimize-images"

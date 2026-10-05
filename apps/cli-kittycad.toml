@@ -1,0 +1,12 @@
+name = "cli-kittycad"
+description = "The Zoo command line tool."
+author = "KittyCAD"
+homepage = "https://github.com/KittyCAD/cli"
+readme = "https://raw.githubusercontent.com/KittyCAD/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "cli"

@@ -1,0 +1,12 @@
+name = "gip"
+description = "a command-line tool to get global IP address"
+author = "dalance"
+homepage = "https://github.com/dalance/gip"
+readme = "https://raw.githubusercontent.com/dalance/gip/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "gip"

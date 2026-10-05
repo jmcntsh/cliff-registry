@@ -1,0 +1,12 @@
+name = "alicat"
+description = "Python driver and command line tool for Alicat mass flow controllers."
+author = "numat"
+homepage = "https://github.com/numat/alicat"
+readme = "https://raw.githubusercontent.com/numat/alicat/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "alicat"

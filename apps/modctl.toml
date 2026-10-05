@@ -1,0 +1,12 @@
+name = "modctl"
+description = "Command-line tools for managing OCI model artifacts, which are bundled based on Model Spec"
+author = "modelpack"
+homepage = "https://github.com/modelpack/modctl"
+readme = "https://raw.githubusercontent.com/modelpack/modctl/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/modelpack/modctl@latest"

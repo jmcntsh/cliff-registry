@@ -1,0 +1,12 @@
+name = "soracom-cli"
+description = "Provides `soracom` command, a command line tool for calling SORACOM APIs. SORACOM API を呼び出すためのコマ..."
+author = "soracom"
+homepage = "https://github.com/soracom/soracom-cli"
+readme = "https://raw.githubusercontent.com/soracom/soracom-cli/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/soracom/soracom-cli@latest"

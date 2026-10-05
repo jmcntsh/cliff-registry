@@ -1,0 +1,11 @@
+name = "xiangqi-setup"
+description = ":game_die: Generate razor-sharp Xiangqi (Chinese chess) setup graphics; command line tool + themes"
+author = "hartwork"
+homepage = "https://github.com/hartwork/xiangqi-setup"
+readme = "https://raw.githubusercontent.com/hartwork/xiangqi-setup/master/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "pipx"
+package = "xiangqi-setup"

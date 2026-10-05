@@ -1,0 +1,11 @@
+name = "envtpl"
+description = "Render jinja2 templates on the command line with shell environment variables"
+author = "envtpl"
+homepage = "https://github.com/envtpl/envtpl"
+readme = "https://raw.githubusercontent.com/envtpl/envtpl/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "pipx"
+package = "envtpl"

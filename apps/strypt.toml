@@ -1,0 +1,12 @@
+name = "strypt"
+description = "Remove metadata from photos, PDFs, Office documents, audio and video. Strips EXIF, GPS location, camera serial number..."
+author = "FadeHack"
+homepage = "https://github.com/FadeHack/strypt"
+readme = "https://raw.githubusercontent.com/FadeHack/strypt/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "strypt"

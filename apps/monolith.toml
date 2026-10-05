@@ -1,0 +1,12 @@
+name = "monolith"
+description = "⬛️ CLI tool and library for saving complete web pages as a single HTML file"
+author = "Y2Z"
+homepage = "https://github.com/Y2Z/monolith"
+readme = "https://raw.githubusercontent.com/Y2Z/monolith/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "CC0-1.0"
+
+[[installs]]
+type = "cargo"
+package = "monolith"

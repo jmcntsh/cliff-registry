@@ -1,0 +1,12 @@
+name = "zoom-go"
+description = "A command line tool for joining your next Zoom meeting."
+author = "benbalter"
+homepage = "https://github.com/benbalter/zoom-go"
+readme = "https://raw.githubusercontent.com/benbalter/zoom-go/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/benbalter/zoom-go@latest"

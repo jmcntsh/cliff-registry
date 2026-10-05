@@ -1,0 +1,12 @@
+name = "howdoi"
+description = "instant coding answers via the command line"
+author = "gleitz"
+homepage = "https://github.com/gleitz/howdoi"
+readme = "https://raw.githubusercontent.com/gleitz/howdoi/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "howdoi"

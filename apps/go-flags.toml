@@ -1,0 +1,12 @@
+name = "go-flags"
+description = "go command line option parser"
+author = "jessevdk"
+homepage = "https://github.com/jessevdk/go-flags"
+readme = "https://raw.githubusercontent.com/jessevdk/go-flags/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/jessevdk/go-flags@latest"

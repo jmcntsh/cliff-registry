@@ -1,0 +1,12 @@
+name = "rgb"
+description = "RGB smart contracts: command-line tool & wallet runtime library for desktop and mobile integration"
+author = "RGB-WG"
+homepage = "https://github.com/RGB-WG/rgb"
+readme = "https://raw.githubusercontent.com/RGB-WG/rgb/master/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rgb"

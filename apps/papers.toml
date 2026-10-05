@@ -1,0 +1,12 @@
+name = "papers"
+description = "Command-line tool to manage bibliography (pdfs + bibtex)"
+author = "perrette"
+homepage = "https://github.com/perrette/papers"
+readme = "https://raw.githubusercontent.com/perrette/papers/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "papers"

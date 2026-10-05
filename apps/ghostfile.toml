@@ -1,0 +1,12 @@
+name = "ghostfile"
+description = "a command line tool to receive files"
+author = "jon6fingrs"
+homepage = "https://github.com/jon6fingrs/ghostfile"
+readme = "https://raw.githubusercontent.com/jon6fingrs/ghostfile/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jon6fingrs/ghostfile@latest"

@@ -1,0 +1,12 @@
+name = "cs2-server-manager"
+description = "Command-line tool that installs and runs several CS2 dedicated servers on one Linux machine, with Ready Up (or the ol..."
+author = "Auto-Tournament"
+homepage = "https://github.com/Auto-Tournament/cs2-server-manager"
+readme = "https://raw.githubusercontent.com/Auto-Tournament/cs2-server-manager/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/sivert-io/cs2-server-manager@latest"

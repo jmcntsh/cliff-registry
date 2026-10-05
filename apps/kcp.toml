@@ -1,0 +1,12 @@
+name = "kcp"
+description = "A comprehensive command-line tool for planning and executing Kafka migrations to Confluent Cloud. See ReadMe below fo..."
+author = "confluentinc"
+homepage = "https://github.com/confluentinc/kcp"
+readme = "https://raw.githubusercontent.com/confluentinc/kcp/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/confluentinc/kcp@latest"

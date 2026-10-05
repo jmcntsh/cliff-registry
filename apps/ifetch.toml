@@ -1,0 +1,12 @@
+name = "ifetch"
+description = "🚀 Bulk download your iCloud Drive files and folders with a simple command line tool"
+author = "roshanlam"
+homepage = "https://github.com/roshanlam/iFetch"
+readme = "https://raw.githubusercontent.com/roshanlam/iFetch/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "iFetch"

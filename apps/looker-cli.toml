@@ -1,0 +1,12 @@
+name = "looker-cli"
+description = "A Command Line Tool for Looker Content Management"
+author = "looker-open-source"
+homepage = "https://github.com/looker-open-source/looker-cli"
+readme = "https://raw.githubusercontent.com/looker-open-source/looker-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/looker-open-source/looker-cli@latest"

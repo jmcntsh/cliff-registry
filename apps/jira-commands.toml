@@ -1,0 +1,12 @@
+name = "jira-commands"
+description = "Some command-line tools for interacting with JIRA"
+author = "unixorn"
+homepage = "https://github.com/unixorn/jira-commands"
+readme = "https://raw.githubusercontent.com/unixorn/jira-commands/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "jira-commands"

@@ -1,0 +1,12 @@
+name = "monarchmoney-cli"
+description = "A local, agent-friendly command-line tool for Monarch Money. Written in Go."
+author = "thedavidweng"
+homepage = "https://github.com/thedavidweng/monarchmoney-cli"
+readme = "https://raw.githubusercontent.com/thedavidweng/monarchmoney-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/thedavidweng/monarchmoney-cli@latest"

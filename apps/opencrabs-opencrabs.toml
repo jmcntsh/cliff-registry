@@ -1,0 +1,12 @@
+name = "opencrabs-opencrabs"
+description = "The all-in-one AI agent. Build mobile apps, frontend, backend, manages files, deep research, schedule tasks and event..."
+author = "opencrabs"
+homepage = "https://github.com/opencrabs/opencrabs"
+readme = "https://raw.githubusercontent.com/opencrabs/opencrabs/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "opencrabs"

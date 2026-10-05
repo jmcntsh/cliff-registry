@@ -1,0 +1,12 @@
+name = "tokenu"
+description = "a unix-like du command line tool to count token usage per files and directories"
+author = "lirantal"
+homepage = "https://github.com/lirantal/tokenu"
+readme = "https://raw.githubusercontent.com/lirantal/tokenu/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "tokenu"

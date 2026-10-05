@@ -1,0 +1,12 @@
+name = "blurb"
+description = "Command-line tool to manage CPython Misc/NEWS.d entries"
+author = "python"
+homepage = "https://github.com/python/blurb"
+readme = "https://raw.githubusercontent.com/python/blurb/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "blurb"

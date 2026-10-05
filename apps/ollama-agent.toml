@@ -1,0 +1,12 @@
+name = "ollama-agent"
+description = "Ollama Agent is a powerful command-line tool (CLI and REPL) that allows you to interact with local AI models."
+author = "arrase"
+homepage = "https://github.com/arrase/ollama-agent"
+readme = "https://raw.githubusercontent.com/arrase/ollama-agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ollama-agent"

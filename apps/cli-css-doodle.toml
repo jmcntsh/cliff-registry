@@ -1,0 +1,12 @@
+name = "cli-css-doodle"
+description = "Command-line tool for css-doodle to preview and generate images/videos."
+author = "css-doodle"
+homepage = "https://github.com/css-doodle/cli"
+readme = "https://raw.githubusercontent.com/css-doodle/cli/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

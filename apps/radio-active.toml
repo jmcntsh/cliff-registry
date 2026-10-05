@@ -1,0 +1,12 @@
+name = "radio-active"
+description = "Play any radios around the globe right from the terminal :zap:"
+author = "dpnkrpl"
+homepage = "https://github.com/dpnkrpl/radio-active"
+readme = "https://raw.githubusercontent.com/dpnkrpl/radio-active/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "radio-active"

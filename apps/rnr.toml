@@ -1,0 +1,12 @@
+name = "rnr"
+description = "A command-line tool to batch rename files and directories"
+author = "ismaelgv"
+homepage = "https://github.com/ismaelgv/rnr"
+readme = "https://raw.githubusercontent.com/ismaelgv/rnr/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rnr"

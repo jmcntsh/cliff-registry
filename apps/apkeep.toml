@@ -1,0 +1,12 @@
+name = "apkeep"
+description = "A command-line tool for downloading APK files from various sources"
+author = "EFForg"
+homepage = "https://github.com/EFForg/apkeep"
+readme = "https://raw.githubusercontent.com/EFForg/apkeep/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "apkeep"

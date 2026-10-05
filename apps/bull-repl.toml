@@ -1,0 +1,12 @@
+name = "bull-repl"
+description = "Bull / BullMQ queue command line REPL"
+author = "darky"
+homepage = "https://github.com/darky/bull-repl"
+readme = "https://raw.githubusercontent.com/darky/bull-repl/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "bull-repl"

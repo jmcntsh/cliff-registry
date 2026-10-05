@@ -1,0 +1,12 @@
+name = "mailsend-go"
+description = "mailsend-go is a cross-platform command line tool to send mail via SMTP protocol"
+author = "muquit"
+homepage = "https://github.com/muquit/mailsend-go"
+readme = "https://raw.githubusercontent.com/muquit/mailsend-go/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/muquit/mailsend-go@latest"

@@ -1,0 +1,12 @@
+name = "winrm"
+description = "Command-line tool and library for Windows remote command execution in Go"
+author = "masterzen"
+homepage = "https://github.com/masterzen/winrm"
+readme = "https://raw.githubusercontent.com/masterzen/winrm/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/masterzen/winrm@latest"

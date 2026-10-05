@@ -1,0 +1,12 @@
+name = "gplaydl"
+description = "Command Line Google Play APK downloader. Download APK files to your PC directly from Google Play Store."
+author = "rehmatworks"
+homepage = "https://github.com/rehmatworks/gplaydl"
+readme = "https://raw.githubusercontent.com/rehmatworks/gplaydl/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "gplaydl"

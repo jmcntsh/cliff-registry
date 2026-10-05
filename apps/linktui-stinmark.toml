@@ -1,0 +1,12 @@
+name = "linktui-stinmark"
+description = "Tui based wifi, bluetooth and vpn manager for linux"
+author = "stinmark"
+homepage = "https://github.com/stinmark/linktui"
+readme = "https://raw.githubusercontent.com/stinmark/linktui/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/austinemk/linktui@latest"

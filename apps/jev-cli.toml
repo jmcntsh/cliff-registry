@@ -1,0 +1,12 @@
+name = "jev-cli"
+description = "Command-line tool for TypeSafe AI's Jev model. Ask yes/no, multiple-choice and rubric questions about any text and ge..."
+author = "shaharia-lab"
+homepage = "https://github.com/shaharia-lab/jev-cli"
+readme = "https://raw.githubusercontent.com/shaharia-lab/jev-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "jev-cli"

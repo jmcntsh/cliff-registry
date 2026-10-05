@@ -1,0 +1,12 @@
+name = "nextdnsctl"
+description = "Command-line tool for NextDNS: bulk-edit, import and back up denylists and allowlists, or manage whole profiles from..."
+author = "danielmeint"
+homepage = "https://github.com/danielmeint/nextdnsctl"
+readme = "https://raw.githubusercontent.com/danielmeint/nextdnsctl/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "nextdnsctl"

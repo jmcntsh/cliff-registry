@@ -1,0 +1,12 @@
+name = "sentences"
+description = "A multilingual command line sentence tokenizer in Golang"
+author = "neurosnap"
+homepage = "https://github.com/neurosnap/sentences"
+readme = "https://raw.githubusercontent.com/neurosnap/sentences/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/neurosnap/sentences@latest"

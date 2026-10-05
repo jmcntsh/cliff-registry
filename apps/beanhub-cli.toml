@@ -1,0 +1,12 @@
+name = "beanhub-cli"
+description = "Command line tools for BeanHub or Beancount users"
+author = "LaunchPlatform"
+homepage = "https://github.com/LaunchPlatform/beanhub-cli"
+readme = "https://raw.githubusercontent.com/LaunchPlatform/beanhub-cli/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "beanhub-cli"

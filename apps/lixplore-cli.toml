@@ -1,0 +1,12 @@
+name = "lixplore-cli"
+description = "A Unix-inspired command-line tool for searching scientific literature, built for terminal users who want speed, autom..."
+author = "pryndor"
+homepage = "https://github.com/pryndor/Lixplore_cli"
+readme = "https://raw.githubusercontent.com/pryndor/Lixplore_cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Lixplore_cli"

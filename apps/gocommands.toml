@@ -1,0 +1,12 @@
+name = "gocommands"
+description = "iRODS Command-line Tools written in Go"
+author = "cyverse"
+homepage = "https://github.com/cyverse/gocommands"
+readme = "https://raw.githubusercontent.com/cyverse/gocommands/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/cyverse/gocommands@latest"

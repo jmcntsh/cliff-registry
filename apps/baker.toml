@@ -1,0 +1,12 @@
+name = "baker"
+description = "Baker is a command-line tool that helps you quickly scaffold new projects. It supports language-independent hooks for..."
+author = "aliev"
+homepage = "https://github.com/aliev/baker"
+readme = "https://raw.githubusercontent.com/aliev/baker/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "baker"

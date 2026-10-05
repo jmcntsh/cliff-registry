@@ -1,0 +1,12 @@
+name = "vcs2l"
+description = "Vcs2l is a command line tool designed to make working with multiple repositories easier"
+author = "ros-infrastructure"
+homepage = "https://github.com/ros-infrastructure/vcs2l"
+readme = "https://raw.githubusercontent.com/ros-infrastructure/vcs2l/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "vcs2l"

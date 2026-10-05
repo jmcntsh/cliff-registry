@@ -1,0 +1,12 @@
+name = "gonstructor"
+description = "A command-line tool to generate a constructor for the struct."
+author = "moznion"
+homepage = "https://github.com/moznion/gonstructor"
+readme = "https://raw.githubusercontent.com/moznion/gonstructor/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/moznion/gonstructor@latest"

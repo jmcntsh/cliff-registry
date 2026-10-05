@@ -1,0 +1,12 @@
+name = "grafanactl"
+description = "The Grafana CLI. Command-line tool designed to simplify interaction with Grafana resources."
+author = "grafana"
+homepage = "https://github.com/grafana/grafanactl"
+readme = "https://raw.githubusercontent.com/grafana/grafanactl/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/grafana/grafanactl@latest"

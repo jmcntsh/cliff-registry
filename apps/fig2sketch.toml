@@ -1,0 +1,12 @@
+name = "fig2sketch"
+description = "fig2sketch is a command line tool that converts `.fig` files into Sketch design documents (`.sketch`), which can then..."
+author = "sketch-hq"
+homepage = "https://github.com/sketch-hq/fig2sketch"
+readme = "https://raw.githubusercontent.com/sketch-hq/fig2sketch/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "fig2sketch"
