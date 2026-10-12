@@ -1,0 +1,12 @@
+name = "ags-cli"
+description = "AGR CLI is a command-line tool for managing Tencent Cloud Agent Runtime"
+author = "TencentCloudAgentRuntime"
+homepage = "https://github.com/TencentCloudAgentRuntime/ags-cli"
+readme = "https://raw.githubusercontent.com/TencentCloudAgentRuntime/ags-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/TencentCloudAgentRuntime/ags-cli@latest"

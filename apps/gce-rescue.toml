@@ -1,0 +1,12 @@
+name = "gce-rescue"
+description = "GCE Rescue is a command-line tool to boot Google Cloud Platform VMs in Rescue Mode. Topics"
+author = "GoogleCloudPlatform"
+homepage = "https://github.com/GoogleCloudPlatform/gce-rescue"
+readme = "https://raw.githubusercontent.com/GoogleCloudPlatform/gce-rescue/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "gce-rescue"

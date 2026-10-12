@@ -1,0 +1,12 @@
+name = "ntfsdump"
+description = "A command-line tool for efficiently extracting files, directories, and alternate data streams directly from NTFS imag..."
+author = "sumeshi"
+homepage = "https://github.com/sumeshi/ntfsdump"
+readme = "https://raw.githubusercontent.com/sumeshi/ntfsdump/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ntfsdump"

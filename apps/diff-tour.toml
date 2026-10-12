@@ -1,0 +1,12 @@
+name = "diff-tour"
+description = "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour."
+author = "init-co-jp"
+homepage = "https://github.com/init-co-jp/diff-tour"
+readme = "https://raw.githubusercontent.com/init-co-jp/diff-tour/main/README.md"
+tags = ["tui"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/init-co-jp/diff-tour@latest"

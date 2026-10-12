@@ -1,0 +1,12 @@
+name = "row"
+description = "Row is a command line tool that helps you manage workflows on HPC resources."
+author = "glotzerlab"
+homepage = "https://github.com/glotzerlab/row"
+readme = "https://raw.githubusercontent.com/glotzerlab/row/trunk/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "cargo"
+package = "row"

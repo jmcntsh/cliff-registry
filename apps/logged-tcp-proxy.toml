@@ -1,0 +1,12 @@
+name = "logged-tcp-proxy"
+description = "Implementation of logged TCP proxy command line tool on Rust."
+author = "qwerty541"
+homepage = "https://github.com/qwerty541/logged-tcp-proxy"
+readme = "https://raw.githubusercontent.com/qwerty541/logged-tcp-proxy/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "logged-tcp-proxy"

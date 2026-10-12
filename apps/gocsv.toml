@@ -1,0 +1,12 @@
+name = "gocsv"
+description = "Command-line CSV processing utility."
+author = "aotimme"
+homepage = "https://github.com/aotimme/gocsv"
+readme = "https://raw.githubusercontent.com/aotimme/gocsv/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/aotimme/gocsv@latest"

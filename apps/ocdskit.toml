@@ -1,0 +1,12 @@
+name = "ocdskit"
+description = "A suite of command-line tools for working with OCDS data"
+author = "open-contracting"
+homepage = "https://github.com/open-contracting/ocdskit"
+readme = "https://raw.githubusercontent.com/open-contracting/ocdskit/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "ocdskit"

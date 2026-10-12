@@ -1,0 +1,12 @@
+name = "litmusctl"
+description = "Command-Line tool to manage Litmuschaos's agent plane"
+author = "litmuschaos"
+homepage = "https://github.com/litmuschaos/litmusctl"
+readme = "https://raw.githubusercontent.com/litmuschaos/litmusctl/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/litmuschaos/litmusctl@latest"

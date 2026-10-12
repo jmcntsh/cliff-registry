@@ -1,0 +1,11 @@
+name = "nitrocli"
+description = "A command line tool for interacting with Nitrokey devices."
+author = "d-e-s-o"
+homepage = "https://github.com/d-e-s-o/nitrocli"
+readme = "https://raw.githubusercontent.com/d-e-s-o/nitrocli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "cargo"
+package = "nitrocli"

@@ -1,0 +1,12 @@
+name = "gsutil"
+description = "A command line tool for interacting with cloud storage services."
+author = "GoogleCloudPlatform"
+homepage = "https://github.com/GoogleCloudPlatform/gsutil"
+readme = "https://raw.githubusercontent.com/GoogleCloudPlatform/gsutil/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "gsutil"

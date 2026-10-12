@@ -1,0 +1,12 @@
+name = "metawarc"
+description = "metawarc: a command-line tool for metadata extraction from files from WARC (Web ARChive)"
+author = "ruarxive"
+homepage = "https://github.com/ruarxive/metawarc"
+readme = "https://raw.githubusercontent.com/ruarxive/metawarc/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "metawarc"

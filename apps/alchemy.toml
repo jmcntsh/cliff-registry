@@ -1,0 +1,12 @@
+name = "alchemy"
+description = "Alchemy is a command line tool for modifying and transforming Matter spec documents."
+author = "project-chip"
+homepage = "https://github.com/project-chip/alchemy"
+readme = "https://raw.githubusercontent.com/project-chip/alchemy/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/project-chip/alchemy@latest"

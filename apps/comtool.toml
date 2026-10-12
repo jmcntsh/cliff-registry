@@ -1,0 +1,12 @@
+name = "comtool"
+description = "Cross platform communicate assistant(Serial/network/terminal tool)（ 跨平台 串口调试助手 网络调试助..."
+author = "Neutree"
+homepage = "https://github.com/Neutree/COMTool"
+readme = "https://raw.githubusercontent.com/Neutree/COMTool/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "COMTool"

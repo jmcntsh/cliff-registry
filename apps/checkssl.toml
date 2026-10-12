@@ -1,0 +1,12 @@
+name = "checkssl"
+description = "simple cross platform command line tool to check ssl https certificate and chain is valid and not expired"
+author = "szazeski"
+homepage = "https://github.com/szazeski/checkssl"
+readme = "https://raw.githubusercontent.com/szazeski/checkssl/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/szazeski/checkssl@latest"

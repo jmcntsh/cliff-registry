@@ -1,0 +1,11 @@
+name = "pattrick"
+description = "Pattrick is a command line tool for managing Personal Access Tokens (PAT) in Azure DevOps"
+author = "jvanbuel"
+homepage = "https://github.com/jvanbuel/pattrick"
+readme = "https://raw.githubusercontent.com/jvanbuel/pattrick/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+
+[[installs]]
+type = "cargo"
+package = "pattrick"

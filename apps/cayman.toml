@@ -1,0 +1,12 @@
+name = "cayman"
+description = "A command-line tool for profiling CAZyme abundances in metagenomic datasets."
+author = "zellerlab"
+homepage = "https://github.com/zellerlab/cayman"
+readme = "https://raw.githubusercontent.com/zellerlab/cayman/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cayman"

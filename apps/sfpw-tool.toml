@@ -1,0 +1,12 @@
+name = "sfpw-tool"
+description = "Fully Featured CLI/TUI for SFP Wizard"
+author = "vitaminmoo"
+homepage = "https://github.com/vitaminmoo/sfpw-tool"
+readme = "https://raw.githubusercontent.com/vitaminmoo/sfpw-tool/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vitaminmoo/sfpw-tool@latest"

@@ -1,0 +1,12 @@
+name = "ccburn"
+description = "🔥 Claude Code usage limits — TUI with burn-up charts, compact mode for status bars, JSON for automation"
+author = "JuanjoFuchs"
+homepage = "https://github.com/JuanjoFuchs/ccburn"
+readme = "https://raw.githubusercontent.com/JuanjoFuchs/ccburn/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ccburn"

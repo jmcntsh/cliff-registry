@@ -1,0 +1,12 @@
+name = "wg-manage"
+description = "An awesome command-line tool to manage Wireguard configurations."
+author = "psimsa"
+homepage = "https://github.com/psimsa/wg-manage"
+readme = "https://raw.githubusercontent.com/psimsa/wg-manage/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ofcoursedude/wg-manage@latest"

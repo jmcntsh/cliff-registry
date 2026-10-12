@@ -1,0 +1,12 @@
+name = "rapa"
+description = "a command line tool that aids in protein preparation by assigning various protonation and rotamer states of unassigne..."
+author = "Ventus-Therapeutics"
+homepage = "https://github.com/Ventus-Therapeutics/rapa"
+readme = "https://raw.githubusercontent.com/Ventus-Therapeutics/rapa/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "rapa"

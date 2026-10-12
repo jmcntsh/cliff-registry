@@ -1,0 +1,12 @@
+name = "gemforge"
+description = "Command-line tool for building, deploying and upgrading Diamond Standard contracts on EVM chains."
+author = "gemstation"
+homepage = "https://github.com/gemstation/gemforge"
+readme = "https://raw.githubusercontent.com/gemstation/gemforge/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "gemforge"

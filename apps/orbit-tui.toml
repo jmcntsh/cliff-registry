@@ -1,0 +1,12 @@
+name = "orbit-tui"
+description = "The most complete keyboard-driven terminal dashboard in Rust. One pane, six modes — CPU, memory, disk, network, GPU..."
+author = "ziuus"
+homepage = "https://github.com/ziuus/orbit-tui"
+readme = "https://raw.githubusercontent.com/ziuus/orbit-tui/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "orbit-tui"

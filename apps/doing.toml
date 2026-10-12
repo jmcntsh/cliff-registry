@@ -1,0 +1,12 @@
+name = "doing"
+description = "A Rust clone of doing by Brett Terpstra — a command line tool for remembering what you were doing and tracking what..."
+author = "aaronmallen"
+homepage = "https://github.com/aaronmallen/doing"
+readme = "https://raw.githubusercontent.com/aaronmallen/doing/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "doing"

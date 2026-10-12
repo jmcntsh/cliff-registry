@@ -1,0 +1,12 @@
+name = "nail-parquet"
+description = "Fast parquet command line tool with many functions, nailed it!"
+author = "Vitruves"
+homepage = "https://github.com/Vitruves/nail-parquet"
+readme = "https://raw.githubusercontent.com/Vitruves/nail-parquet/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "nail-parquet"

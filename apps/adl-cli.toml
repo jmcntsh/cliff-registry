@@ -1,0 +1,12 @@
+name = "adl-cli"
+description = "A command-line tool to scaffold and manage enterprise-ready AI Agents powered by the A2A (Agent-to-Agent) protocol"
+author = "inference-gateway"
+homepage = "https://github.com/inference-gateway/adl-cli"
+readme = "https://raw.githubusercontent.com/inference-gateway/adl-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/inference-gateway/adl-cli@latest"

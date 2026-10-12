@@ -1,0 +1,12 @@
+name = "ks-email-parser"
+description = "A command line tool to render HTML and text emails of markdown content."
+author = "KeepSafe"
+homepage = "https://github.com/KeepSafe/ks-email-parser"
+readme = "https://raw.githubusercontent.com/KeepSafe/ks-email-parser/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "ks-email-parser"

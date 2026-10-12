@@ -1,0 +1,12 @@
+name = "cocode-pipelex"
+description = "A command-line tool that turns code repositories into context and analyzes them with AI methods run by Pipelex."
+author = "Pipelex"
+homepage = "https://github.com/Pipelex/cocode"
+readme = "https://raw.githubusercontent.com/Pipelex/cocode/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cocode"

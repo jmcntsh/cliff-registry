@@ -1,0 +1,12 @@
+name = "ntk"
+description = "Fast, friendly CLI and TUI for Apache Kafka: inspect clusters, move messages, watch lag, and fix things from one binary."
+author = "ntailio"
+homepage = "https://github.com/ntailio/ntk"
+readme = "https://raw.githubusercontent.com/ntailio/ntk/trunk/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ntailio/ntk@latest"

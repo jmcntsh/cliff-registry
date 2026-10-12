@@ -1,0 +1,12 @@
+name = "wtfi2"
+description = "Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies — and how to fix it. R..."
+author = "kanywst"
+homepage = "https://github.com/kanywst/wtfi2"
+readme = "https://raw.githubusercontent.com/kanywst/wtfi2/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "wtfi2"

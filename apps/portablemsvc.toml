@@ -1,0 +1,12 @@
+name = "portablemsvc"
+description = "PortableMSVC is a command-line tool that automates downloading, caching, extracting, and managing fully portable Micr..."
+author = "tgbender"
+homepage = "https://github.com/tgbender/portablemsvc"
+readme = "https://raw.githubusercontent.com/tgbender/portablemsvc/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "portablemsvc"

@@ -1,0 +1,12 @@
+name = "typeshed-stats"
+description = "Library and command-line tool to gather stats on typeshed packages"
+author = "AlexWaygood"
+homepage = "https://github.com/AlexWaygood/typeshed-stats"
+readme = "https://raw.githubusercontent.com/AlexWaygood/typeshed-stats/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "typeshed-stats"

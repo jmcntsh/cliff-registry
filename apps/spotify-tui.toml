@@ -1,0 +1,12 @@
+name = "spotify-tui"
+description = "A Spotify TUI written in HTML and a little bit of Rust."
+author = "fusor-rs"
+homepage = "https://github.com/fusor-rs/spotify-tui"
+readme = "https://raw.githubusercontent.com/fusor-rs/spotify-tui/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "spotify-tui"

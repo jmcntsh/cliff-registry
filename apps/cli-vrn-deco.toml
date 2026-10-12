@@ -1,0 +1,12 @@
+name = "cli-vrn-deco"
+description = "💻 Project scaffolding with command line tools. 🛠"
+author = "vrn-deco"
+homepage = "https://github.com/vrn-deco/cli"
+readme = "https://raw.githubusercontent.com/vrn-deco/cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

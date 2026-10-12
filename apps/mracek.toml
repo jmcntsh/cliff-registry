@@ -1,0 +1,12 @@
+name = "mracek"
+description = "Command line tool to manage your OpenStack configuration files"
+author = "mchlumsky"
+homepage = "https://github.com/mchlumsky/mracek"
+readme = "https://raw.githubusercontent.com/mchlumsky/mracek/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mchlumsky/mracek@latest"

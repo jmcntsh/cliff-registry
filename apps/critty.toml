@@ -1,0 +1,12 @@
+name = "critty"
+description = "TUI for reviewing AI-generated code and plans"
+author = "crittylabs"
+homepage = "https://github.com/crittylabs/critty"
+readme = "https://raw.githubusercontent.com/crittylabs/critty/main/README.md"
+tags = ["tui"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/crittylabs/critty@latest"

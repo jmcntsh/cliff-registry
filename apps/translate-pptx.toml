@@ -1,0 +1,12 @@
+name = "translate-pptx"
+description = "translate-pptx is a command line tool that translates PowerPoint PPTX files from one language to another."
+author = "haesleinhuepf"
+homepage = "https://github.com/haesleinhuepf/translate-pptx"
+readme = "https://raw.githubusercontent.com/haesleinhuepf/translate-pptx/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "pipx"
+package = "translate-pptx"

@@ -1,0 +1,12 @@
+name = "ntfsfind"
+description = "A command-line tool for searching files, directories, and alternate data streams directly from NTFS image files."
+author = "sumeshi"
+homepage = "https://github.com/sumeshi/ntfsfind"
+readme = "https://raw.githubusercontent.com/sumeshi/ntfsfind/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ntfsfind"

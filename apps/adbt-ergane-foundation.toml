@@ -1,0 +1,12 @@
+name = "adbt-ergane-foundation"
+description = "A modern, keyboard-driven Android Debug Bridge TUI."
+author = "Ergane-Foundation"
+homepage = "https://github.com/Ergane-Foundation/adbt"
+readme = "https://raw.githubusercontent.com/Ergane-Foundation/adbt/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/SakshhamTheCoder/adbt@latest"

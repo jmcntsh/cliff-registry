@@ -1,0 +1,12 @@
+name = "hap-toolkit"
+description = "Quickapp command line tools to support project creation, compilation, debugging support, etc."
+author = "hapjs-platform"
+homepage = "https://github.com/hapjs-platform/hap-toolkit"
+readme = "https://raw.githubusercontent.com/hapjs-platform/hap-toolkit/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "hap-toolkit"

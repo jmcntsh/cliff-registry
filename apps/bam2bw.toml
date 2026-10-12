@@ -1,0 +1,12 @@
+name = "bam2bw"
+description = "A command-line tool for reading SAM/BAM files and converted them directly to bigwig files."
+author = "jmschrei"
+homepage = "https://github.com/jmschrei/bam2bw"
+readme = "https://raw.githubusercontent.com/jmschrei/bam2bw/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "bam2bw"

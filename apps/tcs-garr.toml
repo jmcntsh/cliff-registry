@@ -1,0 +1,12 @@
+name = "tcs-garr"
+description = "The TCS-GARR Client is a command-line tool for managing and interacting with Harica platform. It offers features like..."
+author = "ConsortiumGARR"
+homepage = "https://github.com/ConsortiumGARR/tcs-garr"
+readme = "https://raw.githubusercontent.com/ConsortiumGARR/tcs-garr/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "tcs-garr"

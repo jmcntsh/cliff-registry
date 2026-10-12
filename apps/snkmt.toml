@@ -1,0 +1,12 @@
+name = "snkmt"
+description = "A TUI for monitoring Snakemake workflows in real-time."
+author = "cademirch"
+homepage = "https://github.com/cademirch/snkmt"
+readme = "https://raw.githubusercontent.com/cademirch/snkmt/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "snkmt"

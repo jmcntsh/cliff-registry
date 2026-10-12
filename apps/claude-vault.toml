@@ -1,0 +1,11 @@
+name = "claude-vault"
+description = "Claude Vault is a command-line tool that syncs your Claude AI conversations & Claude Code into beautifully formatted..."
+author = "MarioPadilla"
+homepage = "https://github.com/MarioPadilla/claude-vault"
+readme = "https://raw.githubusercontent.com/MarioPadilla/claude-vault/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "pipx"
+package = "claude-vault"

@@ -1,0 +1,12 @@
+name = "bx"
+description = "Command line tool to run JavaScript, TypeScript or HTML files in the browser."
+author = "webdriverio"
+homepage = "https://github.com/webdriverio/bx"
+readme = "https://raw.githubusercontent.com/webdriverio/bx/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "bx"

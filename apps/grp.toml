@@ -1,0 +1,12 @@
+name = "grp"
+description = "girep is a command line tool that helps you manage your git repositories in the cloud, for difrent platforms. It is w..."
+author = "feraxhp"
+homepage = "https://github.com/feraxhp/grp"
+readme = "https://raw.githubusercontent.com/feraxhp/grp/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "grp"

@@ -1,0 +1,12 @@
+name = "wxc"
+description = "A command line tool to query source code from your current Python env"
+author = "neutrinoceros"
+homepage = "https://github.com/neutrinoceros/wxc"
+readme = "https://raw.githubusercontent.com/neutrinoceros/wxc/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "wxc"

@@ -1,0 +1,12 @@
+name = "g1t"
+description = "Minimal command-line tool for recording your git commits, installed as the g1t command."
+author = "nirholas"
+homepage = "https://github.com/nirholas/g1t"
+readme = "https://raw.githubusercontent.com/nirholas/g1t/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "g1t"

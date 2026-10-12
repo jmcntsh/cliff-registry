@@ -1,0 +1,12 @@
+name = "dso"
+description = "Data Science Operations (dso) command line tool"
+author = "Boehringer-Ingelheim"
+homepage = "https://github.com/Boehringer-Ingelheim/dso"
+readme = "https://raw.githubusercontent.com/Boehringer-Ingelheim/dso/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "dso"
