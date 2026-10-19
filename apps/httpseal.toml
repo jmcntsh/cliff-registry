@@ -1,0 +1,12 @@
+name = "httpseal"
+description = "HTTPSeal is a Linux command-line tool for intercepting and analyzing HTTPS traffic from specific processes using name..."
+author = "hmgle"
+homepage = "https://github.com/hmgle/httpseal"
+readme = "https://raw.githubusercontent.com/hmgle/httpseal/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hmgle/httpseal@latest"

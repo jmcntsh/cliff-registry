@@ -1,0 +1,12 @@
+name = "electron-pdf"
+description = "📄 A command line tool to generate PDF from URL, HTML or Markdown files."
+author = "fraserxu"
+homepage = "https://github.com/fraserxu/electron-pdf"
+readme = "https://raw.githubusercontent.com/fraserxu/electron-pdf/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "electron-pdf"

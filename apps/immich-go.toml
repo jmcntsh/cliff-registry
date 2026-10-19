@@ -1,0 +1,12 @@
+name = "immich-go"
+description = "An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing..."
+author = "simulot"
+homepage = "https://github.com/simulot/immich-go"
+readme = "https://raw.githubusercontent.com/simulot/immich-go/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/simulot/immich-go@latest"

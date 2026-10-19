@@ -1,0 +1,12 @@
+name = "albums"
+description = "Command line tool to help manage a library of music albums"
+author = "4levity"
+homepage = "https://github.com/4levity/albums"
+readme = "https://raw.githubusercontent.com/4levity/albums/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "albums"

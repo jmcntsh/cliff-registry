@@ -1,0 +1,12 @@
+name = "werkzeugkasten"
+description = "Download your favorite command-line tools with ease!"
+author = "Allaman"
+homepage = "https://github.com/Allaman/werkzeugkasten"
+readme = "https://raw.githubusercontent.com/Allaman/werkzeugkasten/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/allaman/werkzeugkasten@latest"

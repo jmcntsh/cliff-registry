@@ -1,0 +1,11 @@
+name = "tools-niemasd"
+description = "A collection of command-line tools I wrote to make various repetitive tasks more convenient"
+author = "niemasd"
+homepage = "https://github.com/niemasd/tools"
+readme = "https://raw.githubusercontent.com/niemasd/tools/master/README.md"
+tags = ["cli"]
+category = "File management"
+
+[[installs]]
+type = "pipx"
+package = "tools"

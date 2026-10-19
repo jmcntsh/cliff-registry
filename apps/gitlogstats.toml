@@ -1,0 +1,12 @@
+name = "gitlogstats"
+description = "A command line tool to report statistics on the contributions of developer to a project."
+author = "bloombar"
+homepage = "https://github.com/bloombar/gitlogstats"
+readme = "https://raw.githubusercontent.com/bloombar/gitlogstats/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "gitlogstats"

@@ -1,0 +1,12 @@
+name = "moltbook-tui"
+description = "A TUI client for Moltbook, the social network for AI Agents."
+author = "terminaltrove"
+homepage = "https://github.com/terminaltrove/moltbook-tui"
+readme = "https://raw.githubusercontent.com/terminaltrove/moltbook-tui/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "moltbook-tui"

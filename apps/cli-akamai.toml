@@ -1,0 +1,12 @@
+name = "cli-akamai"
+description = "Manage and configure Akamai from the Command Line."
+author = "akamai"
+homepage = "https://github.com/akamai/cli"
+readme = "https://raw.githubusercontent.com/akamai/cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/akamai/cli/v2@latest"

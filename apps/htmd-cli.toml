@@ -1,0 +1,12 @@
+name = "htmd-cli"
+description = "The command line tool for htmd"
+author = "letmutex"
+homepage = "https://github.com/letmutex/htmd-cli"
+readme = "https://raw.githubusercontent.com/letmutex/htmd-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "htmd-cli"

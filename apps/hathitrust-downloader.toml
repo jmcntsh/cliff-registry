@@ -1,0 +1,12 @@
+name = "hathitrust-downloader"
+description = "Small and simple command line tool to automate downloading pages from HathiTrust"
+author = "Addono"
+homepage = "https://github.com/Addono/HathiTrust-downloader"
+readme = "https://raw.githubusercontent.com/Addono/HathiTrust-downloader/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "HathiTrust-downloader"

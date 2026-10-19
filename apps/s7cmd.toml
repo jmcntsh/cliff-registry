@@ -1,0 +1,12 @@
+name = "s7cmd"
+description = "A reliable, flexible, and fast command-line tool for Amazon S3."
+author = "nidor1998"
+homepage = "https://github.com/nidor1998/s7cmd"
+readme = "https://raw.githubusercontent.com/nidor1998/s7cmd/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "s7cmd"

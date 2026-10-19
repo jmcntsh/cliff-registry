@@ -1,0 +1,12 @@
+name = "hammer"
+description = "🛠 hammer is a command-line tool to schema management for Google Cloud Spanner."
+author = "daichirata"
+homepage = "https://github.com/daichirata/hammer"
+readme = "https://raw.githubusercontent.com/daichirata/hammer/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/daichirata/hammer@latest"

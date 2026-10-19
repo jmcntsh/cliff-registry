@@ -1,0 +1,12 @@
+name = "fast-cli"
+description = "Test your download and upload speed using fast.com"
+author = "sindresorhus"
+homepage = "https://github.com/sindresorhus/fast-cli"
+readme = "https://raw.githubusercontent.com/sindresorhus/fast-cli/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "fast-cli"

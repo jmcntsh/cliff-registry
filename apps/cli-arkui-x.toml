@@ -1,0 +1,12 @@
+name = "cli-arkui-x"
+description = "ArkUI-X command line tool for cross-platform builds | ArkUI-X跨平台应用构建命令行工具"
+author = "arkui-x"
+homepage = "https://github.com/arkui-x/cli"
+readme = "https://raw.githubusercontent.com/arkui-x/cli/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "cli"

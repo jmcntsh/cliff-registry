@@ -1,0 +1,12 @@
+name = "avalanche-cli"
+description = "Command-line tool to create, deploy and operate Avalanche networks and L1s"
+author = "ava-labs"
+homepage = "https://github.com/ava-labs/avalanche-cli"
+readme = "https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/ava-labs/avalanche-cli@latest"

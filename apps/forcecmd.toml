@@ -1,0 +1,11 @@
+name = "forcecmd"
+description = "A command-line tool for the Salesforce metadata API"
+author = "jesperkristensen"
+homepage = "https://github.com/jesperkristensen/forcecmd"
+readme = "https://raw.githubusercontent.com/jesperkristensen/forcecmd/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+
+[[installs]]
+type = "npm"
+package = "forcecmd"

@@ -1,0 +1,12 @@
+name = "bank-reconcile"
+description = "A simple command-line tool for bank statement reconciliation, designed to demonstrate software development best pract..."
+author = "oprekable"
+homepage = "https://github.com/oprekable/bank-reconcile"
+readme = "https://raw.githubusercontent.com/oprekable/bank-reconcile/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/oprekable/bank-reconcile@latest"

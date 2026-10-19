@@ -1,0 +1,12 @@
+name = "opencode-skills-tui"
+description = "A skills sidebar for OpenCode with load status tracking, SKILL.md previews, token estimates, and skill mentions in pr..."
+author = "aihaipeng"
+homepage = "https://github.com/aihaipeng/opencode-skills-tui"
+readme = "https://raw.githubusercontent.com/aihaipeng/opencode-skills-tui/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "opencode-skills-tui"

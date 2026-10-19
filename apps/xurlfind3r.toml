@@ -1,0 +1,12 @@
+name = "xurlfind3r"
+description = "A command-line tool for discovering URLs for a given domain in a simple, efficient way. It works by gathering informa..."
+author = "hueristiq"
+homepage = "https://github.com/hueristiq/xurlfind3r"
+readme = "https://raw.githubusercontent.com/hueristiq/xurlfind3r/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hueristiq/xurlfind3r@latest"

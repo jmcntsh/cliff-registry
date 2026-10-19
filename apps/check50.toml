@@ -1,0 +1,12 @@
+name = "check50"
+description = "This is check50, a command-line program with which you can check the correctness of your programs."
+author = "cs50"
+homepage = "https://github.com/cs50/check50"
+readme = "https://raw.githubusercontent.com/cs50/check50/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "check50"

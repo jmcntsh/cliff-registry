@@ -1,0 +1,12 @@
+name = "tabview"
+description = "Python curses command line CSV and tabular data viewer"
+author = "TabViewer"
+homepage = "https://github.com/TabViewer/tabview"
+readme = "https://raw.githubusercontent.com/TabViewer/tabview/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "tabview"

@@ -1,0 +1,12 @@
+name = "animate-ui"
+description = "Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI..."
+author = "imskyleen"
+homepage = "https://github.com/imskyleen/animate-ui"
+readme = "https://raw.githubusercontent.com/imskyleen/animate-ui/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "animate-ui"

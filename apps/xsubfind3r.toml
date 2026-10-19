@@ -1,0 +1,12 @@
+name = "xsubfind3r"
+description = "A command-line tool for discovering subdomains for a given domain in a simple, efficient way. It works by gathering i..."
+author = "hueristiq"
+homepage = "https://github.com/hueristiq/xsubfind3r"
+readme = "https://raw.githubusercontent.com/hueristiq/xsubfind3r/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hueristiq/xsubfind3r@latest"

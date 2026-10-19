@@ -1,0 +1,12 @@
+name = "wander"
+description = "A terminal app/TUI for HashiCorp Nomad"
+author = "robinovitch61"
+homepage = "https://github.com/robinovitch61/wander"
+readme = "https://raw.githubusercontent.com/robinovitch61/wander/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/robinovitch61/wander@latest"

@@ -1,0 +1,12 @@
+name = "flumut"
+description = "FluMut is a command-line tool to find markers of interest in H5N1 avian influenza viruses."
+author = "izsvenezie-virology"
+homepage = "https://github.com/izsvenezie-virology/FluMut"
+readme = "https://raw.githubusercontent.com/izsvenezie-virology/FluMut/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "FluMut"

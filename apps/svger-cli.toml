@@ -1,0 +1,12 @@
+name = "svger-cli"
+description = "SVGer CLI is a powerful, zero-dependency command-line tool that instantly converts your SVG files into clean, optimiz..."
+author = "faezemohades"
+homepage = "https://github.com/faezemohades/svger-cli"
+readme = "https://raw.githubusercontent.com/faezemohades/svger-cli/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "svger-cli"

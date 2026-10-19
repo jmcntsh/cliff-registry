@@ -1,0 +1,12 @@
+name = "jjfx"
+description = "A Rust TUI for Jujutsu workspaces: drive your VCS and the coding agents editing it from one surface."
+author = "Jarvvski"
+homepage = "https://github.com/Jarvvski/jjfx"
+readme = "https://raw.githubusercontent.com/Jarvvski/jjfx/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "jjfx"

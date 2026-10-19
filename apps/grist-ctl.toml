@@ -1,0 +1,12 @@
+name = "grist-ctl"
+description = "Command-line tool for interacting with Grist"
+author = "Ville-Eurometropole-Strasbourg"
+homepage = "https://github.com/Ville-Eurometropole-Strasbourg/grist-ctl"
+readme = "https://raw.githubusercontent.com/Ville-Eurometropole-Strasbourg/grist-ctl/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/Ville-Eurometropole-Strasbourg/grist-ctl@latest"

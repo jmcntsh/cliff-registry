@@ -1,0 +1,12 @@
+name = "mft2es"
+description = "A command-line tool for parsing Windows Master File Table ($MFT) and importing the results into Elasticsearch."
+author = "sumeshi"
+homepage = "https://github.com/sumeshi/mft2es"
+readme = "https://raw.githubusercontent.com/sumeshi/mft2es/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mft2es"

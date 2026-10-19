@@ -1,0 +1,12 @@
+name = "slacrawl"
+description = "cli terminal app for slack with sqlite backend"
+author = "openclaw"
+homepage = "https://github.com/openclaw/slacrawl"
+readme = "https://raw.githubusercontent.com/openclaw/slacrawl/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/openclaw/slacrawl@latest"

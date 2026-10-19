@@ -1,0 +1,12 @@
+name = "save-to-spotify"
+description = "Command line interface to save your personal media to Spotify."
+author = "spotify"
+homepage = "https://github.com/spotify/save-to-spotify"
+readme = "https://raw.githubusercontent.com/spotify/save-to-spotify/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/spotify/save-to-spotify@latest"

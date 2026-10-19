@@ -1,0 +1,12 @@
+name = "docker-tags"
+description = "🐳 Command line tool to get a list of tags for docker images."
+author = "koki-develop"
+homepage = "https://github.com/koki-develop/docker-tags"
+readme = "https://raw.githubusercontent.com/koki-develop/docker-tags/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/koki-develop/docker-tags@latest"

@@ -1,0 +1,12 @@
+name = "npmignore"
+description = "Command line tool for creating or updating a .npmignore file based on .gitignore."
+author = "ljharb"
+homepage = "https://github.com/ljharb/npmignore"
+readme = "https://raw.githubusercontent.com/ljharb/npmignore/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "npmignore"

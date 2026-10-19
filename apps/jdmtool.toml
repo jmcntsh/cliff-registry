@@ -1,0 +1,12 @@
+name = "jdmtool"
+description = "A command-line tool for downloading and transferring Jeppesen databases, aiming to be compatible with Jeppesen Distri..."
+author = "dimaryaz"
+homepage = "https://github.com/dimaryaz/jdmtool"
+readme = "https://raw.githubusercontent.com/dimaryaz/jdmtool/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "jdmtool"

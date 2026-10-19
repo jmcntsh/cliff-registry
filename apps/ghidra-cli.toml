@@ -1,0 +1,12 @@
+name = "ghidra-cli"
+description = "Automate Ghidra reverse engineering from the command line — headless analysis, decompilation, and structured JSON o..."
+author = "akiselev"
+homepage = "https://github.com/akiselev/ghidra-cli"
+readme = "https://raw.githubusercontent.com/akiselev/ghidra-cli/master/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "ghidra-cli"

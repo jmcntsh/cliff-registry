@@ -1,0 +1,12 @@
+name = "free-claude-code"
+description = "Use Claude Code for free in the terminal, VSCode extension, or via Discord"
+author = "Rishurajgautam24"
+homepage = "https://github.com/Rishurajgautam24/free-claude-code"
+readme = "https://raw.githubusercontent.com/Rishurajgautam24/free-claude-code/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "free-claude-code"

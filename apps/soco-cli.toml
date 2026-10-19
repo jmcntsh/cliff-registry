@@ -1,0 +1,12 @@
+name = "soco-cli"
+description = "Command Line Interface to Control Sonos Sound Systems"
+author = "avantrec"
+homepage = "https://github.com/avantrec/soco-cli"
+readme = "https://raw.githubusercontent.com/avantrec/soco-cli/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "soco-cli"

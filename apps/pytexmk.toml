@@ -1,0 +1,12 @@
+name = "pytexmk"
+description = "LaTeX 辅助编译命令行程序 LaTeX Auxiliary Compilation Command Line Tool"
+author = "YanMing-lxb"
+homepage = "https://github.com/YanMing-lxb/PyTeXMK"
+readme = "https://raw.githubusercontent.com/YanMing-lxb/PyTeXMK/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "PyTeXMK"

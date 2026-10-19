@@ -1,0 +1,12 @@
+name = "gitcs"
+description = "📈 Command line tool written in Go. It allows developers to scan their local Git repositories and generate a visual..."
+author = "hrtsegv"
+homepage = "https://github.com/hrtsegv/gitcs"
+readme = "https://raw.githubusercontent.com/hrtsegv/gitcs/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hrtsegv/gitcs@latest"

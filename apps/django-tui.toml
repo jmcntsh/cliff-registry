@@ -1,0 +1,12 @@
+name = "django-tui"
+description = "Inspect and run Django Commands in a text-based user interface (TUI)"
+author = "anze3db"
+homepage = "https://github.com/anze3db/django-tui"
+readme = "https://raw.githubusercontent.com/anze3db/django-tui/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "django-tui"

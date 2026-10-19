@@ -1,0 +1,12 @@
+name = "kysely-ctl"
+description = "Command-line tool for Kysely, Knex-compatible, works in Node.js, Deno, Bun, etc."
+author = "kysely-org"
+homepage = "https://github.com/kysely-org/kysely-ctl"
+readme = "https://raw.githubusercontent.com/kysely-org/kysely-ctl/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "kysely-ctl"

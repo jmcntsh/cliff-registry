@@ -1,0 +1,12 @@
+name = "shortcut-cli"
+description = "A community-driven command-line tool for viewing, creating, and updating Shortcut.com"
+author = "shortcut-cli"
+homepage = "https://github.com/shortcut-cli/shortcut-cli"
+readme = "https://raw.githubusercontent.com/shortcut-cli/shortcut-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "shortcut-cli"

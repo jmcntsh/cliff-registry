@@ -1,0 +1,12 @@
+name = "git-statuses"
+description = "A command-line tool to display the status of multiple Git repositories in a clear, tabular format."
+author = "bircni"
+homepage = "https://github.com/bircni/git-statuses"
+readme = "https://raw.githubusercontent.com/bircni/git-statuses/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "git-statuses"

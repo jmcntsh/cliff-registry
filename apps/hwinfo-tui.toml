@@ -1,0 +1,12 @@
+name = "hwinfo-tui"
+description = "A gping-inspired terminal visualization tool for monitoring real-time hardware sensor data from HWInfo."
+author = "JuanjoFuchs"
+homepage = "https://github.com/JuanjoFuchs/hwinfo-tui"
+readme = "https://raw.githubusercontent.com/JuanjoFuchs/hwinfo-tui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "hwinfo-tui"
