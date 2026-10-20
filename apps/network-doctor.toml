@@ -9,4 +9,4 @@ license = "APACHE-2.0"
 
 [[installs]]
 type = "go"
-package = "github.com/heymaikol/network-doctor@latest"
+package = "github.com/heymaikol/network-doctor/v2@latest"
