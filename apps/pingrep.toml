@@ -1,0 +1,12 @@
+name = "pingrep"
+description = "Pingrep is a command-line tool designed to quickly and easily search through your Pinboard bookmarks locally."
+author = "zoni"
+homepage = "https://github.com/zoni/pingrep"
+readme = "https://raw.githubusercontent.com/zoni/pingrep/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "pingrep"

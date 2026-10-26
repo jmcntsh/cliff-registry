@@ -1,0 +1,12 @@
+name = "tulp"
+description = "Tulp is a command-line tool that can help you create and process piped content using the power of ChatGPT directly fr..."
+author = "fedenunez"
+homepage = "https://github.com/fedenunez/tulp"
+readme = "https://raw.githubusercontent.com/fedenunez/tulp/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "tulp"

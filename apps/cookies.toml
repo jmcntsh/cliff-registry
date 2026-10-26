@@ -1,0 +1,12 @@
+name = "cookies"
+description = "Command-line tool for extracting cookies from the user's web browser"
+author = "barnardb"
+homepage = "https://github.com/barnardb/cookies"
+readme = "https://raw.githubusercontent.com/barnardb/cookies/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/barnardb/cookies@latest"

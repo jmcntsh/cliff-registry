@@ -1,0 +1,12 @@
+name = "transifex-client"
+description = "The Transifex command-line tool."
+author = "transifex"
+homepage = "https://github.com/transifex/transifex-client"
+readme = "https://raw.githubusercontent.com/transifex/transifex-client/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "pipx"
+package = "transifex-client"

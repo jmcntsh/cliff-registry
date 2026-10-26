@@ -1,0 +1,12 @@
+name = "couchdb2"
+description = "CouchDB v2.x Python 3 interface in a single module. Also a command line tool."
+author = "pekrau"
+homepage = "https://github.com/pekrau/CouchDB2"
+readme = "https://raw.githubusercontent.com/pekrau/CouchDB2/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "CouchDB2"

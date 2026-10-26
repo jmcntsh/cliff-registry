@@ -1,0 +1,12 @@
+name = "mmdbconvert"
+description = "A command-line tool to merge multiple MaxMind MMDB databases and export to CSV, Parquet, or MMDB format."
+author = "maxmind"
+homepage = "https://github.com/maxmind/mmdbconvert"
+readme = "https://raw.githubusercontent.com/maxmind/mmdbconvert/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/maxmind/mmdbconvert@latest"

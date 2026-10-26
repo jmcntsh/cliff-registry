@@ -1,0 +1,12 @@
+name = "hatchzip"
+description = "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and sp..."
+author = "xevrion"
+homepage = "https://github.com/xevrion/hatchzip"
+readme = "https://raw.githubusercontent.com/xevrion/hatchzip/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "hatchzip"

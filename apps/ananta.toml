@@ -1,0 +1,12 @@
+name = "ananta"
+description = "command-line tool to execute commands on multiple remote hosts"
+author = "cwt"
+homepage = "https://github.com/cwt/ananta"
+readme = "https://raw.githubusercontent.com/cwt/ananta/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ananta"

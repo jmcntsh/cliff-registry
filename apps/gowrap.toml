@@ -1,0 +1,12 @@
+name = "gowrap"
+description = "GoWrap is a command line tool for generating decorators for Go interfaces"
+author = "hexdigest"
+homepage = "https://github.com/hexdigest/gowrap"
+readme = "https://raw.githubusercontent.com/hexdigest/gowrap/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/hexdigest/gowrap@latest"

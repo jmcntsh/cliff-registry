@@ -1,0 +1,12 @@
+name = "cli-zeabur"
+description = "Zeabur's official command line tool"
+author = "zeabur"
+homepage = "https://github.com/zeabur/cli"
+readme = "https://raw.githubusercontent.com/zeabur/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/zeabur/cli@latest"

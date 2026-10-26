@@ -1,0 +1,12 @@
+name = "open-codex"
+description = "Fully open-source command-line AI assistant inspired by OpenAI Codex, supporting local language models."
+author = "codingmoh"
+homepage = "https://github.com/codingmoh/open-codex"
+readme = "https://raw.githubusercontent.com/codingmoh/open-codex/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "open-codex"

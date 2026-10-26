@@ -1,0 +1,12 @@
+name = "ghidriff"
+description = "Python Command-Line Ghidra Binary Diffing Engine"
+author = "clearbluejar"
+homepage = "https://github.com/clearbluejar/ghidriff"
+readme = "https://raw.githubusercontent.com/clearbluejar/ghidriff/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "ghidriff"

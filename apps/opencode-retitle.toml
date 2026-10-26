@@ -1,0 +1,11 @@
+name = "opencode-retitle"
+description = "TUI plugin for OpenCode — /retitle slash command to regenerate session titles"
+author = "lkonga"
+homepage = "https://github.com/lkonga/opencode-retitle"
+readme = "https://raw.githubusercontent.com/lkonga/opencode-retitle/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+
+[[installs]]
+type = "npm"
+package = "opencode-retitle"

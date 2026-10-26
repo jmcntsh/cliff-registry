@@ -1,0 +1,12 @@
+name = "git-graph"
+description = "Command line tool to show clear git graphs arranged for your branching model"
+author = "git-bahn"
+homepage = "https://github.com/git-bahn/git-graph"
+readme = "https://raw.githubusercontent.com/git-bahn/git-graph/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "git-graph"

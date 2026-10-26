@@ -1,0 +1,12 @@
+name = "stronghold"
+description = "Easily configure macOS security settings from the terminal."
+author = "alichtman"
+homepage = "https://github.com/alichtman/stronghold"
+readme = "https://raw.githubusercontent.com/alichtman/stronghold/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "stronghold"

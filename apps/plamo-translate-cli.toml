@@ -1,0 +1,12 @@
+name = "plamo-translate-cli"
+description = "A command-line interface for local translation powered by plamo-2-translate, a PFN™ translation model"
+author = "pfnet"
+homepage = "https://github.com/pfnet/plamo-translate-cli"
+readme = "https://raw.githubusercontent.com/pfnet/plamo-translate-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "plamo-translate-cli"

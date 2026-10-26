@@ -1,0 +1,12 @@
+name = "brotab"
+description = "Control your browser's tabs from the command line"
+author = "balta2ar"
+homepage = "https://github.com/balta2ar/brotab"
+readme = "https://raw.githubusercontent.com/balta2ar/brotab/master/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "brotab"

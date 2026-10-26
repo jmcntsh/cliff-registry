@@ -1,0 +1,11 @@
+name = "justtuit"
+description = "Just TUI it! - a TUI for TUI tools (672 terminal apps, 13 categories). npm i -g justtuit · npmjs.com/package/justtuit"
+author = "handyutils"
+homepage = "https://github.com/handyutils/justtuit"
+readme = "https://raw.githubusercontent.com/handyutils/justtuit/main/README.md"
+tags = ["cli"]
+category = "File management"
+
+[[installs]]
+type = "npm"
+package = "justtuit"

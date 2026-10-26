@@ -1,0 +1,12 @@
+name = "tungsten"
+description = "Another command line tool to handle Roblox assets similar to Tarmac and Asphalt."
+author = "pwnwrkz"
+homepage = "https://github.com/pwnwrkz/tungsten"
+readme = "https://raw.githubusercontent.com/pwnwrkz/tungsten/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "tungsten"

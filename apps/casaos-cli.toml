@@ -1,0 +1,12 @@
+name = "casaos-cli"
+description = "A command-line tool to interact with CasaOS for testing and diagnosing purpose"
+author = "IceWhaleTech"
+homepage = "https://github.com/IceWhaleTech/CasaOS-CLI"
+readme = "https://raw.githubusercontent.com/IceWhaleTech/CasaOS-CLI/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/IceWhaleTech/CasaOS-CLI@latest"

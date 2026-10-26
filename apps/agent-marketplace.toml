@@ -1,0 +1,12 @@
+name = "agent-marketplace"
+description = "agent-marketplace is a command-line tool that installs shared AI agent resources into the AI coding tools you use"
+author = "Adyen"
+homepage = "https://github.com/Adyen/agent-marketplace"
+readme = "https://raw.githubusercontent.com/Adyen/agent-marketplace/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Adyen/agent-marketplace@latest"

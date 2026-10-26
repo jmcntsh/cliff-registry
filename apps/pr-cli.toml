@@ -1,0 +1,12 @@
+name = "pr-cli"
+description = "Command line tool for easily creating pull requests for part of your changes without interrupting your flow."
+author = "annervisser"
+homepage = "https://github.com/annervisser/pr-cli"
+readme = "https://raw.githubusercontent.com/annervisser/pr-cli/trunk/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pr-cli"

@@ -1,0 +1,12 @@
+name = "gh-manager-cli"
+description = "TUI terminal app to manage GitHub repos. Clean up your account in 5 minutes. Archive, delete, rename repos with keybo..."
+author = "stealth-factory"
+homepage = "https://github.com/stealth-factory/gh-manager-cli"
+readme = "https://raw.githubusercontent.com/stealth-factory/gh-manager-cli/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "gh-manager-cli"

@@ -1,0 +1,12 @@
+name = "prowler"
+description = "This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-source cloud secur..."
+author = "prowler-cloud"
+homepage = "https://github.com/prowler-cloud/prowler"
+readme = "https://raw.githubusercontent.com/prowler-cloud/prowler/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "prowler"

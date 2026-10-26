@@ -1,0 +1,12 @@
+name = "blackstork-cli"
+description = "A source-available command-line tool for cybersecurity reporting"
+author = "blackstork-io"
+homepage = "https://github.com/blackstork-io/blackstork-cli"
+readme = "https://raw.githubusercontent.com/blackstork-io/blackstork-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/blackstork-io/blackstork-cli@latest"

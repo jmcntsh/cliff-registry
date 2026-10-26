@@ -1,0 +1,11 @@
+name = "tmax"
+description = "Cross-platform multi-terminal app with tiling layouts, floating panels, and a keyboard-driven workflow"
+author = "InbarR"
+homepage = "https://github.com/InbarR/tmax"
+readme = "https://raw.githubusercontent.com/InbarR/tmax/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+
+[[installs]]
+type = "npm"
+package = "tmax"

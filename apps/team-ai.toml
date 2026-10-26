@@ -1,0 +1,12 @@
+name = "team-ai"
+description = "Multi-account relay and TUI for Claude Code and Codex CLI"
+author = "soulduse"
+homepage = "https://github.com/soulduse/team-ai"
+readme = "https://raw.githubusercontent.com/soulduse/team-ai/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "team-ai"

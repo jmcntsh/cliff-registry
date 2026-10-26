@@ -1,0 +1,12 @@
+name = "wavetools"
+description = "Command-line tools for digital simulation waveform analysis — read, filter, and diff FST and VCD files"
+author = "hudson-trading"
+homepage = "https://github.com/hudson-trading/wavetools"
+readme = "https://raw.githubusercontent.com/hudson-trading/wavetools/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "wavetools"

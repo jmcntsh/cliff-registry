@@ -1,0 +1,12 @@
+name = "otel-cli-tobert"
+description = "OpenTelemetry command-line tool for sending events from shell scripts & similar environments"
+author = "tobert"
+homepage = "https://github.com/tobert/otel-cli"
+readme = "https://raw.githubusercontent.com/tobert/otel-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/tobert/otel-cli@latest"

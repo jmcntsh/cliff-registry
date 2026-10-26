@@ -1,0 +1,12 @@
+name = "exc"
+description = "EXC-Analyzer is a professional command-line tool for advanced GitHub repository and user analysis, security auditing..."
+author = "exc-analyzer"
+homepage = "https://github.com/exc-analyzer/exc"
+readme = "https://raw.githubusercontent.com/exc-analyzer/exc/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "exc"

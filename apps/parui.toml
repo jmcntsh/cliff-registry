@@ -1,0 +1,11 @@
+name = "parui"
+description = "Simple TUI frontend for paru or yay."
+author = "Vonr"
+homepage = "https://github.com/Vonr/parui"
+readme = "https://raw.githubusercontent.com/Vonr/parui/master/README.md"
+tags = ["cli"]
+category = "Other"
+
+[[installs]]
+type = "cargo"
+package = "parui"

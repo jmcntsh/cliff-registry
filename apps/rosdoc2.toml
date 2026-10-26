@@ -1,0 +1,12 @@
+name = "rosdoc2"
+description = "Command-line tool for generating documentation for ROS 2 packages."
+author = "ros-infrastructure"
+homepage = "https://github.com/ros-infrastructure/rosdoc2"
+readme = "https://raw.githubusercontent.com/ros-infrastructure/rosdoc2/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "rosdoc2"

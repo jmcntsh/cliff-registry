@@ -1,0 +1,12 @@
+name = "cli-sanity-io"
+description = "Sanity command line tool (CLI)"
+author = "sanity-io"
+homepage = "https://github.com/sanity-io/cli"
+readme = "https://raw.githubusercontent.com/sanity-io/cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cli"

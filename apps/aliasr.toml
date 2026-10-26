@@ -1,0 +1,12 @@
+name = "aliasr"
+description = "Aliasr is a modern, feature-rich TUI launcher for pentest commands."
+author = "Mojo8898"
+homepage = "https://github.com/Mojo8898/aliasr"
+readme = "https://raw.githubusercontent.com/Mojo8898/aliasr/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "aliasr"

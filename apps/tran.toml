@@ -1,0 +1,12 @@
+name = "tran"
+description = "🖥 Securely transfer and send anything between computers with TUI."
+author = "abdfnx"
+homepage = "https://github.com/abdfnx/tran"
+readme = "https://raw.githubusercontent.com/abdfnx/tran/main/README.md"
+tags = ["tui"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/abdfnx/tran@latest"

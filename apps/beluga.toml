@@ -1,0 +1,12 @@
+name = "beluga"
+description = "Beluga: every project and the Claude working in each, with your friends and their Claudes. A native Mac app and a lig..."
+author = "kayraucklnc"
+homepage = "https://github.com/kayraucklnc/beluga"
+readme = "https://raw.githubusercontent.com/kayraucklnc/beluga/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "beluga"

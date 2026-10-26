@@ -1,0 +1,12 @@
+name = "zonetimeline-tui"
+description = "A terminal tool for visually comparing time zones — built for distributed teams."
+author = "findyourexit"
+homepage = "https://github.com/findyourexit/zonetimeline-tui"
+readme = "https://raw.githubusercontent.com/findyourexit/zonetimeline-tui/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "zonetimeline-tui"

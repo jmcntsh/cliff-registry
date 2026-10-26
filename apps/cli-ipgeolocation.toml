@@ -1,0 +1,12 @@
+name = "cli-ipgeolocation"
+description = "IPGeolocation.io Command Line Tool (CLI) for fast IP lookups with threat intelligence, timezone, user-agent, and astr..."
+author = "IPGeolocation"
+homepage = "https://github.com/IPGeolocation/cli"
+readme = "https://raw.githubusercontent.com/IPGeolocation/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/IPGeolocation/cli/v2@latest"

@@ -1,0 +1,12 @@
+name = "gecko"
+description = "Gecko code command line tools"
+author = "JLaferri"
+homepage = "https://github.com/JLaferri/gecko"
+readme = "https://raw.githubusercontent.com/JLaferri/gecko/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jlaferri/gecko@latest"

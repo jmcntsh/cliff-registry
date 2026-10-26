@@ -1,0 +1,12 @@
+name = "ghostty-config"
+description = "TUI for Ghostty terminal customization"
+author = "Vitruves"
+homepage = "https://github.com/Vitruves/ghostty-config"
+readme = "https://raw.githubusercontent.com/Vitruves/ghostty-config/main/README.md"
+tags = ["tui"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vitruves/ghostty-config@latest"

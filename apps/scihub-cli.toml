@@ -1,0 +1,12 @@
+name = "scihub-cli"
+description = "A command-line tool for batch downloading academic papers from Sci-Hub and other open access papers.."
+author = "Oxidane-bot"
+homepage = "https://github.com/Oxidane-bot/scihub-cli"
+readme = "https://raw.githubusercontent.com/Oxidane-bot/scihub-cli/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "scihub-cli"

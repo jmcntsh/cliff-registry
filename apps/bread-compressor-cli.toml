@@ -1,0 +1,12 @@
+name = "bread-compressor-cli"
+description = "Brotli and Gzip compress command line tool"
+author = "ralscha"
+homepage = "https://github.com/ralscha/bread-compressor-cli"
+readme = "https://raw.githubusercontent.com/ralscha/bread-compressor-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "bread-compressor-cli"

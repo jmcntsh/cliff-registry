@@ -1,0 +1,12 @@
+name = "nika"
+description = "Intent as Code: say what you want done, keep it as a file. Checked before it runs, run with the model you choose, pro..."
+author = "supernovae-st"
+homepage = "https://github.com/supernovae-st/nika"
+readme = "https://raw.githubusercontent.com/supernovae-st/nika/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "nika"

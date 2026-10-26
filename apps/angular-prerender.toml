@@ -1,0 +1,12 @@
+name = "angular-prerender"
+description = "A command line tool to prerender Angular Apps."
+author = "chrisguttandin"
+homepage = "https://github.com/chrisguttandin/angular-prerender"
+readme = "https://raw.githubusercontent.com/chrisguttandin/angular-prerender/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "angular-prerender"

@@ -1,0 +1,12 @@
+name = "kafkactl"
+description = "kafkactl is a command line tool to interact with an Apache Kafka cluster."
+author = "fgrosse"
+homepage = "https://github.com/fgrosse/kafkactl"
+readme = "https://raw.githubusercontent.com/fgrosse/kafkactl/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "go"
+package = "github.com/fgrosse/kafkactl@latest"

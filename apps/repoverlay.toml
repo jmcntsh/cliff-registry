@@ -1,0 +1,12 @@
+name = "repoverlay"
+description = "A command line tool to overlay files on top of a git repo without committing them."
+author = "tylerbutler"
+homepage = "https://github.com/tylerbutler/repoverlay"
+readme = "https://raw.githubusercontent.com/tylerbutler/repoverlay/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "repoverlay"

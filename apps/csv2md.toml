@@ -1,0 +1,12 @@
+name = "csv2md"
+description = "Command line tool for converting CSV files into Markdown tables."
+author = "lzakharov"
+homepage = "https://github.com/lzakharov/csv2md"
+readme = "https://raw.githubusercontent.com/lzakharov/csv2md/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "csv2md"

@@ -1,0 +1,12 @@
+name = "vendoring"
+description = "A command line tool, to simplify vendoring pure Python dependencies."
+author = "pradyunsg"
+homepage = "https://github.com/pradyunsg/vendoring"
+readme = "https://raw.githubusercontent.com/pradyunsg/vendoring/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "vendoring"
