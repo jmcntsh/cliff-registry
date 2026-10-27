@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/mickamy/sql-tap@latest"
+package = "github.com/proto-tap/sql-tap@latest"
