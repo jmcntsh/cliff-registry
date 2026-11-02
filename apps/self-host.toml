@@ -1,0 +1,12 @@
+name = "self-host"
+description = "Replace the SaaS you pay for. One binary installs and runs self-hosted apps at home, no Docker knowledge needed. Term..."
+author = "ajnart"
+homepage = "https://github.com/ajnart/self-host"
+readme = "https://raw.githubusercontent.com/ajnart/self-host/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ajnart/self-host@latest"

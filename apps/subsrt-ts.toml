@@ -1,0 +1,12 @@
+name = "subsrt-ts"
+description = "Subtitle JavaScript library and command line tool with no dependencies."
+author = "rakuzen25"
+homepage = "https://github.com/rakuzen25/subsrt-ts"
+readme = "https://raw.githubusercontent.com/rakuzen25/subsrt-ts/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "subsrt-ts"

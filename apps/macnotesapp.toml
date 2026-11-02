@@ -1,0 +1,12 @@
+name = "macnotesapp"
+description = "Work with Apple MacOS Notes.app from the command line. Also includes python interface for scripting Notes.app from yo..."
+author = "RhetTbull"
+homepage = "https://github.com/RhetTbull/macnotesapp"
+readme = "https://raw.githubusercontent.com/RhetTbull/macnotesapp/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "macnotesapp"

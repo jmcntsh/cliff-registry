@@ -1,0 +1,12 @@
+name = "ghostman"
+description = "A fast, keyboard-driven TUI API client & webhook inspector. No cloud, no Electron, 100% local-first."
+author = "4yk5"
+homepage = "https://github.com/4yk5/Ghostman"
+readme = "https://raw.githubusercontent.com/4yk5/Ghostman/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Ghostman"

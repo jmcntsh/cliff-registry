@@ -1,0 +1,12 @@
+name = "gitoui"
+description = "A terminal UI (TUI) for git with a rich commit graph, written in Rust"
+author = "NayJi7"
+homepage = "https://github.com/NayJi7/gitoui"
+readme = "https://raw.githubusercontent.com/NayJi7/gitoui/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gitoui"

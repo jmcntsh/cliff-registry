@@ -1,0 +1,12 @@
+name = "shoulder"
+description = "Watch over your agents' shoulder. A TUI that shows Claude Code, Codex, Gemini CLI and opencode work in your project..."
+author = "bjarneo"
+homepage = "https://github.com/bjarneo/shoulder"
+readme = "https://raw.githubusercontent.com/bjarneo/shoulder/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/bjarneo/shoulder@latest"

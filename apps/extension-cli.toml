@@ -1,0 +1,12 @@
+name = "extension-cli"
+description = "Command line tool for building extensions/add-ons for chromium based browsers."
+author = "MobileFirstLLC"
+homepage = "https://github.com/MobileFirstLLC/extension-cli"
+readme = "https://raw.githubusercontent.com/MobileFirstLLC/extension-cli/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "extension-cli"

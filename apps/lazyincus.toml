@@ -1,0 +1,12 @@
+name = "lazyincus"
+description = "A terminal UI (TUI) for Incus — containers, VMs, snapshots, images and more on one keyboard-driven screen. lazydock..."
+author = "tallica"
+homepage = "https://github.com/tallica/lazyincus"
+readme = "https://raw.githubusercontent.com/tallica/lazyincus/master/README.md"
+tags = ["tui"]
+category = "Music & media"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/tallica/lazyincus@latest"

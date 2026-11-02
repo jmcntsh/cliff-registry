@@ -1,0 +1,12 @@
+name = "youtube-dl"
+description = "Command-line program to download videos from YouTube.com and other video sites"
+author = "ytdl-org"
+homepage = "https://github.com/ytdl-org/youtube-dl"
+readme = "https://raw.githubusercontent.com/ytdl-org/youtube-dl/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "UNLICENSE"
+
+[[installs]]
+type = "pipx"
+package = "youtube-dl"

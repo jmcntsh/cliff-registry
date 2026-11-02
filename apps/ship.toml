@@ -1,0 +1,12 @@
+name = "ship"
+description = "Command line tool to track packages using the AfterShip API."
+author = "jessfraz"
+homepage = "https://github.com/jessfraz/ship"
+readme = "https://raw.githubusercontent.com/jessfraz/ship/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/jessfraz/ship@latest"

@@ -1,0 +1,12 @@
+name = "sql-tap-proto-tap"
+description = "Watch SQL traffic in real-time with a TUI"
+author = "proto-tap"
+homepage = "https://github.com/proto-tap/sql-tap"
+readme = "https://raw.githubusercontent.com/proto-tap/sql-tap/main/README.md"
+tags = ["tui"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/proto-tap/sql-tap@latest"

@@ -1,0 +1,12 @@
+name = "agent-desktop-vercel-labs"
+description = "Computer use CLI for AI agents"
+author = "vercel-labs"
+homepage = "https://github.com/vercel-labs/agent-desktop"
+readme = "https://raw.githubusercontent.com/vercel-labs/agent-desktop/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "agent-desktop"

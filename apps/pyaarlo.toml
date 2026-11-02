@@ -1,0 +1,12 @@
+name = "pyaarlo"
+description = "Unofficial asynchronous Python library and command-line tools for Arlo cameras, doorbells, lights, and security syste..."
+author = "twrecked"
+homepage = "https://github.com/twrecked/pyaarlo"
+readme = "https://raw.githubusercontent.com/twrecked/pyaarlo/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "pyaarlo"

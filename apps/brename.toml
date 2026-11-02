@@ -1,0 +1,12 @@
+name = "brename"
+description = "A practical cross-platform command-line tool for safely batch renaming files/directories via regular expression"
+author = "shenwei356"
+homepage = "https://github.com/shenwei356/brename"
+readme = "https://raw.githubusercontent.com/shenwei356/brename/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/shenwei356/brename/v2@latest"

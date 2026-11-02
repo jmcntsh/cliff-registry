@@ -1,0 +1,12 @@
+name = "modpoll"
+description = "A New Command-line Tool for Modbus and MQTT"
+author = "top-maker"
+homepage = "https://github.com/top-maker/modpoll"
+readme = "https://raw.githubusercontent.com/top-maker/modpoll/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "modpoll"

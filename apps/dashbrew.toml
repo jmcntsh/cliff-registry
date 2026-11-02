@@ -1,0 +1,12 @@
+name = "dashbrew"
+description = "TUI dashboard builder that lets you visualize data from scripts and APIs right in your console"
+author = "rasjonell"
+homepage = "https://github.com/rasjonell/dashbrew"
+readme = "https://raw.githubusercontent.com/rasjonell/dashbrew/master/README.md"
+tags = ["tui"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/rasjonell/dashbrew@latest"

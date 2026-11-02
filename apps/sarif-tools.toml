@@ -1,0 +1,12 @@
+name = "sarif-tools"
+description = "A set of Python command line tools for working with SARIF files produced by code analysis tools"
+author = "microsoft"
+homepage = "https://github.com/microsoft/sarif-tools"
+readme = "https://raw.githubusercontent.com/microsoft/sarif-tools/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "sarif-tools"

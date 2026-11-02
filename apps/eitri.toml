@@ -1,0 +1,12 @@
+name = "eitri"
+description = "Terminal app for competitive companion"
+author = "veryshyjelly"
+homepage = "https://github.com/veryshyjelly/eitri"
+readme = "https://raw.githubusercontent.com/veryshyjelly/eitri/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/veryshyjelly/eitri@latest"

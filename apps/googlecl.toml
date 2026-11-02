@@ -1,0 +1,12 @@
+name = "googlecl"
+description = "Pythonic interface for working with Google services - a modern rewrite of Google's original GoogleCL command-line tool"
+author = "vinitkumar"
+homepage = "https://github.com/vinitkumar/googlecl"
+readme = "https://raw.githubusercontent.com/vinitkumar/googlecl/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/vinitkumar/googlecl@latest"

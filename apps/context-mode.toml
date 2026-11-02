@@ -1,0 +1,12 @@
+name = "context-mode"
+description = "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search..."
+author = "mksglu"
+homepage = "https://github.com/mksglu/context-mode"
+readme = "https://raw.githubusercontent.com/mksglu/context-mode/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "OTHER"
+
+[[installs]]
+type = "npm"
+package = "context-mode"

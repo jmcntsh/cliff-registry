@@ -1,0 +1,12 @@
+name = "agent-manager-wainmann"
+description = "Terminal multiplexer for AI coding agents. Run Claude Code, Codex, OpenCode, Gemini CLI and more side by side in one..."
+author = "wainmann"
+homepage = "https://github.com/wainmann/agent-manager"
+readme = "https://raw.githubusercontent.com/wainmann/agent-manager/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/YoanWai/agent-manager@latest"

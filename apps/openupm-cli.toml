@@ -1,0 +1,12 @@
+name = "openupm-cli"
+description = "The OpenUPM-CLI is a command-line interface for maintaining UPM registries."
+author = "openupm"
+homepage = "https://github.com/openupm/openupm-cli"
+readme = "https://raw.githubusercontent.com/openupm/openupm-cli/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "npm"
+package = "openupm-cli"

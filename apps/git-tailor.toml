@@ -1,0 +1,12 @@
+name = "git-tailor"
+description = "An interactive terminal tool for tidying up Git commits on a branch"
+author = "jordfras"
+homepage = "https://github.com/jordfras/git-tailor"
+readme = "https://raw.githubusercontent.com/jordfras/git-tailor/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "git-tailor"

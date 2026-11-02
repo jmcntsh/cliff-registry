@@ -1,0 +1,12 @@
+name = "mycode"
+description = "📟 📂 Terminal tool to manage, group, and launch projects with GitHub integration."
+author = "marsdevx"
+homepage = "https://github.com/marsdevx/mycode"
+readme = "https://raw.githubusercontent.com/marsdevx/mycode/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "mycode"

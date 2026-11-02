@@ -1,0 +1,12 @@
+name = "star-cli"
+description = "An AI agent command-line interface — multi-model LLM access, streaming terminal UI, tool calling, permission contro..."
+author = "cryer"
+homepage = "https://github.com/cryer/star-cli"
+readme = "https://raw.githubusercontent.com/cryer/star-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "star-cli"

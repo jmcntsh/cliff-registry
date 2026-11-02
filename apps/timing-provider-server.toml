@@ -1,0 +1,12 @@
+name = "timing-provider-server"
+description = "A command line tool to spin up a server which can be used with the timing-provider."
+author = "chrisguttandin"
+homepage = "https://github.com/chrisguttandin/timing-provider-server"
+readme = "https://raw.githubusercontent.com/chrisguttandin/timing-provider-server/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "timing-provider-server"

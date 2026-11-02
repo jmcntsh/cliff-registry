@@ -1,0 +1,12 @@
+name = "navi-packetchaos"
+description = "A Command-line tool which leverages the Tenable Vulnerability Management API to reduce the time it takes to get infor..."
+author = "packetchaos"
+homepage = "https://github.com/packetchaos/navi"
+readme = "https://raw.githubusercontent.com/packetchaos/navi/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "navi"

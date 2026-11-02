@@ -1,0 +1,12 @@
+name = "kanban-python"
+description = "Kanban Terminal App written in Python"
+author = "Zaloog"
+homepage = "https://github.com/Zaloog/kanban-python"
+readme = "https://raw.githubusercontent.com/Zaloog/kanban-python/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "kanban-python"

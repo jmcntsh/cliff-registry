@@ -1,0 +1,12 @@
+name = "mcvcli"
+description = "mcvcli is a command-line tool for managing Minecraft server versions."
+author = "mcjars"
+homepage = "https://github.com/mcjars/mcvcli"
+readme = "https://raw.githubusercontent.com/mcjars/mcvcli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "mcvcli"

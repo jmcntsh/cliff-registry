@@ -1,0 +1,12 @@
+name = "piratebay"
+description = "A command-line tool written in Rust for searching and downloading torrents from the piratebay, , Nyaa, Bitsearch, Lim..."
+author = "tsirysndr"
+homepage = "https://github.com/tsirysndr/piratebay"
+readme = "https://raw.githubusercontent.com/tsirysndr/piratebay/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "piratebay"

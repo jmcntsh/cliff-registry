@@ -1,0 +1,12 @@
+name = "kube-job"
+description = "Run one off job on kubernetes from the command line tool"
+author = "h3poteto"
+homepage = "https://github.com/h3poteto/kube-job"
+readme = "https://raw.githubusercontent.com/h3poteto/kube-job/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/h3poteto/kube-job@latest"

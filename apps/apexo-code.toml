@@ -1,0 +1,12 @@
+name = "apexo-code"
+description = "Apexo: An open-source, general-purpose coding agent for terminal (TUI), web, and desktop with autonomous goals, workf..."
+author = "cluster1900"
+homepage = "https://github.com/cluster1900/apexo-code"
+readme = "https://raw.githubusercontent.com/cluster1900/apexo-code/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "apexo-code"

@@ -1,0 +1,12 @@
+name = "termix"
+description = "Open-source, next-gen terminal app 🚀💻"
+author = "DeveloperKubilay"
+homepage = "https://github.com/DeveloperKubilay/termix"
+readme = "https://raw.githubusercontent.com/DeveloperKubilay/termix/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "termix"

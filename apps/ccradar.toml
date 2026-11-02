@@ -1,0 +1,12 @@
+name = "ccradar"
+description = "A terminal dashboard to find, switch to, and resume your Claude Code sessions across Ghostty, iTerm2, and Terminal.ap..."
+author = "atarnvik"
+homepage = "https://github.com/atarnvik/ccradar"
+readme = "https://raw.githubusercontent.com/atarnvik/ccradar/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/atarnvik/ccradar@latest"

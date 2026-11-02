@@ -1,0 +1,12 @@
+name = "tbdflow"
+description = "tbdflow is a command-line tool designed to streamline and safeguard your Git workflow for Trunk-Based Development."
+author = "cladam"
+homepage = "https://github.com/cladam/tbdflow"
+readme = "https://raw.githubusercontent.com/cladam/tbdflow/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tbdflow"

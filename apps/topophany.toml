@@ -1,0 +1,12 @@
+name = "topophany"
+description = "Self-hosted network topology and service availability monitoring with a terminal UI — single Go binary, zero depend..."
+author = "WhitenWhiten"
+homepage = "https://github.com/WhitenWhiten/topophany"
+readme = "https://raw.githubusercontent.com/WhitenWhiten/topophany/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/WhitenWhiten/topophany@latest"

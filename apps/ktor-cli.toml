@@ -1,0 +1,12 @@
+name = "ktor-cli"
+description = "Command-line tool for creating Ktor projects"
+author = "ktorio"
+homepage = "https://github.com/ktorio/ktor-cli"
+readme = "https://raw.githubusercontent.com/ktorio/ktor-cli/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/ktorio/ktor-cli@latest"

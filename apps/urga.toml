@@ -1,0 +1,12 @@
+name = "urga"
+description = "Terminal UI for HashiCorp Nomad. One binary, no config to write, no browser."
+author = "ingvarch"
+homepage = "https://github.com/ingvarch/urga"
+readme = "https://raw.githubusercontent.com/ingvarch/urga/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/ingvarch/urga@latest"

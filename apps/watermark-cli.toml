@@ -1,0 +1,12 @@
+name = "watermark-cli"
+description = "A command-line tool for adding watermarks to images and PDFs with support for batch processing and various watermark..."
+author = "chianti-ga"
+homepage = "https://github.com/chianti-ga/watermark-cli"
+readme = "https://raw.githubusercontent.com/chianti-ga/watermark-cli/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "GPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "watermark-cli"

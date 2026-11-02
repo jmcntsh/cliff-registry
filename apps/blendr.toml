@@ -1,0 +1,12 @@
+name = "blendr"
+description = "The hacker's BLE (bluetooth low energy) browser terminal app"
+author = "dmtrKovalenko"
+homepage = "https://github.com/dmtrKovalenko/blendr"
+readme = "https://raw.githubusercontent.com/dmtrKovalenko/blendr/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "BSD-3-CLAUSE"
+
+[[installs]]
+type = "cargo"
+package = "blendr"

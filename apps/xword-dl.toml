@@ -1,0 +1,12 @@
+name = "xword-dl"
+description = "▞ Command line tool to scrape crosswords from online solvers and save them as .puz files ▚"
+author = "thisisparker"
+homepage = "https://github.com/thisisparker/xword-dl"
+readme = "https://raw.githubusercontent.com/thisisparker/xword-dl/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "xword-dl"

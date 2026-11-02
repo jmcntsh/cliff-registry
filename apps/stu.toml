@@ -1,0 +1,12 @@
+name = "stu"
+description = "TUI explorer application for Amazon S3 (AWS S3) 🪣"
+author = "lusingander"
+homepage = "https://github.com/lusingander/stu"
+readme = "https://raw.githubusercontent.com/lusingander/stu/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "stu"

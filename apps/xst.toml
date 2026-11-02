@@ -1,0 +1,12 @@
+name = "xst"
+description = "Command line tool to interact with exist-db instances"
+author = "eXist-db"
+homepage = "https://github.com/eXist-db/xst"
+readme = "https://raw.githubusercontent.com/eXist-db/xst/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "xst"

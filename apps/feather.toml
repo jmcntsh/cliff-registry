@@ -1,0 +1,12 @@
+name = "feather"
+description = "Feather is a lightweight, efficient YouTube Music TUI built with Rust. It provides a minimalistic, ad-free music stre..."
+author = "13unk0wn"
+homepage = "https://github.com/13unk0wn/Feather"
+readme = "https://raw.githubusercontent.com/13unk0wn/Feather/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "Feather"

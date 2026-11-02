@@ -1,0 +1,12 @@
+name = "gameserverlister"
+description = "Python command line tool to retrieve game server lists for various games"
+author = "cetteup"
+homepage = "https://github.com/cetteup/GameserverLister"
+readme = "https://raw.githubusercontent.com/cetteup/GameserverLister/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "GameserverLister"

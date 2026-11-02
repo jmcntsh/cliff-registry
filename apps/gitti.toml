@@ -1,0 +1,12 @@
+name = "gitti"
+description = "A lightweight terminal UI for git operations developed in golang"
+author = "gohyuhan"
+homepage = "https://github.com/gohyuhan/gitti"
+readme = "https://raw.githubusercontent.com/gohyuhan/gitti/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/gohyuhan/gitti@latest"

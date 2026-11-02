@@ -1,0 +1,12 @@
+name = "regex-tui"
+description = "A simple TUI to visualize regular expressions right in your terminal."
+author = "vitor-mariano"
+homepage = "https://github.com/vitor-mariano/regex-tui"
+readme = "https://raw.githubusercontent.com/vitor-mariano/regex-tui/master/README.md"
+tags = ["tui"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vitor-mariano/regex-tui@latest"

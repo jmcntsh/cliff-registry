@@ -1,0 +1,12 @@
+name = "rigtop"
+description = "System monitor for workstations, laptops and NAS — terminal UI and native GUI, many hosts over SSH. A btop alternat..."
+author = "akivajp"
+homepage = "https://github.com/akivajp/rigtop"
+readme = "https://raw.githubusercontent.com/akivajp/rigtop/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "rigtop"
