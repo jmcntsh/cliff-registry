@@ -1,0 +1,12 @@
+name = "kite-cli"
+description = "The official command-line interface and terminal UI (TUI) for Zerodha Kite."
+author = "zerodha"
+homepage = "https://github.com/zerodha/kite-cli"
+readme = "https://raw.githubusercontent.com/zerodha/kite-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "kite-cli"

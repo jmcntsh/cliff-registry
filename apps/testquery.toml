@@ -1,0 +1,12 @@
+name = "testquery"
+description = "Test query is a command line tool to query test results with a SQL interface"
+author = "danicat"
+homepage = "https://github.com/danicat/testquery"
+readme = "https://raw.githubusercontent.com/danicat/testquery/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/danicat/testquery@latest"

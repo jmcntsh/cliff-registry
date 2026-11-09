@@ -1,0 +1,12 @@
+name = "simtool"
+description = "Terminal UI for browsing iOS simulators and Android emulators, apps, and files on macOS"
+author = "azizuysal"
+homepage = "https://github.com/azizuysal/simtool"
+readme = "https://raw.githubusercontent.com/azizuysal/simtool/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/azizuysal/simtool@latest"

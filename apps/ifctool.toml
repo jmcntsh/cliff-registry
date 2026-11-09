@@ -1,0 +1,11 @@
+name = "ifctool"
+description = "Command line tools for working with IFC models"
+author = "bldrs-ai"
+homepage = "https://github.com/bldrs-ai/ifctool"
+readme = "https://raw.githubusercontent.com/bldrs-ai/ifctool/main/README.md"
+tags = ["cli"]
+category = "File management"
+
+[[installs]]
+type = "npm"
+package = "ifctool"

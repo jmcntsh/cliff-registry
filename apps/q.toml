@@ -1,0 +1,12 @@
+name = "q"
+description = "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH."
+author = "natesales"
+homepage = "https://github.com/natesales/q"
+readme = "https://raw.githubusercontent.com/natesales/q/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/natesales/q@latest"

@@ -1,0 +1,12 @@
+name = "jotter"
+description = "A fast Jupyter notebook TUI with vim keys, inline plots and rendered LaTeX"
+author = "samox73"
+homepage = "https://github.com/samox73/jotter"
+readme = "https://raw.githubusercontent.com/samox73/jotter/main/README.md"
+tags = ["cli"]
+category = "Documentation"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "jotter"

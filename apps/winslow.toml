@@ -1,0 +1,12 @@
+name = "winslow"
+description = "Interactive Task Runner with Terminal UI"
+author = "winslow-workflow"
+homepage = "https://github.com/winslow-workflow/winslow"
+readme = "https://raw.githubusercontent.com/winslow-workflow/winslow/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "winslow"

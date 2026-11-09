@@ -1,0 +1,12 @@
+name = "skiller"
+description = "Runtime for YAML-defined AI agents. Durable runs, persistent loops, terminal UI, tools, and multiple LLM providers."
+author = "fredycampino"
+homepage = "https://github.com/fredycampino/skiller"
+readme = "https://raw.githubusercontent.com/fredycampino/skiller/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "skiller"

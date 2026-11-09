@@ -1,0 +1,12 @@
+name = "landlock-policy"
+description = "Landlock policy specification, reference implementation, and command-line tools"
+author = "landlock-lsm"
+homepage = "https://github.com/landlock-lsm/landlock-policy"
+readme = "https://raw.githubusercontent.com/landlock-lsm/landlock-policy/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "cargo"
+package = "landlock-policy"

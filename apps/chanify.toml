@@ -1,0 +1,12 @@
+name = "chanify"
+description = "Chanify is a safe and simple notification tools. This repository is command line tools for Chanify."
+author = "chanify"
+homepage = "https://github.com/chanify/chanify"
+readme = "https://raw.githubusercontent.com/chanify/chanify/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/chanify/chanify@latest"

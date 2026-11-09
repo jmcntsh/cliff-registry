@@ -1,0 +1,12 @@
+name = "ags"
+description = "Scaffolding CLI for Astal+Gnim"
+author = "Aylur"
+homepage = "https://github.com/Aylur/ags"
+readme = "https://raw.githubusercontent.com/Aylur/ags/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "ags"

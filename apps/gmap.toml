@@ -1,0 +1,12 @@
+name = "gmap"
+description = "Command-line tool for visualizing Git activity"
+author = "pimarawan"
+homepage = "https://github.com/pimarawan/gmap"
+readme = "https://raw.githubusercontent.com/pimarawan/gmap/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "gmap"

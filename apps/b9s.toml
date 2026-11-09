@@ -1,0 +1,12 @@
+name = "b9s"
+description = "Keyboard-driven terminal UI for Beads issues, modelled on k9s"
+author = "vanderheijden86"
+homepage = "https://github.com/vanderheijden86/b9s"
+readme = "https://raw.githubusercontent.com/vanderheijden86/b9s/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/vanderheijden86/b9s@latest"

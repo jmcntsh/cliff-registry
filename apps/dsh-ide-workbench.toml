@@ -1,0 +1,11 @@
+name = "dsh-ide-workbench"
+description = "JetBrains-style IDE workbench for DeepSeek Harness (DSH): Project, Commit, Git and Terminal tool windows, embedded ed..."
+author = "LiangshouX"
+homepage = "https://github.com/LiangshouX/dsh-ide-workbench"
+readme = "https://raw.githubusercontent.com/LiangshouX/dsh-ide-workbench/main/README.md"
+tags = ["cli"]
+category = "Version control"
+
+[[installs]]
+type = "npm"
+package = "dsh-ide-workbench"

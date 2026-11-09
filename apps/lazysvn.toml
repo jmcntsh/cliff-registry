@@ -1,0 +1,12 @@
+name = "lazysvn"
+description = "A lightweight, LazyGit-style terminal UI for Subversion (SVN)"
+author = "sawirstudio"
+homepage = "https://github.com/sawirstudio/lazysvn"
+readme = "https://raw.githubusercontent.com/sawirstudio/lazysvn/main/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/sawirstudio/lazysvn@latest"

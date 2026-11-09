@@ -1,0 +1,12 @@
+name = "google-colab-cli"
+description = "A CLI for interacting with Google Colab runtimes"
+author = "googlecolab"
+homepage = "https://github.com/googlecolab/google-colab-cli"
+readme = "https://raw.githubusercontent.com/googlecolab/google-colab-cli/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "google-colab-cli"

@@ -1,0 +1,12 @@
+name = "zed"
+description = "Official command-line tool for managing SpiceDB"
+author = "authzed"
+homepage = "https://github.com/authzed/zed"
+readme = "https://raw.githubusercontent.com/authzed/zed/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/authzed/zed@latest"

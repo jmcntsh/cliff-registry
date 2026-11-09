@@ -1,0 +1,12 @@
+name = "pvpn"
+description = "Proton VPN client for Linux — terminal UI, WireGuard & Stealth protocol, no NetworkManager required"
+author = "YourDoritos"
+homepage = "https://github.com/YourDoritos/pVPN"
+readme = "https://raw.githubusercontent.com/YourDoritos/pVPN/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/YourDoritos/pvpn@latest"

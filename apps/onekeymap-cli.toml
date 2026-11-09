@@ -1,0 +1,12 @@
+name = "onekeymap-cli"
+description = "A command-line tool that help you sync keyboard shortcuts across all your code editors."
+author = "xinnjie"
+homepage = "https://github.com/xinnjie/onekeymap-cli"
+readme = "https://raw.githubusercontent.com/xinnjie/onekeymap-cli/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/xinnjie/onekeymap-cli@latest"

@@ -1,0 +1,12 @@
+name = "clickup-cli"
+description = "Command-line tool for ClickUp with git integration, GitHub linking, and AI agent support"
+author = "triptechtravel"
+homepage = "https://github.com/triptechtravel/clickup-cli"
+readme = "https://raw.githubusercontent.com/triptechtravel/clickup-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/triptechtravel/clickup-cli@latest"

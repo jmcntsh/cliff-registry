@@ -1,0 +1,12 @@
+name = "ezghsa"
+description = "EZGHSA is a command-line tool for summarizing and filtering vulnerability alerts on Github repositories."
+author = "csdev"
+homepage = "https://github.com/csdev/ezghsa"
+readme = "https://raw.githubusercontent.com/csdev/ezghsa/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/csdev/ezghsa@latest"

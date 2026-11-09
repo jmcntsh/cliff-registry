@@ -1,0 +1,12 @@
+name = "octomind"
+description = "Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon."
+author = "Muvon"
+homepage = "https://github.com/Muvon/octomind"
+readme = "https://raw.githubusercontent.com/Muvon/octomind/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "octomind"

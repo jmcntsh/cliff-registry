@@ -1,0 +1,12 @@
+name = "showrunner"
+description = "A terminal UI for running multiple coding-agent sessions (Claude Code, Codex CLI) organized by projects and tasks..."
+author = "Bendzae"
+homepage = "https://github.com/Bendzae/showrunner"
+readme = "https://raw.githubusercontent.com/Bendzae/showrunner/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "showrunner"

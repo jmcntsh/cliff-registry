@@ -1,0 +1,12 @@
+name = "pando"
+description = "Run AI coding agents side by side in git worktrees and review their changes, all in one terminal UI"
+author = "xseman"
+homepage = "https://github.com/xseman/pando"
+readme = "https://raw.githubusercontent.com/xseman/pando/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/xseman/pando@latest"

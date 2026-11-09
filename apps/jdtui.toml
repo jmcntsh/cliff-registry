@@ -1,0 +1,12 @@
+name = "jdtui"
+description = "A terminal UI for JDownloader 2, over the My.JDownloader API"
+author = "rylos"
+homepage = "https://github.com/rylos/jdtui"
+readme = "https://raw.githubusercontent.com/rylos/jdtui/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "jdtui"

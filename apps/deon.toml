@@ -1,0 +1,12 @@
+name = "deon"
+description = "A command line tool to easily add an ethics checklist to your data science projects."
+author = "drivendataorg"
+homepage = "https://github.com/drivendataorg/deon"
+readme = "https://raw.githubusercontent.com/drivendataorg/deon/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "deon"

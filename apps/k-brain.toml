@@ -1,0 +1,12 @@
+name = "k-brain"
+description = "Lightweight agent harness and TUI"
+author = "Stack-Cairn"
+homepage = "https://github.com/Stack-Cairn/K-brain"
+readme = "https://raw.githubusercontent.com/Stack-Cairn/K-brain/main/README.md"
+tags = ["tui"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Stack-Cairn/K-brain@latest"

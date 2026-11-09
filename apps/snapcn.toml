@@ -1,0 +1,12 @@
+name = "snapcn"
+description = "A shadcn registry of Remotion components for product demo videos. Install a text reveal, device frame, terminal sessi..."
+author = "shadcn-labs"
+homepage = "https://github.com/shadcn-labs/snapcn"
+readme = "https://raw.githubusercontent.com/shadcn-labs/snapcn/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "snapcn"

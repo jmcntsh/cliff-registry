@@ -1,0 +1,12 @@
+name = "udp-over-tcp"
+description = "A command-line tool for tunneling UDP datagrams over TCP."
+author = "jonhoo"
+homepage = "https://github.com/jonhoo/udp-over-tcp"
+readme = "https://raw.githubusercontent.com/jonhoo/udp-over-tcp/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "udp-over-tcp"

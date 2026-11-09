@@ -1,0 +1,11 @@
+name = "tom"
+description = "Command line tool to track time and to simplify related office work (reporting, invoicing)"
+author = "jansorg"
+homepage = "https://github.com/jansorg/tom"
+readme = "https://raw.githubusercontent.com/jansorg/tom/master/README.md"
+tags = ["cli"]
+category = "Networking"
+
+[[installs]]
+type = "go"
+package = "github.com/jansorg/tom@latest"

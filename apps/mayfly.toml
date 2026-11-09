@@ -1,0 +1,12 @@
+name = "mayfly"
+description = "Mayfly terminal UI bundle for DeepSeek Harness"
+author = "Ephemeral-AI-Lab"
+homepage = "https://github.com/Ephemeral-AI-Lab/mayfly"
+readme = "https://raw.githubusercontent.com/Ephemeral-AI-Lab/mayfly/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "mayfly"

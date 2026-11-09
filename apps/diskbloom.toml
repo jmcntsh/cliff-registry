@@ -1,0 +1,12 @@
+name = "diskbloom"
+description = "🌸 a pastel treemap TUI that shows what's eating your disk"
+author = "Zingzy"
+homepage = "https://github.com/Zingzy/diskbloom"
+readme = "https://raw.githubusercontent.com/Zingzy/diskbloom/main/README.md"
+tags = ["tui"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/Zingzy/diskbloom@latest"

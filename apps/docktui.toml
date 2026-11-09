@@ -1,0 +1,12 @@
+name = "docktui"
+description = "A lightweight terminal UI for Docker, Compose-aware, no mouse required"
+author = "0xShady"
+homepage = "https://github.com/0xShady/docktui"
+readme = "https://raw.githubusercontent.com/0xShady/docktui/main/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "docktui"

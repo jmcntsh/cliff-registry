@@ -1,0 +1,12 @@
+name = "autobib"
+description = "A command-line tool for managing bibliographic records"
+author = "autobib"
+homepage = "https://github.com/autobib/autobib"
+readme = "https://raw.githubusercontent.com/autobib/autobib/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "autobib"

@@ -1,0 +1,12 @@
+name = "tmprl"
+description = "Vim-style terminal UI for Temporal: browse and search workflows, fold histories, decode payloads."
+author = "arisros"
+homepage = "https://github.com/arisros/tmprl"
+readme = "https://raw.githubusercontent.com/arisros/tmprl/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tmprl"

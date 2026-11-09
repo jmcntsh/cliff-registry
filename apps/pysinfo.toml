@@ -1,0 +1,12 @@
+name = "pysinfo"
+description = "A command line tool that displays information about the current system, including hardware and critical software."
+author = "EasyCam"
+homepage = "https://github.com/EasyCam/Pysinfo"
+readme = "https://raw.githubusercontent.com/EasyCam/Pysinfo/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "Pysinfo"

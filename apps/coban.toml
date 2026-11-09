@@ -1,0 +1,12 @@
+name = "coban"
+description = "Terminal app where one orchestrator agent dispatches tasks to many AI coding agents (multiple Claude accounts, Codex..."
+author = "cenkerarin"
+homepage = "https://github.com/cenkerarin/coban"
+readme = "https://raw.githubusercontent.com/cenkerarin/coban/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "coban"

@@ -1,0 +1,12 @@
+name = "harness-for-rea"
+description = "Desktop app and terminal UI for deep analysis of software you own: an orchestrator plans, a sandboxed Claude Code spe..."
+author = "protonspy"
+homepage = "https://github.com/protonspy/harness-for-rea"
+readme = "https://raw.githubusercontent.com/protonspy/harness-for-rea/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "harness-for-rea"

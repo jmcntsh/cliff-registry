@@ -1,0 +1,12 @@
+name = "runlike"
+description = "Given an existing docker container, prints the command line necessary to run a copy of it."
+author = "lavie"
+homepage = "https://github.com/lavie/runlike"
+readme = "https://raw.githubusercontent.com/lavie/runlike/master/README.md"
+tags = ["cli"]
+category = "DevOps"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/lavie/runlike/v2@latest"

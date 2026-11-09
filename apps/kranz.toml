@@ -1,0 +1,12 @@
+name = "kranz"
+description = "Keyboard-first local service orchestrator with a focused terminal UI"
+author = "kranz-org"
+homepage = "https://github.com/kranz-org/kranz"
+readme = "https://raw.githubusercontent.com/kranz-org/kranz/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/kranz-org/kranz@latest"

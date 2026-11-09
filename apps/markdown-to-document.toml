@@ -1,0 +1,12 @@
+name = "markdown-to-document"
+description = "A command-line tool to easily generate HTML documents from Markdown files"
+author = "GaelGirodon"
+homepage = "https://github.com/GaelGirodon/markdown-to-document"
+readme = "https://raw.githubusercontent.com/GaelGirodon/markdown-to-document/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "npm"
+package = "markdown-to-document"

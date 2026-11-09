@@ -1,0 +1,12 @@
+name = "say"
+description = "say - command line tool for voice and video calling"
+author = "svanichkin"
+homepage = "https://github.com/svanichkin/say"
+readme = "https://raw.githubusercontent.com/svanichkin/say/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/svanichkin/say@latest"

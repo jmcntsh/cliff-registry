@@ -1,0 +1,12 @@
+name = "archeus"
+description = "archeus — the memory and workspace layer for AI coding agents. Persistent per-project memory, every session you hav..."
+author = "babarmuhammad"
+homepage = "https://github.com/babarmuhammad/archeus"
+readme = "https://raw.githubusercontent.com/babarmuhammad/archeus/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "archeus"

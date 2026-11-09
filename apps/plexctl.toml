@@ -1,0 +1,11 @@
+name = "plexctl"
+description = "A terminal UI and CLI for managing Plex Media Server"
+author = "ygelfand"
+homepage = "https://github.com/ygelfand/plexctl"
+readme = "https://raw.githubusercontent.com/ygelfand/plexctl/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+
+[[installs]]
+type = "go"
+package = "github.com/ygelfand/plexctl@latest"

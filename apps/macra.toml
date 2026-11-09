@@ -1,0 +1,12 @@
+name = "macra"
+description = "Interactive Rust macro expansion viewer with a terminal UI."
+author = "yasuo-ozu"
+homepage = "https://github.com/yasuo-ozu/macra"
+readme = "https://raw.githubusercontent.com/yasuo-ozu/macra/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "macra"

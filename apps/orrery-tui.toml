@@ -1,0 +1,12 @@
+name = "orrery-tui"
+description = "Terminal Solar System"
+author = "tjyank"
+homepage = "https://github.com/tjyank/orrery-tui"
+readme = "https://raw.githubusercontent.com/tjyank/orrery-tui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "orrery-tui"

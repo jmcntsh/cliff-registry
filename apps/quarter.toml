@@ -1,0 +1,12 @@
+name = "quarter"
+description = "A fast terminal app to browse, search and launch your games. Steam today; Epic Games, GOG and more launchers next."
+author = "stronxyo"
+homepage = "https://github.com/stronxyo/quarter"
+readme = "https://raw.githubusercontent.com/stronxyo/quarter/main/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/stronxyo/quarter@latest"

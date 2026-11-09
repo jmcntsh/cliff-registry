@@ -1,0 +1,12 @@
+name = "kiki"
+description = "Open-source multi-model AI agent workbench (Desktop GUI, TUI & Web) — dispatch subagents across Claude, GPT, Gemini..."
+author = "X-T-E-R"
+homepage = "https://github.com/X-T-E-R/kiki"
+readme = "https://raw.githubusercontent.com/X-T-E-R/kiki/kiki/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "kiki"

@@ -1,0 +1,11 @@
+name = "mdtohtml"
+description = "Command-line tool to convert markdown to html"
+author = "gomarkdown"
+homepage = "https://github.com/gomarkdown/mdtohtml"
+readme = "https://raw.githubusercontent.com/gomarkdown/mdtohtml/master/README.md"
+tags = ["cli"]
+category = "Documentation"
+
+[[installs]]
+type = "go"
+package = "github.com/gomarkdown/mdtohtml@latest"
