@@ -1,0 +1,12 @@
+name = "hledger-textual"
+description = "The most advanced TUI (Terminal User Inteface) in the hledger ecosystem"
+author = "thesmokinator"
+homepage = "https://github.com/thesmokinator/hledger-textual"
+readme = "https://raw.githubusercontent.com/thesmokinator/hledger-textual/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "hledger-textual"

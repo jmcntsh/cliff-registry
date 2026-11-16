@@ -1,0 +1,11 @@
+name = "courtside"
+description = "A terminal UI for viewing NBA games and scores"
+author = "NolanFogarty"
+homepage = "https://github.com/NolanFogarty/courtside"
+readme = "https://raw.githubusercontent.com/NolanFogarty/courtside/main/README.md"
+tags = ["cli"]
+category = "Games"
+
+[[installs]]
+type = "go"
+package = "github.com/NolanFogarty/courtside@latest"

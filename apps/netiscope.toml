@@ -1,0 +1,12 @@
+name = "netiscope"
+description = "Command line tool to check network connectivity"
+author = "robert-kisteleki"
+homepage = "https://github.com/robert-kisteleki/netiscope"
+readme = "https://raw.githubusercontent.com/robert-kisteleki/netiscope/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/robert-kisteleki/netiscope@latest"

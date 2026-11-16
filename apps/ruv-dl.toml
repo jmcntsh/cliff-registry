@@ -1,0 +1,12 @@
+name = "ruv-dl"
+description = "Simple command-line tool to download media content from ruv.is 📺"
+author = "thrkll"
+homepage = "https://github.com/thrkll/ruv-dl"
+readme = "https://raw.githubusercontent.com/thrkll/ruv-dl/master/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "ruv-dl"

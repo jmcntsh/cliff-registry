@@ -1,0 +1,12 @@
+name = "tidefetch"
+description = "Tidefetch is a keyboard-first terminal UI for the aria2 download engine, built for people who live in a shell. The sa..."
+author = "Thre4dripper"
+homepage = "https://github.com/Thre4dripper/tidefetch"
+readme = "https://raw.githubusercontent.com/Thre4dripper/tidefetch/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Thre4dripper/tidefetch@latest"

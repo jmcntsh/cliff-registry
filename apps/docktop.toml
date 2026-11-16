@@ -1,0 +1,12 @@
+name = "docktop"
+description = "A fast, lightweight, and modern Terminal UI (TUI) for Docker, built with Go."
+author = "xoaiPro235"
+homepage = "https://github.com/xoaiPro235/docktop"
+readme = "https://raw.githubusercontent.com/xoaiPro235/docktop/main/README.md"
+tags = ["tui"]
+category = "DevOps"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/xoaiPro235/docktop@latest"

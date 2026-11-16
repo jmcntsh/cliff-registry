@@ -1,0 +1,11 @@
+name = "tallyman"
+description = "A command-line tool that summarizes the size of a codebase by language, showing lines of code with and without commen..."
+author = "mikeckennedy"
+homepage = "https://github.com/mikeckennedy/tallyman"
+readme = "https://raw.githubusercontent.com/mikeckennedy/tallyman/main/README.md"
+tags = ["cli"]
+category = "Developer tools"
+
+[[installs]]
+type = "pipx"
+package = "tallyman"

@@ -1,0 +1,12 @@
+name = "goalign"
+description = "Goalign : a set of command line tools and an API to manipulate multiple sequence alignments."
+author = "evolbioinfo"
+homepage = "https://github.com/evolbioinfo/goalign"
+readme = "https://raw.githubusercontent.com/evolbioinfo/goalign/master/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "GPL-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/evolbioinfo/goalign@latest"

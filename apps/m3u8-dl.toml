@@ -1,0 +1,12 @@
+name = "m3u8-dl"
+description = "A command-line tool for batch downloading m3u8 format videos. 一个 m3u8 视频文件批量下载工具，支持PC..."
+author = "lzwme"
+homepage = "https://github.com/lzwme/m3u8-dl"
+readme = "https://raw.githubusercontent.com/lzwme/m3u8-dl/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "m3u8-dl"

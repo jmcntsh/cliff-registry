@@ -1,0 +1,12 @@
+name = "lazydsh"
+description = "A lazier terminal UI for DeepSeek Harness."
+author = "nuskey8"
+homepage = "https://github.com/nuskey8/lazydsh"
+readme = "https://raw.githubusercontent.com/nuskey8/lazydsh/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "lazydsh"

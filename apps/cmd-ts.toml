@@ -1,0 +1,12 @@
+name = "cmd-ts"
+description = "💻 A type-driven command line argument parser"
+author = "Schniz"
+homepage = "https://github.com/Schniz/cmd-ts"
+readme = "https://raw.githubusercontent.com/Schniz/cmd-ts/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "cmd-ts"

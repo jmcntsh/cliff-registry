@@ -1,0 +1,12 @@
+name = "virsh-tui"
+description = "Keyboard-driven terminal UI for libvirt/virsh, with vim keys and live graphs"
+author = "SyscallBrain"
+homepage = "https://github.com/SyscallBrain/virsh-tui"
+readme = "https://raw.githubusercontent.com/SyscallBrain/virsh-tui/main/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "virsh-tui"

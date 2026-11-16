@@ -1,0 +1,12 @@
+name = "anki-cli"
+description = "Manage and study Anki flashcards from the terminal. AnkiConnect or direct SQLite backends, Anki search syntax, JSON o..."
+author = "ubermenchh"
+homepage = "https://github.com/ubermenchh/anki-cli"
+readme = "https://raw.githubusercontent.com/ubermenchh/anki-cli/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "anki-cli"

@@ -1,0 +1,12 @@
+name = "elu"
+description = "A full-screen terminal app that runs coding sessions on the AI command lines you already use, with bots that review a..."
+author = "ELU-Labs"
+homepage = "https://github.com/ELU-Labs/elu"
+readme = "https://raw.githubusercontent.com/ELU-Labs/elu/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "elu"

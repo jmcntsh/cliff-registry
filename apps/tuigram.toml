@@ -1,0 +1,12 @@
+name = "tuigram"
+description = "Terminal UI Client for Telegram 📟"
+author = "leonid-shutov"
+homepage = "https://github.com/leonid-shutov/tuigram"
+readme = "https://raw.githubusercontent.com/leonid-shutov/tuigram/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "tuigram"

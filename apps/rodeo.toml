@@ -1,0 +1,12 @@
+name = "rodeo"
+description = "A terminal UI for herdr-core with Herdr's keys and look"
+author = "lukeed"
+homepage = "https://github.com/lukeed/rodeo"
+readme = "https://raw.githubusercontent.com/lukeed/rodeo/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "rodeo"

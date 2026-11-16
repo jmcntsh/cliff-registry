@@ -1,0 +1,12 @@
+name = "vigil-tui"
+description = "Real-time terminal power monitor — CPU · GPU · RAM wattage dashboard Visibility"
+author = "GIN-SYSTEMS"
+homepage = "https://github.com/GIN-SYSTEMS/vigil-tui"
+readme = "https://raw.githubusercontent.com/GIN-SYSTEMS/vigil-tui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "vigil-tui"

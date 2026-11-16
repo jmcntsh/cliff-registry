@@ -1,0 +1,12 @@
+name = "warchaeology"
+description = "Command line tool for digging into WARC files"
+author = "NationalLibraryOfNorway"
+homepage = "https://github.com/NationalLibraryOfNorway/warchaeology"
+readme = "https://raw.githubusercontent.com/NationalLibraryOfNorway/warchaeology/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/nationallibraryofnorway/warchaeology/v5@latest"

@@ -1,0 +1,12 @@
+name = "cpolar-connect"
+description = "🚀 A command-line tool for automating cpolar tunnel management and SSH connections. 自动化管理 cpolar 免费..."
+author = "Hoper-J"
+homepage = "https://github.com/Hoper-J/cpolar-connect"
+readme = "https://raw.githubusercontent.com/Hoper-J/cpolar-connect/master/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "cpolar-connect"

@@ -1,0 +1,12 @@
+name = "edma"
+description = "EDMA is an interactive terminal app for managing multiple embedded databases system at once with powerful byte deseri..."
+author = "chungquantin"
+homepage = "https://github.com/chungquantin/edma"
+readme = "https://raw.githubusercontent.com/chungquantin/edma/master/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "edma"

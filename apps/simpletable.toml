@@ -1,0 +1,12 @@
+name = "simpletable"
+description = "Simple tables in terminal with Go"
+author = "alexeyco"
+homepage = "https://github.com/alexeyco/simpletable"
+readme = "https://raw.githubusercontent.com/alexeyco/simpletable/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/alexeyco/simpletable@latest"

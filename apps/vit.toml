@@ -1,0 +1,12 @@
+name = "vit"
+description = "VIT is a lightweight, fast, curses-based front end to Taskwarrior"
+author = "vit-project"
+homepage = "https://github.com/vit-project/vit"
+readme = "https://raw.githubusercontent.com/vit-project/vit/2.x/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "vit"

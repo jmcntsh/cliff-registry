@@ -1,0 +1,12 @@
+name = "macron-agent"
+description = "Personal AI agent for Windows, Linux and macOS | desktop app, terminal UI, persistent memory, tool use, MCP and messa..."
+author = "Metixpro"
+homepage = "https://github.com/Metixpro/Macron-Agent"
+readme = "https://raw.githubusercontent.com/Metixpro/Macron-Agent/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/Metixpro/macron-agent@latest"

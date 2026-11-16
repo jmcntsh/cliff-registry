@@ -1,0 +1,12 @@
+name = "tideui"
+description = "Themeable multi-pane terminal UI toolkit for Bubble Tea and Lipgloss applications."
+author = "allisonhere"
+homepage = "https://github.com/allisonhere/tideui"
+readme = "https://raw.githubusercontent.com/allisonhere/tideui/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/allisonhere/tideui@latest"

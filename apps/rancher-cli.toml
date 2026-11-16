@@ -1,0 +1,12 @@
+name = "rancher-cli"
+description = "An AI-native command-line tool for operating Rancher Manager"
+author = "rancher"
+homepage = "https://github.com/rancher/rancher-cli"
+readme = "https://raw.githubusercontent.com/rancher/rancher-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/rancher/rancher-cli@latest"

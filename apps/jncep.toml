@@ -1,0 +1,12 @@
+name = "jncep"
+description = "Command-line tool to generate EPUB files for J-Novel Club and JNC Nina pre-pub novels"
+author = "gvellut"
+homepage = "https://github.com/gvellut/jncep"
+readme = "https://raw.githubusercontent.com/gvellut/jncep/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "jncep"

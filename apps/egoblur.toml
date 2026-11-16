@@ -1,0 +1,12 @@
+name = "egoblur"
+description = "This repository contains a command-line interface(CLI) that can detect and blur out faces and license plates(PII) fro..."
+author = "facebookresearch"
+homepage = "https://github.com/facebookresearch/EgoBlur"
+readme = "https://raw.githubusercontent.com/facebookresearch/EgoBlur/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "pipx"
+package = "EgoBlur"

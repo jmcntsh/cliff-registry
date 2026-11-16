@@ -1,0 +1,12 @@
+name = "ratclone"
+description = "A keyboard-driven terminal UI for rclone"
+author = "SyscallBrain"
+homepage = "https://github.com/SyscallBrain/ratclone"
+readme = "https://raw.githubusercontent.com/SyscallBrain/ratclone/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratclone"

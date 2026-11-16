@@ -1,0 +1,12 @@
+name = "avibe"
+description = "Make your computer a home for your AI partner. Avibe is the local-first Agent OS, with desktop apps for Mac and Windo..."
+author = "avibe-bot"
+homepage = "https://github.com/avibe-bot/avibe"
+readme = "https://raw.githubusercontent.com/avibe-bot/avibe/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "avibe"

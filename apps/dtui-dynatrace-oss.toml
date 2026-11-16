@@ -1,0 +1,12 @@
+name = "dtui-dynatrace-oss"
+description = "A keyboard-driven terminal UI for Dynatrace: problems, services, Kubernetes, traces, logs, SLOs and topology. Read-only."
+author = "dynatrace-oss"
+homepage = "https://github.com/dynatrace-oss/dtui"
+readme = "https://raw.githubusercontent.com/dynatrace-oss/dtui/main/README.md"
+tags = ["cli"]
+category = "Monitoring"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/dynatrace-oss/dtui@latest"

@@ -1,0 +1,12 @@
+name = "a2fa"
+description = "a2fa is a command line tool for generating and validating one-time password. Its purpose is to get rid of phones and..."
+author = "csyezheng"
+homepage = "https://github.com/csyezheng/a2fa"
+readme = "https://raw.githubusercontent.com/csyezheng/a2fa/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/csyezheng/a2fa@latest"

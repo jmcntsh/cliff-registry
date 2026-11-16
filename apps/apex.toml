@@ -1,0 +1,12 @@
+name = "apex"
+description = "Production-grade terminal AI coding agent with 85+ models support, multi-agent system, and rich terminal UI. Built in..."
+author = "Ggboykxz"
+homepage = "https://github.com/Ggboykxz/APEX"
+readme = "https://raw.githubusercontent.com/Ggboykxz/APEX/dev/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "OTHER"
+
+[[installs]]
+type = "pipx"
+package = "APEX"

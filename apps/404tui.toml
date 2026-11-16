@@ -1,0 +1,12 @@
+name = "404tui"
+description = "Terminal UI and CLI for the Roland SP-404MKII over USB (Go port of SparkyMK2)"
+author = "moahbeatlab"
+homepage = "https://github.com/moahbeatlab/404tui"
+readme = "https://raw.githubusercontent.com/moahbeatlab/404tui/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/moahbeatlab/404tui@latest"

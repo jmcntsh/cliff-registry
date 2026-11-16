@@ -1,0 +1,12 @@
+name = "kiro-cli-history"
+description = "A terminal UI for fuzzy-searching, browsing, and resuming Kiro CLI conversations"
+author = "mxmehl"
+homepage = "https://github.com/mxmehl/kiro-cli-history"
+readme = "https://raw.githubusercontent.com/mxmehl/kiro-cli-history/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "kiro-cli-history"

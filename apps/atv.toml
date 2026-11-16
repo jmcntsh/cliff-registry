@@ -1,0 +1,12 @@
+name = "atv"
+description = "atv (async task viewer): a terminal UI for inspecting asyncio tasks, comparing snapshots, and profiling Python applic..."
+author = "jrfk"
+homepage = "https://github.com/jrfk/atv"
+readme = "https://raw.githubusercontent.com/jrfk/atv/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "atv"

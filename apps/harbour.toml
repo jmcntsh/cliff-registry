@@ -1,0 +1,12 @@
+name = "harbour"
+description = "Rust terminal UI for BitTorrent search and downloads."
+author = "Ishannaik"
+homepage = "https://github.com/Ishannaik/harbour"
+readme = "https://raw.githubusercontent.com/Ishannaik/harbour/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "harbour"

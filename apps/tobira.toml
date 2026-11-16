@@ -1,0 +1,12 @@
+name = "tobira"
+description = "Every database, one terminal. A CLI and terminal UI to browse, query and explain SQL, document, key-value, time-serie..."
+author = "xavidop"
+homepage = "https://github.com/xavidop/tobira"
+readme = "https://raw.githubusercontent.com/xavidop/tobira/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/xavidop/tobira@latest"

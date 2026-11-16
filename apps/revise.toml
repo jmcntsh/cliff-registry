@@ -1,0 +1,12 @@
+name = "revise"
+description = "Terminal UI for local code reviews, for Claude Code/Copilot CLI/Codex/etc"
+author = "justincampbell"
+homepage = "https://github.com/justincampbell/revise"
+readme = "https://raw.githubusercontent.com/justincampbell/revise/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/justincampbell/revise@latest"

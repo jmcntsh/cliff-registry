@@ -1,0 +1,12 @@
+name = "foxhole-vpn"
+description = "🦊 Free system-wide VPN for Linux, macOS & Windows using Firefox's built-in VPN (IP Protection). SOCKS5/HTTP proxy..."
+author = "Diercohen"
+homepage = "https://github.com/Diercohen/foxhole-vpn"
+readme = "https://raw.githubusercontent.com/Diercohen/foxhole-vpn/main/README.md"
+tags = ["cli"]
+category = "HTTP clients"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "foxhole-vpn"

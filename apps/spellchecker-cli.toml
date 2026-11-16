@@ -1,0 +1,12 @@
+name = "spellchecker-cli"
+description = "A command-line tool for spellchecking files."
+author = "tbroadley"
+homepage = "https://github.com/tbroadley/spellchecker-cli"
+readme = "https://raw.githubusercontent.com/tbroadley/spellchecker-cli/master/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "spellchecker-cli"

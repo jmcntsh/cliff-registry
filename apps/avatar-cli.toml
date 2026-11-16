@@ -1,0 +1,12 @@
+name = "avatar-cli"
+description = "Terminal tooling for on-chain avatars: scaffold, validate, hash and preview avatar manifests from your shell or CI."
+author = "nirholas"
+homepage = "https://github.com/nirholas/avatar-cli"
+readme = "https://raw.githubusercontent.com/nirholas/avatar-cli/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "avatar-cli"

@@ -1,0 +1,12 @@
+name = "nix-options-search"
+description = "A fast and convenient command-line tool to look up options for configuring nix-darwin, nixOS, and home-manager quickl..."
+author = "madsbv"
+homepage = "https://github.com/madsbv/nix-options-search"
+readme = "https://raw.githubusercontent.com/madsbv/nix-options-search/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "nix-options-search"

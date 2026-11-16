@@ -1,0 +1,12 @@
+name = "passdetective"
+description = "PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API key..."
+author = "aydinnyunus"
+homepage = "https://github.com/aydinnyunus/PassDetective"
+readme = "https://raw.githubusercontent.com/aydinnyunus/PassDetective/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/aydinnyunus/PassDetective@latest"

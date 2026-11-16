@@ -1,0 +1,12 @@
+name = "tuimessenger"
+description = "WhatsApp, Telegram, Slack and Instagram in one terminal app — local bridges,"
+author = "whyyor"
+homepage = "https://github.com/whyyor/tuimessenger"
+readme = "https://raw.githubusercontent.com/whyyor/tuimessenger/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/whyyor/tuimessenger@latest"

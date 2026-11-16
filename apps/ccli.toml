@@ -1,0 +1,12 @@
+name = "ccli"
+description = "Terminal tool for every Claude Code, Codex, Pi and Cursor session on your machine, across accounts: tokens and list-p..."
+author = "lr00rl"
+homepage = "https://github.com/lr00rl/ccli"
+readme = "https://raw.githubusercontent.com/lr00rl/ccli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/lr00rl/ccli@latest"

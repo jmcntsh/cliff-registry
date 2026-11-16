@@ -1,0 +1,12 @@
+name = "huashu-chrome"
+description = "让任何 AI agent 操控你自己的 Chrome——带着全部登录态。MCP + Chrome 扩展，Claude Code / Codex /..."
+author = "alchaincyf"
+homepage = "https://github.com/alchaincyf/huashu-chrome"
+readme = "https://raw.githubusercontent.com/alchaincyf/huashu-chrome/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "huashu-chrome"

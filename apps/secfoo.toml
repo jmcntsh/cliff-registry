@@ -1,0 +1,12 @@
+name = "secfoo"
+description = "AI security review CLI: SAST, secret scanning, SCA, threat modeling and architecture review with Claude Code, Copilot..."
+author = "secfoo-com"
+homepage = "https://github.com/secfoo-com/secfoo"
+readme = "https://raw.githubusercontent.com/secfoo-com/secfoo/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "secfoo"
