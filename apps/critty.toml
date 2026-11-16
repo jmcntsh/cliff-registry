@@ -9,4 +9,4 @@ license = "MIT"
 
 [[installs]]
 type = "go"
-package = "github.com/crittylabs/critty@latest"
+package = "github.com/crittylabs/critty/v2@latest"
