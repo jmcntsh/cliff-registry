@@ -1,0 +1,12 @@
+name = "acryl"
+description = "ACRYL (Agent Context Relay Yielding Lifecycles) is a platform for agentic apps: build them with any coding agent insi..."
+author = "acryldev"
+homepage = "https://github.com/acryldev/acryl"
+readme = "https://raw.githubusercontent.com/acryldev/acryl/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "acryl"

@@ -1,0 +1,12 @@
+name = "curtsies"
+description = "Curses-like terminal wrapper with a display based on compositing 2d arrays of text."
+author = "bpython"
+homepage = "https://github.com/bpython/curtsies"
+readme = "https://raw.githubusercontent.com/bpython/curtsies/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "curtsies"

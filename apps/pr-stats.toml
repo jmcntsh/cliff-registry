@@ -1,0 +1,12 @@
+name = "pr-stats"
+description = "An interactive terminal UI, built with OpenTUI and React, that shows statistics for a GitHub user, e.g., time to revi..."
+author = "d3lm"
+homepage = "https://github.com/d3lm/pr-stats"
+readme = "https://raw.githubusercontent.com/d3lm/pr-stats/master/README.md"
+tags = ["cli"]
+category = "Version control"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "pr-stats"

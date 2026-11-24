@@ -1,0 +1,12 @@
+name = "urwid"
+description = "Console user interface library for Python (official repo)"
+author = "urwid"
+homepage = "https://github.com/urwid/urwid"
+readme = "https://raw.githubusercontent.com/urwid/urwid/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "LGPL-2.1"
+
+[[installs]]
+type = "pipx"
+package = "urwid"

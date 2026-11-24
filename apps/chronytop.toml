@@ -1,0 +1,12 @@
+name = "chronytop"
+description = "A TUI for chrony NTP time server monitoring"
+author = "geerlingguy"
+homepage = "https://github.com/geerlingguy/chronytop"
+readme = "https://raw.githubusercontent.com/geerlingguy/chronytop/master/README.md"
+tags = ["tui"]
+category = "Monitoring"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/geerlingguy/chronytop@latest"

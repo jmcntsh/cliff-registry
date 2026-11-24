@@ -1,0 +1,12 @@
+name = "scribe"
+description = "local, offline, cpu-only speech to text in the terminal | whisper.cpp + ratatui tui"
+author = "programmersd21"
+homepage = "https://github.com/programmersd21/scribe"
+readme = "https://raw.githubusercontent.com/programmersd21/scribe/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "scribe"

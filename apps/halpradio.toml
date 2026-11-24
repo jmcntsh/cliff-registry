@@ -1,0 +1,12 @@
+name = "halpradio"
+description = "📻 LazyVim-inspired Terminal Internet Radio Streamer built with Go & Bubble Tea. 30,000+ stations, beat-reactive an..."
+author = "halpworld"
+homepage = "https://github.com/halpworld/halpradio"
+readme = "https://raw.githubusercontent.com/halpworld/halpradio/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "GPL-3.0"
+
+[[installs]]
+type = "go"
+package = "github.com/halpworld/halpradio@latest"

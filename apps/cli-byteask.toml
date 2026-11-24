@@ -1,0 +1,12 @@
+name = "cli-byteask"
+description = "AI coding agent for your terminal, with C/C++ build, debug, sanitizer and profiling tools. A fork of OpenAI Codex CLI."
+author = "ByteAsk"
+homepage = "https://github.com/ByteAsk/cli"
+readme = "https://raw.githubusercontent.com/ByteAsk/cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "cli"

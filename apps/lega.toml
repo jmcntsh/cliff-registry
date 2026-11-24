@@ -1,0 +1,12 @@
+name = "lega"
+description = "Disk cleaner and disk usage analyzer for Ubuntu, Linux Mint, Zorin OS and Pop!_OS. A safe, interactive terminal UI wr..."
+author = "mydisha"
+homepage = "https://github.com/mydisha/lega"
+readme = "https://raw.githubusercontent.com/mydisha/lega/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/mydisha/lega@latest"

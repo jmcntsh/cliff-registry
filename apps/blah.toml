@@ -1,0 +1,12 @@
+name = "blah"
+description = ":crystal_ball: A command line tool to optimize the repetitive actions."
+author = "IonicaBizau"
+homepage = "https://github.com/IonicaBizau/blah"
+readme = "https://raw.githubusercontent.com/IonicaBizau/blah/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "blah"

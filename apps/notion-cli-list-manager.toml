@@ -1,0 +1,12 @@
+name = "notion-cli-list-manager"
+description = "A simple command-line tool for managing Notion databases."
+author = "jacksalici"
+homepage = "https://github.com/jacksalici/notion-cli-list-manager"
+readme = "https://raw.githubusercontent.com/jacksalici/notion-cli-list-manager/main/README.md"
+tags = ["cli"]
+category = "Databases"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "notion-cli-list-manager"

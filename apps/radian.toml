@@ -1,0 +1,12 @@
+name = "radian"
+description = "A coding agent in one Rust binary: full-screen terminal UI and headless exec, JSONL sessions, optional OS sandbox, MC..."
+author = "hisea"
+homepage = "https://github.com/hisea/radian"
+readme = "https://raw.githubusercontent.com/hisea/radian/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "radian"

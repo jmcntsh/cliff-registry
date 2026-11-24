@@ -1,0 +1,12 @@
+name = "meshtui"
+description = "Textual based interface to meshcore nodes"
+author = "ekollof"
+homepage = "https://github.com/ekollof/meshtui"
+readme = "https://raw.githubusercontent.com/ekollof/meshtui/master/README.md"
+tags = ["cli"]
+category = "Other"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "meshtui"

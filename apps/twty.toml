@@ -1,0 +1,11 @@
+name = "twty"
+description = "command-line twitter client written in golang"
+author = "mattn"
+homepage = "https://github.com/mattn/twty"
+readme = "https://raw.githubusercontent.com/mattn/twty/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+
+[[installs]]
+type = "go"
+package = "github.com/mattn/twty@latest"

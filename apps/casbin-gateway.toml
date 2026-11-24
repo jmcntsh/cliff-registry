@@ -1,0 +1,12 @@
+name = "casbin-gateway"
+description = "See what every AI coding agent on your machine is doing, and whether the API behind it is the one you paid for. Claud..."
+author = "apache"
+homepage = "https://github.com/apache/casbin-gateway"
+readme = "https://raw.githubusercontent.com/apache/casbin-gateway/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "go"
+package = "github.com/apache/casbin-gateway@latest"

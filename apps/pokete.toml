@@ -1,0 +1,12 @@
+name = "pokete"
+description = "A terminal based Pokemon like game"
+author = "lxgr-linux"
+homepage = "https://github.com/lxgr-linux/pokete"
+readme = "https://raw.githubusercontent.com/lxgr-linux/pokete/master/README.md"
+tags = ["cli"]
+category = "Games"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "pokete"

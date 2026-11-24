@@ -1,0 +1,12 @@
+name = "tuimail"
+description = "Email in your terminal: a TUI email client for IMAP, POP3 and SMTP with vim or arrow keys, several accounts, Gmail an..."
+author = "erictran308"
+homepage = "https://github.com/erictran308/tuimail"
+readme = "https://raw.githubusercontent.com/erictran308/tuimail/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tuimail"

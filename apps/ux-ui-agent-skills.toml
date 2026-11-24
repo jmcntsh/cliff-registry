@@ -1,0 +1,12 @@
+name = "ux-ui-agent-skills"
+description = "Design-system skills for Claude Code, Codex, Cursor, Copilot and Gemini CLI: DTCG tokens, WCAG 2.2 AA to AAA, 2,144 d..."
+author = "plugin87"
+homepage = "https://github.com/plugin87/ux-ui-agent-skills"
+readme = "https://raw.githubusercontent.com/plugin87/ux-ui-agent-skills/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "ux-ui-agent-skills"

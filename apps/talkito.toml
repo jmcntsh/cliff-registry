@@ -1,0 +1,12 @@
+name = "talkito"
+description = "TalkiTo lets developers interact with AI systems through speech across multiple channels (terminal, API, phone). It c..."
+author = "robdmac"
+homepage = "https://github.com/robdmac/talkito"
+readme = "https://raw.githubusercontent.com/robdmac/talkito/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "talkito"

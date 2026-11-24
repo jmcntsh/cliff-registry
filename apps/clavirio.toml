@@ -1,0 +1,12 @@
+name = "clavirio"
+description = "A terminal typing tutor built with Rust and ratatui"
+author = "alexylon"
+homepage = "https://github.com/alexylon/clavirio"
+readme = "https://raw.githubusercontent.com/alexylon/clavirio/main/README.md"
+tags = ["cli"]
+category = "Networking"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "clavirio"

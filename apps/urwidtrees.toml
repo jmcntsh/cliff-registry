@@ -1,0 +1,12 @@
+name = "urwidtrees"
+description = "tree widgets for urwid"
+author = "pazz"
+homepage = "https://github.com/pazz/urwidtrees"
+readme = "https://raw.githubusercontent.com/pazz/urwidtrees/main/README.md"
+tags = ["cli"]
+category = "Other"
+license = "GPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "urwidtrees"

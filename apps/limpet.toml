@@ -1,0 +1,11 @@
+name = "limpet"
+description = "Terminal app for AI coding agents on Windows, macOS and Linux: run multiple Claude Code, Codex, GitHub Copilot and Op..."
+author = "samuelwbarber"
+homepage = "https://github.com/samuelwbarber/limpet"
+readme = "https://raw.githubusercontent.com/samuelwbarber/limpet/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+
+[[installs]]
+type = "npm"
+package = "limpet"

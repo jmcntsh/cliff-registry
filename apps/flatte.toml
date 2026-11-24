@@ -1,0 +1,12 @@
+name = "flatte"
+description = "Build TUIs like ordinary Go — one state struct, direct mutation, pure views — the deliberate inverse of Bubble Tea"
+author = "lunguini"
+homepage = "https://github.com/lunguini/flatte"
+readme = "https://raw.githubusercontent.com/lunguini/flatte/main/README.md"
+tags = ["tui"]
+category = "Developer tools"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lunguini/flatte@latest"

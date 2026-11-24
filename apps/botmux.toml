@@ -1,0 +1,12 @@
+name = "botmux"
+description = "Bridge Feishu/Lark to AI coding CLIs — Claude Code, Codex, Antigravity, Grok, Pi, OpenCode… every DM, group or to..."
+author = "deepcoldy"
+homepage = "https://github.com/deepcoldy/botmux"
+readme = "https://raw.githubusercontent.com/deepcoldy/botmux/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "npm"
+package = "botmux"

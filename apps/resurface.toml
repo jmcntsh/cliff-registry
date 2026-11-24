@@ -1,0 +1,12 @@
+name = "resurface"
+description = "Resurface — #1 on the Agent Memory Leaderboard (Cycle 2), Open-Source · Textual Memory track (61.22). Evidence ret..."
+author = "lilysttail"
+homepage = "https://github.com/lilysttail/Resurface"
+readme = "https://raw.githubusercontent.com/lilysttail/Resurface/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Resurface"

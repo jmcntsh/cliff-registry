@@ -1,0 +1,12 @@
+name = "watson"
+description = ":watch: A wonderful CLI to track your time!"
+author = "jmaupetit"
+homepage = "https://github.com/jmaupetit/Watson"
+readme = "https://raw.githubusercontent.com/jmaupetit/Watson/main/README.md"
+tags = ["cli"]
+category = "Productivity"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "Watson"

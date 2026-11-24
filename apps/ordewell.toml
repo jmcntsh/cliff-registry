@@ -1,0 +1,12 @@
+name = "ordewell"
+description = "One goal becomes a plan graph you can edit; each task runs on its own agent (Claude Code, Codex, OpenCode, GitHub Cop..."
+author = "ordewell"
+homepage = "https://github.com/ordewell/ordewell"
+readme = "https://raw.githubusercontent.com/ordewell/ordewell/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "ordewell"

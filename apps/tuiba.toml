@@ -1,0 +1,12 @@
+name = "tuiba"
+description = "Game Boy Advance emulator in your terminal (Rust + Ratatui)"
+author = "Huseynteymurzade28"
+homepage = "https://github.com/Huseynteymurzade28/tuiba"
+readme = "https://raw.githubusercontent.com/Huseynteymurzade28/tuiba/master/README.md"
+tags = ["cli"]
+category = "Games"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "tuiba"

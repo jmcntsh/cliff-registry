@@ -1,0 +1,12 @@
+name = "txcript"
+description = "Pandoc for AI chats. Move ai chats across harnesses: Claude Code, Codex, OpenCode, Cursor, and more. Rust library, CL..."
+author = "skillsynchq"
+homepage = "https://github.com/skillsynchq/txcript"
+readme = "https://raw.githubusercontent.com/skillsynchq/txcript/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "txcript"

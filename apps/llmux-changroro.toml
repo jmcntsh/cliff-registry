@@ -1,0 +1,12 @@
+name = "llmux-changroro"
+description = "Run and manage both vLLM and llama.cpp model servers from one terminal UI + CLI — shared Docker Compose profiles, l..."
+author = "Changroro"
+homepage = "https://github.com/Changroro/llmux"
+readme = "https://raw.githubusercontent.com/Changroro/llmux/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "llmux"

@@ -1,0 +1,12 @@
+name = "noble"
+description = "A retro-futurist HUD terminal workspace: real shells, git projects, system sensors and AI coding quota in one cockpit..."
+author = "MertSoylu"
+homepage = "https://github.com/MertSoylu/noble"
+readme = "https://raw.githubusercontent.com/MertSoylu/noble/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "noble"

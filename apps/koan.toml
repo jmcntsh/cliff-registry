@@ -1,0 +1,12 @@
+name = "koan"
+description = "Bit-perfect terminal music player — SwiftUI/Ratatui, gapless playback, Subsonic/Navidrome streaming, spectrum analy..."
+author = "radiosilence"
+homepage = "https://github.com/radiosilence/koan"
+readme = "https://raw.githubusercontent.com/radiosilence/koan/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "AGPL-3.0"
+
+[[installs]]
+type = "cargo"
+package = "koan"

@@ -1,0 +1,12 @@
+name = "argoxd"
+description = "A k9s-style terminal UI for Argo CD"
+author = "awcodify"
+homepage = "https://github.com/awcodify/argoxd"
+readme = "https://raw.githubusercontent.com/awcodify/argoxd/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/awcodify/argoxd@latest"

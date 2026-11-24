@@ -1,0 +1,12 @@
+name = "coxswain"
+description = "Coxswain: Norton Commander style file manager with Everything-speed search on Linux, macOS and Windows. Terminal (Rat..."
+author = "mwo-dk"
+homepage = "https://github.com/mwo-dk/coxswain"
+readme = "https://raw.githubusercontent.com/mwo-dk/coxswain/master/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "coxswain"

@@ -1,0 +1,12 @@
+name = "code-cli"
+description = "Open-source terminal coding agent. Use 15+ model providers, local models or your own key. Plan mode before edits. Imp..."
+author = "autohandai"
+homepage = "https://github.com/autohandai/code-cli"
+readme = "https://raw.githubusercontent.com/autohandai/code-cli/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "npm"
+package = "code-cli"

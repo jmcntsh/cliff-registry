@@ -1,0 +1,12 @@
+name = "ascii-petgraph"
+description = "An ascii (ratatui) physics based render engine for graphs (petgraph)"
+author = "elefthei"
+homepage = "https://github.com/elefthei/ascii-petgraph"
+readme = "https://raw.githubusercontent.com/elefthei/ascii-petgraph/master/README.md"
+tags = ["cli"]
+category = "Toys & visualizers"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ascii-petgraph"

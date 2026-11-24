@@ -1,0 +1,12 @@
+name = "harific"
+description = "A super fast, tiny terminal tool for quickly reviewing, searching and debugging HAR files"
+author = "pb33f"
+homepage = "https://github.com/pb33f/harific"
+readme = "https://raw.githubusercontent.com/pb33f/harific/main/README.md"
+tags = ["cli"]
+category = "File management"
+license = "OTHER"
+
+[[installs]]
+type = "go"
+package = "github.com/pb33f/harific@latest"

@@ -1,0 +1,12 @@
+name = "vex-lrstanley"
+description = "Vex - WIP HashiCorp Vault Terminal UI :computer:"
+author = "lrstanley"
+homepage = "https://github.com/lrstanley/vex"
+readme = "https://raw.githubusercontent.com/lrstanley/vex/master/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/lrstanley/vex@latest"

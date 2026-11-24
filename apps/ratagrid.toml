@@ -1,0 +1,12 @@
+name = "ratagrid"
+description = "A typed data grid for Ratatui with sorting, search, selection, mouse resizing and pagination."
+author = "kahwee"
+homepage = "https://github.com/kahwee/ratagrid"
+readme = "https://raw.githubusercontent.com/kahwee/ratagrid/main/README.md"
+tags = ["cli"]
+category = "Data tools"
+license = "MIT"
+
+[[installs]]
+type = "cargo"
+package = "ratagrid"

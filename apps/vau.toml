@@ -1,0 +1,12 @@
+name = "vau"
+description = "🔒 A yazi-inspired terminal UI for browsing and editing HashiCorp Vault KV secrets."
+author = "janosmiko"
+homepage = "https://github.com/janosmiko/vau"
+readme = "https://raw.githubusercontent.com/janosmiko/vau/main/README.md"
+tags = ["cli"]
+category = "Security"
+license = "MIT"
+
+[[installs]]
+type = "go"
+package = "github.com/janosmiko/vau@latest"

@@ -1,0 +1,12 @@
+name = "textual-fastdatatable"
+description = "A performance-focused reimplementation of Textual's DataTable widget, with a pluggable data storage backend."
+author = "tconbeer"
+homepage = "https://github.com/tconbeer/textual-fastdatatable"
+readme = "https://raw.githubusercontent.com/tconbeer/textual-fastdatatable/main/README.md"
+tags = ["cli"]
+category = "AI tools"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "textual-fastdatatable"

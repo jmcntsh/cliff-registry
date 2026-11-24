@@ -1,0 +1,12 @@
+name = "ucd-generate"
+description = "A command line tool to generate Unicode tables as source code."
+author = "BurntSushi"
+homepage = "https://github.com/BurntSushi/ucd-generate"
+readme = "https://raw.githubusercontent.com/BurntSushi/ucd-generate/master/README.md"
+tags = ["cli"]
+category = "Developer tools"
+license = "APACHE-2.0"
+
+[[installs]]
+type = "cargo"
+package = "ucd-generate"

@@ -1,0 +1,12 @@
+name = "textual-image"
+description = "Render images in the terminal with Textual and rich"
+author = "lnqs"
+homepage = "https://github.com/lnqs/textual-image"
+readme = "https://raw.githubusercontent.com/lnqs/textual-image/main/README.md"
+tags = ["cli"]
+category = "Music & media"
+license = "LGPL-3.0"
+
+[[installs]]
+type = "pipx"
+package = "textual-image"

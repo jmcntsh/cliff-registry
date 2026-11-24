@@ -1,0 +1,12 @@
+name = "xnano"
+description = "an extremely nano python terminal experience; built on ratatui."
+author = "hsaeed3"
+homepage = "https://github.com/hsaeed3/xnano"
+readme = "https://raw.githubusercontent.com/hsaeed3/xnano/main/README.md"
+tags = ["cli"]
+category = "Shell utilities"
+license = "MIT"
+
+[[installs]]
+type = "pipx"
+package = "xnano"
